@@ -113,6 +113,7 @@
                         <a href="./download.php?Cyberduck-2.2beta5.dmg">Cyberduck-2.2beta5.dmg</a>
                         </li>
                     </ul>
+                    <p>While downloading, you can check out <a href="http://rothen.sudo.ch/3Danimation/duckstale.jsp">this cute 3D animation</a> about a rubber duck (although completely unrelated to Cyberduck) created by Norbert Kottmann and <a href="http://rothen.sudo.ch">Jan Rothen</a>. Enjoy!</p>
                   </td>
                 </tr>
         	   
