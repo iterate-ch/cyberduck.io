@@ -18,7 +18,6 @@
 		    <h3>Java FTP Client</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
-                      <a href="#look">look and feel</a> | 
                       <a href="#requirements">requirements</a> | 
                       <a href="#download">download</a> | 
                       <a href="#code">source code</a> | 
@@ -103,57 +102,6 @@
                     </table>
                   </td>
                 </tr>
-                <tr>
-                  <td colspan="2"></td>
-                  <td class="box-solid">
-                      <a name="look">look and feel</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
-                    <table width="100%" border="0" align="center">
-                      <tr>
-                        <td>
-                          <p>
-                            this is what cyberduck looks like:
-                          </p>
-                        <td>
-                      </tr>
-                      <tr>
-                        <?php
-                        	$img_dir = "./img/swing";
-                            $thumb_dir = "./img/swing/thumbnails";
-                            $thumb_width = 180;
-                            $cards_per_row = 2;
-                            $images = listdir($img_dir, "png");
-                            $n = 0;
-                            $k = 0; 
-                            for($i = 0; $i < count($images); $i++) { 
-                              $n++; 
-                              thumbnail($img_dir, $thumb_dir, $images[$i], $thumb_width); 
-                              $thumb_size = getimagesize($thumb_dir."/".$images[$i]);
-                              echo(" 
-                                <td>
-                                  <div align=\"center\">
-                                    <a href=\"$img_dir/$images[$i]\" target=\"_blank\"><img src=\"$thumb_dir/$images[$i]\" $thumb_size[3] border=\"0\"></a>
-                                  </div>
-                                </td>"
-                              ); 
-                              if($n >= $cards_per_row || $i == count($images)-1) { 
-                                echo("
-                                  </tr>
-                                  <tr>"
-                                ); 
-                                $n = 0; 
-                              } 
-                            } 
-                          ?>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
