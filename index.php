@@ -403,10 +403,10 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 		<tr>
                   <td colspan="2"></td>
 		    <td>
-      <div align="right">
-            <?php echo(echofooter(".."));?>
-	    $Date$
-    </div>
+    			<div align="right">
+            			<?php echo(echofooter(".."));?>
+	    			$Date$
+   	 		</div>
 		    </td>
 		</tr>
       </table>
