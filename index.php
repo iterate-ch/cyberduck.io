@@ -21,7 +21,6 @@
 			<h3>FTP and SSH Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
-                      <a href="#look">look and feel</a> | 
                       <a href="#download">download</a> | 
                       <a href="#code">source code</a> | 
                       <a href="#history">history</a> | 
@@ -50,8 +49,11 @@
 			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
 			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
 			    </p>
-
-			<div align="center"><img src="./img/Cyberduck000.png"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top">
+			<a href="./img/Cyberduck000.png"><div align="center"><img src="./img/Cyberduck000.thumb.png"></div></a>
                   </td>
                 </tr>
                 <tr>
@@ -147,12 +149,12 @@
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled">Delete file(s)</td>
+				<td class="box-filled">File deletion</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled">Delete directory</td>
+				<td class="box-filled">Directory deletion</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
@@ -203,43 +205,6 @@
 				</td>
 			    </tr>
 			  </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2"></td>
-                  <td class="box-solid">
-                      <a name="look">look and feel</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffffff" class="box-dash">
-		    <table width="100%" border="0" align="center">
-                      	<tr>
-			    <td>
-				    <div align="center">
-					    <img src="./img/Cyberduck003.png">
-					    <p>Uploading mail attachement with drag and drop to SFTP server</p>
-				    </div>
-			    </td>
-			</tr>
-                      	<tr>
-			    <td>
-				    <div align="center">
-					    <img src="./img/Cyberduck002.png">
-					    <p>Edit permissions on remote files</p>
-				    </div>
-			    </td>
-			</tr>
-			<tr>
-			    <td>
-				    <div align="center">
-					    <img src="./img/Cyberduck004.png"></a>
-					    <p>Add Favorites</p>
-				    </div>
-			    </td>
-			</tr>
-                    </table>
                   </td>
                 </tr>
                 <tr>
