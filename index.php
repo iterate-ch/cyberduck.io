@@ -72,8 +72,8 @@
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
-			<li><b>2.1beta1</b><br>
-			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta1.dmg</a>, disk image</li>
+			<li><b>2.1beta2</b><br>
+			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta2.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
@@ -246,7 +246,7 @@
                           <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU general public licence</a>.</p>
                           Current release:
                           <ul>
-                            <li>2.1beta1:<br>
+                            <li>2.1beta2:<br>
                             <a href="download.php?cyberduck-src-2.1b1.zip"> cyberduck-src-2.1b1.zip </a></li>
                           </ul>
                           Older releases using Java Swing API
