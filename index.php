@@ -44,7 +44,7 @@
 						</p>
 						</div>
 						<div class="underline">
-						<p>This software is written by <a href="mailto:dkocher@cyberduck.ch">David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed.<br />
+						<p>This software is <a href="./img/hacking.jpg">written</a> by <a href="mailto:dkocher@cyberduck.ch">David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed.<br />
 							I appreciate any comments, feature suggestions and bug reports.
 						</p>
 						</div>
