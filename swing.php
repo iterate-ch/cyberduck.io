@@ -253,7 +253,7 @@
                 <tr>
                   <td colspan="2" class="box-solid">
                     <div align="center">
-                        <img src="./img/GNU.jpg" alt="GNU GPL Software" border="0">
+                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
                     </div>
 		</td>
                   <td bgcolor="#ffcc33" class="box-dash">
