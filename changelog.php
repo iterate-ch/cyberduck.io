@@ -364,9 +364,10 @@
                   <td>
                         <div align="right">
                             <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-                    </div>
+                        </div>
                   </td>
                 </tr>
+			<?php echo(echofooter());?>
       </table>
     </div>
   </body>

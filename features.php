@@ -44,6 +44,7 @@
                                     <li>Live filtering of directory listings</li>
                                     <li>Caching folder listings</li>
                                     <li>Move files  <a href="./img/move.png">(Screenshot)</a></li>
+                                    <li>Copy &amp; paste files</li>
                                     <li>Rename files</li>
                                     <li>Delete files</li>
                                     <!--<li>SOCKS Proxy support</li>-->
@@ -56,7 +57,7 @@
                         <b>Localizations</b>
                   </td>
                   <td valign="top" class="box-dash">
-                        <i>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak and Czech</i>
+                        <i>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian</i>
                     </td>
                 </tr>
                 
@@ -71,8 +72,10 @@
                                 <ul>
                                     <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
                                     <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
+                                    <li>BBEdit Lite</li>
                                     <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
                                     <li>Text-Edit Plus</li>
+                                    <li><a href="http://macromates.com/">TextMate</a></li>
                                 </ul>
                             </td>
                             <td>
@@ -92,6 +95,8 @@
                   <td valign="top" class="box-dash">
                                 <ul>
                                     <li>Drag and drop to save bookmark as a file</li>
+                                    <li>Drag proxy icon in the window title bar to the Finder</li>
+                                    <li>Drag proxy icon in the window title bar to the bookmark drawer</li>
                                     <li>Drop files onto bookmarks to upload to remote host</li>
                                 </ul>
                     </td>
@@ -121,6 +126,7 @@
                     </td>
                   <td valign="top" class="box-dash">
                                 <ul>
+                                	<li>Synchronized local with remote directories (and vice versa)</li>
                                     <li>Resume downloads (FTP and SFTP)</li>
                                     <li>Resume uploads (FTP and SFTP)</li>
                                     <li>Download folders (recursive)</li>
@@ -137,6 +143,7 @@
                   <td valign="top" class="box-dash">
                                 <ul>
                                     <li>Modify permissions on multiple files</li>
+                                    <li>Modify permissions recursivly</li>
                                 </ul>
                   </td>
                 </tr>
@@ -181,6 +188,7 @@
                     </div>
                 </td>
             </tr>
+			<?php echo(echofooter());?>
       </table>
     </div>
   </body>

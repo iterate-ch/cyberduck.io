@@ -46,6 +46,7 @@
                   <td colspan="2"></td>
                   <td class="box-dash">
                       <ul>
+                            <li>Column View</li>
                             <li>Defining an AppleScript dictionary</li>
                             <li>FTP-SSL Support</li>
                             <li>Supporting ssh-agent Authentication</li>
@@ -67,6 +68,7 @@
                         </div>
 		    </td>
 		</tr>
+			<?php echo(echofooter());?>
       </table>
     </div>
   </body>

@@ -4,56 +4,56 @@
   include "../functions.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck", ".")); ?>
-    <body bgcolor="#ffffff">
-        <div align="center" class="standard">
-            <table border="0" cellpadding="5" cellspacing="5" width="700">
+	<?php echo(echoheader("~dkocher | cyberduck", ".")); ?>
+	<body bgcolor="#ffffff">
+		<div align="center" class="standard">
+			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
-                <tr>
-                  <td width="200" colspan="2" valign="middle" class="box-solid">
-                    <div align="center">
-                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
-                     </div>
-                  </td>
-                  <td width="100%" class="box-solid">
-                    <div class="underline">
-                        <?php echo(echomenu(".."));?>
-                    </div>
-                    <?php echo(echotitle());?>
-                    <div align="left">
-                        <?php echo(echosubmenu());?>
-                    </div>
-                  </td>
-                </tr>
+				<tr>
+				  <td width="200" colspan="2" valign="middle" class="box-solid">
+					<div align="center">
+					  <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
+					 </div>
+				  </td>
+				  <td width="100%" class="box-solid">
+					<div class="underline">
+						<?php echo(echomenu(".."));?>
+					</div>
+					<?php echo(echotitle());?>
+					<div align="left">
+						<?php echo(echosubmenu());?>
+					</div>
+				  </td>
+				</tr>
 					<?php echo(echoSoftwarePatents());?>
-                <tr>
-                  <td width="200" colspan="2" valign="middle" class="box-solid">
+				<tr>
+				  <td width="200" colspan="2" valign="middle" class="box-solid">
 					<!--<p>
 						<i>"Built with an easy-to-use interface, this free, GPL-licensed FTP browser is a lean, mean, file-managing machine. Cyberduck 2.3.1 offers feature-rich FTP file management and handles basic tasks with ease." </i> (<a href="http://www.download.com/Cyberduck/3000-2151-10308599.html">download.com</a>)
 					</p>-->
 					<p>
 					<i>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck."</i>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 					</p>
-                  	<div align="center"><a href="http://www.macworld.com/subject"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0"></img></a></div>
-                  </td>
-                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
-                      <p>
-                        Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
-            SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. A simple bookmark manager ensures manageability. Core system technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> and BBEdit.
-Cyberduck has been translated into numerous languages including <i>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak and Czech</i>.
-                        </p>
-                      <p>
-                        This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
-                        I appreciate any comments, feature suggestions and bug reports.
-                      </p>
-                  </td>
-                </tr>
+				  	<div align="center"><a href="http://www.macworld.com/subject"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0"></img></a></div>
+				  </td>
+				  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
+					  <p>
+						Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
+			SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others.
+Cyberduck has been translated into numerous languages including <i>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian</i>.
+						</p>
+					  <p>
+						This software is written by <a href="mailto:dkocher@cyberduck.ch">David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed.<br>
+						I appreciate any comments, feature suggestions and bug reports.
+					  </p>
+				  </td>
+				</tr>
 
-                <!-- ======= Screenshot ======== -->
+				<!-- ======= Screenshot ======== -->
 
-                <tr>
-                  <td colspan="3">
-                    <div align="center" id="image">
+				<tr>
+				  <td colspan="3">
+					<div align="center" id="image">
 			<a href="./img/browser.jpg"><img align="middle" width="700" height="454" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
                     </div>
                   </td>
@@ -94,18 +94,18 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
                   </td>
                 </tr>
                 
-		
-                <!-- ======= Download! ======== -->
-                
-                <tr>
-                  <td width="200" colspan="2"></td>
-                  <td width="100%" class="box-solid">
-                      <b><a name="download">download</a></b>
-                  </td>
-                </tr>
+				<!-- ======= Download! ======== -->
+				
+				<tr>
+				  <td width="200" colspan="2"></td>
+				  <td width="100%" class="box-solid">
+					  <b><a name="download">download</a></b>
+				  </td>
+				</tr>
 
-                <!-- ======= 10.3 Alert ======== -->
-		
+				<!-- ======= 10.3 Alert ======== -->
+
+			   <tr>
                 <tr>
                   <td colspan="3" class="alert">
                     Cyberduck has never been tested on any OS X version prior to 10.3. Your mileage may vary. If Cyberduck crashes when launching, try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.
@@ -121,6 +121,9 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
+                        <li><b>2.4b1</b> <i>December-10-2004</i><br />
+                            <a href="./Cyberduck-2.4b1.dmg">Cyberduck-2.4b1.dmg</a>
+                        </li>
                         <li><b>2.3.3</b> <i>August-08-2004</i><br />
                             <a href="./Cyberduck-2.3.3.dmg">Cyberduck-2.3.3.dmg</a>
                         </li>
@@ -183,7 +186,8 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
 					</div>
 				</td>
 			</tr>
-        </table>
-    </div>
+			<?php echo(echofooter());?>
+		</table>
+	</div>
   </body>
 </html>

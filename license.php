@@ -75,6 +75,7 @@ and the <b>Apache Software Foundation</b>
        	 		</div>
 		    </td>
 		</tr>
+			<?php echo(echofooter());?>
       </table>
     </div>
   </body>
