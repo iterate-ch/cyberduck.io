@@ -28,9 +28,13 @@
 					<?php echo(echoSoftwarePatents());?>
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
+					<!--<p>
+						<i>"Built with an easy-to-use interface, this free, GPL-licensed FTP browser is a lean, mean, file-managing machine. Cyberduck 2.3.1 offers feature-rich FTP file management and handles basic tasks with ease." </i> (<a href="http://www.download.com/Cyberduck/3000-2151-10308599.html">download.com</a>)
+					</p>-->
 					<p>
-						<i>"Built with an easy-to-use interface, this free, GPL-licensed FTP browser is a lean, mean, file-managing machine. Cyberduck 2.3.1 offers feature-rich FTP file management and handles basic tasks with ease."</i> (<a href="http://download.com">download.com</a>)
+					<i>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck."</i>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 					</p>
+                  	<div align="center"><a href="http://www.macworld.com/subject"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0"></img></a></div>
                   </td>
                   <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
