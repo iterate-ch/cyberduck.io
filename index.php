@@ -16,7 +16,7 @@
                 <tr>
                   <td width="128" colspan="2" valign="top" class="box-solid">
                     <div align="center">
-                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0">
+                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
                     </div>
                   </td>
                   <td class="box-solid">
