@@ -134,7 +134,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Transcript</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish</td>
+                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</td>
                         </tr>
                     </table>
                 </td>
