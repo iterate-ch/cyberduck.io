@@ -1,90 +1,67 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en"
+        "http://www.w3.org/tr/1999/rec-html401-19991224/loose.dtd">
 <?php
   include "../functions.php";
-  include "../ecard/graphics.php";
+  include "../graphics.php";
 ?>
 <html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-    <title>
-      ~/dkocher | Cyberduck
-    </title>
-    <link rel="Stylesheet" href="../global.css" type="text/css">
-  </head>
-  <body bgcolor="#CCCCCC" text="#000000" link="#FFFFFF" alink="#FFFFFF" vlink="#FFFFFF">
-    <div align="center">
-      <table border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#CCCCCC">
-        <tr>
-          <td bgcolor="#FFFFFF">
-            <div align="center">
-              <table border="0" cellpadding="5" cellspacing="0" width="700" bgcolor="#CCCCCC">
+    <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
+  <body bgcolor="#ffffff">
+    <div align="center" class="standard">
+      <table border="0" cellpadding="5" cellspacing="5" width="800">
                 <tr>
-                  <td bgcolor="#525D76">
-                    &nbsp;
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div><?php echo(generateheader(".."));?></div>
-                    <div>
-                      &nbsp;
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                    <div class="underline"><?php echo(echomenu(".."));?></div>
+                    <br>
+                    cyberduck
                     <div align="left">
-                      <img src="img/title.gif" width="136" height="27" alt="" border="0">
-                    </div>
-                    <div align="left">
-                      <font><a href="#features">Features</a> | 
-                      <a href="#look">Look and Feel</a> | 
-                      <a href="#requirements">Requirements</a> | 
-                      <a href="#download">Download</a> | 
-                      <a href="#code">Source Code</a> | 
-                      <a href="#history">History</a> | 
-                      <a href="#future">Future</a> | 
-                      <a href="#license">License</a></font>
+                      <a href="#features">features</a> | 
+                      <a href="#look">look and feel</a> | 
+                      <a href="#requirements">requirements</a> | 
+                      <a href="#download">download</a> | 
+                      <a href="#code">source code</a> | 
+                      <a href="#history">history</a> | 
+                      <a href="#future">future</a> | 
+                      <a href="#license">license</a>
                     </div>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76" valign="top">
+                  <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-                      <img src="img/cyberduck.icon.gif" width="128" height="128" alt="" border="0">
+                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="" border="0">
                     </div>
                   </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-                            Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager
-                             and Http/Ftp client. You can store URLs as bookmarks, manage your 
-                             downloads and use the Ftp capabilities to browse the contents of a 
-                             Ftp server or i.e. upload your website to the remote Ftp server. 
-                             Cyberduck is written in <a href="http://java.sun.com/">Java&#153</a>. 
-                             and runs on any Java 2 runtime environment. There is a version built for 
-                             Mac OS X, packaged as a double clickable application bundle.
+                            cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager
+                             and http/ftp client. you can store urls as bookmarks, manage your 
+                             downloads and use the ftp capabilities to browse the contents of a 
+                             ftp server or i.e. upload your website to the remote ftp server. 
+                             cyberduck is written in <a href="http://java.sun.com/">java&#153</a>. 
+                             and runs on any java 2 runtime environment. there is a version built for 
+                             mac os x, packaged as a double clickable application bundle.
                           </p>
                           <p>
-                            I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@icu.unizh.ch?subject=Cyberduck Comment">me.</a>
+                            i appreciate any comments, feature suggestions and bug reports. please send them directly to <a href="mailto:dkocher@icu.unizh.ch?subject=cyberduck comment">me.</a>
                           </p>
                           <p>
-                            <b> If you find this program useful, please consider making a donation to support future development: </b>
+                            <b> if you find this program useful, please consider making a donation to support future development: </b>
                           </p>
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_xclick">
                             <input type="hidden" name="business" value="dkocher@icu.unizh.ch">
-                            <input type="hidden" name="item_name" value="Cyberduck">
-                            <input type="hidden" name="item_number" value="Cyberduck">
+                            <input type="hidden" name="item_name" value="cyberduck">
+                            <input type="hidden" name="item_number" value="cyberduck">
                             <input type="hidden" name="return" value="http://dewww.epfl.ch/~dkocher/cyberduck/index.html">
-                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
                           </form>
                           <p>
-                            Software written by <a href="mailto:dkocher@icu.unizh.ch">David Kocher</a>, Switzerland.<br>
-                            <br>
+                            software written by <a href="mailto:dkocher@icu.unizh.ch">david kocher</a>, switzerland.
                           </p>
                         </td>
                       </tr>
@@ -92,43 +69,33 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="features">Features</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="features">features</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-                            Features of Cyberduck include:
+                            features of cyberduck include:
                           </p>
                           <ul>
-                            <li>Bookmark manager</li>
-                            <li>Unlimited simultaneous transfers (Multithreaded)</li>
-                            <li>Resume interrupted or failed downloads (both http and ftp)</li>
-                            <li>HTTP download (GET)</li>
-                            <li>FTP Uploads and downloads (also recursive)</li>
-                            <li>FTP Directory listing and browsing (LIST)</li>
-                            <li>FTP Make directory/rename/delete (MKDIR, RNFR, DEL)</li>
-                            <li>FTP Set file permissions (CHMOD)</li>
-                            <li>Single or multiple window mode</li>
-                            <li>Drag and drop</li>
-                            <li>Preferences</li>
-                            <li>Transcript</li>
+                            <li>bookmark manager</li>
+                            <li>unlimited simultaneous transfers (multithreaded)</li>
+                            <li>resume interrupted or failed downloads (both http and ftp)</li>
+                            <li>http download (get)</li>
+                            <li>ftp uploads and downloads (also recursive)</li>
+                            <li>ftp directory listing and browsing (list)</li>
+                            <li>ftp make directory/rename/delete (mkdir, rnfr, del)</li>
+                            <li>ftp set file permissions (chmod)</li>
+                            <li>single or multiple window mode</li>
+                            <li>drag and drop</li>
+                            <li>preferences</li>
+                            <li>transcript</li>
                           </ul>
                         </td>
                       </tr>
@@ -136,34 +103,25 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="look">Look and Feel</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="look">look and feel</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
+                    <table width="100%" border="0" align="center">
                       <tr>
                         <td>
                           <p>
-                            This is what Cyberduck looks like:
+                            this is what cyberduck looks like:
                           </p>
                         <td>
                       </tr>
                       <tr>
-                        <?php   $img_dir = "./img/screenshots";
+                        <?php
+                        	$img_dir = "./img/screenshots";
                             $thumb_dir = "./img/screenshots/thumbnails";
                             $thumb_width = 180;
                             $cards_per_row = 2;
@@ -173,7 +131,7 @@
                             for($i = 0; $i < count($images); $i++) { 
                               $n++; 
                               thumbnail($img_dir, $thumb_dir, $images[$i], $thumb_width); 
-                              $thumb_size = getImageSize($thumb_dir."/".$images[$i]);
+                              $thumb_size = getimagesize($thumb_dir."/".$images[$i]);
                               echo(" 
                                 <td>
                                   <div align=\"center\">
@@ -195,31 +153,20 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="requirements">Requirements</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="requirements">requirements</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-                            You need a Java 2 Runtime Environment probably already installed on your system, otherwise available from Sun Microsystems at <a href="http://java.sun.com/">java.sun.com</a>.<br>
-                            Cyberduck has not been tested with JDK 1.4.<br>
-                            Mac OS X users should download the <b>Java 1.3.1 Update 1</b> via Software Update for better performance.
+                            you need a java 2 runtime environment probably already installed on your system, otherwise available from sun microsystems at <a href="http://java.sun.com/">java.sun.com</a>.<br>
+                            cyberduck has not been tested with jdk 1.4.<br>
                           </p>
                         </td>
                       </tr>
@@ -227,62 +174,53 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="download">Download</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="download">download</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-                            <b>Version 2.0b3</b>
+                            <b>version 2.0b3</b>
                           </p>
                           <ul>
-                            <li><b>Cyberduck for Mac OS X: </b><br>
-                            <a href="./download.php?Cyberduck-beta3.dmg.gz">Cyberduck-beta3.dmg.gz</a>, gzipped disk image
+                            <li><b>cyberduck for mac os x: </b><br>
+                            <a href="./download.php?cyberduck-beta3.dmg.gz">cyberduck-beta3.dmg.gz</a>, gzipped disk image
                             <p>
-                              Double click cyberduck.dmg. A disk image will load on your desktop. Drag the Cyberduck application to your preffered location on your hard disk (eg. /Applications).
+                              double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
                             </li>
                           </ul>
                           <ul>
-                            <li><b>Cyberduck for any Java platform:</b> <br>
-                            <a href="download.php?Cyberduck-beta3.zip"> Cyberduck-beta3.zip </a>, zipped file suitable for Windows <br>
+                            <li><b>cyberduck for any java platform:</b> <br>
+                            <a href="download.php?cyberduck-beta3.zip"> cyberduck-beta3.zip </a>, zipped file suitable for windows <br>
                             <b>or</b> <br>
-                            <a href="download.php?Cyberduck-beta3.tar.gz"> Cyberduck-beta3.tar.gz </a>, tar, gzipped file suitable for UNIXes
+                            <a href="download.php?cyberduck-beta3.tar.gz"> cyberduck-beta3.tar.gz </a>, tar, gzipped file suitable for unixes
                             </li>
                           </ul>
-                        </td>                        <td>
+                        </td>
+                        <td>
                           <p>
-                            <b>Version 2.0b2</b>
+                            <b>version 2.0b2</b>
                           </p>
                           <ul>
-                            <li><b>Cyberduck for Mac OS X: </b><br>
-                            <a href="./download.php?Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg.gz</a>, gzipped disk image
+                            <li><b>cyberduck for mac os x: </b><br>
+                            <a href="./download.php?cyberduck-beta2.dmg.gz">cyberduck-beta2.dmg.gz</a>, gzipped disk image
                             <p>
-                              Double click cyberduck.dmg. A disk image will load on your desktop. Drag the Cyberduck application to your preffered location on your hard disk (eg. /Applications).
+                              double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
                             </li>
                           </ul>
                           <ul>
-                            <li><b>Cyberduck for any Java platform:</b> <br>
-                            <a href="download.php?Cyberduck-beta2.zip"> Cyberduck-beta2.zip </a>, zipped file suitable for Windows <br>
+                            <li><b>cyberduck for any java platform:</b> <br>
+                            <a href="download.php?cyberduck-beta2.zip"> cyberduck-beta2.zip </a>, zipped file suitable for windows <br>
                             <b>or</b> <br>
-                            <a href="download.php?Cyberduck-beta2.tar.gz"> Cyberduck-beta2.tar.gz </a>, tar, gzipped file suitable for UNIXes
+                            <a href="download.php?cyberduck-beta2.tar.gz"> cyberduck-beta2.tar.gz </a>, tar, gzipped file suitable for unixes
                             </li>
                           </ul>
                         </td>
@@ -290,16 +228,16 @@
                       <tr>
                         <td colspan="2">
                             <p>
-                              On any UNIX flavor, <code>cd</code> to the downloaded file and unpack
-                              the archive with <code>tar xzvf Cyberduck.tar.gz</code>. Do NOT unpack the
-                              jar file. To launch Cyberduck <code>cd</code> to the directory where you
-                              moved Cyberduck.jar to and type into the shell
+                              on any unix flavor, <code>cd</code> to the downloaded file and unpack
+                              the archive with <code>tar xzvf cyberduck.tar.gz</code>. do not unpack the
+                              jar file. to launch cyberduck <code>cd</code> to the directory where you
+                              moved cyberduck.jar to and type into the shell
                               <code>
-                                java -jar Cyberduck.jar
+                                java -jar cyberduck.jar
                               </code>
-                              . If you are running Windows, you can probably just double click the 
-                              downloaded jar file to launch the application. If this doesn't work, 
-                              open a console and launch Cyberduck as described above with <code>java -jar Cyberduck.jar</code>.
+                              . if you are running windows, you can probably just double click the 
+                              downloaded jar file to launch the application. if this doesn't work, 
+                              open a console and launch cyberduck as described above with <code>java -jar cyberduck.jar</code>.
                             </p>
                          </td>
                       </tr>
@@ -307,30 +245,18 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="code">Source code</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="code">source code</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
-                          <p>
-                            Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>.
-                          </p>
+                          <p>source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">gnu general public licence</a>.</p>
                           <ul>
                             <li>v2.0beta3:<br>
                             <a href="download.php?cyberduck-src-2.0b3.zip">cyberduck-src-2.0b3.zip</a></li>
@@ -345,61 +271,51 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="history">Version history</a></font></b>
-                    </div>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="history">version history</a>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-                            <b>Version 1.0</b>:
+                            <b>version 1.0</b>:
                           </p>
                           <ul>
-                            <li>Experimental; never released to public</li>
-                            <li>Not yet based on the <a href="http://jakarta.apache.org/">Jakarta</a>
+                            <li>experimental; never released to public</li>
+                            <li>not yet based on the <a href="http://jakarta.apache.org/">jakarta</a>
                              http library</li>
-                            <li>No ftp cababilities</li>
+                            <li>no ftp cababilities</li>
                           </ul>
                           <p>
-                            <b>Version 2.0b1</b>:
+                            <b>version 2.0b1</b>:
                           </p>
                           <ul>
-                            <li>Initial public release (april 2002)</li>
-                            <li>FTP support</li>
-                            <li>Enhanced interface</li>
+                            <li>initial public release (april 2002)</li>
+                            <li>ftp support</li>
+                            <li>enhanced interface</li>
                           </ul>
                           <p>
-                            <b>Version 2.0b2</b>:
+                            <b>version 2.0b2</b>:
                           </p>
                           <ul>
-                            <li>Set Unix permissions over Ftp</li>
-                            <li>Recursive ftp downloads and uploads</li>
-                            <li>Ftp directory browsing more convenient</li>
-                            <li>Multiple window interface option</li>
-                            <li>Bug fixes</li>
+                            <li>set unix permissions over ftp</li>
+                            <li>recursive ftp downloads and uploads</li>
+                            <li>ftp directory browsing more convenient</li>
+                            <li>multiple window interface option</li>
+                            <li>bug fixes</li>
                           </ul>
                           <p>
-                            <b>Version 2.0b3</b>:
+                            <b>version 2.0b3</b>:
                           </p>
                           <ul>
-                            <li>Better status indication</li>
-                            <li>Improved graphical interface</li>
-                            <li>Bug fixes</li>
+                            <li>better status indication</li>
+                            <li>improved graphical interface</li>
+                            <li>bug fixes</li>
                           </ul>
                         </td>
                       </tr>
@@ -407,85 +323,54 @@
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                     <a name="future">future</a>
                   </td>
-                  <td>
-                    &nbsp;
+                </tr>
+                <tr>
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
+                    <table border="0" width="100%">
+                      <tr>
+                        <td>
+                          <p>if i might have too much time, i will try to implement the secure ftp protocol (<a href="http://www.openssh.org/txt/draft-ietf-secsh-filexfer-02.txt">sftp</a>), which is a replacement for insecure ftp and runs on top of ssh.</p>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
-                  <td bgcolor="#525D76">
+                </tr>
+                <tr>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
                     <div align="left">
-                      <b><font><a name="future">Future</a></font></b>
+                      <a name="license">license</a>
                     </div>
                   </td>
                 </tr>
                 <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>
-							If I might have too much time, I will try to implement the secure Ftp protocol
-							(<a href="http://www.openssh.org/txt/draft-ietf-secsh-filexfer-02.txt"
-							>SFTP</a>)
-							on top of <a href="http://www.pitman.co.za/">Rob Pitmans's</a> 
-							secure shell (<a href="http://www.snailbook.com/docs/protocol-1.5.txt">
-							SSH</a>) Java implementation 
-							<a href="http://www.pitman.co.za/projects/jssh/">jssh</a>. 
-
+                            copyright (c) 2002 david kocher. all rights reserved.
+                          </p>
+                          <p>
+                            this program is free software; you can redistribute it and/or modify it under the terms of the gnu general public license as published by the free software foundation; either version 2 of the license, or (at your option) any later version.
+                          </p>
+                          <p>
+                            this program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. see the gnu general public license for more details.
                           </p>
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
-                <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#525D76">
-                    <div align="left">
-                      <b><font><a name="license">License</a></font></b>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td bgcolor="#525D76">
-                  </td>
-                  <td>
-                    &nbsp;
-                  </td>
-                  <td bgcolor="#FFCC33">
-                    <table border="0" width="100%">
-                      <tr>
-                        <td>
-                          <p>
-                            Copyright (c) 2002 David Kocher. All rights reserved.
-                          </p>
-                          <p>
-                            This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-                          </p>
-                          <p>
-                            This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
         <tr>
           <td>
-            <?php echo(generatefooter(".."));?>
+            <?php echo(echofooter(".."));?>
           </td>
         </tr>
       </table>
