@@ -59,6 +59,11 @@
                             <br />
                             cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot checkout cyberduck-cocoa 
                           </tt></p>
+
+                          <ul>
+                            <li><b>2.2b5</b> <i>Feb-12-2004</i><br />
+                            <a href="download.php?cyberduck-src-2.2beta5.tgz"> cyberduck-src-2.2beta5.tgz </a></li>
+                          </ul>
                           <ul>
                             <li><b>2.2b4</b> <i>Jan-31-2004</i><br />
                             <a href="download.php?cyberduck-src-2.2beta4.tgz"> cyberduck-src-2.2beta4.tgz </a></li>
