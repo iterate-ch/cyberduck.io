@@ -15,7 +15,7 @@
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
                     <h1>cyberduck</h1>
-		    <h3>(S)FTP Client for Mac OS X</h3>
+					<h3>Cocoa Secure FTP Client (Mac OS X)</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
                       <a href="#look">look and feel</a> | 
@@ -128,15 +128,16 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-			    <img src="img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
+						<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
-			<ul>
-			<li><b>2.1b1</b><br>
-			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1b1.dmg</a>, disk image</li>
-			</ul>
-		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
+					<ul>
+						<li><b>2.1b1</b><br>
+						<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1b1.dmg</a>, disk image
+						</li>
+					</ul>
+				    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
                 </tr>
                 <tr>

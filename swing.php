@@ -14,8 +14,8 @@
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
-                    <p><h1>cyberduck</h1 >
-		    <h3>Java FTP Client</h3>
+                    <h1>cyberduck</h1 >
+					<h3>Java FTP Client</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
                       <a href="#look">look and feel</a> | 
@@ -51,7 +51,7 @@
                             i appreciate any comments, feature suggestions and bug reports. please send them directly to <a href="mailto:dkocher@icu.unizh.ch?subject=cyberduck comment">me.</a>
                           </p>
                           <p>
-                            <b> if you find this program useful, please consider making a donation to support future development: </b>
+                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
                           </p>
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_xclick">
@@ -122,8 +122,8 @@
                       </tr>
                       <tr>
                         <?php
-                        	$img_dir = "./img/screenshots";
-                            $thumb_dir = "./img/screenshots/thumbnails";
+                        	$img_dir = "./img/swing";
+                            $thumb_dir = "./img/swing/thumbnails";
                             $thumb_width = 180;
                             $cards_per_row = 2;
                             $images = listdir($img_dir, "png");
@@ -181,7 +181,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
+                  <td colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+						<img src="img/duke.gif" alt="Built for Java" border="0">
+                    </div>
+                  </td>
                   <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
@@ -190,12 +194,14 @@
                             <b>version 2.0b3</b>
                           </p>
                           <ul>
+                          <!--
                             <li><b>cyberduck for mac os x: </b><br>
                             <a href="./download.php?Cyberduck-beta3.dmg.gz">Cyberduck-beta3.dmg.gz</a>, gzipped disk image
                             <p>
                               double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
                             </li>
+                            -->
                           </ul>
                           <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
@@ -210,12 +216,14 @@
                             <b>version 2.0b2</b>
                           </p>
                           <ul>
+                          <!--
                             <li><b>cyberduck for mac os x: </b><br>
                             <a href="./download.php?Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg.gz</a>, gzipped disk image
                             <p>
                               double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
                             </li>
+                            -->
                           </ul>
                           <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
@@ -259,11 +267,11 @@
                         <td>
                           <p>source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">gnu general public licence</a>.</p>
                           <ul>
-                            <li>v2.0beta3:<br>
+                            <li>2.0b3:<br>
                             <a href="download.php?cyberduck-src-2.0b3.zip">cyberduck-src-2.0b3.zip</a></li>
-                            <li>v2.0beta2:<br>
+                            <li>2.0b2:<br>
                             <a href="download.php?cyberduck-src-2.0b2.zip">cyberduck-src-2.0b2.zip</a></li>
-                            <li>v2.0beta1:<br>
+                            <li>2.0b1:<br>
                             <a href="download.php?cyberduck-src-2.0b1.zip">cyberduck-src-2.0b1.zip</a></li>
                           </ul>
                         </td>
