@@ -88,10 +88,13 @@
                 </td>
                 <td bgcolor="#FFFFFF" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><strong>2.4b1</strong> <em>December-27-2004</em><br />
-                        <a href="./Cyberduck-2.4b1.dmg">Cyberduck-2.4b1.dmg</a></li>
+                        <li><strong>2.4b1</strong> <em>December-28-2004</em><br />
+	                        <a href="./Cyberduck-2.4b1.dmg">Cyberduck-2.4b1.dmg</a>
+	                    </li>
                         <li><strong>2.3.3</strong> <em>August-08-2004</em><br />
-                        <a href="./Cyberduck-2.3.3.dmg">Cyberduck-2.3.3.dmg</a></li><!--
+    	                    <a href="./Cyberduck-2.3.3.dmg">Cyberduck-2.3.3.dmg</a>
+    	                </li>
+    	                <!--
                         <li><b>2.3.2</b> <i>August-05-2004</i><br />
                             <a href="./Cyberduck-2.3.2.dmg">Cyberduck-2.3.2.dmg</a>
                         </li>

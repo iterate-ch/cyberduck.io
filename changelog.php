@@ -29,7 +29,7 @@
                 <td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
             </tr>
             <tr>
-                <td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-27-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
+                <td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-28-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
                 <td class="box-dash">
                     <ul>
                         <li>[Feature] Synchronization of files</li>

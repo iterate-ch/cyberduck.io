@@ -43,7 +43,7 @@
                 <td colspan="2"></td>
                 <td class="box-dash">
                     <ul>
-                        <li><strong>2.4b1</strong> <em>December-27-2004</em><br />
+                        <li><strong>2.4b1</strong> <em>December-28-2004</em><br />
                         <a href="cyberduck-src-2.4b1.tar.gz">cyberduck-src-2.4b1.tar.gz</a></li>
                     </ul>
                     <ul>
