@@ -29,7 +29,7 @@
                       <a href="index.php#download">download</a> | 
                       <a href="features.php">features</a> | 
                       <a href="source.php">source code</a> | 
-                      <a href="history.php">changelog</a> | 
+                      <a href="changelog.php">changelog</a> | 
                       <a href="license.php">license</a>
                     </div>
                   </td>
