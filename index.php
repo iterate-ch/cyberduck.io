@@ -117,10 +117,13 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
+                        <li><b>2.3.3</b> <i>August-08-2004</i><br />
+                            <a href="./Cyberduck-2.3.3.dmg">Cyberduck-2.3.3.dmg</a>
+                        </li>
+                        <!--
                         <li><b>2.3.2</b> <i>August-05-2004</i><br />
                             <a href="./Cyberduck-2.3.2.dmg">Cyberduck-2.3.2.dmg</a>
                         </li>
-                        <!--
                         <li><b>2.3.1</b> <i>June-15-2004</i><br />
                             <a href="./Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
                         </li>
