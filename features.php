@@ -46,7 +46,7 @@
                                     <li>Move files  <a href="./img/move.png">(Screenshot)</a></li>
                                     <li>Rename files</li>
                                     <li>Delete files</li>
-                                    <li>SOCKS Proxy support</li>
+                                    <!--<li>SOCKS Proxy support</li>-->
                                 </ul>
                     </td>
                 </tr>
@@ -56,7 +56,7 @@
                         <b>Localizations</b>
                   </td>
                   <td valign="top" class="box-dash">
-                        <i>English, Dutch, Finnish, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese, Simplified Chinese and Slovak</i>
+                        <i>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak and Czech</i>
                     </td>
                 </tr>
                 
