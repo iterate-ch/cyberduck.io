@@ -5,7 +5,7 @@
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <?php echo(echoheader("~dkocher | cyberduck | todo", ".")); ?>
-<body bgcolor="#FFFFFF">
+<body id="todo" bgcolor="#FFFFFF">
     <div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
             <tr>

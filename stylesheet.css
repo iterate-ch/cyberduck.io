@@ -4,6 +4,20 @@
 		color: #000000;
 	}
 	
+	body#index a#index, 
+	body#download a#download,
+	body#features a#features,
+	body#changelog a#changelog,
+	body#license a#license, 
+	body#todo a#todo,
+	body#donate a#donate, 		
+	body#source a#source, 		
+	body#swing a#swing
+	{
+		text-decoration: none;
+		font-weight: bold;
+	}
+
 	td 
 	{
 		text-align:left;	
