@@ -37,25 +37,21 @@
 			    			</p>
 			<p>
 			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
-			    </p>
-			    <p>
+				<br>
 			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store frequently-used servers.
-			    </p>
-			    <p>Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
-			    <p>
+				<br>
+			    Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
+				<br>
 			    	File deletion and renaming, checking and changing of permissions is possible with a Finder-like info panel.
-				</p>
-				<p>
-					<a href="http://www.apple.com/macosx/jaguar/rendezvous.html">Rendezvous</a> support included.
-				</p>
-			    <p>
+				<br>
+					<a href="http://www.apple.com/macosx/jaguar/rendezvous.html">Rendezvous</a> is supported.
+				<br>
 			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
 			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
 			    </p>
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Comment">me.</a>
-                          </p>
-                          <p>
+				<br>
                             Software written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
                           </p>
                   </td>
@@ -99,8 +95,8 @@
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
-			<li><b>2.1beta2</b><br>
-			<a href="./download.php?Cyberduck-2.1beta2.dmg.gz">Cyberduck-2.1beta2.dmg.gz</a>, disk image</li>
+			<li><b>2.1beta4</b><br>
+			<a href="./download.php?Cyberduck-2.1beta4.dmg.gz">Cyberduck-2.1beta4.dmg.gz</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
@@ -132,12 +128,22 @@
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
+				<td class="box-filled">Drag downloads to the Finder</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
 				<td class="box-filled">Download file(s)</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
 				<td class="box-filled">Download directory</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Drag uploads to a Cyberduck browser</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
@@ -226,6 +232,10 @@
                           <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                           </p>
                           <ul>
+                            <li><b>2.1beta4</b><br>
+                            <a href="download.php?cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
+                          </ul>
+                          <ul>
                             <li><b>2.1beta3</b><br>
                             <a href="download.php?cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
                           </ul>
@@ -250,20 +260,32 @@
                     <table border="0" width="100%">
                       <tr>
                         <td>
-                          <p>
-			    Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.
-			    </p>
-						    <p>
+                          <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
+						   <p>
+							<b>2.1beta4</b>
+                          </p>
+                          </p>
+                          <ul>
+						    <li>Cyberduck now has the official creator code 'CYCK' and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.</li>
+						    <li>Bug fixes</li>
+                          </ul>
+						   <p>
                             <b>2.1beta3</b>
                           </p>
                           <ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li>Localization support</li>
+							<li>Files and foldes can now be dragged to the Finder to download them.</li>
+							<li>Windows do now no more stack exactly on the top of prior one.</li>
+							<li>There are now equivalent menu actions for the toolbar items.</li>
+							<li>Modification dates and time are now displayed correctly.</li>
+							<li>The modification date column is now sorted correctly.</li>
+							<li>Browser columns are now sortable in both directions.</li>
+							<li>When deleting multiple files and directores, the file list will now only get updated at the end because of performance.</li>
+							<li>If multiples have been selected to transfer, Cyberduck now puts them in the same queue and opens only one connection to the server.</li>
+							<li>There is a new command 'Go to folder' for changing the working directory quickly.</li>
+							<li>Many bug fixes.</li>
                           </ul>
-						    <p>
+						   <p>
                             <b>2.1beta2</b>
                           </p>
                           <ul>
