@@ -33,6 +33,10 @@
 						<ul>
 							<li>[Localize] Swedish Localization</li>
 							<li>[Feature] Additional encryption ciphers supported (SFTP)</li>
+							<li>[Feature] Action dropdown menu in toolbar</li>
+							<li>[Feature] Added Jedit X to the list of supported editors (http://www.artman21.net/product/JeditX/)</li>
+							<li>[Feature] Added mi to the list of supported editors (http://mimikaki.net/)</li>
+							<li>[Feature] Added Smultron to the list of supported editors (http://smultron.sourceforge.net/)</li>
 							<li>[Bugfix] Rendezvous implementation updated </li>
 							<li>[Bugfix] Folder to synchronize not selectable in some cases</li>
 							<li>[Bugfix] Fallback to default directory when specified directory doesn't exist</li>

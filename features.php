@@ -41,7 +41,8 @@
 							<li>Copy &amp; paste files</li>
 							<li>Create new files</li>
 							<li>Rename files</li>
-							<li>Delete files</li><!--<li>SOCKS Proxy support</li>-->
+							<li>Delete files</li>
+							<!--<li>SOCKS Proxy support</li>-->
 							<li>Show hidden files</li>
 							<li>Allow the selection of files in the browser by typing the filename</li>
 						</ul>
@@ -49,8 +50,7 @@
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>Localizations</strong></td>
-					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
-						</em>
+					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Swedish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/Credits.html">contributors</a>!
 					</td>
 				</tr>
 				<tr>
@@ -65,6 +65,9 @@
 										<li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
 										<li>Text-Edit Plus</li>
 										<li><a href="http://macromates.com/">TextMate</a></li>
+										<li><a href="http://mimikaki.net/">mi</a></li>
+										<li><a href="http://smultron.sourceforge.net/">Smultron</a></li>
+										<li><a href="http://www.artman21.net/product/JeditX/">JeditX</a></li>
 									</ul>
 								</td>
 								<td>
@@ -91,8 +94,7 @@
 					<td width="150" valign="top"><strong>Keychain support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
-							<li>All passwords are stored in the system keychain as Internet passwords available also to third party applications
-							</li>
+							<li>All passwords are stored in the system keychain as Internet passwords available also to third party applications</li>
 						</ul>
 					</td>
 				</tr>
@@ -100,8 +102,10 @@
 					<td valign="top"><strong>Secure file transfers with SFTP</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
-							<li>Public key authentication (SSH)</li>
-							<li>Keyboard Interactive (PAM) Authentication (SSH)</li>
+							<li>Public key authentication</li>
+							<li>Keyboard Interactive (PAM) Authentication</li>
+							<li>Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST)</li>
+							<li>Authentication algorithms (md5, sha1)</li>
 						</ul>
 					</td>
 				</tr>
@@ -149,8 +153,7 @@
 					<td width="150" valign="top"><strong>AppleScript support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
-							<li>Full AppleScript integration. See the <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/"> sample scripts</a> (included on the disk image).
-							</li>
+							<li>Full AppleScript integration. See the <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/"> sample scripts</a> (included on the disk image).</li>
 						</ul>
 					</td>
 				</tr>
@@ -179,15 +182,6 @@
 						<ul>
 							<li>Convert line endings on the fly in ASCII transfers</li>
 							<li>Choose from Auto, Binary or ASCII</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td width="150" valign="top"><strong>Transcript</strong></td>
-					<td valign="top" colspan="2" class="box-dash">
-						<ul>
-							<li>Solving connection problems</li>
-							<li>Live scrolling</li>
 						</ul>
 					</td>
 				</tr>
