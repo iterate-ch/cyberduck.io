@@ -15,7 +15,7 @@ include "../functions.php";
 			<tr align="right">
 				<td>
                                 <?php 
-                                    echo(generateheader());
+                                        echo(generateheader(".."));
                                 ?>
 				</td>
 			</tr>
@@ -396,7 +396,7 @@ GNU General Public License for more details.
                                     <?php 
                                             $counter_file = "./counter.txt";
                                             counter($counter_file); 
-                                            echo(generateheader());
+                                        echo(generateheader(".."));
                                     ?>
 				</td>
 			</tr>
