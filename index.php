@@ -7,9 +7,13 @@
     <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
-      <table border="0" cellpadding="5" cellspacing="5" width="100%">
+      <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="2"></td>
+                  <td colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0">
+                    </div>
+                  </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
@@ -26,32 +30,50 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="top" class="box-solid">
-                    <div align="center">
-                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0">
-                    </div>
-                  </td>
+                  <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
-			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> for the <a href="http://www.apple.com/macosx">Mac</a>. It features a intuitive 
-			    user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
-			</p>
+			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
+			    			</p>
+			<p>
+			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
+			    </p>
+			    <p>
+			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store freuqently used servers.
+			    </p>
+			    <p>
+			    Files and even directories can be uploaded easyily by just dragging them from the Finder.
+			    Double clicking a file will initiate a download. Files can be deleted and renamed. A Finder-like Info panel allows the modification of permissions.
+			    </p>
+			    <p>
+			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
+			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
+			    </p>
+
 			<div align="center"><img src="./img/Cyberduck000.png"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_xclick">
+                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
+                            <input type="hidden" name="item_name" value="cyberduck">
+                            <input type="hidden" name="item_number" value="cyberduck">
+                            <input type="hidden" name="return" value="http://cyberduck.ch">
+                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
+                          </form>
+			  </div>
+                  </td>
+                  <td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=cyberduck comment">me.</a>
                           </p>
                           <p>
                             <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
                           </p>
-                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_xclick">
-                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
-                            <input type="hidden" name="item_name" value="cyberduck">
-                            <input type="hidden" name="item_number" value="cyberduck">
-                            <input type="hidden" name="return" value="http://dewww.epfl.ch/~dkocher/cyberduck/index.html">
-                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
-                          </form>
                           <p>
                             Software written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
                           </p>
@@ -88,18 +110,6 @@
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
-                          <p>
-                            Cyberduck features the same intuitive interface for both FTP and SFTP browsing. You can open
-			    connections to multiple servers thanks to its document based interface. A simple favorites
-			    manager allows you to store freuqently used servers. <!-- As a supplement it is possible to 
-			    download files directly using HTTP or FTP, too.-->
-			    <br>
-			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
-			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>. HTTP protocol stack from 
-			    <a href="http://jakarta.apache.org/commons/httpclient/">jakarta.apache.org</a>.
-			    <br>
-			    Feature table:
-                          </p>
 			  <table width="95%" border="0" align="center"> 
 			    <tr>
 				<td>&nbsp;</td>
@@ -208,19 +218,20 @@
                       	<tr>
 			    <td>
 				    <div align="center">
-					    <img src="./img/Cyberduck002.png">
-					    <p>Edit permissions on remote files</p>
+					    <img src="./img/Cyberduck003.png">
+					    <p>Uploading mail attachement with drag and drop to SFTP server</p>
 				    </div>
 			    </td>
 			</tr>
                       	<tr>
 			    <td>
 				    <div align="center">
-					    <img src="./img/Cyberduck003.png">
-					    <p>Uploading mail attachement with drag and drop to SFTP server</p>
+					    <img src="./img/Cyberduck002.png">
+					    <p>Edit permissions on remote files</p>
 				    </div>
 			    </td>
 			</tr>
+			<tr>
 			    <td>
 				    <div align="center">
 					    <img src="./img/Cyberduck004.png"></a>
@@ -247,16 +258,7 @@
                           Current release:
                           <ul>
                             <li>2.1beta2:<br>
-                            <a href="download.php?cyberduck-src-2.1b1.zip"> cyberduck-src-2.1b1.zip </a></li>
-                          </ul>
-                          Older releases using Java Swing API
-                          <ul>
-                            <li>2.0beta3:<br>
-                            <a href="download.php?cyberduck-src-2.0b3.zip">cyberduck-src-2.0b3.zip</a></li>
-                            <li>2.0beta2:<br>
-                            <a href="download.php?cyberduck-src-2.0b2.zip">cyberduck-src-2.0b2.zip</a></li>
-                            <li>2.0beta1:<br>
-                            <a href="download.php?cyberduck-src-2.0b1.zip">cyberduck-src-2.0b1.zip</a></li>
+                            <a href="download.php?cyberduck-src-2.1b2.tar.gz"> cyberduck-src-2.1b2.tar.gz </a></li>
                           </ul>
                         </td>
                       </tr>
@@ -279,10 +281,10 @@
 			    Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.
 			    </p>
 			    <p>
-                            <b>version 2.1b1</b>:
+                            <b>version 2.1b2</b>:
                           </p>
                           <ul>
-			    <li>Initial release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
+			    <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
                           </ul>
                         </td>
                       </tr>
@@ -311,11 +313,16 @@
                           </p>
                   </td>
                 </tr>
-      </table>
+		<tr>
+                  <td colspan="2"></td>
+		    <td>
       <div align="right">
             <?php echo(echofooter(".."));?>
 	    $Date$
     </div>
+		    </td>
+		</tr>
+      </table>
     </div>
   </body>
 </html>
