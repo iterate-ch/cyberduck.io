@@ -57,7 +57,17 @@ GNU General Public License for more details.
                           </p>
                   </td>
                 </tr>
-		<tr>
+                <tr>
+                  <td colspan="2"></td>
+		<td bgcolor="#ffffff" valign="top" class="box-dash">
+			This products includes software developed by <b>sshtools.com</b>
+			(<a href="http://www.sshtools.com">http://www.sshtools.com</a>), <b>enterprisedt</b>
+			(<a href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
+and the <b>Apache Software Foundation</b>
+			(<a href="http://jakarta.apache.org">http://jakarta.apache.org</a>).
+                 </td>
+                </tr>
+    		<tr>
             <td colspan="3">
     			<div align="right">
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
