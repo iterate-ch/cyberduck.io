@@ -32,24 +32,24 @@
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
-                            Cyberduck is an <a href="http://opensource.org/docs/definition.php"><b>open source</b></a> 
+                            Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
 			    			</p>
 			<p>
-			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/"><b>Cocoa</b> Framework</a>.
+			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 			    </p>
 			    <p>
 			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store frequently-used servers.
 			    </p>
-			    <p><b>Drag and drop</b> is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
+			    <p>Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
 			    <p>
 			    	File deletion and renaming, checking and changing of permissions is possible with a Finder-like info panel.
 				</p>
 				<p>
-					<a href="http://www.apple.com/macosx/jaguar/rendezvous.html"><b>Rendezvous</b></a> support included.
+					<a href="http://www.apple.com/macosx/jaguar/rendezvous.html">Rendezvous</a> support included.
 				</p>
 			    <p>
-			    The SSH core is from <a href="http://sshtools.com/"><b>sshtools.com</b></a>. FTP core from 
+			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
 			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
 			    </p>
                           <p>
@@ -222,10 +222,15 @@
                     <table border="0" width="100%">
                       <tr>
                         <td>
-                          <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU general public licence</a>.</p>
-                          Current release:
+                          <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU general public licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> to build .</p>
+                          <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
+                          </p>
                           <ul>
-                            <li>2.1beta2:<br>
+                            <li><b>2.1beta3</b><br>
+                            <a href="download.php?cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
+                          </ul>
+                          <ul>
+                            <li><b>2.1beta2:</b><br>
                             <a href="download.php?cyberduck-src-2.1beta2.tgz"> cyberduck-src-2.1beta2.tgz </a></li>
                           </ul>
                         </td>
@@ -248,8 +253,18 @@
                           <p>
 			    Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.
 			    </p>
-			    <p>
-                            <b>version 2.1b2</b>:
+						    <p>
+                            <b>2.1beta3</b>
+                          </p>
+                          <ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+                          </ul>
+						    <p>
+                            <b>2.1beta2</b>
                           </p>
                           <ul>
 			    <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
