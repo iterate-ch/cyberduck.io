@@ -316,6 +316,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
 				<td class="box-filled">Not yet</td>
 			    </tr>
                           </table>
+<!--
 			  <table width="100%" border="0" align="center"> 
 			    <tr>
 				<td bgcolor="#ffcc33" class="box-filled">
@@ -332,6 +333,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
 				</td>
 			    </tr>
 			  </table>
+-->
                   </td>
                 </tr>
                 <tr>
