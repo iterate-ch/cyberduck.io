@@ -117,7 +117,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><b>2.3.1</b> <i>June-12-2004</i><br />
+                        <li><b>2.3.1</b> <i>June-15-2004</i><br />
                             <a href="./Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
                         </li>
                         <!--
@@ -140,7 +140,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 </tr>
         	   
                 <!-- ======= Mailing list ======== -->
-                
+                                
                 <tr>
                   <td width="200" colspan="2"></td>
                   <td class="box-solid">
