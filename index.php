@@ -35,49 +35,12 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="top">
-                  	<p>
-                  	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
-                  	</p>
-<!--
-                  	<p>
-                    <i>Cyberduck is a real nugget of gold</i> --Bob G-H
-                  	</p>
-                  	<p>
-                  	 <i>Cyberduck is indeed ace</i> --Richard Whitelock
-                  	</p>
-                  	<p>
-                  	 <i>Awesome job with the new beta!</i> --Jeff Nouwen
-                  	</p>
-                  	<p>
-                  	 <i>Thanks for providing such a nice little application!</i> --Stephen
-                  	</p>
-                  	<p>
-                  	 <i>Nice small and fast application</i> --Claudius Sailer
-                  	</p>
--->
-                  </td>
+                  <td colspan="2"></td>
                   <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
 			    			</p>
-			<p>
-			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing.
-				<br />
-			    You can open connections to multiple servers thanks to its document based interface.
-			    <br />
-                A bookmark manager allows you to store frequently-used servers. Bookmarks can be exported as a regular file by dragging them to the Finder.
-                <br />
-			    Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
-				<br />
-			    	File deletion and renaming, checking and changing of permissions is possible with a Finder-like info panel.
-				<br />
-					<a href="http://www.apple.com/macosx/rendezvous.html">Rendezvous</a> is supported.
-				<br />
-			    </p>
-			    
-			    
                   </td>
                 </tr>
                 

@@ -14,7 +14,7 @@
 			     </td>
                 </tr>
                 <tr>
-                  <td width="128" colspan="2" valign="top" class="box-solid">
+                  <td width="140" colspan="2" valign="top" class="box-solid">
                     <div align="center">
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
                     </div>
@@ -52,8 +52,8 @@
                           <p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press the Enter key.</p>
                           <p><tt>
                             cvs -d:pserver:anonymous@cvs.sourceforge.net:/home/cvsroot login 
-                        
-                            cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/home/cvsroot co cyberduck-cocoa 
+                            <br />
+                            cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/home/cvsroot checkout cyberduck-cocoa 
                           </tt></p>
                           <ul>
                             <li><b>2.2b1</b> <i></i><br />
