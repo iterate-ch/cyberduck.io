@@ -32,7 +32,7 @@
                 <td colspan="2" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
                 <td valign="top" class="box-dash">
                     <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and <a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.</p>
-                    <p>You can browse the CVS repository <a href="http://sudo.ch/cvs/cyberduck-cocoa/">here</a>. (Warning: Slow connection)</p>
+                    <p>You can browse the CVS repository <a href="http://cvs.cyberduck.ch/">here</a>. (Warning: Slow connection)</p>
                     <p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press <i>Enter</i>.</p>
                     <p><tt>cvs -d:pserver:anonymous@sudo.ch:/home/cvsroot login<br />
                     cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot co cyberduck-cocoa</tt></p>
@@ -43,7 +43,7 @@
                 <td colspan="2"></td>
                 <td class="box-dash">
                     <ul>
-                        <li><strong>2.4b2</strong> <em>Januar-06-2004</em><br />
+                        <li><strong>2.4b2</strong> <em>January-06-2004</em><br />
                         <a href="cyberduck-src-2.4b2.tar.gz">cyberduck-src-2.4b2.tar.gz</a></li>
                     </ul>
                     <ul>

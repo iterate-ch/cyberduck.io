@@ -115,7 +115,6 @@
                         </li>
                         -->
                     </ul>
-                    <p>While downloading, you can check out <a href="http://rothen.sudo.ch/3Danimation/duckstale.jsp">this cute 3D animation</a> about a <a href="http://rothen.sudo.ch/3Danimation/duckstaleabout.jsp">rubber duck</a> (although completely unrelated to Cyberduck) created by Norbert Kottmann and <a href="http://rothen.sudo.ch">Jan Rothen</a>. Enjoy!</p>
                 </td>
             </tr><!-- ======= Mailing list ======== -->
             <tr>
