@@ -67,6 +67,17 @@
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
+							<a href="./download.php?Cyberduck-2.2beta2.dmg"><b>2.2b2</b> <i>Jan-24-2004</i></a>
+                          </p>
+                          <ul>
+<li>Updated Japanese localization</li>
+<li>Updated French localization</li>
+<li>Updated Portuguese localization</li>
+<li>Updated Italian localization</li>
+<li>The log is now written with a fixed-width font</li>
+<li>Various minor improvements</li>
+                          </ul>
+						   <p>
 							<a href="./download.php?Cyberduck-2.2beta1.dmg"><b>2.2b1</b> <i>Jan-22-2004</i></a>
                           </p>
                           <ul>
@@ -122,32 +133,32 @@
 							<a href="./download.php?Cyberduck-2.1beta4.dmg"><b>2.1b4</b> <i>Aug-22-2003</i></a>
                           </p>
                           <ul>
-						    <li>Cyberduck now has the official creator code 'CYCK'.<!-- and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.--></li>
-						    <li>Bug fixes</li>
+<li>Cyberduck now has the official creator code 'CYCK'.</li>
+<li>Bug fixes</li>
                           </ul>
                           
 						   <p>
                             <a href="./download.php?Cyberduck-2.1beta3.dmg"><b>2.1b3</b> <i>Aug-17-2003</i></a>
                           </p>
                           <ul>
-							<li>Localization support</li>
-							<li>Files and foldes can now be dragged to the Finder to download them.</li>
-							<li>Windows do now no more stack exactly on the top of prior one.</li>
-							<li>There are now equivalent menu actions for the toolbar items.</li>
-							<li>Modification dates and time are now displayed correctly.</li>
-							<li>The modification date column is now sorted correctly.</li>
-							<li>Browser columns are now sortable in both directions.</li>
-							<li>When deleting multiple files and directores, the file list will now only get updated at the end because of performance.</li>
-							<li>If multiples have been selected to transfer, Cyberduck now puts them in the same queue and opens only one connection to the server.</li>
-							<li>There is a new command 'Go to folder' for changing the working directory quickly.</li>
-							<li>Many bug fixes.</li>
+<li>Localization support</li>
+<li>Files and foldes can now be dragged to the Finder to download them.</li>
+<li>Windows do now no more stack exactly on the top of prior one.</li>
+<li>There are now equivalent menu actions for the toolbar items.</li>
+<li>Modification dates and time are now displayed correctly.</li>
+<li>The modification date column is now sorted correctly.</li>
+<li>Browser columns are now sortable in both directions.</li>
+<li>When deleting multiple files and directores, the file list will now only get updated at the end because of performance.</li>
+<li>If multiples have been selected to transfer, Cyberduck now puts them in the same queue and opens only one connection to the server.</li>
+<li>There is a new command 'Go to folder' for changing the working directory quickly.</li>
+<li>Many bug fixes.</li>
                           </ul>
                           
 						   <p>
                             <a href="./download.php?Cyberduck-2.1beta2.dmg"><b>2.1b2</b> <i>Aug-15-2003</i></a>
                           </p>
                           <ul>
-			    <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
+<li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
                           </ul>
                         </td>
                       </tr>
