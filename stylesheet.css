@@ -23,6 +23,11 @@
 		text-align:left;	
 	}
 	
+	input
+	{
+		width: 120px;
+	}
+	
 	.standard
 	{
 		background-color: #ffffff;

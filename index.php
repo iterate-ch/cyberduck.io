@@ -56,7 +56,7 @@
 						</p>
 						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 							<p>Your email address:
-								<input type="text" size="15" maxlength="20" name="email" value="" />
+								<input type="text" name="email" value="" />
 								<input type="submit" name="email-button" value="Subscribe" />
 							</p>
 						</form>
