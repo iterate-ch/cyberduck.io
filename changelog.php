@@ -103,28 +103,28 @@
                   </td>
                   <td class="box-dash">
                       <ul>
-                            <li>Much improved queue management (fewer connections)</li>
-                            <li>Resume downloads (SFTP)</li>
-                            <li>Resume uploads (SFTP)</li>
-                            <li>Resume uploads (FTP)</li>
-                            <li>Move files on remote host by drag and drop</li>
-                            <li>Drag files onto bookmark to quickly upload</li>
-                            <li>Bookmarks are shown in the menu</li>
-                            <li>Menu item 'Download As...'</li>
-                            <li>Editing multiple files in the external editor with the same name</li>
-                            <li>Warning if a duplicate exists when uploading files</li>
-                            <li>'Apply to all' checkbox in dialog asking for replace/resume/skip existing files</li>
-                            <li>Improved caching of directory listings</li>
-                            <li>When dropping files onto folders it will upload these into the folder</li>
-                            <li>When typing the first letter of a file it gets selected in the browser</li>
-                            <li>Toolbar button to remove all completed items from the queue</li>
-                            <li>Convert line endings when downloading in ASCII mode (FTP)</li>
-                            <li>Auto transfer mode (FTP)</li>
-                            <li>Dock menu item to open new browser</li>
-                            <li>Correctly updating incorrect keychain entries</li>
-                            <li>Preserve modification date when downloading files</li>
-                            <li>Ignoring .DS_Store files</li>
-                            <li>Bug fixes</li>
+<li>Much improved queue management (fewer connections)</li>
+<li>Resume downloads (SFTP)</li>
+<li>Resume uploads (SFTP)</li>
+<li>Resume uploads (FTP)</li>
+<li>Move files on remote host by drag and drop</li>
+<li>Drag files onto bookmark to quickly upload</li>
+<li>Bookmarks are shown in the menu</li>
+<li>Menu item 'Download As...'</li>
+<li>Editing multiple files in the external editor with the same name</li>
+<li>Warning if a duplicate exists when uploading files</li>
+<li>'Apply to all' checkbox in dialog asking for replace/resume/skip existing files</li>
+<li>Improved caching of directory listings</li>
+<li>When dropping files onto folders it will upload these into the folder</li>
+<li>When typing the first letter of a file it gets selected in the browser</li>
+<li>Toolbar button to remove all completed items from the queue</li>
+<li>Convert line endings when downloading in ASCII mode (FTP)</li>
+<li>Auto transfer mode (FTP)</li>
+<li>Dock menu item to open new browser</li>
+<li>Correctly updating incorrect keychain entries</li>
+<li>Preserve modification date when downloading files</li>
+<li>Ignoring .DS_Store files</li>
+<li>Bug fixes</li>
                       </ul>
                   </td>
                 </tr>
@@ -363,11 +363,7 @@
                   <td colspan="2"></td>
                   <td>
                         <div align="right">
-<<<<<<< changelog.php
                             <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-=======
-                            <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
->>>>>>> 1.38
                     </div>
                   </td>
                 </tr>

@@ -50,7 +50,11 @@
                             <li>FTP-SSL Support</li>
                             <li>Supporting ssh-agent Authentication</li>
                             <li>Kerberos (GSSAPI) Authentication</li>
-                            <li>Netware FTP Parser</li>
+                            <li><strike>Apply permissions recursively</strike> [v2.4]</li>
+                            <li><strike>Support for Novell Netware file listings (FTP)</strike> [v2.4]</li>
+                            <li><strike>Synchronization</strike> [v2.4]</li>
+                            <li><strike>Select a file in the browser by typing its first character</strike> [v2.4]</li>
+                            <li><strike>Limit number of open simultanous connections to a remote host</strike> [v2.4]</li>
                       </ul>
                   </td>
                 </tr>
