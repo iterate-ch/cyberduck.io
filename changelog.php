@@ -30,7 +30,7 @@
 					<td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
-					<td colspan="2" valign="top"><strong>2.4b3</strong> <em>January-29-2004</em> <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
+					<td colspan="2" valign="top"><strong>2.4b3</strong> <em>January-29-2005</em> <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
 					<td class="box-dash">
 						<ul>
 							<li>[Localize] Russian Localization</li>

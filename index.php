@@ -94,7 +94,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3" class="alert"><strong>Requirements</strong>: As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. Previous versions may run on 10.2 with some limitations; your mileage may vary.
+					<td colspan="3" class="alert"><strong>Requirements</strong>: As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.
 					</td>
 				</tr>
 				<tr>
