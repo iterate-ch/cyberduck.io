@@ -15,7 +15,7 @@
 							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
-					<td width="100%" class="box-solid">
+					<td width="100%" colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,7 +27,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid">
+					<td colspan="2" class="box-solid">
 						<div align="left">
 							<strong>license</strong>
 						</div>
@@ -39,7 +39,7 @@
 							<img src="./img/gnu.jpg" alt="GNU GPL Software" border="0" />
 						</div>
 					</td>
-					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
+					<td colspan="2" bgcolor="#FFFFFF" valign="top" class="box-dash">
 						<p>Copyright (c) 2004 David Kocher. All rights reserved.</p>
 						<p>This program is free software; you can redistribute it and/or modify it under the terms of the <a href="License.txt">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 						</p>
@@ -49,11 +49,11 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td bgcolor="#FFFFFF" valign="top" class="box-dash">This products includes software developed by <strong>sshtools.com</strong> (<a href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a href="http://jakarta.apache.org">http://jakarta.apache.org</a>).
+					<td colspan="2" bgcolor="#FFFFFF" valign="top" class="box-dash">This products includes software developed by <strong>sshtools.com</strong> (<a href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a href="http://jakarta.apache.org">http://jakarta.apache.org</a>).
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3">
+					<td colspan="4">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

@@ -15,7 +15,7 @@
 							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
-					<td width="100%" class="box-solid">
+					<td width="100%" colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,12 +27,12 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
+					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 
 				<tr>
 					<td colspan="2" valign="top"><strong>2.4b4</strong> <em>February-03-2005</em> <a href="./Cyberduck-2.4b4.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Bugfix] Dragging files to the Finder</li>
 							<li>[Bugfix] Reordering bookmarks</li>
@@ -47,7 +47,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.4b3</strong> <em>January-29-2005</em> <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Localize] Russian Localization</li>
 							<li>[Feature] Preliminary AppleScript support (see .scpt script samples)</li>
@@ -68,7 +68,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.4b2</strong> <em>January-06-2005</em> <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename
 							</li>
@@ -88,7 +88,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-28-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Feature] Synchronization of files</li>
 							<li>[Feature] Create new files on server</li>
@@ -131,7 +131,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3.3</strong> <em>August-09-2004</em> <a href="./Cyberduck-2.3.3.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Bugfix] Correctly parsing symbolic links</li>
 						</ul>
@@ -139,7 +139,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3.2</strong> <em>August-05-2004</em> <a href="./Cyberduck-2.3.2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Feature] Slovak Localization</li>
 							<li>[Feature] Czech Localization</li>
@@ -157,7 +157,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3.1</strong> <em>June-15-2004</em> <a href="./Cyberduck-2.3.1.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Chinese (Simplified) Localization</li>
 							<li>Rendezvous services in Bookmark menu</li>
@@ -172,7 +172,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3</strong> <em>May-15-2004</em> <a href="./Cyberduck-2.3.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Supporting Keyboard Interactive (PAM) Authentication (SSH)</li>
 							<li>Finnish Localization</li>
@@ -183,7 +183,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3b2</strong> <em>Apr-27-2004</em> <a href="./Cyberduck-2.3beta2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Much improved queue management (fewer connections)</li>
 							<li>Resume downloads (SFTP)</li>
@@ -212,7 +212,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.3b1</strong> <em>Mar-09-2004</em> <a href="./Cyberduck-2.3beta1.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>External editor support (SubEthaEdit, BBEdit, TextWrangler, Text-Edit Plus)</li>
 						</ul>
@@ -220,7 +220,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2</strong> <em>Mar-06-2004</em> <a href="./Cyberduck-2.2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Supporting folders with sticky/set-uid/set-gid bits (FTP)</li>
 							<li>Updated Dutch localization</li>
@@ -231,7 +231,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b6</strong> <em>Feb-25-2004</em> <a href="./Cyberduck-2.2beta6.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Preliminary support for Windows, VMS and OS/2 file listings (FTP)</li>
 							<li>Properly deleting symbolic links (FTP)</li>
@@ -245,7 +245,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b5</strong> <em>Feb-12-2004</em> <a href="./Cyberduck-2.2beta5.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Chinese (Traditional) Localization</li>
 							<li>Korean Localization</li>
@@ -265,7 +265,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b4</strong> <em>Jan-31-2004</em> <a href="./Cyberduck-2.2beta4.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Fixed a bug that with some servers the permissions could not be modified (FTP)</li>
 							<li>When addding a transfer to the queue it is highlighted</li>
@@ -276,7 +276,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b3</strong> <em>Jan-25-2004</em> <a href="./Cyberduck-2.2beta3.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Caching folder listings</li>
 							<li>Auto-refresh the folder listing after uploading a file</li>
@@ -287,7 +287,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b2</strong> <em>Jan-24-2004</em> <a href="./Cyberduck-2.2beta2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Updated Japanese localization</li>
 							<li>Updated French localization</li>
@@ -300,7 +300,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.2b1</strong> <em>Jan-22-2004</em> <a href="./Cyberduck-2.2beta1.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Keychain integration</li>
 							<li>New file transfer manager</li>
@@ -322,7 +322,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.1</strong> <em>Dec-08-2003</em> <a href="./Cyberduck-2.1.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Bookmarks can now be edited.</li>
 							<li>Bookmarks can now be saved as a regular file (Drag the bookmarks to the Finder).</li>
@@ -346,7 +346,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.1b5</strong> <em>Aug-29-2003</em> <a href="./Cyberduck-2.1beta5.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
 							<li>Cyberduck can now be configured as the default FTP helper application. See <a href="http://www.monkeyfood.com/software/moreInternet/">monkeyfood.com</a>. This seems to work with Safari and Internet Explorer.
@@ -362,7 +362,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.1b4</strong> <em>Aug-22-2003</em> <a href="./Cyberduck-2.1beta4.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Cyberduck now has the official creator code 'CYCK'.</li>
 							<li>Bug fixes</li>
@@ -371,7 +371,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.1b3</strong> <em>Aug-17-2003</em> <a href="./Cyberduck-2.1beta3.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Localization support</li>
 							<li>Files and foldes can now be dragged to the Finder to download them.</li>
@@ -391,7 +391,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.1b2</strong> <em>Aug-15-2003</em> <a href="./Cyberduck-2.1beta2.dmg">Download</a></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
 						</ul>
@@ -400,8 +400,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td>
+					<td colspan="4" >
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

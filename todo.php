@@ -15,7 +15,7 @@
 							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
-					<td width="100%" class="box-solid">
+					<td width="100%" colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,16 +27,16 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong>todo</strong></td>
+					<td colspan="2" class="box-solid"><strong>todo</strong></td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="alert">Contributors needed! Anyone willing to work on a subject listed below or another part of the project is welcome.
+					<td colspan="2" class="alert">Contributors needed! Anyone willing to work on a subject listed below or another part of the project is welcome.
 					</td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Column View</li>
 							<li>Outline View</li>
@@ -54,7 +54,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td>
+					<td colspan="2">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

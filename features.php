@@ -15,7 +15,7 @@
 							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
-					<td width="100%" class="box-solid">
+					<td width="100%" colspan="2"class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,11 +27,11 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong>features</strong></td>
+					<td  colspan="2"class="box-solid"><strong>features</strong></td>
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Browse SFTP and FTP servers</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top"  colspan="2"class="box-dash">
 						<ul>
 							<li>User friendly interface!</li>
 							<li>Open multiple simultaneous connections</li>
@@ -51,13 +51,13 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Localizations</strong></td>
-					<td valign="top" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
+					<td valign="top"  colspan="2"class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
 						</em>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Seamless integration with external editors</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<table>
 							<tr>
 								<td>
@@ -80,7 +80,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Bookmarking</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Drag and drop to save bookmark as a file</li>
 							<li>Drag proxy icon in the window title bar to the Finder</li>
@@ -91,7 +91,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Keychain support</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>All passwords are stored in the system keychain as Internet passwords available also to third party applications
 							</li>
@@ -100,7 +100,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Secure file transfers with SFTP</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Public key authentication (SSH)</li>
 							<li>Keyboard Interactive (PAM) Authentication (SSH)</li>
@@ -109,7 +109,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Transfers <a href="./img/transfer.png">(Screenshot)</a></strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Resume downloads (FTP and SFTP)</li>
 							<li>Resume uploads (FTP and SFTP)</li>
@@ -121,7 +121,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Synchronize <a href="./img/sync.png">(Screenshot)</a></strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Synchronize local with remote directories (and vice versa)</li>
 							<li>Choose to download/upload missing files</li>
@@ -132,7 +132,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Modify permissions <a href="./img/info.png">(Screenshot)</a></strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Modify permissions on multiple files</li>
 							<li>Modify permissions recursivly</li>
@@ -141,7 +141,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Rendezvous support</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<div align="left">
 							<img src="./img/rendezvous2.png" alt="Rendezvous support" border="0" />
 						</div>
@@ -149,7 +149,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>AppleScript support</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Full AppleScript integration. See the <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/"> sample scripts</a> (included on the disk image).
 							</li>
@@ -158,7 +158,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Growl support</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Support for growl, the global notification system for Mac OS X. See <a href="http://growl.info/">growl.info</a> for more information.</li>
 						</ul>
@@ -166,7 +166,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Cyberduck Finder integration</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Use as default system wide protocol handler; requires <a href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.
 							</li>
@@ -177,7 +177,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>ASCII and binary FTP transfers</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Convert line endings on the fly in ASCII transfers</li>
 							<li>Choose from Auto, Binary or ASCII</li>
@@ -186,7 +186,7 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Transcript</strong></td>
-					<td valign="top" class="box-dash">
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Solving connection problems</li>
 							<li>Live scrolling</li>
@@ -194,7 +194,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3">
+					<td colspan="4">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

@@ -15,7 +15,7 @@
                         <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
                     </div>
                 </td>
-                <td width="100%" class="box-solid">
+                <td width="100%" colspan="2" class="box-solid">
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,11 +27,11 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong>source code</strong></td>
+					<td colspan="2" class="box-solid"><strong>source code</strong></td>
 				</tr>
 				<tr>
 					<td colspan="2" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
-					<td valign="top" class="box-dash">
+					<td colspan="2" valign="top" class="box-dash">
 						<p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU
 								General Public Licence
 							</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and
@@ -55,7 +55,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-dash">
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
 								<a href="cyberduck-src-2.4beta4.tar.gz">cyberduck-src-2.4b4.tar.gz</a>
@@ -169,7 +169,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3">
+					<td colspan="4">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>
