@@ -39,18 +39,18 @@
                   </td>
                   <td class="box-dash">
                       <ul>
-<li>[Feature] Slovak Localization</li>
-<li>[Feature] Czech Localization</li>
-<li>[Feature] Support for EPFL file listings to support servers running "publicfile" (FTP)</li>
-<li>[Bugfix] Improved PASV response parsing (FTP)</li>
-<li>[Bugfix] Better parsing symbolic links</li>
-<li>[Feature] Supporting SOCKS proxies (not tested)</li>
-<li>[Feature] Change file permissions on multiple files</li>
-<li>[Feature] Copy the URL of a remote site</li>
-<li>[Bugfix] Use date formatting rules set in the System Preferences</li>
-<li>[Featuer] Preference item to set the action when double-clicking files (Download or edit)</li>
-<li>[Bugfix] Remembering the position of the browser window</li>
-<li>[Bugfix] Compatibility with servers not supporting the SIZE command (FTP)</li>
+<li>Slovak Localization</li>
+<li>Czech Localization</li>
+<li>Support for EPFL file listings to support servers running "publicfile" (FTP)</li>
+<li>Improved PASV response parsing (FTP)</li>
+<li>Better parsing symbolic links</li>
+<li>Supporting SOCKS proxies (not tested)</li>
+<li>Change file permissions on multiple files</li>
+<li>Copy the URL of a remote site</li>
+<li>Use date formatting rules set in the System Preferences</li>
+<li>Preference item to set the action when double-clicking files (Download or edit)</li>
+<li>Remembering the position of the browser window</li>
+<li>Compatibility with servers not supporting the SIZE command (FTP)</li>
                       </ul>
                   </td>
                 </tr>
