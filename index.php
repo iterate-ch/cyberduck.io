@@ -15,7 +15,7 @@
                 </tr>
                 <tr>
                   <td colspan="2" class="box-solid">
-                      <img src="img/cyberduck.icon.jpg" align="center" width="128" height="128" alt="Cyberduck" border="0"></img>
+                      <img src="img/cyberduck.icon.jpg" align="middle" width="128" height="128" alt="Cyberduck" border="0"></img>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
