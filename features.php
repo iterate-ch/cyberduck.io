@@ -75,6 +75,10 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Document based interface</td>
                         </tr>
                         <tr>
+                            <td class="box-filled">Seamless integration with external editors 
+                            (<a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, BBEdit, TextWrangler, Text-Edit Plus)</td>
+                        </tr>
+                        <tr>
                             <td class="box-filled">Manage bookmarks</td>
                         </tr>
                         <tr>

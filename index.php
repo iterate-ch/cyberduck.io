@@ -106,7 +106,10 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-			<li><b>2.2</b> <i>Mar-06-2004</i><br />
+			             <li><b>2.3b1</b> <i>Mar-09-2004</i> <small>(With external editor support)</small><br />
+                        <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
+                        </li>
+			             <li><b>2.2</b> <i>Mar-06-2004</i><br />
                         <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
                         </li>
                     </ul>
