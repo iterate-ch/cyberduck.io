@@ -112,7 +112,7 @@
 							</li>
 						</ul>
 						<p>
-							You may also want to install Growl, a global notification system Cyberduck supports:
+							You may also want to install <a href="http://growl.info">Growl</a>, a global notification system Cyberduck supports:
 						</p>
 						<a href="http://growl.info"><img src="./img/getgrowl.png" alt="getgrowl" border="0" /></a>
 					</td>
