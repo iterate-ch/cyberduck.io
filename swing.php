@@ -10,7 +10,11 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="2"></td>
+                  <td colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0">
+                    </div>
+                  </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
@@ -27,15 +31,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="top" class="box-solid">
-                    <div align="center">
-                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="" border="0">
-                    </div>
-                  </td>
+                  <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
-                    <table border="0" width="100%">
-                      <tr>
-                        <td>
 			<b>This version of Cyberduck is outdated. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.</b>
                           <p>
                             cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager
@@ -49,23 +46,25 @@
                           <p>
                             i appreciate any comments, feature suggestions and bug reports. please send them directly to <a href="mailto:dkocher@icu.unizh.ch?subject=cyberduck comment">me.</a>
                           </p>
+                        </td>
+                      </tr>
+		                <tr>
+		                  <td colspan="2" valign="top" class="box-solid">
+		                    <div align="center">
+		                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		                            <input type="hidden" name="cmd" value="_xclick">
+		                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
+		                            <input type="hidden" name="item_name" value="cyberduck">
+		                            <input type="hidden" name="item_number" value="cyberduck">
+		                            <input type="hidden" name="return" value="http://cyberduck.ch">
+		                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
+		                          </form>
+					  </div>
+		                  </td>
+	                  <td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
                           </p>
-                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_xclick">
-                            <input type="hidden" name="business" value="dkocher@icu.unizh.ch">
-                            <input type="hidden" name="item_name" value="cyberduck">
-                            <input type="hidden" name="item_number" value="cyberduck">
-                            <input type="hidden" name="return" value="http://dewww.epfl.ch/~dkocher/cyberduck/index.html">
-                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
-                          </form>
-                          <p>
-                            software written by <a href="mailto:dkocher@cyberduck.ch">david kocher</a>, switzerland.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
                   </td>
                 </tr>
                 <tr>
@@ -143,43 +142,10 @@
                             <b>version 2.0b3</b>
                           </p>
                           <ul>
-                          <!--
-                            <li><b>cyberduck for mac os x: </b><br>
-                            <a href="./download.php?Cyberduck-2.0beta3.dmg.gz">Cyberduck-2.0beta3.dmg.gz</a>, gzipped disk image
-                            <p>
-                              double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
-                            </p>
-                            </li>
-                            -->
-                          </ul>
-                          <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
-                            <a href="download.php?Cyberduck-2.0beta3.zip">Cyberduck-2.0beta3.zip </a>, zipped file suitable for windows <br>
-                            <b>or</b> <br>
-                            <a href="download.php?Cyberduck-2.0beta3.tar.gz">Cyberduck-2.0beta3.tar.gz </a>, tar, gzipped file suitable for unixes
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <p>
-                            <b>version 2.0b2</b>
-                          </p>
-                          <ul>
-                          <!--
-                            <li><b>cyberduck for mac os x: </b><br>
-                            <a href="./download.php?Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg.gz</a>, gzipped disk image
-                            <p>
-                              double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
-                            </p>
-                            </li>
-                            -->
-                          </ul>
-                          <ul>
-                            <li><b>cyberduck for any java platform:</b> <br>
-                            <a href="download.php?Cyberduck-beta2.zip">Cyberduck-beta2.zip </a>, zipped file suitable for windows <br>
-                            <b>or</b> <br>
-                            <a href="download.php?Cyberduck-beta2.tar.gz">Cyberduck-beta2.tar.gz </a>, tar, gzipped file suitable for unixes
-                            </li>
+                            <a href="download.php?Cyberduck-2.0beta3.zip">Cyberduck-2.0beta3.zip </a>, <b>or</b>
+                            <a href="download.php?Cyberduck-2.0beta3.tar.gz">Cyberduck-2.0beta3.tar.gz </a>
+							</li>
                           </ul>
                         </td>
                       </tr>
@@ -285,7 +251,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
+                  <td colspan="2" class="box-solid">
+                    <div align="center">
+                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
+                    </div>
+		</td>
                   <td bgcolor="#ffcc33" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
@@ -304,11 +274,16 @@
                     </table>
                   </td>
                 </tr>
-      </table>
+		<tr>
+                  <td colspan="2"></td>
+		    <td>
       <div align="right">
             <?php echo(echofooter(".."));?>
 	    $Date$
     </div>
+		    </td>
+		</tr>
+      </table>
     </div>
   </body>
 </html>
