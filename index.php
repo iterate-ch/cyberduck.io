@@ -138,20 +138,11 @@
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
-<<<<<<< index.php
 			<ul>
 			<li><b>2.1beta1</b><br>
 			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta1.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
-=======
-					<ul>
-						<li><b>2.1b1</b><br>
-						<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1b1.dmg</a>, disk image
-						</li>
-					</ul>
-				    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
->>>>>>> 1.13
                   </td>
                 </tr>
                 <tr>
