@@ -121,11 +121,17 @@
                           </p>
                   </td>
                 </tr>
-                
+                <tr>
+                  <td colspan="3" valign="top" class="alert">
+                            <b>Beta testers needed!</b> You want Cyberduck to get better? I am looking for beta testers for the next release which will feature a download queue, keychain integration and more. Contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Beta Testing">me</a> if you are interested.
+                  </td>
+                </tr>
+                <tr>
+                </tr>
                   <td colspan="3" valign="top" class="alert">
                             <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
-                  </td>
-
+                 </td>
+                </tr>
                 <tr>
                   <td colspan="3" valign="top">
 			<a href="./img/Cyberduck000.png"><img align="middle" width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
