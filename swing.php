@@ -43,7 +43,7 @@
                              and http/ftp client. you can store urls as bookmarks, manage your 
                              downloads and use the ftp capabilities to browse the contents of a 
                              ftp server or i.e. upload your website to the remote ftp server. 
-                             cyberduck is written in <a href="http://java.sun.com/">java&#153</a>. 
+                             cyberduck is written in <a href="http://java.sun.com/">Java</a>. 
                              and runs on any java 2 runtime environment. there is a version built for 
                              mac os x, packaged as a double clickable application bundle.
                           </p>
@@ -153,6 +153,7 @@
                     </table>
                   </td>
                 </tr>
+
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">

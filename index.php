@@ -38,6 +38,7 @@
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> for the <a href="http://www.apple.com/macosx">Mac</a>. It features a intuitive 
 			    user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 			</p>
+			<div align="center"><img src="./img/Cyberduck000.png"></div>
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=cyberduck comment">me.</a>
                           </p>
@@ -57,6 +58,28 @@
                           </p>
                   </td>
                 </tr>
+		
+                <tr>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="download">download</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+						<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
+                    </div>
+                  </td>
+                  <td bgcolor="#ffcc33" class="box-dash">
+			<ul>
+			<li><b>2.1beta1</b><br>
+			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta1.dmg</a>, disk image</li>
+			</ul>
+		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
+                  </td>
+                </tr>
+
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
@@ -69,12 +92,12 @@
                           <p>
                             Cyberduck features the same intuitive interface for both FTP and SFTP browsing. You can open
 			    connections to multiple servers thanks to its document based interface. A simple favorites
-			    manager allows you to store freuqently used servers.  As a supplement it is possible to 
-			    download files directly using HTTP or FTP, too.
+			    manager allows you to store freuqently used servers. <!-- As a supplement it is possible to 
+			    download files directly using HTTP or FTP, too.-->
 			    <br>
-			    The SSH core is from
-			    SSH core from <a href="http://sshtools.com">sshtools.com</a>. FTP core from 
-			    <a href="http://www.enterprisedt.com"> enterprisedt.com</a>
+			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
+			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>. HTTP protocol stack from 
+			    <a href="http://jakarta.apache.org/commons/httpclient/">jakarta.apache.org</a>.
 			    <br>
 			    Feature table:
                           </p>
@@ -182,53 +205,39 @@
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" class="box-dash">
-					<table width="100%" border="0" align="center">
+		    <table width="100%" border="0" align="center">
                       	<tr>
-						<td>
-							<div align="center">
-								<a href="./img/screenshot1.png" target="_blank"><img src="./img/screenshot1-thumb.png"></a>
-							</div>
-						</td>
-						<td>
-							<div align="center">
-								<a href="./img/screenshot2.png" target="_blank"><img src="./img/screenshot2-thumb.png"></a>
-							</div>
-						</td>
-						</tr>
-						
-                     	<tr>
-						<td>
-							<div align="center">
-								<a href="./img/screenshot3.png" target="_blank"><img src="./img/screenshot3-thumb.png"></a>
-							</div>
-						</td>
-						<td>
-							<div align="center">
-								<a href="./img/screenshot4.png" target="_blank"><img src="./img/screenshot4-thumb.png"></a>
-							</div>
-						</td>
-						</tr>
+			    <td>
+				    <div align="center">
+					    <img src="./img/Cyberduck001.png">
+					    <p>Browsing SFTP Server directory</p>
+				    </div>
+			    </td>
+			</tr>
+                      	<tr>
+			    <td>
+				    <div align="center">
+					    <img src="./img/Cyberduck002.png">
+					    <p>Edit permissions on remote files</p>
+				    </div>
+			    </td>
+			</tr>
+                      	<tr>
+			    <td>
+				    <div align="center">
+					    <img src="./img/Cyberduck003.png">
+					    <p>Uploading mail attachement with drag and drop to SFTP server</p>
+				    </div>
+			    </td>
+			</tr>
+			    <td>
+				    <div align="center">
+					    <img src="./img/Cyberduck004.png"></a>
+					    <p>Add Favorites</p>
+				    </div>
+			    </td>
+			</tr>
                     </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2"></td>
-                  <td class="box-solid">
-                      <a name="download">download</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" valign="top" class="box-solid">
-                    <div align="center">
-						<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
-                    </div>
-                  </td>
-                  <td bgcolor="#ffcc33" class="box-dash">
-			<ul>
-			<li><b>2.1beta1</b><br>
-			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta1.dmg</a>, disk image</li>
-			</ul>
-		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
                 </tr>
                 <tr>
