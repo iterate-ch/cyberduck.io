@@ -104,12 +104,17 @@
 						</div>
 					</td>
 					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
+						<a name="download"</a>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
 							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
-								<a href="./Cyberduck-2.4b4.dmg">Cyberduck-2.4b4.dmg</a>
+								<a href="./Cyberduck-2.4b4.dmg">Cyberduck-2.4b4.dmg</a> <a href="./Cyberduck-2.4b4.dmg"><i>(Download)</i></a>
 							</li>
 						</ul>
+						<p>
+							You may also want to install Growl, a global notification system Cyberduck supports:
+						</p>
+						<a href="http://growl.info"><img src="./img/getgrowl.png" alt="getgrowl" border="0" /></a>
 					</td>
 				</tr>
 				<!-- ======= Mailing list ======== -->

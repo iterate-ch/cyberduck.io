@@ -157,6 +157,14 @@
 					</td>
 				</tr>
 				<tr>
+					<td valign="top" colspan="2"><strong>Growl support</strong></td>
+					<td valign="top" class="box-dash">
+						<ul>
+							<li>Support for growl, the global notification system for Mac OS X. See <a href="http://growl.info/">growl.info</a> for more information.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td valign="top" colspan="2"><strong>Cyberduck Finder integration</strong></td>
 					<td valign="top" class="box-dash">
 						<ul>
