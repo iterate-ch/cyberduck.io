@@ -74,7 +74,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Browse SFTP/FTP servers</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">Open multiple connections</td>
+                            <td class="box-filled">Open multiple simultaneous connections</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Document based interface</td>
@@ -104,7 +104,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Resume interrupted or failed downloads (FTP)</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">Drag and drop to transfer files</td>
+                            <td class="box-filled">Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Rename files</td>
