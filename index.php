@@ -64,7 +64,7 @@
 						</div>
 					</td>
 					<td width="100%" bgcolor="#FF9900" valign="top" class="box-dash">
-						<p class="emphasized"><strong>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPalâ€”it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.
+						<p class="emphasized"><strong>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal - €”it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.
 							</strong>
 						</p>
 					</td>

@@ -4,7 +4,7 @@
         <head>
         <link rel=\"Shortcut Icon\" href=\"".$dir."/favicon.ico\"></link>
         <link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
-        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></meta>
+        <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\"></meta>
         <title>".$title."</title>
         </head>
         ";
