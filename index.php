@@ -8,7 +8,7 @@
     <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
-      <table border="0" cellpadding="5" cellspacing="5" width="800">
+      <table border="0" cellpadding="5" cellspacing="5" width="100%">
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
@@ -368,12 +368,11 @@
                     </table>
                   </td>
                 </tr>
-        <tr>
-          <td>
-            <?php echo(echofooter(".."));?>
-          </td>
-        </tr>
       </table>
+      <div align="right">
+            <?php echo(echofooter(".."));?>
+	    $Date$
+    </div>
     </div>
   </body>
 </html>
