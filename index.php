@@ -112,21 +112,21 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><b>2.3.1</b> <i>June-09-2004</i><br />
-                            <a href="./download.php?Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
+                        <li><b>2.3.1</b> <i>June-12-2004</i><br />
+                            <a href="./Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
                         </li>
                         <!--
                         <li><b>2.3</b> <i>May-15-2004</i><br />
-                            <a href="./download.php?Cyberduck-2.3.dmg">Cyberduck-2.3.dmg</a>
+                            <a href="./Cyberduck-2.3.dmg">Cyberduck-2.3.dmg</a>
                         </li>
                         <li><b>2.3b2</b> <i>Apr-27-2004</i><br />
-                            <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
+                            <a href="./Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
                         <li><b>2.3b1</b> <i>Mar-09-2004</i><br />
-                            <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
+                            <a href="./Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
                         </li>
                         <li><b>2.2</b> <i>Mar-06-2004</i><br />
-                            <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
+                            <a href="./Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
                         </li>
                         -->
                     </ul>
