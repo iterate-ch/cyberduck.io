@@ -35,7 +35,7 @@
 
                 <tr>
                   <td colspan="2" valign="top">
-							<b>2.3.1</b> <i>June-12-2004</i> <a href="./Cyberduck-2.3.1.dmg">Download</a>
+							<b>2.3.1</b> <i>June-15-2004</i> <a href="./Cyberduck-2.3.1.dmg">Download</a>
                   </td>
                   <td class="box-dash">
                       <ul>

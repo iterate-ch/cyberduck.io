@@ -27,7 +27,12 @@
                 </tr>
                 <?php echo(echoSoftwarePatents());?>
                 <tr>
-                  <td colspan="3" width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
+					<p>
+						<i>"Built with an easy-to-use interface, this free, GPL-licensed FTP browser is a lean, mean, file-managing machine. Cyberduck 2.3.1 offers feature-rich FTP file management and handles basic tasks with ease."</i> (<a href="http://download.com">download.com</a>)
+					</p>
+                  </td>
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
             SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. A simple bookmark manager ensures manageability. Core system technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> and BBEdit.
