@@ -2,7 +2,6 @@
 	   "http://www.w3.org/TR/html4/loose.dtd">
 <?php
   include "../functions.php";
-  include "../graphics.php";
 ?>
 <html lang="en">
     <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
