@@ -98,13 +98,15 @@
 			<p>
 			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 				<br>
-			    You can open connections to multiple servers thanks to its document based interface. A simple bookmark manager allows you to store frequently-used servers.
-				<br>
+			    You can open connections to multiple servers thanks to its document based interface.
+			    <br>
+                A bookmark manager allows you to store frequently-used servers. Bookmarks can be exported as a regular file by dragging them to the Finder.
+                <br>
 			    Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
 				<br>
 			    	File deletion and renaming, checking and changing of permissions is possible with a Finder-like info panel.
 				<br>
-					<a href="http://www.apple.com/macosx/jaguar/rendezvous.html">Rendezvous</a> is supported.
+					<a href="http://www.apple.com/macosx/rendezvous.html">Rendezvous</a> is supported.
 				<br>
 			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
 			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
