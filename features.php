@@ -66,7 +66,10 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                 <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <table width="100%" border="0" align="center"> 
                         <tr>
-                            <td class="box-filled">Browse SFTP/FTP servers</td>
+                            <td class="box-filled">Browse SFTP and FTP servers</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Open multiple simultaneous connections</td>
@@ -75,8 +78,13 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Document based interface</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">Seamless integration with external editors 
-                            (<a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, BBEdit, TextWrangler, Text-Edit Plus)</td>
+                            <td class="box-filled">
+                                Seamless integration with external editors
+                                <ul>
+                                <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
+                                <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
+                                <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
+                                <li>Text-Edit Plus</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Manage bookmarks</td>
@@ -88,10 +96,19 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Public key authentication (SSH)</td>
                         </tr>
                         <tr>
-                            <td class="box-filled"><a href="./img/transfer.png">Transfer manager</a></td>
+                            <td class="box-filled">
+                                Transfer Queue <a href="./img/transfer.png">(Screenshot)</a>
+                                <ul>
+                                    <li>Resume downloads (FTP and SFTP)</li>
+                                    <li>Resume uploads (FTP and SFTP)</li>
+                                    <li>Download folders (recursive)</li>
+                                    <li>Upload folders (recursive)</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="box-filled"><a href="./img/encoding.png">Support for various encodings</a></td>
+                            <td class="box-filled">
+                            Support for various encodings <a href="./img/encoding.png">(Screenshot)</a></td>
                         </tr>
                         <tr>
                             <td class="box-filled">Live filtering of directory listings</td>
@@ -112,10 +129,11 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Delete files</td>
                         </tr>
                         <tr>
-                            <td class="box-filled"><a href="./img/info.png">Modify permissions</a></td>
+                            <td class="box-filled">
+                            Modify permissions <a href="./img/info.png">(Screenshot)</a></td>
                         </tr>
                         <tr>
-                            <td class="box-filled">History of connected hosts</td>
+                            <td class="box-filled">History of recently connected hosts</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Caching folder listings</td>
@@ -127,13 +145,10 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                             <td class="box-filled">Passive and active FTP mode</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">ASII and binary FTP transfers</td>
+                            <td class="box-filled">ASCII and binary FTP transfers</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Transcript</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</td>
                         </tr>
                     </table>
                 </td>
