@@ -169,8 +169,8 @@
                   <td colspan="2"></td>
 		    <td>
     			<div align="right">
-            			<?php echo(echofooter(".."));?>
-	    			$Date$
+                    <?php echo(echofooter(".."));?>
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>
 		</tr>

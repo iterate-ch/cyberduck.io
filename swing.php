@@ -286,7 +286,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
 		    <td>
       <div align="right">
             <?php echo(echofooter(".."));?>
-	    $Date$
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
     </div>
 		    </td>
 		</tr>

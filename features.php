@@ -145,7 +145,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
 		    <td>
     			<div align="right">
             			<?php echo(echofooter(".."));?>
-	    			$Date$
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>
 		</tr>

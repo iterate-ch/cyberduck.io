@@ -71,7 +71,7 @@ GNU General Public License for more details.
 		    <td>
     			<div align="right">
             			<?php echo(echofooter(".."));?>
-	    			$Date$
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>
 		</tr>

@@ -83,7 +83,7 @@
                         </p>
                       <p>
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
-                        I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Comment">me.</a>
+                        I appreciate any comments, feature suggestions and bug reports.</a>
                       </p>
                   </td>
                 </tr>
@@ -167,7 +167,7 @@
 		          <td>
     			     <div align="right">
             			<?php echo(echofooter(".."));?>
-	    			    $Date$
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		     </div>
 		          </td>
 		      </tr>
