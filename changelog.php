@@ -67,6 +67,15 @@
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
+							<a href="./download.php?Cyberduck-2.2beta3.dmg"><b>2.2b3</b> <i>Jan-25-2004</i></a>
+                          </p>
+                          <ul>
+<li>Caching folder listings</li>
+<li>Auto-refresh the folder listing after uploading a file</li>
+<li>Sending 'LIST -a' to list directories with FTP</li>
+                          </ul>
+
+						   <p>
 							<a href="./download.php?Cyberduck-2.2beta2.dmg"><b>2.2b2</b> <i>Jan-24-2004</i></a>
                           </p>
                           <ul>
@@ -77,6 +86,7 @@
 <li>The log is now written with a fixed-width font</li>
 <li>Various minor improvements</li>
                           </ul>
+                          
 						   <p>
 							<a href="./download.php?Cyberduck-2.2beta1.dmg"><b>2.2b1</b> <i>Jan-22-2004</i></a>
                           </p>
@@ -97,6 +107,7 @@
 <li>French Localization</li>
 <li>Various improvements and bug fixes</li>
                           </ul>
+                          
 						   <p>
 							<a href="./download.php?Cyberduck-2.1.dmg"><b>2.1</b> <i>Dec-08-2003</i></a>
                           </p>
@@ -117,6 +128,7 @@
 <li>German Localization</li>
 <li>Smaller changes and bug fixes.</li>
                           </ul>
+                          
 						   <p>
 							<a href="./download.php?Cyberduck-2.1beta5.dmg"><b>2.1b5</b> <i>Aug-29-2003</i></a>
                           </p>
@@ -128,7 +140,8 @@
 <li>The buffer size (the size of download chunks to keep in memory before writing to disk) is now adjustable.</li>
 <li>Login to anonymous FTP servers where no password is needed is now supported.</li>
 <li>Smaller bug fixes</li>
-                          </ul>                          
+                          </ul> 
+                                                   
 						   <p>
 							<a href="./download.php?Cyberduck-2.1beta4.dmg"><b>2.1b4</b> <i>Aug-22-2003</i></a>
                           </p>

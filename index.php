@@ -149,9 +149,9 @@
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-						<li><b>2.2b2</b> <i>Jan-22-2004</i><br />
+						<li><b>2.2b3</b> <i>Jan-25-2004</i><br />
 						  <?php 
-							$file = "Cyberduck-2.2beta2.dmg";
+							$file = "Cyberduck-2.2beta3.dmg";
 							$counter = $file.".counter";
 							touch($counter);
                             $open = fopen($counter, "r");
