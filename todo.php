@@ -38,7 +38,7 @@
                     <ul>
                         <li>Column View</li>
                         <li>Outline View</li>
-                        <li>AppleScript Support</li>
+                        <li><strike>AppleScript Support</strike> [v2.4b3]</li>
                         <li>FTP-SSL Support</li>
 <!--                        <li>Supporting ssh-agent Authentication</li>-->
 <!--                        <li>Kerberos (GSSAPI) Authentication</li>-->
