@@ -29,6 +29,24 @@
                 <td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
             </tr>
             <tr>
+                <td colspan="2" valign="top"><strong>2.4b2</strong> <em>January-06-2004</em> <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
+                <td class="box-dash">
+                    <ul>
+                        <li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename</li>
+                        <li>[Feature] A bookmark in the drawer can be selected by typing its hostname</li>
+                        <li>[Feature] Preserve the modification date on upload (SFTP)</li>
+                        <li>[Feature] Preserve the modification date on upload if the server supports 'CHMOD UTIME' (FTP)</li>
+                        <li>[Bugfix] Determine changed files based on modification date when synchronizing</li>
+                        <li>[Bugfix] Opening an URL linking to a file opens a browser window</li>
+                        <li>[Bugfix] Changing the username of a newly created bookmark of a connected server might affect an existing bookmark of the same server but with a different username.</li>
+                        <li>[Bugfix] Logging the response of 'LIST' (FTP)</li>
+                        <li>[Bugfix] Selection of bookmark in connection dialog</li>
+                        <li>[Bugfix] Performance issue in log view (thanks to Douglas Davidson)</li>
+                        <li>[Feature] Live scrolling log view</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-28-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
                 <td class="box-dash">
                     <ul>
