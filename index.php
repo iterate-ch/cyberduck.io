@@ -29,7 +29,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="bottom">
+                  <td width="128" colspan="2" valign="bottom">
                   	<p>
                   	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
                   	</p>
