@@ -67,7 +67,7 @@
 <b>2.3b1</b> <i>(planned)</i>
                           </p>
                           <ul>
-<li>External editor support</li>
+<li>External editor support (SubEthaEdit, BBEdit, TextWrangler, Text-Edit Plus)</li>
                           </ul>
 
 						   <p>
