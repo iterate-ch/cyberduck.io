@@ -35,19 +35,7 @@
 				<tr>
 					<td width="150"></td>
 					<td colspan="2" class="box-dash">
-						<ul>
-							<li>Column View</li>
-							<li>Outline View</li>
-							<li><strike>AppleScript Support</strike> [v2.4b3]</li>
-							<li>FTP-SSL Support</li>
-<!--                        <li>Supporting ssh-agent Authentication</li>-->
-<!--                        <li>Kerberos (GSSAPI) Authentication</li>-->
-							<li><strike>Apply permissions recursively</strike> [v2.4]</li>
-							<li><strike>Support for Novell Netware file listings (FTP)</strike> [v2.4]</li>
-							<li><strike>Synchronization</strike> [v2.4]</li>
-							<li><strike>Select a file in the browser by typing its first character</strike> [v2.4]</li>
-							<li><strike>Limit number of open simultanous connections to a remote host</strike> [v2.4]</li>
-						</ul>
+						<p>See <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/TODO?rev=1.2&content-type=text/vnd.viewcvs-markup">http://cvs.cyberduck.ch/cyberduck-cocoa/TODO</a></p>
 					</td>
 				</tr>
 				<tr>
