@@ -21,7 +21,7 @@
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
-                    	<br/>
+                    	<br />
                     	<h1>Cyberduck</h1>
 			<h3>FTP and SFTP Browser for Mac OS X</h3>
                     <div align="left">
@@ -67,24 +67,24 @@
 						        <tr>
 						          <td valign="top">
 						            <select name="rating">
-						              <option selected>--</option><br/>
-						              <option value="10">10</option><br/>
-						              <option value="9">9</option><br/>
-						              <option value="8">8</option><br/>
-						              <option value="7">7</option><br/>
-						              <option value="6">6</option><br/>
-						              <option value="5">5</option><br/>
-						              <option value="4">4</option><br/>
-						              <option value="3">3</option><br/>
-						              <option value="2">2</option><br/>
-						              <option value="1">1</option><br/>
+						              <option selected="selected">--</option>
+						              <option value="10">10</option>
+						              <option value="9">9</option>
+						              <option value="8">8</option>
+						              <option value="7">7</option>
+						              <option value="6">6</option>
+						              <option value="5">5</option>
+						              <option value="4">4</option>
+						              <option value="3">3</option>
+						              <option value="2">2</option>
+						              <option value="1">1</option>
 						            </select>
 						          </td>
 						          <td valign="top">
-						            <input type="hidden" name="ratinglid" value="492">
-						            <input type="hidden" name="ratinguser" value="outside">
-						            <input type="hidden" name="req" value="addrating">
-						            <input type="submit" value="Vote!">
+						            <input type="hidden" name="ratinglid" value="492"></input>
+						            <input type="hidden" name="ratinguser" value="outside"></input>
+						            <input type="hidden" name="req" value="addrating"></input>
+						            <input type="submit" value="Vote!"></input>
 						          </td>
 						        </tr>
 						      </table>
@@ -100,42 +100,42 @@
 			    			</p>
 			<p>
 			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
-				<br/>
+				<br />
 			    You can open connections to multiple servers thanks to its document based interface.
-			    <br/>
+			    <br />
                 A bookmark manager allows you to store frequently-used servers. Bookmarks can be exported as a regular file by dragging them to the Finder.
-                <br/>
+                <br />
 			    Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
-				<br/>
+				<br />
 			    	File deletion and renaming, checking and changing of permissions is possible with a Finder-like info panel.
-				<br/>
+				<br />
 					<a href="http://www.apple.com/macosx/rendezvous.html">Rendezvous</a> is supported.
-				<br/>
+				<br />
 			    The SSH core is from <a href="http://sshtools.com/">sshtools.com</a>. FTP core from 
 			    <a href="http://www.enterprisedt.com/"> enterprisedt.com</a>.
 			    </p>
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Comment">me.</a>
-				<br/>
+				<br />
                             Software written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
                           </p>
                   </td>
                 </tr>
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/Cyberduck000.png"><img align="middle" width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg" alt="Cyberduck Screenshot"></a>
+			<a href="./img/Cyberduck000.png"><img align="middle" width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
                   </td>
                 </tr>
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_xclick">
-                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
-                            <input type="hidden" name="item_name" value="cyberduck">
-                            <input type="hidden" name="item_number" value="cyberduck">
-                            <input type="hidden" name="return" value="http://cyberduck.ch">
-                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
+                            <input type="hidden" name="cmd" value="_xclick"></input>
+                            <input type="hidden" name="business" value="dkocher@cyberduck.ch"></input>
+                            <input type="hidden" name="item_name" value="cyberduck"></input>
+                            <input type="hidden" name="item_number" value="cyberduck"></input>
+                            <input type="hidden" name="return" value="http://cyberduck.ch"></input>
+                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!"></input>
                           </form>
 			         </div>
 			         <!--
@@ -160,18 +160,18 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-			<img src="./img/builtosx.gif" alt="Built for Mac OS X" border="0">
+			<img src="./img/builtosx.gif" alt="Built for Mac OS X" border="0"></img>
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" valign="top" class="box-dash">
                   <p>
-                    Mac OS X 10.3 recommended (Minimum requirement is Mac OS X 10.2)<br/>
+                    Mac OS X 10.3 recommended (Minimum requirement is Mac OS X 10.2)<br />
                     <!--Latest <a href="http://www.apple.com/downloads/macosx/apple/java.html">Java Update</a> recommended-->
                 </p>
 			<ul>
-			<li><b>2.1</b> <i>Dec-08-2003</i><br>
+			<li><b>2.1</b> <i>Dec-08-2003</i><br />
 			 <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a></li>
-                        <li><b>2.1beta5</b> <i>Aug-29-2003</i><br>
+                        <li><b>2.1beta5</b> <i>Aug-29-2003</i><br />
                          <a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a></li>
 			</ul>
                   </td>
@@ -340,23 +340,23 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                           <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                           </p>
                           <ul>
-                            <li><b>2.1</b> <i>Dec-08-2003</i><br/>
+                            <li><b>2.1</b> <i>Dec-08-2003</i><br />
                             <a href="download.php?cyberduck-src-2.1.tgz"> cyberduck-src-2.1.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta5</b> <i>Aug-15-2003</i><br/>
+                            <li><b>2.1beta5</b> <i>Aug-15-2003</i><br />
                             <a href="download.php?cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta4</b> <i>Aug-17-2003</i><br/>
+                            <li><b>2.1beta4</b> <i>Aug-17-2003</i><br />
                             <a href="download.php?cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta3</b> <i>Aug-22-2003</i><br/>
+                            <li><b>2.1beta3</b> <i>Aug-22-2003</i><br />
                             <a href="download.php?cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta2:</b> <i>Aug-29-2003</i><br/>
+                            <li><b>2.1beta2:</b> <i>Aug-29-2003</i><br />
                             <a href="download.php?cyberduck-src-2.1beta2.tgz"> cyberduck-src-2.1beta2.tgz </a></li>
                           </ul>
                         </td>
@@ -456,7 +456,7 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                 <tr>
                   <td colspan="2" class="box-solid">
                     <div align="center">
-                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
+                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0"></img>
                     </div>
 		</td>
 		<td bgcolor="#ffcc33" valign="top" class="box-dash">
