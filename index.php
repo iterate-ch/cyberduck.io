@@ -29,7 +29,7 @@
 						<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck." </em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 						</p>
 						<div align="center">
-							<a href="http://www.macworld.com/subject"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0" /></a>
+							<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0" /></a>
 						</div>
 						<p>
 							<em>"All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck."</em> (<a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)
@@ -116,7 +116,7 @@
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
-							<li><strong>2.4</strong> <em>March-25-2005 </em><br />
+							<li><strong>2.4</strong> <em>March-28-2005 </em><br />
 								<a href="./Cyberduck-2.4.dmg">Cyberduck-2.4.dmg</a> <a href="./Cyberduck-2.4.dmg"><i>(Download)</i></a>
 							</li>
 						</ul>

@@ -28,7 +28,7 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
-					<td width="150" valign="top"><strong>2.4</strong> <em> March-25-2005</em> <a href="./Cyberduck-2.4.dmg">Download</a></td>
+					<td width="150" valign="top"><strong>2.4</strong> <em> March-28-2005</em> <a href="./Cyberduck-2.4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Localize] Swedish Localization</li>

@@ -35,7 +35,7 @@
 				<tr>
 					<td width="150"></td>
 					<td colspan="2" class="box-dash">
-						<p>See <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/TODO?rev=1.2&content-type=text/vnd.viewcvs-markup">http://cvs.cyberduck.ch/cyberduck-cocoa/TODO</a></p>
+						<p>See <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/TODO?rev=HEAD&content-type=text/vnd.viewcvs-markup">http://cvs.cyberduck.ch/cyberduck-cocoa/TODO</a></p>
 					</td>
 				</tr>
 				<tr>
