@@ -29,7 +29,7 @@
                 <td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
             </tr>
             <tr>
-                <td colspan="2" valign="top"><strong>2.4b2</strong> <em>January-06-2004</em> <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
+                <td colspan="2" valign="top"><strong>2.4b2</strong> <em>January-06-2005</em> <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
                 <td class="box-dash">
                     <ul>
                         <li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename</li>

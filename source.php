@@ -31,24 +31,31 @@
             <tr>
                 <td colspan="2" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
                 <td valign="top" class="box-dash">
-                    <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and <a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.</p>
+                    <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU 
+                    General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and 
+                    <a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.</p>
                     <p>You can browse the CVS repository <a href="http://cvs.cyberduck.ch/">here</a>. (Warning: Slow connection)</p>
                     <p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press <i>Enter</i>.</p>
                     <p><tt>cvs -d:pserver:anonymous@sudo.ch:/home/cvsroot login<br />
                     cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot co cyberduck-cocoa</tt></p>
                     <p>To compile everything, type <tt>make</tt>. You'll find the application in the <i>build</i> folder.</p>
+					<p>Dependencies:
+						<ul>
+							<li>Growl, <a href="http://growl.info">growl.info</a></li>
+						</ul>
+                    </p>
                 </td>
             </tr>
             <tr>
                 <td colspan="2"></td>
                 <td class="box-dash">
                     <ul>
-                        <li><strong>2.4b2</strong> <em>January-06-2004</em><br />
-                        <a href="cyberduck-src-2.4b2.tar.gz">cyberduck-src-2.4b2.tar.gz</a></li>
+                        <li><strong>2.4b2</strong> <em>January-06-2005</em><br />
+                        <a href="cyberduck-src-2.4beta2.tar.gz">cyberduck-src-2.4beta2.tar.gz</a></li>
                     </ul>
                     <ul>
                         <li><strong>2.4b1</strong> <em>December-28-2004</em><br />
-                        <a href="cyberduck-src-2.4b1.tar.gz">cyberduck-src-2.4b1.tar.gz</a></li>
+                        <a href="cyberduck-src-2.4beta1.tar.gz">cyberduck-src-2.4beta1.tar.gz</a></li>
                     </ul>
                     <ul>
                         <li><strong>2.3.3</strong> <em>August-09-2004</em><br />

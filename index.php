@@ -78,7 +78,10 @@
                 <td></td>
             </tr>
             <tr>
-                <td colspan="3" class="alert">Cyberduck has never been tested on any OS X version prior to 10.3. Your mileage may vary. If Cyberduck crashes when launching, try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.</td>
+                <td colspan="3" class="alert">If Cyberduck crashes when launching, try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="alert">As of version 2.4b1, Cyberduck is not compatible with any OS X version prior to 10.3. Cyberduck 2.3.3 has not been tested on 10.2; your mileage may vary.</td>
             </tr>
             <tr>
                 <td width="200" colspan="2" valign="middle" class="box-solid">
@@ -88,7 +91,7 @@
                 </td>
                 <td bgcolor="#FFFFFF" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><strong>2.4b2</strong> <em>January-06-2004</em><br />
+                        <li><strong>2.4b2</strong> <em>January-06-2005</em><br />
 	                        <a href="./Cyberduck-2.4b2.dmg">Cyberduck-2.4b2.dmg</a>
 	                    </li>
     	                <!--
