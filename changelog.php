@@ -45,7 +45,7 @@
 							<li>[Bugfix] Synchronizing current working directory</li>
 							<li>[Bugfix] Graceful failure on SSH connection problems</li>
 							<li>[Bugfix] Correctly resolving '~' in filenames</li>
-							<li>[Bugfix] Bug fixes
+							<li>[Bugfix] Bug fixes</li>
 						</ul>
 					</td>
 				</tr>
