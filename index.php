@@ -149,7 +149,7 @@
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-						<li><b>2.2b1</b> <i>Jan-22-2004</i><br />
+						<li><b>2.2b2</b> <i>Jan-22-2004</i><br />
 						  <?php 
 							$file = "Cyberduck-2.2beta2.dmg";
 							$counter = $file.".counter";
