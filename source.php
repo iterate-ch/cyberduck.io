@@ -5,17 +5,18 @@
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <?php echo(echoheader("~dkocher | cyberduck | source", ".")); ?>
-	<body  id="source" bgcolor="#FFFFFF">
-		<div align="center" class="standard">
-			<table border="0" cellpadding="5" cellspacing="5" width="700">
-				<tr>
-					<td width="200" colspan="2" valign="middle" class="box-solid">
-						<div align="center">
-							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-						</div>
-					</td>
-					<td width="100%" class="box-solid">
-						<div class="underline">
+<body  id="source" bgcolor="#FFFFFF">
+    <div align="center" class="standard">
+        <table border="0" cellpadding="5" cellspacing="5" width="700">
+			<?php echo(echogoogle());?>
+            <tr>
+                <td width="200" colspan="2" valign="middle" class="box-solid">
+                    <div align="center">
+                        <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+                    </div>
+                </td>
+                <td width="100%" class="box-solid">
+                    <div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
                     <?php echo(echotitle());?>
@@ -56,7 +57,7 @@
 					<td colspan="2"></td>
 					<td class="box-dash">
 						<ul>
-							<li><strong>2.4b3</strong> <em>Januar-25-2005</em><br />
+							<li><strong>2.4b3</strong> <em>Januar-29-2005</em><br />
 								<a href="cyberduck-src-2.4b3.tar.gz">cyberduck-src-2.4b3.tar.gz</a>
 							</li>
 						</ul>

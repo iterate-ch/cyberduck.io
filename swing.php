@@ -9,6 +9,7 @@
 <body id="swing" bgcolor="#FFFFFF">
     <div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
+			<?php echo(echogoogle());?>
             <tr>
                 <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">

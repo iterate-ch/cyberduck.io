@@ -8,6 +8,7 @@
 	<body id="index" bgcolor="#FFFFFF">
 		<div align="center" class="standard">
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
+				<?php echo(echogoogle());?>
 				<tr>
 					<td width="200" colspan="2" valign="middle" class="box-solid">
 						<div align="center">
@@ -33,7 +34,8 @@
 						</div>
 					</td>
 					<td width="100%" bgcolor="#FFFFFF" valign="top" class="box-dash">
-						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian</em>.
+						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
+							</em>.
 						</p>
 						<p>This software is written by <a href="mailto:dkocher@cyberduck.ch">David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed.<br />
 							I appreciate any comments, feature suggestions and bug reports.
@@ -100,6 +102,7 @@
 						</div>
 					</td>
 					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
+						<p>Please have a look at the <a href="./changelog">changelog</a>.</p>
 						<ul class="emphasized">
 							<li><strong>2.4b3</strong> <em>January-20-2005</em><br />
 								<a href="./Cyberduck-2.4b3.dmg">Cyberduck-2.4b3.dmg</a>
