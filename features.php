@@ -24,7 +24,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="3" class="box-solid"><strong>features</strong></td>
+					<td width="150"></td>
+					<td colspan="2" class="box-solid"><strong>features</strong></td>
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>Browse SFTP and FTP servers</strong></td>

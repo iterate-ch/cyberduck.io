@@ -23,6 +23,7 @@
 						</div>
 					</td>
 				</tr>
+
 				<tr>
 					<td width="150" valign="top" class="box-solid">
 						<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck." </em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
@@ -74,6 +75,7 @@
 						</p>
 					</td>
 				</tr>
+				
 				<!-- ======= Screenshot ======== -->
 				<tr>
 					<td colspan="3">
@@ -84,6 +86,7 @@
 						</div>
 					</td>
 				</tr>
+				
 				<!-- ======= Download! ======== -->
 				<tr>
 					<td colspan="3" class="box-solid"><strong>download</strong></td>
