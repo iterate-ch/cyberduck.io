@@ -83,7 +83,7 @@
                         </p>
                       <p>
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
-                        I appreciate any comments, feature suggestions and bug reports.</a>
+                        I appreciate any comments, feature suggestions and bug reports.
                       </p>
                   </td>
                 </tr>
