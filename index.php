@@ -29,7 +29,7 @@
                       <a href="index.php#download">download</a> | 
                       <a href="features.php">features</a> | 
                       <a href="source.php">source code</a> | 
-                      <a href="history.php">history</a> | 
+                      <a href="history.php">changelog</a> | 
                       <a href="license.php">license</a>
                     </div>
                   </td>
@@ -125,7 +125,8 @@
 		
                 <tr>
                   <td colspan="3" valign="top" class="alert">
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese and Japanese</i>.
+
                  </td>
                 </tr>
 
