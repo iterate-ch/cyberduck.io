@@ -71,7 +71,10 @@
 							<a href="./download.php?Cyberduck-2.2beta4.dmg"><b>2.2b4</b> <i>Jan-31-2004</i></a>
                           </p>
                           <ul>
-
+<li>Updated Japanese localization</li>
+<li>Fixed a bug that with some FTP servers the permissions could not be modified</li>
+<li>When addding a transfer to the queue it is highlighted</li>
+<li>Improved login process</li>
                           </ul>
 
 						   <p>

@@ -60,19 +60,19 @@
                             cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot checkout cyberduck-cocoa 
                           </tt></p>
                           <ul>
-                            <li><b>2.2b4</b> <i></i><br />
+                            <li><b>2.2b4</b> <i>Jan-31-2004</i><br />
                             <a href="download.php?cyberduck-src-2.2beta4.tgz"> cyberduck-src-2.2beta4.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.2b3</b> <i></i><br />
+                            <li><b>2.2b3</b> <i>Jan-25-2004</i><br />
                             <a href="download.php?cyberduck-src-2.2beta3.tgz"> cyberduck-src-2.2beta3.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.2b2</b> <i></i><br />
+                            <li><b>2.2b2</b> <i>Jan-24-2004</i><br />
                             <a href="download.php?cyberduck-src-2.2beta2.tgz"> cyberduck-src-2.2beta2.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.2b1</b> <i></i><br />
+                            <li><b>2.2b1</b> <i>>Jan-22-2004</i><br />
                             <a href="download.php?cyberduck-src-2.2beta1.tgz"> cyberduck-src-2.2beta1.tgz </a></li>
                           </ul>
                           <ul>

@@ -149,21 +149,13 @@
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-						<li><b>2.2b4</b> <i>Jan-31-2004</i><br />
-						  <?php 
-							$file = "Cyberduck-2.2beta4.dmg";
-							$counter = $file.".counter";
-                            $open = fopen($counter, "r");
-                            $size = filesize($counter);
-                            $count = fread($open, $size);
-                            fclose($open);
-                         echo("<a href=\"./download.php?".$file."\">".$file."</a> (&gt;".$count." times downloaded)");
-                            ?>
-                         </li>
+			<li><b>2.2b4</b> <i>Jan-31-2004</i><br />
+                        <a href="./download.php?Cyberduck-2.2beta4.dmg">Cyberduck-2.2beta4.dmg</a>
+                        </li>
                     </ul>
                   </td>
                 </tr>
-        		<tr>
+        	<tr>
                   <td colspan="2"></td>
 		          <td>
     			     <div align="right">
