@@ -50,7 +50,7 @@
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>Localizations</strong></td>
-					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Swedish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/Credits.html">contributors</a>!
+					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Swedish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 					</td>
 				</tr>
 				<tr>

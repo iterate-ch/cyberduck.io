@@ -35,12 +35,18 @@
 							<em>"All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck."</em> (<a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)
 						</p>
 						<p>
-							<em>"What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free."</em> (<a href="http://www.versiontracker.com/php/feedback/article.php?story=20050203103831290">user comment</a>)
+							<em>"What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free."</em> (<a href="http://www.versiontracker.com/php/feedback/article.php?story=20050203103831290">User comment</a>)
+						</p>
+						<p>
+							<em>"Cyberduck is the most elegant, fast and simple to use FTP client I have been waiting for on the Mac."</em> (User feedback)
+						</p>
+						<p>
+							<em>"[Cyberduck] is a top FTP client that drops neatly into your Mac environment. If you have [...] not yet sampled this Swiss delight I recommend you pick it up as soon as possible."</em> (<a href="http://www.richardallan.org.uk/?p=339">Richard Allan</a>)
 						</p>
 					</td>
 					<td valign="top" class="box-dash">
 						<div class="underline">
-						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian and Swedish</em>.
+						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian and Swedish</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 						</p>
 						</div>
 						<div class="underline">
@@ -95,7 +101,7 @@
 				<tr>
 					<td width="150" class="box-solid">
 						<div align="center">
-							<a href="./donate"><img src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
+							<a href="./donate"><img border="0" src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>
 					</td>
 					<td colspan="2" class="alert">
@@ -112,7 +118,7 @@
 					<td valign="top" class="box-dash">
 						<a name="download"></a>
 						<!-- ======= 10.3 Alert ======== -->
-						<p class="emphasized"><strong>Java Update.</strong> If Cyberduck crashes when launching, make sure you are running Mac OS X 10.3 and try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.</p>
+<!--						<p class="emphasized"><strong>Java Update.</strong> If Cyberduck crashes when launching, make sure you are running Mac OS X 10.3 and try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.</p>-->
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
