@@ -104,7 +104,7 @@
 					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
 						<p>Please have a look at the <a href="./changelog">changelog</a>.</p>
 						<ul class="emphasized">
-							<li><strong>2.4b3</strong> <em>January-20-2005</em><br />
+							<li><strong>2.4b3</strong> <em>January-29-2005</em><br />
 								<a href="./Cyberduck-2.4b3.dmg">Cyberduck-2.4b3.dmg</a>
 							</li>
 	                    <!--
