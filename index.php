@@ -190,7 +190,7 @@
                           </p>
                           <ul>
                             <li><b>cyberduck for mac os x: </b><br>
-                            <a href="./download.php?cyberduck-beta3.dmg.gz">cyberduck-beta3.dmg.gz</a>, gzipped disk image
+                            <a href="./download.php?Cyberduck-beta3.dmg.gz">Cyberduck-beta3.dmg.gz</a>, gzipped disk image
                             <p>
                               double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
@@ -198,9 +198,9 @@
                           </ul>
                           <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
-                            <a href="download.php?cyberduck-beta3.zip"> cyberduck-beta3.zip </a>, zipped file suitable for windows <br>
+                            <a href="download.php?Cyberduck-beta3.zip">Cyberduck-beta3.zip </a>, zipped file suitable for windows <br>
                             <b>or</b> <br>
-                            <a href="download.php?cyberduck-beta3.tar.gz"> cyberduck-beta3.tar.gz </a>, tar, gzipped file suitable for unixes
+                            <a href="download.php?Cyberduck-beta3.tar.gz">Cyberduck-beta3.tar.gz </a>, tar, gzipped file suitable for unixes
                             </li>
                           </ul>
                         </td>
@@ -210,7 +210,7 @@
                           </p>
                           <ul>
                             <li><b>cyberduck for mac os x: </b><br>
-                            <a href="./download.php?cyberduck-beta2.dmg.gz">cyberduck-beta2.dmg.gz</a>, gzipped disk image
+                            <a href="./download.php?Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg.gz</a>, gzipped disk image
                             <p>
                               double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
@@ -218,9 +218,9 @@
                           </ul>
                           <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
-                            <a href="download.php?cyberduck-beta2.zip"> cyberduck-beta2.zip </a>, zipped file suitable for windows <br>
+                            <a href="download.php?Cyberduck-beta2.zip">Cyberduck-beta2.zip </a>, zipped file suitable for windows <br>
                             <b>or</b> <br>
-                            <a href="download.php?cyberduck-beta2.tar.gz"> cyberduck-beta2.tar.gz </a>, tar, gzipped file suitable for unixes
+                            <a href="download.php?Cyberduck-beta2.tar.gz">Cyberduck-beta2.tar.gz </a>, tar, gzipped file suitable for unixes
                             </li>
                           </ul>
                         </td>
