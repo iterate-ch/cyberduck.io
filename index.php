@@ -23,14 +23,16 @@ include "../functions.php";
 				<td bgcolor="white">
 					<div align="center">
 						<table border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#525D76">
-							<tr> 
-								<td bgcolor="#FFCC33">&nbsp;</td>
-								<td bgcolor="#FFCC33">&nbsp;</td>
-								<td bgcolor="#525D76"> 
-									<div align="left"><img src="img/title.gif" width="136" height="27" alt=""></div>
-								</td>
-							</tr>
-							<tr> 
+                                                    <tr>
+                                                        <td bgcolor="#FFCC33">&nbsp;</td>
+                                                        <td bgcolor="#FFCC33">&nbsp;</td>
+                                                        <td bgcolor="#525D76">
+                                                            <div align="right"><img src="img/title.gif" width="136" height="27" alt="" border="0"></div>
+                                                            <div>&nbsp;</div>
+                                                            <div>&nbsp;</div>
+                                                        </td>
+                                                    </tr>
+                                                        <tr> 
 								<td bgcolor="#525D76" height="10">&nbsp;</td>
 								<td bgcolor="#525D76" height="10">&nbsp;</td>
 								<td bgcolor="#FFCC33" height="10">&nbsp;</td>
@@ -45,10 +47,11 @@ include "../functions.php";
                                                                             <tr>
                                                                                 <td>
                                                                                     <p>
-                    Cyberduck is a FTP/HTTP download manager and FTP Client written in 
-                    <a href="http://java.sun.com/">Java&#153</a>.
-                    Cyberduck runs on any Java 2 runtime environment. There is a version built for
-                    Mac OS X, packaged as a double clickable application bundle.
+Cyberduck is a download manager and Http/Ftp client. You can store URLs as bookmarks, manage your
+downloads and use the Ftp capabilities to browse the contents of a Ftp server or i.e. upload your 
+website to the remote Ftp server. Cyberduck is written in <a href="http://java.sun.com/">Java&#153</a>.
+and runs on any Java 2 runtime environment. There is a version built for Mac OS X, packaged as a 
+double clickable application bundle.
                                                                                     </p>
                                                                                     <p>
                     I appreciate any comments, feature suggestions and bug reports.
@@ -98,16 +101,16 @@ include "../functions.php";
                                                 <li>Bookmark manager</li>
                                                 <li>Unlimited simultaneous transfers (Multithreaded)</li>
                                                 <li>Resume interrupted or failed downloads (both http and ftp)</li>
-                                                <li>Drag and drop</li>
                                                 <li>HTTP download</li>
                                                 <li>FTP directory listing and browsing</li>
                                                 <li>FTP upload of files and directories</li>
-                                                <li>FTP dowload of files and directories </li>
+                                                <li>FTP download of files and directories </li>
                                                 <li>FTP make directory/rename/delete</li>
-                                                <li>Graphical user interface</li>
+                                                <li>FTP Set file permissions (chmod)</li>
                                                 <li>Single or multiple window mode</li>
+                                                <li>Drag and drop</li>
                                                 <li>Preferences</li>
-                                                <li>Detailed Transcript</li>
+                                                <li>Transcript</li>
                                                 <li>etc... (try yourself!)</li>
                                         </ul>
 											</td>
@@ -134,7 +137,7 @@ include "../functions.php";
 									<table width="80%" border="0" cellspacing="10" cellpadding="0" align="center">
 										<tr> 
 											<td>
-												<div align="center"><a href="img/cyberduck1.jpg"><img src="img/cyberduck1_thumb.jpg" width="240" alt="" border="0"></a></div>						
+                                                                                                <div align="center"><a href="img/cyberduck1.jpg"><img src="img/cyberduck1_thumb.jpg" width="240" alt="" border="0"></a></div>						
 											</td>
 											<td>
 												<div align="center"><a href="img/cyberduck2.jpg"><img src="img/cyberduck2_thumb.jpg" width="240"  alt="" border="0"></a></div>						
@@ -222,10 +225,7 @@ include "../functions.php";
                     </p>
                     <ul>
                             <li><b>Cyberduck for Mac OS X: </b><br>
-                                    <a href="./download.php?Cyberduck.dmg">Cyberduck.dmg</a>, disk image<br><br>
-                                    or if this doesn't work for you (you are using Internet Explorer and not 
-                                    <a href="http://www.omnigroup.com/products/omniweb/">OmniWeb</a>) try<br>
-                                    <a href="./Cyberduck.dmg.tgz">Cyberduck.dmg.tgz</a>, zipped disk image
+                                    <a href="./download.php? Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg</a>, gzipped disk image<br><br>
                                     <p>
                                     Double click cyberduck.dmg. A disk image 
                                     will load on your desktop. Drag the Cyberduck application to your preffered 
@@ -235,10 +235,10 @@ include "../functions.php";
                     </ul>
                     <ul>
                             <li><b>Cyberduck for any Java platform:</b>
-                                    <br><a href="download.php?Cyberduck.zip">Cyberduck.zip</a>,
+                                    <br><a href="download.php?Cyberduck-beta2.zip">Cyberduck.zip</a>,
                                             zipped file suitable for Windows
                                     <br><b>or</b>
-                                    <br><a href="download.php?Cyberduck.tar.gz">Cyberduck.tar.gz</a>, 
+                                    <br><a href="download.php?Cyberduck-beta2.tar.gz">Cyberduck.tar.gz</a>, 
                                             tar, gzipped file suitable for UNIXes
                                     <p>
                                     On any UNIX flavor, type into the shell <code>java -jar Cyberduck.jar</code>. If you are running 
@@ -273,9 +273,9 @@ include "../functions.php";
                             the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>.
                             </p>
                             <ul>
-                                    <li>Latest stable build (v2.0b2):<br>
+                                    <li>Latest stable build (v2.0beta2):<br>
                                     <a href="download.php?cyberduck-src-2.0b2.tgz">cyberduck-src-b2.tar.gz</a></li>
-                                    <li>v2.0b1:<br>
+                                    <li>v2.0beta1:<br>
                                     <a href="download.php?cyberduck-src-2.0b1.tgz">cyberduck-src-b1.tar.gz</a></li>
                             </ul>
 											</td>
