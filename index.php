@@ -92,7 +92,7 @@
 
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/browser.png"><img align="middle" width="700" height="399" border="0" src="./img/browser.thumb.png" alt="Cyberduck Screenshot"></img></a>
+			<a href="./img/browser.png"><img align="middle" width="700" height="399" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
                   </td>
                 </tr>
                 
