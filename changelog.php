@@ -33,10 +33,9 @@
                   </td>
                 </tr>
 
-
                 <tr>
                   <td colspan="2" valign="top">
-							<b>2.3.3</b> <i>August-08-2004</i> <a href="./Cyberduck-2.3.3.dmg">Download</a>
+							<b>2.3.3</b> <i>August-09-2004</i> <a href="./Cyberduck-2.3.3.dmg">Download</a>
                   </td>
                   <td class="box-dash">
                       <ul>
@@ -364,7 +363,11 @@
                   <td colspan="2"></td>
                   <td>
                         <div align="right">
+<<<<<<< changelog.php
                             <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
+=======
+                            <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
+>>>>>>> 1.38
                     </div>
                   </td>
                 </tr>
