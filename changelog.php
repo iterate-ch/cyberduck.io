@@ -52,7 +52,6 @@
                   	<p>
                   	 <i>Nice small and fast application</i> --Claudius Sailer
                   	</p>
-                    <?php echo(echofooter(".."));?>
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <table  width="100%" border="0">

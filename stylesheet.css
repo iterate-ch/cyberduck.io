@@ -1,6 +1,6 @@
 	body  
 	{ 
-		background-color: #FFFFFF;
+		background-color: #ffffff;
 		color: #000000;
 	}
 	td {
@@ -8,7 +8,15 @@
 	}
 	.standard
 	{
-		background-color: #FFFFFF;
+		background-color: #ffffff;
+		font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		color: #333333;
+	}
+	
+	.emphasized
+	{
 		font-family: Trebuchet MS, Verdana, Arial, sans-serif;
 		font-size: 12px;
 		line-height: 18px;
@@ -20,6 +28,7 @@
 		border-width: 0px 0px 1px 0px;
 		border-color: #000000;
 		border-style: dotted;
+		color: #000000;
 	}
 	
 	.box-solid
@@ -34,6 +43,7 @@
 		padding-left: 2mm;
 		padding-right: 2mm;
 		border-width: 2px 2px 2px 2px;
+		color: #000000;
 		background-color: #ffffff;
 		border-color: #FF9900;
 		border-style: solid;
@@ -78,15 +88,15 @@
 		
 	a:link, a:visited
 	{
-		color: #FF9900;
+		color: #000000;
 		font-weight: normal;
 		border-style: none;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 	
 	a:hover	{
-		color: #000000;
-		background-color: #FF9900;
+		color: #ff9900;
 		font-weight: normal;
+		border-style: none;
 		text-decoration: none;
 	}

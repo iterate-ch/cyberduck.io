@@ -36,7 +36,6 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
                         I appreciate any comments, feature suggestions and bug reports.
                       </p>
-                    <?php echo(echofooter(".."));?>
                   </td>
                 </tr>
 
@@ -67,20 +66,24 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                           </form>
 			         </div>
                   </td>
-                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
-                          <p>
-                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal—it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.
-                          </p>
+                  <td width="100%" bgcolor="#ff9900" valign="top" class="box-dash">
+                        <p class="emphasized">
+                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal—it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.</b>
+                        </p>
+                  </td>
+                </tr>
 
-			         <div align="center">
-			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!</p>
-			         </div>
+                <tr>
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center" id="image">
                         <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0"></img></a>
                     </div>
-
+                  </td>
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
+			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!</p>
                   </td>
                 </tr>
+                
 		
                 <!-- ======= Download! ======== -->
                 
@@ -90,6 +93,15 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                       <a name="download">download</a>
                   </td>
                 </tr>
+
+                <!-- ======= 10.3 Alert ======== -->
+		
+                <tr>
+                  <td colspan="3" class="alert">
+                    Cyberduck has never been tested on any OS X version prior to 10.3. Your mileage may vary.
+                  </td>
+                </tr>
+
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
@@ -98,10 +110,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                     </div>
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
-                  <p>
-                    Mac OS X 10.3 recommended.<br />
-                </p>
-                    <ul>
+                    <ul class="emphasized">
 			             <li><b>2.3b2</b> <i>Apr-20-2004</i><br />
                         <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
@@ -136,6 +145,12 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   <p>
                     You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
                     </p>
+                    <form Method=POST ACTION="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+                        <p>Your email address:
+                            <input type="Text" name="email" size="30" value=""></input>
+                            <input type="Submit" name="email-button" value="Subscribe"></input>
+                        </p>
+                    </form>
                   </td>
                 </tr>
         	   
