@@ -62,50 +62,50 @@
 
                           <ul>
                             <li><b>2.2b6</b> <i>Feb-25-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta6.tar"> cyberduck-src-2.2beta6.tar </a></li>
+                            <a href="cyberduck-src-2.2beta6.tar"> cyberduck-src-2.2beta6.tar </a></li>
                           </ul>
                           <!--
                           <ul>
                             <li><b>2.2b5</b> <i>Feb-12-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta5.tgz"> cyberduck-src-2.2beta5.tgz </a></li>
+                            <a href="cyberduck-src-2.2beta5.tgz"> cyberduck-src-2.2beta5.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.2b4</b> <i>Jan-31-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta4.tgz"> cyberduck-src-2.2beta4.tgz </a></li>
+                            <a href="cyberduck-src-2.2beta4.tgz"> cyberduck-src-2.2beta4.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.2b3</b> <i>Jan-25-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta3.tgz"> cyberduck-src-2.2beta3.tgz </a></li>
+                            <a href="cyberduck-src-2.2beta3.tgz"> cyberduck-src-2.2beta3.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.2b2</b> <i>Jan-24-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta2.tgz"> cyberduck-src-2.2beta2.tgz </a></li>
+                            <a href="cyberduck-src-2.2beta2.tgz"> cyberduck-src-2.2beta2.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.2b1</b> <i>>Jan-22-2004</i><br />
-                            <a href="download.php?cyberduck-src-2.2beta1.tgz"> cyberduck-src-2.2beta1.tgz </a></li>
+                            <a href="cyberduck-src-2.2beta1.tgz"> cyberduck-src-2.2beta1.tgz </a></li>
                           </ul>
                           -->
                           <ul>
                             <li><b>2.1</b> <i>Dec-08-2003</i><br />
-                            <a href="download.php?cyberduck-src-2.1.tgz"> cyberduck-src-2.1.tgz </a></li>
+                            <a href="cyberduck-src-2.1.tgz"> cyberduck-src-2.1.tgz </a></li>
                           </ul>
                           <!--
                           <ul>
                             <li><b>2.1b5</b> <i>Aug-15-2003</i><br />
-                            <a href="download.php?cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
+                            <a href="cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.1b4</b> <i>Aug-17-2003</i><br />
-                            <a href="download.php?cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
+                            <a href="cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.1b3</b> <i>Aug-22-2003</i><br />
-                            <a href="download.php?cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
+                            <a href="cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
                           </ul>
                           <ul>
                             <li><b>2.1b2:</b> <i>Aug-29-2003</i><br />
-                            <a href="download.php?cyberduck-src-2.1beta2.tgz"> cyberduck-src-2.1beta2.tgz </a></li>
+                            <a href="cyberduck-src-2.1beta2.tgz"> cyberduck-src-2.1beta2.tgz </a></li>
                           </ul>
                           -->
                         </td>
