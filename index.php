@@ -50,7 +50,7 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
                 <tr>
                   <td colspan="3">
                     <div align="center" id="image">
-			<a href="./img/browser.jpg"><img align="middle" width="700" height="437" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
+			<a href="./img/browser.jpg"><img align="middle" width="700" height="454" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
                     </div>
                   </td>
                 </tr>
