@@ -46,6 +46,45 @@
                   	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
 RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   	</p>
+                  	<form method="post"
+					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
+						<table border="0" width="175" cellspacing="0" cellpadding="0">
+						  <tr>
+						    <td>
+						      Vote for Cyberduck on O'Reilly's OSDir.com
+						    </td>
+						  </tr>
+						  <tr>
+						    <td>
+						      <table border="0" cellspacing="0" cellpadding="0">
+						        <tr>
+						          <td valign="top">
+						            <select name="rating">
+						              <option selected>--</option><br>
+						              <option value="10">10</option><br>
+						              <option value="9">9</option><br>
+						              <option value="8">8</option><br>
+						              <option value="7">7</option><br>
+						              <option value="6">6</option><br>
+						              <option value="5">5</option><br>
+						              <option value="4">4</option><br>
+						              <option value="3">3</option><br>
+						              <option value="2">2</option><br>
+						              <option value="1">1</option><br>
+						            </select>
+						          </td>
+						          <td valign="top">
+						            <input type="hidden" name="ratinglid" value="492">
+						            <input type="hidden" name="ratinguser" value="outside">
+						            <input type="hidden" name="req" value="addrating">
+						            <input type="submit" value="Vote!">
+						          </td>
+						        </tr>
+						      </table>
+						    </td>
+						  </tr>
+						</table>
+					</form>
                   </td>
                   <td width="100%" bgcolor="#ffcc33" class="box-dash">
                           <p>
