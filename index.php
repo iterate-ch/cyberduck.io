@@ -9,21 +9,19 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="3" width="100%" class="alert">
+                  <td colspan="3" class="alert">
 			Support the development of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&amp;item_name=Cyberduck&amp;item_number=1&amp;no_shipping=1&amp;no_note=1&amp;tax=0&amp;currency_code=USD&amp;lc=US" title="Thanks!">donation</a> :)
 			     </td>
                 </tr>
                 <tr>
-                  <td width="128" colspan="2" valign="top" class="box-solid">
-                    <div align="center">
-                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
-                    </div>
+                  <td colspan="2" class="box-solid">
+                      <img src="img/cyberduck.icon.jpg" align="center" width="128" height="128" alt="Cyberduck" border="0"></img>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     	<br />
                     	<h1>Cyberduck</h1>
-			<h3>FTP and SFTP Browser for Mac OS X</h3>
+			             <h3>FTP and SFTP Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="index.php">about</a> | 
                       <a href="index.php#download">download</a> | 
@@ -35,24 +33,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
-                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
-                          <p>
-                            Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
-			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
-			    			</p>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <td colspan="2"></td>
-                  <td class="box-solid">
-                      <a name="feedback">feedback</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2">
-                  	<form method="post"
+                  <td colspan="2" valign="bottom">
+                    <form method="post"
 					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
 						<table border="0" width="175" cellspacing="0" cellpadding="0">
 						  <tr>
@@ -92,22 +74,28 @@
 						</table>
 					</form>
                   </td>
-                  <td valign="top" class="box-dash">
-                          <p>
-                            This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
-                            I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Comment">me.</a>
-                          </p>
-                <tr>
+                  <td bgcolor="#ffffff" valign="top" class="box-dash">
+                      <p>
+                        Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
+            SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
+                        </p>
+                      <p>
+                        This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
+                        I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Comment">me.</a>
+                      </p>
+                  </td>
                 </tr>
-                  <td colspan="3" valign="top" class="alert">
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
-                 </td>
-                </tr>
+
+                <!-- ======= Screenshot ======== -->
+
                 <tr>
                   <td colspan="3" valign="top">
 			<a href="./img/browser.png"><img align="middle" width="700" height="399" border="0" src="./img/browser.thumb.png" alt="Cyberduck Screenshot"></img></a>
                   </td>
                 </tr>
+                
+                <!-- ======= Donate! ======== -->
+
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
@@ -134,6 +122,14 @@
                 </tr>
 		
                 <tr>
+                  <td colspan="3" valign="top" class="alert">
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
+                 </td>
+                </tr>
+
+                <!-- ======= Download! ======== -->
+                
+                <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
                       <a name="download">download</a>
@@ -149,27 +145,26 @@
                   <p>
                     Mac OS X 10.3 recommended.<br />
                 </p>
-			<ul>
-                <li><b>2.2b1</b> <i></i><br />
-                 <a href="./download.php?Cyberduck-2.2beta1.dmg">Cyberduck-2.2beta1.dmg</a>
-                 </li>
-                <li><b>2.1</b> <i>Dec-08-2003</i><br />
-                 <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a>
-                 </li>
-			</ul>
+                    <ul>
+                        <li><b>2.2b1</b> <i></i><br />
+                         <a href="./download.php?Cyberduck-2.2beta1.dmg">Cyberduck-2.2beta1.dmg</a>
+                         </li>
+                        <li><b>2.1</b> <i>Dec-08-2003</i><br />
+                         <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a>
+                         </li>
+                    </ul>
                   </td>
                 </tr>
-
-		<tr>
+        		<tr>
                   <td colspan="2"></td>
-		    <td>
-    			<div align="right">
+		          <td>
+    			     <div align="right">
             			<?php echo(echofooter(".."));?>
-	    			$Date$
-       	 		</div>
-		    </td>
-		</tr>
-      </table>
+	    			    $Date$
+       	 		     </div>
+		          </td>
+		      </tr>
+        </table>
     </div>
   </body>
 </html>

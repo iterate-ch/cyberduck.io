@@ -9,15 +9,13 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="3" width="100%" class="alert">
+                  <td colspan="3" class="alert">
 			Support the development of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&item_name=Cyberduck&item_number=1&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US" title="Thanks!">donation</a> :)
 			     </td>
                 </tr>
                 <tr>
                   <td width="128" colspan="2" valign="top" class="box-solid">
-                    <div align="center">
-                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
-                    </div>
+                      <img src="img/cyberduck.icon.jpg" align="center" width="128" height="128" alt="Cyberduck" border="0"></img>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
