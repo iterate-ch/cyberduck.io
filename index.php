@@ -106,12 +106,14 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-			             <li><b>2.3b1</b> <i>Mar-09-2004</i> <small>(With external editor support)</small><br />
+			             <li><b>2.3b1</b> <i>Mar-09-2004</i><br />
                         <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
                         </li>
+                        <!--
 			             <li><b>2.2</b> <i>Mar-06-2004</i><br />
                         <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
                         </li>
+                        -->
                     </ul>
                     <p>While downloading, you can check out <a href="http://rothen.sudo.ch/3Danimation/duckstale.jsp">this cute 3D animation</a> about a <a href="http://rothen.sudo.ch/3Danimation/duckstaleabout.jsp">rubber duck</a> (although completely unrelated to Cyberduck) created by Norbert Kottmann and <a href="http://rothen.sudo.ch">Jan Rothen</a>. Enjoy!</p>
                   </td>
