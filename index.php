@@ -9,6 +9,11 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
+                  <td colspan="3" width="100%" class="box-dash">
+			Support the developement of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&item_name=Cyberduck&item_number=1&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US" title="Thanks!">donation</a> :)
+			     </td>
+                </tr>
+                <tr>
                   <td width="128" colspan="2" valign="top" class="box-solid">
                     <div align="center">
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0">
@@ -94,7 +99,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 			<p>
 			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 				<br>
-			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store frequently-used servers.
+			    You can open connections to multiple servers thanks to its document based interface. A simple bookmark manager allows you to store frequently-used servers.
 				<br>
 			    Drag and drop is supported for both downloading and uploading files. Just drag the file(s) or folder from the Finder to the browser window or vice versa to start the transfer. 
 				<br>
