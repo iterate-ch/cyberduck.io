@@ -63,6 +63,13 @@
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 
 						   <p>
+<b>2.3b1</b> <i>(planned)</i>
+                          </p>
+                          <ul>
+<li>External editor support</li>
+                          </ul>
+
+						   <p>
 							<a href="./download.php?Cyberduck-2.2.dmg"><b>2.2</b> <i>Mar-06-2004</i></a>
                           </p>
                           <ul>
