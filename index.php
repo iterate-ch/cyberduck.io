@@ -1,6 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
-
+<?php 
+include "../functions.php";
+?>
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -12,13 +14,9 @@
 		<table border="5" cellpadding="1" cellspacing="0" width="600" bgcolor="#000000" align="center">
 			<tr align="right">
 				<td>
-					<font color="#FFFFFF">
-					- - - - - - - - - - - - - - - - - - &gt; &gt; &gt;
-					<a href="../index.php">about</a> |
-					<a href="../cyberduck/index.php">cyberduck</a> | 
-					<a href="../susan/index.php">susan</a>
-					&lt; &lt; &lt; - - - - -
-					</font> 
+                                <?php 
+                                    echo(generateheader());
+                                ?>
 				</td>
 			</tr>
 			<tr>
@@ -394,42 +392,12 @@ GNU General Public License for more details.
 			</tr>
 			<tr align="right">
 				<td>
-					<font color="#FFFFFF">
-<?php 
-/* ############################################################## */
-/*          PHP simple text counter + mail notice                 */
-/*                   coded (c) 1999 by rofus                      */
-/*                      rofus@mindless.com                        */
-/*                                                                */
-/*    Special thanks for all to Stevenson! (the crazybrain :P)    */
-/* ############################################################## */
-/*                                                                */
-	$counter_file = "../counter.txt";
-/* ---------------------------------------------------------------- */
-/* This variable ($counter_file) should point to a SIMPLE text file */
-/* in your directory on the server. You MUST create it, writing     */
-/* in ONLY the number from which you want the counter starts.       */
-/* If you don't know your dir on the server or you haven't          */
-/* permissions to write in please ask your system administrator.    */
-/* ---------------------------------------------------------------- */
- function counter($counter_file) {
-	 $aprif = fopen($counter_file,"r+");
-         $hits = fgets($aprif, 16);
-         $hits += 1;
-              rewind($aprif);
-              fputs($aprif,$hits);
-              fputs($aprif,"\n");
-              fclose($aprif);
-	print "<$hits";	
- }  
- counter($counter_file); 
-?>
-					- - - - - - - - - - - - - - - - - - &gt; &gt; &gt;
-					<a href="../index.php">about</a> |
-					<a href="../cyberduck/index.php">cyberduck</a> | 
-					<a href="../susan/index.php">susan</a>
-					&lt; &lt; &lt; - - - - -
-					</font> 
+                                    <font color="#FFFFFF">
+                                    <?php 
+                                            $counter_file = "./counter.txt";
+                                            counter($counter_file); 
+                                            echo(generateheader());
+                                    ?>
 				</td>
 			</tr>
 		</table>	
