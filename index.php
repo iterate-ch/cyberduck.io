@@ -56,7 +56,7 @@
 						</p>
 						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 							<p>Your email address:
-								<input type="text" name="email" value="" />
+								<input type="text" size="15" name="email" value="" />
 								<input type="submit" name="email-button" value="Subscribe" />
 							</p>
 						</form>
@@ -93,7 +93,7 @@
 				</tr>
 				<!-- ======= Donate! ======== -->
 				<tr>
-					<td width="150" class="alert">
+					<td width="150" class="box-solid">
 						<div align="center">
 							<a href="./donate"><img src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>

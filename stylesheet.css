@@ -68,11 +68,10 @@
 	{
 		padding-left: 2mm;
 		padding-right: 2mm;
-		border-width: 2px 2px 2px 2px;
-		color: #000000;
-		background-color: #ffffff;
-		border-color: #FF9900;
-		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		background-color: #FF9900;
+		border-style: dotted;
+		font-weight: bold;
 	}
 
 	.box-dash
@@ -91,8 +90,8 @@
 	
 	p
 	{
-		padding-left: 2mm;
-		padding-right: 2mm;
+		padding-left: 1mm;
+		padding-right: 1mm;
 	}
 	
 	ul
