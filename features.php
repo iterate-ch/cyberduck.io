@@ -67,79 +67,78 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                   	<p>
                   	<i>Have been looking for a free FTP client for a while. This is the first that did the job quickly and painlessly. Thumbs up!</i> --Anonymous
                   	</p>
-                  </td>
-                  <td bgcolor="#ffffff" valign="top" class="box-dash">
-			  <table width="100%" border="0" align="center"> 
-			    <tr>
-				<td class="box-filled">Browse server directories</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Open multiple connections</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Bookmark manager</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">History of connected hosts</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Export bookmark as regular file (drag and drop)</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Double click bookmark file to connect</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Queue downloads</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Drag downloads to the Finder</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Drag uploads to a browser</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Rename files</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Delete files</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Modify permissions</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Rendezvous for easy lookup of servers on the local network</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Resume interrupted or failed downloads (FTP)</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Passive FTP mode</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">ASII and binary FTP transfers</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled">Keychain support</td>
-			    </tr>
-                          </table>
-			  <table border="0" align="center"> 
-			    <tr>
-				<td class="box-filled">
-				    <p>
-				    <strong>About SFTP.</strong> SFTP stands for Secure File Transfer Protocol. It is capable of encrypting all data that pass between it and the server using SSH as the encryption method. Whereas regular FTP passes your login and password in plain text and runs the risk of being intercepted, SFTP uses encryption to prevent others from acquiring your password.
-				    </p>
-				</td>
-			    </tr>
-			    <tr>
-				<td class="box-filled" >
-				    <p>
-				    <strong>About FTP.</strong> FTP stands for File Transfer Protocol. All data and passwords are transfered clear text.
-				    </p>
-				</td>
-			    </tr>
-			  </table>
-            </td>
-        </tr>
+                    </td>
+                <td bgcolor="#ffffff" valign="top" class="box-dash">
+                    <table width="100%" border="0" align="center"> 
+                        <tr>
+                            <td class="box-filled">Browse SFTP/FTP servers</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Open multiple connections</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Document based interface</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Manage bookmarks</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Keychain support</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Public key authentication (SSH)</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled"><a href="./img/transfer.png">Transfer manager</a></td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled"><a href="./img/encoding.png">Support for various encodings</a></td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Live filtering of directory listings</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Drag and drop to save bookmark as a file</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Resume interrupted or failed downloads (FTP)</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Drag and drop to transfer files</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Rename files</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Delete files</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled"><a href="./img/info.png">Modify permissions</a></td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">History of connected hosts</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Caching folder listings</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Rendezvous support</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Passive and active FTP mode</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">ASII and binary FTP transfers</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Transcript</td>
+                        </tr>
+                        <tr>
+                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
 		<tr>
             <td colspan="2"></td>
 		    <td>
