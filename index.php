@@ -125,7 +125,11 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                 </tr>
                 <tr>
-                  <td width="200" colspan="2" valign="middle"></td>
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
+                      <div align="center">
+                        <img src="img/mailman.jpg" alt="Mailing list" border="0"></img>
+                    </div>
+                  </td>
                   <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                   <p>
                     You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
