@@ -32,17 +32,6 @@
 						<div align="center">
 							<a href="http://www.macworld.com/subject"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0" /></a>
 						</div>
-
-						<div align="center">
-							<table class="VTProdDispTbl" cellpadding="0" cellspacing="0" border="0">
-								<tr>
-									<td id="pirtd24765"></td>
-								</tr>
-								<tr>
-									<td class="VTLogo">Data provided by <a href="http://www.versiontracker.com/">VersionTracker<a></td></tr>
-							</table>
-							<script language="javascript" src="http://tc.versiontracker.com/product/jsdvfd?id=24765&incRating=yes&incStars=yes&type=prod&rndz=98936"></script>
-						</div>
 					</td>
 					<td width="100%" bgcolor="#FFFFFF" valign="top" class="box-dash">
 						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Russian</em>.
