@@ -168,7 +168,7 @@
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                   <p>
-                    You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberuck-news</a> mailing list to get a notification when a new version is released.
+                    You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
                     </p>
                   </td>
                 </tr>
