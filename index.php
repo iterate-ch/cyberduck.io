@@ -39,7 +39,7 @@
 			    Cyberduck features the same intuitive interface for both FTP and SFTP browsing. Cyberduck is now <a href="http://www.apple.com/macosx">Mac</a> only, with a completly rewritten user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 			    </p>
 			    <p>
-			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store freuqently used servers.
+			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store frequently used servers.
 			    </p>
 			    <p>
 			    Files and even directories can be uploaded easily by just dragging them from the Finder.
@@ -53,7 +53,7 @@
                 </tr>
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" src="./img/Cyberduck000.thumb.png"></div></a>
+			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" src="./img/Cyberduck000.thumb.jpg"></div></a>
                   </td>
                 </tr>
                 <tr>
@@ -91,7 +91,7 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-			<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
+			<img src="./img/builtosx.gif" alt="Built for Mac OS X" border="0">
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
