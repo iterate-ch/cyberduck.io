@@ -27,7 +27,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong><a name="code" id="code">features</a></strong></td>
+					<td class="box-solid"><strong>features</strong></td>
 				</tr>
 				<tr>
 					<td valign="top" colspan="2"><strong>Browse SFTP and FTP servers</strong></td>

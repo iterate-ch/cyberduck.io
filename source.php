@@ -27,7 +27,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong><a name="code" id="code">source code</a></strong></td>
+					<td class="box-solid"><strong>source code</strong></td>
 				</tr>
 				<tr>
 					<td colspan="2" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>

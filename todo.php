@@ -27,7 +27,7 @@
 				</tr>
 				<tr>
 					<td colspan="2"></td>
-					<td class="box-solid"><strong><a name="todo" id="todo">todo</a></strong></td>
+					<td class="box-solid"><strong>todo</strong></td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>

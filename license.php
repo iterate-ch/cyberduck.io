@@ -29,7 +29,7 @@
 					<td colspan="2"></td>
 					<td class="box-solid">
 						<div align="left">
-							<strong><a name="license" id="license">license</a></strong>
+							<strong>license</strong>
 						</div>
 					</td>
 				</tr>
