@@ -208,14 +208,6 @@
                       	<tr>
 			    <td>
 				    <div align="center">
-					    <img src="./img/Cyberduck001.png">
-					    <p>Browsing SFTP Server directory</p>
-				    </div>
-			    </td>
-			</tr>
-                      	<tr>
-			    <td>
-				    <div align="center">
 					    <img src="./img/Cyberduck002.png">
 					    <p>Edit permissions on remote files</p>
 				    </div>
