@@ -14,7 +14,7 @@
 			     </td>
                 </tr>
                 <tr>
-                  <td width="200" colspan="2" valign="top" class="box-solid">
+                  <td colspan="2" valign="middle" class="box-solid">
                     <div align="center">
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
                      </div>
@@ -35,7 +35,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="bottom">
+                  <td colspan="2" valign="middle">
+                  <!--
                     <form method="post"
 					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
 						<table border="0" cellspacing="0" cellpadding="0">
@@ -75,6 +76,7 @@
 						  </tr>
 						</table>
 					</form>
+				-->
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
@@ -101,6 +103,7 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
+			             <p>Make a donation!</p>
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_xclick"></input>
                             <input type="hidden" name="business" value="dkocher@cyberduck.ch"></input>
@@ -110,26 +113,25 @@
                             <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!"></input>
                           </form>
 			         </div>
-			         <!--
 			         <div align="center">
-			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!
+			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!</p>
 			         </div>
-			         -->
+                    <div align="center">
+                        <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" alt="Shop Cyberduck Gadgets" border="0"></img></a>
+                    </div>
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                           <p>
                             <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
                           </p>
+                          <div class="alert">
+                            <p>
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese and Japanese</i>.
+                            </p>
+                          </div>
                   </td>
                 </tr>
 		
-                <tr>
-                  <td colspan="3" valign="top" class="alert">
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese and Japanese</i>.
-
-                 </td>
-                </tr>
-
                 <!-- ======= Download! ======== -->
                 
                 <tr>
