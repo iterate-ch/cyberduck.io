@@ -289,9 +289,13 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
                           </p>
                           </p>
                           <ul>
-
-
-
+<li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
+<li>Cyberduck can now be configured as the default FTP helper application. See "http://www.monkeyfood.com/software/moreInternet/". This seems to work with Safari and Internet Explorer.</li>
+<li>Dragging files to the Finder is now more reliable.</li>
+<li>The transfer panel does now close again if defined so in the preferences.</li>
+<li>The buffer size (the size of download chunks to keep in memory before writing to disk) is now adjustable.</li>
+<li>Login to anonymous FTP servers where no password is needed is now supported.</li>
+<li>Smaller bug fixes</li>
                           </ul>
                           
 						   <p>
