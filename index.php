@@ -112,6 +112,8 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
+			<li><b>2.1beta5</b><br>
+			<a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a>, disk image</li>
 			<li><b>2.1beta4</b><br>
 			<a href="./download.php?Cyberduck-2.1beta4.dmg">Cyberduck-2.1beta4.dmg</a>, disk image</li>
 			</ul>
@@ -249,6 +251,10 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
                           <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                           </p>
                           <ul>
+                            <li><b>2.1beta5</b><br>
+                            <a href="download.php?cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
+                          </ul>
+                          <ul>
                             <li><b>2.1beta4</b><br>
                             <a href="download.php?cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
                           </ul>
@@ -279,6 +285,16 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
+							<b>2.1beta5</b>
+                          </p>
+                          </p>
+                          <ul>
+
+
+
+                          </ul>
+                          
+						   <p>
 							<b>2.1beta4</b>
                           </p>
                           </p>
@@ -286,6 +302,7 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
 						    <li>Cyberduck now has the official creator code 'CYCK'.<!-- and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.--></li>
 						    <li>Bug fixes</li>
                           </ul>
+                          
 						   <p>
                             <b>2.1beta3</b>
                           </p>
@@ -302,6 +319,7 @@ RBrowser, and all the rest. Keep at it!</i> --nicwaller
 							<li>There is a new command 'Go to folder' for changing the working directory quickly.</li>
 							<li>Many bug fixes.</li>
                           </ul>
+                          
 						   <p>
                             <b>2.1beta2</b>
                           </p>
