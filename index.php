@@ -53,7 +53,7 @@
                 </tr>
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/Cyberduck000.png"><div align="center"><img src="./img/Cyberduck000.thumb.png"></div></a>
+			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" src="./img/Cyberduck000.thumb.png"></div></a>
                   </td>
                 </tr>
                 <tr>
