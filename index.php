@@ -128,7 +128,8 @@
                 </tr>
                 <tr>
                 <td colspan="3" valign="top" class="alert">
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: German, Spanish, Dutch, Portuguese, Japanese.<br />
+I am also looking for someone to review the English version.
                  </td>
                 </tr>
                <tr>
