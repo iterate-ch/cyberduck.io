@@ -195,6 +195,9 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                   	<p>
                   	<i>Anyway, Cyberduck seems to do the trick!</i> --griffeymac
                   	</p>
+                  	<p>
+                  	<i>Have been looking for a free FTP client for a while. This is the first that did the job quickly and painlessly. Thumbs up!</i> --Anonymous
+                  	</p>
                   </td>
                   <td bgcolor="#ffcc33" valign="top" class="box-dash">
 			  <table width="100%" border="0" align="center"> 
