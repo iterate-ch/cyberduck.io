@@ -122,16 +122,27 @@
                 
                 <tr>
                   <td valign="top" colspan="2">
-                                <b>Transfer Queue <a href="./img/transfer.png">(Screenshot)</a></b>
+                                <b>Transfers <a href="./img/transfer.png">(Screenshot)</a></b>
                     </td>
                   <td valign="top" class="box-dash">
                                 <ul>
-                                	<li>Synchronized local with remote directories (and vice versa)</li>
                                     <li>Resume downloads (FTP and SFTP)</li>
                                     <li>Resume uploads (FTP and SFTP)</li>
                                     <li>Download folders (recursive)</li>
                                     <li>Upload folders (recursive)</li>
                                     <li>Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</li>
+                                </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td valign="top" colspan="2">
+                                <b>Synchronize <a href="./img/sync.png">(Screenshot)</a></b>
+                    </td>
+                  <td valign="top" class="box-dash">
+                                <ul>
+                                	<li>Synchronize local with remote directories (and vice versa)</li>
+                                	<li>Choose to download/upload missing files>
                                 </ul>
                     </td>
                 </tr>
