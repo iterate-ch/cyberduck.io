@@ -5,9 +5,9 @@
 ?>
 <html lang="en">
     <?php echo(echoheader("~dkocher | cyberduck | features", ".")); ?>
-  <body bgcolor="#ffffff">
-    <div align="center" class="standard">
-      <table border="0" cellpadding="5" cellspacing="5" width="700">
+    <body bgcolor="#ffffff">
+        <div align="center" class="standard">
+            <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
                   <td width="200" colspan="2" valign="top" class="box-solid">
                     <div align="center">
@@ -54,7 +54,7 @@
                         <b>Localizations</b>
                   </td>
                   <td valign="top" class="box-dash">
-                        <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</i>
+                        <i>English, Dutch, Finnish, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</i>
                     </td>
                 </tr>
                 

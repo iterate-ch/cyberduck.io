@@ -5,9 +5,9 @@
 ?>
 <html lang="en">
     <?php echo(echoheader("~dkocher | cyberduck", ".")); ?>
-  <body bgcolor="#ffffff">
-    <div align="center" class="standard">
-      <table border="0" cellpadding="5" cellspacing="5" width="700">
+    <body bgcolor="#ffffff">
+        <div align="center" class="standard">
+            <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
@@ -30,7 +30,7 @@
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
             SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers. A simple bookmark manager ensures manageability. Core system technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> and BBEdit.
-Cyberduck has been translated into numerous languages including <i>Japanese, Chinese, Korean, French, German, Italian, Portuguese, Spanish and Dutch</i>.
+Cyberduck has been translated into numerous languages including <i>Japanese, Chinese, Korean, French, German, Italian, Portuguese, Spanish, Dutch and Finnish</i>.
                         </p>
                       <p>
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
@@ -111,15 +111,18 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-			             <li><b>2.3b2</b> <i>Apr-27-2004</i><br />
-                        <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
+                        <li><b>2.3</b> <i>May-15-2004</i><br />
+                            <a href="./download.php?Cyberduck-2.3.dmg">Cyberduck-2.3.dmg</a>
                         </li>
                         <!--
-			             <li><b>2.3b1</b> <i>Mar-09-2004</i><br />
-                        <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
+                        <li><b>2.3b2</b> <i>Apr-27-2004</i><br />
+                            <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
-			             <li><b>2.2</b> <i>Mar-06-2004</i><br />
-                        <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
+                        <li><b>2.3b1</b> <i>Mar-09-2004</i><br />
+                            <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
+                        </li>
+                        <li><b>2.2</b> <i>Mar-06-2004</i><br />
+                            <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
                         </li>
                         -->
                     </ul>

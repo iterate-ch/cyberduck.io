@@ -32,6 +32,21 @@
                   </td>
                 </tr>
 
+
+                <tr>
+                  <td colspan="2" valign="top">
+							<b>2.3</b> <i>May-15-2004</i> <a href="./Cyberduck-2.3.dmg">Download</a>
+                  </td>
+                  <td class="box-dash">
+                      <ul>
+                        <li>Finnish Localization</li>
+                        <li>Fixed a bug causing bookmarks to get lost uppon moving items in the bookmark drawer</li>
+                        <li>Fixed a bug which caused not all available Rendezvous services to get listed</li>
+                        <li>Removed 'Type ahead' feature of the browser (responsible for frequent crashes)</li>
+                      </ul>
+                  </td>
+                </tr>
+
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.3b2</b> <i>Apr-27-2004</i> <a href="./Cyberduck-2.3beta2.dmg">Download</a>
