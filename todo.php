@@ -37,10 +37,11 @@
                 <td class="box-dash">
                     <ul>
                         <li>Column View</li>
-                        <li>Defining an AppleScript dictionary</li>
+                        <li>Outline View</li>
+                        <li>AppleScript Support</li>
                         <li>FTP-SSL Support</li>
-                        <li>Supporting ssh-agent Authentication</li>
-                        <li>Kerberos (GSSAPI) Authentication</li>
+<!--                        <li>Supporting ssh-agent Authentication</li>-->
+<!--                        <li>Kerberos (GSSAPI) Authentication</li>-->
                         <li><strike>Apply permissions recursively</strike> [v2.4]</li>
                         <li><strike>Support for Novell Netware file listings (FTP)</strike> [v2.4]</li>
                         <li><strike>Synchronization</strike> [v2.4]</li>

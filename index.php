@@ -88,7 +88,7 @@
                 </td>
                 <td bgcolor="#FFFFFF" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><strong>2.4b1</strong> <em>December-25-2004</em><br />
+                        <li><strong>2.4b1</strong> <em>December-27-2004</em><br />
                         <a href="./Cyberduck-2.4b1.dmg">Cyberduck-2.4b1.dmg</a></li>
                         <li><strong>2.3.3</strong> <em>August-08-2004</em><br />
                         <a href="./Cyberduck-2.3.3.dmg">Cyberduck-2.3.3.dmg</a></li><!--

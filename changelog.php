@@ -29,7 +29,7 @@
                 <td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
             </tr>
             <tr>
-                <td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-25-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
+                <td colspan="2" valign="top"><strong>2.4b1</strong> <em>December-27-2004</em> <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
                 <td class="box-dash">
                     <ul>
                         <li>[Feature] Synchronization of files</li>
@@ -64,6 +64,7 @@
                         <li>[Bugfix] Bookmark drawer icon has no text-only equivalent</li>
                         <li>[Bugfix] Tabbing between browser and filter box</li>
                         <li>[Bugfix] Quick Connect Field has initial focus</li>
+						<li>[Bugfix] Live scrolling log view</li>
                     </ul>
                 </td>
             </tr>
