@@ -57,7 +57,7 @@
                         <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
                     </div>
                 </td>
-            </tr><?php echo(echofooter());?>
+            </tr>
         </table>
     </div>
 </body>
