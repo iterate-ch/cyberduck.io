@@ -153,7 +153,6 @@
 						  <?php 
 							$file = "Cyberduck-2.2beta3.dmg";
 							$counter = $file.".counter";
-							touch($counter);
                             $open = fopen($counter, "r");
                             $size = filesize($counter);
                          echo("<a href=\"./download.php?".$file."\">".$file."</a> (".$size." times downloaded)");
