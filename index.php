@@ -111,7 +111,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-			             <li><b>2.3b2</b> <i>Apr-26-2004</i><br />
+			             <li><b>2.3b2</b> <i>Apr-27-2004</i><br />
                         <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
                         <!--
