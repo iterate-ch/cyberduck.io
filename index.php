@@ -167,12 +167,12 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled">Upload file(s) (Drag and drop from the Finder)</td>
+				<td class="box-filled">Upload file(s)</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled">Upload directory (Drag and drop from the Finder)</td>
+				<td class="box-filled">Upload directory</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
@@ -290,7 +290,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           </p>
                           <ul>
 <li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
-<li>Cyberduck can now be configured as the default FTP helper application. See "http://www.monkeyfood.com/software/moreInternet/". This seems to work with Safari and Internet Explorer.</li>
+<li>Cyberduck can now be configured as the default FTP helper application. See <a href="http://www.monkeyfood.com/software/moreInternet/">monkeyfood.com</a>. This seems to work with Safari and Internet Explorer.</li>
 <li>Dragging files to the Finder is now more reliable.</li>
 <li>The transfer panel does now close again if defined so in the preferences.</li>
 <li>The buffer size (the size of download chunks to keep in memory before writing to disk) is now adjustable.</li>
