@@ -35,49 +35,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="middle">
-                  <!--
-                    <form method="post"
-					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
-						<table border="0" cellspacing="0" cellpadding="0">
-						  <tr>
-						    <td>
-						      Vote for Cyberduck on O'Reilly's OSDir.com
-						    </td>
-						  </tr>
-						  <tr>
-						    <td>
-						      <table border="0" cellspacing="0" cellpadding="0">
-						        <tr>
-						          <td valign="top">
-						            <select name="rating">
-						              <option selected="selected">--</option>
-						              <option value="10">10</option>
-						              <option value="9">9</option>
-						              <option value="8">8</option>
-						              <option value="7">7</option>
-						              <option value="6">6</option>
-						              <option value="5">5</option>
-						              <option value="4">4</option>
-						              <option value="3">3</option>
-						              <option value="2">2</option>
-						              <option value="1">1</option>
-						            </select>
-						          </td>
-						          <td valign="top">
-						            <input type="hidden" name="ratinglid" value="492"></input>
-						            <input type="hidden" name="ratinguser" value="outside"></input>
-						            <input type="hidden" name="req" value="addrating"></input>
-						            <input type="submit" value="Vote!"></input>
-						          </td>
-						        </tr>
-						      </table>
-						    </td>
-						  </tr>
-						</table>
-					</form>
-				-->
-                  </td>
+                  <td colspan="2"></td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
