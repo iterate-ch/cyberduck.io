@@ -64,14 +64,14 @@
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 
 						   <p>
-							<a href="./Cyberduck-2.3beta1.dmg"><b>2.3b1</b> <i>Mar-09-2004</i></a>
+							<b>2.3b1</b> <i>Mar-09-2004</i> <a href="./Cyberduck-2.3beta1.dmg">Download</a>
                           </p>
                           <ul>
 <li>External editor support (SubEthaEdit, BBEdit, TextWrangler, Text-Edit Plus)</li>
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2.dmg"><b>2.2</b> <i>Mar-06-2004</i></a>
+							<b>2.2</b> <i>Mar-06-2004</i> <a href="./Cyberduck-2.2.dmg">Download</a>
                           </p>
                           <ul>
 <li>Supporting folders with sticky/set-uid/set-gid bits (FTP)</li>
@@ -81,7 +81,7 @@
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2beta6.dmg"><b>2.2b6</b> <i>Feb-25-2004</i></a>
+							<b>2.2b6</b> <i>Feb-25-2004</i> <a href="./Cyberduck-2.2beta6.dmg">Download</a>
                           </p>
                           <ul>
 <li>Preliminary support for Windows, VMS and OS/2 file listings (FTP)</li>
@@ -94,7 +94,7 @@
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2beta5.dmg"><b>2.2b5</b> <i>Feb-12-2004</i></a>
+							<b>2.2b5</b> <i>Feb-12-2004</i> <a href="./Cyberduck-2.2beta5.dmg">Download</a>
                           </p>
                           <ul>
 <li>Chinese (Traditional) Localization</li>
@@ -112,7 +112,7 @@
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2beta4.dmg"><b>2.2b4</b> <i>Jan-31-2004</i></a>
+							<b>2.2b4</b> <i>Jan-31-2004</i> <a href="./Cyberduck-2.2beta4.dmg">Download</a>
                           </p>
                           <ul>
 <li>Fixed a bug that with some servers the permissions could not be modified (FTP)</li>
@@ -122,7 +122,7 @@
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2beta3.dmg"><b>2.2b3</b> <i>Jan-25-2004</i></a>
+							<b>2.2b3</b> <i>Jan-25-2004</i> <a href="./Cyberduck-2.2beta3.dmg">Download</a>
                           </p>
                           <ul>
 <li>Caching folder listings</li>
@@ -132,7 +132,7 @@
                           </ul>
 
 						   <p>
-							<a href="./Cyberduck-2.2beta2.dmg"><b>2.2b2</b> <i>Jan-24-2004</i></a>
+							<b>2.2b2</b> <i>Jan-24-2004</i> <a href="./Cyberduck-2.2beta2.dmg">Download</a>
                           </p>
                           <ul>
 <li>Updated Japanese localization</li>
@@ -144,7 +144,7 @@
                           </ul>
                           
 						   <p>
-							<a href="./Cyberduck-2.2beta1.dmg"><b>2.2b1</b> <i>Jan-22-2004</i></a>
+							<b>2.2b1</b> <i>Jan-22-2004</i> <a href="./Cyberduck-2.2beta1.dmg">Download</a>
                           </p>
                           <ul>
 <li>Keychain integration</li>
@@ -165,7 +165,7 @@
                           </ul>
                           
 						   <p>
-							<a href="./Cyberduck-2.1.dmg"><b>2.1</b> <i>Dec-08-2003</i></a>
+							<b>2.1</b> <i>Dec-08-2003</i> <a href="./Cyberduck-2.1.dmg">Download</a>
                           </p>
                           <ul>
 <li>Bookmarks can now be edited.</li>
@@ -186,7 +186,7 @@
                           </ul>
                           
 						   <p>
-							<a href="./Cyberduck-2.1beta5.dmg"><b>2.1b5</b> <i>Aug-29-2003</i></a>
+							<b>2.1b5</b> <i>Aug-29-2003</i> <a href="./Cyberduck-2.1beta5.dmg">Download</a>
                           </p>
                           <ul>
 <li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
@@ -199,7 +199,7 @@
                           </ul> 
                                                    
 						   <p>
-							<a href="./Cyberduck-2.1beta4.dmg"><b>2.1b4</b> <i>Aug-22-2003</i></a>
+							<b>2.1b4</b> <i>Aug-22-2003</i> <a href="./Cyberduck-2.1beta4.dmg">Download</a>
                           </p>
                           <ul>
 <li>Cyberduck now has the official creator code 'CYCK'.</li>
@@ -207,7 +207,7 @@
                           </ul>
                           
 						   <p>
-                            <a href="./Cyberduck-2.1beta3.dmg"><b>2.1b3</b> <i>Aug-17-2003</i></a>
+                            <b>2.1b3</b> <i>Aug-17-2003</i> <a href="./Cyberduck-2.1beta3.dmg">Download</a>
                           </p>
                           <ul>
 <li>Localization support</li>
@@ -224,7 +224,7 @@
                           </ul>
                           
 						   <p>
-                            <a href="./Cyberduck-2.1beta2.dmg"><b>2.1b2</b> <i>Aug-15-2003</i></a>
+                            <b>2.1b2</b> <i>Aug-15-2003</i> <a href="./Cyberduck-2.1beta2.dmg">Download</a>
                           </p>
                           <ul>
 <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
