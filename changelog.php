@@ -68,6 +68,24 @@
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 
 						   <p>
+							<a href="./download.php?Cyberduck-2.2beta5.dmg"><b>2.2b5</b> <i>Feb-12-2004</i></a>
+                          </p>
+                          <ul>
+<li>Chinese (Traditional) Localization</li>
+<li>Korean Localization</li>
+<li>Passphrases for private key files (SSH) are stored in the Keychain</li>
+<li>Bookmark editor allows to specify the port number</li>
+<li>When a bookmark is edited, the properties are updated in the bookmark drawer instantly</li>
+<li>A confirmation dialog is displayed before deleting a bookmark</li>
+<li>A confirmation dialog is displayed when connecting to a new site in a browser still connected to another host</li>
+<li>Transcript messages are only shown in the corresponding browser</li>
+<li>Fixed a bug which caused the browser window to be 'frozen' after an upload</li>
+<li>Option to adjust the 'LIST' command sent using FTP</li>
+<li>Fixed a bug which caused a crash when not connected to a network</li>
+<li>Updated application icon</li>
+                          </ul>
+
+						   <p>
 							<a href="./download.php?Cyberduck-2.2beta4.dmg"><b>2.2b4</b> <i>Jan-31-2004</i></a>
                           </p>
                           <ul>

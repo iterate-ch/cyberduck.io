@@ -14,7 +14,7 @@
 			     </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="middle" class="box-solid">
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
                      </div>
@@ -35,8 +35,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffffff" valign="top" class="box-dash">
+                  <td width="200" colspan="2" valign="middle"></td>
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
             SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
@@ -51,7 +51,7 @@
                 <!-- ======= Screenshot ======== -->
 
                 <tr>
-                  <td colspan="3" valign="top">
+                  <td colspan="3">
 			<a href="./img/browser.png"><img align="middle" width="700" height="399" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
                   </td>
                 </tr>
@@ -59,7 +59,7 @@
                 <!-- ======= Donate! ======== -->
 
                 <tr>
-                  <td colspan="2" valign="top" class="box-solid">
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
 			             <p>Make a donation!</p>
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -78,7 +78,7 @@
                         <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" alt="Shop Cyberduck Gadgets" border="0"></img></a>
                     </div>
                   </td>
-                  <td bgcolor="#ffffff" valign="top" class="box-dash">
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                           <p>
                             <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
                           </p>
@@ -93,13 +93,13 @@
                 <!-- ======= Download! ======== -->
                 
                 <tr>
-                  <td colspan="2"></td>
-                  <td class="box-solid">
+                  <td width="200" colspan="2"></td>
+                  <td width="100%" class="box-solid">
                       <a name="download">download</a>
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="top" class="box-solid">
+                  <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
                         <img src="img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0"></img>
                     </div>
@@ -109,8 +109,8 @@
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-			<li><b>2.2b4</b> <i>Jan-31-2004</i><br />
-                        <a href="./download.php?Cyberduck-2.2beta4.dmg">Cyberduck-2.2beta4.dmg</a>
+			<li><b>2.2b5</b> <i>Feb-12-2004</i><br />
+                        <a href="./download.php?Cyberduck-2.2beta5.dmg">Cyberduck-2.2beta5.dmg</a>
                         </li>
                     </ul>
                   </td>
@@ -119,14 +119,14 @@
                 <!-- ======= Mailing list ======== -->
                 
                 <tr>
-                  <td colspan="2"></td>
+                  <td width="200" colspan="2"></td>
                   <td class="box-solid">
                       <a name="lists">mailing lists</a>
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffffff" valign="top" class="box-dash">
+                  <td width="200" colspan="2" valign="middle"></td>
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                   <p>
                     You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
                     </p>
@@ -134,8 +134,8 @@
                 </tr>
         	   
         	   <tr>
-                  <td colspan="2"></td>
-		          <td>
+                  <td width="200" colspan="2" valign="middle"></td>
+		          <td width="100%">
     			     <div align="right">
             			<?php echo(echofooter(".."));?>
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
