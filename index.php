@@ -25,7 +25,6 @@
 					</div>
 				  </td>
 				</tr>
-					<?php echo(echoSoftwarePatents());?>
 				<tr>
 				  <td width="200" colspan="2" valign="middle" class="box-solid">
 					<!--<p>
@@ -121,7 +120,7 @@ Cyberduck has been translated into numerous languages including <i>English, Dutc
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-                        <li><b>2.4b1</b> <i>December-10-2004</i><br />
+						<li><b>2.4b1</b> <i>December-25-2004</i><br />
                             <a href="./Cyberduck-2.4b1.dmg">Cyberduck-2.4b1.dmg</a>
                         </li>
                         <li><b>2.3.3</b> <i>August-08-2004</i><br />

@@ -25,11 +25,53 @@
                     </div>
                   </td>
                 </tr>
-                <?php echo(echoSoftwarePatents());?>
+
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
                       <b><a name="history">changelog</a></b>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="2" valign="top">
+							<b>2.4b1</b> <i>December-25-2004</i> <a href="./Cyberduck-2.4b1.dmg">Download</a>
+                  </td>
+                  <td class="box-dash">
+                      <ul>
+<li>[Feature] Synchronization of files</li>
+<li>[Feature] Create new files on server</li>
+<li>[Feature] Support for Novell Netware file listings (FTP)</li>
+<li>[Feature] Growl notification support (see http://growl.info)</li>
+<li>[Feature] Limit number of concurrent connections to a remote host</li> 
+<li>[Feature] Move remote files with copy & paste</li>
+<li>[Feature] Select a file in the browser by typing its first character</li>
+<li>[Feature] Put remote files into the transfer queue with copy & paste</li>
+<li>[Feature] Apply permissions recursively</li>
+<li>[Feature] Option to apply default permissions to transferred files in Preferences</li>
+<li>[Feature] Option to preserve modification date on download in Preferences</li>
+<li>[Feature] Switch encoding per browser with menu or toolbar item</li>
+<li>[Feature] Switch 'Show hidden files' per browser with menu or toolbar item</li>
+<li>[Feature] Transfer Queue with "Aqua" progress indicator</li>
+<li>[Feature] Provide a proxy icon for the connection in the window title bar</li>
+<li>[Feature] The proxy icon in the window title bar can then be dragged to the bookmark drawer or the Finder</li>
+<li>[Feature] Bookmarks of recently connected hosts are saved in ~/Library/Application Support/Cyberduck/History</li>
+<li>[Feature] Updated toolbar icons (Thanks to Matt Ball)</li>
+<li>[Feature] Display the number of files in the browser</li>
+<li>[Feature] Added TextMate to the list of supported editors (see http://macromates.com)</li>
+<li>[Feature] Dialog for duplicated files lists all at once instead of consecutively asking</li>
+<li>[Feature] Filter field is now a standard search field</li>
+<li>[Feature] Read bookmarks from "/Library/Application Support/Cyberduck/" instead of the individual user bookmarks file if available</li>
+<li>[Feature] Check for running transfers on application quit</li>
+<li>[Feature] Updated FTP core (FTP)</li>
+<li>[Feature] Saving passwords as 'Internet Password' in the Keychain</li>
+<li>[Localize] Norwegian Localization</li>
+<li>[Bugfix] Update existing browsers when changing the default interface attributes in the Preferences</li>
+<li>[Bugfix] Don't cache DNS lookups forever</li>
+<li>[Bugfix] Bookmark drawer icon has no text-only equivalent</li>
+<li>[Bugfix] Tabbing between browser and filter box</li>
+<li>[Bugfix] Quick Connect Field has initial focus</li>
+                      </ul>
                   </td>
                 </tr>
 

@@ -25,7 +25,7 @@
 			</div>
 		  </td>
 		</tr>
-			<?php echo(echoSoftwarePatents());?>
+
 		<tr>
 		  <td colspan="2"></td>
 		  <td class="box-solid">
@@ -53,7 +53,7 @@
 		  <td colspan="2"></td>
 		  <td class="box-dash">
 			  <ul>
-				<li><b>2.4b1</b> <i>December-10-2004</i><br />
+				<li><b>2.4b1</b> <i>December-25-2004</i><br />
 				<a href="cyberduck-src-2.4b1.tar.gz"> cyberduck-src-2.4b1.tar.gz </a></li>
 			  </ul>
 

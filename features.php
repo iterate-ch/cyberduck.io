@@ -25,7 +25,7 @@
                     </div>
                   </td>
                 </tr>
-                <?php echo(echoSoftwarePatents());?>
+
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
@@ -72,7 +72,6 @@
                                 <ul>
                                     <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
                                     <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
-                                    <li>BBEdit Lite</li>
                                     <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
                                     <li>Text-Edit Plus</li>
                                     <li><a href="http://macromates.com/">TextMate</a></li>
@@ -164,7 +163,6 @@
                     </td>
                   <td valign="top" class="box-dash">
                         <div align="left">
-                            <!--<img src="./img/rendezvous.png" width="70" alt="Rendezvous support" border="0"></img>-->
                             <img src="./img/rendezvous2.png" alt="Rendezvous support" border="0"></img>
                         </div>
                     </td>
