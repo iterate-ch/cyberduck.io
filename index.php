@@ -157,7 +157,7 @@
                             $size = filesize($counter);
                             $count = fread($open, $size);
                             fclose($open);
-                         echo("<a href=\"./download.php?".$file."\">".$file."</a> (".$count." times downloaded)");
+                         echo("<a href=\"./download.php?".$file."\">".$file."</a> (&gt;".$count." times downloaded)");
                             ?>
                          </li>
                     </ul>
