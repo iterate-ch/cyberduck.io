@@ -63,7 +63,7 @@
 		                  </td>
 	                  <td bgcolor="#ffcc33" class="box-dash">
                           <p>
-                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
+                            <b>This program is <a href="http://www.GNU.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
                           </p>
                   </td>
                 </tr>
@@ -180,7 +180,7 @@
                     <table border="0" width="100%">
                       <tr>
                         <td>
-                          <p>source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">gnu general public licence</a>.</p>
+                          <p>source code is available licenced unter the <a href="http://www.GNU.org/licenses/gpl.html">GNU general public licence</a>.</p>
                           <ul>
                             <li>2.0beta3:<br>
                             <a href="download.php?cyberduck-src-2.0beta3.zip">cyberduck-src-2.0beta3.zip</a></li>
@@ -253,7 +253,7 @@
                 <tr>
                   <td colspan="2" class="box-solid">
                     <div align="center">
-                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
+                        <img src="./img/GNU.jpg" alt="GNU GPL Software" border="0">
                     </div>
 		</td>
                   <td bgcolor="#ffcc33" class="box-dash">
@@ -264,10 +264,10 @@
                             copyright (c) 2002 david kocher. all rights reserved.
                           </p>
                           <p>
-                            this program is free software; you can redistribute it and/or modify it under the terms of the gnu general public license as published by the free software foundation; either version 2 of the license, or (at your option) any later version.
+                            this program is free software; you can redistribute it and/or modify it under the terms of the GNU general public license as published by the free software foundation; either version 2 of the license, or (at your option) any later version.
                           </p>
                           <p>
-                            this program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. see the gnu general public license for more details.
+                            this program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. see the GNU general public license for more details.
                           </p>
                         </td>
                       </tr>
