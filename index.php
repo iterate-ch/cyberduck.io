@@ -29,7 +29,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="128" colspan="2" valign="bottom">
+                  <td colspan="2" valign="bottom">
                   	<p>
                   	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
                   	</p>
@@ -47,7 +47,7 @@
 RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   	</p>
                   </td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td width="100%" bgcolor="#ffcc33" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
