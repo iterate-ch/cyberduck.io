@@ -155,7 +155,9 @@
 							$counter = $file.".counter";
                             $open = fopen($counter, "r");
                             $size = filesize($counter);
-                         echo("<a href=\"./download.php?".$file."\">".$file."</a> (".$size." times downloaded)");
+                            $count = fread($open, $size);
+                            fclose($open);
+                         echo("<a href=\"./download.php?".$file."\">".$file."</a> (".$count." times downloaded)");
                             ?>
                          </li>
                     </ul>
