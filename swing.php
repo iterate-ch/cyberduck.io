@@ -21,12 +21,12 @@
                     <h1>cyberduck</h1 >
 		    <h3>Java FTP Client</h3>
                     <div align="left">
-                      <a href="#features">features</a> | 
-                      <a href="#requirements">requirements</a> | 
-                      <a href="#download">download</a> | 
-                      <a href="#code">source code</a> | 
-                      <a href="#history">history</a> | 
-                      <a href="#license">license</a>
+                      <a href="index.php">about</a> | 
+                      <a href="index.php#download">download</a> | 
+                      <a href="features.php">features</a> | 
+                      <a href="source.php">source code</a> | 
+                      <a href="history.php">history</a> | 
+                      <a href="license.php">license</a>
                     </div>
                   </td>
                 </tr>
@@ -40,7 +40,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
 
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                           <p>
                             cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager
                              and http/ftp client. you can store urls as bookmarks, manage your 
@@ -68,7 +68,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
 		                          </form>
 					  </div>
 		                  </td>
-	                  <td bgcolor="#ffcc33" class="box-dash">
+	                  <td bgcolor="#ffffff" class="box-dash">
                           <p>
                             <b>This program is <a href="http://www.GNU.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
                           </p>
@@ -82,7 +82,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
@@ -116,7 +116,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
@@ -141,7 +141,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
 						<img src="img/duke.gif" alt="Built for Java" border="0"></img>
                     </div>
                   </td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
@@ -183,7 +183,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
@@ -205,7 +205,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
@@ -263,7 +263,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                         <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0"></img>
                     </div>
 		</td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffffff" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
