@@ -56,6 +56,11 @@
                           </tt></p>
 
                           <ul>
+                            <li><b>2.3beta1</b> <i>Mar-09-2004</i><br />
+                            <a href="cyberduck-src-2.3beta1.tar.gz"> cyberduck-src-2.2.tar.gz </a></li>
+                          </ul>
+
+                          <ul>
                             <li><b>2.2</b> <i>Mar-06-2004</i><br />
                             <a href="cyberduck-src-2.2.tar.gz"> cyberduck-src-2.2.tar.gz </a></li>
                           </ul>
