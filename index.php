@@ -152,8 +152,10 @@
 						<li><b>2.2b1</b> <i>Jan-22-2004</i><br />
 						  <?php 
 							$file = "Cyberduck-2.2beta1.dmg";
-                            $open = fopen($file.".counter", "r");
-                            $size = filesize($file.".counter");
+							$counter = $file.".counter"
+							touch($counter);
+                            $open = fopen($counter, "r");
+                            $size = filesize($counter);
                          echo("<a href=\"./download.php?".$file."\">".$file."</a> (".$size." times downloaded)");
                             ?>
                          </li>
