@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                   <td colspan="2" class="box-solid">
-                    <div align="center" valign="top">
+                    <div align="center">
                         <img src="./img/javafile.png" alt="Java Source" border="0"></img>
                     </div>
                 </td>

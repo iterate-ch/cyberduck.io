@@ -36,8 +36,8 @@
                 </tr>
                 <tr>
                   <td colspan="2" valign="top">
-                    <img src="./img/rendezvous.png" width="70" align="center" alt="Rendezvous support" border="0"></img>
-                    <img src="./img/keychain.png" width="70" align="center" alt="Rendezvous support" border="0"></img>
+                    <img src="./img/rendezvous.png" width="70" align="middle" alt="Rendezvous support" border="0"></img>
+                    <img src="./img/keychain.png" width="70" align="middle" alt="Rendezvous support" border="0"></img>
 
                   	<p>
                   	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
