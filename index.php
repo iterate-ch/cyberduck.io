@@ -40,7 +40,7 @@
 					</td>
 					<td valign="top" class="box-dash">
 						<div class="underline">
-						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Russian</em>.
+						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian and Swedish</em>.
 						</p>
 						</div>
 						<div class="underline">
@@ -81,7 +81,7 @@
 					<td colspan="3">
 						<div align="center" id="image">
 							<a href="./img/browser.jpg">
-								<img align="middle" width="700" height="454" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot" />
+								<img align="middle" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot" />
 							</a>
 						</div>
 					</td>
@@ -116,8 +116,8 @@
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
-							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
-								<a href="./Cyberduck-2.4b4.dmg">Cyberduck-2.4b4.dmg</a> <a href="./Cyberduck-2.4b4.dmg"><i>(Download)</i></a>
+							<li><strong>2.4</strong> <em>March-25-2005 </em><br />
+								<a href="./Cyberduck-2.4.dmg">Cyberduck-2.4.dmg</a> <a href="./Cyberduck-2.4.dmg"><i>(Download)</i></a>
 							</li>
 						</ul>
 					</td>

@@ -10,7 +10,7 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 				<?php echo(echogoogle());?>
 				<tr>
-	                <td width="150" valign="middle" class="box-solid">
+					<td width="150" valign="middle" class="box-solid">
 						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td width="100%" colspan="2" class="box-solid">
@@ -27,7 +27,20 @@
 					<td width="150"></td>
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
-
+				<tr>
+					<td width="150" valign="top"><strong>2.4</strong> <em> March-25-2005</em> <a href="./Cyberduck-2.4.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+							<li>[Localize] Swedish Localization</li>
+							<li>[Feature] Additional encryption ciphers supported (SFTP)</li>
+							<li>[Bugfix] Rendezvous implementation updated </li>
+							<li>[Bugfix] Folder to synchronize not selectable in some cases</li>
+							<li>[Bugfix] Fallback to default directory when specified directory doesn't exist</li>
+							<li>[Bugfix] Resolved incompatibility with SSH-1 keys in ~/.ssh/known_hosts (SFTP)</li>
+							<li>[Bugfix] Resolved crash in info window when group was unknown</li>
+						</ul>
+					</td>
+				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>2.4b4</strong> <em>February-03-2005</em> <a href="./Cyberduck-2.4b4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">

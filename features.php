@@ -113,7 +113,7 @@
 							<li>Resume uploads (FTP and SFTP)</li>
 							<li>Download folders (also <i>recursive</i>)</li>
 							<li>Upload folders (also <i>recursive</i>)</li>
-							<li>Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</li>
+							<li>Drag and drop to transfer files (Finder &harr; Cyberduck)</li>
 						</ul>
 					</td>
 				</tr>
