@@ -126,7 +126,7 @@
                           </p>
                           <div class="alert">
                             <p>
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese and Japanese</i>.
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese, Japanese, Korean and Traditional Chinese</i>.
                             </p>
                           </div>
                   </td>
