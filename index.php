@@ -95,7 +95,7 @@
 				<tr>
 					<td width="150" class="alert">
 						<div align="center">
-							<a href="./donate"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
+							<a href="./donate"><img src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>
 					</td>
 					<td colspan="2" class="alert">
