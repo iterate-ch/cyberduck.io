@@ -145,10 +145,10 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   <p>
                     You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
                     </p>
-                    <form Method=POST ACTION="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+                    <form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
                         <p>Your email address:
-                            <input type="Text" name="email" size="30" value=""></input>
-                            <input type="Submit" name="email-button" value="Subscribe"></input>
+                            <input type="text" name="email" size="30" value=""></input>
+                            <input type="submit" name="email-button" value="Subscribe"></input>
                         </p>
                     </form>
                   </td>

@@ -54,7 +54,7 @@
                         <b>Localizations</b>
                   </td>
                   <td valign="top" class="box-dash">
-                        <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese
+                        <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</i>
                     </td>
                 </tr>
                 
@@ -70,17 +70,17 @@
                                     <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
                                     <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
                                     <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
-                                    <li>Text-Edit Plus
+                                    <li>Text-Edit Plus</li>
                                 </ul>
                             </td>
                             <td>
-                    <div align="right">
-                        <img src="./img/editor.png" alt="External editor support" border="0"></img>
-                     </div>
+                                <div align="right">
+                                    <img src="./img/editor.png" alt="External editor support" border="0"></img>
+                                </div>
                             </td>
                         </tr>
-                        </table>
-                    </td>
+                    </table>
+                  </td>
                 </tr>
                 
                 <tr>
@@ -163,15 +163,14 @@
                     </td>
                   <td valign="top" class="box-dash"></td>
                 </tr>
+
+            <tr>
+                <td colspan="3">
+                    <div align="right">
+	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
+                    </div>
                 </td>
             </tr>
-		<tr>
-            <td colspan="3">
-    			<div align="right">
-	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-       	 		</div>
-		    </td>
-		</tr>
       </table>
     </div>
   </body>

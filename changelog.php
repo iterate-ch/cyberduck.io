@@ -74,6 +74,7 @@
                           </ul>
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2</b> <i>Mar-06-2004</i> <a href="./Cyberduck-2.2.dmg">Download</a>
@@ -87,6 +88,7 @@
                           </ul>
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b6</b> <i>Feb-25-2004</i> <a href="./Cyberduck-2.2beta6.dmg">Download</a>
@@ -104,6 +106,7 @@
 
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b5</b> <i>Feb-12-2004</i> <a href="./Cyberduck-2.2beta5.dmg">Download</a>
@@ -126,6 +129,7 @@
 
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b4</b> <i>Jan-31-2004</i> <a href="./Cyberduck-2.2beta4.dmg">Download</a>
@@ -140,6 +144,7 @@
 
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b3</b> <i>Jan-25-2004</i> <a href="./Cyberduck-2.2beta3.dmg">Download</a>
@@ -154,6 +159,7 @@
 
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b2</b> <i>Jan-24-2004</i> <a href="./Cyberduck-2.2beta2.dmg">Download</a>
@@ -170,6 +176,7 @@
                           
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.2b1</b> <i>Jan-22-2004</i> <a href="./Cyberduck-2.2beta1.dmg">Download</a>
@@ -195,6 +202,7 @@
                           
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.1</b> <i>Dec-08-2003</i> <a href="./Cyberduck-2.1.dmg">Download</a>
@@ -219,6 +227,7 @@
                           </ul>
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.1b5</b> <i>Aug-29-2003</i> <a href="./Cyberduck-2.1beta5.dmg">Download</a>
@@ -236,6 +245,7 @@
                                                    
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
 							<b>2.1b4</b> <i>Aug-22-2003</i> <a href="./Cyberduck-2.1beta4.dmg">Download</a>
@@ -248,6 +258,7 @@
                           
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
                             <b>2.1b3</b> <i>Aug-17-2003</i> <a href="./Cyberduck-2.1beta3.dmg">Download</a>
@@ -269,6 +280,7 @@
                           
                   </td>
                 </tr>
+                
                 <tr>
                   <td colspan="2" valign="top">
                             <b>2.1b2</b> <i>Aug-15-2003</i> <a href="./Cyberduck-2.1beta2.dmg">Download</a>
@@ -279,19 +291,17 @@
                           </ul>
 
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
-
-                        </td>
-                      </tr>
                   </td>
                 </tr>
-		<tr>
+                
+                <tr>
                   <td colspan="2"></td>
-		    <td>
-    			<div align="right" valign="top">
-	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-       	 		</div>
-		    </td>
-		</tr>
+                  <td>
+                        <div align="right">
+                            <a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
+                    </div>
+                  </td>
+                </tr>
       </table>
     </div>
   </body>
