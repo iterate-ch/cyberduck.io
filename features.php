@@ -19,7 +19,7 @@
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
                      </div>
                   </td>
-                  <td class="box-solid">
+                  <td width="100%" class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     	<br />
                     	<h1>Cyberduck</h1>
@@ -36,9 +36,12 @@
                 </tr>
                 <tr>
                   <td colspan="2" valign="top">
-                    <img src="./img/rendezvous.png" width="70" align="middle" alt="Rendezvous support" border="0"></img>
-                    <img src="./img/keychain.png" width="70" align="middle" alt="Rendezvous support" border="0"></img>
-
+                    <div align="center">
+                        <img src="./img/rendezvous.png" width="70" alt="Rendezvous support" border="0"></img>
+                     </div>
+                    <div align="center">
+                        <img src="./img/keychain.png" width="70" alt="Keychain Integration" border="0"></img>
+                     </div>
                   	<p>
                   	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
 RBrowser, and all the rest. Keep at it!</i> --Nic Waller
