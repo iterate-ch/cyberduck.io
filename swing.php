@@ -5,7 +5,7 @@
   include "../graphics.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck | swing", "..")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
