@@ -34,12 +34,14 @@
 					<td colspan="2" valign="top"><strong>2.4b4</strong> <em>February-03-2005</em> <a href="./Cyberduck-2.4b4.dmg">Download</a></td>
 					<td class="box-dash">
 						<ul>
-							<li>[Bugfix] Drag and drop operations</li>
+							<li>[Bugfix] Dragging files to the Finder</li>
+							<li>[Bugfix] Reordering bookmarks</li>
 							<li>[Bugfix] SSH exception handling (SFTP)</li>
 							<li>[Bugfix] Bookmark selection in connection dialog</li>
 							<li>[Bugfix] Items in transfer window not removed</li>
 							<li>[Bugfix] Deleting more than one bookmark at once</li>
-							<li>[Bugfix] Corrupted resource file in zh_TW localization</li>
+							<li>[Bugfix] Corrupted resource files in Chinese localization</li>
+							<li>[Bugfix] Corrupted resource files in Japanese localization</li>
 						</ul>
 					</td>
 				</tr>
