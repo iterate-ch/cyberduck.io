@@ -12,7 +12,7 @@
     
     function echogoogle() {
             return "<tr>
-                <td colspan=\"4\" bgcolor=\"#FFFFFF\" class=\"box-dash\">
+                <td colspan=\"3\" bgcolor=\"#FFFFFF\" class=\"box-dash\">
         <script type=\"text/javascript\"><!--
 google_ad_client = \"pub-9176652804694766\";
 google_ad_width = 728;
@@ -55,17 +55,6 @@ google_color_text = \"6F6F6F\";
     
     function echomenu($dir) {
    		return "<div class=\"emphasized\"><a href=\"http://sudo.ch/\">sudo.ch</a> | <a href=\"http://cyberduck.ch/\">cyberduck.ch</a></div>";
-    }
-
-    function echoSoftwarePatents() {
-/*        return "<tr>
-                  <td colspan=\"4\" class=\"sp\">
-		<div align=\"right\">
-			<a href=\"http://petition.eurolinux.org\"><img src=\"http://aful.org/images/patent_button.png\" alt=\"Help us to Fight For a Software Patent Free Europe\" border=\"0\"></img></a>
-   		</div>
-			     </td>
-                </tr>";
-*/
     }
 
     function counter() {

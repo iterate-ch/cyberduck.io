@@ -10,12 +10,10 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 			<?php echo(echogoogle());?>
 				<tr>
-					<td width="200" colspan="2" valign="top" class="box-solid">
-						<div align="center">
-							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-						</div>
+	                <td width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
-					<td width="100%" colspan="2" class="box-solid">
+					<td colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -26,16 +24,16 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><strong>todo</strong></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="alert">Contributors needed! Anyone willing to work on a subject listed below or another part of the project is welcome.
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li>Column View</li>
@@ -53,7 +51,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$

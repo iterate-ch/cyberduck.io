@@ -10,12 +10,10 @@
         <table border="0" cellpadding="5" cellspacing="5" width="700">
 			<?php echo(echogoogle());?>
             <tr>
-                <td width="200" colspan="2" valign="middle" class="box-solid">
-                    <div align="center">
-                        <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-                    </div>
+                <td width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
                 </td>
-                <td width="100%" colspan="2" class="box-solid">
+                <td colspan="2" class="box-solid">
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -26,11 +24,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><strong>source code</strong></td>
 				</tr>
 				<tr>
-					<td colspan="2" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
+					<td width="150" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
 					<td colspan="2" valign="top" class="box-dash">
 						<p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU
 								General Public Licence
@@ -54,7 +52,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
@@ -169,7 +167,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="4">
+					<td colspan="3">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

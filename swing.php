@@ -11,12 +11,10 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 			<?php echo(echogoogle());?>
 				<tr>
-					<td width="200" colspan="2" valign="middle" class="box-solid">
-						<div align="center">
-							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-						</div>
+	                <td width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
-					<td width="100%" colspan="2" class="box-solid">
+					<td colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -27,13 +25,13 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="alert">This version of Cyberduck is <strong>outdated</strong>. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td width="150"></td>
+					<td colspan="2" class="box-dash">
 						<p>cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager and http/ftp client. you can store urls as bookmarks, manage your downloads and use the ftp capabilities to browse the contents of a ftp server or i.e. upload your website to the remote ftp server. cyberduck is written in <a href="http://java.sun.com/">Java</a>. and runs on any java 2 runtime environment. there is a version built for mac os x, packaged as a double clickable application bundle.
 						</p>
 						<p>i appreciate any comments, feature suggestions and bug reports. please send them directly to <a href="mailto:dkocher@icu.unizh.ch?subject=cyberduck%20comment">me.</a>
@@ -41,12 +39,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><a name="features" id="features">features</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td width="150"></td>
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -71,12 +69,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><a name="requirements" id="requirements">requirements</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td width="150"></td>
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -89,16 +87,16 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><a name="download" id="download">download</a></td>
 				</tr>
 				<tr>
-					<td colspan="2" valign="top" class="box-solid">
+					<td width="150" valign="top" class="box-solid">
 						<div align="center">
 							<img src="img/duke.gif" alt="Built for Java" border="0" />
 						</div>
 					</td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -120,12 +118,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><a name="code" id="code">source code</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td width="150"></td>
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -142,12 +140,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid"><a name="history" id="history">version history</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td width="150"></td>
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -183,7 +181,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
+					<td width="150"></td>
 					<td colspan="2" class="box-solid">
 						<div align="left">
 							<a name="license" id="license">license</a>
@@ -191,12 +189,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2" class="box-solid">
+					<td width="150" class="box-solid">
 						<div align="center">
 							<img src="./img/gnu.jpg" alt="GNU GPL Software" border="0" />
 						</div>
 					</td>
-					<td colspan="2" bgcolor="#FFFFFF" class="box-dash">
+					<td colspan="2" class="box-dash">
 						<table width="100%" border="0">
 							<tr>
 								<td>
@@ -211,7 +209,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="4">
+					<td colspan="3">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

@@ -10,8 +10,8 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 				<?php echo(echogoogle());?>
 				<tr>
-					<td width="200" colspan="2" valign="middle" class="box-solid">
-						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img></div>
+	                <td width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
 						<div class="underline">
@@ -23,7 +23,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="200" colspan="2" valign="top" class="box-solid">
+					<td width="150" valign="top" class="box-solid">
 						<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck." </em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 						</p>
 						<div align="center">
@@ -36,7 +36,7 @@
 							<em>"What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free."</em> (<a href="http://www.versiontracker.com/php/feedback/article.php?story=20050203103831290">user comment</a>)
 						</p>
 					</td>
-					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
+					<td valign="top" class="box-dash">
 						<div class="underline">
 						<p>Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others. Cyberduck has been translated into numerous languages including <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Russian</em>.
 						</p>
@@ -48,7 +48,7 @@
 						</div>
 						<p class="emphasized"><strong>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a <a href="./donate">donation</a>. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal - it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.</strong></p>
 					</td>
-					<td width="200" bgcolor="#FFFFFF" valign="top" class="box-dash">
+					<td width="150" valign="top" class="box-dash">
 						<div class="underline">
 						<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
 						</p>
@@ -75,7 +75,7 @@
 				</tr>
 				<!-- ======= Screenshot ======== -->
 				<tr>
-					<td colspan="4">
+					<td colspan="3">
 						<div align="center" id="image">
 							<a href="./img/browser.jpg">
 								<img align="middle" width="700" height="454" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot" />
@@ -85,11 +85,11 @@
 				</tr>
 				<!-- ======= Download! ======== -->
 				<tr>
-					<td colspan="4" class="box-solid"><strong>download</strong></td>
+					<td colspan="3" class="box-solid"><strong>download</strong></td>
 				</tr>
 				<!-- ======= Donate! ======== -->
 				<tr>
-					<td colspan="2" class="alert">
+					<td width="150" class="alert">
 						<div valign="bottom" align="center">
 							<a href="./donate"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>
@@ -99,14 +99,14 @@
 					</td>
                 </tr>
 				<tr>
-					<td width="200" colspan="2" valign="middle" class="box-solid">
+					<td width="150" valign="middle" class="box-solid">
 						<div align="center">
 							<img src="img/x.gif" alt="Built for Mac OS X" border="0" />
 							<img src="img/macos.gif" alt="Built for Mac OS X" border="0" />
 						</div>
 					</td>
-					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
-						<a name="download"</a>
+					<td valign="top" class="box-dash">
+						<a name="download"></a>
 						<!-- ======= 10.3 Alert ======== -->
 						<p class="emphasized"><strong>Java Update.</strong> If Cyberduck crashes when launching, make sure you are running Mac OS X 10.3 and try installing the latest Java udpate from <a href="http://www.apple.com/support/downloads/javaupdate142.html">support.apple.com</a>.</p>
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
@@ -117,7 +117,7 @@
 							</li>
 						</ul>
 					</td>
-					<td width="200" bgcolor="#FFFFFF" valign="top" class="box-dash">
+					<td width="150" valign="top" class="box-dash">
 						<p>
 							You may also want to install <a href="http://growl.info">Growl</a>, a global notification system Cyberduck supports:
 						</p>
@@ -125,7 +125,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="4" width="100%">
+					<td colspan="3">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>

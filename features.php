@@ -10,12 +10,10 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 				<?php echo(echogoogle());?>
 				<tr>
-					<td width="200" colspan="2" valign="top" class="box-solid">
-						<div align="center">
-							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-						</div>
+	                <td width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
-					<td width="100%" colspan="2"class="box-solid">
+					<td colspan="2"class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -26,12 +24,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td  colspan="2"class="box-solid"><strong>features</strong></td>
+					<td colspan="3" class="box-solid"><strong>features</strong></td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Browse SFTP and FTP servers</strong></td>
-					<td valign="top"  colspan="2"class="box-dash">
+					<td width="150" valign="top"><strong>Browse SFTP and FTP servers</strong></td>
+					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>User friendly interface!</li>
 							<li>Open multiple simultaneous connections</li>
@@ -50,13 +47,13 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Localizations</strong></td>
-					<td valign="top"  colspan="2"class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
+					<td width="150" valign="top"><strong>Localizations</strong></td>
+					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech and Norwegian
 						</em>
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Seamless integration with external editors</strong></td>
+					<td width="150" valign="top"><strong>Seamless integration with external editors</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<table>
 							<tr>
@@ -79,7 +76,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Bookmarking</strong></td>
+					<td width="150" valign="top"><strong>Bookmarking</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Drag and drop to save bookmark as a file</li>
@@ -90,7 +87,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Keychain support</strong></td>
+					<td width="150" valign="top"><strong>Keychain support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>All passwords are stored in the system keychain as Internet passwords available also to third party applications
@@ -99,7 +96,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Secure file transfers with SFTP</strong></td>
+					<td valign="top"><strong>Secure file transfers with SFTP</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Public key authentication (SSH)</li>
@@ -108,7 +105,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Transfers <a href="./img/transfer.png">(Screenshot)</a></strong></td>
+					<td width="150" valign="top" ><strong>Transfers <a href="./img/transfer.png">(Screenshot)</a></strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Resume downloads (FTP and SFTP)</li>
@@ -120,7 +117,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Synchronize <a href="./img/sync.png">(Screenshot)</a></strong></td>
+					<td width="150" valign="top" ><strong>Synchronize <a href="./img/sync.png">(Screenshot)</a></strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Synchronize local with remote directories (and vice versa)</li>
@@ -131,7 +128,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Modify permissions <a href="./img/info.png">(Screenshot)</a></strong></td>
+					<td width="150" valign="top"><strong>Modify permissions <a href="./img/info.png">(Screenshot)</a></strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Modify permissions on multiple files</li>
@@ -140,7 +137,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Rendezvous support</strong></td>
+					<td width="150" valign="top"><strong>Rendezvous support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<div align="left">
 							<img src="./img/rendezvous2.png" alt="Rendezvous support" border="0" />
@@ -148,7 +145,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>AppleScript support</strong></td>
+					<td width="150" valign="top"><strong>AppleScript support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Full AppleScript integration. See the <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/"> sample scripts</a> (included on the disk image).
@@ -157,7 +154,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Growl support</strong></td>
+					<td width="150" valign="top"><strong>Growl support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Support for growl, the global notification system for Mac OS X. See <a href="http://growl.info/">growl.info</a> for more information.</li>
@@ -165,7 +162,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Cyberduck Finder integration</strong></td>
+					<td valign="top"><strong>Cyberduck Finder integration</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Use as default system wide protocol handler; requires <a href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.
@@ -176,7 +173,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>ASCII and binary FTP transfers</strong></td>
+					<td width="150" valign="top"><strong>ASCII and binary FTP transfers</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Convert line endings on the fly in ASCII transfers</li>
@@ -185,7 +182,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" colspan="2"><strong>Transcript</strong></td>
+					<td width="150" valign="top"><strong>Transcript</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Solving connection problems</li>
@@ -194,7 +191,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="4">
+					<td colspan="3">
 						<div align="right">
 							<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
 						</div>
