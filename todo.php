@@ -48,6 +48,7 @@
                       <ul>
                             <li>Defining an AppleScript dictionary</li>
                             <li>FTP-SSL Support</li>
+                            <li>Supporting ssh-agent Authentication</li>
                             <li>Kerberos (GSSAPI) Authentication</li>
                             <li>Netware FTP Parser</li>
                       </ul>
