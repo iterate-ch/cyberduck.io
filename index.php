@@ -258,7 +258,6 @@
                           Current release:
                           <ul>
                             <li>2.1beta2:<br>
-			    <i>Source wil be available in a few hours. Be patient.</i>
                             <a href="download.php?cyberduck-src-2.1beta2.tar.gz"> cyberduck-src-2.1beta2.tar.gz </a></li>
                           </ul>
                         </td>
