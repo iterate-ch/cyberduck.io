@@ -63,13 +63,23 @@
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 
 						   <p>
+							<a href="./download.php?Cyberduck-2.2.dmg"><b>2.2</b> <i>Mar-06-2004</i></a>
+                          </p>
+                          <ul>
+<li>Supporting folders with sticky/set-uid/set-gid bits (FTP)</li>
+<li>Updated Dutch localization</li>
+<li>Updated French localization</li>
+<li>Minor performance improvements</li>
+                          </ul>
+
+						   <p>
 							<a href="./download.php?Cyberduck-2.2beta6.dmg"><b>2.2b6</b> <i>Feb-25-2004</i></a>
                           </p>
                           <ul>
 <li>Preliminary support for Windows, VMS and OS/2 file listings (FTP)</li>
-<li>Properly deleting symbolic links</li>
+<li>Properly deleting symbolic links (FTP)</li>
 <li>Displaying link icons in browser</li>
-<li>Downloading files from FTP servers not supporting the SIZE command</li>
+<li>Downloading files from FTP servers not supporting the SIZE command (FTP)</li>
 <li>Fixed a bug where overwritten files with SFTP got corrupted (Thanks to Jan!)</li>
 <li>Contextual Menu support</li>
 <li>Bug fixes</li>
@@ -81,14 +91,14 @@
                           <ul>
 <li>Chinese (Traditional) Localization</li>
 <li>Korean Localization</li>
-<li>Passphrases for private key files (SSH) are stored in the Keychain</li>
+<li>Passphrases for private key files are stored in the Keychain (SSH)</li>
 <li>Bookmark editor allows to specify the port number</li>
 <li>When a bookmark is edited, the properties are updated in the bookmark drawer instantly</li>
 <li>A confirmation dialog is displayed before deleting a bookmark</li>
 <li>A confirmation dialog is displayed when connecting to a new site in a browser still connected to another host</li>
 <li>Transcript messages are only shown in the corresponding browser</li>
 <li>Fixed a bug which caused the browser window to be 'frozen' after an upload</li>
-<li>Option to adjust the 'LIST' command sent using FTP</li>
+<li>Option to adjust the 'LIST' command sent (FTP)</li>
 <li>Fixed a bug which caused a crash when not connected to a network</li>
 <li>Updated application icon</li>
                           </ul>
@@ -97,10 +107,10 @@
 							<a href="./download.php?Cyberduck-2.2beta4.dmg"><b>2.2b4</b> <i>Jan-31-2004</i></a>
                           </p>
                           <ul>
-<li>Updated Japanese localization</li>
-<li>Fixed a bug that with some FTP servers the permissions could not be modified</li>
+<li>Fixed a bug that with some servers the permissions could not be modified (FTP)</li>
 <li>When addding a transfer to the queue it is highlighted</li>
 <li>Improved login process</li>
+<li>Updated Japanese localization</li>
                           </ul>
 
 						   <p>
@@ -109,7 +119,8 @@
                           <ul>
 <li>Caching folder listings</li>
 <li>Auto-refresh the folder listing after uploading a file</li>
-<li>Sending 'LIST -a' to list directories with FTP</li>
+<li>Sending 'LIST -a' to list directories (FTP)</li>
+<li>Fixed a bug where entries in the queue would be deleted too early</li>
                           </ul>
 
 						   <p>
