@@ -91,7 +91,7 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-						<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
+			<img src="./img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0">
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
@@ -265,8 +265,12 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td colspan="2" class="box-solid">
+                    <div align="center">
+                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
+                    </div>
+		</td>
+		<td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             copyright (c) 2003 david kocher. all rights reserved.
                           </p>
