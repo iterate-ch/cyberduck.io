@@ -38,7 +38,7 @@
           </td>
           <td valign="top" class="box-dash">
                   <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and <a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.</p>
-                  <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
+                  <p>You can browse the CVS repository <a href="http://sudo.ch/cvs/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                   </p>
                   <p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press the Enter key.</p>
                   <p><tt>
