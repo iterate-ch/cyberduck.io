@@ -67,7 +67,7 @@
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
-							<b>2.2b1</b> <i>Jan-22-2004</i>
+							<a href="./download.php?Cyberduck-2.2beta1.dmg"><b>2.2b1</b> <i>Jan-22-2004</i></a>
                           </p>
                           <ul>
 <li>Keychain integration</li>
@@ -87,7 +87,7 @@
 <li>Various improvements and bug fixes</li>
                           </ul>
 						   <p>
-							<b>2.1</b> <i>Dec-08-2003</i>
+							<a href="./download.php?Cyberduck-2.1.dmg"><b>2.1</b> <i>Dec-08-2003</i></a>
                           </p>
                           <ul>
 <li>Bookmarks can now be edited.</li>
@@ -107,7 +107,7 @@
 <li>Smaller changes and bug fixes.</li>
                           </ul>
 						   <p>
-							<b>2.1beta5</b> <i>Aug-29-2003</i>
+							<a href="./download.php?Cyberduck-2.1beta5.dmg"><b>2.1b5</b> <i>Aug-29-2003</i></a>
                           </p>
                           <ul>
 <li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
@@ -119,7 +119,7 @@
 <li>Smaller bug fixes</li>
                           </ul>                          
 						   <p>
-							<b>2.1beta4</b> <i>Aug-22-2003</i>
+							<a href="./download.php?Cyberduck-2.1beta4.dmg"><b>2.1b4</b> <i>Aug-22-2003</i></a>
                           </p>
                           <ul>
 						    <li>Cyberduck now has the official creator code 'CYCK'.<!-- and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.--></li>
@@ -127,7 +127,7 @@
                           </ul>
                           
 						   <p>
-                            <b>2.1beta3</b> <i>Aug-17-2003</i>
+                            <a href="./download.php?Cyberduck-2.1beta3.dmg"><b>2.1b3</b> <i>Aug-17-2003</i></a>
                           </p>
                           <ul>
 							<li>Localization support</li>
@@ -144,7 +144,7 @@
                           </ul>
                           
 						   <p>
-                            <b>2.1beta2</b> <i>Aug-15-2003</i>
+                            <a href="./download.php?Cyberduck-2.1beta2.dmg"><b>2.1b2</b> <i>Aug-15-2003</i></a>
                           </p>
                           <ul>
 			    <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
