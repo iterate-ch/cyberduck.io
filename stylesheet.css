@@ -1,0 +1,41 @@
+Cyberduck Stylesheet {
+
+	body {
+		background-color: #FFFFFF;
+	}
+
+	p {  
+		font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif; 
+		font-size: 10pt; font-style: normal; 
+		text-transform: none;
+		color: #000000;
+		background-color: #FFCC33;
+	}
+
+	font {
+		font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif; 
+		font-size: 10pt; font-style: normal; 
+		color: #FFFFFF;
+	}
+
+	ul {  
+		font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif; 
+		font-size: 10pt; font-style: normal; 
+		text-transform: none;
+		padding-left: 5mm;
+		padding-right: 5mm;
+		color: #000000;
+		background-color: #FFCC33;	
+		list-style-type: square
+	}
+	
+	a:link {
+		color: #FFFFFF; text-decoration: none;
+	}
+	a:visited {
+		color: #525D76; text-decoration: none;
+	}
+	a:hover {
+		color: #525D76; text-decoration: none;
+	}
+}
