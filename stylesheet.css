@@ -1,0 +1,92 @@
+	body  
+	{ 
+		background-color: #FFFFFF;
+		color: #000000;
+	}
+	td {
+		text-align:left;	
+	}
+	.standard
+	{
+		background-color: #FFFFFF;
+		font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		color: #000000;
+	}
+	
+	.underline
+	{
+		border-width: 0px 0px 1px 0px;
+		border-color: #000000;
+		border-style: dotted;
+	}
+	
+	.box-solid
+	{
+		border-width: 1px 1px 1px 1px;
+		border-color: #666666;
+		border-style: solid;
+	}
+	
+	.alert
+	{
+		padding-left: 2mm;
+		padding-right: 2mm;
+		border-width: 2px 2px 2px 2px;
+		background-color: #ffffff;
+		border-color: #FF9900;
+		border-style: solid;
+	}
+
+	.box-dash
+	{
+		border-width: 1px 1px 1px 1px;
+		border-color: #000000;
+		border-style: dotted;
+	}
+	
+	.box-filled
+	{
+		border-width: 1px 1px 1px 1px;
+		background-color: #cccccc;
+		border-color: #ffffff;
+		border-style: solid;
+	}
+	
+	ul
+	{
+		padding-left: 5mm;
+		padding-right: 5mm;
+		list-style-type: square;
+	}
+	
+	#image {
+	   align: center;
+	}
+
+	#image a,
+    #image a:link,
+    #image a:visited,
+    #image a:active,
+    #image a:hover {
+		color: #000000;
+		font-weight: normal;
+		text-decoration: none;
+		border-style: none;
+    }
+		
+	a:link, a:visited
+	{
+		color: #FF9900;
+		font-weight: normal;
+		border-style: none;
+		text-decoration: none;
+	}
+	
+	a:hover	{
+		color: #000000;
+		background-color: #FF9900;
+		font-weight: normal;
+		text-decoration: none;
+	}

@@ -4,7 +4,7 @@
   include "../functions.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck | features", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck | features", ".")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
@@ -15,17 +15,13 @@
                      </div>
                   </td>
                   <td width="100%" class="box-solid">
-                    <div class="underline"><?php echo(echomenu(".."));?></div>
-                    	<br />
-                    	<h1>Cyberduck</h1>
-			<h3>FTP and SFTP Browser for Mac OS X</h3>
+                    <div class="underline">
+                        <?php echo(echomenu(".."));?>
+                    </div>
+                    <br />
+                    <?php echo(echotitle());?>
                     <div align="left">
-                      <a href="index.php">about</a> | 
-                      <a href="index.php#download">download</a> | 
-                      <a href="features.php">features</a> | 
-                      <a href="source.php">source code</a> | 
-                      <a href="changelog.php">changelog</a> | 
-                      <a href="license.php">license</a>
+                        <?php echo(echosubmenu());?>
                     </div>
                   </td>
                 </tr>
@@ -62,20 +58,26 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                   	<p>
                   	<i>Have been looking for a free FTP client for a while. This is the first that did the job quickly and painlessly. Thumbs up!</i> --Anonymous
                   	</p>
+                    <?php echo(echofooter(".."));?>
                     </td>
                 <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <table width="100%" border="0" align="center"> 
                         <tr>
-                            <td class="box-filled">Browse SFTP and FTP servers</td>
+                            <td class="box-filled">Browse SFTP and FTP servers
+                                <ul>
+                                    <li>Open multiple simultaneous connections</li>
+                                    <li>Document based interface</li>
+                                    <li>Support for various encodings <a href="./img/encoding.png">(Screenshot)</a></li>
+                                    <li>Live filtering of directory listings</li>
+                                    <li>Caching folder listings</li>
+                                    <li>Move files</li>
+                                    <li>Rename files</li>
+                                    <li>Delete files</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Open multiple simultaneous connections</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Document based interface</td>
                         </tr>
                         <tr>
                             <td class="box-filled">
@@ -87,7 +89,12 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                                 <li>Text-Edit Plus</td>
                         </tr>
                         <tr>
-                            <td class="box-filled">Manage bookmarks</td>
+                            <td class="box-filled">Manage bookmarks
+                                <ul>
+                                    <li>Drag and drop to save bookmark as a file</li>
+                                    <li>Drop files onto bookmarks to upload to remote host</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td class="box-filled">Keychain support</td>
@@ -103,40 +110,13 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                                     <li>Resume uploads (FTP and SFTP)</li>
                                     <li>Download folders (recursive)</li>
                                     <li>Upload folders (recursive)</li>
+                                    <li>Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
                             <td class="box-filled">
-                            Support for various encodings <a href="./img/encoding.png">(Screenshot)</a></td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Live filtering of directory listings</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Drag and drop to save bookmark as a file</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Resume interrupted or failed downloads (FTP)</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Rename files</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Delete files</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">
                             Modify permissions <a href="./img/info.png">(Screenshot)</a></td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">History of recently connected hosts</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Caching folder listings</td>
                         </tr>
                         <tr>
                             <td class="box-filled">Rendezvous support</td>
@@ -154,10 +134,8 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                 </td>
             </tr>
 		<tr>
-            <td colspan="2"></td>
-		    <td>
+            <td colspan="3">
     			<div align="right">
-            			<?php echo(echofooter(".."));?>
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>

@@ -4,7 +4,7 @@
   include "../functions.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck | source", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck | source", ".")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
@@ -15,17 +15,13 @@
                      </div>
                   </td>
                   <td width="100%" class="box-solid">
-                    <div class="underline"><?php echo(echomenu(".."));?></div>
-                    	<br />
-                    	<h1>Cyberduck</h1>
-			<h3>FTP and SFTP Browser for Mac OS X</h3>
+                    <div class="underline">
+                        <?php echo(echomenu(".."));?>
+                    </div>
+                    <br />
+                    <?php echo(echotitle());?>
                     <div align="left">
-                      <a href="index.php">about</a> | 
-                      <a href="index.php#download">download</a> | 
-                      <a href="features.php">features</a> | 
-                      <a href="source.php">source code</a> | 
-                      <a href="changelog.php">changelog</a> | 
-                      <a href="license.php">license</a>
+                        <?php echo(echosubmenu());?>
                     </div>
                   </td>
                 </tr>
@@ -36,10 +32,9 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" class="box-solid">
-                    <div align="center">
-                        <img src="./img/javafile.png" alt="Java Source" border="0"></img>
-                    </div>
+                  <td colspan="2" valign="top">
+<!--                    <img src="./img/javafile.png" alt="Java Source" border="0"></img>-->
+                    <?php echo(echofooter(".."));?>
                 </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <table  width="100%" border="0">
@@ -52,7 +47,7 @@
                           <p><tt>
                             cvs -d:pserver:anonymous@sudo.ch:/home/cvsroot login 
                             <br />
-                            cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot checkout cyberduck-cocoa 
+                            cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot co cyberduck-cocoa 
                           </tt></p>
 
                           <ul>
@@ -64,7 +59,6 @@
                             <li><b>2.2</b> <i>Mar-06-2004</i><br />
                             <a href="cyberduck-src-2.2.tar.gz"> cyberduck-src-2.2.tar.gz </a></li>
                           </ul>
-                          <!--
                           <ul>
                             <li><b>2.2b6</b> <i>Feb-25-2004</i><br />
                             <a href="cyberduck-src-2.2beta6.tar.gz"> cyberduck-src-2.2beta6.tar.gz </a></li>
@@ -109,17 +103,14 @@
                             <li><b>2.1b2:</b> <i>Aug-29-2003</i><br />
                             <a href="cyberduck-src-2.1beta2.tar.gz"> cyberduck-src-2.1beta2.tar.gz </a></li>
                           </ul>
-                          -->
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
 		<tr>
-                  <td colspan="2"></td>
-		    <td>
+            <td colspan="3">
     			<div align="right">
-            			<?php echo(echofooter(".."));?>
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>

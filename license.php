@@ -4,7 +4,7 @@
   include "../functions.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck | license", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck | license", ".")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
@@ -15,17 +15,13 @@
                      </div>
                   </td>
                   <td width="100%" class="box-solid">
-                    <div class="underline"><?php echo(echomenu(".."));?></div>
-                    	<br />
-                    	<h1>Cyberduck</h1>
-			<h3>FTP and SFTP Browser for Mac OS X</h3>
+                    <div class="underline">
+                        <?php echo(echomenu(".."));?>
+                    </div>
+                    <br />
+                    <?php echo(echotitle());?>
                     <div align="left">
-                      <a href="index.php">about</a> | 
-                      <a href="index.php#download">download</a> | 
-                      <a href="features.php">features</a> | 
-                      <a href="source.php">source code</a> | 
-                      <a href="changelog.php">changelog</a> | 
-                      <a href="license.php">license</a>
+                        <?php echo(echosubmenu());?>
                     </div>
                   </td>
                 </tr>
@@ -62,10 +58,8 @@ GNU General Public License for more details.
                   </td>
                 </tr>
 		<tr>
-                  <td colspan="2"></td>
-		    <td>
+            <td colspan="3">
     			<div align="right">
-            			<?php echo(echofooter(".."));?>
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		</div>
 		    </td>

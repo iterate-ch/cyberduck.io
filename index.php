@@ -4,7 +4,7 @@
   include "../functions.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck", ".")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
@@ -15,22 +15,17 @@
                      </div>
                   </td>
                   <td width="100%" class="box-solid">
-                    <div class="underline"><?php echo(echomenu(".."));?></div>
-                    	<br />
-                    	<h1>Cyberduck</h1>
-			             <h3>FTP and SFTP Browser for Mac OS X</h3>
+                    <div class="underline">
+                        <?php echo(echomenu(".."));?>
+                    </div>
+                    <br />
+                    <?php echo(echotitle());?>
                     <div align="left">
-                      <a href="index.php">about</a> | 
-                      <a href="index.php#download">download</a> | 
-                      <a href="features.php">features</a> | 
-                      <a href="source.php">source code</a> | 
-                      <a href="changelog.php">changelog</a> | 
-                      <a href="license.php">license</a>
+                        <?php echo(echosubmenu());?>
                     </div>
                   </td>
                 </tr>
                 <tr>
-<!--                  <td width="200" colspan="2" valign="middle"></td>-->
                   <td colspan="3" width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
@@ -41,6 +36,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
                         I appreciate any comments, feature suggestions and bug reports.
                       </p>
+                    <?php echo(echofooter(".."));?>
                   </td>
                 </tr>
 
@@ -73,7 +69,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                           <p>
-                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
+                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal—it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.
                           </p>
 
 			         <div align="center">
@@ -106,10 +102,13 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
+			             <li><b>2.3b2</b> <i>Apr-20-2004</i><br />
+                        <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
+                        </li>
+                        <!--
 			             <li><b>2.3b1</b> <i>Mar-09-2004</i><br />
                         <a href="./download.php?Cyberduck-2.3beta1.dmg">Cyberduck-2.3beta1.dmg</a>
                         </li>
-                        <!--
 			             <li><b>2.2</b> <i>Mar-06-2004</i><br />
                         <a href="./download.php?Cyberduck-2.2.dmg">Cyberduck-2.2.dmg</a>
                         </li>
@@ -141,10 +140,8 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 </tr>
         	   
         	   <tr>
-                  <td width="200" colspan="2" valign="middle"></td>
-		          <td width="100%">
+		          <td colspan="3" width="100%">
     			     <div align="right">
-            			<?php echo(echofooter(".."));?>
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
        	 		     </div>
 		          </td>

@@ -5,7 +5,7 @@
   include "../graphics.php";
 ?>
 <html lang="en">
-    <?php echo(echoheader("~dkocher | cyberduck | swing", "..")); ?>
+    <?php echo(echoheader("~dkocher | cyberduck | swing", ".")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
@@ -16,17 +16,13 @@
                      </div>
                   </td>
                   <td width="100%" class="box-solid">
-                    <div class="underline"><?php echo(echomenu(".."));?></div>
+                    <div class="underline">
+                        <?php echo(echomenu(".."));?>
+                    </div>
                     <br />
-                    <h1>cyberduck</h1 >
-		    <h3>Java FTP Client</h3>
+                    <?php echo(echotitle());?>
                     <div align="left">
-                      <a href="index.php">about</a> | 
-                      <a href="index.php#download">download</a> | 
-                      <a href="features.php">features</a> | 
-                      <a href="source.php">source code</a> | 
-                      <a href="changelog.php">changelog</a> | 
-                      <a href="license.php">license</a>
+                        <?php echo(echosubmenu());?>
                     </div>
                   </td>
                 </tr>
@@ -34,7 +30,7 @@
                 <tr>
                   <td colspan="2"></td>
                   <td class="alert">
-This version of Cyberduck is outdated. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.
+This version of Cyberduck is <b>outdated</b>. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.
                   </td>
                 </tr>
 
@@ -55,25 +51,6 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                           </p>
                         </td>
                       </tr>
-		                <tr>
-		                  <td colspan="2" valign="top" class="box-solid">
-		                    <div align="center">
-		                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-		                            <input type="hidden" name="cmd" value="_xclick"></input>
-		                            <input type="hidden" name="business" value="dkocher@cyberduck.ch"></input>
-		                            <input type="hidden" name="item_name" value="cyberduck"></input>
-		                            <input type="hidden" name="item_number" value="cyberduck"></input>
-		                            <input type="hidden" name="return" value="http://cyberduck.ch"></input>
-		                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!"></input>
-		                          </form>
-					  </div>
-		                  </td>
-	                  <td bgcolor="#ffffff" class="box-dash">
-                          <p>
-                            <b>This program is <a href="http://www.GNU.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
-                          </p>
-                  </td>
-                </tr>
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
@@ -282,12 +259,10 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                   </td>
                 </tr>
 		<tr>
-                  <td colspan="2"></td>
-		    <td>
-      <div align="right">
-            <?php echo(echofooter(".."));?>
+            <td colspan="3">
+    			<div align="right">
 	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-    </div>
+       	 		</div>
 		    </td>
 		</tr>
       </table>
