@@ -8,6 +8,7 @@
     <body bgcolor="#ffffff">
         <div align="center" class="standard">
             <table border="0" cellpadding="5" cellspacing="5" width="700">
+
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
@@ -18,7 +19,9 @@
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
                     </div>
-                    <br />
+                    <div align="right">
+                        <a href="http://petition.eurolinux.org"><img src="http://aful.org/images/patent_button.png" alt="Help us to Fight For a Software Patent Free Europe" border="0"></a>
+                    </div>
                     <?php echo(echotitle());?>
                     <div align="left">
                         <?php echo(echosubmenu());?>
