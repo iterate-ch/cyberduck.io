@@ -39,17 +39,16 @@
                   	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
                   	</p>
                   	<p>
+                    <i>Cyberduck is a real nugget of gold</i> --Bob G-H
+                  	</p>
+                  	<p>
+                  	 <i>Cyberduck is indeed ace</i> --Richard Whitelock
+                  	</p>
+                  	<p>
                   	 <i>Awesome job with the new beta!</i> --Jeff Nouwen
                   	</p>
                   	<p>
                   	 <i>Thanks for providing such a nice little application!</i> --Stephen
-                  	</p>
-                  	<p>
-                  	 <i>Nice small and fast application</i> --Claudius Sailer
-                  	</p>
-                  	<p>
-                  	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
-RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   	</p>
                   	<form method="post"
 					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
@@ -91,7 +90,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 						</table>
 					</form>
                   </td>
-                  <td width="100%" bgcolor="#ffcc33" class="box-dash">
+                  <td width="100%" bgcolor="#ffcc33" valign="top" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
@@ -119,7 +118,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                 </tr>
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg"></div></a>
+			<a href="./img/Cyberduck000.png"><img align="center" width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg"></a>
                   </td>
                 </tr>
                 <tr>
@@ -135,7 +134,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           </form>
 			  </div>
                   </td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffcc33" valign="top" class="box-dash">
                           <p>
                             <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
                           </p>
@@ -154,10 +153,16 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 			<img src="./img/builtosx.gif" alt="Built for Mac OS X" border="0">
                     </div>
                   </td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffcc33" valign="top" class="box-dash">
+                  <p>
+                    Mac OS X 10.3 recommended (Minimum requirement is Mac OS X 10.2)<br>
+                    <!--Latest <a href="http://www.apple.com/downloads/macosx/apple/java.html">Java Update</a> recommended-->
+                </p>
 			<ul>
+			<li><b>2.1</b> <i>Dec-08-2003</i><br>
+			 <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a>, disk image</li>
 			<li><b>2.1beta5</b> <i>Aug-29-2003</i><br>
-			<a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a>, disk image</li>
+			 <a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
@@ -170,8 +175,20 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td colspan="2" valign="top">
+                  	<p>
+                  	 <i>Nice small and fast application</i> --Claudius Sailer
+                  	</p>
+                  	<p>
+                  	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
+RBrowser, and all the rest. Keep at it!</i> --Nic Waller
+                  	</p>
+                  	<p>
+                  	<i>Cyberduck is a really useful and well done. My only complaint is that
+it badly needs a profesionnal looking icon!</i> --FB eye
+                  	</p>                  
+                  </td>
+                  <td bgcolor="#ffcc33" valign="top" class="box-dash">
 			  <table width="100%" border="0" align="center"> 
 			    <tr>
 				<td>&nbsp;</td>
@@ -185,6 +202,21 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 			    </tr>
 			    <tr>
 				<td class="box-filled">History of connected hosts</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Save bookmark</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Export bookmark as regular file (drag and drop)</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Double click bookmark file to connect</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
@@ -204,7 +236,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 				<td class="box-filled">Yes</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled">Drag uploads to a Cyberduck browser</td>
+				<td class="box-filled">Drag uploads to a browser</td>
 				<td class="box-filled">Yes</td>
 				<td class="box-filled">Yes</td>
 			    </tr>
@@ -285,13 +317,17 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffcc33" valign="top" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU general public licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> to build .</p>
                           <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                           </p>
+                          <ul>
+                            <li><b>2.1</b> <i>Dec-08-2003</i><br>
+                            <a href="download.php?cyberduck-src-2.1.tgz"> cyberduck-src-2.1.tgz </a></li>
+                          </ul>
                           <ul>
                             <li><b>2.1beta5</b> <i>Aug-15-2003</i><br>
                             <a href="download.php?cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
@@ -321,14 +357,33 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td bgcolor="#ffcc33" class="box-dash">
+                  <td bgcolor="#ffcc33" valign="top" class="box-dash">
                     <table border="0" width="100%">
                       <tr>
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
-							<b>2.1beta5</b> <i>Aug-29-2003</i>
+							<b>2.1</b> <i>Dec-08-2003</i>
                           </p>
+                          <ul>
+<li>Bookmarks can now be edited.</li>
+<li>Bookmarks can now be saved as a regular file (Drag the bookmarks to the Finder).</li>
+<li>Bookmarks saved as files can be imported by dropping them on the Bookmarks Drawer.</li>
+<li>Double clicking a Cyberduck bookmark file in the Finder will open a new browser and connect to the remote site</li>
+<li>Bookmarks can now be modified</li>
+<li>Specify an initial directory upon new connection (e.g. public_html instead of the default home).</li>
+<li>Use keyboard shortcut (commann-up/down) for browsing a directory</li>
+<li>Uploaded files have the same permissions as locally</li>
+<li>Updated icon set</li>
+<li>Remembering sort order while browsing</li>
+<li>Toolbar icon to toggle Bookmark drawer</li>
+<li>Updated SSH Core (v0.2.5)</li>
+<li>Dutch Localization</li>
+<li>German Localization</li>
+<li>Smaller changes and bug fixes.</li>
+                          </ul>
+						   <p>
+							<b>2.1beta5</b> <i>Aug-29-2003</i>
                           </p>
                           <ul>
 <li>HTTP is now supported again. Files can be downloaded from regular web servers.</li>
@@ -338,11 +393,9 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
 <li>The buffer size (the size of download chunks to keep in memory before writing to disk) is now adjustable.</li>
 <li>Login to anonymous FTP servers where no password is needed is now supported.</li>
 <li>Smaller bug fixes</li>
-                          </ul>
-                          
+                          </ul>                          
 						   <p>
 							<b>2.1beta4</b> <i>Aug-22-2003</i>
-                          </p>
                           </p>
                           <ul>
 						    <li>Cyberduck now has the official creator code 'CYCK'.<!-- and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.--></li>
@@ -391,7 +444,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                         <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
                     </div>
 		</td>
-		<td bgcolor="#ffcc33" class="box-dash">
+		<td bgcolor="#ffcc33" valign="top" class="box-dash">
                           <p>
                             copyright (c) 2003 david kocher. all rights reserved.
                           </p>
