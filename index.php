@@ -322,7 +322,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
-							<b>2.1beta5</b>
+							<b>2.1beta5</b> <i>Aug-29-2003</i>
                           </p>
                           </p>
                           <ul>
@@ -336,7 +336,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           </ul>
                           
 						   <p>
-							<b>2.1beta4</b>
+							<b>2.1beta4</b> <i>Aug-22-2003</i>
                           </p>
                           </p>
                           <ul>
@@ -345,7 +345,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           </ul>
                           
 						   <p>
-                            <b>2.1beta3</b>
+                            <b>2.1beta3</b> <i>Aug-17-2003</i>
                           </p>
                           <ul>
 							<li>Localization support</li>
@@ -362,7 +362,7 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           </ul>
                           
 						   <p>
-                            <b>2.1beta2</b>
+                            <b>2.1beta2</b> <i>Aug-15-2003</i>
                           </p>
                           <ul>
 			    <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
