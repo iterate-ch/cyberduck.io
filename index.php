@@ -43,7 +43,7 @@
 			    You can open connections to multiple servers thanks to its document based interface. A simple favorites manager allows you to store freuqently used servers.
 			    </p>
 			    <p>
-			    Files and even directories can be uploaded easyily by just dragging them from the Finder.
+			    Files and even directories can be uploaded easily by just dragging them from the Finder.
 			    Double clicking a file will initiate a download. Files can be deleted and renamed. A Finder-like Info panel allows the modification of permissions.
 			    </p>
 			    <p>
