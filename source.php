@@ -41,8 +41,8 @@
 						</p>
 						<p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press <i>Enter</i>.
 						</p>
-						<p><tt>cvs -d:pserver:anonymous@sudo.ch:/home/cvsroot login<br />
-								cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot co cyberduck-cocoa
+						<p><tt>cvs -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot login<br />
+								cvs -z3 -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co cyberduck-cocoa
 							</tt>
 						</p>
 						<p>To compile everything, type <tt>make</tt>. You'll find the application in the <i>build</i> folder.</p>
