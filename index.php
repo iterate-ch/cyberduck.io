@@ -225,7 +225,7 @@ double clickable application bundle.
                     </p>
                     <ul>
                             <li><b>Cyberduck for Mac OS X: </b><br>
-                                    <a href="./download.php? Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg</a>, gzipped disk image<br><br>
+                                    <a href="./download.php?Cyberduck-beta2.dmg.gz">Cyberduck-beta2.dmg.gz</a>, gzipped disk image
                                     <p>
                                     Double click cyberduck.dmg. A disk image 
                                     will load on your desktop. Drag the Cyberduck application to your preffered 
@@ -235,10 +235,10 @@ double clickable application bundle.
                     </ul>
                     <ul>
                             <li><b>Cyberduck for any Java platform:</b>
-                                    <br><a href="download.php?Cyberduck-beta2.zip">Cyberduck.zip</a>,
+                                    <br><a href="download.php?Cyberduck-beta2.zip"> Cyberduck-beta2.zip </a>,
                                             zipped file suitable for Windows
                                     <br><b>or</b>
-                                    <br><a href="download.php?Cyberduck-beta2.tar.gz">Cyberduck.tar.gz</a>, 
+                                    <br><a href="download.php?Cyberduck-beta2.tar.gz"> Cyberduck-beta2.tar.gz </a>, 
                                             tar, gzipped file suitable for UNIXes
                                     <p>
                                     On any UNIX flavor, type into the shell <code>java -jar Cyberduck.jar</code>. If you are running 
