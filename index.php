@@ -18,7 +18,7 @@
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     	<br>
                     	<h1>Cyberduck</h1>
-			<h3>FTP and SSH Browser for Mac OS X</h3>
+			<h3>FTP and SFTP Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
                       <a href="#download">download</a> | 
