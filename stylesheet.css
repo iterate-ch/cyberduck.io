@@ -40,6 +40,15 @@
 		border-color: #666666;
 		border-style: solid;
 	}
+
+	.sp
+	{
+		border-width: 1px 1px 1px 1px;
+		color: #000000;
+		background-color: #ffffff;
+		border-color: red;
+		border-style: solid;
+	}
 		
 	.alert
 	{

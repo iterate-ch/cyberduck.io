@@ -25,6 +25,7 @@
                     </div>
                   </td>
                 </tr>
+                <?php echo(echoSoftwarePatents());?>
                 <tr>
                   <td colspan="3" width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>

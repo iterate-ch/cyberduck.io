@@ -25,6 +25,7 @@
                     </div>
                   </td>
                 </tr>
+                <?php echo(echoSoftwarePatents());?>
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
