@@ -155,7 +155,25 @@
                     </ul>
                   </td>
                 </tr>
-        	<tr>
+        	   
+                <!-- ======= Mailing list ======== -->
+                
+                <tr>
+                  <td colspan="2"></td>
+                  <td class="box-solid">
+                      <a name="lists">mailing lists</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2"></td>
+                  <td bgcolor="#ffffff" valign="top" class="box-dash">
+                  <p>
+                    You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberuck-news</a> mailing list to get a notification when a new version is released.
+                    </p>
+                  </td>
+                </tr>
+        	   
+        	   <tr>
                   <td colspan="2"></td>
 		          <td>
     			     <div align="right">
