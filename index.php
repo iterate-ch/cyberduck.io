@@ -29,7 +29,24 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2"></td>
+                  <td colspan="2" valign="bottom">
+                  	<p>
+                  	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
+                  	</p>
+                  	<p>
+                  	 <i>Awesome job with the new beta!</i> --Jeff Nouwen
+                  	</p>
+                  	<p>
+                  	 <i>Thanks for providing such a nice little application!</i> --Stephen
+                  	</p>
+                  	<p>
+                  	 <i>Nice small and fast application</i> --Claudius Sailer
+                  	</p>
+                  	<p>
+                  	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
+RBrowser, and all the rest. Keep at it!</i> --nicwaller
+                  	</p>
+                  </td>
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
@@ -266,7 +283,7 @@
                           </p>
                           </p>
                           <ul>
-						    <li>Cyberduck now has the official creator code 'CYCK' and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.</li>
+						    <li>Cyberduck now has the official creator code 'CYCK'.<!-- and can handle URL events from other applications. See "http://www.monkeyfood.com/software/moreInternet/" to configure Cyberduck as the default FTP helper application.--></li>
 						    <li>Bug fixes</li>
                           </ul>
 						   <p>
