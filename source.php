@@ -10,12 +10,14 @@
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
                   <td colspan="3" class="alert">
-			Support the development of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&item_name=Cyberduck&item_number=1&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US" title="Thanks!">donation</a> :)
+			Support the development of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&amp;item_name=Cyberduck&amp;item_number=1&amp;no_shipping=1&amp;no_note=1&amp;tax=0&amp;currency_code=USD&amp;lc=US" title="Thanks!">donation</a> :)
 			     </td>
                 </tr>
                 <tr>
-                  <td width="140" colspan="2" valign="top" class="box-solid">
-                      <img src="img/cyberduck.icon.jpg" align="center" width="128" height="128" alt="Cyberduck" border="0"></img>
+                  <td width="200" colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
+                     </div>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
@@ -45,7 +47,7 @@
                     </div>
                 </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
-                    <table border="0" width="100%">
+                    <table  width="100%" border="0">
                       <tr>
                         <td>
                           <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> to build .</p>

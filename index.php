@@ -14,8 +14,10 @@
 			     </td>
                 </tr>
                 <tr>
-                  <td colspan="2" class="box-solid">
-                      <img src="img/cyberduck.icon.jpg" align="middle" width="128" height="128" alt="Cyberduck" border="0"></img>
+                  <td width="200" colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
+                     </div>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
@@ -36,7 +38,7 @@
                   <td colspan="2" valign="bottom">
                     <form method="post"
 					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
-						<table border="0" width="175" cellspacing="0" cellpadding="0">
+						<table border="0" cellspacing="0" cellpadding="0">
 						  <tr>
 						    <td>
 						      Vote for Cyberduck on O'Reilly's OSDir.com
@@ -138,7 +140,7 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-			<img src="./img/builtosx.gif" alt="Built for Mac OS X" border="0"></img>
+			             <img src="./img/builtosx.gif" width="128" height"128" alt="Built for Mac OS X" border="0"></img>
                     </div>
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">

@@ -10,8 +10,10 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="2" valign="top" class="box-solid">
-                      <img src="img/cyberduck.icon.jpg" align="center" width="128" height="128" alt="Cyberduck" border="0"></img>
+                  <td width="200" colspan="2" valign="top" class="box-solid">
+                    <div align="center">
+                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
+                     </div>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
@@ -81,7 +83,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>
@@ -115,7 +117,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>
@@ -140,7 +142,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                     </div>
                   </td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>
@@ -182,7 +184,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>source code is available licenced unter the <a href="http://www.GNU.org/licenses/gpl.html">GNU general public licence</a>.</p>
@@ -204,7 +206,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>
@@ -262,7 +264,7 @@ This version of Cyberduck is outdated. Please have a look at the <a href="./inde
                     </div>
 		</td>
                   <td bgcolor="#ffffff" class="box-dash">
-                    <table border="0" width="100%">
+                    <table width="100%"  border="0">
                       <tr>
                         <td>
                           <p>
