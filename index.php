@@ -14,7 +14,7 @@
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
-                    <h1>cyberduck</h1>
+                    <h1>Cyberduck</h1>
 			<h3>FTP and SSH Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
@@ -36,8 +36,7 @@
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
 			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> for the <a href="http://www.apple.com/macosx">Mac</a>. It features a intuitive 
-			    user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>. As a supplement it is possible to 
-			    download files directly using HTTP or FTP, too.
+			    user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>.
 			</p>
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=cyberduck comment">me.</a>
@@ -68,23 +67,110 @@
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
-                            Features of Cyberduck include:
+                            Cyberduck features the same intuitive interface for both FTP and SFTP browsing. You can open
+			    connections to multiple servers thanks to its document based interface. A simple favorites
+			    manager allows you to store freuqently used servers.  As a supplement it is possible to 
+			    download files directly using HTTP or FTP, too.
+			    <br>
+			    The SSH core is from
+			    SSH core from <a href="http://sshtools.com">sshtools.com</a>. FTP core from 
+			    <a href="http://www.enterprisedt.com"> enterprisedt.com</a>
+			    <br>
+			    Feature table:
                           </p>
-                          <ul>
-			    <li>Browsing FTP and SFTP (SSH) servers.</li>
-			    <li>SSH core from <a href="http://sshtools.com">sshtools.com</a>
-			    <li>FTP core from <a href="http://www.enterprisedt.com"> enterprisedt.com</a>
-			    <li>Intuitive and non-bloated interface</li>
-			    <li>Document based interface - open multiple browser windows.</li>
-			    <li>Download files and directories</li>
-			    <li>Upload files and directories (drag and drop from the Finder)</li>
-			    <li>Rendezvous for easy lookup of servers on the local network</li>
-                            <li>Resume interrupted or failed downloads</li>
-                            <li>HTTP download</li>
-			    <li>Set file permissions</li>
-			    <li>Favorites manager</li>
-
-                          </ul>
+			  <table width="95%" border="0" align="center"> 
+			    <tr>
+				<td>&nbsp;</td>
+				<td class="box-filled">FTP</td>
+				<td class="box-filled">SFTP</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Browse server directories</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">History of connected hosts</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Download file(s)</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Download directory</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Upload file(s) (Drag and drop from the Finder)</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Upload directory (Drag and drop from the Finder)</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Delete file(s)</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Delete directory</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Rendezvous for easy lookup of servers on the local network</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Resume interrupted or failed downloads</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">No</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Permissions modification</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">Yes</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Passive mode</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">No</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">ASII and binary transfer mode</td>
+				<td class="box-filled">Yes</td>
+				<td class="box-filled">No</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled">Keychain support</td>
+				<td class="box-filled">Not yet</td>
+				<td class="box-filled">Not yet</td>
+			    </tr>
+                          </table>
+			  <table width="95%" border="0" align="center"> 
+			    <tr>
+				<td class="box-filled">
+				    <p>
+				    <strong>About SFTP.</strong> SFTP stands for Secure File Transfer Protocol. It is capable of encrypting all data that pass between it and the server using SSH as the encryption method. Whereas regular FTP passes your login and password in plain text and runs the risk of being intercepted, SFTP uses encryption to prevent others from acquiring your password.
+				    </p>
+				</td>
+			    </tr>
+			    <tr>
+				<td class="box-filled" >
+				    <p>
+				    <strong>About FTP.</strong> FTP stands for File Transfer Protocol. All data and passwords are transfered clear text.
+				    </p>
+				</td>
+			    </tr>
+			  </table>
                   </td>
                 </tr>
                 <tr>
@@ -157,7 +243,7 @@
                     <table border="0" width="100%">
                       <tr>
                         <td>
-                          <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">gnu general public licence</a>.</p>
+                          <p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU general public licence</a>.</p>
                           Current release:
                           <ul>
                             <li>2.1beta1:<br>
@@ -190,13 +276,13 @@
                       <tr>
                         <td>
                           <p>
-							  Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.
-						</p>
-						<p>
+			    Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.
+			    </p>
+			    <p>
                             <b>version 2.1b1</b>:
                           </p>
                           <ul>
-							<li>Initial release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
+			    <li>Initial release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
                           </ul>
                         </td>
                       </tr>
@@ -215,7 +301,7 @@
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
-                            copyright (c) 2002 david kocher. all rights reserved.
+                            copyright (c) 2003 david kocher. all rights reserved.
                           </p>
                           <p>
                             this program is free software; you can redistribute it and/or modify it under the terms of the gnu general public license as published by the free software foundation; either version 2 of the license, or (at your option) any later version.
