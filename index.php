@@ -121,6 +121,11 @@
                           </p>
                   </td>
                 </tr>
+                
+                  <td colspan="3" valign="top" class="alert">
+                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills.
+                  </td>
+
                 <tr>
                   <td colspan="3" valign="top">
 			<a href="./img/Cyberduck000.png"><img align="middle" width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
