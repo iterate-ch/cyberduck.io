@@ -44,7 +44,6 @@
 <li>[Feature] Support for EPFL file listings to support servers running "publicfile" (FTP)</li>
 <li>[Bugfix] Improved PASV response parsing (FTP)</li>
 <li>[Bugfix] Better parsing symbolic links</li>
-<li>[Bugfix] Ignoring errors caused by servers not supporting the SIZE command</li>
 <li>[Feature] Supporting SOCKS proxies (not tested)</li>
 <li>[Feature] Change file permissions on multiple files</li>
 <li>[Feature] Copy the URL of a remote site</li>
