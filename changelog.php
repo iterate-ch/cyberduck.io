@@ -29,6 +29,20 @@
 					<td colspan="2"></td>
 					<td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
+
+				<tr>
+					<td colspan="2" valign="top"><strong>2.4b4</strong> <em>February-03-2005</em> <a href="./Cyberduck-2.4b4.dmg">Download</a></td>
+					<td class="box-dash">
+						<ul>
+							<li>[Bugfix] Drag and drop operations</li>
+							<li>[Bugfix] SSH exception handling (SFTP)</li>
+							<li>[Bugfix] Bookmark selection in connection dialog</li>
+							<li>[Bugfix] Items in transfer window not removed</li>
+							<li>[Bugfix] Deleting more than one bookmark at once</li>
+							<li>[Bugfix] Corrupted resource file in zh_TW localization</li>
+						</ul>
+					</td>
+				</tr>
 				<tr>
 					<td colspan="2" valign="top"><strong>2.4b3</strong> <em>January-29-2005</em> <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
 					<td class="box-dash">

@@ -103,8 +103,8 @@
 					<td bgcolor="#FFFFFF" valign="top" class="box-dash">
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
-							<li><strong>2.4b3</strong> <em>January-29-2005</em><br />
-								<a href="./Cyberduck-2.4b3.dmg">Cyberduck-2.4b3.dmg</a>
+							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
+								<a href="./Cyberduck-2.4b4.dmg">Cyberduck-2.4b4.dmg</a>
 							</li>
 						</ul>
 					</td>

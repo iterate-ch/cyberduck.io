@@ -57,12 +57,17 @@
 					<td colspan="2"></td>
 					<td class="box-dash">
 						<ul>
-							<li><strong>2.4b3</strong> <em>Januar-29-2005</em><br />
+							<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
+								<a href="cyberduck-src-2.4beta4.tar.gz">cyberduck-src-2.4b4.tar.gz</a>
+							</li>
+						</ul>
+						<ul>
+							<li><strong>2.4b3</strong> <em>January-29-2005</em><br />
 								<a href="cyberduck-src-2.4beta3.tar.gz">cyberduck-src-2.4b3.tar.gz</a>
 							</li>
 						</ul>
 						<ul>
-							<li><strong>2.4b2</strong> <em>Januar-06-2005</em><br />
+							<li><strong>2.4b2</strong> <em>January-06-2005</em><br />
 								<a href="cyberduck-src-2.4beta2.tar.gz">cyberduck-src-2.4b2.tar.gz</a>
 							</li>
 						</ul>
