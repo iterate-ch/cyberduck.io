@@ -8,7 +8,7 @@
     <?php echo(echoheader("~dkocher | cyberduck", "..")); ?>
   <body bgcolor="#ffffff">
     <div align="center" class="standard">
-      <table border="0" cellpadding="5" cellspacing="5" width="100%">
+      <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
