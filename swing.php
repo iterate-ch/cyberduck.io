@@ -12,12 +12,12 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0">
+                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0"></img>
                     </div>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
-                    <br>
+                    <br />
                     <h1>cyberduck</h1 >
 		    <h3>Java FTP Client</h3>
                     <div align="left">
@@ -52,12 +52,12 @@
 		                  <td colspan="2" valign="top" class="box-solid">
 		                    <div align="center">
 		                          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-		                            <input type="hidden" name="cmd" value="_xclick">
-		                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
-		                            <input type="hidden" name="item_name" value="cyberduck">
-		                            <input type="hidden" name="item_number" value="cyberduck">
-		                            <input type="hidden" name="return" value="http://cyberduck.ch">
-		                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
+		                            <input type="hidden" name="cmd" value="_xclick"></input>
+		                            <input type="hidden" name="business" value="dkocher@cyberduck.ch"></input>
+		                            <input type="hidden" name="item_name" value="cyberduck"></input>
+		                            <input type="hidden" name="item_number" value="cyberduck"></input>
+		                            <input type="hidden" name="return" value="http://cyberduck.ch"></input>
+		                            <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!"></input>
 		                          </form>
 					  </div>
 		                  </td>
@@ -114,8 +114,8 @@
                       <tr>
                         <td>
                           <p>
-                            you need a java 2 runtime environment probably already installed on your system, otherwise available from sun microsystems at <a href="http://java.sun.com/">java.sun.com</a>.<br>
-                            cyberduck has not been tested with jdk 1.4.<br>
+                            you need a java 2 runtime environment probably already installed on your system, otherwise available from sun microsystems at <a href="http://java.sun.com/">java.sun.com</a>.<br />
+                            cyberduck has not been tested with jdk 1.4.<br />
                           </p>
                         </td>
                       </tr>
@@ -131,7 +131,7 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-						<img src="img/duke.gif" alt="Built for Java" border="0">
+						<img src="img/duke.gif" alt="Built for Java" border="0"></img>
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
@@ -142,7 +142,7 @@
                             <b>version 2.0b3</b>
                           </p>
                           <ul>
-                            <li><b>cyberduck for any java platform:</b> <br>
+                            <li><b>cyberduck for any java platform:</b> <br />
                             <a href="download.php?Cyberduck-2.0beta3.zip">Cyberduck-2.0beta3.zip </a>, <b>or</b>
                             <a href="download.php?Cyberduck-2.0beta3.tar.gz">Cyberduck-2.0beta3.tar.gz </a>
 							</li>
@@ -182,7 +182,7 @@
                         <td>
                           <p>source code is available licenced unter the <a href="http://www.GNU.org/licenses/gpl.html">GNU general public licence</a>.</p>
                           <ul>
-                            <li>2.0beta3:<br>
+                            <li>2.0beta3:<br />
                             <a href="download.php?cyberduck-src-2.0beta3.zip">cyberduck-src-2.0beta3.zip</a></li>
                           </ul>
                         </td>
@@ -253,7 +253,7 @@
                 <tr>
                   <td colspan="2" class="box-solid">
                     <div align="center">
-                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0">
+                        <img src="./img/gnu.jpg" alt="GNU GPL Software" border="0"></img>
                     </div>
 		</td>
                   <td bgcolor="#ffcc33" class="box-dash">
