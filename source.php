@@ -55,9 +55,9 @@
                           </p>
                           <p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press the Enter key.</p>
                           <p><tt>
-                            cvs -d:pserver:anonymous@cvs.sourceforge.net:/home/cvsroot login 
+                            cvs -d:pserver:anonymous@sudo.ch:/home/cvsroot login 
                             <br />
-                            cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/home/cvsroot checkout cyberduck-cocoa 
+                            cvs -z3 -d:pserver:anonymous@sudo.ch:/home/cvsroot checkout cyberduck-cocoa 
                           </tt></p>
                           <ul>
                             <li><b>2.2b1</b> <i></i><br />
