@@ -25,7 +25,7 @@
                     </div>
                   </td>
                 </tr>
-                <?php echo(echoSoftwarePatents());?>
+					<?php echo(echoSoftwarePatents());?>
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
 					<p>
@@ -36,7 +36,7 @@
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
             SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. A simple bookmark manager ensures manageability. Core system technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a> and <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> and BBEdit.
-Cyberduck has been translated into numerous languages including <i>Japanese, Chinese, Korean, French, German, Italian, Portuguese, Spanish, Dutch and Finnish</i>.
+Cyberduck has been translated into numerous languages including <i>Japanese, Chinese, Korean, French, German, Italian, Portuguese, Spanish, Dutch, Finnish and Slovak</i>.
                         </p>
                       <p>
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
@@ -117,10 +117,13 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
+                        <li><b>2.3.2</b> <i>August-05-2004</i><br />
+                            <a href="./Cyberduck-2.3.2.dmg">Cyberduck-2.3.2.dmg</a>
+                        </li>
+                        <!--
                         <li><b>2.3.1</b> <i>June-15-2004</i><br />
                             <a href="./Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
                         </li>
-                        <!--
                         <li><b>2.3</b> <i>May-15-2004</i><br />
                             <a href="./Cyberduck-2.3.dmg">Cyberduck-2.3.dmg</a>
                         </li>

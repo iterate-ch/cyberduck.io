@@ -46,6 +46,7 @@
                                     <li>Move files  <a href="./img/move.png">(Screenshot)</a></li>
                                     <li>Rename files</li>
                                     <li>Delete files</li>
+                                    <li>SOCKS Proxy support</li>
                                 </ul>
                     </td>
                 </tr>
@@ -55,7 +56,7 @@
                         <b>Localizations</b>
                   </td>
                   <td valign="top" class="box-dash">
-                        <i>English, Dutch, Finnish, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</i>
+                        <i>English, Dutch, Finnish, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese, Simplified Chinese and Slovak</i>
                     </td>
                 </tr>
                 
@@ -133,7 +134,11 @@
                   <td valign="top" colspan="2">
                             <b>Modify permissions <a href="./img/info.png">(Screenshot)</a></b>
                     </td>
-                  <td valign="top" class="box-dash"></td>
+                  <td valign="top" class="box-dash">
+                                <ul>
+                                    <li>Modify permissions on multiple files</li>
+                                </ul>
+                  </td>
                 </tr>
                 <tr>
                   <td valign="top" colspan="2">
@@ -156,7 +161,11 @@
                   <td valign="top" colspan="2">
                             <b>ASCII and binary FTP transfers</b>
                     </td>
-                  <td valign="top" class="box-dash"></td>
+                  <td valign="top" class="box-dash">
+                                <ul>
+                                    <li>Convert line endings on the fly in ASCII transfers</li>
+                                </ul>
+                  </td>
                 </tr>
                 <tr>
                   <td valign="top" colspan="2">

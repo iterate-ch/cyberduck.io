@@ -35,6 +35,16 @@
 
                 <tr>
                   <td colspan="2" valign="top">
+							<b>2.3.2</b> <i>August-05-2004</i> <a href="./Cyberduck-2.3.2.dmg">Download</a>
+                  </td>
+                  <td class="box-dash">
+                      <ul>
+                      </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="2" valign="top">
 							<b>2.3.1</b> <i>June-15-2004</i> <a href="./Cyberduck-2.3.1.dmg">Download</a>
                   </td>
                   <td class="box-dash">
