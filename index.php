@@ -11,13 +11,13 @@
                 <tr>
                   <td colspan="2" valign="top" class="box-solid">
                     <div align="center">
-                      <img src="img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0">
+                      <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0">
                     </div>
                   </td>
                   <td class="box-solid">
                     <div class="underline"><?php echo(echomenu(".."));?></div>
-                    <br>
-                    <h1>Cyberduck</h1>
+                    	<br>
+                    	<h1>Cyberduck</h1>
 			<h3>FTP and SSH Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
@@ -58,7 +58,7 @@
                 </tr>
                 <tr>
                   <td colspan="3" valign="top">
-			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" src="./img/Cyberduck000.thumb.jpg"></div></a>
+			<a href="./img/Cyberduck000.png"><div align="center"><img width="700" height="425" border="0" src="./img/Cyberduck000.thumb.jpg"></div></a>
                   </td>
                 </tr>
                 <tr>
@@ -96,7 +96,7 @@
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
 			<li><b>2.1beta4</b><br>
-			<a href="./download.php?Cyberduck-2.1beta4.dmg.gz">Cyberduck-2.1beta4.dmg</a>, disk image</li>
+			<a href="./download.php?Cyberduck-2.1beta4.dmg">Cyberduck-2.1beta4.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
@@ -111,7 +111,7 @@
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
-			  <table width="95%" border="0" align="center"> 
+			  <table width="100%" border="0" align="center"> 
 			    <tr>
 				<td>&nbsp;</td>
 				<td class="box-filled">FTP</td>
@@ -198,16 +198,16 @@
 				<td class="box-filled">Not yet</td>
 			    </tr>
                           </table>
-			  <table width="95%" border="0" align="center"> 
+			  <table width="100%" border="0" align="center"> 
 			    <tr>
-				<td class="box-filled">
+				<td bgcolor="#ffcc33" class="box-filled">
 				    <p>
 				    <strong>About SFTP.</strong> SFTP stands for Secure File Transfer Protocol. It is capable of encrypting all data that pass between it and the server using SSH as the encryption method. Whereas regular FTP passes your login and password in plain text and runs the risk of being intercepted, SFTP uses encryption to prevent others from acquiring your password.
 				    </p>
 				</td>
 			    </tr>
 			    <tr>
-				<td class="box-filled" >
+				<td bgcolor="#ffcc33" class="box-filled" >
 				    <p>
 				    <strong>About FTP.</strong> FTP stands for File Transfer Protocol. All data and passwords are transfered clear text.
 				    </p>
