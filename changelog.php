@@ -27,7 +27,6 @@
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  
                   <td class="box-solid">
                       <b><a name="history">changelog</a></b>
                   </td>
