@@ -50,6 +50,9 @@
                   	<p>
                   	 <i>Thanks for providing such a nice little application!</i> --Stephen
                   	</p>
+                  	<p>
+                  	 <i>Nice small and fast application</i> --Claudius Sailer
+                  	</p>
                   	<form method="post"
 					    action="http://osdir.com/modules.php?op=modload&amp;name=Downloads&amp;file=index">
 						<table border="0" width="175" cellspacing="0" cellpadding="0">
@@ -178,9 +181,6 @@
                 </tr>
                 <tr>
                   <td colspan="2" valign="top">
-                  	<p>
-                  	 <i>Nice small and fast application</i> --Claudius Sailer
-                  	</p>
                   	<p>
                   	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
 RBrowser, and all the rest. Keep at it!</i> --Nic Waller
