@@ -67,7 +67,7 @@
                         <td>
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 						   <p>
-							<b>2.2b1</b> <i></i>
+							<b>2.2b1</b> <i>Jan-22-2004</i>
                           </p>
                           <ul>
 <li>Keychain integration</li>
