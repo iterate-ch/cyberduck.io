@@ -394,9 +394,9 @@ GNU General Public License for more details.
 				<td>
                                     <font color="#FFFFFF">
                                     <?php 
+                                        echo(generateheader(".."));
                                             $counter_file = "./counter.txt";
                                             counter($counter_file); 
-                                        echo(generateheader(".."));
                                     ?>
 				</td>
 			</tr>

@@ -1,9 +1,12 @@
 Cyberduck Stylesheet {
 	body {
 		background-color: #FFFFFF;
+	}
+        div {
 		font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif; 
 		font-size: 10pt; font-style: normal; 
-	}
+		color: #FFFFFF;
+        }
 	p {  
 		font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif; 
 		font-size: 10pt; font-style: normal; 
