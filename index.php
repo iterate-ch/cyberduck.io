@@ -44,7 +44,7 @@
                   	</p>
                   	<p>
                   	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
-RBrowser, and all the rest. Keep at it!</i> --nicwaller
+RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   	</p>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
