@@ -39,7 +39,8 @@
                   <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
-            SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
+            SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers. A simple bookmark manager ensures manageability. Core system technologies such as the Keychain and Rendezvous are supported.
+Cyberduck has been translated into numerous languages including <i>Japanese, Chinese, Korean, French, German, Italian, Portuguese, Spanish and Dutch</i>.
                         </p>
                       <p>
                         This software is written by <a href="mailto:dkocher@cyberduck.ch">David  Kocher</a>, Switzerland.
@@ -71,22 +72,19 @@
                             <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!"></input>
                           </form>
 			         </div>
+                  </td>
+                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
+                          <p>
+                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
+                          </p>
+
 			         <div align="center">
 			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!</p>
 			         </div>
                     <div align="center">
                         <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" alt="Shop Cyberduck Gadgets" border="0"></img></a>
                     </div>
-                  </td>
-                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
-                          <p>
-                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
-                          </p>
-                          <div class="alert">
-                            <p>
-                            <b>Translators needed!</b> If you want Cyberduck to speak your native language, contact <a href="mailto:dkocher@cyberduck.ch?subject=Cyberduck Translation">me</a>. You don't need any programming skills. Already contributed translations are: <i>German, Spanish, Italian, French, Dutch, Portuguese, Japanese, Korean and Traditional Chinese</i>.
-                            </p>
-                          </div>
+
                   </td>
                 </tr>
 		
@@ -109,8 +107,8 @@
                     Mac OS X 10.3 recommended.<br />
                 </p>
                     <ul>
-			<li><b>2.2b5</b> <i>Feb-12-2004</i><br />
-                        <a href="./download.php?Cyberduck-2.2beta5.dmg">Cyberduck-2.2beta5.dmg</a>
+			<li><b>2.2b6</b> <i>Feb-25-2004</i><br />
+                        <a href="./download.php?Cyberduck-2.2beta6.dmg">Cyberduck-2.2beta6.dmg</a>
                         </li>
                     </ul>
                     <p>While downloading, you can check out <a href="http://rothen.sudo.ch/3Danimation/duckstale.jsp">this cute 3D animation</a> about a <a href="http://rothen.sudo.ch/3Danimation/duckstaleabout.jsp">rubber duck</a> (although completely unrelated to Cyberduck) created by Norbert Kottmann and <a href="http://rothen.sudo.ch">Jan Rothen</a>. Enjoy!</p>
@@ -122,7 +120,7 @@
                 <tr>
                   <td width="200" colspan="2"></td>
                   <td class="box-solid">
-                      <a name="lists">mailing lists</a>
+                      <a name="lists">mailing list</a>
                   </td>
                 </tr>
                 <tr>

@@ -68,6 +68,19 @@
                           <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
 
 						   <p>
+							<a href="./download.php?Cyberduck-2.2beta6.dmg"><b>2.2b6</b> <i>Feb-25-2004</i></a>
+                          </p>
+                          <ul>
+<li>Preliminary support for Windows, VMS and OS/2 file listings (FTP)</li>
+<li>Properly deleting symbolic links</li>
+<li>Displaying link icons in browser</li>
+<li>Downloading files from FTP servers not supporting the SIZE command</li>
+<li>Fixed a bug where overwritten files with SFTP got corrupted (Thanks to Jan!)</li>
+<li>Contextual Menu support</li>
+<li>Bug fixes</li>
+                          </ul>
+
+						   <p>
 							<a href="./download.php?Cyberduck-2.2beta5.dmg"><b>2.2b5</b> <i>Feb-12-2004</i></a>
                           </p>
                           <ul>
