@@ -20,7 +20,7 @@
                         <?php echo(echomenu(".."));?>
                     </div>
                     <div align="right">
-                        <a href="http://petition.eurolinux.org"><img src="http://aful.org/images/patent_button.png" alt="Help us to Fight For a Software Patent Free Europe" border="0"></a>
+                        <a href="http://petition.eurolinux.org"><img src="http://aful.org/images/patent_button.png" alt="Help us to Fight For a Software Patent Free Europe" border="0"></img></a>
                     </div>
                     <?php echo(echotitle());?>
                     <div align="left">
