@@ -95,7 +95,7 @@
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
 			<li><b>2.1beta2</b><br>
-			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta2.dmg</a>, disk image</li>
+			<a href="./download.php?Cyberduck-2.1b2.dmg">Cyberduck-2.1beta2.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
