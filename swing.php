@@ -30,10 +30,17 @@
                     </div>
                   </td>
                 </tr>
+
+                <tr>
+                  <td colspan="2"></td>
+                  <td class="alert">
+This version of Cyberduck is outdated. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.
+                  </td>
+                </tr>
+
                 <tr>
                   <td colspan="2"></td>
                   <td bgcolor="#ffcc33" class="box-dash">
-			<b>This version of Cyberduck is outdated. Please have a look at the <a href="./index.php">new version</a> written with the Cocoa Framework and with support for SSH.</b>
                           <p>
                             cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> download manager
                              and http/ftp client. you can store urls as bookmarks, manage your 
