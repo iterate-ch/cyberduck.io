@@ -16,7 +16,8 @@
 					<td colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
-						</div><?php echo(echotitle());?>
+						</div><br />
+                    <?php echo(echotitle());?>
 						<div align="left">
                         <?php echo(echosubmenu());?>
 						</div>
@@ -90,7 +91,7 @@
 				<!-- ======= Donate! ======== -->
 				<tr>
 					<td width="150" class="alert">
-						<div valign="bottom" align="center">
+						<div align="center">
 							<a href="./donate"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>
 					</td>

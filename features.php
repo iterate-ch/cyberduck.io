@@ -13,11 +13,11 @@
 	                <td width="150" valign="middle" class="box-solid">
 						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
-					<td colspan="2"class="box-solid">
+					<td colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
-                    <?php echo(echotitle());?>
+						<?php echo(echotitle());?>
 						<div align="left">
                         <?php echo(echosubmenu());?>
 						</div>
