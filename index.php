@@ -188,7 +188,13 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   	<p>
                   	<i>Cyberduck is a really useful and well done. My only complaint is that
 it badly needs a profesionnal looking icon!</i> --FB eye
-                  	</p>                  
+                  	</p>
+                  	<p>
+                  	<i>This works great and is very complete, yet simple enough for anyone to use. The name and icon are cute too</i> --sugrxsweet
+                  	</p>
+                  	<p>
+                  	<i>Anyway, Cyberduck seems to do the trick!</i> --griffeymac
+                  	</p>
                   </td>
                   <td bgcolor="#ffcc33" valign="top" class="box-dash">
 			  <table width="100%" border="0" align="center"> 
