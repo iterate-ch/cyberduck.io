@@ -99,7 +99,8 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
-                        <img src="img/builtosx.gif" width="128" height="128" alt="Built for Mac OS X" border="0"></img>
+                        <img src="img/x.gif" alt="Built for Mac OS X" border="0"></img>
+                        <img src="img/macos.gif" alt="Built for Mac OS X" border="0"></img>
                     </div>
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
