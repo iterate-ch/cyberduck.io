@@ -35,8 +35,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="200" colspan="2" valign="middle"></td>
-                  <td width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
+<!--                  <td width="200" colspan="2" valign="middle"></td>-->
+                  <td colspan="3" width="100%" bgcolor="#ffffff" valign="top" class="box-dash">
                       <p>
                         Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
             SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers. A simple bookmark manager ensures manageability. Core system technologies such as the Keychain and Rendezvous are supported.
