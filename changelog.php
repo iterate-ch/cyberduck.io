@@ -29,7 +29,7 @@
                   <td colspan="2"></td>
                   
                   <td class="box-solid">
-                      <a name="history">changelog</a>
+                      <b><a name="history">changelog</a></b>
                   </td>
                 </tr>
                 <tr>
@@ -57,7 +57,33 @@
                     <table  width="100%" border="0">
                       <tr>
                         <td>
-                          <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
+						   <p>
+							<b>2.3b2</b> <i>Apr-26-2004</i> <a href="./Cyberduck-2.3beta2.dmg">Download</a>
+                          </p>
+                          <ul>
+                            <li>Much improved queue management (fewer connections)</li>
+                            <li>Resume downloads (SFTP)</li>
+                            <li>Resume uploads (SFTP)</li>
+                            <li>Resume uploads (FTP)</li>
+                            <li>Move files on remote host by drag and drop</li>
+                            <li>Drag files onto bookmark to quickly upload</li>
+                            <li>Bookmarks are shown in the menu</li>
+                            <li>Menu item 'Download As...'</li>
+                            <li>Editing multiple files in the external editor with the same name</li>
+                            <li>Warning if a duplicate exists when uploading files</li>
+                            <li>'Apply to all' checkbox in dialog asking for replace/resume/skip existing files</li>
+                            <li>Improved caching of directory listings</li>
+                            <li>When dropping files onto folders it will upload these into the folder</li>
+                            <li>When typing the first letter of a file it gets selected in the browser</li>
+                            <li>Toolbar button to remove all completed items from the queue</li>
+                            <li>Convert line endings when downloading in ASCII mode (FTP)</li>
+                            <li>Auto transfer mode (FTP)</li>
+                            <li>Dock menu item to open new browser</li>
+                            <li>Correctly updating incorrect keychain entries</li>
+                            <li>Preserve modification date when downloading files</li>
+                            <li>Ignoring .DS_Store files</li>
+                            <li>Bug fixes</li>
+                          </ul>
 
 						   <p>
 							<b>2.3b1</b> <i>Mar-09-2004</i> <a href="./Cyberduck-2.3beta1.dmg">Download</a>
@@ -225,6 +251,9 @@
                           <ul>
 <li>Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
                           </ul>
+
+                          <p>Older releases prior to version 2.1 using the Java Swing API can be found on <a href="./swing.php">this</a> page.</p>
+
                         </td>
                       </tr>
                     </table>

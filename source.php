@@ -28,7 +28,7 @@
                 <tr>
                   <td colspan="2"></td>
                   <td class="box-solid">
-                      <a name="code">source code</a>
+                      <b><a name="code">source code</a></b>
                   </td>
                 </tr>
                 <tr>

@@ -90,7 +90,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 <tr>
                   <td width="200" colspan="2"></td>
                   <td width="100%" class="box-solid">
-                      <a name="download">download</a>
+                      <b><a name="download">download</a></b>
                   </td>
                 </tr>
 
@@ -111,7 +111,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
-			             <li><b>2.3b2</b> <i>Apr-20-2004</i><br />
+			             <li><b>2.3b2</b> <i>Apr-26-2004</i><br />
                         <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
                         <!--
@@ -132,7 +132,7 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 <tr>
                   <td width="200" colspan="2"></td>
                   <td class="box-solid">
-                      <a name="lists">mailing list</a>
+                      <b><a name="lists">mailing list</a></b>
                   </td>
                 </tr>
                 <tr>
