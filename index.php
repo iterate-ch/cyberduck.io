@@ -19,9 +19,6 @@
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
                     </div>
-                    <div align="right">
-                        <a href="http://petition.eurolinux.org"><img src="http://aful.org/images/patent_button.png" alt="Help us to Fight For a Software Patent Free Europe" border="0"></img></a>
-                    </div>
                     <?php echo(echotitle());?>
                     <div align="left">
                         <?php echo(echosubmenu());?>
@@ -114,10 +111,13 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                   </td>
                   <td bgcolor="#ffffff" valign="top" class="box-dash">
                     <ul class="emphasized">
+                        <li><b>2.3.1</b> <i>June-09-2004</i><br />
+                            <a href="./download.php?Cyberduck-2.3.1.dmg">Cyberduck-2.3.1.dmg</a>
+                        </li>
+                        <!--
                         <li><b>2.3</b> <i>May-15-2004</i><br />
                             <a href="./download.php?Cyberduck-2.3.dmg">Cyberduck-2.3.dmg</a>
                         </li>
-                        <!--
                         <li><b>2.3b2</b> <i>Apr-27-2004</i><br />
                             <a href="./download.php?Cyberduck-2.3beta2.dmg">Cyberduck-2.3beta2.dmg</a>
                         </li>
@@ -161,12 +161,12 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
                 </tr>
         	   
         	   <tr>
-		          <td colspan="3" width="100%">
-    			     <div align="right">
-	    			<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
-       	 		     </div>
-		          </td>
-		      </tr>
+				<td colspan="3" width="100%">
+					<div align="right">
+						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$
+					</div>
+				</td>
+			</tr>
         </table>
     </div>
   </body>

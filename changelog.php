@@ -32,6 +32,23 @@
                   </td>
                 </tr>
 
+                <tr>
+                  <td colspan="2" valign="top">
+							<b>2.3.1</b> <i>June-09-2004</i> <a href="./Cyberduck-2.3.1.dmg">Download</a>
+                  </td>
+                  <td class="box-dash">
+                      <ul>
+<li>Chinese (Simplified) Localization</li>
+<li>Rendezvous services in Bookmark menu</li>
+<li>Upper level directories had to be listed first when uploading files</li>
+<li>Changes to bookmarks won't be saved</li>
+<li>Preference item to disable the update check</li>
+<li>Toolbar item to open downloaded files with default application</li>
+<li>Graceful application termination (Properly ask to close all connections and then quit)</li>
+<li>Remembering choosen directories in open and save dialogs</li>
+                      </ul>
+                  </td>
+                </tr>
 
                 <tr>
                   <td colspan="2" valign="top">

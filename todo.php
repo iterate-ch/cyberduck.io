@@ -47,6 +47,7 @@
                       <ul>
                             <li>Defining an AppleScript dictionary</li>
                             <li>FTP-SSL Support</li>
+                            <li>Kerberos (GSSAPI) Authentication</li>
                       </ul>
                   </td>
                 </tr>
