@@ -39,8 +39,8 @@
                   </td>
                   <td class="box-dash">
                       <ul>
+						<li>Supporting Keyboard Interactive (PAM) Authentication (SSH)</li>
                         <li>Finnish Localization</li>
-                        <li>Fixed a bug causing bookmarks to get lost uppon moving items in the bookmark drawer</li>
                         <li>Fixed a bug which caused not all available Rendezvous services to get listed</li>
                         <li>Removed 'Type ahead' feature of the browser (responsible for frequent crashes)</li>
                       </ul>
