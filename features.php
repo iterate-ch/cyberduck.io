@@ -32,6 +32,7 @@
                 <td valign="top" colspan="2"><strong>Browse SFTP and FTP servers</strong></td>
                 <td valign="top" class="box-dash">
                     <ul>
+                        <li>User friendly interface!</li>
                         <li>Open multiple simultaneous connections</li>
                         <li>Document based interface</li>
                         <li>Support for various encodings <a href="./img/encoding.png">(Screenshot)</a></li>
@@ -39,8 +40,11 @@
                         <li>Caching folder listings</li>
                         <li>Move files <a href="./img/move.png">(Screenshot)</a></li>
                         <li>Copy &amp; paste files</li>
+                        <li>Create new files</li>
                         <li>Rename files</li>
                         <li>Delete files</li><!--<li>SOCKS Proxy support</li>-->
+                        <li>Show hidden files</li>
+                        <li>Allow the selection of files in the browser by typing the filename</li>
                     </ul>
                 </td>
             </tr>
@@ -72,7 +76,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" colspan="2"><strong>Manage bookmarks</strong></td>
+                <td valign="top" colspan="2"><strong>Bookmarking</strong></td>
                 <td valign="top" class="box-dash">
                     <ul>
                         <li>Drag and drop to save bookmark as a file</li>
@@ -85,14 +89,19 @@
             <tr>
                 <td valign="top" colspan="2"><strong>Keychain support</strong></td>
                 <td valign="top" class="box-dash">
-                    <div align="left">
-                        <img src="./img/keychain.png" width="70" alt="Keychain Integration" border="0" />
-                    </div>
+                    <ul>
+                        <li>All passwords are stored in the system keychain as Internet passwords available also to third party applications</li>
+                    </ul>
                 </td>
             </tr>
             <tr>
-                <td valign="top" colspan="2"><strong>Public key authentication (SSH)</strong></td>
-                <td valign="top" class="box-dash"></td>
+                <td valign="top" colspan="2"><strong>Secure file transfers with SFTP</strong></td>
+                <td valign="top" class="box-dash">
+                    <ul>
+	                	<li>Public key authentication (SSH)</li>
+    	            	<li>Keyboard Interactive (PAM) Authentication (SSH)</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td valign="top" colspan="2"><strong>Transfers <a href="./img/transfer.png">(Screenshot)</a></strong></td>
@@ -100,8 +109,8 @@
                     <ul>
                         <li>Resume downloads (FTP and SFTP)</li>
                         <li>Resume uploads (FTP and SFTP)</li>
-                        <li>Download folders (recursive)</li>
-                        <li>Upload folders (recursive)</li>
+                        <li>Download folders (also <i>recursive</i>)</li>
+                        <li>Upload folders (also <i>recursive</i>)</li>
                         <li>Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</li>
                     </ul>
                 </td>
@@ -111,7 +120,8 @@
                 <td valign="top" class="box-dash">
                     <ul>
                         <li>Synchronize local with remote directories (and vice versa)</li>
-                        <li>Choose to download/upload missing files&gt;</li>
+                        <li>Choose to download/upload missing files</li>
+                        <li>Get a preview of affected files before any action is taken</li>
                     </ul>
                 </td>
             </tr>
@@ -133,6 +143,14 @@
                 </td>
             </tr>
             <tr>
+                <td valign="top" colspan="2"><strong>Integration</strong></td>
+                <td valign="top" class="box-dash">
+                    <ul>
+                        <li>Use as default system wide protocol handler; requires <a href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
                 <td valign="top" colspan="2"><strong>Passive and active FTP mode</strong></td>
                 <td valign="top" class="box-dash"></td>
             </tr>
@@ -141,12 +159,18 @@
                 <td valign="top" class="box-dash">
                     <ul>
                         <li>Convert line endings on the fly in ASCII transfers</li>
+                        <li>Choose from Auto, Binary or ASCII</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td valign="top" colspan="2"><strong>Transcript</strong></td>
-                <td valign="top" class="box-dash"></td>
+                <td valign="top" class="box-dash">
+                    <ul>
+                        <li>Solving connection problems</li>
+                        <li>Live scrolling</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td colspan="3">

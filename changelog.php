@@ -29,6 +29,22 @@
                 <td class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
             </tr>
             <tr>
+                <td colspan="2" valign="top"><strong>2.4b3</strong> <em>January-25-2004</em> <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
+                <td class="box-dash">
+                    <ul>
+                        <li>[Feature] Quick Connect field accepts URLs as input</li>
+                        <li>[Bugfix] Deleting more than 10 files at once</li>
+                        <li>[Bugfix] Typing in transfer window causes crash</li>
+                        <li>[Bugfix] Transcript causes crash</li>
+                        <li>[Bugfix] Reporting correct file size for large files</li>
+                        <li>[Bugfix] Disable resume on ASCII tranfers (FTP)</li>
+                        <li>[Bugfix] Incompatiblity with Filezilla Server (FTP)</li>
+                        <li>[Bugfix] Synchronizing current working directory</li>
+                        <li>[Bugfix] Graceful failure on SSH connection problems</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2" valign="top"><strong>2.4b2</strong> <em>January-06-2005</em> <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
                 <td class="box-dash">
                     <ul>
