@@ -15,7 +15,7 @@
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
                     <h1>cyberduck</h1 >
-					<h3>Java FTP Client</h3>
+		    <h3>Java FTP Client</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
                       <a href="#look">look and feel</a> | 
@@ -62,7 +62,7 @@
                             <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="make payments with paypal - it's fast, free and secure!">
                           </form>
                           <p>
-                            software written by <a href="mailto:dkocher@icu.unizh.ch">david kocher</a>, switzerland.
+                            software written by <a href="mailto:dkocher@cyberduck.ch">david kocher</a>, switzerland.
                           </p>
                         </td>
                       </tr>
