@@ -15,7 +15,7 @@
                     <div class="underline"><?php echo(echomenu(".."));?></div>
                     <br>
                     <h1>cyberduck</h1>
-					<h3>Cocoa Secure FTP Client (Mac OS X)</h3>
+			<h3>FTP and SSH Browser for Mac OS X</h3>
                     <div align="left">
                       <a href="#features">features</a> | 
                       <a href="#look">look and feel</a> | 
@@ -35,19 +35,19 @@
                   <td bgcolor="#ffcc33" class="box-dash">
                           <p>
                             Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> 
-			    SFTP (SSH Secure File Transfer) and FTP client for the Mac. It features a intuitive 
-			    user interface using the Cocoa Framework. As a supplement it is possible to 
+			    SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> for the <a href="http://www.apple.com/macosx">Mac</a>. It features a intuitive 
+			    user interface using the <a href="http://developer.apple.com/cocoa/">Cocoa Framework</a>. As a supplement it is possible to 
 			    download files directly using HTTP or FTP, too.
 			</p>
                           <p>
                             I appreciate any comments, feature suggestions and bug reports. Please send them directly to <a href="mailto:dkocher@cyberduck.ch?subject=cyberduck comment">me.</a>
                           </p>
                           <p>
-                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development: </b>
+                            <b>This program is <a href="http://www.gnu.org/philosophy/free-sw.html">free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a donation to support future development. It will motivate me to improve the application further!</b>
                           </p>
                           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_xclick">
-                            <input type="hidden" name="business" value="dkocher@icu.unizh.ch">
+                            <input type="hidden" name="business" value="dkocher@cyberduck.ch">
                             <input type="hidden" name="item_name" value="cyberduck">
                             <input type="hidden" name="item_number" value="cyberduck">
                             <input type="hidden" name="return" value="http://dewww.epfl.ch/~dkocher/cyberduck/index.html">
@@ -72,11 +72,17 @@
                           </p>
                           <ul>
 			    <li>Browsing FTP and SFTP (SSH) servers.</li>
+			    <li>SSH core from <a href="http://sshtools.com">sshtools.com</a>
+			    <li>FTP core from <a href="http://www.enterprisedt.com"> enterprisedt.com</a>
+			    <li>Intuitive and non-bloated interface</li>
+			    <li>Document based interface - open multiple browser windows.</li>
 			    <li>Download files and directories</li>
 			    <li>Upload files and directories (drag and drop from the Finder)</li>
+			    <li>Rendezvous for easy lookup of servers on the local network</li>
                             <li>Resume interrupted or failed downloads</li>
                             <li>HTTP download</li>
 			    <li>Set file permissions</li>
+			    <li>Favorites manager</li>
 
                           </ul>
                   </td>
@@ -132,12 +138,20 @@
                     </div>
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
+<<<<<<< index.php
+			<ul>
+			<li><b>2.1beta1</b><br>
+			<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1beta1.dmg</a>, disk image</li>
+			</ul>
+		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
+=======
 					<ul>
 						<li><b>2.1b1</b><br>
 						<a href="./download.php?Cyberduck-2.1b1.dmg">Cyberduck-2.1b1.dmg</a>, disk image
 						</li>
 					</ul>
 				    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
+>>>>>>> 1.13
                   </td>
                 </tr>
                 <tr>
