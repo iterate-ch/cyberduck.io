@@ -3,9 +3,12 @@
 		background-color: #ffffff;
 		color: #000000;
 	}
-	td {
+	
+	td 
+	{
 		text-align:left;	
 	}
+	
 	.standard
 	{
 		background-color: #ffffff;
@@ -59,9 +62,14 @@
 	.box-filled
 	{
 		border-width: 1px 1px 1px 1px;
-		background-color: #cccccc;
-		border-color: #ffffff;
+		background-color: #ffffff;
 		border-style: solid;
+	}
+	
+	p
+	{
+		padding-left: 2mm;
+		padding-right: 2mm;
 	}
 	
 	ul

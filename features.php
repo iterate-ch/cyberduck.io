@@ -32,78 +32,92 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="top">
-                  <!--
-                    <div align="center">
-                        <img src="./img/rendezvous.png" width="70" alt="Rendezvous support" border="0"></img>
-                     </div>
-                    <div align="center">
-                        <img src="./img/keychain.png" width="70" alt="Keychain Integration" border="0"></img>
-                     </div>
-                    -->
-                  	<p>
-                  	 <i>Very nice app, very nice indeed. I love it! Better than Transmit, Fugu,
-RBrowser, and all the rest. Keep at it!</i> --Nic Waller
-                  	</p>
-                  	<p>
-                  	<i>Cyberduck is a really useful and well done. My only complaint is that
-it badly needs a profesionnal looking icon!</i> --FB eye
-                  	</p>
-                  	<p>
-                  	<i>This works great and is very complete, yet simple enough for anyone to use. The name and icon are cute too</i> --sugrxsweet
-                  	</p>
-                  	<p>
-                  	<i>Anyway, Cyberduck seems to do the trick!</i> --griffeymac
-                  	</p>
-                  	<p>
-                  	<i>Have been looking for a free FTP client for a while. This is the first that did the job quickly and painlessly. Thumbs up!</i> --Anonymous
-                  	</p>
-                    </td>
-                <td bgcolor="#ffffff" valign="top" class="box-dash">
-                    <table width="100%" border="0" align="center"> 
-                        <tr>
-                            <td class="box-filled">Browse SFTP and FTP servers
+                  <td valign="top" colspan="2">
+                    <b>Browse SFTP and FTP servers</b>
+                  </td>
+                  <td valign="top" class="box-dash">
                                 <ul>
                                     <li>Open multiple simultaneous connections</li>
                                     <li>Document based interface</li>
                                     <li>Support for various encodings <a href="./img/encoding.png">(Screenshot)</a></li>
                                     <li>Live filtering of directory listings</li>
                                     <li>Caching folder listings</li>
-                                    <li>Move files</li>
+                                    <li>Move files  <a href="./img/move.png">(Screenshot)</a></li>
                                     <li>Rename files</li>
                                     <li>Delete files</li>
                                 </ul>
+                    </td>
+                </tr>
+                
+                <tr>
+                  <td valign="top" colspan="2">
+                        <b>Localizations</b>
+                  </td>
+                  <td valign="top" class="box-dash">
+                        <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese
+                    </td>
+                </tr>
+                
+                <tr>
+                  <td valign="top" colspan="2">
+                        <b>Seamless integration with external editors</b>
+                  </td>
+                  <td valign="top" class="box-dash">    
+                    <table>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
+                                    <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
+                                    <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
+                                    <li>Text-Edit Plus
+                                </ul>
+                            </td>
+                            <td>
+                    <div align="right">
+                        <img src="./img/editor.png" alt="External editor support" border="0"></img>
+                     </div>
                             </td>
                         </tr>
-                        <tr>
-                            <td class="box-filled">Available localizations: <i>English, Dutch, French, German, Italian, Japanese, Portuguese, Spanish, Korean, Traditional Chinese</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">
-                                Seamless integration with external editors
-                                <ul>
-                                <li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
-                                <li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
-                                <li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
-                                <li>Text-Edit Plus</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Manage bookmarks
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                  <td valign="top" colspan="2">
+                            <b>Manage bookmarks</b>
+                  </td>
+                  <td valign="top" class="box-dash">
                                 <ul>
                                     <li>Drag and drop to save bookmark as a file</li>
                                     <li>Drop files onto bookmarks to upload to remote host</li>
                                 </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Keychain support</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Public key authentication (SSH)</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">
-                                Transfer Queue <a href="./img/transfer.png">(Screenshot)</a>
+                    </td>
+                </tr>
+                
+                <tr>
+                  <td valign="top" colspan="2">
+                        <b>Keychain support</b>
+                    </td>
+                  <td valign="top" class="box-dash">
+                    <div align="left">
+                        <img src="./img/keychain.png" width="70" alt="Keychain Integration" border="0"></img>
+                     </div>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td valign="top" colspan="2">
+                        <b>Public key authentication (SSH)</b>
+                    </td>
+                  <td valign="top" class="box-dash"></td>
+                </tr>
+                
+                <tr>
+                  <td valign="top" colspan="2">
+                                <b>Transfer Queue <a href="./img/transfer.png">(Screenshot)</a></b>
+                    </td>
+                  <td valign="top" class="box-dash">
                                 <ul>
                                     <li>Resume downloads (FTP and SFTP)</li>
                                     <li>Resume uploads (FTP and SFTP)</li>
@@ -111,25 +125,44 @@ it badly needs a profesionnal looking icon!</i> --FB eye
                                     <li>Upload folders (recursive)</li>
                                     <li>Drag and drop to transfer files (Finder &lt;--&gt; Cyberduck)</li>
                                 </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">
-                            Modify permissions <a href="./img/info.png">(Screenshot)</a></td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Rendezvous support</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Passive and active FTP mode</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">ASCII and binary FTP transfers</td>
-                        </tr>
-                        <tr>
-                            <td class="box-filled">Transcript</td>
-                        </tr>
-                    </table>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td valign="top" colspan="2">
+                            <b>Modify permissions <a href="./img/info.png">(Screenshot)</a></b>
+                    </td>
+                  <td valign="top" class="box-dash"></td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="2">
+                        <b>Rendezvous support</b>
+                    </td>
+                  <td valign="top" class="box-dash">
+                        <div align="left">
+                            <!--<img src="./img/rendezvous.png" width="70" alt="Rendezvous support" border="0"></img>-->
+                            <img src="./img/rendezvous2.png" alt="Rendezvous support" border="0"></img>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="2">
+                       <b>Passive and active FTP mode</b>
+                    </td>
+                  <td valign="top" class="box-dash"></td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="2">
+                            <b>ASCII and binary FTP transfers</b>
+                    </td>
+                  <td valign="top" class="box-dash"></td>
+                </tr>
+                <tr>
+                  <td valign="top" colspan="2">
+                            <b>Transcript</b>
+                    </td>
+                  <td valign="top" class="box-dash"></td>
+                </tr>
                 </td>
             </tr>
 		<tr>
