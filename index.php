@@ -9,11 +9,6 @@
     <div align="center" class="standard">
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
-                  <td colspan="3" class="alert">
-			Support the development of Cyberduck by making a <a href="./donate" title="Thanks!">donation</a> :)
-		  </td>
-                </tr>
-                <tr>
                   <td width="200" colspan="2" valign="middle" class="box-solid">
                     <div align="center">
                       <img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0"></img>
@@ -53,7 +48,9 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
 
                 <tr>
                   <td colspan="3">
+                    <div id="image">
 			<a href="./img/browser.png"><img align="middle" width="700" height="399" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot"></img></a>
+                    </div>
                   </td>
                 </tr>
                 
@@ -81,8 +78,8 @@ Cyberduck has been translated into numerous languages including <i>Japanese, Chi
 			         <div align="center">
 			             <p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!</p>
 			         </div>
-                    <div align="center">
-                        <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" alt="Shop Cyberduck Gadgets" border="0"></img></a>
+                    <div align="center" id="image">
+                        <a href="http://www.cafeshops.com/cyberduck"><img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0"></img></a>
                     </div>
 
                   </td>

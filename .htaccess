@@ -1,2 +1,6 @@
 AddType application/x-tar .tgz
+AddType application/x-tar .tar
 AddType application/octet-stream .dmg
+ErrorDocument 404 http://icu.unizh.ch/~dkocher/cyberduck/index.php
+ErrorDocument 403 http://icu.unizh.ch/~dkocher/cyberduck/index.php
+
