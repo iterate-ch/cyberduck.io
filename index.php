@@ -373,11 +373,11 @@ it badly needs a profesionnal looking icon!</i> --FB eye
 <li>Bookmarks saved as files can be imported by dropping them on the Bookmarks Drawer.</li>
 <li>Double clicking a Cyberduck bookmark file in the Finder will open a new browser and connect to the remote site</li>
 <li>Bookmarks can now be modified</li>
-<li>Specify an initial directory upon new connection (e.g. public_html instead of the default home).</li>
+<li>An initial directory upon new connection can now be specified (e.g. public_html instead of the default home).</li>
 <li>Use keyboard shortcut (commann-up/down) for browsing a directory</li>
-<li>Uploaded files have the same permissions as locally</li>
+<li>Uploaded files now have the same permissions as the corresponding local files</li>
 <li>Updated icon set</li>
-<li>Remembering sort order while browsing</li>
+<li>The sort order is now remembered while browsing</li>
 <li>Toolbar icon to toggle Bookmark drawer</li>
 <li>Updated SSH Core (v0.2.5)</li>
 <li>Dutch Localization</li>
