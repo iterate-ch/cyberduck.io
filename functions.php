@@ -49,7 +49,7 @@ google_color_text = \"6F6F6F\";
               <a id=\"changelog\" href=\"changelog.php\">changelog</a> | 
               <a id=\"todo\" href=\"todo.php\">todo</a> | 
               <a id=\"license\" href=\"license.php\">license</a> |
-              <a id=\"donate\" target=\"_blank\" href=\"http://cyberduck.ch/donate/index.php\"><strong>donate</strong></a>";
+              <a id=\"donate\" href=\"./donate/index.php\"><strong>donate</strong></a>";
     }
     
     function echomenu($dir) {
