@@ -151,10 +151,8 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                   </td>
                   <td bgcolor="#ffcc33" class="box-dash">
 			<ul>
-			<li><b>2.1beta5</b><br>
+			<li><b>2.1beta5</b> <i>Aug-29-2003</i><br>
 			<a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a>, disk image</li>
-			<li><b>2.1beta4</b><br>
-			<a href="./download.php?Cyberduck-2.1beta4.dmg">Cyberduck-2.1beta4.dmg</a>, disk image</li>
 			</ul>
 		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
@@ -290,19 +288,19 @@ RBrowser, and all the rest. Keep at it!</i> --Nic Waller
                           <p>You can browse the CVS repository <a href="http://sudo.ch/cgi-bin/viewcvs.cgi/cyberduck-cocoa/">here</a>. (Warning: Slow connection)
                           </p>
                           <ul>
-                            <li><b>2.1beta5</b><br>
+                            <li><b>2.1beta5</b> <i>Aug-15-2003</i><br>
                             <a href="download.php?cyberduck-src-2.1beta5.tgz"> cyberduck-src-2.1beta5.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta4</b><br>
+                            <li><b>2.1beta4</b> <i>Aug-17-2003</i><br>
                             <a href="download.php?cyberduck-src-2.1beta4.tgz"> cyberduck-src-2.1beta4.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta3</b><br>
+                            <li><b>2.1beta3</b> <i>Aug-22-2003</i><br>
                             <a href="download.php?cyberduck-src-2.1beta3.tgz"> cyberduck-src-2.1beta3.tgz </a></li>
                           </ul>
                           <ul>
-                            <li><b>2.1beta2:</b><br>
+                            <li><b>2.1beta2:</b> <i>Aug-29-2003</i><br>
                             <a href="download.php?cyberduck-src-2.1beta2.tgz"> cyberduck-src-2.1beta2.tgz </a></li>
                           </ul>
                         </td>
