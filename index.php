@@ -10,7 +10,7 @@
       <table border="0" cellpadding="5" cellspacing="5" width="700">
                 <tr>
                   <td colspan="3" width="100%" class="box-dash">
-			Support the developement of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&item_name=Cyberduck&item_number=1&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US" title="Thanks!">donation</a> :)
+			Support the development of Cyberduck by making a <a href="https://www.paypal.com/xclick/business=dkocher%40cyberduck.ch&item_name=Cyberduck&item_number=1&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US" title="Thanks!">donation</a> :)
 			     </td>
                 </tr>
                 <tr>
@@ -165,11 +165,10 @@
                 </p>
 			<ul>
 			<li><b>2.1</b> <i>Dec-08-2003</i><br>
-			 <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a>, disk image</li>
-			<li><b>2.1beta5</b> <i>Aug-29-2003</i><br>
-			 <a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a>, disk image</li>
+			 <a href="./download.php?Cyberduck-2.1.dmg">Cyberduck-2.1.dmg</a></li>
+                        <li><b>2.1beta5</b> <i>Aug-29-2003</i><br>
+                         <a href="./download.php?Cyberduck-2.1beta5.dmg">Cyberduck-2.1beta5.dmg</a></li>
 			</ul>
-		    <p>Older versions of Cyberduck running on any Java plattform are available <a href="./swing.php">here</a>.</p>
                   </td>
                 </tr>
 
