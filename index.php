@@ -34,7 +34,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="2" valign="bottom">
+                  <td colspan="2" valign="top">
                   	<p>
                   	 <i>I just checked out Cyberduck. Tres' cool!</i> --Steve Mallett
                   	</p>
