@@ -145,7 +145,7 @@
                           <ul>
                           <!--
                             <li><b>cyberduck for mac os x: </b><br>
-                            <a href="./download.php?Cyberduck-beta3.dmg.gz">Cyberduck-beta3.dmg.gz</a>, gzipped disk image
+                            <a href="./download.php?Cyberduck-2.0beta3.dmg.gz">Cyberduck-2.0beta3.dmg.gz</a>, gzipped disk image
                             <p>
                               double click cyberduck.dmg. a disk image will load on your desktop. drag the cyberduck application to your preffered location on your hard disk (eg. /applications).
                             </p>
@@ -154,9 +154,9 @@
                           </ul>
                           <ul>
                             <li><b>cyberduck for any java platform:</b> <br>
-                            <a href="download.php?Cyberduck-beta3.zip">Cyberduck-beta3.zip </a>, zipped file suitable for windows <br>
+                            <a href="download.php?Cyberduck-2.0beta3.zip">Cyberduck-2.0beta3.zip </a>, zipped file suitable for windows <br>
                             <b>or</b> <br>
-                            <a href="download.php?Cyberduck-beta3.tar.gz">Cyberduck-beta3.tar.gz </a>, tar, gzipped file suitable for unixes
+                            <a href="download.php?Cyberduck-2.0beta3.tar.gz">Cyberduck-2.0beta3.tar.gz </a>, tar, gzipped file suitable for unixes
                             </li>
                           </ul>
                         </td>
@@ -216,12 +216,8 @@
                         <td>
                           <p>source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">gnu general public licence</a>.</p>
                           <ul>
-                            <li>2.0b3:<br>
-                            <a href="download.php?cyberduck-src-2.0b3.zip">cyberduck-src-2.0b3.zip</a></li>
-                            <li>2.0b2:<br>
-                            <a href="download.php?cyberduck-src-2.0b2.zip">cyberduck-src-2.0b2.zip</a></li>
-                            <li>2.0b1:<br>
-                            <a href="download.php?cyberduck-src-2.0b1.zip">cyberduck-src-2.0b1.zip</a></li>
+                            <li>2.0beta3:<br>
+                            <a href="download.php?cyberduck-src-2.0beta3.zip">cyberduck-src-2.0beta3.zip</a></li>
                           </ul>
                         </td>
                       </tr>
