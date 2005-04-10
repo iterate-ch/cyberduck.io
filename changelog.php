@@ -28,6 +28,18 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
+					<td width="150" valign="top"><strong>2.4.1</strong> <em> April-11-2005</em> <a href="./Cyberduck-2.4.1.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+							<li>[Localize] Hungarian Localization</li>
+							<li>[Bugfix] Modification date changed when uploading files from the external editor</li>
+							<li>[Bugfix] Browser window could lock up when reconnecting and login was needed</li>
+							<li>[Feature] Disconnect item in menubar</li>
+							<li>[Bugfix] Bug fixes</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td width="150" valign="top"><strong>2.4</strong> <em> March-28-2005</em> <a href="./Cyberduck-2.4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
