@@ -121,8 +121,8 @@
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary. Cyberduck has not been tested on the upcoming Tiger release.</p>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
 						<ul class="emphasized">
-							<li><strong>2.4.1</strong> <em>April-11-2005 </em><br />
-								<a href="./Cyberduck-2.4.1.dmg">Cyberduck-2.4.1.dmg</a> <a href="./Cyberduck-2.4.1.dmg"><i>(Download)</i></a>
+							<li><strong>2.4.2</strong> <em>April-11-2005 </em><br />
+								<a href="./Cyberduck-2.4.2.dmg">Cyberduck-2.4.2.dmg</a> <a href="./Cyberduck-2.4.2.dmg"><i>(Download)</i></a>
 							</li>
 						</ul>
 					</td>
