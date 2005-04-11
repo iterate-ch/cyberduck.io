@@ -28,17 +28,11 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
-					<td width="150" valign="top"><strong>2.4.2</strong> <em> April-11-2005</em> <a href="./Cyberduck-2.4.2.dmg">Download</a></td>
+					<td width="150" valign="top"><strong>2.4.3</strong> <em> April-11-2005</em> <a href="./Cyberduck-2.4.3.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
+							<li>[Bugfix] Browser refresh issues</li>
 							<li>[Bugfix] Synchronization</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td width="150" valign="top"><strong>2.4.1</strong> <em> April-09-2005</em> <a href="./Cyberduck-2.4.1.dmg">Download</a></td>
-					<td colspan="2" class="box-dash">
-						<ul>
 							<li>[Localize] Hungarian Localization</li>
 							<li>[Bugfix] Modification date changed when uploading files from the external editor</li>
 							<li>[Bugfix] Browser window could lock up when reconnecting and login was needed</li>
