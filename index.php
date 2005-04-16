@@ -117,6 +117,7 @@
 					</td>
 					<td valign="top" class="box-dash">
 						<a name="download"></a>
+						<p class="alert"><strong>Notice for users upgrading to 10.3.9. In some (most?) cases, the 10.3.9 updater will cause trouble with the java installation. If Cyberduck will not launch anymore after updating, please read <a href="http://forums.cocoaforge.com/viewtopic.php?t=2055">this post</a>.</strong></p>
 						<!-- ======= 10.3 Alert ======== -->
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary. Cyberduck has not been tested on the upcoming Tiger release.</p>
 						<p>Please have a look at the <a href="./changelog.php">changelog</a>.</p>
