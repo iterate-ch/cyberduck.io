@@ -40,17 +40,17 @@ google_color_text = \"6F6F6F\";
         ";
     }
     
-    function echosubmenu() {
+    function echosubmenu($dir) {
     	return "
-              <a id=\"index\" href=\"index.php\">about</a> | 
-              <a id=\"index\" href=\"index.php#download\">download</a> | 
-              <a id=\"features\" href=\"features.php\">features</a> | 
-              <a id=\"changelog\" href=\"changelog.php\">changelog</a> | 
-              <a id=\"forum\" href=\"./forum/\">forum</a> | 
-              <a id=\"source\" href=\"source.php\">source code</a> | 
-              <a id=\"todo\" href=\"todo.php\">todo</a> | 
-              <a id=\"license\" href=\"license.php\">license</a> |
-              <a id=\"donate\" href=\"./donate/index.php\"><strong>donate</strong></a>";
+              <a id=\"index\" href=\"".$dir."/index.php\">about</a> | 
+              <a id=\"index\" href=\"".$dir."/index.php#download\">download</a> | 
+              <a id=\"features\" href=\"".$dir."/features.php\">features</a> | 
+              <a id=\"changelog\" href=\"".$dir."/changelog.php\">changelog</a> | 
+              <a id=\"forum\" href=\"".$dir."/forum/\">forum</a> | 
+              <a id=\"source\" href=\"".$dir."/source.php\">source code</a> | 
+              <a id=\"todo\" href=\"".$dir."/todo.php\">todo</a> | 
+              <a id=\"license\" href=\"".$dir."/license.php\">license</a> |
+              <a id=\"donate\" href=\"".$dir."/donate/index.php\"><strong>donate</strong></a>";
     }
     
     function echomenu($dir) {

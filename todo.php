@@ -19,7 +19,7 @@
 						</div><br />
                     <?php echo(echotitle());?>
 						<div align="left">
-                        <?php echo(echosubmenu());?>
+                        <?php echo(echosubmenu("."));?>
 						</div>
 					</td>
 				</tr>

@@ -19,10 +19,10 @@
 						</div><br />
                     <?php echo(echotitle());?>
 						<div align="left">
-                        <?php echo(echosubmenu());?>
+                        <?php echo(echosubmenu("."));?>
 						</div>
 					</td>
-				</tr>
+			</tr>
 				<tr>
 					<td width="150"></td>
 					<td colspan="2" class="box-solid"><strong>source code</strong></td>
