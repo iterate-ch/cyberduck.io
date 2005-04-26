@@ -28,6 +28,14 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
+					<td width="150" valign="top"><strong>2.4.4</strong> <em> April-30-2005</em> <a href="./Cyberduck-2.4.4.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td width="150" valign="top"><strong>2.4.3</strong> <em> April-11-2005</em> <a href="./Cyberduck-2.4.3.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
