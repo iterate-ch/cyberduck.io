@@ -28,10 +28,15 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
-					<td width="150" valign="top"><strong>2.4.4</strong> <em> April-30-2005</em> <a href="./Cyberduck-2.4.4.dmg">Download</a></td>
+					<td width="150" valign="top"><strong>2.4.4</strong> <em> April-27-2005</em> <a href="./Cyberduck-2.4.4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
-
+							<li>[Localize] Danish Localization</li>
+							<li>[Localize] Polish Localization</li>
+							<li>[Feature] Added CSSEdit to the list of supported editors (http://macrabbit.com/cssedit/)</li>
+							<li>[Feature] Added CotEditor to the list of supported editors (http://www.aynimac.com/)</li>
+							<li>[Feature] Gray out files in browser view when disconnected</li>
+							<li>[Bugfix] Unexpected null reply received (FTP)</li>
 						</ul>
 					</td>
 				</tr>
