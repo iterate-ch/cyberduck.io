@@ -50,7 +50,7 @@
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>Localizations</strong></td>
-					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian and Swedish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
+					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Swedish, Danish and Polish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 					</td>
 				</tr>
 				<tr>
@@ -63,11 +63,13 @@
 										<li><a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a></li>
 										<li><a href="http://www.barebones.com/products/bbedit/">BBEdit</a></li>
 										<li><a href="http://www.barebones.com/products/textwrangler">TextWrangler</a></li>
-										<li>Text-Edit Plus</li>
+										<li><a href="http://www.tex-edit.com/">Text-Edit Plus</a></li>
 										<li><a href="http://macromates.com/">TextMate</a></li>
 										<li><a href="http://mimikaki.net/">mi</a></li>
 										<li><a href="http://smultron.sourceforge.net/">Smultron</a></li>
 										<li><a href="http://www.artman21.net/product/JeditX/">JeditX</a></li>
+										<li><a href="http://macrabbit.com/cssedit/">CSSEdit</a></li>
+										<li><a href="http://www.aynimac.com/">CotEditor</a></li>
 									</ul>
 								</td>
 								<td>
