@@ -24,6 +24,7 @@
 					</td>
 				</tr>
 
+
 				<tr>
 					<td colspan="3">
 						<!-- ======= Screenshot ======== -->
@@ -81,7 +82,6 @@
 					</td>
 
 					<td valign="top" class="box-dash">
-
 						<div class="underline">
 						<p><strong>About.</strong> Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others.
 						</p>
@@ -100,6 +100,8 @@
 						<!-- ======= 10.3 Alert ======== -->
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
 						
+						<p><strong>Localizations.</strong> Cyberduck comes in the following languages: <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian, Hungarian, Swedish, Danish and Polish</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
+
 					</td>
 					<td width="150" valign="top" class="box-dash">
 						<div class="underline">
@@ -128,21 +130,50 @@
 				</tr>
 
 				<tr>
+					<td width="150"></td>
+					<td colspan="2" class="box-solid"><strong><a name="download" id="download">Download</a></strong></td>
+				</tr>
+				<tr>
 					<td width="150" valign="middle" class="box-solid">
 						<div align="center">
 							<img src="img/x.gif" alt="Built for Mac OS X" border="0" />
 							<img src="img/macos.gif" alt="Built for Mac OS X" border="0" />
 						</div>
 					</td>
-					<td valign="top" class="box-dash">
-						<a name="download"></a>
-						<p><strong>Download.</strong> Please have a look at the <a href="./changelog.php">changelog</a>.</p>
+					<td class="box-dash">
 						<ul class="emphasized">
-							<li><strong>2.4.4</strong> <em>April-27-2005 </em><br />
-								<a href="./Cyberduck-2.4.4.dmg">Cyberduck-2.4.4.dmg</a> <a href="./Cyberduck-2.4.4.dmg"><i>(Download)</i></a>
+							<li>
+								<i>Latest <strong>stable</strong> version.</i>
+								<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td valign="top">
+											<img src="img/arrowDown.png" alt="Download" border="0" />
+										</td>
+										<td valign="top">
+											<strong>2.4.5</strong> <em>(May-05-2005)</em><br />
+											<a href="./Cyberduck-2.4.5.dmg">Cyberduck-2.4.5.dmg</a> <a href="./Cyberduck-2.4.5.dmg"></a>
+										</td>
+									</tr>
+								</table>
+							</li>
+							<br />
+							<li>
+								<i>Latest <strong>development (beta)</strong> version.</i>
+								<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td valign="top">
+											<img src="img/arrowDown.png" alt="Download" border="0" />
+										</td>
+										<td valign="top">
+											<strong>2.5b1</strong> <em>(May-05-2005)</em><br />
+											<a href="./Cyberduck-2.5b1.dmg">Cyberduck-2.5b1.dmg</a> <a href="./Cyberduck. 2.5b1.dmg"></a><br />
+											<i>(Please do <strong>not</strong> post this version on software update sites!)</i>
+										</td>
+									</tr>
+								</table>
 							</li>
 						</ul>
-						<p><strong>Localizations.</strong> Cyberduck comes in the following languages: <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian, Hungarian, Swedish, Danish and Polish</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!					</td>
+					</td>
 					<td width="150" valign="top" class="box-dash">
 						<p>
 							You may also want to install <a href="http://growl.info">Growl</a>, a global notification system Cyberduck supports:

@@ -28,6 +28,36 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
+					<td width="150" valign="top"><strong>2.5b1</strong> <em>May-05-2005</em> <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+							<li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data channel (file listings and transfers) if the server is capable of.</li>
+							<li>[Feature] Store X.509 certificates in Keychain</li>
+							<li>[Feature] Custom icon in Finder showing progress when downloading files</li>
+							<li>[Feature] Browser outline view</li>
+							<li>[Feature] Browser column view</li>
+							<li>[Feature] History of recently connected hosts in connection dialog</li>
+							<li>[Feature] Set character encoding per bookmark</li>
+							<li>[Feature] Set connect mode per bookmark (FTP)</li>
+							<li>[Feature] Show folders in working directory (and autocomplete) in 'Go to Folder' dialog</li>
+							<li>[Feature] Exclude duplicate files from transfer upon alert</li>
+							<li>[Feature] Apply button in File Info dialog</li>
+							<li>[Feature] Duplicate files on server</li>
+							<li>[Feature] Preferences window with toolbar</li>
+							<li>[Feature] Option to turn off disconnect prompt</li>
+							<li>[Feature] Edit with non-default editor using the browser context menu</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td width="150" valign="top"><strong>2.4.5</strong> <em>May-05-2005</em> <a href="./Cyberduck-2.4.5.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+							<li>[Bugfix] No permissions set on transferred files when connection is closed unexpectedly (SFTP)</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td width="150" valign="top"><strong>2.4.4</strong> <em> April-27-2005</em> <a href="./Cyberduck-2.4.4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
