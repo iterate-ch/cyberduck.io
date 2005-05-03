@@ -60,7 +60,7 @@
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
-							<li>[Bugfix] No permissions set on transferred files when connection is closed unexpectedly (SFTP)</li>
+							<li>[Bugfix] No permissions set on transferred files when connection closed unexpectedly (SFTP)</li>
 						</ul>
 					</td>
 				</tr>
