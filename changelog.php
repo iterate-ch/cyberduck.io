@@ -28,7 +28,7 @@
 					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
 				</tr>
 				<tr>
-					<td width="150" valign="top"><strong>2.5b1</strong> <em>May-05-2005</em> <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
+					<td width="150" valign="top"><strong>2.5b1</strong> <em>May-04-2005</em> <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 <li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data channel (file listings and transfers) if the server is capable of.</li>
@@ -56,7 +56,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="150" valign="top"><strong>2.4.5</strong> <em>May-05-2005</em> <a href="./Cyberduck-2.4.5.dmg">Download</a></td>
+					<td width="150" valign="top"><strong>2.4.5</strong> <em>May-04-2005</em> <a href="./Cyberduck-2.4.5.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>

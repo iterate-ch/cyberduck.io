@@ -150,7 +150,7 @@
 											<img src="img/arrowDown.png" alt="Download" border="0" />
 										</td>
 										<td valign="top">
-											<strong>2.4.5</strong> <em>(May-05-2005)</em><br />
+											<strong>2.4.5</strong> <em>(May-04-2005)</em><br />
 											<a href="./Cyberduck-2.4.5.dmg">Cyberduck-2.4.5.dmg</a> <a href="./Cyberduck-2.4.5.dmg"></a>
 										</td>
 									</tr>
@@ -165,7 +165,7 @@
 											<img src="img/arrowDown.png" alt="Download" border="0" />
 										</td>
 										<td valign="top">
-											<strong>2.5b1</strong> <em>(May-05-2005)</em><br />
+											<strong>2.5b1</strong> <em>(May-04-2005)</em><br />
 											<a href="./Cyberduck-2.5b1.dmg">Cyberduck-2.5b1.dmg</a> <a href="./Cyberduck. 2.5b1.dmg"></a><br />
 											<i>(Please do <strong>not</strong> post this version on software update sites!)</i>
 										</td>
