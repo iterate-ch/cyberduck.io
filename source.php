@@ -57,7 +57,7 @@
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.5b1</strong> <em>May-04-2005</em><br />
-								<a href="cyberduck-src-2.5b1.tar.gz">cyberduck-src-2.5b1.tar.gz</a>
+								<a href="cyberduck-src-2.5beta1.tar.gz">cyberduck-src-2.5beta1.tar.gz</a>
 							</li>
 						</ul>
 						<ul>
