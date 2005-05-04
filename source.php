@@ -43,10 +43,11 @@
 								cvs -z3 -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co cyberduck-cocoa
 							</tt>
 						</p>
-						<p>To compile everything, type <tt>make</tt>. You'll find the application in the <i>build</i> folder.</p>
+						<p>To compile everything, type <tt>make</tt>. You'll find the application in the <i>build</i> folder. For more details, see the <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/build/BUILD?rev=HEAD&content-type=text/plain">build instructions</a>.</p>
 						<p>Dependencies:
 							<ul>
-								<li>Growl, <a href="http://growl.info">growl.info</a></li>
+								<li>Growl.framework, <a href="http://growl.info">growl.info</a></li>
+								<li>Keychain.framework, <a href="http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
 							</ul>
 						</p>
 					</td>
