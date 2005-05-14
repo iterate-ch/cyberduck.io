@@ -8,8 +8,8 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		<item>
 			<title>Cyberduck 2.5b1</title>
+			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
 			<link>http://update.cyberduck.ch/Cyberduck-2.5b1.dmg</link>
-			<description>Cyberduck 2.5b1</description>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data channel (file listings and transfers) if the server is capable of.</li>
@@ -34,6 +34,174 @@
 <li>[Feature] UTF-8 is now used as the default character encoding</li>
 <li>[Feature] Edit with non-default editor using the browser context menu</li>
 						</ul>			
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4.5</title>
+			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4.5.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
+							<li>[Bugfix] No permissions set on transferred files when connection closed unexpectedly (SFTP)</li>
+							<li>[Bugfix] Resuming uploads might corrupt files (SFTP)</li>
+						</ul>			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4.4</title>
+			<pubDate>Wed, 27 Apr 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-4.4.4.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Localize] Danish Localization</li>
+							<li>[Localize] Polish Localization</li>
+							<li>[Feature] Added CSSEdit to the list of supported editors (http://macrabbit.com/cssedit/)</li>
+							<li>[Feature] Added CotEditor to the list of supported editors (http://www.aynimac.com/)</li>
+							<li>[Feature] Gray out files in browser view when disconnected</li>
+							<li>[Bugfix] Unexpected null reply received (FTP)</li>
+						</ul>			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4.3</title>
+			<pubDate>Mon, 11 Apr 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4.3.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Bugfix] Browser refresh issues</li>
+							<li>[Bugfix] Synchronization</li>
+							<li>[Localize] Hungarian Localization</li>
+							<li>[Bugfix] Modification date changed when uploading files from the external editor</li>
+							<li>[Bugfix] Browser window could lock up when reconnecting and login was needed</li>
+							<li>[Feature] Disconnect item in menubar</li>
+							<li>[Bugfix] Bug fixes</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4</title>
+			<pubDate>Mon, 28 Mar 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Localize] Swedish Localization</li>
+							<li>[Feature] Additional encryption ciphers supported (SFTP)</li>
+							<li>[Feature] Action dropdown menu in toolbar</li>
+							<li>[Feature] Added Jedit X to the list of supported editors (http://www.artman21.net/product/JeditX/)</li>
+							<li>[Feature] Added mi to the list of supported editors (http://mimikaki.net/)</li>
+							<li>[Feature] Added Smultron to the list of supported editors (http://smultron.sourceforge.net/)</li>
+							<li>[Bugfix] Rendezvous implementation updated </li>
+							<li>[Bugfix] Folder to synchronize not selectable in some cases</li>
+							<li>[Bugfix] Fallback to default directory when specified directory doesn't exist</li>
+							<li>[Bugfix] Resolved incompatibility with SSH-1 keys in ~/.ssh/known_hosts (SFTP)</li>
+							<li>[Bugfix] Resolved crash in info window when group was unknown</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4b4</title>
+			<pubDate>Thu, 03 Feb 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4b4.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Bugfix] Dragging files to the Finder</li>
+							<li>[Bugfix] Reordering bookmarks</li>
+							<li>[Bugfix] SSH exception handling (SFTP)</li>
+							<li>[Bugfix] Bookmark selection in connection dialog</li>
+							<li>[Bugfix] Items in transfer window not removed</li>
+							<li>[Bugfix] Deleting more than one bookmark at once</li>
+							<li>[Bugfix] Corrupted resource files in Chinese localization</li>
+							<li>[Bugfix] Corrupted resource files in Japanese localization</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4b3</title>
+			<pubDate>Sat, 29 Jan 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4b3.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Localize] Russian Localization</li>
+							<li>[Feature] Preliminary AppleScript support (see .scpt script samples)</li>
+							<li>[Feature] Quick Connect field and hostname field in connection dialog accept URLs as input</li>
+							<li>[Feature] Reordering bookmarks using drag and drop</li>
+							<li>[Bugfix] Deleting more than 10 files at once</li>
+							<li>[Bugfix] Typing in transfer window causes crash</li>
+							<li>[Bugfix] Transcript causes crash</li>
+							<li>[Bugfix] Reporting correct file size for large files</li>
+							<li>[Bugfix] Disable resume on ASCII tranfers (FTP)</li>
+							<li>[Bugfix] Incompatiblity with Filezilla Server (FTP)</li>
+							<li>[Bugfix] Synchronizing current working directory</li>
+							<li>[Bugfix] Graceful failure on SSH connection problems</li>
+							<li>[Bugfix] Correctly resolving '~' in filenames</li>
+							<li>[Bugfix] Bug fixes</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4b2</title>
+			<pubDate>Wed, 06 Jan 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4b2.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename
+							</li>
+							<li>[Feature] A bookmark in the drawer can be selected by typing its hostname</li>
+							<li>[Feature] Preserve the modification date on upload (SFTP)</li>
+							<li>[Feature] Preserve the modification date on upload if the server supports 'CHMOD UTIME' (FTP)</li>
+							<li>[Bugfix] Determine changed files based on modification date when synchronizing</li>
+							<li>[Bugfix] Opening an URL linking to a file opens a browser window</li>
+							<li>[Bugfix] Changing the username of a newly created bookmark of a connected server might affect an existing bookmark of the same server but with a different username.
+							</li>
+							<li>[Bugfix] Logging the response of 'LIST' (FTP)</li>
+							<li>[Bugfix] Selection of bookmark in connection dialog</li>
+							<li>[Bugfix] Performance issue in log view (thanks to Douglas Davidson)</li>
+							<li>[Feature] Live scrolling log view</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
+			<title>Cyberduck 2.4b1</title>
+			<pubDate>Tue, 28 Dec 2004 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4b1.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+							<li>[Feature] Synchronization of files</li>
+							<li>[Feature] Create new files on server</li>
+							<li>[Feature] Support for Novell Netware file listings (FTP)</li>
+							<li>[Feature] Growl notification support (see http://growl.info)</li>
+							<li>[Feature] Limit number of concurrent connections to a remote host</li>
+							<li>[Feature] Move remote files with copy &amp; paste</li>
+							<li>[Feature] Select a file in the browser by typing its first character</li>
+							<li>[Feature] Put remote files into the transfer queue with copy &amp; paste</li>
+							<li>[Feature] Apply permissions recursively</li>
+							<li>[Feature] Option to apply default permissions to transferred files in Preferences</li>
+							<li>[Feature] Option to preserve modification date on download in Preferences</li>
+							<li>[Feature] Switch encoding per browser with menu or toolbar item</li>
+							<li>[Feature] Switch 'Show hidden files' per browser with menu or toolbar item</li>
+							<li>[Feature] Transfer Queue with "Aqua" progress indicator</li>
+							<li>[Feature] Provide a proxy icon for the connection in the window title bar</li>
+							<li>[Feature] The proxy icon in the window title bar can then be dragged to the bookmark drawer or the Finder
+							</li>
+							<li>[Feature] Bookmarks of recently connected hosts are saved in ~/Library/Application Support/Cyberduck/History
+							</li>
+							<li>[Feature] Updated toolbar icons (Thanks to Matt Ball)</li>
+							<li>[Feature] Display the number of files in the browser</li>
+							<li>[Feature] Added TextMate to the list of supported editors (see http://macromates.com)</li>
+							<li>[Feature] Dialog for duplicated files lists all at once instead of consecutively asking</li>
+							<li>[Feature] Filter field is now a standard search field</li>
+							<li>[Feature] Read bookmarks from "/Library/Application Support/Cyberduck/" instead of the individual user bookmarks file if available
+							</li>
+							<li>[Feature] Check for running transfers on application quit</li>
+							<li>[Feature] Updated FTP core (FTP)</li>
+							<li>[Feature] Saving passwords as 'Internet Password' in the Keychain</li>
+							<li>[Localize] Norwegian Localization</li>
+							<li>[Bugfix] Update existing browsers when changing the default interface attributes in the Preferences</li>
+							<li>[Bugfix] Don't cache DNS lookups forever</li>
+							<li>[Bugfix] Bookmark drawer icon has no text-only equivalent</li>
+							<li>[Bugfix] Tabbing between browser and filter box</li>
+							<li>[Bugfix] Quick Connect Field has initial focus</li>
+							<li>[Bugfix] Live scrolling log view</li>
+						</ul>
 			]]></content:encoded>
 		</item>
 	</channel>
