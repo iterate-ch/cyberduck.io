@@ -25,7 +25,22 @@
 				</tr>
 				<tr>
 					<td width="150"></td>
-					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong></td>
+					<td colspan="2" class="box-solid"><strong><a name="history" id="history">changelog</a></strong> (There is also an <a href="./changelog.rss">RSS</a> feed and <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/Changelog.txt?rev=HEAD&content-type=text/vnd.viewcvs-markup
+">text</a> file.)</td>
+
+				</tr>
+				<tr>
+					<td width="150" valign="top"><strong>2.5b2</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.5b2.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+<li>[Localize] Indonesian Localization</li>
+<li>[Bugfix] Resorting browser view will not change selection</li>
+<li>[Bugfix] Remember state of expanded items in outline view</li>
+<li>[Bugfix] Applescript issues</li>
+<li>[Feature] Updated to Growl 0.7</li>
+<li>[Feature] Edit menu shows all available editors</li>
+						</ul>
+					</td>
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>2.5b1</strong> <em>May-04-2005</em> <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
@@ -61,6 +76,7 @@
 						<ul>
 							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
 							<li>[Bugfix] No permissions set on transferred files when connection closed unexpectedly (SFTP)</li>
+							<li>[Bugfix] Resuming uploads might corrupt files (SFTP)</li>
 						</ul>
 					</td>
 				</tr>

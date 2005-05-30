@@ -1,6 +1,11 @@
-AddType application/x-tar .tgz
-AddType application/x-tar .tar
-AddType application/octet-stream .dmg
-ErrorDocument 404 http://icu.unizh.ch/~dkocher/cyberduck/index.php
-ErrorDocument 403 http://icu.unizh.ch/~dkocher/cyberduck/index.php
+RewriteEngine  on
+RewriteRule    ^(.*\.tar)$					http://icu.unizh.ch/~dkocher/cyberduck/$1 [R=301,L]
+RewriteRule    ^(.*\.gz)$					http://icu.unizh.ch/~dkocher/cyberduck/$1 [R=301,L]
+RewriteCond	   %{REQUEST_URI}				!^/(Cyberduck-2\.4\.dmg)$
+RewriteRule    ^(.*\.dmg)$					http://icu.unizh.ch/~dkocher/cyberduck/$1 [R=301,L]
+RewriteRule    ^(.*\.dmg)$					http://update.cyberduck.ch/$1 [R=301,L]
+RewriteRule    ^forum(/)?$					http://forums.cocoaforge.com/viewforum.php?f=9 [R=301,L]
 
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.cyberduck\.ch$ [NC]
+RewriteRule ^(.*)$ http://cyberduck.ch$1 [R=301,L]

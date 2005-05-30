@@ -165,8 +165,8 @@
 											<img src="img/arrowDown.png" alt="Download" border="0" />
 										</td>
 										<td valign="top">
-											<strong>2.5b1</strong> <em>(May-04-2005)</em><br />
-											<a href="./Cyberduck-2.5b1.dmg">Cyberduck-2.5b1.dmg</a> <a href="./Cyberduck. 2.5b1.dmg"></a><br />
+											<strong>2.5b2</strong> <em>(May-30-2005)</em><br />
+											<a href="./Cyberduck-2.5b2.dmg">Cyberduck-2.5b2.dmg</a> <a href="./Cyberduck. 2.5b2.dmg"></a><br />
 											<i>(Please do <strong>not</strong> post this version on software update sites!)</i>
 										</td>
 									</tr>
@@ -179,6 +179,7 @@
 							You may also want to install <a href="http://growl.info">Growl</a>, a global notification system Cyberduck supports:
 						</p>
 						<div align="center"><a href="http://growl.info"><img src="./img/getgrowl.png" alt="getgrowl" border="0" /></a></div>
+						<p>There is also a <a href="http://quicksilver.blacktree.com/">Quicksilver</a> <a href="http://quicksilver.blacktree.com/plugins.php?order=name">plugin</a> to get access to Cyberduck bookmarks in Quicksilver.</p>
 					</td>
 				</tr>
 

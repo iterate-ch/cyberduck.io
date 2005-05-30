@@ -6,6 +6,23 @@
 		<description>Cyberduck Changelog.</description>
 		<language>en-us</language>
 		<copyright>Copyright 2005, David V. Kocher</copyright>
+		
+		<item>
+			<title>Cyberduck 2.5b2</title>
+			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.5b2.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+<li>[Localize] Indonesian Localization</li>
+<li>[Bugfix] Resorting browser view will not change selection</li>
+<li>[Bugfix] Remember state of expanded items in outline view</li>
+<li>[Bugfix] Applescript issues</li>
+<li>[Feature] Updated to Growl 0.7</li>
+<li>[Feature] Edit menu shows all available editors</li>
+						</ul>			
+			]]></content:encoded>
+		</item>
+
 		<item>
 			<title>Cyberduck 2.5b1</title>
 			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>

@@ -17,6 +17,11 @@
 		text-decoration: none;
 		font-weight: bold;
 	}
+	
+	form {
+		font-family: Tahoma, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 12px;
+	}
 
 	td 
 	{
@@ -92,6 +97,27 @@
 		background-color: #ffffff;
 		border-style: solid;
 	}
+
+	.box-download-release
+	{
+		border-style: solid;
+		background: #0066ff;
+		color: #ffffff;
+	}
+
+	.box-download-release a:link, a:visited
+	{
+		color: #ffffff;
+		font-weight: normal;
+		border-style: none;
+		text-decoration: underline;
+	}
+
+	.box-download-development
+	{
+		background: #cccccc;
+		color: #000000;
+	}
 	
 	p
 	{
@@ -128,10 +154,18 @@
 		border-style: none;
 		text-decoration: underline;
 	}
-	
+
 	a:hover	{
 		color: #ff9900;
 		font-weight: normal;
 		border-style: none;
 		text-decoration: none;
 	}
+
+	.alert a:hover	{
+		color: #000000;
+		font-weight: normal;
+		border-style: none;
+		text-decoration: underline;
+	}
+	
