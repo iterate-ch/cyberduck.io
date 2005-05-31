@@ -66,6 +66,11 @@
 							</li>
 						</ul>
 						<ul>
+							<li><strong>2.4.6</strong> <em>May-30-2005</em><br />
+								<a href="cyberduck-src-2.4.6.tar.gz">cyberduck-src-2.4.6.tar.gz</a>
+							</li>
+						</ul>
+						<ul>
 							<li><strong>2.4.5</strong> <em>May-04-2005</em><br />
 								<a href="cyberduck-src-2.4.5.tar.gz">cyberduck-src-2.4.5.tar.gz</a>
 							</li>
