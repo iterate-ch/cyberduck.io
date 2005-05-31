@@ -24,6 +24,23 @@
 		</item>
 
 		<item>
+			<title>Cyberduck 2.4.6</title>
+			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.4.6.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+<li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
+<li>[Bugfix] Transfer success notification when remote editing file even when transfer fails (Growl)</li>
+<li>[Bugfix] Resolved incompatibility with SSH-1 keys in ~/.ssh/known_hosts (SFTP)</li>
+<li>[Bugfix] Applescript compatiblity issues with 10.4</li>
+<li>[Bugfix] Browser column width compatiblity issues with 10.4</li>
+<li>[Bugfix] Could not drag bookmark file to drawer when empty</li>
+<li>[Bugfix] Ignored custom port when selecting bookmark in connection dialog</li>
+						</ul>			
+			]]></content:encoded>
+		</item>
+
+		<item>
 			<title>Cyberduck 2.5b1</title>
 			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
 			<link>http://update.cyberduck.ch/Cyberduck-2.5b1.dmg</link>

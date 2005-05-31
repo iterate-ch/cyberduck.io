@@ -43,6 +43,20 @@
 					</td>
 				</tr>
 				<tr>
+					<td width="150" valign="top"><strong>2.4.6</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.4.6.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+<li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
+<li>[Bugfix] Transfer success notification when remote editing file even when transfer fails (Growl)</li>
+<li>[Bugfix] Resolved incompatibility with SSH-1 keys in ~/.ssh/known_hosts (SFTP)</li>
+<li>[Bugfix] Applescript compatiblity issues with 10.4</li>
+<li>[Bugfix] Browser column width compatiblity issues with 10.4</li>
+<li>[Bugfix] Could not drag bookmark file to drawer when empty</li>
+<li>[Bugfix] Ignored custom port when selecting bookmark in connection dialog</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td width="150" valign="top"><strong>2.5b1</strong> <em>May-04-2005</em> <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
