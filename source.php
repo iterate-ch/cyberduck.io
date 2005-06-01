@@ -28,7 +28,13 @@
 					<td colspan="2" class="box-solid"><strong>source code</strong></td>
 				</tr>
 				<tr>
-					<td width="150" valign="middle" class="box-solid"><img src="./img/javafile.png" alt="Java Source" border="0" /></td>
+					<td width="150" valign="middle" class="box-solid">
+						<div align="center">
+						<img src="./img/javafile.png" alt="Java Source" border="0" />
+						<br />
+						<a href="http://intellij.com"><img src="./img/idea.gif" alt="intellij" border="0"/></a>
+						</div>
+					</td>
 					<td colspan="2" valign="top" class="box-dash">
 						<p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU
 								General Public Licence

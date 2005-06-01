@@ -124,8 +124,11 @@
 								<img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0" />
 							</a>
 						</div>
+						<div class="underline">
 						<p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!
+						</div>
 						</p>
+						<div align="center"><a href="http://www.atpm.com/11.05/frisky.shtml"><img src="img/frisky-may.gif" width="140" align="middle" alt="atpm" border="0" /></div></a>
 					</td>
 				</tr>
 
