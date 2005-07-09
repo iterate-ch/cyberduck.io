@@ -50,7 +50,7 @@
 				</tr>
 				<tr>
 					<td width="150" valign="top"><strong>Localizations</strong></td>
-					<td valign="top" colspan="2" class="box-dash"><em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Swedish, Danish and Polish.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
+					<td valign="top" colspan="2" class="box-dash"><em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 					</td>
 				</tr>
 				<tr>
@@ -89,6 +89,8 @@
 							<li>Drag proxy icon in the window title bar to the Finder</li>
 							<li>Drag proxy icon in the window title bar to the bookmark drawer</li>
 							<li>Drop files onto bookmarks to upload to remote host</li>
+							<li>Synchronize bookmarks with <a href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a></li>
+							<li><a href="http://www.apple.com/macosx/features/spotlight/">Spotlight</a> Importer for bookmark files</li>
 						</ul>
 					</td>
 				</tr>
@@ -96,7 +98,7 @@
 					<td width="150" valign="top"><strong>Keychain support</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
-							<li>All passwords are stored in the system keychain as Internet passwords available also to third party applications</li>
+							<li>All passwords are stored in the system <a href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications</li>
 						</ul>
 					</td>
 				</tr>
@@ -130,7 +132,6 @@
 							<li>Synchronize local with remote directories (and vice versa)</li>
 							<li>Choose to download/upload missing files</li>
 							<li>Get a preview of affected files before any action is taken</li>
-							<li>Adjust remote timezone</li>
 						</ul>
 					</td>
 				</tr>

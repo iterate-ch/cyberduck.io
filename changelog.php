@@ -30,6 +30,23 @@
 
 				</tr>
 				<tr>
+					<td width="150" valign="top"><strong>2.5b3</strong> <em>July-18-2005</em> <a href="./Cyberduck-2.5b3.dmg">Download</a></td>
+					<td colspan="2" class="box-dash">
+						<ul>
+<li>[Localize] Catalan Localization</li>
+<li>[Feature] Spotlight Importer for bookmarks</li>
+<li>[Feature] Synchronize bookmarks with .Mac</li>
+<li>[Feature] Send custom commands to server (FTP)</li>
+<li>[Feature] Auto scrolling log view</li>
+<li>[Bugfix] New connection dialog remembers field values</li>
+<li>[Bugfix] Correctly parsing filenames beginning with whitespace (FTP)</li>
+<li>[Bugfix] Don't allow editing files with well known binary file type extensions</li>
+<li>[Bugfix] Excluding individual files when synchronising</li>
+<li>[Bugfix] Various bugfixes reported by users</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
 					<td width="150" valign="top"><strong>2.5b2</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.5b2.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>

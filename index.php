@@ -100,7 +100,7 @@
 						<!-- ======= 10.3 Alert ======== -->
 						<p class="emphasized"><strong>Requirements.</strong> As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.</p>
 						
-						<p><strong>Localizations.</strong> Cyberduck comes in the following languages: <em>English, Dutch, German, French, Italian, Japanese, Korean, Chinese (Traditional and Simplified), Portuguese, Spanish, Finnish, Slovak, Czech, Norwegian, Russian, Hungarian, Swedish, Danish and Polish</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
+						<p><strong>Localizations.</strong> Cyberduck comes in the following languages: <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 
 					</td>
 					<td width="150" valign="top" class="box-dash">
@@ -168,9 +168,8 @@
 											<img src="img/arrowDown.png" alt="Download" border="0" />
 										</td>
 										<td valign="top">
-											<strong>2.5b2</strong> <em>(May-30-2005)</em><br />
-											<a href="./Cyberduck-2.5b2.dmg">Cyberduck-2.5b2.dmg</a> <a href="./Cyberduck. 2.5b2.dmg"></a><br />
-											<i>(Please do <strong>not</strong> post this version on software update sites!)</i>
+											<strong>2.5b3</strong> <em>(July-18-2005)</em><br />
+											<a href="./Cyberduck-2.5b3.dmg">Cyberduck-2.5b3.dmg</a> <a href="./Cyberduck-2.5b3.dmg"></a><br />
 										</td>
 									</tr>
 								</table>
