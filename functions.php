@@ -49,7 +49,6 @@ google_color_text = \"6F6F6F\";
               <a id=\"changelog\" href=\"".$dir."/changelog.php\">changelog</a> | 
               <a id=\"forum\" href=\"".$dir."/forum/\">forum</a> | 
               <a id=\"source\" href=\"".$dir."/source.php\">source code</a> | 
-              <a id=\"todo\" href=\"".$dir."/todo.php\">todo</a> | 
               <a id=\"license\" href=\"".$dir."/license.php\">license</a> |
               <a id=\"donate\" href=\"".$dir."/donate/index.php\"><strong>donate</strong></a>";
     }

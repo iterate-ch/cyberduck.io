@@ -8,12 +8,12 @@
 	<body id="changelog">
 		<div align="center" class="standard">
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
-				<?php echo(echogoogle());?>
+
 				<tr>
-					<td width="150" valign="middle" class="box-solid">
-						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+	                <td bgcolor="#000000" width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.black.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
-					<td width="100%" colspan="2" class="box-solid">
+					<td colspan="2" class="box-solid">
 						<div class="underline">
                         <?php echo(echomenu(".."));?>
 						</div><br />
@@ -38,14 +38,20 @@
 <li>[Feature] Synchronize bookmarks with .Mac</li>
 <li>[Feature] Send custom commands to server (FTP)</li>
 <li>[Feature] Auto scrolling log view</li>
+<li>[Feature] Updated application icon (Thanks to Admiral Potato)</li>
 <li>[Bugfix] New connection dialog remembers field values</li>
 <li>[Bugfix] Correctly parsing filenames beginning with whitespace (FTP)</li>
 <li>[Bugfix] Don't allow editing files with well known binary file type extensions</li>
 <li>[Bugfix] Excluding individual files when synchronising</li>
-<li>[Bugfix] Various bugfixes reported by users</li>
+<li>[Bugfix] Improved stability using outline view</li>
+<li>[Bugfix] Remember sorted column and direction</li>
+<li>[Bugfix] Sort child items in browser outline view</li>
 						</ul>
 					</td>
 				</tr>
+
+				<?php echo(echogoogle());?>
+
 				<tr>
 					<td width="150" valign="top"><strong>2.5b2</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.5b2.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">

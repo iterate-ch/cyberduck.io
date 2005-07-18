@@ -8,10 +8,10 @@
 	<body id="features">
 		<div align="center" class="standard">
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
-				<?php echo(echogoogle());?>
+
 				<tr>
-	                <td width="150" valign="middle" class="box-solid">
-						<div align="center"><img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+	                <td bgcolor="#000000" width="150" valign="middle" class="box-solid">
+						<div align="center"><img src="img/cyberduck.icon.black.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
 						<div class="underline">
@@ -23,6 +23,7 @@
 						</div>
 					</td>
 				</tr>
+
 				<tr>
 					<td width="150"></td>
 					<td colspan="2" class="box-solid"><strong>features</strong></td>
@@ -53,6 +54,9 @@
 					<td valign="top" colspan="2" class="box-dash"><em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 					</td>
 				</tr>
+
+				<?php echo(echogoogle());?>
+
 				<tr>
 					<td width="150" valign="top"><strong>Seamless integration with external editors</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
