@@ -8,7 +8,7 @@
 <body bgcolor="#FFFFFF" title="Donate for Cyberduck!" id="donate">
 	<div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
-			<?php echo(echogoogle());?>
+
             <tr>
                 <td width="150" valign="middle" class="box-solid">
 						<div align="center"><img src="../img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>

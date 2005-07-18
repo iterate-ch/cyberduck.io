@@ -9,9 +9,9 @@
     <div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
             <tr>
-	                <td bgcolor="#000000" width="150" valign="middle" class="box-solid">
-						<div align="center"><img src="img/cyberduck.icon.black.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
-                </td>
+	                <td bgcolor="#cccccc" width="150" valign="middle">
+						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+					</td>
                 <td colspan="2" class="box-solid">
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
@@ -54,6 +54,7 @@
 							<ul>
 								<li>Growl.framework, <a href="http://growl.info">growl.info</a></li>
 								<li>Keychain.framework, <a href="http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
+								<li>DotMacKit.framework, <a href="http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
 							</ul>
 						</p>
 					</td>

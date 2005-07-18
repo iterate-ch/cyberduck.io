@@ -10,8 +10,8 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
 				<tr>
-	                <td bgcolor="#000000" width="150" valign="middle" class="box-solid">
-						<div align="center"><img src="img/cyberduck.icon.black.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+	                <td bgcolor="#cccccc" width="150" valign="middle">
+						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
 						<div class="underline">
@@ -23,29 +23,6 @@
 						</div>
 					</td>
 				</tr>
-
-				<tr>
-					<td colspan="3">
-						<!-- ======= Screenshot ======== -->
-						<div align="center" id="image">
-							<a href="./img/browser.jpg">
-								<img align="middle" border="0" src="./img/browser.thumb.jpg" alt="Cyberduck Screenshot" />
-							</a>
-						</div>
-					</td>
-				</tr>
-
-				<!-- ======= Donate! ======== -->
-				<tr>
-					<td width="150" class="box-solid">
-						<div align="center">
-							<a href="./donate"><img border="0" src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
-						</div>
-					</td>
-					<td colspan="2" class="alert">
-						Support the development of Cyberduck by making a <a href="./donate">donation</a> :)
-					</td>
-                </tr>
 
 				<tr>
 					<td width="150" valign="top" class="box-solid">
@@ -102,6 +79,7 @@
 						<p><strong>Localizations.</strong> Cyberduck comes in the following languages: <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 
 					</td>
+					
 					<td width="150" valign="top" class="box-dash">
 						<div class="underline">
 						<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.
@@ -130,6 +108,29 @@
 						<div align="center"><a href="http://www.atpm.com/11.05/frisky.shtml"><img src="img/frisky-may.gif" width="140" align="middle" alt="atpm" border="0" /></div></a>
 					</td>
 				</tr>
+
+				<!-- ======= Screenshot ======== -->
+				<tr>
+					<td colspan="3">
+						<div align="center" id="image">
+							<a href="./img/browser.jpg">
+								<img align="middle" border="0" src="./img/browser.jpg" alt="Cyberduck Screenshot" />
+							</a>
+						</div>
+					</td>
+				</tr>
+
+				<!-- ======= Donate! ======== -->
+				<tr>
+					<td width="150" class="box-solid">
+						<div align="center">
+							<a href="./donate"><img border="0" src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
+						</div>
+					</td>
+					<td colspan="2" class="alert">
+						Support the development of Cyberduck by making a <a href="./donate">donation</a> :)
+					</td>
+                </tr>
 
 				<?php echo(echogoogle());?>
 

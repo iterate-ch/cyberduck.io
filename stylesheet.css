@@ -1,6 +1,5 @@
 	body  
 	{ 
-		background-color: #ffffff;
 		color: #000000;
 	}
 	
@@ -23,6 +22,11 @@
 		font-size: 12px;
 	}
 
+	tr
+	{
+		background-color: #ffffff;
+	}
+	
 	td 
 	{
 		text-align:left;	
