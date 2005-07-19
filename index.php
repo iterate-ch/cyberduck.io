@@ -26,11 +26,6 @@
 
 				<tr>
 					<td width="150" valign="top" class="box-filled">
-						<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck." </em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
-						</p>
-						<div align="center">
-							<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0" /></a>
-						</div>
 						<p>
 							<em>"All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck."</em> (<a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)
 						</p>
@@ -45,21 +40,17 @@
 						<p>
 							<em>"[Cyberduck] is a top FTP client that drops neatly into your Mac environment. If you have [...] not yet sampled this Swiss delight I recommend you pick it up as soon as possible."</em> (<a href="http://www.richardallan.org.uk/?p=339">Richard Allan</a>)
 						</p>
-						<!--
 						<p>
 							<em>"[...] Cyberduck es una maravilla. Sencillo, potente y elegante."</em> (<a href="http://www.minid.net/archivos/categorias/macintosh/os_x_qtigerq_el_29_de_abril.php">Comment by Charlie</a>)
 						</p>
-						-->
-						<!--
 						<p>
 							<em>"It appears the SFTP client-du-jour is Cyberduck [...]"</em> (<a href="http://terrychay.com/blog/article/cyberduck.shtml">terrychay.com</a>)
 						</p>
-						-->
 					</td>
 
 					<td valign="top" class="box-dash">
 						<div class="underline">
-						<p><strong>About.</strong> Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>. It has been built from the ground up with usability in mind, having the same consistent graphical user interface for both SFTP and FTP browsing. Multiple connections are supported. Drag and drop is supported consequently for transferring files between server and client. A transfer queue keeps track of the pending file transfers and supports resuming of both downloads and uploads. Local files can be synchronized with files on the server. System technologies such as the <a href="http://www.apple.com/macosx/features/security/">Keychain</a>, <a href="http://www.apple.com/macosx/features/rendezvous/">Rendezvous</a> and <a href="http://apple.com/applescript/">AppleScript</a> are supported. Cyberduck integrates seamlessly with external editors such as <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://barebones.com">BBEdit</a>, <a href="http://macromates.com/">TextMate</a> and others.
+						<p><strong>About.</strong> Cyberduck is an <a href="http://opensource.org/docs/definition.php">open source</a> SFTP (SSH Secure File Transfer) and FTP browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
 						</p>
 						</div>
 						<div class="underline">
@@ -105,7 +96,22 @@
 						<p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck">Cafepress Cyberduck shop</a>!
 						</div>
 						</p>
+						<!--
 						<div align="center"><a href="http://www.atpm.com/11.05/frisky.shtml"><img src="img/frisky-may.gif" width="140" align="middle" alt="atpm" border="0" /></div></a>
+						-->
+					</td>
+				</tr>
+
+				<!-- ======= Macworld ======== -->
+
+				<tr>
+					<td valign="middle" width="150" class="box-solid">
+						<div align="center">
+							<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" border="0" /></a>
+						</div>
+						</td>
+					<td colspan="2" class="box-solid">
+<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck. Making a connection is as easy as typing the name of the server in the address bar. Save bookmarks to a bookmark drawer, or drag them to your desktop. Cyberduck supports multiple connections and can resume interrupted transfers. It also supports SFTP, Keychain, and Rendezvous (so connecting with your local network is a breeze). When you select a file for editing, Cyberduck opens the document in your chosen editor and uploads the changes automatically when you save.</em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)</p>
 					</td>
 				</tr>
 
@@ -135,7 +141,7 @@
 				<?php echo(echogoogle());?>
 
 				<tr>
-					<td width="150" valign="middle" class="box-filled">
+					<td width="150" valign="middle" class="box-solid">
 						<div align="center">
 							<img src="img/x.gif" alt="Built for Mac OS X" border="0" />
 							<img src="img/macos.gif" alt="Built for Mac OS X" border="0" />

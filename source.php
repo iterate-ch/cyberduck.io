@@ -210,6 +210,9 @@
 						</ul>
 					</td>
 				</tr>
+
+				<?php echo(echogoogle());?>
+
 				<tr>
 					<td colspan="3">
 						<div align="right">

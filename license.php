@@ -45,6 +45,9 @@
 					<td colspan="2" valign="top" class="box-dash">This products includes software developed by <strong>sshtools.com</strong> (<a href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a href="http://jakarta.apache.org">http://jakarta.apache.org</a>).
 					</td>
 				</tr>
+
+				<?php echo(echogoogle());?>
+
 				<tr>
 					<td colspan="3">
 						<div align="right">
