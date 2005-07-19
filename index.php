@@ -10,7 +10,7 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
 				<tr>
-	                <td bgcolor="#cccccc" width="150" valign="middle">
+	                <td class="box-filled" width="150" valign="middle">
 						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
@@ -25,7 +25,7 @@
 				</tr>
 
 				<tr>
-					<td width="150" valign="top" class="box-solid">
+					<td width="150" valign="top" class="box-filled">
 						<p><em>"There are a few free FTP clients for the Mac, but none is as polished or as easy to use as Cyberduck." </em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 						</p>
 						<div align="center">
@@ -122,7 +122,7 @@
 
 				<!-- ======= Donate! ======== -->
 				<tr>
-					<td width="150" class="box-solid">
+					<td width="150" class="box-filled">
 						<div align="center">
 							<a href="./donate"><img border="0" src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="Make payments with PayPal - it's fast, free and secure!"></img></a>
 						</div>
@@ -135,11 +135,7 @@
 				<?php echo(echogoogle());?>
 
 				<tr>
-					<td width="150"></td>
-					<td colspan="2" class="box-solid"><strong><a name="download" id="download">Download</a></strong></td>
-				</tr>
-				<tr>
-					<td width="150" valign="middle" class="box-solid">
+					<td width="150" valign="middle" class="box-filled">
 						<div align="center">
 							<img src="img/x.gif" alt="Built for Mac OS X" border="0" />
 							<img src="img/macos.gif" alt="Built for Mac OS X" border="0" />

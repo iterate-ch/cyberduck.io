@@ -9,7 +9,7 @@
     <div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
             <tr>
-	                <td bgcolor="#cccccc" width="150" valign="middle">
+	                <td class="box-filled" width="150" valign="middle">
 						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
                 <td colspan="2" class="box-solid">
@@ -24,11 +24,7 @@
 			</tr>
 
 				<tr>
-					<td width="150"></td>
-					<td colspan="2" class="box-solid"><strong>source code</strong></td>
-				</tr>
-				<tr>
-					<td width="150" valign="middle" class="box-solid">
+					<td width="150" valign="middle" class="box-filled">
 						<div align="center">
 						<img src="./img/javafile.png" alt="Java Source" border="0" />
 						<br />

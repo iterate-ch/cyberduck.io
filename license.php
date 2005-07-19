@@ -10,7 +10,7 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
 				<tr>
-	                <td bgcolor="#cccccc" width="150" valign="middle">
+	                <td class="box-filled" width="150" valign="middle">
 						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
@@ -23,19 +23,10 @@
 						</div>
 					</td>
 				</tr>
+
 				<tr>
-					<td width="150"></td>
-					<td colspan="2" class="box-solid">
-						<div align="left">
-							<strong>license</strong>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="150" class="box-solid">
-						<div align="center">
-							<img src="./img/gnu.jpg" alt="GNU GPL Software" border="0" />
-						</div>
+					<td width="150">
+					
 					</td>
 					<td colspan="2" valign="top" class="box-dash">
 						<p>Copyright (c) 2004 David Kocher. All rights reserved.</p>
@@ -46,7 +37,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="150"></td>
+					<td width="150">
+						<div align="center">
+							<img src="./img/gnu.jpg" alt="GNU GPL Software" border="0" />
+						</div>
+					</td>
 					<td colspan="2" valign="top" class="box-dash">This products includes software developed by <strong>sshtools.com</strong> (<a href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a href="http://jakarta.apache.org">http://jakarta.apache.org</a>).
 					</td>
 				</tr>

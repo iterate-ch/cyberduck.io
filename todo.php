@@ -10,7 +10,7 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
 				<tr>
-	                <td bgcolor="#cccccc" width="150" valign="middle">
+	                <td class="box-filled" width="150" valign="middle">
 						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
 					</td>
 					<td colspan="2" class="box-solid">
