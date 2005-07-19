@@ -25,11 +25,8 @@
 				</tr>
 
 				<tr>
-					<td valign="top"><strong>Browse SFTP and FTP servers</strong>
-					<br />
-					<img src="./img/browse.png" alt="Browse" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Browse SFTP and FTP servers</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>User friendly interface!</li>
 							<li>Open multiple simultaneous connections</li>
@@ -47,31 +44,34 @@
 							<li>Allow the selection of files in the browser by typing the filename</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<img src="./img/browse.png" alt="Browse" border="0" />
+					</td>
 				</tr>
 
 				<?php echo(echogoogle());?>
 
 				<tr>
-					<td valign="top"><strong>Localizations</strong></td>
+					<td class="box-filled" valign="top"><strong>Localizations</strong></td>
 					<td valign="top" colspan="2" class="box-dash"><em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan.</em> Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&content-type=text/html">contributors</a>!
 					</td>
 				</tr>
 
 				<tr>
-					<td valign="top"><strong>Seamless integration with external editors</strong>
+					<td class="box-filled" valign="top"><strong>Seamless integration with external editors</strong>
 						<br />
 					</td>
 					<td valign="top" colspan="2" class="box-dash">
-										<a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, 
-										<a href="http://www.barebones.com/products/bbedit/">BBEdit</a>,
-										<a href="http://www.barebones.com/products/textwrangler">TextWrangler</a>,
-										<a href="http://www.tex-edit.com/">Text-Edit Plus</a>,
-										<a href="http://macromates.com/">TextMate</a>,
-										<a href="http://mimikaki.net/">mi</a>,
-										<a href="http://smultron.sourceforge.net/">Smultron</a>,
-										<a href="http://www.artman21.net/product/JeditX/">JeditX</a>,
-										<a href="http://macrabbit.com/cssedit/">CSSEdit</a>,
-										<a href="http://www.aynimac.com/">CotEditor</a>
+						<a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, 
+						<a href="http://www.barebones.com/products/bbedit/">BBEdit</a>,
+						<a href="http://www.barebones.com/products/textwrangler">TextWrangler</a>,
+						<a href="http://www.tex-edit.com/">Text-Edit Plus</a>,
+						<a href="http://macromates.com/">TextMate</a>,
+						<a href="http://mimikaki.net/">mi</a>,
+						<a href="http://smultron.sourceforge.net/">Smultron</a>,
+						<a href="http://www.artman21.net/product/JeditX/">JeditX</a>,
+						<a href="http://macrabbit.com/cssedit/">CSSEdit</a>,
+						<a href="http://www.aynimac.com/">CotEditor</a>
 						<div align="middle">
 							<img src="./img/subethaedit.png" height="64" alt="Subethaedit" border="0" />
 							<img src="./img/textmate.png" height="64" alt="TextMate" border="0" />
@@ -83,9 +83,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Bookmarking</strong>
-					<br />
-						<img src="./img/bookmarks.png" alt="Bookmark" border="0" />
+					<td class="box-filled" valign="top"><strong>Bookmarking</strong>
 					</td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
@@ -104,11 +102,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Supporting all major transfer protocols</strong>
-					<br />
-						<img src="./img/protocols.png" alt="Protocols" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Supporting all major transfer protocols</strong></td>
+					<td colspan="2" valign="top" class="box-dash">
 						<ul>
 							<li>FTP (File Transfer Protocol</li>
 							<li>FTP/TLS (FTP secured over SSL/TLS)</li>
@@ -117,10 +112,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Keychain support</strong>
-					<br />
-						<img src="./img/keychain.png" height="64" alt="Keychain" border="0" />
-					</td>
+					<td class="box-filled" valign="top"><strong>Keychain support</strong>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>All passwords are stored in the system <a href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications</li>
@@ -128,7 +120,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Secure file transfers with SFTP</strong></td>
+					<td class="box-filled" valign="top"><strong>Secure file transfers with SFTP</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Public key authentication</li>
@@ -139,10 +131,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" ><strong>Transfers</strong>
-					<br />
-						<img src="./img/transfer.png" alt="Transfers" border="0" />
-					</td>
+					<td class="box-filled" valign="top" ><strong>Transfers</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Resume downloads (FTP and SFTP)</li>
@@ -154,7 +143,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top" ><strong>Synchronize</strong></td>
+					<td class="box-filled" valign="top" ><strong>Synchronize</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Synchronize local with remote directories (and vice versa)</li>
@@ -164,56 +153,53 @@
 					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Modify permissions</strong>
-					<br />
-						<img src="./img/info.png" alt="Permissions" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Modify permissions</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>Modify permissions on multiple files</li>
 							<li>Modify permissions recursivly</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<div align="center"><img src="./img/info.png" alt="Permissions" border="0" /></div>
+					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Bonjour support</strong>
-					<br />
-					<img src="./img/rendezvous.png" alt="Bonjour support" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Bonjour support</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>Auto discovery of services on the local network</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<div align="center"><img src="./img/rendezvous.png" alt="Bonjour support" border="0" /></div>
+					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>AppleScript support</strong>
-					<br /><br />
-						<img src="./img/applescript.jpg" height="64" alt="Applescript" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>AppleScript support</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>Full AppleScript integration. See the <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/"> sample scripts</a> (included on the disk image).</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<div align="center"><img src="./img/applescript.jpg" height="64" alt="Applescript" border="0" /></div>
+					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Growl support</strong>
-					<br />
-						<img src="./img/growl.png" height="64" alt="Growl" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Growl support</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>Support for growl, the global notification system for Mac OS X. See <a href="http://growl.info/">growl.info</a> for more information.</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<div align="center"><img src="./img/growl.png" height="64" alt="Growl" border="0" />
+					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>Finder integration</strong>
-					<br /><br />
-						<img src="./img/document.jpg" height="64" alt="Growl" border="0" />
-					</td>
-					<td valign="top" colspan="2" class="box-dash">
+					<td class="box-filled" valign="top"><strong>Finder integration</strong></td>
+					<td valign="top" class="box-dash">
 						<ul>
 							<li>Use as default system wide protocol handler; requires <a href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.
 							</li>
@@ -221,9 +207,12 @@
 							<li>Opens .duck bookmark files from the Finder.</li>
 						</ul>
 					</td>
+					<td valign="middle">
+						<div align="center"><img src="./img/document.jpg" height="64" alt="Growl" border="0" /></div>
+					</td>
 				</tr>
 				<tr>
-					<td valign="top"><strong>ASCII and binary FTP transfers</strong></td>
+					<td class="box-filled" valign="top"><strong>ASCII and binary FTP transfers</strong></td>
 					<td valign="top" colspan="2" class="box-dash">
 						<ul>
 							<li>Convert line endings on the fly in ASCII transfers</li>
