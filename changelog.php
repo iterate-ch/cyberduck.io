@@ -25,7 +25,7 @@
 				</tr>
 				<tr>
 					<td width="150"></td>
-					<td colspan="2" class="box-solid">(There is also an <a href="./changelog.rss">RSS</a> feed and <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/Changelog.txt?rev=HEAD&content-type=text/vnd.viewcvs-markup
+					<td colspan="2" class="box-solid">(There is also an <a href="./changelog.rss">RSS</a> feed and <a href="http://cvs.cyberduck.ch/cyberduck-cocoa/Changelog.txt?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup
 ">text</a> file.)</td>
 
 				</tr>
@@ -66,7 +66,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="box-filled" class="box-filled" width="150" valign="top"><strong>2.4.6</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.4.6.dmg">Download</a></td>
+					<td class="box-filled" width="150" valign="top"><strong>2.4.6</strong> <em>May-30-2005</em> <a href="./Cyberduck-2.4.6.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
 <li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
@@ -227,9 +227,9 @@
 							<li>[Feature] Support for Novell Netware file listings (FTP)</li>
 							<li>[Feature] Growl notification support (see http://growl.info)</li>
 							<li>[Feature] Limit number of concurrent connections to a remote host</li>
-							<li>[Feature] Move remote files with copy &amp; paste</li>
+							<li>[Feature] Move remote files with copy &amp;amp; paste</li>
 							<li>[Feature] Select a file in the browser by typing its first character</li>
-							<li>[Feature] Put remote files into the transfer queue with copy &amp; paste</li>
+							<li>[Feature] Put remote files into the transfer queue with copy &amp;amp; paste</li>
 							<li>[Feature] Apply permissions recursively</li>
 							<li>[Feature] Option to apply default permissions to transferred files in Preferences</li>
 							<li>[Feature] Option to preserve modification date on download in Preferences</li>
