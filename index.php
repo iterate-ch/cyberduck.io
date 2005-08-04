@@ -96,7 +96,7 @@
 										donation</a>. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal - it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.</strong>
 							</p>
 						</div>
-						<p class="alert">
+						<p class="box-dash">
 							<strong>
 								if you have problems starting Cyberduck after updating to 10.3.9, please read 
 								<a href="http://docs.info.apple.com/article.html?artnum=301380">
@@ -107,7 +107,7 @@
 							<strong>
 								Requirements.
 							</strong>
-							As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. 
+							As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. Cyberduck 2.5 requires 10.3.9 or later.
 							<a href="./changelog.php">
 								Previous versions
 							</a>
@@ -237,6 +237,10 @@
 						</div>
 					</td>
 					<td class="box-dash">
+						<strong>
+							Download.
+						</strong>
+						See the <a href="./changelog.php">changelog</a> for differences between the versions released.
 						<ul class="emphasized">
 							<li>
 								<em>

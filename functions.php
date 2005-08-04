@@ -44,7 +44,6 @@ google_color_text = \"6F6F6F\";
     function echosubmenu($dir) {
     	return "
               <a id=\"index\" href=\"".$dir."/index.php\">about</a> | 
-              <a id=\"index\" href=\"".$dir."/index.php#download\">download</a> | 
               <a id=\"features\" href=\"".$dir."/features.php\">features</a> | 
               <a id=\"changelog\" href=\"".$dir."/changelog.php\">changelog</a> | 
               <a id=\"forum\" href=\"".$dir."/forum/\">forum</a> | 
