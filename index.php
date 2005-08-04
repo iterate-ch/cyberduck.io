@@ -65,9 +65,7 @@
 									About.
 								</strong>
 								Cyberduck is an 
-								<a href="http://opensource.org/docs/definition.php">
-									open source
-								</a>
+								<a href="http://opensource.org/docs/definition.php">open source</a>
 								SFTP (SSH Secure File Transfer) and FTP browser licenced under the 
 								<a href="http://www.gnu.org/licenses/gpl.html">
 									GPL</a>.
@@ -75,15 +73,7 @@
 						</div>
 						<div class="underline">
 							<p>
-								This software is 
-								<a href="./img/hacking.jpg">
-									written
-								</a>
-								by 
-								<a href="mailto:dkocher@cyberduck.ch">
-									David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed.
-								<br />
-								I appreciate any comments, feature suggestions and bug reports.
+								This software is <a href="./img/hacking.jpg">written</a> by <a href="mailto:dkocher@cyberduck.ch"> David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed. I appreciate any comments, feature suggestions and bug reports.
 							</p>
 						</div>
 						<div class="underline">
@@ -101,17 +91,6 @@
 								if you have problems starting Cyberduck after updating to 10.3.9, please read 
 								<a href="http://docs.info.apple.com/article.html?artnum=301380">
 									this article</a>.</strong>
-						</p>
-						<!-- ======= 10.3 Alert ======== -->
-						<p class="emphasized">
-							<strong>
-								Requirements.
-							</strong>
-							As of version 2.4, Cyberduck is not compatible with any OS X version prior to 10.3. Cyberduck 2.5 requires 10.3.9 or later.
-							<a href="./changelog.php">
-								Previous versions
-							</a>
-							may run on 10.2 with some limitations; your mileage may vary.
 						</p>
 						<p>
 							<strong>
@@ -237,32 +216,29 @@
 						</div>
 					</td>
 					<td class="box-dash">
-						<strong>
-							Download.
-						</strong>
-						See the <a href="./changelog.php">changelog</a> for differences between the versions released.
-						<ul class="emphasized">
-							<table border="0" cellpadding="0" cellspacing="0">
-								<tr>
-									<td valign="top">
-										<img src="img/arrowDown.png" alt="Download" border="0" />
-									</td>
-									<td valign="top">
-										<strong>
-											2.5
-										</strong>
-										<em>
-											(Aug-15-2005)</em>
-										<br />
-										<a href="./Cyberduck-2.5.dmg">
-											Cyberduck-2.5.dmg
-										</a>
-										<a href="./Cyberduck-2.5.dmg">
-										</a>
-										<br />
-									</td>
-								</tr>
-							</table>
+						<!-- ======= 10.3 Alert ======== -->
+						<p>
+						<strong>Requirements.</strong> Cyberduck 2.4 requires 10.3.0 or later. Cyberduck 2.5 requires 10.3.9 or later. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.
+						</p>
+						<p>
+							<strong>Download.</strong> See the <a href="./changelog.php">changelog</a> for differences between the versions released.
+						</p>
+						<p><table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td valign="top">
+									<img src="img/arrowDown.png" alt="Download" border="0" />
+								</td>
+								<td valign="top">
+									<strong>
+										2.5
+									</strong>
+									<em>(Aug-15-2005)</em>
+									<br />
+									<a href="./Cyberduck-2.5.dmg">Cyberduck-2.5.dmg</a><a href="./Cyberduck-2.5.dmg"></a>
+									<br />
+								</td>
+							</tr>
+						</table></p>
 					</td>
 					<td width="150" valign="top" class="box-dash">
 						<p>
