@@ -242,66 +242,27 @@
 						</strong>
 						See the <a href="./changelog.php">changelog</a> for differences between the versions released.
 						<ul class="emphasized">
-							<li>
-								<em>
-									Latest 
-									<strong>
-										stable
-									</strong>
-									version.
-								</em>
-								<table border="0" cellpadding="0" cellspacing="0">
-									<tr>
-										<td valign="top">
-											<img src="img/arrowDown.png" alt="Download" border="0" />
-										</td>
-										<td valign="top">
-											<strong>
-												2.4.6
-											</strong>
-											<em>
-												(May-30-2005)</em>
-											<br />
-											<a href="./Cyberduck-2.4.6.dmg">
-												Cyberduck-2.4.6.dmg
-											</a>
-											<a href="./Cyberduck-2.4.6.dmg">
-											</a>
-										</td>
-									</tr>
-								</table>
-							</li>
-							<li>
-								<em>
-									Latest 
-									<strong>
-										development (beta)
-									</strong>
-									version.
-								</em>
-								<table border="0" cellpadding="0" cellspacing="0">
-									<tr>
-										<td valign="top">
-											<img src="img/arrowDown.png" alt="Download" border="0" />
-										</td>
-										<td valign="top">
-											<strong>
-												2.5b3
-											</strong>
-											<em>
-												(July-18-2005)</em>
-											<br />
-											<a href="./Cyberduck-2.5b3.dmg">
-												Cyberduck-2.5b3.dmg
-											</a>
-											<a href="./Cyberduck-2.5b3.dmg">
-											</a>
-											<br />
-										</td>
-									</tr>
-								</table>
-							</li>
-						</ul>
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td valign="top">
+										<img src="img/arrowDown.png" alt="Download" border="0" />
+									</td>
+									<td valign="top">
+										<strong>
+											2.5
+										</strong>
+										<em>
+											(Aug-15-2005)</em>
+										<br />
+										<a href="./Cyberduck-2.5.dmg">
+											Cyberduck-2.5.dmg
+										</a>
+										<a href="./Cyberduck-2.5.dmg">
+										</a>
+										<br />
+									</td>
+								</tr>
+							</table>
 					</td>
 					<td width="150" valign="top" class="box-dash">
 						<p>
