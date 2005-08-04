@@ -8,8 +8,19 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		
 		<item>
+			<title>Cyberduck 2.5</title>
+			<pubDate>Wed, 15 Aug 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.5.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+
+						</ul>
+			]]></content:encoded>
+		</item>
+
+		<item>
 			<title>Cyberduck 2.5b3</title>
-			<pubDate>Wed, 18 July 2005 00:00:00 +0100</pubDate>
+			<pubDate>Wed, 18 Jul 2005 00:00:00 +0100</pubDate>
 			<link>http://update.cyberduck.ch/Cyberduck-2.5b3.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
@@ -25,7 +36,8 @@
 <li>[Bugfix] Excluding individual files when synchronising</li>
 <li>[Bugfix] Improved stability using outline view</li>
 <li>[Bugfix] Remember sorted column and direction</li>
-<li>[Bugfix] Sort child items in browser outline view</li>						</ul>
+<li>[Bugfix] Sort child items in browser outline view</li>
+						</ul>
 			]]></content:encoded>
 		</item>
 

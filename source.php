@@ -61,6 +61,11 @@
 					</td>
 					<td colspan="2" class="box-dash">
 						<ul>
+							<li><strong>2.5</strong> <em>Aug-15-2005</em><br />
+								<a href="cyberduck-src-2.5.tar.gz">cyberduck-src-2.5.tar.gz</a>
+							</li>
+						</ul>
+						<ul>
 							<li><strong>2.5b3</strong> <em>July-18-2005</em><br />
 								<a href="cyberduck-src-2.5beta3.tar.gz">cyberduck-src-2.5beta3.tar.gz</a>
 							</li>
