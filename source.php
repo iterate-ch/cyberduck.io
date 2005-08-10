@@ -32,18 +32,16 @@
 						</div>
 					</td>
 					<td colspan="2" valign="top" class="box-dash">
-						<p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU
-								General Public Licence
-							</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and
-							<a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.
+						<p>Source code is available licenced unter the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You need <a href="http://jakarta.apache.org/ant">Ant</a> and <a href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> to build.
 						</p>
 						<p>You can browse the CVS repository <a href="http://cvs.cyberduck.ch/">here</a>. (Warning: Slow connection)
 						</p>
 						<p>You can checkout the current unstable version from the CVS repository. When prompted for a password for anonymous, simply press <i>Enter</i>.
 						</p>
-						<p><tt>cvs -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot login<br />
-								cvs -z3 -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co cyberduck-cocoa
-							</tt>
+						<p>
+							<tt>cvs -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot login
+							<br />
+							cvs -z3 -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co cyberduck-cocoa</tt>
 						</p>
 						<p>To compile everything, type <tt>make</tt>. You'll find the application in the <i>build</i> folder. For more details, see the <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/build/BUILD?rev=HEAD&amp;content-type=text/plain">build instructions</a>.</p>
 						<p>Dependencies:
@@ -61,10 +59,20 @@
 					</td>
 					<td colspan="2" class="box-dash">
 						<ul>
-							<li><strong>2.5</strong> <em>Aug-15-2005</em><br />
-								<a href="cyberduck-src-2.5.tar.gz">cyberduck-src-2.5.tar.gz</a>
+							<li><strong>2.5b4</strong> <em>Aug-10-2005</em><br />
+								<a href="cyberduck-src-2.5beta4.tar.gz">cyberduck-src-2.5beta4.tar.gz</a>
 							</li>
 						</ul>
+					</td>
+				</tr>
+
+				<?php echo(echogoogle());?>
+
+				<tr>
+					<td width="150">
+					
+					</td>
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.5b3</strong> <em>July-18-2005</em><br />
 								<a href="cyberduck-src-2.5beta3.tar.gz">cyberduck-src-2.5beta3.tar.gz</a>
@@ -217,8 +225,6 @@
 						</ul>
 					</td>
 				</tr>
-
-				<?php echo(echogoogle());?>
 
 				<tr>
 					<td colspan="3">

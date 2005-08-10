@@ -230,11 +230,11 @@
 								</td>
 								<td valign="top">
 									<strong>
-										2.5
+										2.5b4
 									</strong>
-									<em>(Aug-15-2005)</em>
+									<em>(Aug-10-2005)</em>
 									<br />
-									<a href="./Cyberduck-2.5.dmg">Cyberduck-2.5.dmg</a><a href="./Cyberduck-2.5.dmg"></a>
+									<a href="./Cyberduck-2.5b4.dmg">Cyberduck-2.5b4.dmg</a><a href="./Cyberduck-2.5b4.dmg"></a>
 									<br />
 								</td>
 							</tr>

@@ -8,12 +8,16 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		
 		<item>
-			<title>Cyberduck 2.5</title>
-			<pubDate>Wed, 15 Aug 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5.dmg</link>
+			<title>Cyberduck 2.5b4</title>
+			<pubDate>Wed, 10 Aug 2005 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck-2.5b4.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
-
+<li>[Feature] Updated navigation bar interface elements</li>
+<li>[Bugfix] Vastly improved performance when listing directories</li>
+<li>[Bugfix] Do not reconnect if connecting to the same host from a different bookmark</li>
+<li>[Bugfix] Sorting history menu correctly</li>
+<li>[Bugfix] Refresh issues in outline view</li>
 						</ul>
 			]]></content:encoded>
 		</item>

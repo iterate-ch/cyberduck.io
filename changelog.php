@@ -32,10 +32,15 @@
 				
 
 				<tr>
-					<td class="box-filled" width="150" valign="top"><strong>2.5</strong> <em>Aug-15-2005</em>
-					<br /><a href="./Cyberduck-2.5.dmg">Download</a></td>
+					<td class="box-filled" width="150" valign="top"><strong>2.5b4</strong> <em>Aug-10-2005</em>
+					<br /><a href="./Cyberduck-2.5b4.dmg">Download</a></td>
 					<td colspan="2" class="box-dash">
 						<ul>
+<li>[Feature] Updated navigation bar interface elements</li>
+<li>[Bugfix] Vastly improved performance when listing directories</li>
+<li>[Bugfix] Do not reconnect if connecting to the same host from a different bookmark</li>
+<li>[Bugfix] Sorting history menu correctly</li>
+<li>[Bugfix] Refresh issues in outline view</li>
 						</ul>
 					</td>
 				</tr>
