@@ -45,6 +45,7 @@
 							</em>
 							(<a href="http://www.richardallan.org.uk/?p=339">Richard Allan</a>)
 						</p>
+						<!--
 						<p>
 							<em>
 								"[...] Cyberduck es una maravilla. Sencillo, potente y elegante."
@@ -57,65 +58,38 @@
 							</em>
 							(<a href="http://terrychay.com/blog/article/cyberduck.shtml">terrychay.com</a>)
 						</p>
+						<p>
+							<em>
+								"Cyberduck: Neat application alert!"
+							</em>
+							(<a href="http://www.ureader.co.uk/message/94165.aspx">ureader.co.uk</a>)
+						</p>
+						-->
 					</td>
 					<td valign="top" class="box-dash">
-						<div class="underline">
+						<div>
 							<p>
-								<strong>
-									About.
-								</strong>
-								Cyberduck is an 
-								<a href="http://opensource.org/docs/definition.php">open source</a>
-								SFTP (SSH Secure File Transfer) and FTP browser licenced under the 
-								<a href="http://www.gnu.org/licenses/gpl.html">
-									GPL</a>.
+								<strong>About.</strong> Cyberduck is a <a href="http://opensource.org/docs/definition.php">open source</a> FTP and SFTP (SSH Secure File Transfer) browser licenced under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> with an easy to use interface, integration with external editors and support for many Mac OS X system technologies such as Spotlight, Bonjour, the Keychain and AppleScript.
 							</p>
 						</div>
-						<div class="underline">
+						<div>
 							<p>
-								This software is <a href="./img/hacking.jpg">written</a> by <a href="mailto:dkocher@cyberduck.ch"> David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed. I appreciate any comments, feature suggestions and bug reports.
+								<strong>Free.</strong> <em><a href="http://www.gnu.org/philosophy/free-sw.html">Free software</a> is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a <a href="./donate">donation</a>. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through Paypal accepting all major credit cards and electronic checks.</em>
 							</p>
 						</div>
-						<div class="underline">
-							<p class="emphasized">
-								<strong>
-									This program is 
-									<a href="http://www.gnu.org/philosophy/free-sw.html">
-										free</a>. Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a 
-									<a href="./donate">
-										donation</a>. A donation would not only demonstrate your appreciation of this software, but also help to advance development in the future. The easiest way to donate is to through PayPal - it's fast, free and secure. PayPal accepts all major credit cards and electronic checks.</strong>
-							</p>
-						</div>
-						<p class="box-dash">
-							<strong>
-								if you have problems starting Cyberduck after updating to 10.3.9, please read 
-								<a href="http://docs.info.apple.com/article.html?artnum=301380">
-									this article</a>.</strong>
-						</p>
 						<p>
-							<strong>
-								Localizations.
-							</strong>
-							Cyberduck comes in the following languages: 
-							<em>
-								English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, 
-								Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan</em>. 
-								Many thanks to all 
-							<a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
-								contributors</a>!
+							<strong>Localizations.</strong> <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian and Catalan</em>. Many thanks to all <a href="http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">contributors</a>!
 						</p>
+						<div>
+							<p>
+								<strong>Feedback.</strong> This software is <a href="./img/hacking.jpg">written</a> by <a href="mailto:dkocher@cyberduck.ch"> David V. Kocher</a>, Switzerland. Please have a look at the credits to see who contributed. I appreciate any comments, feature suggestions and bug reports.
+							</p>
+						</div>
 					</td>
 					<td width="150" valign="top" class="box-dash">
 						<div class="underline">
 							<p>
-								<strong>
-									Mailing List.
-								</strong>
-								You can subscribe to the 
-								<a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">
-									Cyberduck-news
-								</a>
-								mailing list to get a notification when a new version is released.
+								<strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news"> Cyberduck-news</a> mailing list to get a notification when a new version is released.
 							</p>
 							<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 								<p>
@@ -125,37 +99,31 @@
 								</p>
 							</form>
 						</div>
-						<div class="underline">
+						<div>
 							<p>
-								<strong>
-									Forum.
-								</strong>
-								Discuss anything related to Cyberduck in the forum hosted at 
-								<a href="./forum">
-									cocoaforge.com</a>
+								<strong>Forum.</strong> Discuss anything related to Cyberduck in the forum hosted at <a href="./forum">cocoaforge.com</a>
 							</p>
 							<div align="center">
-								<a href="./forum">
-									<img width="150" border="0" alt="cocoaforge.com" src="./img/cocoaforge.gif" />
-								</a>
+								<a href="./forum"><img width="150" border="0" alt="cocoaforge.com" src="./img/cocoaforge.gif" /></a>
 							</div>
 						</div>
+						<!--
 						<p>
-							<strong>
-								T-Shirts and Mugs.</strong>
+							<strong>T-Shirts and Mugs.</strong>
 						</p>
 						<div align="center" id="image">
 							<a href="http://www.cafeshops.com/cyberduck">
 								<img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0" />
 							</a>
 						</div>
-						<div class="underline">
+						<div>
 							<p>
 								Go shopping for Cyberduck gadgets in the 
 								<a href="http://www.cafeshops.com/cyberduck">
 									Cafepress Cyberduck shop</a>!
 							</p>
 						</div>
+						-->
 					</td>
 				</tr>
 				<!-- ======= Macworld ======== -->
@@ -173,7 +141,7 @@
 							easy as typing the name of the server in the address bar. Save bookmarks to a bookmark drawer, or drag them to your desktop. Cyberduck 
 							supports multiple connections and can resume interrupted transfers. It also supports SFTP, Keychain, and Rendezvous (so connecting with
 							your local network is a breeze). When you select a file for editing, Cyberduck opens the document in your chosen editor and uploads
-							the changes automatically when you save.</em>(<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
+							the changes automatically when you save."</em> (<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php">macworld.com</a>)
 						</p>
 					</td>
 				</tr>
@@ -198,11 +166,7 @@
 						</div>
 					</td>
 					<td colspan="2" class="alert">
-						Support the development of Cyberduck by making a 
-						<a href="./donate">
-							donation
-						</a>
-						:)
+						Support the development of Cyberduck by making a <a href="./donate">donation</a> :)
 					</td>
 				</tr>
 				
