@@ -8,26 +8,25 @@
 	<body id="license">
 		<div align="center" class="standard">
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
-
 				<tr>
-	                <td class="box-filled" width="150" valign="middle">
-						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+					<td class="box-solid" width="150" valign="middle">
+						<div align="center">
+							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+						</div>
 					</td>
 					<td colspan="2" class="box-solid">
 						<div class="underline">
-                        <?php echo(echomenu(".."));?>
+							<?php echo(echomenu(".."));?>
 						</div><br />
-                    <?php echo(echotitle());?>
+							<?php echo(echotitle());?>
 						<div align="left">
-                        <?php echo(echosubmenu("."));?>
+							<?php echo(echosubmenu("."));?>
 						</div>
 					</td>
 				</tr>
 
 				<tr>
-					<td width="150">
-					
-					</td>
+					<td width="150"></td>
 					<td colspan="2" valign="top" class="box-dash">
 						<p>Copyright (c) 2004 David Kocher. All rights reserved.</p>
 						<p>This program is free software; you can redistribute it and/or modify it under the terms of the <a href="License.txt">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.

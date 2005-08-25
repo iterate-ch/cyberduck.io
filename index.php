@@ -9,9 +9,9 @@
 		<div align="center" class="standard">
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 				<tr>
-					<td class="box-filled" width="150" valign="middle">
+					<td class="box-solid" width="150" valign="middle">
 						<div align="center">
-							<img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
 					<td colspan="2" class="box-solid">
@@ -19,10 +19,8 @@
 							<?php echo(echomenu(".."));?>
 						</div>
 						<br />
-							<?php echo(echotitle());?>
-						<div align="left">
-							<?php echo(echosubmenu("."));?>
-						</div>
+						<?php echo(echotitle());?>
+						<?php echo(echosubmenu("."));?>
 					</td>
 				</tr>
 				<tr>
@@ -107,23 +105,6 @@
 								<a href="./forum"><img width="150" border="0" alt="cocoaforge.com" src="./img/cocoaforge.gif" /></a>
 							</div>
 						</div>
-						<!--
-						<p>
-							<strong>T-Shirts and Mugs.</strong>
-						</p>
-						<div align="center" id="image">
-							<a href="http://www.cafeshops.com/cyberduck">
-								<img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0" />
-							</a>
-						</div>
-						<div>
-							<p>
-								Go shopping for Cyberduck gadgets in the 
-								<a href="http://www.cafeshops.com/cyberduck">
-									Cafepress Cyberduck shop</a>!
-							</p>
-						</div>
-						-->
 					</td>
 				</tr>
 				<!-- ======= Macworld ======== -->
@@ -174,35 +155,41 @@
 				
 				<tr>
 					<td width="150" valign="middle" class="box-solid">
-						<div align="center">
-							<img src="img/x.gif" alt="Built for Mac OS X" border="0" />
-							<img src="img/macos.gif" alt="Built for Mac OS X" border="0" />
-						</div>
-					</td>
-					<td class="box-dash">
-						<!-- ======= 10.3 Alert ======== -->
 						<p>
-						<strong>Requirements.</strong> Cyberduck 2.4 requires 10.3.0 or later. Cyberduck 2.5 requires 10.3.9 or later. <a href="./changelog.php">Previous versions</a> may run on 10.2 with some limitations; your mileage may vary.
+							<strong>T-Shirts and Mugs.</strong>
 						</p>
+						<div align="center" id="image">
+							<a href="http://www.cafeshops.com/cyberduck">
+								<img src="img/store.jpg" width="128" height="128" align="middle" alt="Shop Cyberduck Gadgets" border="0" />
+							</a>
+						</div>
+						<p>Go shopping for Cyberduck gadgets in the <a href="http://www.cafeshops.com/cyberduck"> Cafepress Cyberduck shop</a>!</p>
+					</td>
+					<td valign="top" class="box-dash">
 						<p>
 							<strong>Download.</strong> See the <a href="./changelog.php">changelog</a> for differences between the versions released.
 						</p>
-						<p><table border="0" cellpadding="0" cellspacing="0">
-							<tr>
-								<td valign="top">
-									<img src="img/arrowDown.png" alt="Download" border="0" />
-								</td>
-								<td valign="top">
-									<strong>
-										2.5b4
-									</strong>
-									<em>(Aug-10-2005)</em>
-									<br />
-									<a href="./Cyberduck-2.5b4.dmg">Cyberduck-2.5b4.dmg</a><a href="./Cyberduck-2.5b4.dmg"></a>
-									<br />
-								</td>
-							</tr>
-						</table></p>
+						<p class="box-filled">
+							<em>Mac OS X 10.3.9 or later required.</em>
+							<br />
+							Universal binary (PPC/Intel)
+							<br />
+						</p>
+						<p>
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td valign="top">
+										<img src="img/arrowDown.png" alt="Download" border="0" />
+									</td>
+									<td valign="top">
+										<strong>2.5</strong> <em>(Aug-24-2005)</em>
+										<br />
+										<a href="./Cyberduck-2.5.dmg">Cyberduck-2.5.dmg</a><a href="./Cyberduck-2.5.dmg"></a>
+										<br /><br />
+									</td>
+								</tr>
+							</table>
+						</p>
 					</td>
 					<td width="150" valign="top" class="box-dash">
 						<p>
@@ -215,6 +202,7 @@
 								<img src="./img/getgrowl.png" alt="getgrowl" border="0" />
 							</a>
 						</div>
+
 					</td>
 				</tr>
 				<tr>

@@ -10,8 +10,10 @@
 			<table border="0" cellpadding="5" cellspacing="5" width="700">
 
 				<tr>
-	                <td bgcolor="#cccccc" class="box-filled" width="150" valign="middle">
-						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
+					<td class="box-solid" width="150" valign="middle">
+						<div align="center">
+							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+						</div>
 					</td>
 					<td colspan="2" class="box-solid">
 						<div class="underline">
@@ -30,6 +32,22 @@
 
 				</tr>
 				
+
+				<tr>
+					<td class="box-filled" width="150" valign="top"><strong>2.5</strong> <em>Aug-26-2005</em>
+					<br /><a href="./Cyberduck-2.5.dmg">Download</a>
+					<br />Mac OS X 10.3.9 or later</td>
+					<td colspan="2" class="box-dash">
+						<ul>
+<li>[Feature] Universal binary (PPC/Intel)</li>
+<li>[Feature] Updated to Growl 0.7.2</li>
+<li>[Feature] Graphical interface refinements</li>
+<li>[Bugfix] Caching issue with multiple connections to the same host</li>
+<li>[Bugfix] When moving to the parent directory the previous working directory is always selected</li>
+<li>[Bugfix] Selected files are always remembered when refreshing the browsing list</li>
+						</ul>
+					</td>
+				</tr>
 
 				<tr>
 					<td class="box-filled" width="150" valign="top"><strong>2.5b4</strong> <em>Aug-10-2005</em>
@@ -85,7 +103,8 @@
 				</tr>
 				<tr>
 					<td class="box-filled" width="150" valign="top"><strong>2.4.6</strong> <em>May-30-2005</em>
-					<br /><a href="./Cyberduck-2.4.6.dmg">Download</a></td>
+					<br /><a href="./Cyberduck-2.4.6.dmg">Download</a>
+					<br />Mac OS X 10.3 or later</td>
 					<td colspan="2" class="box-dash">
 						<ul>
 <li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
@@ -291,7 +310,8 @@
 				</tr>
 				<tr>
 					<td class="box-filled" width="150" valign="top"><strong>2.3.3</strong> <em>August-09-2004</em>
-					<br /><a href="./Cyberduck-2.3.3.dmg">Download</a></td>
+					<br /><a href="./Cyberduck-2.3.3.dmg">Download</a>
+					<br />Mac OS X 10.2 or later</td>
 					<td colspan="2" class="box-dash">
 						<ul>
 							<li>[Bugfix] Correctly parsing symbolic links</li>

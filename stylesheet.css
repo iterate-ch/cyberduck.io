@@ -1,27 +1,43 @@
 	body  
 	{ 
+		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 13px;
 		color: #000000;
 	}
 	
 	body#index a#index, 
-	body#download a#download,
 	body#features a#features,
 	body#changelog a#changelog,
-	body#license a#license, 
-	body#todo a#todo,
-	body#donate a#donate, 		
 	body#source a#source, 		
-	body#swing a#swing
+	body#license a#license, 
+	body#testimonials a#testimonials, 		
+	body#donate a#donate 		
 	{
 		text-decoration: none;
 		font-weight: bold;
 	}
 	
-	form {
-		font-family: Tahoma, Trebuchet MS, Verdana, Arial, sans-serif;
-		font-size: 12px;
+	div.navigation {
+
 	}
 
+	#navigation ul {
+		padding-left: 0;
+	}
+
+	#navigation ul li {
+		padding-left: 7px;
+		padding-right: 5px;
+		border-left: 1px solid;
+		list-style: none;
+		display: inline;
+	}
+
+	#navigation ul > li:first-child {
+		border-left: none;
+		padding-left: 0;
+	}
+	
 	tr
 	{
 		background-color: #ffffff;
@@ -40,16 +56,12 @@
 	.standard
 	{
 		background-color: #ffffff;
-		font-family: Tahoma, Trebuchet MS, Verdana, Arial, sans-serif;
-		font-size: 12px;
 		line-height: 18px;
 		color: #000000;
 	}
 	
 	.emphasized
 	{
-		font-family: Tahoma, Trebuchet MS, Verdana, Arial, sans-serif;
-		font-size: 12px;
 		line-height: 18px;
 		color: #000000;
 	}
@@ -69,15 +81,11 @@
 		border-style: solid;
 	}
 
-	.sp
-	{
-		border-width: 1px 1px 1px 1px;
-		color: #000000;
-		background-color: #ffffff;
-		border-color: red;
-		border-style: solid;
+	div.citation {
+		text-align:right;
+		font-style:italic;
 	}
-		
+
 	.alert
 	{
 		padding-left: 2mm;
@@ -97,32 +105,9 @@
 	
 	.box-filled
 	{
-		border-width: 1px 1px 1px 1px;
 		background-color: #cccccc;
-		border-style: solid;
 	}
 
-	.box-download-release
-	{
-		border-style: solid;
-		background: #0066ff;
-		color: #ffffff;
-	}
-
-	.box-download-release a:link, a:visited
-	{
-		color: #ffffff;
-		font-weight: normal;
-		border-style: none;
-		text-decoration: underline;
-	}
-
-	.box-download-development
-	{
-		background: #cccccc;
-		color: #000000;
-	}
-	
 	p
 	{
 		padding-left: 1mm;
@@ -141,10 +126,10 @@
 	}
 
 	#image a,
-    #image a:link,
-    #image a:visited,
-    #image a:active,
-    #image a:hover {
+ 	#image a:link,
+   #image a:visited,
+   #image a:active,
+   #image a:hover {
 		color: #000000;
 		font-weight: normal;
 		text-decoration: none;
@@ -172,4 +157,33 @@
 		border-style: none;
 		text-decoration: underline;
 	}
+	
+	.light {
+		color: #cccccc;
+	}
+	
+	q {
+		margin-left: -0.45em;
+	}
+
+	q:before {
+		content: "\201C";
+	}
+
+	q:after {
+		content: "\201D";
+	}
+
+	q[cite]:after {
+		white-space: pre;
+		content: "\201D\A\2014 " attr(cite);
+	}
+	
+	.xxsmall {  font-size: xx-small }
+	.xsmall {  font-size: x-small }
+	.small {  font-size: small }
+	.medium {  font-size: medium }
+	.large {  font-size: large }
+	.xlarge {  font-size: x-large }
+	.xxlarge {  font-size: xx-large }
 	

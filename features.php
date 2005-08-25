@@ -9,11 +9,11 @@
     <div align="center" class="standard">
         <table border="0" cellpadding="5" cellspacing="5" width="700">
             <tr>
-                <td class="box-filled" width="150" valign="middle">
-                    <div align="center">
-                        <img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" />
-                    </div>
-                </td>
+				<td class="box-solid" width="150" valign="middle">
+					<div align="center">
+						<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+					</div>
+				</td>
                 <td colspan="2" class="box-solid">
                     <div class="underline">
                         <?php echo(echomenu(".."));?>
@@ -52,9 +52,13 @@
             <tr>
                 <td class="box-filled" valign="top"><strong>Seamless integration with external editors</strong><br /></td>
                 <td valign="top" colspan="2" class="box-dash">
-                    <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a href="http://macromates.com/">TextMate</a>, <a href="http://mimikaki.net/">mi</a>, <a href="http://smultron.sourceforge.net/">Smultron</a>, <a href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a href="http://www.aynimac.com/">CotEditor</a>
+                    <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a href="http://macromates.com/">TextMate</a>, <a href="http://mimikaki.net/">mi</a>, <a href="http://smultron.sourceforge.net/">Smultron</a>, <a href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a href="http://www.aynimac.com/">CotEditor</a>, <a href="http://www.talacia.com/">Tag</a>
                     <div align="center">
-                        <img src="./img/subethaedit.png" height="64" alt="Subethaedit" border="0" /> <img src="./img/textmate.png" height="64" alt="TextMate" border="0" /> <img src="./img/smultron.png" height="64" alt="Smultron" border="0" /> <img src="./img/bbedit.png" height="64" alt="BBEdit" border="0" /> <img src="./img/textwrangler.png" height="64" alt="Textwrangler" border="0" /> <img src="./img/cssedit.png" height="64" alt="CSSEdit" border="0" />
+                        <img src="./img/subethaedit.png" height="64" alt="Subethaedit" border="0" />
+                        <img src="./img/textmate.png" height="64" alt="TextMate" border="0" /> 
+                        <img src="./img/bbedit.png" height="64" alt="BBEdit" border="0" /> 
+                        <img src="./img/textwrangler.png" height="64" alt="Textwrangler" border="0" /> 
+                        <img src="./img/cssedit.png" height="64" alt="CSSEdit" border="0" />
                     </div>
                 </td>
             </tr>

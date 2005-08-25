@@ -5,23 +5,25 @@
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <?php echo(echoheader("~dkocher | cyberduck | source", ".")); ?>
-<body  id="source">
-    <div align="center" class="standard">
-        <table border="0" cellpadding="5" cellspacing="5" width="700">
-            <tr>
-	                <td class="box-filled" width="150" valign="middle">
-						<div align="center"><img src="img/cyberduck.icon.grey.jpg" width="128" height="128" alt="Cyberduck" border="0" /></div>
-					</td>
-                <td colspan="2" class="box-solid">
-                    <div class="underline">
-                        <?php echo(echomenu(".."));?>
-						</div><br />
-                    <?php echo(echotitle());?>
-						<div align="left">
-                        <?php echo(echosubmenu("."));?>
+	<body id="source">
+		<div align="center" class="standard">
+			<table border="0" cellpadding="5" cellspacing="5" width="700">
+				<tr>
+					<td class="box-solid" width="150" valign="middle">
+						<div align="center">
+							<img src="img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
-			</tr>
+					<td colspan="2" class="box-solid">
+						<div class="underline">
+							<?php echo(echomenu(".."));?>
+						</div><br />
+							<?php echo(echotitle());?>
+						<div align="left">
+							<?php echo(echosubmenu("."));?>
+						</div>
+					</td>
+				</tr>
 
 				<tr>
 					<td width="150" valign="middle" class="box-filled">
@@ -53,26 +55,25 @@
 						</p>
 					</td>
 				</tr>
+				
 				<tr>
-					<td width="150">
-					
+					<td class="box-filled" valign="top" width="150">
+						<p><strong>Version 2.5</strong>
+						<br />
+						(CVS Tag: release-2-5)
+						</p>
 					</td>
 					<td colspan="2" class="box-dash">
+						<ul>
+							<li><strong>2.5</strong> <em>Aug-24-2005</em><br />
+								<a href="cyberduck-src-2.5.tar.gz">cyberduck-src-2.5.tar.gz</a>
+							</li>
+						</ul>
 						<ul>
 							<li><strong>2.5b4</strong> <em>Aug-10-2005</em><br />
 								<a href="cyberduck-src-2.5beta4.tar.gz">cyberduck-src-2.5beta4.tar.gz</a>
 							</li>
 						</ul>
-					</td>
-				</tr>
-
-				<?php echo(echogoogle());?>
-
-				<tr>
-					<td width="150">
-					
-					</td>
-					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.5b3</strong> <em>July-18-2005</em><br />
 								<a href="cyberduck-src-2.5beta3.tar.gz">cyberduck-src-2.5beta3.tar.gz</a>
@@ -88,6 +89,19 @@
 								<a href="cyberduck-src-2.5beta1.tar.gz">cyberduck-src-2.5beta1.tar.gz</a>
 							</li>
 						</ul>
+					</td>
+				</tr>
+
+				<?php echo(echogoogle());?>
+
+				<tr>
+					<td class="box-filled" valign="top" width="150">
+						<p><strong>Version 2.4</strong>
+						<br />
+						(CVS Tag: release-2-4)
+						</p>
+					</td>
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.4.6</strong> <em>May-30-2005</em><br />
 								<a href="cyberduck-src-2.4.6.tar.gz">cyberduck-src-2.4.6.tar.gz</a>
@@ -133,6 +147,16 @@
 								<a href="cyberduck-src-2.4beta1.tar.gz">cyberduck-src-2.4beta1.tar.gz</a>
 							</li>
 						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="box-filled" valign="top" width="150">
+						<p><strong>Version 2.3</strong>
+						<br />
+						(CVS Tag: release-2-3)
+						</p>
+					</td>
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.3.3</strong> <em>August-09-2004</em><br />
 								<a href="cyberduck-src-2.3.3.tar.gz">cyberduck-src-2.3.3.tar.gz</a>
@@ -163,6 +187,16 @@
 								<a href="cyberduck-src-2.3beta1.tar.gz">cyberduck-src-2.3beta1.tar.gz</a>
 							</li>
 						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="box-filled" valign="top" width="150">
+						<p><strong>Version 2.2</strong>
+						<br />
+						(CVS Tag: release-2-2)
+						</p>
+					</td>
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.2</strong> <em>Mar-06-2004</em><br />
 								<a href="cyberduck-src-2.2.tar.gz">cyberduck-src-2.2.tar.gz</a>
@@ -198,6 +232,16 @@
 								<a href="cyberduck-src-2.2beta1.tar.gz">cyberduck-src-2.2beta1.tar.gz</a>
 							</li>
 						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="box-filled" valign="top" width="150">
+						<p><strong>Version 2.1</strong>
+						<br />
+						(CVS Tag: release-2-1)
+						</p>
+					</td>
+					<td colspan="2" class="box-dash">
 						<ul>
 							<li><strong>2.1</strong> <em>Dec-08-2003</em><br />
 								<a href="cyberduck-src-2.1.tar.gz">cyberduck-src-2.1.tar.gz</a>
