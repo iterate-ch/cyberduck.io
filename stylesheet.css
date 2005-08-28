@@ -1,5 +1,4 @@
-	body  
-	{ 
+	body { 
 		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 		font-size: 13px;
 		color: #000000;
@@ -11,8 +10,7 @@
 	body#source a#source, 		
 	body#license a#license, 
 	body#testimonials a#testimonials, 		
-	body#donate a#donate 		
-	{
+	body#donate a#donate  {
 		text-decoration: none;
 		font-weight: bold;
 	}
@@ -38,44 +36,37 @@
 		padding-left: 0;
 	}
 	
-	tr
-	{
+	tr {
 		background-color: #ffffff;
 	}
 	
-	td 
-	{
+	td {
 		text-align:left;	
 	}
 	
-	input
-	{
+	input {
 		width: 120px;
 	}
 	
-	.standard
-	{
+	.standard {
 		background-color: #ffffff;
 		line-height: 18px;
 		color: #000000;
 	}
 	
-	.emphasized
-	{
+	.emphasized {
 		line-height: 18px;
 		color: #000000;
 	}
 	
-	.underline
-	{
+	.underline {
 		border-width: 0px 0px 1px 0px;
 		border-color: #000000;
 		border-style: dotted;
 		color: #000000;
 	}
 	
-	.box-solid
-	{
+	.box-solid {
 		border-width: 1px 1px 1px 1px;
 		border-color: #666666;
 		border-style: solid;
@@ -86,34 +77,29 @@
 		font-style:italic;
 	}
 
-	.alert
-	{
+	p {
+		padding-left: 1mm;
+		padding-right: 1mm;
+	}
+
+	.alert {
 		padding-left: 2mm;
 		padding-right: 2mm;
-		border-width: 1px 1px 1px 1px;
-		background-color: #FF9900;
-		border-style: dotted;
+		background-color: #0066cc;
+		color: #ffffff;
 		font-weight: bold;
 	}
 
-	.box-dash
-	{
+	.box-dash {
 		border-width: 1px 1px 1px 1px;
 		border-color: #000000;
 		border-style: dotted;
 	}
 	
-	.box-filled
-	{
+	.box-filled {
 		background-color: #cccccc;
 	}
 
-	p
-	{
-		padding-left: 1mm;
-		padding-right: 1mm;
-	}
-	
 	ul
 	{
 		padding-left: 5mm;
@@ -135,7 +121,7 @@
 		text-decoration: none;
 		border-style: none;
     }
-		
+
 	a:link, a:visited
 	{
 		color: #000000;
@@ -145,7 +131,7 @@
 	}
 
 	a:hover	{
-		color: #ff9900;
+		color: #0066cc;
 		font-weight: normal;
 		border-style: none;
 		text-decoration: none;
