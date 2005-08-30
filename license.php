@@ -9,8 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("~dkocher | cyberduck | license", ".")); ?>
-
-  <title></title>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -62,7 +60,9 @@
           PARTICULAR PURPOSE. See the GNU General Public License
           for more details.</p>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr>
+
+		<?php echo(echogoogle());?>
 
       <tr>
         <td width="150">

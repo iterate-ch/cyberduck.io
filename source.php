@@ -9,8 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("~dkocher | cyberduck | source", ".")); ?>
-
-  <title></title>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -97,6 +95,8 @@
         </td>
       </tr>
 
+      <?php echo(echogoogle());?>
+
       <tr>
         <td class="box-filled" valign="top" width="150">
           <p><strong>Version 2.5</strong><br />
@@ -134,7 +134,7 @@
             "cyberduck-src-2.5beta1.tar.gz">cyberduck-src-2.5beta1.tar.gz</a></li>
           </ul>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr>
 
       <tr>
         <td class="box-filled" valign="top" width="150">

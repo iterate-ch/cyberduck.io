@@ -9,8 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("~dkocher | cyberduck | features", ".")); ?>
-
-  <title></title>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -63,7 +61,7 @@
 
             <li>Move files</li>
 
-            <li>Cut &amp;amp; Paste files</li>
+            <li>Cut &amp; Paste files</li>
 
             <li>Create new files</li>
 
@@ -223,7 +221,7 @@
 
             <li>Upload folders (also <em>recursive</em>)</li>
 
-            <li>Drag and drop to transfer files (Finder &amp;harr;
+            <li>Drag and drop to transfer files (Finder &harr;
             Cyberduck)</li>
           </ul>
         </td>
@@ -250,19 +248,12 @@
         <td class="box-filled" valign="top"><strong>Modify
         permissions</strong></td>
 
-        <td valign="top" class="box-dash">
+        <td colspan="2" valign="top" class="box-dash">
           <ul>
             <li>Modify permissions on multiple files</li>
 
             <li>Modify permissions recursivly</li>
           </ul>
-        </td>
-
-        <td valign="middle">
-          <div class="c1">
-            <img src="./img/info.png" alt="Permissions" border=
-            "0" />
-          </div>
         </td>
       </tr>
 
