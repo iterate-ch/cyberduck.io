@@ -103,15 +103,15 @@
 		list-style-type: square;
 	}
 	
-	#image {
+	div.image {
 	   align: center;
 	}
 
-	#image a,
- 	#image a:link,
-   #image a:visited,
-   #image a:active,
-   #image a:hover {
+	div.image a,
+ 	div.image a:link,
+   div.image a:visited,
+   div.image a:active,
+   div.image a:hover {
 		color: #000000;
 		font-weight: normal;
 		text-decoration: none;
