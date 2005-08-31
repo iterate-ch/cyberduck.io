@@ -48,13 +48,13 @@
     	return "
 		<div id=\"navigation\">
 			<ul>
-              <li><a id=\"index\" href=\"".$dir."/index.php\">about</a></li>
-              <li><a id=\"features\" href=\"".$dir."/features.php\">features</a></li>
-              <li><a id=\"changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
-              <li><a id=\"forum\" href=\"".$dir."/forum/\">forum</a></li>
-              <li><a id=\"source\" href=\"".$dir."/source.php\">source code</a></li>
-              <li><a id=\"license\" href=\"".$dir."/license.php\">license</a></li>
-              <li><a id=\"donate\" href=\"".$dir."/donate/index.php\"><strong>donate</strong></a></li>
+              <li><a id=\"navigation-index\" href=\"".$dir."/index.php\">about</a></li>
+              <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
+              <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
+              <li><a id=\"navigation-forum\" href=\"".$dir."/forum/\">forum</a></li>
+              <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source code</a></li>
+              <li><a id=\"navigation-license\" href=\"".$dir."/license.php\">license</a></li>
+              <li><a id=\"navigation-donate\" href=\"".$dir."/donate/index.php\"><strong>donate</strong></a></li>
 			</ul>
 		</div>";
     }

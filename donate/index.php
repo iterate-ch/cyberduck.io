@@ -3,6 +3,7 @@
 <?php
   include "../functions.php";
 ?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 	<head>
 		<?php echo(echoheader("~dkocher | cyberduck | donate", "..")); ?>
@@ -13,7 +14,7 @@
 				<tr>
 					<td class="box-solid" width="150" valign="middle">
 						<div align="center">
-							<img src="../img/cyberduck.icon.jpg" width="128" height="128" alt="Cyberduck" border="0" />
+							<img src="../img/cyberduck.icon.png" width="128" height="128" alt="Cyberduck" border="0" />
 						</div>
 					</td>
 					<td colspan="2" class="box-solid">

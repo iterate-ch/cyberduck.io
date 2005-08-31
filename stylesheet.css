@@ -4,21 +4,17 @@
 		color: #000000;
 	}
 	
-	body#index a#index, 
-	body#features a#features,
-	body#changelog a#changelog,
-	body#source a#source, 		
-	body#license a#license, 
-	body#testimonials a#testimonials, 		
-	body#donate a#donate  {
-		text-decoration: none;
+	body#index a#navigation-index, 
+	body#features a#navigation-features,
+	body#changelog a#navigation-changelog,
+	body#source a#navigation-source, 		
+	body#license a#navigation-license, 
+	body#donate a#navigation-donate {
+		color: #000000;
 		font-weight: bold;
+		text-decoration: none;
 	}
 	
-	div.navigation {
-
-	}
-
 	#navigation ul {
 		padding-left: 0;
 	}
@@ -119,28 +115,24 @@
 		color: #000000;
 		font-weight: normal;
 		text-decoration: none;
-		border-style: none;
     }
 
 	a:link, a:visited
 	{
 		color: #000000;
 		font-weight: normal;
-		border-style: none;
 		text-decoration: underline;
 	}
 
 	a:hover	{
 		color: #0066cc;
-		font-weight: normal;
-		border-style: none;
+		font-weight: bold;
 		text-decoration: none;
 	}
 
 	.alert a:hover	{
-		color: #000000;
-		font-weight: normal;
-		border-style: none;
+		color: #ffffff;
+		font-weight: bold;
 		text-decoration: underline;
 	}
 	
