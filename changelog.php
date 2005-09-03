@@ -29,15 +29,11 @@
           </div>
         </td>
 
-        <td colspan="2" class="box-solid">
-          <div class="underline">
-            <?php echo(echomenu(".."));?>
-          </div><br />
+        <td valign="bottom" colspan="2" class="box-solid">
+			 <br />
+			 <br />
           <?php echo(echotitle());?>
-
-          <div class="c2">
-            <?php echo(echosubmenu("."));?>
-          </div>
+          <?php echo(echosubmenu("."));?>
         </td>
       </tr>
 
@@ -1135,6 +1131,9 @@
             <a href=
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
+          </div>
+          <div class="c3">
+            <?php echo(echomenu(".."));?>
           </div>
         </td>
       </tr>

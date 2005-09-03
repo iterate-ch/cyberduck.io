@@ -126,17 +126,17 @@
 
 	a:hover	{
 		color: #0066cc;
-		font-weight: bold;
+		font-weight: normal;
 		text-decoration: none;
 	}
 
-	.alert a:hover	{
+	td.alert a:hover	{
 		color: #ffffff;
 		font-weight: bold;
 		text-decoration: underline;
 	}
 	
-	.light {
+	b.light {
 		color: #cccccc;
 	}
 	
