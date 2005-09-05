@@ -16,6 +16,8 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
+
+  <title></title>
 </head>
 
 <body id="index">
@@ -29,12 +31,10 @@
           </div>
         </td>
 
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
-        </td>
+        <td valign="bottom" colspan="2" class="box-solid"><br />
+        <br />
+        <?php echo(echotitle());?>
+        <?php echo(echosubmenu("."));?></td>
       </tr>
 
       <tr>
@@ -55,26 +55,7 @@
           sampled this Swiss delight I recommend you pick it up as
           soon as possible."</em> (<a href=
           "http://www.richardallan.org.uk/?p=339">Richard
-          Allan</a>)</p><!--
-                                                <p>
-                                                        <em>
-                                                                "[...] Cyberduck es una maravilla. Sencillo, potente y elegante."
-                                                        </em>
-                                                        (<a href="http://www.minid.net/archivos/categorias/macintosh/os_x_qtigerq_el_29_de_abril.php">Comment by Charlie</a>)
-                                                </p>
-                                                <p>
-                                                        <em>
-                                                                "It appears the SFTP client-du-jour is Cyberduck [...]"
-                                                        </em>
-                                                        (<a href="http://terrychay.com/blog/article/cyberduck.shtml">terrychay.com</a>)
-                                                </p>
-                                                <p>
-                                                        <em>
-                                                                "Cyberduck: Neat application alert!"
-                                                        </em>
-                                                        (<a href="http://www.ureader.co.uk/message/94165.aspx">ureader.co.uk</a>)
-                                                </p>
-                                                -->
+          Allan</a>)</p>
         </td>
 
         <td valign="top" class="box-dash">
@@ -139,16 +120,11 @@
             </form>
           </div>
 
-          <div>
-            <p><strong>Forum.</strong> Discuss anything related to
-            Cyberduck in the forum hosted at <a href=
-            "./forum">cocoaforge.com</a></p>
-
-            <div class="c1">
-              <a href="./forum"><img width="150" border="0" alt=
-              "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
-            </div>
-          </div>
+          <p><strong>Forum.</strong> Discuss anything related to
+          Cyberduck in the forum hosted at <a href=
+          "./forum">cocoaforge.com</a></p><a href=
+          "./forum"><img width="150" align="center" border="0" alt=
+          "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
         </td>
       </tr><!-- ======= Macworld ======== -->
 
@@ -191,23 +167,27 @@
       <tr>
         <td width="150" class="box-filled">
           <div class="c1">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="image" class="c3" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
+            <form action="https://www.paypal.com/cgi-bin/webscr"
+            method="post">
+              <input type="hidden" name="cmd" value=
+              "_s-xclick" /><input type="image" class="c3" src=
+              "https://www.paypal.com/en_US/i/btn/x-click-but04.gif"
+              border="0" name="submit" alt=
+              "Make payments with PayPal - it's fast, free and secure!" /><input type="hidden"
+              name="encrypted" value=
+              "-----BEGIN PKCS7-----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-----END PKCS7----- " />
+            </form>
           </div>
         </td>
 
-        <td colspan="2" class="box-filled"><p class="bold">Support the development of
-        Cyberduck by making a <a href=
-        "./donate">donation</a> :)</p></td>
-      </tr>
-
-      <?php echo(echogoogle());?>
+        <td colspan="2" class="box-filled">
+          <p class="bold">Support the development of Cyberduck by
+          making a <a href="./donate">donation</a> :)</p>
+        </td>
+      </tr><?php echo(echogoogle());?>
 
       <tr>
-        <td width="150" valign="middle" class="box-solid">
+        <td width="150" valign="top" class="box-solid">
           <p><strong>T-Shirts and Mugs.</strong></p>
 
           <div align="center" class="image">
@@ -234,21 +214,27 @@
               <em>(Aug-29-2005)</em><br />
               <a href=
               "./Cyberduck-2.5.dmg">Cyberduck-2.5.dmg</a><a href=
-              "./Cyberduck-2.5.dmg"></a><br />
-              <br /></td>
+              "./Cyberduck-2.5.dmg"></a><br /></td>
             </tr>
           </table>
+
+          <p><strong>Growl.</strong> You may also want to install
+          <a href="http://growl.info">Growl</a>, a global
+          notification system Cyberduck supports.</p>
+
+          <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
+          default application for all FTP URLs with <a href=
+          "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
         </td>
 
         <td width="150" valign="top" class="box-dash">
-          <p>You may also want to install <a href=
-          "http://growl.info">Growl</a>, a global notification
-          system Cyberduck supports:</p>
-
-          <div class="c1">
-            <a href="http://growl.info"><img src=
-            "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
-          </div>
+          <p><strong>PomPomPom.</strong> <a href=
+          "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=0&amp;selectedItemId=763675">
+          Interview</a> mit dem Entwickler auf <a href=
+          "http://www.pomcast.com/de/">pomcast.com/de</a>.
+          (German)<a href="http://www.pomcast.com/de/"><img align=
+          "center" width="150" border="0" alt="pomcast.com/de" src=
+          "./img/pomfeedde.jpg" /></a></p>
         </td>
       </tr>
 
@@ -259,6 +245,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

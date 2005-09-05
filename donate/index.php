@@ -12,6 +12,9 @@
   <style type="text/css">
   /*<![CDATA[*/
    input.c3 {width:62px; height:31px}
+ div.c3 {text-align: right}
+ div.c2 {text-align: left}
+ div.c1 {text-align: center}
   /*]]>*/
   </style>
 </head>
@@ -31,7 +34,7 @@
 			 <br />
 			 <br />
           <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
+          <?php echo(echosubmenu(".."));?>
         </td>
       </tr>
 

@@ -50,7 +50,7 @@
               <li><a id=\"navigation-forum\" href=\"".$dir."/forum/\">forum</a></li>
               <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source code</a></li>
               <li><a id=\"navigation-license\" href=\"".$dir."/license.php\">license</a></li>
-              <li><a id=\"navigation-donate\" href=\"".$dir."/donate/index.php\"><strong>donate</strong></a></li>
+              <li><a id=\"navigation-donate\" href=\"".$dir."/donate/\"><strong>donate</strong></a></li>
 			</ul>
 		</div>";
     }
