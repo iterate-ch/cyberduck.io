@@ -97,10 +97,12 @@
           <div>
             <p><strong>Feedback.</strong> This software is <a href=
             "./img/hacking.jpg">written</a> by <a href=
-            "mailto:dkocher@cyberduck.ch">David V. Kocher</a>,
-            Switzerland. Please have a look at the credits to see
-            who contributed. I appreciate any comments, feature
-            suggestions and bug reports.</p>
+            "http://sudo.ch/">David V. Kocher</a>,
+            Switzerland. Please have a look at the <a href=
+														          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
+														          credits</a> to see
+            who contributed. I appreciate any <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">comments</a>, <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">feature
+            suggestions</a> and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#103;&#115;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">bug reports</a>.</p>
           </div>
         </td>
 
@@ -120,11 +122,12 @@
             </form>
           </div>
 
-          <p><strong>Forum.</strong> Discuss anything related to
-          Cyberduck in the forum hosted at <a href=
-          "./forum">cocoaforge.com</a></p><a href=
-          "./forum"><img width="150" align="center" border="0" alt=
-          "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
+        <p><strong>Forum.</strong> Discuss anything related to
+        Cyberduck in the forum hosted at <a href=
+        "./forum">cocoaforge.com</a></p><a href=
+        "./forum"><img width="150" align="center" border="0" alt=
+        "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
+
         </td>
       </tr><!-- ======= Macworld ======== -->
 
@@ -218,23 +221,21 @@
             </tr>
           </table>
 
-          <p><strong>Growl.</strong> You may also want to install
-          <a href="http://growl.info">Growl</a>, a global
-          notification system Cyberduck supports.</p>
-
-          <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
-          default application for all FTP URLs with <a href=
-          "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
         </td>
 
         <td width="150" valign="top" class="box-dash">
-          <p><strong>PomPomPom.</strong> <a href=
-          "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=0&amp;selectedItemId=763675">
-          Interview</a> mit dem Entwickler auf <a href=
-          "http://www.pomcast.com/de/">pomcast.com/de</a>.
-          (German)<a href="http://www.pomcast.com/de/"><img align=
-          "center" width="150" border="0" alt="pomcast.com/de" src=
-          "./img/pomfeedde.jpg" /></a></p>
+        <p><strong>Growl.</strong> You may also want to install
+        <a href="http://growl.info">Growl</a>, a global
+        notification system Cyberduck supports.</p>
+
+        <div class="c1">
+          <a href="http://growl.info"><img src=
+          "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
+        </div>
+
+        <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
+        default application for all FTP URLs with <a href=
+        "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
         </td>
       </tr>
 
