@@ -10,7 +10,7 @@
 		<item>
 			<title>Cyberduck 2.5</title>
 			<pubDate>Wed, 29 Aug 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.dmg" length="7166022" length="" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Feature] Graphical interface refinements</li>
@@ -25,7 +25,7 @@
 		<item>
 			<title>Cyberduck 2.5b4</title>
 			<pubDate>Wed, 10 Aug 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5b4.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5b4.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Feature] Updated navigation bar interface elements</li>
@@ -40,7 +40,7 @@
 		<item>
 			<title>Cyberduck 2.5b3</title>
 			<pubDate>Wed, 18 Jul 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5b3.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5b3.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Localize] Catalan Localization</li>
@@ -51,7 +51,7 @@
 <li>[Feature] Updated application icon (Thanks to Admiral Potato)</li>
 <li>[Bugfix] New connection dialog remembers field values</li>
 <li>[Bugfix] Correctly parsing filenames beginning with whitespace (FTP)</li>
-<li>[Bugfix] Don't allow editing files with well known binary file type extensions</li>
+<li>[Bugfix] Don't allow editing files with well known binary file length="" type extensions</li>
 <li>[Bugfix] Excluding individual files when synchronising</li>
 <li>[Bugfix] Improved stability using outline view</li>
 <li>[Bugfix] Remember sorted column and direction</li>
@@ -63,7 +63,7 @@
 		<item>
 			<title>Cyberduck 2.5b2</title>
 			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5b2.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5b2.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Localize] Indonesian Localization</li>
@@ -79,7 +79,7 @@
 		<item>
 			<title>Cyberduck 2.4.6</title>
 			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4.6.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg" length="4565566" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
@@ -96,7 +96,7 @@
 		<item>
 			<title>Cyberduck 2.5b1</title>
 			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.5b1.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5b1.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data channel (file listings and transfers) if the server is capable of.</li>
@@ -126,7 +126,7 @@
 		<item>
 			<title>Cyberduck 2.4.5</title>
 			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4.5.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg" length="4464340" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
@@ -137,7 +137,7 @@
 		<item>
 			<title>Cyberduck 2.4.4</title>
 			<pubDate>Wed, 27 Apr 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-4.4.4.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-4.4.4.dmg" length="4456782" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Danish Localization</li>
@@ -151,7 +151,7 @@
 		<item>
 			<title>Cyberduck 2.4.3</title>
 			<pubDate>Mon, 11 Apr 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4.3.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg" length="4222608" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Bugfix] Browser refresh issues</li>
@@ -167,7 +167,7 @@
 		<item>
 			<title>Cyberduck 2.4</title>
 			<pubDate>Mon, 28 Mar 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.dmg" length="4110083" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Swedish Localization</li>
@@ -187,7 +187,7 @@
 		<item>
 			<title>Cyberduck 2.4b4</title>
 			<pubDate>Thu, 03 Feb 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4b4.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4b4.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Bugfix] Dragging files to the Finder</li>
@@ -204,7 +204,7 @@
 		<item>
 			<title>Cyberduck 2.4b3</title>
 			<pubDate>Sat, 29 Jan 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4b3.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4b3.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Russian Localization</li>
@@ -227,7 +227,7 @@
 		<item>
 			<title>Cyberduck 2.4b2</title>
 			<pubDate>Wed, 06 Jan 2005 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4b2.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4b2.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename
@@ -249,7 +249,7 @@
 		<item>
 			<title>Cyberduck 2.4b1</title>
 			<pubDate>Tue, 28 Dec 2004 00:00:00 +0100</pubDate>
-			<link>http://update.cyberduck.ch/Cyberduck-2.4b1.dmg</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4b1.dmg" length="0" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Synchronization of files</li>
