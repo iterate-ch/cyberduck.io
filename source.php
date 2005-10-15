@@ -64,10 +64,10 @@
           anonymous, simply press <i>Enter</i>.</p>
 
           <p><tt>cvs
-          -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot
+          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot
           login<br />
           cvs -z3
-          -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co
+          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot co
           cyberduck-cocoa</tt></p>
 
           <p>To compile everything, type <tt>make</tt>. You'll find
@@ -100,6 +100,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
+        <div class="column-2">
           <ul>
             <li><strong>2.5</strong> <em>Aug-29-2005</em><br />
             <a href=
@@ -129,6 +130,7 @@
             <a href=
             "cyberduck-src-2.5beta1.tar.gz">cyberduck-src-2.5beta1.tar.gz</a></li>
           </ul>
+          </div>
         </td>
       </tr>
 
@@ -139,6 +141,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
+        <div class="column-2">
           <ul>
             <li><strong>2.4.6</strong> <em>May-30-2005</em><br />
             <a href=
@@ -196,6 +199,7 @@
             <a href=
             "cyberduck-src-2.4beta1.tar.gz">cyberduck-src-2.4beta1.tar.gz</a></li>
           </ul>
+          </div>
         </td>
       </tr>
 
@@ -206,6 +210,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
+        <div class="column-2">
           <ul>
             <li><strong>2.3.3</strong>
             <em>August-09-2004</em><br />
@@ -245,6 +250,7 @@
             <a href=
             "cyberduck-src-2.3beta1.tar.gz">cyberduck-src-2.3beta1.tar.gz</a></li>
           </ul>
+          </div>
         </td>
       </tr>
 
@@ -255,6 +261,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
+        <div class="column-2">
           <ul>
             <li><strong>2.2</strong> <em>Mar-06-2004</em><br />
             <a href=
@@ -296,6 +303,7 @@
             <a href=
             "cyberduck-src-2.2beta1.tar.gz">cyberduck-src-2.2beta1.tar.gz</a></li>
           </ul>
+          </div>
         </td>
       </tr>
 
@@ -306,6 +314,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
+        <div class="column-2">
           <ul>
             <li><strong>2.1</strong> <em>Dec-08-2003</em><br />
             <a href=
@@ -335,6 +344,7 @@
             <a href=
             "cyberduck-src-2.1beta2.tar.gz">cyberduck-src-2.1beta2.tar.gz</a></li>
           </ul>
+          </div>
         </td>
       </tr>
 
