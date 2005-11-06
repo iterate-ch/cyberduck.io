@@ -5,6 +5,7 @@
         <link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
 		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\"/>
         <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\"></meta>
+        <script type=\"text/javascript\" src=\"css3-multi-column.js\"></script> 
         <title>".$title."</title>
         ";
     }

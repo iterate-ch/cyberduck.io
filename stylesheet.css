@@ -13,6 +13,7 @@
 		color: #000000;
 		font-weight: bold;
 		text-decoration: none;
+		text-align: left;
 	}
 	
 	#navigation ul {
@@ -74,6 +75,7 @@
 	}
 
 	p {
+		text-align: left;
 		padding-left: 1mm;
 		padding-right: 1mm;
 	}
@@ -92,12 +94,30 @@
 		border-style: dotted;
 	}
 	
+	.column-2 {
+		column-count: 2;
+		column-gap: 10px;
+		column-rule: 1px dotted #BBB;
+	}
+
+	.column-4 {
+		column-count: 5;
+		column-gap: 10px;
+		column-rule: 1px dotted #BBB;
+		text-align: justify;
+	}
+
+	.column-3 {
+		column-count: 3;
+		column-gap: 10px;
+		column-rule: 1px dotted #BBB;
+	}
+	
 	.box-filled {
 		background-color: #cccccc;
 	}
 
-	ul
-	{
+	ul {
 		padding-left: 5mm;
 		padding-right: 5mm;
 		list-style-type: square;
@@ -117,8 +137,7 @@
 		text-decoration: none;
     }
 
-	a:link, a:visited
-	{
+	a:link, a:visited {
 		color: #000000;
 		font-weight: normal;
 		text-decoration: underline;

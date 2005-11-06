@@ -94,16 +94,6 @@
           "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
           contributors</a>!</p>
 
-          <div>
-            <p><strong>Feedback.</strong> This software is <a href=
-            "./img/hacking.jpg">written</a> by <a href=
-            "http://sudo.ch/">David V. Kocher</a>,
-            Switzerland. Please have a look at the <a href=
-														          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
-														          credits</a> to see
-            who contributed. I appreciate any <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">comments</a>, <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">feature
-            suggestions</a> and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#103;&#115;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">bug reports</a>.</p>
-          </div>
         </td>
 
         <td width="150" valign="top" class="box-dash">
@@ -191,13 +181,14 @@
 
       <tr>
         <td width="150" valign="top" class="box-solid">
-          <p><strong>T-Shirts and Mugs.</strong></p>
+        <p><strong>PomPomPom.</strong> <a href=
+        "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=78943909">
+        Interview</a> mit dem Entwickler auf <a href=
+        "http://www.pomcast.com/de/">pomcast.com/de</a>.
+        (German)<a href="http://www.pomcast.com/de/"><img align=
+        "center" width="150" border="0" alt="pomcast.com/de" src=
+        "./img/pomfeedde.jpg" /></a></p>
 
-          <div align="center" class="image">
-            <a href="http://www.cafeshops.com/cyberduck"><img src=
-            "img/store.jpg" width="128" height="128" align="middle"
-            alt="Shop Cyberduck Gadgets" border="0" /></a>
-          </div>
         </td>
 
         <td valign="top" class="box-dash">
@@ -221,6 +212,22 @@
             </tr>
           </table>
 
+
+						          <div>
+						            <p><strong>Help.</strong> There is an <a href="./help/en/howto">introduction</a> and a list of <a href="./help/en/problems/">known problems</a>. </p>
+						          </div>
+
+          <div>
+            <p><strong>Feedback.</strong> This software is <a href=
+            "./img/hacking.jpg">written</a> by <a href=
+            "http://sudo.ch/">David V. Kocher</a>,
+            Switzerland. Please have a look at the <a href=
+														          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
+														          credits</a> to see
+            who contributed. I appreciate any <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">comments</a>, <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">feature
+            suggestions</a> and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#103;&#115;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">bug reports</a>.</p>
+          </div>
+
         </td>
 
         <td width="150" valign="top" class="box-dash">
@@ -236,6 +243,8 @@
         <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
         default application for all FTP URLs with <a href=
         "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
+
+		  <p><strong>Quicksilver Module.</strong> Access Cyberduck bookmarks from within <a href="http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
         </td>
       </tr>
 

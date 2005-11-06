@@ -16,8 +16,6 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-
-  <title></title>
 </head>
 
 <body id="changelog">
@@ -31,10 +29,12 @@
           </div>
         </td>
 
-        <td valign="bottom" colspan="2" class="box-solid"><br />
-        <br />
-        <?php echo(echotitle());?>
-        <?php echo(echosubmenu("."));?></td>
+        <td valign="bottom" colspan="2" class="box-solid">
+			 <br />
+			 <br />
+          <?php echo(echotitle());?>
+          <?php echo(echosubmenu("."));?>
+        </td>
       </tr>
 
       <tr>
@@ -659,22 +659,21 @@
 
             <li>[Feature] Rendezvous services in Bookmark menu</li>
 
-            <li>[Bugfix] Upper level directories had to be listed
-            first when uploading files</li>
+            <li>[Bugfix] Upper level directories had to be listed first when
+            uploading files</li>
 
             <li>[Bugfix] Changes to bookmarks won't be saved</li>
 
-            <li>[Bugfix] Preference item to disable the update
-            check</li>
+            <li>[Bugfix] Preference item to disable the update check</li>
 
-            <li>[Bugfix] Toolbar item to open downloaded files with
-            default application</li>
+            <li>[Bugfix] Toolbar item to open downloaded files with default
+            application</li>
 
-            <li>[Bugfix] Graceful application termination (Properly
-            ask to close all connections and then quit)</li>
+            <li>[Bugfix] Graceful application termination (Properly ask to
+            close all connections and then quit)</li>
 
-            <li>[Bugfix] Remembering choosen directories in open
-            and save dialogs</li>
+            <li>[Bugfix] Remembering choosen directories in open and save
+            dialogs</li>
           </ul>
         </td>
       </tr>
@@ -694,8 +693,8 @@
             <li>[Bugfix] Fixed a bug which caused not all available
             Rendezvous services to get listed</li>
 
-            <li>[Bugfix] Removed 'Type ahead' feature of the
-            browser (responsible for frequent crashes)</li>
+            <li>[Bugfix] Removed 'Type ahead' feature of the browser
+            (responsible for frequent crashes)</li>
           </ul>
         </td>
       </tr>
@@ -716,49 +715,45 @@
 
             <li>[Feature] Resume uploads (FTP)</li>
 
-            <li>[Feature] Move files on remote host by drag and
-            drop</li>
+            <li>[Feature] Move files on remote host by drag and drop</li>
 
-            <li>[Feature] Drag files onto bookmark to quickly
-            upload</li>
+            <li>[Feature] Drag files onto bookmark to quickly upload</li>
 
             <li>[Feature] Bookmarks are shown in the menu</li>
 
             <li>[Feature] Menu item 'Download As...'</li>
 
-            <li>[Feature] Editing multiple files in the external
-            editor with the same name</li>
+            <li>[Feature] Editing multiple files in the external editor with
+            the same name</li>
 
-            <li>[Feature] Warning if a duplicate exists when
-            uploading files</li>
+            <li>[Feature] Warning if a duplicate exists when uploading
+            files</li>
 
-            <li>[Feature] 'Apply to all' checkbox in dialog asking
-            for replace/resume/skip existing files</li>
+            <li>[Feature] 'Apply to all' checkbox in dialog asking for
+            replace/resume/skip existing files</li>
 
-            <li>[Feature] Improved caching of directory
-            listings</li>
+            <li>[Feature] Improved caching of directory listings</li>
 
-            <li>[Feature] When dropping files onto folders it will
-            upload these into the folder</li>
+            <li>[Feature] When dropping files onto folders it will upload
+            these into the folder</li>
 
-            <li>[Feature] When typing the first letter of a file it
-            gets selected in the browser</li>
+            <li>[Feature] When typing the first letter of a file it gets
+            selected in the browser</li>
 
-            <li>[Feature] Toolbar button to remove all completed
-            items from the queue</li>
+            <li>[Feature] Toolbar button to remove all completed items from
+            the queue</li>
 
-            <li>[Feature] Convert line endings when downloading in
-            ASCII mode (FTP)</li>
+            <li>[Feature] Convert line endings when downloading in ASCII mode
+            (FTP)</li>
 
             <li>[Feature] Auto transfer mode (FTP)</li>
 
             <li>[Feature] Dock menu item to open new browser</li>
 
-            <li>[Bugfix] Correctly updating incorrect keychain
-            entries</li>
+            <li>[Bugfix] Correctly updating incorrect keychain entries</li>
 
-            <li>[Bugfix] Preserve modification date when
-            downloading files</li>
+            <li>[Bugfix] Preserve modification date when downloading
+            files</li>
 
             <li>[Bugfix] Ignoring .DS_Store files</li>
 
@@ -774,8 +769,8 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] External editor support (SubEthaEdit,
-            BBEdit, TextWrangler, Text-Edit Plus)</li>
+            <li>[Feature] External editor support (SubEthaEdit, BBEdit,
+            TextWrangler, Text-Edit Plus)</li>
           </ul>
         </td>
       </tr>
@@ -787,8 +782,8 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] Supporting folders with
-            sticky/set-uid/set-gid bits (FTP)</li>
+            <li>[Feature] Supporting folders with sticky/set-uid/set-gid bits
+            (FTP)</li>
 
             <li>[Localize] Updated Dutch localization</li>
 
@@ -806,18 +801,18 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] Preliminary support for Windows, VMS and
-            OS/2 file listings (FTP)</li>
+            <li>[Feature] Preliminary support for Windows, VMS and OS/2 file
+            listings (FTP)</li>
 
             <li>Properly deleting symbolic links (FTP)</li>
 
             <li>[Feature] Displaying link icons in browser</li>
 
-            <li>[Bugfix] Downloading files from FTP servers not
-            supporting the SIZE command (FTP)</li>
+            <li>[Bugfix] Downloading files from FTP servers not supporting
+            the SIZE command (FTP)</li>
 
-            <li>[Bugfix] Fixed a bug where overwritten files with
-            SFTP got corrupted (Thanks to Jan!)</li>
+            <li>[Bugfix] Fixed a bug where overwritten files with SFTP got
+            corrupted (Thanks to Jan!)</li>
 
             <li>[Feature] Contextual Menu support</li>
 
@@ -837,33 +832,32 @@
 
             <li>[Localize] Korean Localization</li>
 
-            <li>[Feature] Passphrases for private key files are
-            stored in the Keychain (SSH)</li>
+            <li>[Feature] Passphrases for private key files are stored in the
+            Keychain (SSH)</li>
 
-            <li>[Feature] Bookmark editor allows to specify the
-            port number</li>
+            <li>[Feature] Bookmark editor allows to specify the port
+            number</li>
 
-            <li>[Feature] When a bookmark is edited, the properties
-            are updated in the bookmark drawer instantly</li>
+            <li>[Feature] When a bookmark is edited, the properties are
+            updated in the bookmark drawer instantly</li>
 
-            <li>[Feature] A confirmation dialog is displayed before
-            deleting a bookmark</li>
+            <li>[Feature] A confirmation dialog is displayed before deleting
+            a bookmark</li>
 
-            <li>[Feature] A confirmation dialog is displayed when
-            connecting to a new site in a browser still connected
-            to another host</li>
+            <li>[Feature] A confirmation dialog is displayed when connecting
+            to a new site in a browser still connected to another
+            host</li>
 
             <li>[Bugfix] Transcript messages are only shown in the
             corresponding browser</li>
 
-            <li>[Bugfix] Fixed a bug which caused the browser
-            window to be 'frozen' after an upload</li>
+            <li>[Bugfix] Fixed a bug which caused the browser window to be
+            'frozen' after an upload</li>
 
-            <li>[Feature] Option to adjust the 'LIST' command sent
-            (FTP)</li>
+            <li>[Feature] Option to adjust the 'LIST' command sent (FTP)</li>
 
-            <li>[Bugfix] Fixed a bug which caused a crash when not
-            connected to a network</li>
+            <li>[Bugfix] Fixed a bug which caused a crash when not connected
+            to a network</li>
 
             <li>[Feature] Updated application icon</li>
           </ul>
@@ -877,8 +871,8 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Bugfix] Fixed a bug that with some servers the
-            permissions could not be modified (FTP)</li>
+            <li>[Bugfix] Fixed a bug that with some servers the permissions
+            could not be modified (FTP)</li>
 
             <li>[Bugfix] When addding a transfer to the queue it is
             highlighted</li>
@@ -899,14 +893,13 @@
           <ul>
             <li>[Feature] Caching folder listings</li>
 
-            <li>[Bugfix] Auto-refresh the folder listing after
-            uploading a file</li>
+            <li>[Bugfix] Auto-refresh the folder listing after uploading a
+            file</li>
 
-            <li>[Feature] Sending 'LIST -a' to list directories
-            (FTP)</li>
+            <li>[Feature] Sending 'LIST -a' to list directories (FTP)</li>
 
-            <li>[Bugfix] Fixed a bug where entries in the queue
-            would be deleted too early</li>
+            <li>[Bugfix] Fixed a bug where entries in the queue would be
+            deleted too early</li>
           </ul>
         </td>
       </tr>
@@ -926,8 +919,7 @@
 
             <li>[Localize] Updated Italian localization</li>
 
-            <li>[Bugfix] The log is now written with a fixed-width
-            font</li>
+            <li>[Bugfix] The log is now written with a fixed-width font</li>
 
             <li>[Bugfix] Various minor improvements</li>
           </ul>
@@ -947,22 +939,20 @@
 
             <li>[Feature] Full Unicode support</li>
 
-            <li>[Feature] Support for public key authentication
-            (SSH)</li>
+            <li>[Feature] Support for public key authentication (SSH)</li>
 
             <li>[Feature] Live filtering directory listings</li>
 
-            <li>[Feature] Improved Rendezvous support (jmDNS
-            0.2)</li>
+            <li>[Feature] Improved Rendezvous support (jmDNS 0.2)</li>
 
-            <li>[Feature] Drag files from the browser to the
-            transfer manager</li>
+            <li>[Feature] Drag files from the browser to the transfer
+            manager</li>
 
-            <li>[Feature] Drag links to the transfer manager to
-            start download</li>
+            <li>[Feature] Drag links to the transfer manager to start
+            download</li>
 
-            <li>[Feature] Browser can be customized to show/hide
-            certain columns</li>
+            <li>[Feature] Browser can be customized to show/hide certain
+            columns</li>
 
             <li>[Localize] Japanese Localization</li>
 
@@ -988,33 +978,32 @@
           <ul>
             <li>[Feature] Bookmarks can now be edited.</li>
 
-            <li>[Feature] Bookmarks can now be saved as a regular
-            file (Drag the bookmarks to the Finder).</li>
+            <li>[Feature] Bookmarks can now be saved as a regular file (Drag
+            the bookmarks to the Finder).</li>
 
-            <li>[Feature] Bookmarks saved as files can be imported
-            by dropping them on the Bookmarks Drawer.</li>
+            <li>[Feature] Bookmarks saved as files can be imported by
+            dropping them on the Bookmarks Drawer.</li>
 
-            <li>[Feature] Double clicking a Cyberduck bookmark file
-            in the Finder will open a new browser and connect to
-            the remote site</li>
+            <li>[Feature] Double clicking a Cyberduck bookmark file in the
+            Finder will open a new browser and connect to the
+            remote site</li>
 
-            <li>[Feature] An initial directory upon new connection
-            can now be specified (e.g. public_html instead of the
-            default home).</li>
+            <li>[Feature] An initial directory upon new connection can now be
+            specified (e.g. public_html instead of the default
+            home).</li>
 
-            <li>[Feature] Use keyboard shortcut (commann-up/down)
-            for browsing a directory</li>
+            <li>[Feature] Use keyboard shortcut (commann-up/down) for
+            browsing a directory</li>
 
-            <li>[Bugfix] Uploaded files now have the same
-            permissions as the corresponding local files</li>
+            <li>[Bugfix] Uploaded files now have the same permissions as the
+            corresponding local files</li>
 
             <li>[Feature] Updated icon set</li>
 
             <li>[Bugfix] The sort order is now remembered while
             browsing</li>
 
-            <li>[Feature] Toolbar icon to toggle Bookmark
-            drawer</li>
+            <li>[Feature] Toolbar icon to toggle Bookmark drawer</li>
 
             <li>[Feature] Updated SSH Core (v0.2.5)</li>
 
@@ -1037,8 +1026,8 @@
             <li>[Feature] HTTP is now supported again. Files can be
             downloaded from regular web servers.</li>
 
-            <li>[Feature] Cyberduck can now be configured as the
-            default FTP helper application. See <a href=
+            <li>[Feature] Cyberduck can now be configured as the default FTP
+            helper application. See <a href=
             "http://www.monkeyfood.com/software/moreInternet/">monkeyfood.com</a>.
             This seems to work with Safari and Internet
             Explorer.</li>
@@ -1046,15 +1035,15 @@
             <li>[Bugfix] Dragging files to the Finder is now more
             reliable.</li>
 
-            <li>[Bugfix] The transfer panel does now close again if
-            defined so in the preferences.</li>
+            <li>[Bugfix] The transfer panel does now close again if defined
+            so in the preferences.</li>
 
-            <li>[Feature] The buffer size (the size of download
-            chunks to keep in memory before writing to disk) is now
+            <li>[Feature] The buffer size (the size of download chunks to
+            keep in memory before writing to disk) is now
             adjustable.</li>
 
-            <li>[Feature] Login to anonymous FTP servers where no
-            password is needed is now supported.</li>
+            <li>[Feature] Login to anonymous FTP servers where no password is
+            needed is now supported.</li>
 
             <li>[Bugfix] Smaller bug fixes</li>
           </ul>
@@ -1068,8 +1057,8 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] Cyberduck now has the official creator
-            code 'CYCK'.</li>
+            <li>[Feature] Cyberduck now has the official creator code
+            'CYCK'.</li>
 
             <li>[Bugfix] Bug fixes</li>
           </ul>
@@ -1085,17 +1074,17 @@
           <ul>
             <li>[Localize] Localization support</li>
 
-            <li>[Feature] Files and foldes can now be dragged to
-            the Finder to download them.</li>
+            <li>[Feature] Files and foldes can now be dragged to the Finder
+            to download them.</li>
 
-            <li>[Feature] Windows do now no more stack exactly on
-            the top of prior one.</li>
+            <li>[Feature] Windows do now no more stack exactly on the top of
+            prior one.</li>
 
-            <li>[Feature] There are now equivalent menu actions for
-            the toolbar items.</li>
+            <li>[Feature] There are now equivalent menu actions for the
+            toolbar items.</li>
 
-            <li>[Bugfix] Modification dates and time are now
-            displayed correctly.</li>
+            <li>[Bugfix] Modification dates and time are now displayed
+            correctly.</li>
 
             <li>[Bugfix] The modification date column is now sorted
             correctly.</li>
@@ -1103,16 +1092,16 @@
             <li>[Bugfix] Browser columns are now sortable in both
             directions.</li>
 
-            <li>[Bugfix] When deleting multiple files and
-            directores, the file list will now only get updated at
-            the end because of performance.</li>
+            <li>[Bugfix] When deleting multiple files and directores, the
+            file list will now only get updated at the end because
+            of performance.</li>
 
-            <li>[Bugfix] If multiples have been selected to
-            transfer, Cyberduck now puts them in the same queue and
-            opens only one connection to the server.</li>
+            <li>[Bugfix] If multiples have been selected to transfer,
+            Cyberduck now puts them in the same queue and opens
+            only one connection to the server.</li>
 
-            <li>[Feature] There is a new command 'Go to folder' for
-            changing the working directory quickly.</li>
+            <li>[Feature] There is a new command 'Go to folder' for changing
+            the working directory quickly.</li>
 
             <li>[Bugfix] Many bug fixes.</li>
           </ul>
@@ -1126,9 +1115,8 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] Public beta release using the Cocoa
-            Framework (instead of Java Swing) and support for
-            SSH</li>
+            <li>[Feature] Public beta release using the Cocoa Framework
+            (instead of Java Swing) and support for SSH</li>
           </ul>
 
           <p>Older releases prior to version 2.1 using the Java
@@ -1144,7 +1132,6 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
-
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>
