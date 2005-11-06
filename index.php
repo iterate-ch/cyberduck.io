@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
   include "functions.php";
 ?>
@@ -16,8 +16,6 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-
-  <title></title>
 </head>
 
 <body id="index">
@@ -93,7 +91,6 @@
           Many thanks to all <a href=
           "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
           contributors</a>!</p>
-
         </td>
 
         <td width="150" valign="top" class="box-dash">
@@ -112,12 +109,11 @@
             </form>
           </div>
 
-        <p><strong>Forum.</strong> Discuss anything related to
-        Cyberduck in the forum hosted at <a href=
-        "./forum">cocoaforge.com</a></p><a href=
-        "./forum"><img width="150" align="center" border="0" alt=
-        "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
-
+          <p><strong>Forum.</strong> Discuss anything related to
+          Cyberduck in the forum hosted at <a href=
+          "./forum">cocoaforge.com</a></p><a href=
+          "./forum"><img width="150" align="center" border="0" alt=
+          "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
         </td>
       </tr><!-- ======= Macworld ======== -->
 
@@ -181,14 +177,13 @@
 
       <tr>
         <td width="150" valign="top" class="box-solid">
-        <p><strong>PomPomPom.</strong> <a href=
-        "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=78943909">
-        Interview</a> mit dem Entwickler auf <a href=
-        "http://www.pomcast.com/de/">pomcast.com/de</a>.
-        (German)<a href="http://www.pomcast.com/de/"><img align=
-        "center" width="150" border="0" alt="pomcast.com/de" src=
-        "./img/pomfeedde.jpg" /></a></p>
-
+          <p><strong>PomPomPom.</strong> <a href=
+          "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=78943909">
+          Interview</a> mit dem Entwickler auf <a href=
+          "http://www.pomcast.com/de/">pomcast.com/de</a>.
+          (German)<a href="http://www.pomcast.com/de/"><img align=
+          "center" width="150" border="0" alt="pomcast.com/de" src=
+          "./img/pomfeedde.jpg" /></a></p>
         </td>
 
         <td valign="top" class="box-dash">
@@ -204,47 +199,53 @@
               <td valign="top"><img src="img/arrowDown.png" alt=
               "Download" border="0" /></td>
 
-              <td valign="top"><strong>2.5</strong>
-              <em>(Aug-29-2005)</em><br />
+              <td valign="top"><strong>2.5.1</strong>
+              <em>(Nov-14-2005)</em><br />
               <a href=
-              "./Cyberduck-2.5.dmg">Cyberduck-2.5.dmg</a><a href=
-              "./Cyberduck-2.5.dmg"></a><br /></td>
+              "./Cyberduck-2.5.1.dmg">Cyberduck-2.5.1.dmg</a><a href=
+              "./Cyberduck-2.5.1.dmg"></a><br /></td>
             </tr>
           </table>
 
-
-						          <div>
-						            <p><strong>Help.</strong> There is an <a href="./help/en/howto">introduction</a> and a list of <a href="./help/en/problems/">known problems</a>. </p>
-						          </div>
+          <div>
+            <p><strong>Help.</strong> There is an <a href=
+            "./help/en/howto">introduction</a> and a list of
+            <a href="./help/en/problems/">known problems</a>.
+            Please post any questions on the <a href=
+            "./forum">forum</a>.</p>
+          </div>
 
           <div>
             <p><strong>Feedback.</strong> This software is <a href=
             "./img/hacking.jpg">written</a> by <a href=
-            "http://sudo.ch/">David V. Kocher</a>,
-            Switzerland. Please have a look at the <a href=
-														          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
-														          credits</a> to see
-            who contributed. I appreciate any <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">comments</a>, <a href="mailto:&#102;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">feature
-            suggestions</a> and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#117;&#103;&#115;&#64;&#99;&#121;&#98;&#101;&#114;&#100;&#117;&#99;&#107;&#46;&#99;&#104;">bug reports</a>.</p>
+            "http://sudo.ch/">David V. Kocher</a>, Switzerland.
+            Please have a look at the <a href=
+            "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
+            credits</a> to see who contributed. I appreciate any
+            <a href="mailto:feedback@cyberduck.ch">comments</a>,
+            <a href="mailto:feedback@cyberduck.ch">feature
+            suggestions</a> and <a href=
+            "mailto:bugs@cyberduck.ch">bug reports</a>.</p>
           </div>
-
         </td>
 
         <td width="150" valign="top" class="box-dash">
-        <p><strong>Growl.</strong> You may also want to install
-        <a href="http://growl.info">Growl</a>, a global
-        notification system Cyberduck supports.</p>
+          <p><strong>Growl.</strong> You may also want to install
+          <a href="http://growl.info">Growl</a>, a global
+          notification system Cyberduck supports.</p>
 
-        <div class="c1">
-          <a href="http://growl.info"><img src=
-          "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
-        </div>
+          <div class="c1">
+            <a href="http://growl.info"><img src=
+            "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
+          </div>
 
-        <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
-        default application for all FTP URLs with <a href=
-        "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
+          <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
+          default application for all FTP URLs with <a href=
+          "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
 
-		  <p><strong>Quicksilver Module.</strong> Access Cyberduck bookmarks from within <a href="http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
+          <p><strong>Quicksilver Module.</strong> Access Cyberduck
+          bookmarks from within <a href=
+          "http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
         </td>
       </tr>
 
