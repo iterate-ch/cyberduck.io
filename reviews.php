@@ -9,7 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("~dkocher | cyberduck | reviews", ".")); ?>
-	 <script type="text/javascript" src="css3-multi-column.js"></script>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
