@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+  include "functions.php";
+?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
+  <?php echo(echoheader("~dkocher | cyberduck | reviews", ".")); ?>
+	 <script type="text/javascript" src="css3-multi-column.js"></script>
+<style type="text/css">
+/*<![CDATA[*/
+ div.c3 {text-align: right}
+ div.c2 {text-align: left}
+ div.c1 {text-align: center}
+/*]]>*/
+</style>
+</head>
+
+<body id="reviews">
+  <div class="standard" align="center">
+    <table border="0" cellpadding="5" cellspacing="5" width="700">
+      <tr>
+        <td class="box-solid" width="150" valign="middle">
+          <div class="c1">
+            <img src="img/cyberduck.icon.png" width="128" height=
+            "128" alt="Cyberduck" border="0" />
+          </div>
+        </td>
+
+        <td valign="bottom" colspan="2" class="box-solid">
+			 <br />
+			 <br />
+          <?php echo(echotitle());?>
+          <?php echo(echosubmenu("."));?>
+        </td>
+      </tr>
+
+      <tr>
+      	<td width="150" class="box-filled"> </td>
+        
+			<td colspan="2" class="box-dash">
+
+
+			<p><q cite="marcopetraroia.com">The best FTP and SFTP client for Mac OS X I ever tried. Is not because I like birds in general, but because it's the best.
+							</q></p>
+
+<p><q cite="minglewithingle.com">
+					Cyberduck is an outstanding FTP client for OS X. For the windows users out there, imagine if Filezilla was fast, and looked nice.
+					</q></p>
+<p><q cite="Comment to macworld.com article">
+					Nice article, but I don&apos;t use any those. I have found Cyberduck to totally and wonderfully take care of my FTP needs. I don&apos;t do multi server transfers or have any use for scripting. It&apos;s just free and works great. I like the way it handles accounts too. It&apos;s interface is clean and easy to navigate. I give it 5 mouses.
+				</q></p>
+				
+				<p><q cite="jeffpalm.com">I use Cyberduck and this is one reason that macs are way cooler than any other machines. I&apos;m not saying they&apos;re better -- though they probably are -- just cooler. I mean, come on, it&apos;s a duck!</q></p>
+								
+				<p><q cite="ldopa.net">Cyberduck is hands down the best FTP client for Mac OS X. It’s free under the GPL and in active development — it just keeps getting better. Give it a try.
+								</q></p>
+				<p><q cite="mac.dtgeeks.com">There are a number of FTP clients out for Mac OS X, ranging from Fetch to Transmit. However, there is one FTP client that stands out. It’s free, it’s excellent, and it has a great name: Cyberduck! Cyberduck sports most of the features you’d expect from an FTP client, such as bookmarks, SFTP, the ability to toggle transfer modes, synchonization and so forth.</q></p>
+				<p><q cite="Tom Armitage">Fetch was sluggish and tempramental; Cyberduck is swift, easy to configure, and (so far) does everything I need. Plus, I like the icon. Try it, it’s worth a shot.</q></p>
+				<p><q cite="wellheard.com">For FTP, Cyberduck is the way to go. Full featured, reliable and free. You can even get the source if you want.
+								</q></p>
+				<p><q cite="infovore.org">Fetch was sluggish and tempramental; Cyberduck is swift, easy to configure, and (so far) does everything I need.</q></p>
+				<p><q cite="boingboing.net">I've been using David Kocher's Cyberduck FTP client for several months now. (...) All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck. I don't even know if it has a help file. The bookmarking feature is well-implemented and I like being able to click on the BBEdit icon to edit any file on the server (yes, I know BBEdit lets you open files on servers, but sometimes I like to open them from Cyberduck.) If you are looking for a simple, power FTP client, check this out.
+								</q></p>
+				<p><q cite="mactouch.com">Nombreux sont ceux qui ont besoin d’un client FTP (pour mettre à jour leur site perso par exemple). Les noms qui viennent immédiatement à l’esprit sont Fetch et Transmit. Mais Cyberduck, qui existe depuis plus d’un an dans sa version Cocoa, vient les concurrencer.
+								</q></p>
+				<p><q cite="macreviewzone.com">It might lack the cachet of Fetch or Transmit, but when it comes to FTP, David Kocher's open-source Cyberduck should be taken seriously. (...) Cyberduck is a robust FTP and SFTP application whose lack of visual clutter and cleverly intuitive features make it easy to use.
+								</q></p>
+				<p><q cite="nuclearpixel.com">I've been using Cyberduck for 4 months with no gripes at all. Cyberduck is a great little app that is in active development and doubles in quality every revision. Not to mention that it's free and open source.
+								</q></p>
+				<p><q cite="cecube.de">Cyberduck is <i>the</i> ftp software - I tell you, there is none better.
+								</q></p>
+				<p><q cite="macsnpods.com">You've got a Mac. You've got a web design app. You've made all of your website. It looks great! You can't wait to get it onto your server and share it with the world. Now, here comes trouble. How do you get it on your server? Well, there is a simple, free answer. What is it, you ask? Easy. It's Cyberduck.
+								</q></p>
+				<p><q cite="Victor">Cyberduck is a very fast FTP client. Easy to use, Cyberduck gives user real control. And best of all, is free. Donations accepted, indeed.
+								</q></p>
+								<p><q cite="hicksdesign.co.uk">I switched from Transmit to Cyberduck about a year ago, and never looked back. A great little FTP app, in my opinion.
+												</q></p>
+        </td>
+      </tr>
+
+		<?php echo(echogoogle());?>
+
+      <tr>
+        <td colspan="3">
+          <div class="c3">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$
+          </div>
+          <div class="c3">
+            <?php echo(echomenu(".."));?>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

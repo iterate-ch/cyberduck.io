@@ -64,10 +64,10 @@
           anonymous, simply press <i>Enter</i>.</p>
 
           <p><tt>cvs
-          -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot
+          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot
           login<br />
           cvs -z3
-          -d:pserver:anonymous@cvs.cyberduck.ch:/home/cvsroot co
+          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot co
           cyberduck-cocoa</tt></p>
 
           <p>To compile everything, type <tt>make</tt>. You&apos;ll find

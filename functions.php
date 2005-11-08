@@ -4,7 +4,7 @@
         <link rel=\"Shortcut Icon\" href=\"".$dir."/favicon.ico\"></link>
         <link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
 		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\"/>
-        <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\"></meta>
+        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></meta>
         <script type=\"text/javascript\" src=\"css3-multi-column.js\"></script> 
         <title>".$title."</title>
         ";
@@ -50,6 +50,7 @@
               <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
               <li><a id=\"navigation-forum\" href=\"".$dir."/forum/\">forum</a></li>
               <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source code</a></li>
+              <li><a id=\"navigation-reviews\" href=\"".$dir."/reviews.php\">reviews</a></li>
               <li><a id=\"navigation-license\" href=\"".$dir."/license.php\">license</a></li>
               <li><a id=\"navigation-donate\" href=\"".$dir."/donate/\"><strong>donate</strong></a></li>
 			</ul>
