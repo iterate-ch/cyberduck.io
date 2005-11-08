@@ -80,12 +80,9 @@
 										
 			<p><q cite="Versiontracker.com Comment">I've used this product for 5 minutes and love it! It's much better than using the good ol' terminal.</q></p>
 			<p><q cite="Versiontracker.com Comment">I recommend it to all our customers. It just rocks!</q></p>
-			<p><q cite="Versiontracker.com Comment"></q>I have given up that aweful (...) and have not looked back. I even sent the author a donation since I felt he richly deserved it. </p>
-			<p><q cite="Versiontracker.com Comment"></q>What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free. I would recommend that anyone that uses (...), (...), (...), and those others try Cyberduck.</p>
-			<p><q cite="Macupdate.com Comment"></q>Wonderful, intuitive program that does what it's supposed to...and does it well.</p>
-			<p><q cite=""></q></p>
-			
-											
+			<p><q cite="Versiontracker.com Comment">I have given up that aweful (...) and have not looked back. I even sent the author a donation since I felt he richly deserved it.</q></p>
+			<p><q cite="Versiontracker.com Comment">What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free. I would recommend that anyone that uses (...), (...), (...), and those others try Cyberduck.</q></p>
+			<p><q cite="Macupdate.com Comment">Wonderful, intuitive program that does what it's supposed to...and does it well.</q></p>
         </td>
       </tr>
 
