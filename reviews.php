@@ -77,6 +77,15 @@
 								</q></p>
 								<p><q cite="hicksdesign.co.uk">I switched from (...) to Cyberduck about a year ago, and never looked back. A great little FTP app, in my opinion.
 												</q></p>
+										
+			<p><q cite="Versiontracker.com Comment">I've used this product for 5 minutes and love it! It's much better than using the good ol' terminal.</q></p>
+			<p><q cite="Versiontracker.com Comment">I recommend it to all our customers. It just rocks!</q></p>
+			<p><q cite="Versiontracker.com Comment"></q>I have given up that aweful (...) and have not looked back. I even sent the author a donation since I felt he richly deserved it. </p>
+			<p><q cite="Versiontracker.com Comment"></q>What else can I say? Its the best FTP program I've ever used. Its fast, stable, feature-filled, and free. I would recommend that anyone that uses (...), (...), (...), and those others try Cyberduck.</p>
+			<p><q cite="Macupdate.com Comment"></q>Wonderful, intuitive program that does what it's supposed to...and does it well.</p>
+			<p><q cite=""></q></p>
+			
+											
         </td>
       </tr>
 
