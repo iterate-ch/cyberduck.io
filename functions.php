@@ -33,12 +33,8 @@
   	</tr>";
 	}
 	
-	
     function echotitle() {
-        return "
-        <h1>Cyberduck</h1>
-        <h3>FTP and SFTP Browser for Mac OS X. <!--<b class=\"light\">Universal.</b>--></h3>
-        ";
+        return "<h1>Cyberduck</h1><h3>FTP and SFTP Browser for Mac OS X. <b class=\"light\">Universal.</b></h3>";
     }
     
     function echosubmenu($dir) {

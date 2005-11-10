@@ -38,7 +38,7 @@
       </tr>
 
       <tr>
-        <td width="150"> </td>
+        <td width="150" class="box-filled"></td>
 
         <td colspan="2" class="box-dash">
           <p>Copyright (c) 2004 David Kocher. All rights

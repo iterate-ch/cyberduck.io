@@ -56,7 +56,7 @@
           to build.</p>
 
           <p>You can browse the CVS repository <a href=
-          "http://cvs.cyberduck.ch/">here</a>. (Warning: Slow
+          "http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>. (Warning: Slow
           connection)</p>
 
           <p>You can checkout the current unstable version from the
