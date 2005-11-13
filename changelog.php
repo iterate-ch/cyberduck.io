@@ -54,6 +54,17 @@
 
         <td colspan="2" class="box-dash">
           <ul>
+			<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>
+			<li>[Feature] Printing browser view</li>
+			<li>[Feature] Universal Binary</li>
+			<li>[Bugfix] Child items not refreshed properly in outline view</li>
+			<li>[Bugfix] Warning before overwrite when moving or renaming files</li>
+			<li>[Bugfix] Dragging files to the Finder.app places them at the dropped position</li>
+			<li>[Bugfix] Always selecting parent directory as drop target when dragging to outline view</li>
+			<li>[Bugfix| Updated application and document icon</li>
+			<li>[Bugfix] Number of files in browser window not displayed correctly</li>
+			<li>[Bugfix] Don't recurse into directories when deleting symbolic links</li>
+			<li>[Bugfix] Overwriting group writable files</li>
           </ul>
         </td>
       </tr>

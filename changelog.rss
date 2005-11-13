@@ -8,9 +8,30 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		
 		<item>
+			<title>Cyberduck 2.5.1</title>
+			<pubDate>Wed, 14 Nov 2005 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" length="8005449" type="application/octet-stream"/>
+			<content:encoded><![CDATA[
+						<ul>
+						<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>
+						<li>[Feature] Printing browser view</li>
+						<li>[Feature] Universal Binary</li>
+						<li>[Bugfix] Child items not refreshed properly in outline view</li>
+						<li>[Bugfix] Warning before overwrite when moving or renaming files</li>
+						<li>[Bugfix] Dragging files to the Finder.app places them at the dropped position</li>
+						<li>[Bugfix] Always selecting parent directory as drop target when dragging to outline view</li>
+						<li>[Bugfix| Updated application and document icon</li>
+						<li>[Bugfix] Number of files in browser window not displayed correctly</li>
+						<li>[Bugfix] Don't recurse into directories when deleting symbolic links</li>
+						<li>[Bugfix] Overwriting group writable files</li>
+						</ul>
+			]]></content:encoded>
+		</item>
+
+		<item>
 			<title>Cyberduck 2.5</title>
 			<pubDate>Wed, 29 Aug 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.dmg" length="7166022" length="" type="application/octet-stream"/>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.dmg" length="7166022" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 <li>[Feature] Graphical interface refinements</li>
@@ -51,7 +72,7 @@
 <li>[Feature] Updated application icon (Thanks to Admiral Potato)</li>
 <li>[Bugfix] New connection dialog remembers field values</li>
 <li>[Bugfix] Correctly parsing filenames beginning with whitespace (FTP)</li>
-<li>[Bugfix] Don't allow editing files with well known binary file length="" type extensions</li>
+<li>[Bugfix] Don't allow editing files with well known binary file length type extensions</li>
 <li>[Bugfix] Excluding individual files when synchronising</li>
 <li>[Bugfix] Improved stability using outline view</li>
 <li>[Bugfix] Remember sorted column and direction</li>

@@ -103,7 +103,7 @@
 	        <ul>
 	          <li><strong>2.5.1</strong> <em>Nov-14-2005</em><br />
 	          <a href=
-	          "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5..1tar.gz</a></li>
+	          "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5.1tar.gz</a></li>
 	        </ul>
 
           <ul>

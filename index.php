@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck", ".")); ?>
+  <?php echo(echoheader("~dkocher | cyberduck | ftp & sftp browser for the mac.", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  input.c3 {width:62px; height:31px}
