@@ -1,11 +1,17 @@
 <?php
     function echoheader($title, $dir) {
         return "
-        <link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
+		<link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
 		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\"/>
-        <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></meta>
-        <title>".$title."</title>
-        ";
+      <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></meta>
+		<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\">
+		</script>
+		<script type=\"text/javascript\">
+		_uacct = \"UA-55660-1\";
+		urchinTracker();
+		</script>
+      <title>".$title."</title>
+";
     }
 
   function echogoogle() {

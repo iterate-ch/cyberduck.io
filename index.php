@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
   include "functions.php";
 ?>
@@ -202,8 +202,8 @@
               <td valign="top"><strong>2.5.1</strong>
               <em>(Nov-14-2005)</em><br />
               <a href=
-              "./Cyberduck-2.5.1.dmg">Cyberduck-2.5.1.dmg</a><a href=
-              "./Cyberduck-2.5.1.dmg"></a><br /></td>
+              "./Cyberduck-2.5.1.dmg">Cyberduck-2.5.1.dmg</a><a href="./Cyberduck-2.5.1.dmg"></a><br />
+              </td>
             </tr>
           </table>
 
@@ -212,7 +212,8 @@
             "./help/en/howto">introduction</a> and a list of
             <a href="./help/en/problems/">known problems</a>.
             Please post any questions on the <a href=
-            "./forum">forum</a>.</p>
+            "./forum">forum</a> if the <a href=
+            "./help/en/faq">FAQ</a> doesn't cover them.</p>
           </div>
 
           <div>
