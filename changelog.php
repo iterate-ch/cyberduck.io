@@ -53,6 +53,19 @@
 
         <td colspan="2" class="box-dash">
           <ul>
+			<li>[Bugfix] Spinning beachball of death when connecting on some systems</li>
+			<li>[Bugfix] Better validating drop targets in browser</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-filled" width="150" valign="top">
+        <strong>2.5.1</strong> <em>Nov-14-2005</em><br />
+        <a href="./Cyberduck-2.5.1.dmg">Download</a></td>
+
+        <td colspan="2" class="box-dash">
+          <ul>
 			<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>
 			<li>[Feature] Printing browser view</li>
 			<li>[Feature] Universal Binary</li>
@@ -67,7 +80,6 @@
           </ul>
         </td>
       </tr>
-
       <tr>
         <td class="box-filled" width="150" valign="top">
         <strong>2.5</strong> <em>Aug-29-2005</em><br />
