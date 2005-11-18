@@ -199,10 +199,10 @@
               <td valign="top"><img src="img/arrowDown.png" alt=
               "Download" border="0" /></td>
 
-              <td valign="top"><strong>2.5.1</strong>
-              <em>(Nov-14-2005)</em><br />
+              <td valign="top"><strong>2.5.2</strong>
+              <em>(Nov-18-2005)</em><br />
               <a href=
-              "./Cyberduck-2.5.1.dmg">Cyberduck-2.5.1.dmg</a><a href="./Cyberduck-2.5.1.dmg"></a><br />
+              "./Cyberduck-2.5.2.dmg">Cyberduck-2.5.2.dmg</a><a href="./Cyberduck-2.5.2.dmg"></a><br />
               </td>
             </tr>
           </table>

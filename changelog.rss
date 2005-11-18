@@ -8,9 +8,9 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		
 		<item>
-			<title>Cyberduck 2.5.1</title>
-			<pubDate>Wed, 14 Nov 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" length="8005449" type="application/octet-stream"/>
+			<title>Cyberduck 2.5.2</title>
+			<pubDate>Wed, 18 Nov 2005 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg" length="8034686" type="application/octet-stream"/>
 			<content:encoded><![CDATA[
 						<ul>
 						<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>

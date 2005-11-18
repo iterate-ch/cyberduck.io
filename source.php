@@ -101,9 +101,15 @@
 
         <td colspan="2" class="box-dash">
 	        <ul>
+	          <li><strong>2.5.2</strong> <em>Nov-18-2005</em><br />
+	          <a href=
+	          "cyberduck-src-2.5.2.tar.gz">cyberduck-src-2.5.2.tar.gz</a></li>
+	        </ul>
+
+	        <ul>
 	          <li><strong>2.5.1</strong> <em>Nov-14-2005</em><br />
 	          <a href=
-	          "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5.1tar.gz</a></li>
+	          "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5.1.tar.gz</a></li>
 	        </ul>
 
           <ul>
