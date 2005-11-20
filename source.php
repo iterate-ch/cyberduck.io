@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | source", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Source Code", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -19,26 +19,15 @@
 </head>
 
 <body id="source">
-  <div class="standard" align="center">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
+<div class="header">
+<?php echo(echologo("."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu("."));?>
+</div>
+<div class="standard">
+  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
-        </td>
-      </tr>
-
-      <tr>
-        <td width="150" valign="middle" class="box-filled">
+        <td width="150" valign="middle" class="box-solid">
           <div class="c1">
             <img src="./img/javafile.png" alt="Java Source" border=
             "0" /><br />
@@ -94,7 +83,7 @@
       <?php echo(echogoogle());?>
 
       <tr>
-        <td class="box-filled" valign="top" width="150">
+        <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.5</strong><br />
           (CVS Tag: release-2-5)</p>
         </td>
@@ -145,7 +134,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top" width="150">
+        <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.4</strong><br />
           (CVS Tag: release-2-4)</p>
         </td>
@@ -212,7 +201,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top" width="150">
+        <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.3</strong><br />
           (CVS Tag: release-2-3)</p>
         </td>
@@ -261,7 +250,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top" width="150">
+        <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.2</strong><br />
           (CVS Tag: release-2-2)</p>
         </td>
@@ -312,7 +301,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top" width="150">
+        <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.1</strong><br />
           (CVS Tag: release-2-1)</p>
         </td>

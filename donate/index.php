@@ -20,24 +20,13 @@
 </head>
 
 <body id="donate">
- <div align="center" class="standard">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
-      <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div align="center">
-            <img src="../img/cyberduck.icon.png" width="128"
-            height="128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu(".."));?>
-        </td>
-      </tr>
-
+<div class="header">
+<?php echo(echologo(".."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu(".."));?>
+</div>
+ <div class="standard">
+ <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td colspan="3" class="alert">Thank you very much for your
         support! It will help to make Cyberduck even better!</td>

@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | ftp & sftp browser for the mac.", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X.", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  input.c3 {width:62px; height:31px}
@@ -19,22 +19,14 @@
 </head>
 
 <body id="index">
-  <div align="center" class="standard">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
-      <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
+	<div class="header">
+	<?php echo(echologo("."));?>
+      <?php echo(echotitle());?>
+      <?php echo(echosubmenu("."));?>
+	</div>
 
-        <td valign="bottom" colspan="2" class="box-solid"><br />
-        <br />
-        <?php echo(echotitle());?>
-        <?php echo(echosubmenu("."));?></td>
-      </tr>
-
+  <div class="standard">
+    <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td width="150" valign="top" class="box-filled">
           <p><em>"All the other FTP clients I've used have been
@@ -249,7 +241,6 @@
           "http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
         </td>
       </tr>
-
       <tr>
         <td colspan="3">
           <div class="c3">
@@ -257,7 +248,6 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
-
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

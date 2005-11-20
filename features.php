@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | features", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Features", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -19,26 +19,15 @@
 </head>
 
 <body id="features">
-  <div align="center" class="standard">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
+<div class="header">
+	<?php echo(echologo("."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu("."));?>
+</div>
+  <div class="standard">
+  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="box-filled" valign="top"><strong>Browse SFTP and
+        <td class="box-solid" valign="top"><strong>Browse SFTP and
         FTP servers</strong></td>
 
         <td colspan="2" valign="top" class="box-dash">
@@ -75,7 +64,7 @@
       </tr><?php echo(echogoogle());?>
 
       <tr>
-        <td class="box-filled" valign="top">
+        <td class="box-solid" valign="top">
         <strong>Localizations</strong></td>
 
         <td valign="top" colspan="2" class="box-dash"><em>English,
@@ -89,7 +78,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Seamless
+        <td class="box-solid" valign="top"><strong>Seamless
         integration with external editors</strong><br /></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -122,7 +111,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top">
+        <td class="box-solid" valign="top">
         <strong>Bookmarking</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -157,7 +146,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Supporting all
+        <td class="box-solid" valign="top"><strong>Supporting all
         major transfer protocols</strong></td>
 
         <td colspan="2" valign="top" class="box-dash">
@@ -172,7 +161,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Keychain
+        <td class="box-solid" valign="top"><strong>Keychain
         support</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -186,7 +175,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Secure file
+        <td class="box-solid" valign="top"><strong>Secure file
         transfers with SFTP</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -204,7 +193,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top">
+        <td class="box-solid" valign="top">
         <strong>Transfers</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -224,7 +213,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top">
+        <td class="box-solid" valign="top">
         <strong>Synchronize</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
@@ -241,7 +230,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Modify
+        <td class="box-solid" valign="top"><strong>Modify
         permissions</strong></td>
 
         <td colspan="2" valign="top" class="box-dash">
@@ -254,7 +243,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Bonjour
+        <td class="box-solid" valign="top"><strong>Bonjour
         support</strong></td>
 
         <td valign="top" class="box-dash">
@@ -273,7 +262,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>AppleScript
+        <td class="box-solid" valign="top"><strong>AppleScript
         support</strong></td>
 
         <td valign="top" class="box-dash">
@@ -293,7 +282,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Growl
+        <td class="box-solid" valign="top"><strong>Growl
         support</strong></td>
 
         <td valign="top" class="box-dash">
@@ -314,7 +303,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>Finder
+        <td class="box-solid" valign="top"><strong>Finder
         integration</strong></td>
 
         <td valign="top" class="box-dash">
@@ -338,7 +327,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" valign="top"><strong>ASCII and
+        <td class="box-solid" valign="top"><strong>ASCII and
         binary FTP transfers</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">

@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | reviews", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Reviews", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -16,31 +16,18 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-
-  <title></title>
 </head>
 
 <body id="reviews">
-  <div class="standard" align="center">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
+<div class="header">
+<?php echo(echologo("."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu("."));?>
+</div>
+<div class="standard">
+  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid"><br />
-        <br />
-        <?php echo(echotitle());?>
-        <?php echo(echosubmenu("."));?></td>
-      </tr>
-
-      <tr>
-        <td width="150" class="box-filled"></td>
-
-        <td colspan="2" class="box-dash">
+        <td colspan="3" class="box-dash">
           <p><q cite="marcopetraroia.com">The best FTP and SFTP
           client for Mac OS X I ever tried. Is not because I like
           birds in general, but because it's the best.</q></p>

@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | changelog", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Changelog", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -19,24 +19,13 @@
 </head>
 
 <body id="changelog">
-  <div class="standard" align="center">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
-      <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
-        </td>
-      </tr>
-
+<div class="header">
+<?php echo(echologo("."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu("."));?>
+</div>
+<div class="standard">
+  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td width="150"></td>
 
@@ -47,7 +36,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5.2</strong> <em>Nov-18-2005</em><br />
         <a href="./Cyberduck-2.5.2.dmg">Download</a></td>
 
@@ -60,7 +49,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5.1</strong> <em>Nov-14-2005</em><br />
         <a href="./Cyberduck-2.5.1.dmg">Download</a></td>
 
@@ -81,7 +70,7 @@
         </td>
       </tr>
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5</strong> <em>Aug-29-2005</em><br />
         <a href="./Cyberduck-2.5.dmg">Download</a><br />
         Mac OS X 10.3.9 or later</td>
@@ -106,7 +95,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5b4</strong> <em>Aug-10-2005</em><br />
         <a href="./Cyberduck-2.5b4.dmg">Download</a></td>
 
@@ -129,7 +118,7 @@
       </tr><?php echo(echogoogle());?>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5b3</strong> <em>July-18-2005</em><br />
         <a href="./Cyberduck-2.5b3.dmg">Download</a></td>
 
@@ -171,7 +160,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5b2</strong> <em>May-30-2005</em><br />
         <a href="./Cyberduck-2.5b2.dmg">Download</a></td>
 
@@ -196,7 +185,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4.6</strong> <em>May-30-2005</em><br />
         <a href="./Cyberduck-2.4.6.dmg">Download</a><br />
         Mac OS X 10.3 or later</td>
@@ -229,7 +218,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.5b1</strong> <em>May-04-2005</em><br />
         <a href="./Cyberduck-2.5b1.dmg">Download</a></td>
 
@@ -296,7 +285,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4.5</strong> <em>May-04-2005</em><br />
         <a href="./Cyberduck-2.4.5.dmg">Download</a></td>
 
@@ -315,7 +304,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4.4</strong> <em>April-27-2005</em><br />
         <a href="./Cyberduck-2.4.4.dmg">Download</a></td>
 
@@ -340,7 +329,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4.3</strong> <em>April-11-2005</em><br />
         <a href="./Cyberduck-2.4.3.dmg">Download</a></td>
 
@@ -366,7 +355,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4</strong> <em>March-28-2005</em><br />
         <a href="./Cyberduck-2.4.dmg">Download</a></td>
 
@@ -406,7 +395,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4b4</strong> <em>February-03-2005</em><br />
         <a href="./Cyberduck-2.4b4.dmg">Download</a></td>
 
@@ -436,7 +425,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4b3</strong> <em>January-29-2005</em><br />
         <a href="./Cyberduck-2.4b3.dmg">Download</a></td>
 
@@ -483,7 +472,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4b2</strong> <em>January-06-2005</em><br />
         <a href="./Cyberduck-2.4b2.dmg">Download</a></td>
 
@@ -527,7 +516,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.4b1</strong> <em>December-28-2004</em><br />
         <a href="./Cyberduck-2.4b1.dmg">Download</a></td>
 
@@ -631,7 +620,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3.3</strong> <em>August-09-2004</em><br />
         <a href="./Cyberduck-2.3.3.dmg">Download</a><br />
         Mac OS X 10.2 or later</td>
@@ -644,7 +633,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3.2</strong> <em>August-05-2004</em><br />
         <a href="./Cyberduck-2.3.2.dmg">Download</a></td>
 
@@ -683,7 +672,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3.1</strong> <em>June-15-2004</em><br />
         <a href="./Cyberduck-2.3.1.dmg">Download</a></td>
 
@@ -713,7 +702,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3</strong> <em>May-15-2004</em><br />
         <a href="./Cyberduck-2.3.dmg">Download</a></td>
 
@@ -734,7 +723,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3b2</strong> <em>Apr-27-2004</em><br />
         <a href="./Cyberduck-2.3beta2.dmg">Download</a></td>
 
@@ -797,7 +786,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.3b1</strong> <em>Mar-09-2004</em><br />
         <a href="./Cyberduck-2.3beta1.dmg">Download</a></td>
 
@@ -810,7 +799,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2</strong> <em>Mar-06-2004</em><br />
         <a href="./Cyberduck-2.2.dmg">Download</a></td>
 
@@ -829,7 +818,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b6</strong> <em>Feb-25-2004</em><br />
         <a href="./Cyberduck-2.2beta6.dmg">Download</a></td>
 
@@ -856,7 +845,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b5</strong> <em>Feb-12-2004</em><br />
         <a href="./Cyberduck-2.2beta5.dmg">Download</a></td>
 
@@ -899,7 +888,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b4</strong> <em>Jan-31-2004</em><br />
         <a href="./Cyberduck-2.2beta4.dmg">Download</a></td>
 
@@ -919,7 +908,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b3</strong> <em>Jan-25-2004</em><br />
         <a href="./Cyberduck-2.2beta3.dmg">Download</a></td>
 
@@ -939,7 +928,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b2</strong> <em>Jan-24-2004</em><br />
         <a href="./Cyberduck-2.2beta2.dmg">Download</a></td>
 
@@ -961,7 +950,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.2b1</strong> <em>Jan-22-2004</em> <a href=
         "./Cyberduck-2.2beta1.dmg">Download</a></td>
 
@@ -1004,7 +993,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.1</strong> <em>Dec-08-2003</em><br />
         <a href="./Cyberduck-2.1.dmg">Download</a></td>
 
@@ -1051,7 +1040,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.1b5</strong> <em>Aug-29-2003</em><br />
         <a href="./Cyberduck-2.1beta5.dmg">Download</a></td>
 
@@ -1085,7 +1074,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.1b4</strong> <em>Aug-22-2003</em><br />
         <a href="./Cyberduck-2.1beta4.dmg">Download</a></td>
 
@@ -1100,7 +1089,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.1b3</strong> <em>Aug-17-2003</em><br />
         <a href="./Cyberduck-2.1beta3.dmg">Download</a></td>
 
@@ -1143,7 +1132,7 @@
       </tr>
 
       <tr>
-        <td class="box-filled" width="150" valign="top">
+        <td class="box-solid" width="150" valign="top">
         <strong>2.1b2</strong> <em>Aug-15-2003</em><br />
         <a href="./Cyberduck-2.1beta2.dmg">Download</a></td>
 

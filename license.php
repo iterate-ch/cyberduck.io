@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | license", ".")); ?>
+  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | License", ".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -19,27 +19,20 @@
 </head>
 
 <body id="license">
-  <div class="standard" align="center">
-    <table border="0" cellpadding="5" cellspacing="5" width="700">
+<div class="header">
+<?php echo(echologo("."));?>
+   <?php echo(echotitle());?>
+   <?php echo(echosubmenu("."));?>
+</div>
+<div class="standard">
+  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
-        <td class="box-solid" width="150" valign="middle">
-          <div class="c1">
-            <img src="img/cyberduck.icon.png" width="128" height=
-            "128" alt="Cyberduck" border="0" />
-          </div>
-        </td>
-
-        <td valign="bottom" colspan="2" class="box-solid">
-			 <br />
-			 <br />
-          <?php echo(echotitle());?>
-          <?php echo(echosubmenu("."));?>
-        </td>
-      </tr>
-
-      <tr>
-        <td width="150" class="box-filled"></td>
-
+      <td class="box-solid" width="150">
+        <div class="c1">
+          <img src="./img/gnu.jpg" alt="GNU GPL Software" border=
+          "0" />
+        </div>
+      </td>
         <td colspan="2" class="box-dash">
           <p>Copyright (c) 2004 David Kocher. All rights
           reserved.</p>
@@ -61,14 +54,7 @@
 		<?php echo(echogoogle());?>
 
       <tr>
-        <td width="150">
-          <div class="c1">
-            <img src="./img/gnu.jpg" alt="GNU GPL Software" border=
-            "0" />
-          </div>
-        </td>
-
-        <td colspan="2" valign="top" class="box-dash">This products
+        <td colspan="3" valign="top" class="box-dash">This products
         includes software developed by
         <strong>sshtools.com</strong> (<a href=
         "http://www.sshtools.com">http://www.sshtools.com</a>),
