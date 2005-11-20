@@ -49,8 +49,6 @@
         </td>
       </tr>
 
-		<?php echo(echogoogle());?>
-
       <tr>
         <td class="box-solid" width="150" valign="top">
         <strong>2.5.1</strong> <em>Nov-14-2005</em><br />
@@ -72,6 +70,9 @@
           </ul>
         </td>
       </tr>
+
+		<?php echo(echogoogle());?>
+
       <tr>
         <td class="box-solid" width="150" valign="top">
         <strong>2.5</strong> <em>Aug-29-2005</em><br />
