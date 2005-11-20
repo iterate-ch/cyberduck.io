@@ -12,21 +12,19 @@
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | Features</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | Features</title>
 </head>
 
 <body id="features">
-<div class="header">
-	<?php echo(echologo("."));?>
-   <?php echo(echotitle("."));?>
-   <?php echo(echosubmenu("."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td class="box-solid" valign="top"><strong>Browse SFTP and
         FTP servers</strong></td>
@@ -328,8 +326,8 @@
       </tr>
 
       <tr>
-        <td class="box-solid" valign="top"><strong>ASCII and
-        binary FTP transfers</strong></td>
+        <td class="box-solid" valign="top"><strong>ASCII and binary
+        FTP transfers</strong></td>
 
         <td valign="top" colspan="2" class="box-dash">
           <ul>
@@ -348,6 +346,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

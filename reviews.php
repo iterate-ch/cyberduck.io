@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   include "functions.php";
 ?>
@@ -12,21 +12,19 @@
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | Reviews</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | Reviews</title>
 </head>
 
 <body id="reviews">
-<div class="header">
-<?php echo(echologo("."));?>
-<?php echo(echotitle("."));?>
-   <?php echo(echosubmenu("."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="box-dash">
           <p><q cite="marcopetraroia.com">The best FTP and SFTP
@@ -34,15 +32,15 @@
           birds in general, but because it's the best.</q></p>
 
           <p><q cite="macfanatic.com">Forget the rest, this is the
-          best! (...) I will never use another FTP
-          client again.</q></p>
+          best! (...) I will never use another FTP client
+          again.</q></p>
 
           <p><q cite="minglewithingle.com">Cyberduck is an
           outstanding FTP client for OS X. For the windows users
           out there, imagine if Filezilla was fast, and looked
           nice.</q></p>
 
-          <p><q cite="Comment to macworld.com article">Nice
+          <p><q cite="Comment%20to%20macworld.com%20article">Nice
           article, but I don't use any those. I have found
           Cyberduck to totally and wonderfully take care of my FTP
           needs. It's just free and works great. I like the way it
@@ -56,17 +54,16 @@
 
           <p><q cite="ldopa.net">Cyberduck is hands down the best
           FTP client for Mac OS X. It's free under the GPL and in
-          active development. It just keeps getting better. Give
-          it a try.</q></p>
+          active development. It just keeps getting better. Give it
+          a try.</q></p>
 
           <p><q cite="mac.dtgeeks.com">There are a number of FTP
           clients out for Mac OS X, ranging from (...). However,
-          there is one FTP client that stands out. It's free,
-          it's excellent, and it has a great name: Cyberduck!
-          Cyberduck sports most of the features you'd expect from
-          an FTP client, such as bookmarks, SFTP, the ability to
-          toggle transfer modes, synchonization and so
-          forth.</q></p>
+          there is one FTP client that stands out. It's free, it's
+          excellent, and it has a great name: Cyberduck! Cyberduck
+          sports most of the features you'd expect from an FTP
+          client, such as bookmarks, SFTP, the ability to toggle
+          transfer modes, synchonization and so forth.</q></p>
 
           <p><q cite="wellheard.com">For FTP, Cyberduck is the way
           to go. Full featured, reliable and free. You can even get
@@ -87,11 +84,11 @@
           simple, power FTP client, check this out.</q></p>
 
           <p><q cite="mactouch.com">Nombreux sont ceux qui ont
-          besoin d'un client FTP (pour mettre à jour leur
+          besoin d'un client FTP (pour mettre �&nbsp; jour leur
           site perso par exemple). Les noms qui viennent
-          immédiatement à l'esprit sont (...). Mais
-          Cyberduck, qui existe depuis plus d'un an dans sa
-          version Cocoa, vient les concurrencer.</q></p>
+          immédiatement �&nbsp; l'esprit sont (...). Mais
+          Cyberduck, qui existe depuis plus d'un an dans sa version
+          Cocoa, vient les concurrencer.</q></p>
 
           <p><q cite="macreviewzone.com">It might lack the cachet
           of (...), but when it comes to FTP, David Kocher's
@@ -125,25 +122,25 @@
           Cyberduck about a year ago, and never looked back. A
           great little FTP app, in my opinion.</q></p>
 
-          <p><q cite="Versiontracker.com Comment">I've used this
+          <p><q cite="Versiontracker.com%20Comment">I've used this
           product for 5 minutes and love it! It's much better than
           using the good ol' terminal.</q></p>
 
-          <p><q cite="Versiontracker.com Comment">I recommend it
+          <p><q cite="Versiontracker.com%20Comment">I recommend it
           to all our customers. It just rocks!</q></p>
 
-          <p><q cite="Versiontracker.com Comment">I have given up
+          <p><q cite="Versiontracker.com%20Comment">I have given up
           that aweful (...) and have not looked back. I even sent
           the author a donation since I felt he richly deserved
           it.</q></p>
 
-          <p><q cite="Versiontracker.com Comment">What else can I
+          <p><q cite="Versiontracker.com%20Comment">What else can I
           say? Its the best FTP program I've ever used. Its fast,
           stable, feature-filled, and free. I would recommend that
           anyone that uses (...), (...), (...), and those others
           try Cyberduck.</q></p>
 
-          <p><q cite="Macupdate.com Comment">Wonderful, intuitive
+          <p><q cite="Macupdate.com%20Comment">Wonderful, intuitive
           program that does what it's supposed to...and does it
           well.</q></p>
         </td>

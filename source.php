@@ -12,21 +12,19 @@
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | Source Code</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | Source Code</title>
 </head>
 
 <body id="source">
-<div class="header">
-<?php echo(echologo("."));?>
-<?php echo(echotitle("."));?>
-   <?php echo(echosubmenu("."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="middle" class="box-solid">
           <div class="c1">
@@ -46,8 +44,8 @@
           to build.</p>
 
           <p>You can browse the CVS repository <a href=
-          "http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>. (Warning: Slow
-          connection)</p>
+          "http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>.
+          (Warning: Slow connection)</p>
 
           <p>You can checkout the current unstable version from the
           CVS repository. When prompted for a password for
@@ -60,7 +58,7 @@
           -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot co
           cyberduck-cocoa</tt></p>
 
-          <p>To compile everything, type <tt>make</tt>. You&apos;ll find
+          <p>To compile everything, type <tt>make</tt>. You'll find
           the application in the <i>build</i> folder. For more
           details, see the <a href=
           "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/build/BUILD?rev=HEAD&amp;content-type=text/plain">
@@ -79,9 +77,7 @@
             "http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
           </ul>
         </td>
-      </tr>
-
-      <?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle());?>
 
       <tr>
         <td class="box-solid" valign="top" width="150">
@@ -90,17 +86,17 @@
         </td>
 
         <td colspan="2" class="box-dash">
-	        <ul>
-	          <li><strong>2.5.2</strong> <em>Nov-18-2005</em><br />
-	          <a href=
-	          "cyberduck-src-2.5.2.tar.gz">cyberduck-src-2.5.2.tar.gz</a></li>
-	        </ul>
+          <ul>
+            <li><strong>2.5.2</strong> <em>Nov-18-2005</em><br />
+            <a href=
+            "cyberduck-src-2.5.2.tar.gz">cyberduck-src-2.5.2.tar.gz</a></li>
+          </ul>
 
-	        <ul>
-	          <li><strong>2.5.1</strong> <em>Nov-14-2005</em><br />
-	          <a href=
-	          "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5.1.tar.gz</a></li>
-	        </ul>
+          <ul>
+            <li><strong>2.5.1</strong> <em>Nov-14-2005</em><br />
+            <a href=
+            "cyberduck-src-2.5.1.tar.gz">cyberduck-src-2.5.1.tar.gz</a></li>
+          </ul>
 
           <ul>
             <li><strong>2.5</strong> <em>Aug-29-2005</em><br />
@@ -347,6 +343,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

@@ -16,18 +16,17 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X.</title>
+
+  <title>Cyberduck | FTP for Mac OS X.</title>
 </head>
 
 <body id="index">
-	<div class="header">
-	<?php echo(echologo("."));?>
-   <?php echo(echotitle("."));?>
-      <?php echo(echosubmenu("."));?>
-	</div>
+  <div class="header">
+    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+  </div>
 
-	<div id="content">
-	<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="top" class="box-filled">
           <p><em>"All the other FTP clients I've used have been
@@ -144,9 +143,7 @@
             "Cyberduck Screenshot" /></a>
           </div>
         </td>
-      </tr>
-
-		<?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle());?>
 
       <tr>
         <td width="150" valign="top" class="box-solid">
@@ -202,9 +199,12 @@
             "mailto:bugs@cyberduck.ch">bug reports</a>.</p>
           </div>
 
-			 <div><p><strong>Donations.</strong> Support the development of Cyberduck by
-          making a <a href="./donate">donation</a>. It will help to make Cyberduck even better!</p>
-         </div>
+          <div>
+            <p><strong>Donations.</strong> Support the development
+            of Cyberduck by making a <a href=
+            "./donate">donation</a>. It will help to make Cyberduck
+            even better!</p>
+          </div>
         </td>
 
         <td width="150" valign="top" class="box-dash">
@@ -226,6 +226,7 @@
           "http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
         </td>
       </tr>
+
       <tr>
         <td colspan="3">
           <div class="c3">
@@ -233,6 +234,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

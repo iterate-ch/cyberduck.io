@@ -23,13 +23,13 @@
 	}
 	
 	img#paypal {
-		position:fixed;
+		position:absolute;
 		top:10px;
 		right:30px;
 	}
 
 	img#amazon {
-		position:fixed;
+		position:absolute;
 		top:10px;
 		right:100px;
 	}

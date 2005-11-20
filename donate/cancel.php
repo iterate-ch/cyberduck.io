@@ -16,24 +16,24 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | Donate</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | Donate</title>
 </head>
 
 <body id="donate">
-<div class="header">
-	<?php echo(echologo(".."));?>
-   <?php echo(echotitle(".."));?>
-   <?php echo(echosubmenu(".."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="middle" class="box-dash"><img src=
         "../img/amazon.png" alt="amazon books" border="0" /></td>
 
         <td colspan="2" class="box-dash">
           <div>
-            If you don&apos;t like Paypal you can still support this
+            If you don't like Paypal you can still support this
             project by providing me with some good book to read.
             See my <a href=
             "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
@@ -42,7 +42,7 @@
             amazon.co.uk</a> wishlist.
           </div>
         </td>
-        </tr><?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle());?>
 
       <tr>
         <td colspan="3">
@@ -51,6 +51,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

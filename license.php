@@ -12,28 +12,27 @@
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | License</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | License</title>
 </head>
 
 <body id="license">
-<div class="header">
-<?php echo(echologo("."));?>
-<?php echo(echotitle("."));?>
-   <?php echo(echosubmenu("."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
-      <td class="box-solid" width="150">
-        <div class="c1">
-          <img src="./img/gnu.jpg" alt="GNU GPL Software" border=
-          "0" />
-        </div>
-      </td>
+        <td class="box-solid" width="150">
+          <div class="c1">
+            <img src="./img/gnu.jpg" alt="GNU GPL Software" border=
+            "0" />
+          </div>
+        </td>
+
         <td colspan="2" class="box-dash">
           <p>Copyright (c) 2004 David Kocher. All rights
           reserved.</p>
@@ -71,6 +70,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

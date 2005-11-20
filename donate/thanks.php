@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   include "../functions.php";
 ?>
@@ -16,17 +16,17 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
-<title>Cyberduck | FTP for Mac OS X. | Donate</title>
+
+  <title>Cyberduck | FTP for Mac OS X. | Donate</title>
 </head>
 
 <body id="donate">
-<div class="header">
-<?php echo(echologo(".."));?>
-<?php echo(echotitle(".."));?>
-   <?php echo(echosubmenu(".."));?>
-</div>
-<div id="content">
-<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <div class="header">
+    <?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
+  </div>
+
+  <div id="content">
+    <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="alert">Thank you very much for your
         support! It will help to make Cyberduck even better!</td>
@@ -39,6 +39,7 @@
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
+
           <div class="c3">
             <?php echo(echomenu(".."));?>
           </div>

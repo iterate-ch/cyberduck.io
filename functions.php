@@ -58,7 +58,7 @@
               <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
               <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
               <li><a id=\"navigation-forum\" href=\"".$dir."/forum/\">forum</a></li>
-              <li><a id=\"navigation-source\" href=\"http://svn.cyberduck.ch/trac/cyberduck\">trac</a></li>
+              <li><a id=\"navigation-trac\" href=\"http://svn.cyberduck.ch/trac/cyberduck\">trac</a></li>
               <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source</a></li>
               <li><a id=\"navigation-reviews\" href=\"".$dir."/reviews.php\">reviews</a></li>
               <li><a id=\"navigation-license\" href=\"".$dir."/license.php\">license</a></li>
