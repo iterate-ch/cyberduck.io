@@ -30,7 +30,7 @@
       <tr>
         <td colspan="3" class="alert">Thank you very much for your
         support! It will help to make Cyberduck even better!</td>
-      </tr><?php echo(echogoogle());?>
+      </tr>
 
       <tr>
         <td colspan="3">

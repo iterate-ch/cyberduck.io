@@ -28,8 +28,12 @@
   <div id="content">
     <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
-        <td width="150" valign="middle" class="box-dash"><img src=
-        "../img/amazon.png" alt="amazon books" border="0" /></td>
+        <td width="150" valign="middle" class="box-solid">
+          <div align="center">
+            <img src="../img/amazon.png" alt="amazon books" border=
+            "0" />
+          </div>
+        </td>
 
         <td colspan="2" class="box-dash">
           <div>

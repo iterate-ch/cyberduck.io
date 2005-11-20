@@ -71,7 +71,7 @@
             amazon.co.uk</a> wishlist.
           </div>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr>
 
       <tr>
         <td colspan="3">
