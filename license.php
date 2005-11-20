@@ -52,8 +52,6 @@
         </td>
       </tr>
 
-		<?php echo(echogoogle());?>
-
       <tr>
         <td colspan="3" valign="top" class="box-dash">This products
         includes software developed by

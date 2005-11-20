@@ -49,6 +49,8 @@
         </td>
       </tr>
 
+		<?php echo(echogoogle());?>
+
       <tr>
         <td class="box-solid" width="150" valign="top">
         <strong>2.5.1</strong> <em>Nov-14-2005</em><br />
@@ -116,7 +118,7 @@
             <li>[Bugfix] Refresh issues in outline view</li>
           </ul>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
