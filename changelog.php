@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Changelog", ".")); ?>
+  <?php echo(echoheader(".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -16,15 +16,16 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
+<title>Cyberduck | FTP for Mac OS X. | Changelog</title>
 </head>
 
 <body id="changelog">
 <div class="header">
 <?php echo(echologo("."));?>
-   <?php echo(echotitle());?>
+   <?php echo(echotitle("."));?>
    <?php echo(echosubmenu("."));?>
 </div>
-<div class="standard">
+<div id="content">
   <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td width="150"></td>

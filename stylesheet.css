@@ -4,26 +4,14 @@
 		color: #000000;
 	}
 	
-	.footer {
-		background-color: #cccccc;
-		position:fixed;
-		left:0px;
-		right:0px;
-		top:auto;
-		bottom:5px;
-		height:10%;
-		z-index:2;
-	}
-	
 	.header {
 		background-color: #cccccc;
 		position: absolute;
 		width:100%;
-		height:30%;
+		height:280px;
 		left:0px;
 		right:0px;
 		top:5px;
-		z-index:1;
 	}
 	
 	.header #logo {
@@ -31,7 +19,19 @@
 		top:10px;
 		left:10px;
 		float:left;
-		z-index:4;
+		z-index:2;
+	}
+	
+	img#paypal {
+		position:fixed;
+		top:10px;
+		right:30px;
+	}
+
+	img#amazon {
+		position:fixed;
+		top:10px;
+		right:100px;
 	}
 	
 	#title  {
@@ -65,15 +65,19 @@
 	#navigation ul {
 		padding-left:0;
 		padding-right:60px;
+		padding-top:3px;
+		padding-bottom:0px;
 		background: #fff url(./img/navigation.png) repeat-x;
 		height:20px;
 	}
+	
+	#navigation li {
+
+	}
 
 	#navigation ul li {
-		margin-top:5px;
-		padding-top: 2px;
 		padding-left: 7px;
-		font-weight: bold;
+		font-weight: normal;
 		list-style: none;
 		display: inline;
 	}
@@ -98,25 +102,15 @@
 		width: 120px;
 	}
 	
-	.standard {
+	div#content {
 		position:absolute;
-		top:20%;
+		top:160px;
 		height:auto;
 		width:800px;
 		right:30px;
 		bottom:auto;
 		background-color: #ffffff;
 		line-height: 18px;
-		clear:both;
-		z-index:3;
-	}
-	
-	.spacer {
-		height:40px;
-		z-index:1;
-	}
-	
-	.clear {
 		clear:both;
 	}
 	
@@ -159,7 +153,7 @@
 
 	.box-dash {
 		border-width: 1px 1px 1px 1px;
-		border-color: #000000;
+		border-color: #666666;
 		border-style: dotted;
 	}
 	
@@ -222,7 +216,7 @@
 	}
 	
 	b.light {
-		color: #cccccc;
+		color: #ffffff;
 	}
 	
 	q {

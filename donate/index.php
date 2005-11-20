@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("~dkocher | cyberduck | donate", "..")); ?>
+  <?php echo(echoheader("..")); ?>
   <style type="text/css">
   /*<![CDATA[*/
    input.c3 {width:62px; height:31px}
@@ -17,15 +17,16 @@
  div.c1 {text-align: center}
   /*]]>*/
   </style>
+<title>Cyberduck | FTP for Mac OS X. | Donate</title>
 </head>
 
 <body id="donate">
 <div class="header">
 <?php echo(echologo(".."));?>
-   <?php echo(echotitle());?>
+<?php echo(echotitle(".."));?>
    <?php echo(echosubmenu(".."));?>
 </div>
- <div class="standard">
+<div id="content">
  <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td colspan="3" class="alert">Thank you very much for your
@@ -54,8 +55,9 @@
       </tr>
 
       <tr>
-        <td width="150" valign="middle" class="box-solid"><img src=
-        "../img/amazon.gif" alt="amazon books" border="0" /></td>
+        <td width="150" valign="middle" class="box-solid">
+        <div align="center">
+			<img src="../img/amazon.png" alt="amazon books" border="0" /></div></td>
 
         <td colspan="2" class="box-dash">
           <div>

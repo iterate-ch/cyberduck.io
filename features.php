@@ -8,7 +8,7 @@
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader("Cyberduck | FTP for Mac OS X. | Features", ".")); ?>
+  <?php echo(echoheader(".")); ?>
 <style type="text/css">
 /*<![CDATA[*/
  div.c3 {text-align: right}
@@ -16,15 +16,16 @@
  div.c1 {text-align: center}
 /*]]>*/
 </style>
+<title>Cyberduck | FTP for Mac OS X. | Features</title>
 </head>
 
 <body id="features">
 <div class="header">
 	<?php echo(echologo("."));?>
-   <?php echo(echotitle());?>
+   <?php echo(echotitle("."));?>
    <?php echo(echosubmenu("."));?>
 </div>
-  <div class="standard">
+<div id="content">
   <table border="0" cellpadding="5" cellspacing="5" width="800">
       <tr>
         <td class="box-solid" valign="top"><strong>Browse SFTP and
