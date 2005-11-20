@@ -1,3 +1,5 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
   include "../functions.php";
 ?>
@@ -11,8 +13,6 @@
   /*<![CDATA[*/
    input.c3 {width:62px; height:31px}
  div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
   /*]]>*/
 </style>
 
