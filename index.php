@@ -104,7 +104,7 @@
           <p><strong>Forum.</strong> Discuss anything related to
           Cyberduck in the forum hosted at <a href=
           "./forum">cocoaforge.com</a></p><a href=
-          "./forum"><img width="150" align="center" border="0" alt=
+          "./forum"><img width="150" align="middle" border="0" alt=
           "cocoaforge.com" src="./img/cocoaforge.gif" /></a>
         </td>
       </tr><!-- ======= Macworld ======== -->
@@ -152,7 +152,7 @@
           Interview</a> mit dem Entwickler auf <a href=
           "http://www.pomcast.com/de/">pomcast.com/de</a>.
           (German)<a href="http://www.pomcast.com/de/"><img align=
-          "center" width="150" border="0" alt="pomcast.com/de" src=
+          "middle" width="150" border="0" alt="pomcast.com/de" src=
           "./img/pomfeedde.jpg" /></a></p>
         </td>
 
