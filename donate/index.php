@@ -27,7 +27,7 @@
    <?php echo(echosubmenu(".."));?>
 </div>
 <div id="content">
- <table border="0" cellpadding="5" cellspacing="5" width="800">
+<table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="alert">Thank you very much for your
         support! It will help to make Cyberduck even better!</td>

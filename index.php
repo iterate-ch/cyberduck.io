@@ -27,7 +27,7 @@
 	</div>
 
 	<div id="content">
-    <table border="0" cellpadding="5" cellspacing="5" width="800">
+	<table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="top" class="box-filled">
           <p><em>"All the other FTP clients I've used have been

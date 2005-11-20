@@ -26,7 +26,7 @@
    <?php echo(echosubmenu("."));?>
 </div>
 <div id="content">
-  <table border="0" cellpadding="5" cellspacing="5" width="800">
+<table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td class="box-solid" valign="top"><strong>Browse SFTP and
         FTP servers</strong></td>
