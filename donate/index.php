@@ -38,7 +38,7 @@
             method="post">
               <input type="hidden" name="cmd" value=
               "_s-xclick" /><input type="image" class="c3" src=
-              "https://www.paypal.com/en_US/i/btn/x-click-but04.gif"
+              "../img/paypal.gif"
               border="0" name="submit" alt=
               "Make payments with PayPal - it's fast, free and secure!" /><input type="hidden"
               name="encrypted" value=

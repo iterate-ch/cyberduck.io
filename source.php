@@ -14,8 +14,7 @@
  div.c3 {text-align: right}
 /*]]>*/
 </style>
-
-  <title>Cyberduck | FTP for Mac OS X. | Source Code</title>
+<title>Cyberduck | FTP for Mac OS X. | Source Code</title>
 </head>
 
 <body id="source">
