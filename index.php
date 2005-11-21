@@ -38,7 +38,9 @@
             "http://www.macworld.com/2004/10/features/bargainsweb/index.php">
             <img src="./img/MW_4mouselogo_blu.png" width="90"
             height="67" alt="Macworld Rating" border="0" /></a>
-          </div><!--
+          </div>
+
+          <p>Read more <a href="./reviews.php">reviews.</a></p><!--
           <p><em>"[Cyberduck] is a top FTP client that drops neatly
           into your Mac environment. If you have [...] not yet
           sampled this Swiss delight I recommend you pick it up as
@@ -49,7 +51,8 @@
 
         <td valign="top" class="box-dash">
           <div>
-            <p><strong>About.</strong> Cyberduck is a <a class="ext-link" href=
+            <p><strong>About.</strong> Cyberduck is a <a class=
+            "ext-link" href=
             "http://opensource.org/docs/definition.php">open
             source</a> FTP and SFTP (SSH Secure File Transfer)
             browser licenced under the <a class="ext-link" href=
