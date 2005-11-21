@@ -29,7 +29,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
-          <p>Copyright (c) 2004 David Kocher. All rights
+          <p>Copyright (c) 2002-2005 David Kocher. All rights
           reserved.</p>
 
           <p>This program is free software; you can redistribute it
