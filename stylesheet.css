@@ -138,7 +138,7 @@
 		padding-right: 1mm;
 	}
 
-	div.alert {
+	.alert {
 		padding-left: 2mm;
 		padding-right: 2mm;
 		background-color: #0066cc;
@@ -168,10 +168,6 @@
 		list-style-type: square;
 	}
 	
-	div.image {
-	   align: center;
-	}
-
 	div.image a,
  	div.image a:link,
    div.image a:visited,
@@ -229,5 +225,21 @@
 		float: left;
 		padding-right: 6px;
 		height:16px;
+	}
+	
+	div.screenshot {
+		position:relative;
+		float:left;
+	}
+	
+	div.screenshot a:hover img.screenshot {
+		position:absolute;
+		top:0px;
+		left:0px;
+		display:block;
+	}
+	
+	img.screenshot {
+		display:none;
 	}
 	
