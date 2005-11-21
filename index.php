@@ -107,7 +107,9 @@
       <tr>
         <td width="150" valign="top" class="box-solid">
           <p><strong>Metmac.</strong> Interview in der aktuellen
-          Ausgabe (47/05) des <a class="ext-link" href=
+          Ausgabe (<a class="ext-link" href=
+          "http://www.metamac.de/content/announce/1214/metamac-magazin-neue-ausgabe-erschienen2111">47/05</a>)
+          des <a class="ext-link" href=
           "http://metamac.de">metamac</a> Magazin. <a href=
           "http://metamac.de/"><img align="middle" border="0" alt=
           "metamac.de" src="./img/metamac.png" /></a></p>
