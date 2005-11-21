@@ -92,16 +92,6 @@
           "./forum"><img width="150" align="middle" border="0" alt=
           "cocoaforge.com" src="./img/cocoaforge.gif" /></a>-->
         </td>
-      </tr><!-- ======= Screenshot ======== -->
-
-      <tr>
-        <td colspan="3">
-          <div align="center" class="image">
-            <a href="./img/browser.jpg"><img align="middle" border=
-            "0" src="./img/browser.jpg" alt=
-            "Cyberduck Screenshot" /></a>
-          </div>
-        </td>
       </tr><?php echo(echogoogle());?>
 
       <tr>
@@ -199,6 +189,16 @@
           <p><strong>Quicksilver Module.</strong> Access Cyberduck
           bookmarks from within <a class="ext-link" href=
           "http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
+        </td>
+      </tr><!-- ======= Screenshot ======== -->
+
+      <tr>
+        <td class="box-dash" colspan="3">
+          <div align="center" class="image">
+            <a href="./img/browser.jpg"><img align="middle" border=
+            "0" src="./img/browser.jpg" alt=
+            "Cyberduck Screenshot" /></a>
+          </div>
         </td>
       </tr>
 
