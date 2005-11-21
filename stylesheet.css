@@ -4,14 +4,6 @@
 		color: #000000;
 	}
 	
-	h1 {
-		font-size: 2.0em;
-	}
-	
-	h3 {
-		font-size: 1.2em;
-	}
-	
 	.header {
 		background-color: #cccccc;
 		position: absolute;
@@ -45,20 +37,23 @@
 		right:100px;
 	}
 	
-	#title  {
+	h1#title  {
+		font-size: 3.0em;
 		position:relative;
-		top:15px;
+		top:5px;
 		left:40px;
-		clear:right;
 	}
 
-	#subtitle  {
+	h3#subtitle  {
+		font-size: 1.2em;
 		position:relative;
+		top:-20px;
 		left:40px;
 	}
 	
 	div#navigation {
-		position:absolute;
+		position:relative;
+		top:-20px;
 		width:100%;
 		text-align:right;
 	}
@@ -227,7 +222,7 @@
 		float: left;
 		width: 220px;
 		padding:5px;
-		padding-right:10px;
+		padding-right:15px;
 	}
 	
 	img.feature {
