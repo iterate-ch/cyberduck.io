@@ -49,10 +49,10 @@
 
         <td valign="top" class="box-dash">
           <div>
-            <p><strong>About.</strong> Cyberduck is a <a href=
+            <p><strong>About.</strong> Cyberduck is a <a class="ext-link" href=
             "http://opensource.org/docs/definition.php">open
             source</a> FTP and SFTP (SSH Secure File Transfer)
-            browser licenced under the <a href=
+            browser licenced under the <a class="ext-link" href=
             "http://www.gnu.org/licenses/gpl.html">GPL</a> with an
             easy to use interface, integration with external
             editors and support for many Mac OS X system
