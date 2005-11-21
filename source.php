@@ -4,7 +4,7 @@
   include "functions.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
@@ -31,15 +31,17 @@
         </td>
 
         <td colspan="2" valign="top" class="box-dash">
-          <p>Source code is available licenced unter the <a class="ext-link" href=
+          <p>Source code is available licenced unter the <a class=
+          "ext-link" href=
           "http://www.gnu.org/licenses/gpl.html">GNU General Public
           Licence</a>. You need <a class="ext-link" href=
-          "http://jakarta.apache.org/ant">Ant</a> and <a class="ext-link" href=
+          "http://jakarta.apache.org/ant">Ant</a> and <a class=
+          "ext-link" href=
           "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
           to build.</p>
 
-          <p>You can browse the CVS repository <a class="ext-link" href=
-          "http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>.
+          <p>You can browse the CVS repository <a class="ext-link"
+          href="http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>.
           (Warning: Slow connection)</p>
 
           <p>You can checkout the current unstable version from the
@@ -55,7 +57,7 @@
 
           <p>To compile everything, type <tt>make</tt>. You'll find
           the application in the <i>build</i> folder. For more
-          details, see the <a href=
+          details, see the <a class="ext-link" href=
           "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/build/BUILD?rev=HEAD&amp;content-type=text/plain">
           build instructions</a>.</p>
 

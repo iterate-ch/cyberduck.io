@@ -40,19 +40,19 @@
 
       <p><img src="./img/textmate.png" class="feature" alt="" />
       <strong>External editors</strong><br />
-      Seamless integration with external editors. <a href=
+      Seamless integration with external editors. <a class="ext-link" href=
       "http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>,
-      <a href=
+      <a class="ext-link" href=
       "http://www.barebones.com/products/bbedit/">BBEdit</a>,
-      <a href=
+      <a class="ext-link" href=
       "http://www.barebones.com/products/textwrangler">TextWrangler</a>,
-      <a href="http://www.tex-edit.com/">Text-Edit Plus</a>,
-      <a href="http://macromates.com/">TextMate</a>, <a href=
-      "http://mimikaki.net/">mi</a>, <a href=
-      "http://smultron.sourceforge.net/">Smultron</a>, <a href=
+      <a class="ext-link" href="http://www.tex-edit.com/">Text-Edit Plus</a>,
+      <a class="ext-link" href="http://macromates.com/">TextMate</a>, <a class="ext-link" href=
+      "http://mimikaki.net/">mi</a>, <a class="ext-link" href=
+      "http://smultron.sourceforge.net/">Smultron</a>, <a class="ext-link" href=
       "http://www.artman21.net/product/JeditX/">JeditX</a>,
-      <a href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a href=
-      "http://www.aynimac.com/">CotEditor</a> and <a href=
+      <a class="ext-link" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext-link" href=
+      "http://www.aynimac.com/">CotEditor</a> and <a class="ext-link" href=
       "http://www.talacia.com/">Tag</a>.</p>
 
       <p><img src="./img/gnu.png" class="feature" alt="" />
@@ -62,13 +62,13 @@
       <p><img src="./img/growl.png" class="feature" alt="" />
       <strong>Growl</strong><br />
       Support for Growl, the global notification system. See
-      <a href="http://growl.info/">growl.info</a>.</p>
+      <a class="ext-link" href="http://growl.info/">growl.info</a>.</p>
     </div>
 
     <div class="feature">
       <p><img src="./img/spotlight.png" class="feature" alt="" />
       <strong>Spotlight</strong><br />
-      <a href=
+      <a class="ext-link" href=
       "http://www.apple.com/macosx/features/spotlight/">Spotlight</a>
       Importer for bookmark files.</p>
 
@@ -85,7 +85,7 @@
       <p><img src="./img/finder.png" class="feature" alt="" />
       <strong>Integration</strong><br />
       Use Cyberduck as default system wide protocol handler for FTP
-      (Requires <a href=
+      (Requires <a class="ext-link" href=
       "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>).
       Open .inetloc files and .duck bookmark files from the
       Finder.</p>
@@ -100,7 +100,7 @@
 
       <p><img src="./img/applescript.png" class="feature" alt="" />
       <strong>AppleScript</strong><br />
-      Full AppleScript integration. See the <a href=
+      Full AppleScript integration. See the <a class="ext-link" href=
       "http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/">
       sample scripts</a> (included on the disk image).</p>
     </div>
@@ -108,14 +108,14 @@
     <div class="feature">
       <p><img src="./img/keychain.png" class="feature" alt="" />
       <strong>Keychain</strong><br />
-      All passwords are stored in the system <a href=
+      All passwords are stored in the system <a class="ext-link" href=
       "http://www.apple.com/macosx/features/security/">Keychain</a>
       as Internet passwords available also to third party
       applications.</p>
 
       <p><img src="./img/idisk.png" class="feature" alt="" />
       <strong>iDisk</strong><br />
-      Synchronize bookmarks with <a href=
+      Synchronize bookmarks with <a class="ext-link" href=
       "http://www.apple.com/macosx/features/dotmacsync/">.Mac
       iDisk</a>.</p>
 
