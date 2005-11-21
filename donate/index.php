@@ -62,9 +62,9 @@
           <div>
             If you don't like Paypal you can still support this
             project by providing me with some good book to read.
-            See my <a href=
+            See my <a class="ext-link" href=
             "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
-            amazon.de</a> or <a href=
+            amazon.de</a> or <a class="ext-link" href=
             "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
             amazon.co.uk</a> wishlist.
           </div>
@@ -74,7 +74,7 @@
       <tr>
         <td colspan="3">
           <div align="right">
-            <a href=
+            <a class="ext-link" href=
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>

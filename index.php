@@ -147,6 +147,10 @@
           (German)<a href="http://www.pomcast.com/de/"><img align=
           "middle" width="150" border="0" alt="pomcast.com/de" src=
           "./img/pomfeedde.jpg" /></a></p>
+
+          <p><strong>Metmac.</strong> Interview in der aktuellen
+          Ausgabe (47/05) des <a href=
+          "http://metamac.de">metamac</a> Magazin.</p>
         </td>
 
         <td valign="top" class="box-dash">
@@ -190,7 +194,8 @@
             For bug reports and feature suggestions you should
             issue a <a href=
             "http://svn.cyberduck.ch/trac/cyberduck/newticket">new
-            ticket</a> in the <a href="http://svn.cyberduck.ch/trac/cyberduck">tracker</a>.</p>
+            ticket</a> in the <a href=
+            "http://svn.cyberduck.ch/trac/cyberduck">tracker</a>.</p>
           </div>
 
           <div>
