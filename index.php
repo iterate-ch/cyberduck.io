@@ -96,7 +96,7 @@
 
       <tr>
         <td width="150" valign="top" class="box-solid">
-          <p><strong>Metmac.</strong> Interview in der aktuellen
+          <p><strong>Metamac.</strong> Interview in der aktuellen
           Ausgabe (<a class="ext-link" href=
           "http://www.metamac.de/content/announce/1214/metamac-magazin-neue-ausgabe-erschienen2111">47/05</a>)
           des <a class="ext-link" href=
