@@ -31,14 +31,14 @@
         </td>
 
         <td colspan="2" valign="top" class="box-dash">
-          <p>Source code is available licenced unter the <a href=
+          <p>Source code is available licenced unter the <a class="ext-link" href=
           "http://www.gnu.org/licenses/gpl.html">GNU General Public
-          Licence</a>. You need <a href=
-          "http://jakarta.apache.org/ant">Ant</a> and <a href=
+          Licence</a>. You need <a class="ext-link" href=
+          "http://jakarta.apache.org/ant">Ant</a> and <a class="ext-link" href=
           "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
           to build.</p>
 
-          <p>You can browse the CVS repository <a href=
+          <p>You can browse the CVS repository <a class="ext-link" href=
           "http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>.
           (Warning: Slow connection)</p>
 
@@ -62,13 +62,13 @@
           <p>Dependencies:</p>
 
           <ul>
-            <li>Growl.framework, <a href=
+            <li>Growl.framework, <a class="ext-link" href=
             "http://growl.info">growl.info</a></li>
 
-            <li>Keychain.framework, <a href=
+            <li>Keychain.framework, <a class="ext-link" href=
             "http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
 
-            <li>DotMacKit.framework, <a href=
+            <li>DotMacKit.framework, <a class="ext-link" href=
             "http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
           </ul>
         </td>

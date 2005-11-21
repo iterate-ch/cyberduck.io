@@ -24,7 +24,7 @@
         <td width="150"></td>
 
         <td colspan="2" class="box-solid">(There is also an
-        <a href="./changelog.rss">RSS</a> feed and <a href=
+        <a href="./changelog.rss">RSS</a> feed and <a class="ext-link" href=
         "http://cvs.cyberduck.ch/cyberduck-cocoa/Changelog.txt?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">
         text</a> file.)</td>
       </tr>
