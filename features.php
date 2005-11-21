@@ -4,7 +4,7 @@
   include "functions.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
@@ -91,7 +91,7 @@
           <a href="http://www.aynimac.com/">CotEditor</a>, <a href=
           "http://www.talacia.com/">Tag</a>
 
-          <div class="c1">
+          <div align="center">
             <img src="./img/subethaedit.png" height="64" alt=
             "Subethaedit" border="0" /> <img src=
             "./img/textmate.png" height="64" alt="TextMate" border=
@@ -130,7 +130,7 @@
             Importer for bookmark files</li>
           </ul>
 
-          <div class="c1">
+          <div align="center">
             <img src="./img/spotlight.jpg" height="64" alt=
             "Spotlight" border="0" /> <img src="./img/document.jpg"
             height="64" alt="Document" border="0" /> <img src=
@@ -240,24 +240,31 @@
         <td class="box-solid" valign="top"><strong>Bonjour
         support</strong></td>
 
+        <td valign="middle">
+          <div align="center">
+            <img src="./img/rendezvous.png" alt="Bonjour support"
+            border="0" />
+          </div>
+        </td>
+
         <td valign="top" class="box-dash">
           <ul>
             <li>Auto discovery of services on the local
             network</li>
           </ul>
         </td>
-
-        <td valign="middle">
-          <div class="c1">
-            <img src="./img/rendezvous.png" alt="Bonjour support"
-            border="0" />
-          </div>
-        </td>
       </tr>
 
       <tr>
         <td class="box-solid" valign="top"><strong>AppleScript
         support</strong></td>
+
+        <td valign="middle">
+        <div align="center">
+            <img src="./img/applescript.jpg" height="64" alt=
+            "Applescript" border="0" />
+          </div>
+        </td>
 
         <td valign="top" class="box-dash">
           <ul>
@@ -266,18 +273,18 @@
             sample scripts</a> (included on the disk image).</li>
           </ul>
         </td>
-
-        <td valign="middle">
-          <div class="c1">
-            <img src="./img/applescript.jpg" height="64" alt=
-            "Applescript" border="0" />
-          </div>
-        </td>
       </tr>
 
       <tr>
         <td class="box-solid" valign="top"><strong>Growl
         support</strong></td>
+
+        <td valign="middle">
+        <div align="center">
+            <img src="./img/growl.png" height="64" alt="Growl"
+            border="0" />
+          </div>
+        </td>
 
         <td valign="top" class="box-dash">
           <ul>
@@ -287,18 +294,18 @@
             information.</li>
           </ul>
         </td>
-
-        <td valign="middle">
-          <div class="c1">
-            <img src="./img/growl.png" height="64" alt="Growl"
-            border="0" />
-          </div>
-        </td>
       </tr>
 
       <tr>
         <td class="box-solid" valign="top"><strong>Finder
         integration</strong></td>
+
+        <td valign="middle">
+        <div align="center">
+            <img src="./img/document.jpg" height="64" alt="Growl"
+            border="0" />
+          </div>
+        </td>
 
         <td valign="top" class="box-dash">
           <ul>
@@ -310,13 +317,6 @@
 
             <li>Opens .duck bookmark files from the Finder.</li>
           </ul>
-        </td>
-
-        <td valign="middle">
-          <div class="c1">
-            <img src="./img/document.jpg" height="64" alt="Growl"
-            border="0" />
-          </div>
         </td>
       </tr>
 
