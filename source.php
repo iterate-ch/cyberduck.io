@@ -21,7 +21,7 @@
   <div id="content">
     <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
-        <td width="150" valign="middle" class="box-solid">
+        <td width="150" valign="middle" class="box-filled">
           <div align="center">
             <img src="./img/javafile.png" alt="Java Source" border=
             "0" /><br />
