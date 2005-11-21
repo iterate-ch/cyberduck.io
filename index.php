@@ -9,13 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader(".")); ?>
-<style type="text/css">
-/*<![CDATA[*/
- input.c3 {width:62px; height:31px}
- div.c3 {text-align: right}
- div.c1 {text-align: center}
-/*]]>*/
-</style>
 
   <title>Cyberduck | FTP for Mac OS X.</title>
 </head>
@@ -111,7 +104,7 @@
 
       <tr>
         <td valign="middle" width="150" class="box-solid">
-          <div class="c1">
+          <div align="center">
             <a href=
             "http://www.macworld.com/2004/10/features/bargainsweb/index.php">
             <img src="./img/MW_4mouselogo_blu.png" width="90"
@@ -212,7 +205,7 @@
           <a href="http://growl.info">Growl</a>, a global
           notification system Cyberduck supports.</p>
 
-          <div class="c1">
+          <div align="center">
             <a href="http://growl.info"><img src=
             "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
           </div>
@@ -229,13 +222,13 @@
 
       <tr>
         <td colspan="3">
-          <div class="c3">
+          <div align="right">
             <a href=
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
 
-          <div class="c3">
+          <div align="right">
             <?php echo(echomenu(".."));?>
           </div>
         </td>

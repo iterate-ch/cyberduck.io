@@ -9,13 +9,6 @@
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("..")); ?>
-<style type="text/css">
-/*<![CDATA[*/
- div.c3 {text-align: right}
- div.c2 {text-align: left}
- div.c1 {text-align: center}
-/*]]>*/
-</style>
 
   <title>Cyberduck | FTP for Mac OS X. | Donate</title>
 </head>
@@ -50,13 +43,13 @@
 
       <tr>
         <td colspan="3">
-          <div class="c3">
+          <div align="right">
             <a href=
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$
           </div>
 
-          <div class="c3">
+          <div align="right">
             <?php echo(echomenu(".."));?>
           </div>
         </td>
