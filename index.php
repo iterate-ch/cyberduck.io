@@ -205,7 +205,7 @@
       <tr>
         <td class="box-solid" width="150">
           <div align="center">
-            <img src="./img/gnu.jpg" alt="GNU GPL Software" border=
+            <img src="./img/gnu.png" alt="GNU GPL Software" border=
             "0" />
           </div>
         </td>
