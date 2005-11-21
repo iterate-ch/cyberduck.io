@@ -186,10 +186,11 @@
             Please have a look at the <a href=
             "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
             credits</a> to see who contributed. I appreciate any
-            <a href="mailto:feedback@cyberduck.ch">comments</a>,
-            <a href="mailto:feedback@cyberduck.ch">feature
-            suggestions</a> and <a href=
-            "mailto:bugs@cyberduck.ch">bug reports</a>.</p>
+            <a href="mailto:feedback@cyberduck.ch">feedback</a>.
+            For bug reports and feature suggestions you should
+            issue a <a href=
+            "http://svn.cyberduck.ch/trac/cyberduck/newticket">new
+            ticket</a> in the <a href="http://svn.cyberduck.ch/trac/cyberduck">tracker</a>.</p>
           </div>
 
           <div>
