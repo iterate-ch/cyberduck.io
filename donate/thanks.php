@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   include "../functions.php";
 ?>
@@ -24,21 +24,13 @@
         <td colspan="3" class="alert">Thank you very much for your
         support! It will help to make Cyberduck even better!</td>
       </tr>
-
-      <tr>
-        <td colspan="3">
-          <div align="right">
-            <a href=
-            "http://validator.w3.org/check/referer">Validate</a>,
-            $Date$
-          </div>
-
-          <div align="right">
-            <?php echo(echomenu(".."));?>
-          </div>
-        </td>
-      </tr>
     </table>
+
+    <div class="footer">
+      <a href="http://validator.w3.org/check/referer">Validate</a>,
+      $Date$<br />
+      <?php echo(echomenu(".."));?>
+    </div>
   </div>
 </body>
 </html>

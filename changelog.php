@@ -4,7 +4,7 @@
   include "functions.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
@@ -24,7 +24,8 @@
         <td width="150"></td>
 
         <td colspan="2" class="box-solid">(There is also an
-        <a href="./changelog.rss">RSS</a> feed and <a class="ext-link" href=
+        <a href="./changelog.rss">RSS</a> feed and <a class=
+        "ext-link" href=
         "http://cvs.cyberduck.ch/cyberduck-cocoa/Changelog.txt?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">
         text</a> file.)</td>
       </tr>
@@ -1174,21 +1175,13 @@
           page.</p>
         </td>
       </tr>
-
-      <tr>
-        <td colspan="3">
-          <div align="right">
-            <a href=
-            "http://validator.w3.org/check/referer">Validate</a>,
-            $Date$
-          </div>
-
-          <div align="right">
-            <?php echo(echomenu(".."));?>
-          </div>
-        </td>
-      </tr>
     </table>
+
+    <div class="footer">
+      <a href="http://validator.w3.org/check/referer">Validate</a>,
+      $Date$<br />
+      <?php echo(echomenu(".."));?>
+    </div>
   </div>
 </body>
 </html>

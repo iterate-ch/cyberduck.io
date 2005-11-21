@@ -64,7 +64,7 @@
 		</div>";
     }
 
-   function echomenu($dir) {
+   function echomenu() {
               return "<a href=\"http://sudo.ch/\">sudo.ch</a> | <a href=\"http://cyberduck.ch/\">cyberduck.ch</a>";
      }
 

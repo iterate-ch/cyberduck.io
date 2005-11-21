@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   include "functions.php";
 ?>
@@ -40,19 +40,24 @@
 
       <p><img src="./img/textmate.png" class="feature" alt="" />
       <strong>External editors</strong><br />
-      Seamless integration with external editors. <a class="ext-link" href=
+      Seamless integration with external editors. <a class=
+      "ext-link" href=
       "http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>,
       <a class="ext-link" href=
       "http://www.barebones.com/products/bbedit/">BBEdit</a>,
       <a class="ext-link" href=
       "http://www.barebones.com/products/textwrangler">TextWrangler</a>,
-      <a class="ext-link" href="http://www.tex-edit.com/">Text-Edit Plus</a>,
-      <a class="ext-link" href="http://macromates.com/">TextMate</a>, <a class="ext-link" href=
-      "http://mimikaki.net/">mi</a>, <a class="ext-link" href=
-      "http://smultron.sourceforge.net/">Smultron</a>, <a class="ext-link" href=
+      <a class="ext-link" href="http://www.tex-edit.com/">Text-Edit
+      Plus</a>, <a class="ext-link" href=
+      "http://macromates.com/">TextMate</a>, <a class="ext-link"
+      href="http://mimikaki.net/">mi</a>, <a class="ext-link" href=
+      "http://smultron.sourceforge.net/">Smultron</a>, <a class=
+      "ext-link" href=
       "http://www.artman21.net/product/JeditX/">JeditX</a>,
-      <a class="ext-link" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext-link" href=
-      "http://www.aynimac.com/">CotEditor</a> and <a class="ext-link" href=
+      <a class="ext-link" href=
+      "http://macrabbit.com/cssedit/">CSSEdit</a>, <a class=
+      "ext-link" href="http://www.aynimac.com/">CotEditor</a> and
+      <a class="ext-link" href=
       "http://www.talacia.com/">Tag</a>.</p>
 
       <p><img src="./img/gnu.png" class="feature" alt="" />
@@ -62,7 +67,8 @@
       <p><img src="./img/growl.png" class="feature" alt="" />
       <strong>Growl</strong><br />
       Support for Growl, the global notification system. See
-      <a class="ext-link" href="http://growl.info/">growl.info</a>.</p>
+      <a class="ext-link" href=
+      "http://growl.info/">growl.info</a>.</p>
     </div>
 
     <div class="feature">
@@ -100,7 +106,8 @@
 
       <p><img src="./img/applescript.png" class="feature" alt="" />
       <strong>AppleScript</strong><br />
-      Full AppleScript integration. See the <a class="ext-link" href=
+      Full AppleScript integration. See the <a class="ext-link"
+      href=
       "http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/">
       sample scripts</a> (included on the disk image).</p>
     </div>
@@ -108,7 +115,8 @@
     <div class="feature">
       <p><img src="./img/keychain.png" class="feature" alt="" />
       <strong>Keychain</strong><br />
-      All passwords are stored in the system <a class="ext-link" href=
+      All passwords are stored in the system <a class="ext-link"
+      href=
       "http://www.apple.com/macosx/features/security/">Keychain</a>
       as Internet passwords available also to third party
       applications.</p>
@@ -140,15 +148,12 @@
       (3DES, Blowfish, Twofish, AES, CAST) and Authentication
       algorithms (MD5, SHA1).</p>
     </div>
-  </div>
 
-  <div align="right">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$
-  </div>
-
-  <div align="right">
-    <?php echo(echomenu(".."));?>
+    <div class="footer">
+      <a href="http://validator.w3.org/check/referer">Validate</a>,
+      $Date$<br />
+      <?php echo(echomenu(".."));?>
+    </div>
   </div>
 </body>
 </html>

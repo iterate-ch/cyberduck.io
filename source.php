@@ -332,21 +332,13 @@
           </ul>
         </td>
       </tr>
-
-      <tr>
-        <td colspan="3">
-          <div align="right">
-            <a href=
-            "http://validator.w3.org/check/referer">Validate</a>,
-            $Date$
-          </div>
-
-          <div align="right">
-            <?php echo(echomenu(".."));?>
-          </div>
-        </td>
-      </tr>
     </table>
+
+    <div class="footer">
+      <a href="http://validator.w3.org/check/referer">Validate</a>,
+      $Date$<br />
+      <?php echo(echomenu(".."));?>
+    </div>
   </div>
 </body>
 </html>

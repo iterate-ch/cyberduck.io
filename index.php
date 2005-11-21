@@ -239,21 +239,13 @@
         (<a class="ext-link" href=
         "http://jakarta.apache.org">http://jakarta.apache.org</a>).</td>
       </tr>
-
-      <tr>
-        <td colspan="3">
-          <div align="right">
-            <a class="ext-link" href=
-            "http://validator.w3.org/check/referer">Validate</a>,
-            $Date$
-          </div>
-
-          <div align="right">
-            <?php echo(echomenu(".."));?>
-          </div>
-        </td>
-      </tr>
     </table>
+
+    <div class="footer">
+      <a href="http://validator.w3.org/check/referer">Validate</a>,
+      $Date$<br />
+      <?php echo(echomenu(".."));?>
+    </div>
   </div>
 </body>
 </html>

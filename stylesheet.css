@@ -4,6 +4,10 @@
 		color: #000000;
 	}
 	
+	div.footer {
+		text-align:right;
+	}
+	
 	div.header {
 		background-color: #cccccc;
 		position: absolute;
