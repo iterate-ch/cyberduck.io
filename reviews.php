@@ -78,13 +78,6 @@
           any file on the server. (...) If you are looking for a
           simple, power FTP client, check this out.</q></p>
 
-          <p><q cite="mactouch.com">Nombreux sont ceux qui ont
-          besoin d'un client FTP (pour mettre �&nbsp; jour leur
-          site perso par exemple). Les noms qui viennent
-          immédiatement �&nbsp; l'esprit sont (...). Mais
-          Cyberduck, qui existe depuis plus d'un an dans sa version
-          Cocoa, vient les concurrencer.</q></p>
-
           <p><q cite="macreviewzone.com">It might lack the cachet
           of (...), but when it comes to FTP, David Kocher's
           open-source Cyberduck should be taken seriously. (...)
@@ -145,7 +138,7 @@
     <div class="footer">
       <a href="http://validator.w3.org/check/referer">Validate</a>,
       $Date$<br />
-      <?php echo(echomenu(".."));?>
+      <?php echo(echomenu());?>
     </div>
   </div>
 </body>
