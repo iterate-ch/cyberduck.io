@@ -18,7 +18,7 @@
     <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
   </div>
 
-  <div id="content">
+  <div class="content">
     <div class="feature">
       <p><img src="./img/ftp.png" class="feature" alt="" />
       <strong>Protocols</strong><br />

@@ -4,7 +4,7 @@
 		color: #000000;
 	}
 	
-	.header {
+	div.header {
 		background-color: #cccccc;
 		position: absolute;
 		width:100%;
@@ -14,12 +14,23 @@
 		top:5px;
 	}
 	
-	.header #logo {
+	div.header #logo {
 		position:relative;
 		top:10px;
 		left:10px;
 		float:left;
 		z-index:2;
+	}
+	
+	div.content {
+		position:absolute;
+		top:160px;
+		height:auto;
+		width:80%;
+		right:30px;
+		bottom:auto;
+		background-color: #ffffff;
+		line-height: 18px;
 	}
 	
 	.ext-link { background: url(./img/extlink.gif) no-repeat 0 58%; padding-bottom: 1px; padding-left: 16px }
@@ -104,17 +115,6 @@
 		width: 120px;
 	}
 	
-	div#content {
-		position:absolute;
-		top:160px;
-		height:auto;
-		width:80%;
-		right:30px;
-		bottom:auto;
-		background-color: #ffffff;
-		line-height: 18px;
-	}
-	
 	.emphasized {
 		line-height: 18px;
 		color: #000000;
@@ -138,7 +138,7 @@
 		padding-right: 1mm;
 	}
 
-	.alert {
+	div.alert {
 		padding-left: 2mm;
 		padding-right: 2mm;
 		background-color: #0066cc;
