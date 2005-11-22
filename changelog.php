@@ -83,7 +83,7 @@
             <li>[Bugfix] Overwriting group writable files</li>
           </ul>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle("3"));?>
 
       <tr>
         <td class="box-solid" width="150" valign="top">

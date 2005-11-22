@@ -74,7 +74,7 @@
             "http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
           </ul>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle("3"));?>
 
       <tr>
         <td class="box-solid" valign="top" width="150">

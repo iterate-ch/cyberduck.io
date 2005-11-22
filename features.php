@@ -157,6 +157,8 @@
           </div>
         </td>
       </tr>
+		<?php echo(echogoogle("1"));?>
+
     </table>
   </div>
 

@@ -13,13 +13,13 @@
 ";
     }
 
-	  function echogoogle() {
+	  function echogoogle($colspan) {
 	  		return "
 	<tr>
-	  		<td class=\"alert\" colspan=\"3\">
+	  		<td class=\"alert\" colspan=\"".$colspan."\">
 	  		<script type=\"text/javascript\"><!--
 	  		google_ad_client = \"pub-9176652804694766\";
-	  		google_ad_width = 728;
+	  		google_ad_width = 700;
 	  		google_ad_height = 90;
 	  		google_ad_format = \"728x90_as\";
 	  		google_ad_type = \"text\";

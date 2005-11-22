@@ -102,7 +102,7 @@
             "Cyberduck Screenshot" /></a>
           </div>
         </td>
-      </tr><?php echo(echogoogle());?>
+      </tr><?php echo(echogoogle("3"));?>
 
       <tr>
         <td width="150" valign="top" class="box-solid">
