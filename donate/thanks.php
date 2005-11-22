@@ -25,12 +25,12 @@
         support! It will help to make Cyberduck even better!</td>
       </tr>
     </table>
+  </div>
 
-    <div class="footer">
-      <a href="http://validator.w3.org/check/referer">Validate</a>,
-      $Date$<br />
-      <?php echo(echomenu());?>
-    </div>
+  <div class="footer">
+    <a href="http://validator.w3.org/check/referer">Validate</a>,
+    $Date$<br />
+    <?php echo(echomenu());?>
   </div>
 </body>
 </html>

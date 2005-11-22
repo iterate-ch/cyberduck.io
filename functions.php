@@ -43,11 +43,11 @@
 		";
 	}
     function echotitle($dir) {
-        return "<h1 id=\"title\">Cyberduck</h1><h3 id=\"subtitle\">FTP and SFTP Browser for Mac OS X. <b class=\"light\">Universal.</b></h3>
-<a href=\"$dir/donate\"><img id=\"amazon\" src=\"$dir/img/amazon.png\"
+        return "<div id=\"title\"><h1 id=\"title\">Cyberduck</h1><h3 id=\"subtitle\">FTP and SFTP Browser for Mac OS X. <b class=\"light\">Universal.</b></h3></div>
+<div id=\"donate\"><a href=\"$dir/donate\"><img id=\"amazon\" src=\"$dir/img/amazon.png\"
 	border=\"0\" alt=\"Amazon\"></img></a>
 		<a href=\"$dir/donate\"><img id=\"paypal\" src=\"$dir/img/paypal.gif\"
-		border=\"0\" alt=\"Paypal\"></img></a>";
+		border=\"0\" alt=\"Paypal\"></img></a></div>";
     }
     
     function echosubmenu($dir) {

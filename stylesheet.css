@@ -1,23 +1,41 @@
+	html {
+		margin:0px; padding:0px;
+	}
+
+	body {	
+		width:100%;
+	  	margin-right:auto;
+		margin-left:auto;
+		padding:0px;
+	}
+
 	body { 
 		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 		font-size: 0.85em;
 		color: #000000;
 	}
-	
+		
 	div.footer {
-		clear:both;
+		position:absolute;
+		visibility:hidden;
+		line-height:12px;
+		height:30px;
+		width:100%;
+		top:auto;
+		right:0px;
+		bottom:0px;
 		text-align:right;
+		background-color: #cccccc;
 	}
 	
 	div.header {
-		background-color: #cccccc;
 		position:absolute;
 		width:100%;
-		height:280px;
+		height:300px;
 		left:0px;
 		right:0px;
 		top:5px;
-		bottom:auto;
+		background-color: #cccccc;
 	}
 	
 	div.header #logo {
@@ -31,10 +49,12 @@
 	div.content {
 		position:absolute;
 		top:160px;
-		height:auto;
+		left:auto;
+		bottom:auto;
+		right:auto;
+		padding-bottom:15px;
 		width:90%;
 		right:30px;
-		bottom:auto;
 		background-color: #ffffff;
 		line-height: 18px;
 	}
@@ -42,35 +62,47 @@
 	.ext-link { background: url(./img/extlink.gif) no-repeat 0 58%; padding-bottom: 1px; padding-left: 16px }
 	* html .ext-link { background-position: 0 .35em } /* IE hack, see #937 */
 	
-	img#paypal {
+	div#donate {
 		position:absolute;
-		top:10px;
+		top:5px;
 		right:30px;
+	}
+	
+	img#paypal {
+		position:relative;
+		float:right;
+		right:10px;
 	}
 
 	img#amazon {
-		position:absolute;
-		top:10px;
-		right:100px;
+		position:relative;
+		float:right;
+	}
+	
+	div#title {
+		position:relative;
+		float:left;
+		margin-left:30px;
+		top:5px;
 	}
 	
 	h1#title  {
-		font-size: 3.0em;
 		position:relative;
-		top:5px;
-		left:40px;
+		float:left;
+		font-size: 3.0em;
 	}
 
 	h3#subtitle  {
-		font-size: 1.2em;
 		position:relative;
-		top:-20px;
-		left:40px;
+		clear:left;
+		font-size: 1.2em;
+		top:-25px;
 	}
 	
 	div#navigation {
-		position:relative;
-		top:-20px;
+		position:absolute;
+		top:100px;
+		left:0px;
 		width:100%;
 		text-align:right;
 	}

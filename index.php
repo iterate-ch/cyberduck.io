@@ -240,12 +240,12 @@
         "http://jakarta.apache.org">http://jakarta.apache.org</a>).</td>
       </tr>
     </table>
+  </div>
 
-    <div class="footer">
-      <a href="http://validator.w3.org/check/referer">Validate</a>,
-      $Date$<br />
-      <?php echo(echomenu());?>
-    </div>
+  <div class="footer">
+    <a href="http://validator.w3.org/check/referer">Validate</a>,
+    $Date$<br />
+    <?php echo(echomenu());?>
   </div>
 </body>
 </html>
