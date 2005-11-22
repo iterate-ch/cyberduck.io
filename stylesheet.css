@@ -199,6 +199,12 @@
 		border-color: #666666;
 		border-style: dotted;
 	}
+	
+	td#screenshot {
+		border-width: 0px 1px 0px 1px;
+		border-color: #666666;
+		border-style: dotted;
+	}
 		
 	ul {
 		padding-left: 5mm;

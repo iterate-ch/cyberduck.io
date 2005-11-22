@@ -95,8 +95,8 @@
       </tr><!-- ======= Screenshot ======== -->
 
       <tr>
-        <td class="box-dash" colspan="3">
-          <div align="center" class="image">
+        <td id="screenshot" colspan="3">
+          <div align="center" id="screenshot">
             <a href="./img/browser.jpg"><img align="middle" border=
             "0" src="./img/browser.jpg" alt=
             "Cyberduck Screenshot" /></a>
