@@ -60,6 +60,7 @@
               <li><a class=\"ext-link\" id=\"navigation-forum\" href=\"".$dir."/forum/\">forum</a></li>
               <li><a class=\"ext-link\" id=\"navigation-trac\" href=\"http://svn.cyberduck.ch/trac/cyberduck\">development</a></li>
               <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source</a></li>
+<li><a id=\"navigation-help\" href=\"".$dir."/help\">help</a></li>
 			</ul>
 		</div>";
     }
