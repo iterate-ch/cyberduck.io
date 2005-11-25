@@ -40,7 +40,7 @@
             French, German, Italian, Japanese, Korean, Norwegian,
             Portuguese, Slovak, Spanish, Chinese (Traditional and
             Simplified), Russian, Swedish, Hungarian, Danish,
-            Polish, Indonesian and Catalan</em>.</p>
+            Polish, Indonesian, Catalan and Welsh</em>.</p>
 
             <p><img src="./img/textmate.png" class="feature" alt=
             "" /> <strong>External editors</strong><br />

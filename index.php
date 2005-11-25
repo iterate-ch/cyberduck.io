@@ -67,8 +67,8 @@
           Dutch, Finnish, French, German, Italian, Japanese,
           Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese
           (Traditional and Simplified), Russian, Swedish,
-          Hungarian, Danish, Polish, Indonesian and Catalan</em>.
-          Many thanks to all <a class="ext-link" href=
+          Hungarian, Danish, Polish, Indonesian, Catalan and
+          Welsh</em>. Many thanks to all <a class="ext-link" href=
           "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
           contributors</a>!</p>
         </td>
@@ -91,6 +91,11 @@
           href="./forum">cocoaforge.com</a></p><a href=
           "./forum"><img width="150" align="middle" border="0" alt=
           "cocoaforge.com" src="./img/cocoaforge.gif" /></a>-->
+
+          <!--<p><strong>Blog.</strong> <a href=
+          "http://sudo.ch/~dkocher/feed/">Subscribe</a> to the the
+          developer's <a class="ext-link" href=
+          "http://sudo.ch/~dkocher/">blog</a>.</p>-->
         </td>
       </tr><!-- ======= Screenshot ======== -->
 
