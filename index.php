@@ -92,10 +92,10 @@
           "./forum"><img width="150" align="middle" border="0" alt=
           "cocoaforge.com" src="./img/cocoaforge.gif" /></a>-->
 
-          <!--<p><strong>Blog.</strong> <a href=
+          <p><strong>Blog.</strong> <a href=
           "http://sudo.ch/~dkocher/feed/">Subscribe</a> to the the
           developer's <a class="ext-link" href=
-          "http://sudo.ch/~dkocher/">blog</a>.</p>-->
+          "http://sudo.ch/~dkocher/">blog</a>.</p>
         </td>
       </tr><!-- ======= Screenshot ======== -->
 
