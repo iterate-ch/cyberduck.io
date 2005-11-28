@@ -40,20 +40,15 @@
           "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
           to build.</p>
 
-          <p>You can browse the CVS repository <a class="ext-link"
-          href="http://cvs.cyberduck.ch/cyberduck-cocoa/">here</a>.
-          (Warning: Slow connection)</p>
+          <p>You can browse the SVN Repository <a class="ext-link"
+          href=
+          "http://svn.cyberduck.ch/trac/cyberduck/browser/">here</a>.</p>
 
           <p>You can checkout the current unstable version from the
-          CVS repository. When prompted for a password for
-          anonymous, simply press <i>Enter</i>.</p>
+          SVN repository.</p>
 
-          <p><tt>cvs
-          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot
-          login<br />
-          cvs -z3
-          -d:pserver:anonymous@cvs.cyberduck.ch:/srv/cvsroot co
-          cyberduck-cocoa</tt></p>
+          <p><tt>svn co
+          http://svn.cyberduck.ch/svn/cyberduck/trunk</tt></p>
 
           <p>To compile everything, type <tt>make</tt>. You'll find
           the application in the <i>build</i> folder. For more
