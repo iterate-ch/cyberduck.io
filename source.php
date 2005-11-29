@@ -34,26 +34,23 @@
           <p>Source code is available licenced unter the <a class=
           "ext-link" href=
           "http://www.gnu.org/licenses/gpl.html">GNU General Public
-          Licence</a>. You need <a class="ext-link" href=
-          "http://jakarta.apache.org/ant">Ant</a> and <a class=
+          Licence</a>. You can browse the SVN Repository <a class=
           "ext-link" href=
-          "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
-          to build.</p>
-
-          <p>You can browse the SVN Repository <a class="ext-link"
-          href=
-          "http://svn.cyberduck.ch/trac/cyberduck/browser/">here</a>.</p>
-
-          <p>You can checkout the current unstable version from the
-          SVN repository.</p>
+          "http://svn.cyberduck.ch/trac/cyberduck/browser/">here</a>.
+          The current unstable version can be checked out from the SVN repository using:</p>
 
           <p><tt>svn co
           http://svn.cyberduck.ch/svn/cyberduck/trunk</tt></p>
 
-          <p>To compile everything, type <tt>make</tt>. You'll find
-          the application in the <i>build</i> folder. For more
-          details, see the <a class="ext-link" href=
-          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/build/BUILD?rev=HEAD&amp;content-type=text/plain">
+          <p>To compile everything, type <tt>make</tt> but make
+          sure to install <a class="ext-link" href=
+          "http://jakarta.apache.org/ant">Ant</a> and <a class=
+          "ext-link" href=
+          "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
+          first. You'll find the application in the <i>build</i>
+          folder. For more details, see the <a class="ext-link"
+          href=
+          "http://svn.cyberduck.ch/svn/cyberduck/trunk/build/BUILD">
           build instructions</a>.</p>
 
           <p>Dependencies:</p>
@@ -74,7 +71,7 @@
       <tr>
         <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.5</strong><br />
-          (CVS Tag: release-2-5)</p>
+          (CVS/SVN Tag: release-2-5)</p>
         </td>
 
         <td colspan="2" class="box-dash">
@@ -125,7 +122,7 @@
       <tr>
         <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.4</strong><br />
-          (CVS Tag: release-2-4)</p>
+          (CVS/SVN Tag: release-2-4)</p>
         </td>
 
         <td colspan="2" class="box-dash">
@@ -192,7 +189,7 @@
       <tr>
         <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.3</strong><br />
-          (CVS Tag: release-2-3)</p>
+          (CVS/SVN Tag: release-2-3)</p>
         </td>
 
         <td colspan="2" class="box-dash">
@@ -241,7 +238,7 @@
       <tr>
         <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.2</strong><br />
-          (CVS Tag: release-2-2)</p>
+          (CVS/SVN Tag: release-2-2)</p>
         </td>
 
         <td colspan="2" class="box-dash">
@@ -292,7 +289,7 @@
       <tr>
         <td class="box-solid" valign="top" width="150">
           <p><strong>Version 2.1</strong><br />
-          (CVS Tag: release-2-1)</p>
+          (CVS/SVN Tag: release-2-1)</p>
         </td>
 
         <td colspan="2" class="box-dash">
