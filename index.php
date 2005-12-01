@@ -69,7 +69,7 @@
           (Traditional and Simplified), Russian, Swedish,
           Hungarian, Danish, Polish, Indonesian, Catalan and
           Welsh</em>. Many thanks to all <a class="ext-link" href=
-          "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
+          "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
           contributors</a>!</p>
         </td>
 
@@ -159,12 +159,10 @@
           </div>
 
           <div>
-            <p><strong>Feedback.</strong> This software is <a href=
-            "./img/hacking.jpg">written</a> by <a class="ext-link"
-            href="http://sudo.ch/">David V. Kocher</a>,
-            Switzerland. Please have a look at the <a class=
+            <p><strong>Feedback.</strong> This software is written by <a class="ext-link"
+            href="http://sudo.ch/">David V. Kocher</a>. Please have a look at the <a class=
             "ext-link" href=
-            "http://cvs.cyberduck.ch/*checkout*/cyberduck-cocoa/Credits.html?rev=HEAD&amp;content-type=text/html">
+            "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
             credits</a> to see who contributed. I appreciate any
             <a class="ext-link" href=
             "mailto:feedback@cyberduck.ch">feedback</a>. For bug
