@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-	<channel>
-		<title>Cyberduck Changelog</title>
-		<link>http://cyberduck.ch/changelog.php</link>
-		<description>Cyberduck Changelog.</description>
-		<language>en-us</language>
-		<copyright>Copyright 2005, David V. Kocher</copyright>
-		
-		<item>
-			<title>Cyberduck 2.5.2</title>
-			<pubDate>Wed, 18 Nov 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg" length="8034686" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.5.2.dmg</link>
-			<content:encoded><![CDATA[
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+   <channel>
+      <title>Cyberduck Changelog</title>
+      <link>http://cyberduck.ch/changelog.php</link>
+      <description>Cyberduck Changelog.</description>
+      <language>en-us</language>
+      <copyright>Copyright 2005, David V. Kocher</copyright>
+      <item>
+         <title>Cyberduck 2.5.3</title>
+         <pubDate>Wed, 12 Dec 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg" length="8034686" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.5.3.dmg</link>
+         <content:encoded><![CDATA[
+						<ul>
+		            <li>[Feature] Inline rename files in browser (Return key invokes editing)</li>
+		            <li>[Feature] Paste files copied in Finder.app (Upload)</li>
+		            <li>[Feature] Comes with Unsanity Crash Reporter</li>
+		            <li>[Bugfix] Renaming files in expanded tree of outline
+		            view bogus</li>
+		            <li>[Bugfix] Change to invalid directories not
+		            catched</li>
+		            <li>[Bugfix] Second login attempt always fails
+		            (SFTP)</li>
+						</ul>
+			]]></content:encoded>
+      </item>
+      <item>
+         <title>Cyberduck 2.5.2</title>
+         <pubDate>Wed, 18 Nov 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg" length="8034686" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.5.2.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 						<li>[Bugfix] Spinning beachball of death when connecting on some systems</li>
 						<li>[Bugfix] Better validating drop targets in browser</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5.1</title>
-			<pubDate>Wed, 14 Nov 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" length="8005449" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.5.1.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5.1</title>
+         <pubDate>Wed, 14 Nov 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" length="8005449" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.5.1.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 						<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>
 						<li>[Feature] Printing browser view</li>
@@ -40,14 +57,13 @@
 						<li>[Bugfix] Overwriting group writable files</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5</title>
-			<pubDate>Wed, 29 Aug 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.dmg" length="7166022" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.5.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5</title>
+         <pubDate>Wed, 29 Aug 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.dmg" length="7166022" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.5.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Feature] Graphical interface refinements</li>
 <li>[Bugfix] Caching issue with multiple connections to the same host</li>
@@ -56,12 +72,11 @@
 <li>[Bugfix] Remove custom icon and resource fork after download</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5b4</title>
-			<pubDate>Wed, 10 Aug 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5b4</title>
+         <pubDate>Wed, 10 Aug 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Feature] Updated navigation bar interface elements</li>
 <li>[Bugfix] Vastly improved performance when listing directories</li>
@@ -70,12 +85,11 @@
 <li>[Bugfix] Refresh issues in outline view</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5b3</title>
-			<pubDate>Wed, 18 Jul 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5b3</title>
+         <pubDate>Wed, 18 Jul 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Localize] Catalan Localization</li>
 <li>[Feature] Spotlight Importer for bookmarks</li>
@@ -92,12 +106,11 @@
 <li>[Bugfix] Sort child items in browser outline view</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5b2</title>
-			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5b2</title>
+         <pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Localize] Indonesian Localization</li>
 <li>[Bugfix] Resorting browser view will not change selection</li>
@@ -107,14 +120,13 @@
 <li>[Feature] Edit menu shows all available editors</li>
 						</ul>			
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.4.6</title>
-			<pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg" length="4565566" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.4.6.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4.6</title>
+         <pubDate>Wed, 30 May 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg" length="4565566" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.4.6.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
 <li>[Bugfix] Transfer success notification when remote editing file even when transfer fails (Growl)</li>
@@ -125,12 +137,11 @@
 <li>[Bugfix] Ignored custom port when selecting bookmark in connection dialog</li>
 						</ul>			
 			]]></content:encoded>
-		</item>
-
-		<item>
-			<title>Cyberduck 2.5b1</title>
-			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.5b1</title>
+         <pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 <li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data channel (file listings and transfers) if the server is capable of.</li>
 <li>[Feature] Store X.509 certificates in Keychain</li>
@@ -155,25 +166,25 @@
 <li>[Feature] Edit with non-default editor using the browser context menu</li>
 						</ul>			
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4.5</title>
-			<pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg" length="4464340" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.4.5.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4.5</title>
+         <pubDate>Wed, 04 May 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg" length="4464340" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.4.5.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
 							<li>[Bugfix] No permissions set on transferred files when connection closed unexpectedly (SFTP)</li>
 							<li>[Bugfix] Resuming uploads might corrupt files (SFTP)</li>
 						</ul>			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4.4</title>
-			<pubDate>Wed, 27 Apr 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-4.4.4.dmg" length="4456782" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.4.4.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4.4</title>
+         <pubDate>Wed, 27 Apr 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-4.4.4.dmg" length="4456782" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.4.4.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Danish Localization</li>
 							<li>[Localize] Polish Localization</li>
@@ -182,13 +193,13 @@
 							<li>[Feature] Gray out files in browser view when disconnected</li>
 							<li>[Bugfix] Unexpected null reply received (FTP)</li>
 						</ul>			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4.3</title>
-			<pubDate>Mon, 11 Apr 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg" length="4222608" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.4.4.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4.3</title>
+         <pubDate>Mon, 11 Apr 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg" length="4222608" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.4.4.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Bugfix] Browser refresh issues</li>
 							<li>[Bugfix] Synchronization</li>
@@ -199,13 +210,13 @@
 							<li>[Bugfix] Bug fixes</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4</title>
-			<pubDate>Mon, 28 Mar 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.dmg" length="4110083" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.4.dmg</link>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4</title>
+         <pubDate>Mon, 28 Mar 2005 00:00:00 +0100</pubDate>
+         <enclosure url="http://update.cyberduck.ch/Cyberduck-2.4.dmg" length="4110083" type="application/octet-stream"/>
+         <link>http://cyberduck.ch/Cyberduck-2.4.dmg</link>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Swedish Localization</li>
 							<li>[Feature] Additional encryption ciphers supported (SFTP)</li>
@@ -220,11 +231,11 @@
 							<li>[Bugfix] Resolved crash in info window when group was unknown</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4b4</title>
-			<pubDate>Thu, 03 Feb 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4b4</title>
+         <pubDate>Thu, 03 Feb 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Bugfix] Dragging files to the Finder</li>
 							<li>[Bugfix] Reordering bookmarks</li>
@@ -236,11 +247,11 @@
 							<li>[Bugfix] Corrupted resource files in Japanese localization</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4b3</title>
-			<pubDate>Sat, 29 Jan 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4b3</title>
+         <pubDate>Sat, 29 Jan 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Localize] Russian Localization</li>
 							<li>[Feature] Preliminary AppleScript support (see .scpt script samples)</li>
@@ -258,11 +269,11 @@
 							<li>[Bugfix] Bug fixes</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4b2</title>
-			<pubDate>Wed, 06 Jan 2005 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4b2</title>
+         <pubDate>Wed, 06 Jan 2005 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename
 							</li>
@@ -279,11 +290,11 @@
 							<li>[Feature] Live scrolling log view</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-		<item>
-			<title>Cyberduck 2.4b1</title>
-			<pubDate>Tue, 28 Dec 2004 00:00:00 +0100</pubDate>
-			<content:encoded><![CDATA[
+      </item>
+      <item>
+         <title>Cyberduck 2.4b1</title>
+         <pubDate>Tue, 28 Dec 2004 00:00:00 +0100</pubDate>
+         <content:encoded><![CDATA[
 						<ul>
 							<li>[Feature] Synchronization of files</li>
 							<li>[Feature] Create new files on server</li>
@@ -323,6 +334,6 @@
 							<li>[Bugfix] Live scrolling log view</li>
 						</ul>
 			]]></content:encoded>
-		</item>
-	</channel>
+      </item>
+   </channel>
 </rss>

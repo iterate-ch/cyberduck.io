@@ -25,8 +25,36 @@
 
         <td colspan="2" class="box-solid">(There is also an
         <a href="./changelog.rss">RSS</a> feed and <a class=
-        "ext-link" href="http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Changelog.txt?format=raw">
+        "ext-link" href=
+        "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Changelog.txt?format=raw">
         text</a> file.)</td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <strong>2.5.3</strong> <em>Dec-12-2005</em><br />
+        <a href="./Cyberduck-2.5.3.dmg">Download</a></td>
+
+        <td colspan="2" class="box-dash">
+          <ul>
+            <li>[Feature] Inline rename files in browser (Return
+            key invokes editing)</li>
+
+            <li>[Feature] Paste files copied in Finder.app
+            (Upload)</li>
+
+            <li>[Feature] Comes with Unsanity Crash Reporter</li>
+
+            <li>[Bugfix] Renaming files in expanded tree of outline
+            view bogus</li>
+
+            <li>[Bugfix] Change to invalid directories not
+            catched</li>
+
+            <li>[Bugfix] Second login attempt always fails
+            (SFTP)</li>
+          </ul>
+        </td>
       </tr>
 
       <tr>

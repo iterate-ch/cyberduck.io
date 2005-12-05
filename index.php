@@ -25,13 +25,7 @@
           <p><em>"All the other FTP clients I've used have been
           hard to learn and are confusing, but I've never had to
           look at the help file for Cyberduck."</em> (<a href=
-          "http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p><!--
-          <p><em>"What else can I say? Its the best FTP program
-          I've ever used. Its fast, stable, feature-filled, and
-          free."</em> (<a href=
-          "http://www.versiontracker.com/php/feedback/article.php?story=20050203103831290">User
-          comment</a>)</p>
--->
+          "http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p>
 
           <div align="center">
             <a href=
@@ -40,13 +34,7 @@
             height="67" alt="Macworld Rating" border="0" /></a>
           </div>
 
-          <p>Read more <a href="./reviews.php">reviews.</a></p><!--
-          <p><em>"[Cyberduck] is a top FTP client that drops neatly
-          into your Mac environment. If you have [...] not yet
-          sampled this Swiss delight I recommend you pick it up as
-          soon as possible."</em> (<a href=
-          "http://www.richardallan.org.uk/?p=339">Richard
-          Allan</a>)</p>-->
+          <p>Read more <a href="./reviews.php">reviews.</a></p>
         </td>
 
         <td valign="top" class="box-dash">
@@ -63,14 +51,26 @@
             and AppleScript.</p>
           </div>
 
-          <p><strong>Localizations.</strong> <em>English, Czech,
-          Dutch, Finnish, French, German, Italian, Japanese,
-          Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese
-          (Traditional and Simplified), Russian, Swedish,
-          Hungarian, Danish, Polish, Indonesian, Catalan and
-          Welsh</em>. Many thanks to all <a class="ext-link" href=
+          <p><strong>Features.</strong> A more detailed list is
+          available on the <a href="./features.php">features</a>
+          page.</p>
+
+          <p><strong>Localizations.</strong> Available in
+          <em>English, Czech, Dutch, Finnish, French, German,
+          Italian, Japanese, Korean, Norwegian, Portuguese, Slovak,
+          Spanish, Chinese (Traditional and Simplified), Russian,
+          Swedish, Hungarian, Danish, Polish, Indonesian, Catalan
+          and Welsh</em>. Many thanks to all <a class="ext-link"
+          href=
           "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
           contributors</a>!</p>
+
+          <p><strong>Download.</strong> Scroll to the <a href=
+          "#download">bottom</a> of this page to download the
+          current release. Older versions are available from the
+          <a href="./changelog.php">changelog</a> page. The
+          <a href="./source.php">source code</a> is available as a
+          separate download.</p>
         </td>
 
         <td width="150" valign="top" class="box-dash">
@@ -129,6 +129,8 @@
         </td>
 
         <td valign="top" class="box-dash">
+          <a name="download" id="download"></a>
+
           <p><strong>Download.</strong> See the <a href=
           "./changelog.php">changelog</a> for differences between
           the versions released.</p>
@@ -141,10 +143,10 @@
               <td valign="top"><img src="img/arrowDown.png" alt=
               "Download" border="0" /></td>
 
-              <td valign="top"><strong>2.5.2</strong>
-              <em>(Nov-18-2005)</em><br />
+              <td valign="top"><strong>2.5.3</strong>
+              <em>(Dec-12-2005)</em><br />
               <a href=
-              "./Cyberduck-2.5.2.dmg">Cyberduck-2.5.2.dmg</a><a href="./Cyberduck-2.5.2.dmg"></a><br />
+              "./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a><a href="./Cyberduck-2.5.3.dmg"></a><br />
               </td>
             </tr>
           </table>
@@ -159,8 +161,9 @@
           </div>
 
           <div>
-            <p><strong>Feedback.</strong> This software is written by <a class="ext-link"
-            href="http://sudo.ch/">David V. Kocher</a>. Please have a look at the <a class=
+            <p><strong>Feedback.</strong> This software is written
+            by <a class="ext-link" href="http://sudo.ch/">David V.
+            Kocher</a>. Please have a look at the <a class=
             "ext-link" href=
             "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
             credits</a> to see who contributed. I appreciate any

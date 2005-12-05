@@ -128,9 +128,9 @@
 	
 	#navigation ul li {
 		padding-left: 7px;
-		font-weight: normal;
 		list-style: none;
 		display: inline;
+		font-weight:normal;
 	}
 	
 	#navigation a {
