@@ -19,19 +19,20 @@
   </div>
 
   <div class="content">
-    <table border="0" cellpadding="5" cellspacing="5" width="100%">
+    <table cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="top" class="box-solid">
           <p><em>"All the other FTP clients I've used have been
           hard to learn and are confusing, but I've never had to
           look at the help file for Cyberduck."</em> (<a href=
-          "http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p>
+          "http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p><br />
+
 
           <div align="center">
             <a href=
             "http://www.macworld.com/2004/10/features/bargainsweb/index.php">
             <img src="./img/MW_4mouselogo_blu.png" width="90"
-            height="67" alt="Macworld Rating" border="0" /></a>
+            height="67" alt="Macworld Rating" /></a>
           </div>
 
           <p>Read more <a href="./reviews.php">reviews.</a></p>
@@ -62,7 +63,7 @@
           Swedish, Hungarian, Danish, Polish, Indonesian, Catalan
           and Welsh</em>. Many thanks to all <a class="ext-link"
           href=
-          "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
+          "http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
           contributors</a>!</p>
 
           <p><strong>Download.</strong> Scroll to the <a href=
@@ -89,7 +90,7 @@
           <p><strong>Forum.</strong> Discuss anything related to
           Cyberduck in the forum hosted at <a class="ext-link"
           href="./forum">cocoaforge.com</a></p><a href=
-          "./forum"><img width="150" align="middle" border="0" alt=
+          "./forum"><img width="150" align="middle" alt=
           "cocoaforge.com" src="./img/cocoaforge.gif" /></a>-->
 
           <p><strong>Blog.</strong> <a href=
@@ -100,7 +101,7 @@
       </tr><!-- ======= Screenshot ======== -->
 
       <tr>
-        <td id="screenshot" colspan="3">
+        <td id="screenshot-td" colspan="3">
           <div align="center" id="screenshot">
             <a href="./img/browser.jpg"><img align="middle" border=
             "0" src="./img/browser.jpg" alt=
@@ -116,15 +117,15 @@
           "http://www.metamac.de/content/announce/1214/metamac-magazin-neue-ausgabe-erschienen2111">47/05</a>)
           des <a class="ext-link" href=
           "http://metamac.de">metamac</a> Magazin. <a href=
-          "http://metamac.de/"><img align="middle" border="0" alt=
-          "metamac.de" src="./img/metamac.png" /></a></p>
+          "http://metamac.de/"><img align="middle" alt="metamac.de"
+          src="./img/metamac.png" /></a></p>
 
           <p><strong>PomPomPom.</strong> <a class="ext-link" href=
           "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=78943909">
           Interview</a> mit dem Entwickler auf <a class="ext-link"
           href="http://www.pomcast.com/de/">pomcast.com/de</a>.
           (German)<a href="http://www.pomcast.com/de/"><img align=
-          "middle" width="150" border="0" alt="pomcast.com/de" src=
+          "middle" width="150" alt="pomcast.com/de" src=
           "./img/pomfeedde.jpg" /></a></p>
         </td>
 
@@ -138,10 +139,10 @@
           <p class="box-filled"><em>Mac OS X 10.3.9 or later
           required.</em><br /></p>
 
-          <table border="0" cellpadding="0" cellspacing="0">
+          <table cellpadding="0" cellspacing="0">
             <tr>
               <td valign="top"><img src="img/arrowDown.png" alt=
-              "Download" border="0" /></td>
+              "Download" /></td>
 
               <td valign="top"><strong>2.5.3</strong>
               <em>(Dec-12-2005)</em><br />
@@ -165,15 +166,15 @@
             by <a class="ext-link" href="http://sudo.ch/">David V.
             Kocher</a>. Please have a look at the <a class=
             "ext-link" href=
-            "http://svn.cyberduck.ch/trac/cyberduck/file/trunk/Credits.html?format=raw">
+            "http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
             credits</a> to see who contributed. I appreciate any
             <a class="ext-link" href=
             "mailto:feedback@cyberduck.ch">feedback</a>. For bug
             reports and feature suggestions you should issue a
             <a class="ext-link" href=
-            "http://svn.cyberduck.ch/trac/cyberduck/newticket">new
-            ticket</a> in the <a class="ext-link" href=
-            "http://svn.cyberduck.ch/trac/cyberduck">tracker</a>.</p>
+            "http://trac.cyberduck.ch/newticket">new ticket</a> in
+            the <a class="ext-link" href=
+            "http://trac.cyberduck.ch">tracker</a>.</p>
           </div>
 
           <div>
@@ -194,7 +195,7 @@
 
           <div align="center">
             <a href="http://growl.info"><img src=
-            "./img/getgrowl.png" alt="getgrowl" border="0" /></a>
+            "./img/getgrowl.png" alt="getgrowl" /></a>
           </div>
 
           <p><strong>RCDefaultApp.</strong> Set Cyberduck as the

@@ -19,14 +19,14 @@
   </div>
 
   <div class="content">
-    <table border="0" cellpadding="5" cellspacing="5" width="100%">
+    <table cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
             <img src="./img/javafile.png" alt="Java Source" border=
             "0" /><br />
             <a href="http://intellij.com"><img src="./img/idea.gif"
-            alt="intellij" border="0" /></a>
+            alt="intellij" /></a>
           </div>
         </td>
 
@@ -36,11 +36,11 @@
           "http://www.gnu.org/licenses/gpl.html">GNU General Public
           Licence</a>. You can browse the SVN Repository <a class=
           "ext-link" href=
-          "http://svn.cyberduck.ch/trac/cyberduck/browser/">here</a>.
+          "http://trac.cyberduck.ch/browser/">here</a>.
           The current unstable version can be checked out from the SVN repository using:</p>
 
           <p><tt>svn co
-          http://svn.cyberduck.ch/svn/cyberduck/trunk</tt></p>
+          http://svn.cyberduck.ch/trunk</tt></p>
 
           <p>To compile everything, type <tt>make</tt> but make
           sure to install <a class="ext-link" href=
@@ -50,7 +50,7 @@
           first. You'll find the application in the <i>build</i>
           folder. For more details, see the <a class="ext-link"
           href=
-          "http://svn.cyberduck.ch/svn/cyberduck/trunk/build/BUILD">
+          "http://svn.cyberduck.ch/trunk/build/BUILD">
           build instructions</a>.</p>
 
           <p>Dependencies:</p>

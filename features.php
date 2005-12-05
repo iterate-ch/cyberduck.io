@@ -19,7 +19,7 @@
   </div>
 
   <div class="content">
-    <table border="0" cellpadding="0" cellspacing="5" width="100%">
+    <table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td class="box-dash">
           <div class="feature">

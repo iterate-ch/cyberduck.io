@@ -15,15 +15,15 @@
 		color: #000000;
 	}
 		
+	img {
+		border-width: 0px 0px 0px 0px;
+	}
+	
 	div.footer {
-		position:absolute;
-		visibility:hidden;
+		clear:both;
+		position:static;
 		line-height:12px;
 		height:30px;
-		width:100%;
-		top:auto;
-		right:0px;
-		bottom:0px;
 		text-align:right;
 		background-color: #cccccc;
 	}
@@ -86,7 +86,7 @@
 		top:5px;
 	}
 	
-	h1#title  {
+	h1#maintitle  {
 		position:relative;
 		float:left;
 		font-size: 3.0em;
@@ -200,7 +200,7 @@
 		border-style: dotted;
 	}
 	
-	td#screenshot {
+	td#screenshot-td {
 		border-width: 0px 1px 0px 1px;
 		border-color: #666666;
 		border-style: dotted;
