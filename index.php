@@ -39,7 +39,6 @@
         </td>
 
         <td valign="top" class="box-dash">
-          <div>
             <p><strong>About.</strong> Cyberduck is a <a class=
             "ext-link" href=
             "http://opensource.org/docs/definition.php">open
@@ -50,7 +49,6 @@
             editors and support for many Mac OS X system
             technologies such as Spotlight, Bonjour, the Keychain
             and AppleScript.</p>
-          </div>
 
           <p><strong>Features.</strong> A more detailed list is
           available on the <a href="./features.php">features</a>
@@ -185,6 +183,22 @@
             software. If you find this program useful, please
             consider making a <a href="./donate">donation</a>. It
             will help to make Cyberduck even better!</em></p>
+          </div>
+
+          <div align="center">
+            <script type="text/javascript">
+//<![CDATA[
+<!--
+google_ad_client = "pub-9176652804694766";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as_rimg";
+google_cpa_choice = "CAAQj6eVzgEaCIxA5niBniDSKOm293M";
+//-->
+//]]>
+</script> <script type="text/javascript" src=
+"http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
           </div>
         </td>
 

@@ -1,5 +1,7 @@
 	html {
 		margin:0px; padding:0px;
+		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 0.85em;
 	}
 
 	body {	
@@ -10,9 +12,8 @@
 	}
 
 	body { 
-		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
-		font-size: 0.85em;
 		color: #000000;
+		background-color: #ffffff;
 	}
 		
 	img {
@@ -25,6 +26,7 @@
 		line-height:12px;
 		height:30px;
 		text-align:right;
+		color: #000000;
 		background-color: #cccccc;
 	}
 	
@@ -35,6 +37,7 @@
 		left:0px;
 		right:0px;
 		top:5px;
+		color: #000000;
 		background-color: #cccccc;
 	}
 	
@@ -51,10 +54,10 @@
 		top:160px;
 		left:auto;
 		bottom:auto;
-		right:auto;
 		padding-bottom:15px;
 		width:90%;
 		right:30px;
+		color: #000000;
 		background-color: #ffffff;
 		line-height: 18px;
 	}
@@ -66,6 +69,14 @@
 		position:absolute;
 		top:5px;
 		right:30px;
+	}
+	
+	input#paypal {
+		position:relative;
+		float:right;
+		right:10px;
+		width:62px; 
+		height:31px;
 	}
 	
 	img#paypal {
@@ -142,6 +153,7 @@
 	}
 	
 	tr {
+		color: #000000;
 		background-color: #ffffff;
 	}
 	
@@ -201,9 +213,7 @@
 	}
 	
 	td#screenshot-td {
-		border-width: 0px 1px 0px 1px;
-		border-color: #666666;
-		border-style: dotted;
+
 	}
 		
 	ul {
@@ -240,10 +250,6 @@
 		color: #ffffff;
 	}
 	
-	q {
-
-	}
-
 	q:before {
 		content: "\201C";
 	}
@@ -269,20 +275,3 @@
 		padding-right: 6px;
 		height:16px;
 	}
-	
-	div.screenshot {
-		position:relative;
-		float:left;
-	}
-	
-	div.screenshot a:hover img.screenshot {
-		position:absolute;
-		top:0px;
-		left:0px;
-		display:block;
-	}
-	
-	img.screenshot {
-		display:none;
-	}
-	
