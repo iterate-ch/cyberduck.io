@@ -4,11 +4,12 @@
   include "../functions.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta name="generator" content=
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("..")); ?>
+
   <title>Cyberduck | FTP for Mac OS X. | Donate</title>
 </head>
 
