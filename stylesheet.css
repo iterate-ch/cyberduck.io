@@ -1,7 +1,5 @@
 	html {
 		margin:0px; padding:0px;
-		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
-		font-size: 0.85em;
 	}
 
 	body {	
@@ -9,9 +7,8 @@
 	  	margin-right:auto;
 		margin-left:auto;
 		padding:0px;
-	}
-
-	body { 
+		font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-size: 0.85em;
 		color: #000000;
 		background-color: #ffffff;
 	}
