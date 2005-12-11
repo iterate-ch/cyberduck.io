@@ -28,19 +28,29 @@
       <tr>
         <td width="150" valign="middle" class="box-solid">
           <div align="center">
+            <?php echo(echodonate(".."));?>
+          </div>
+        </td>
+
+        <td colspan="2" class="box-dash">
+          <p>Paypal accepts all major credit cards.</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="150" valign="middle" class="box-solid">
+          <div align="center">
             <img src="../img/amazon.png" alt="amazon books" border=
             "0" />
           </div>
         </td>
 
         <td colspan="2" class="box-dash">
-          <div>
-            I have both a <a class="ext-link" href=
-            "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
-            amazon.de</a> and <a class="ext-link" href=
-            "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
-            amazon.co.uk</a> wishlist.
-          </div>
+          <p>I have both a <a class="ext-link" href=
+          "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
+          amazon.de</a> and <a class="ext-link" href=
+          "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
+          amazon.co.uk</a> wishlist.</p>
         </td>
       </tr>
     </table>

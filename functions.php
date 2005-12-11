@@ -65,10 +65,10 @@ function echodonate($dir) {
               <li><a id=\"navigation-index\" href=\"".$dir."/index.php\">about</a></li>
               <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
               <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
-              <li><a class=\"ext-link\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">forum</a></li>
-              <li><a class=\"ext-link\" id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">development</a></li>
+              <li><a id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">development</a></li>
               <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source</a></li>
-<li><a id=\"navigation-help\" href=\"".$dir."/help\">help</a></li>
+              <li><a class=\"ext-link\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">forum</a></li>
+              <li><a id=\"navigation-help\" href=\"".$dir."/help\">help</a></li>
 			</ul>
 		</div>";
     }

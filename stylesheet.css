@@ -70,20 +70,10 @@
 	}
 	
 	input#paypal {
-		position:relative;
-		float:right;
-		right:10px;
 		width:62px; 
 		height:31px;
 	}
 	
-	img#paypal {
-		position:relative;
-		float:right;
-		width:62px; 
-		right:10px;
-	}
-
 	img#amazon {
 		position:relative;
 		float:right;
