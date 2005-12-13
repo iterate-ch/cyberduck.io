@@ -39,16 +39,15 @@
         </td>
 
         <td valign="top" class="box-dash">
-            <p><strong>About.</strong> Cyberduck is a <a class=
-            "ext-link" href=
-            "http://opensource.org/docs/definition.php">open
-            source</a> FTP and SFTP (SSH Secure File Transfer)
-            browser licenced under the <a class="ext-link" href=
-            "http://www.gnu.org/licenses/gpl.html">GPL</a> with an
-            easy to use interface, integration with external
-            editors and support for many Mac OS X system
-            technologies such as Spotlight, Bonjour, the Keychain
-            and AppleScript.</p>
+          <p><strong>About.</strong> Cyberduck is a <a class=
+          "ext-link" href=
+          "http://opensource.org/docs/definition.php">open
+          source</a> FTP and SFTP (SSH Secure File Transfer)
+          browser licenced under the <a class="ext-link" href=
+          "http://www.gnu.org/licenses/gpl.html">GPL</a> with an
+          easy to use interface, integration with external editors
+          and support for many Mac OS X system technologies such as
+          Spotlight, Bonjour, the Keychain and AppleScript.</p>
 
           <p><strong>Features.</strong> A more detailed list is
           available on the <a href="./features.php">features</a>
@@ -255,10 +254,12 @@ google_cpa_choice = "CAAQj6eVzgEaCIxA5niBniDSKOm293M";
         <strong>sshtools.com</strong> (<a class="ext-link" href=
         "http://www.sshtools.com">http://www.sshtools.com</a>),
         <strong>enterprisedt</strong> (<a class="ext-link" href=
-        "http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
-        and the <strong>Apache Software Foundation</strong>
-        (<a class="ext-link" href=
-        "http://jakarta.apache.org">http://jakarta.apache.org</a>).</td>
+        "http://www.enterprisedt.com">http://www.enterprisedt.com</a>),
+        the <strong>Apache Software Foundation</strong> (<a class=
+        "ext-link" href=
+        "http://jakarta.apache.org">http://jakarta.apache.org/</a>)
+        and <strong>Apple Computer</strong> (<a class="ext-link"
+        href="http://apple.com/">http://apple.com</a>).</td>
       </tr>
     </table>
   </div>

@@ -34,7 +34,7 @@
             &amp; paste, drag &amp; drop and arbitrary character
             encodings.</p>
 
-            <p><img src="./img/advanced.png" class="feature" alt=
+            <p><img src="./img/international.png" class="feature" alt=
             "" /> <strong>International</strong><br />
             Available in <em>English, Czech, Dutch, Finnish,
             French, German, Italian, Japanese, Korean, Norwegian,
