@@ -1202,13 +1202,17 @@
           page.</p>
         </td>
       </tr>
-    </table>
-  </div>
 
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>

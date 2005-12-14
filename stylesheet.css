@@ -18,13 +18,11 @@
 	}
 	
 	div.footer {
-		clear:both;
-		position:static;
-		line-height:12px;
-		height:30px;
 		text-align:right;
+		font-size: 0.75em;
+		margin:-5px;
 		color: #000000;
-		background-color: #cccccc;
+		background-color: #ffffff;
 	}
 	
 	div.header {

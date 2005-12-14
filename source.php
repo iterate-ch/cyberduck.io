@@ -36,11 +36,11 @@
           "http://www.gnu.org/licenses/gpl.html">GNU General Public
           Licence</a>. You can browse the SVN Repository <a class=
           "ext-link" href=
-          "http://trac.cyberduck.ch/browser/">here</a>.
-          The current unstable version can be checked out from the SVN repository using:</p>
+          "http://trac.cyberduck.ch/browser/">here</a>. The current
+          unstable version can be checked out from the SVN
+          repository using:</p>
 
-          <p><tt>svn co
-          http://svn.cyberduck.ch/trunk</tt></p>
+          <p><tt>svn co http://svn.cyberduck.ch/trunk</tt></p>
 
           <p>To compile everything, type <tt>make</tt> but make
           sure to install <a class="ext-link" href=
@@ -49,9 +49,8 @@
           "http://developer.apple.com/tools/macosxtools.html">xcodebuild</a>
           first. You'll find the application in the <i>build</i>
           folder. For more details, see the <a class="ext-link"
-          href=
-          "http://svn.cyberduck.ch/trunk/build/BUILD">
-          build instructions</a>.</p>
+          href="http://svn.cyberduck.ch/trunk/build/BUILD">build
+          instructions</a>.</p>
 
           <p>Dependencies:</p>
 
@@ -75,11 +74,11 @@
         </td>
 
         <td colspan="2" class="box-dash">
-	        <ul>
-	          <li><strong>2.5.3</strong> <em>Dec-12-2005</em><br />
-	          <a href=
-	          "cyberduck-src-2.5.3.tar.gz">cyberduck-src-2.5.3.tar.gz</a></li>
-	        </ul>
+          <ul>
+            <li><strong>2.5.3</strong> <em>Dec-12-2005</em><br />
+            <a href=
+            "cyberduck-src-2.5.3.tar.gz">cyberduck-src-2.5.3.tar.gz</a></li>
+          </ul>
 
           <ul>
             <li><strong>2.5.2</strong> <em>Nov-18-2005</em><br />
@@ -330,13 +329,17 @@
           </ul>
         </td>
       </tr>
-    </table>
-  </div>
 
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>

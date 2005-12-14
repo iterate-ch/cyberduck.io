@@ -261,13 +261,17 @@ google_cpa_choice = "CAAQj6eVzgEaCIxA5niBniDSKOm293M";
         and <strong>Apple Computer</strong> (<a class="ext-link"
         href="http://apple.com/">http://apple.com</a>).</td>
       </tr>
-    </table>
-  </div>
 
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>

@@ -35,7 +35,7 @@
           out there, imagine if Filezilla was fast, and looked
           nice.</q></p>
 
-          <p><q cite="Comment%20to%20macworld.com%20article">Nice
+          <p><q cite="Comment to macworld.com article">Nice
           article, but I don't use any those. I have found
           Cyberduck to totally and wonderfully take care of my FTP
           needs. It's just free and works great. I like the way it
@@ -110,36 +110,40 @@
           Cyberduck about a year ago, and never looked back. A
           great little FTP app, in my opinion.</q></p>
 
-          <p><q cite="Versiontracker.com%20Comment">I've used this
+          <p><q cite="Versiontracker.com Comment">I've used this
           product for 5 minutes and love it! It's much better than
           using the good ol' terminal.</q></p>
 
-          <p><q cite="Versiontracker.com%20Comment">I recommend it
+          <p><q cite="Versiontracker.com Comment">I recommend it
           to all our customers. It just rocks!</q></p>
 
-          <p><q cite="Versiontracker.com%20Comment">I have given up
+          <p><q cite="Versiontracker.com Comment">I have given up
           that aweful (...) and have not looked back. I even sent
           the author a donation since I felt he richly deserved
           it.</q></p>
 
-          <p><q cite="Versiontracker.com%20Comment">What else can I
+          <p><q cite="Versiontracker.com Comment">What else can I
           say? Its the best FTP program I've ever used. Its fast,
           stable, feature-filled, and free. I would recommend that
           anyone that uses (...), (...), (...), and those others
           try Cyberduck.</q></p>
 
-          <p><q cite="Macupdate.com%20Comment">Wonderful, intuitive
+          <p><q cite="Macupdate.com Comment">Wonderful, intuitive
           program that does what it's supposed to...and does it
           well.</q></p>
         </td>
       </tr><?php echo(echogoogle("1"));?>
-    </table>
-  </div>
 
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>

@@ -34,8 +34,8 @@
             &amp; paste, drag &amp; drop and arbitrary character
             encodings.</p>
 
-            <p><img src="./img/international.png" class="feature" alt=
-            "" /> <strong>International</strong><br />
+            <p><img src="./img/international.png" class="feature"
+            alt="" /> <strong>International</strong><br />
             Available in <em>English, Czech, Dutch, Finnish,
             French, German, Italian, Japanese, Korean, Norwegian,
             Portuguese, Slovak, Spanish, Chinese (Traditional and
@@ -156,16 +156,18 @@
             and Authentication algorithms (MD5, SHA1).</p>
           </div>
         </td>
+      </tr><?php echo(echogoogle("1"));?>
+
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
+          </div>
+        </td>
       </tr>
-		<?php echo(echogoogle("1"));?>
-
     </table>
-  </div>
-
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
   </div>
 </body>
 </html>
