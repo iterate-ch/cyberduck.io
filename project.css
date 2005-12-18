@@ -1,0 +1,92 @@
+
+:link, :visited {
+    background-color: transparent;
+    border:none;
+}
+:link:hover, :visited:hover {
+    background-color: transparent;
+	color: #0066cc;
+    border:none;
+}
+
+#metanav {
+	position:absolute;
+	padding-top:4px;
+	top:5px;
+	right:40px;
+	height:15px;
+	background-color: #ffffff;
+	font-size:0.85em;
+	text-transform:lowercase;
+}
+
+#ctxtnav { font-size:0.85em; text-transform:lowercase; }
+
+.nav a { text-decoration: none; }
+
+#main {
+	position:absolute;
+	top:185px;
+	padding:5px;
+	height:auto;
+	right:40px;
+	width:90%;
+	bottom:auto;
+	background-color: #ffffff;
+}
+
+#mainnav {
+	position:absolute;
+	padding:0px;
+	top:162px;
+	height:20px;
+	right:40px;
+	text-align:right;
+	border:none;
+	background:transparent;
+	text-transform:lowercase;
+}
+
+#mainnav ul {
+	padding-left: 7px;
+	padding-right: 0px;
+	padding-top:3px;
+	padding-bottom:0px;
+	height:20px;
+	border:none;
+	background: #fff url(http://cyberduck.ch/img/navigation.png) repeat-x;
+}
+
+#mainnav li { border: none; }
+#mainnav ul li { padding-left: 0px; list-style: none; display: inline; }
+#mainnav ul li.first { display:none; }
+#mainnav ul > li:first-child { padding-left: 0; }
+
+#content {
+	position:static;
+	width:auto;
+	right:0px;
+	padding:5px;
+	height:auto;
+	border-width: 1px 1px 1px 1px;
+	border-color: #666666;
+	border-style: dotted;
+}
+
+#newticket #description { width: auto; }
+#newticket #properties { width: auto; }
+
+form#prefs { font-size:0.85em; background-color: #f7f7f7; } 
+
+/*reports.css overwrites*/
+table.listing tbody tr:hover { background-color: #cccccc !important }
+
+/*timeline.css overwrites*/
+dt :link:hover, dt :visited:hover { background-color: #cccccc; }
+
+/*search.css overwrites*/
+#results dd { font-size: 1em; margin: 0; padding: 0 }
+
+/*browser.css overwrites*/
+#dirlist td.name a.dir { background-image: url(http://cyberduck.ch/img/folder.png) }
+
