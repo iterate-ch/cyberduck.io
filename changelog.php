@@ -37,13 +37,16 @@
 
         <td colspan="2" class="box-dash">
           <ul>
+            <li>[Feature] New and much improved Bonjour/Rendezvous
+            implementation</li>
+
             <li>[Feature] Inline rename files in browser (Return
             key invokes editing)</li>
 
             <li>[Feature] Paste files copied in Finder.app
             (Upload)</li>
 
-            <li>[Feature] Comes with Unsanity Crash Reporter</li>
+            <li>[Feature] Includes Unsanity Crash Reporter</li>
 
             <li>[Bugfix] Renaming files in expanded tree of outline
             view bogus</li>

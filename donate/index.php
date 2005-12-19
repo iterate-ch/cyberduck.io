@@ -33,7 +33,7 @@
         </td>
 
         <td colspan="2" class="box-dash">
-          <p>Paypal accepts all major credit cards.</p>
+          <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
         </td>
       </tr>
 

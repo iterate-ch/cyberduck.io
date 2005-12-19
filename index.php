@@ -183,22 +183,6 @@
             consider making a <a href="./donate">donation</a>. It
             will help to make Cyberduck even better!</em></p>
           </div>
-
-          <div align="center">
-            <script type="text/javascript">
-//<![CDATA[
-<!--
-google_ad_client = "pub-9176652804694766";
-google_ad_width = 468;
-google_ad_height = 60;
-google_ad_format = "468x60_as_rimg";
-google_cpa_choice = "CAAQj6eVzgEaCIxA5niBniDSKOm293M";
-//-->
-//]]>
-</script> <script type="text/javascript" src=
-"http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-          </div>
         </td>
 
         <td width="150" valign="top" class="box-dash">
