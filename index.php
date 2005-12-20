@@ -142,7 +142,7 @@
               "Download" /></td>
 
               <td valign="top"><strong>2.5.3</strong>
-              <em>(Dec-12-2005)</em><br />
+              <em>(Dec-22-2005)</em><br />
               <a href=
               "./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a><a href="./Cyberduck-2.5.3.dmg"></a><br />
               </td>
