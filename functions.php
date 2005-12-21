@@ -63,6 +63,7 @@ function echodonate($dir) {
 		<div id=\"navigation\">
 			<ul>
               <li><a id=\"navigation-index\" href=\"".$dir."/index.php\">about</a></li>
+              <li><a id=\"navigation-download\" href=\"".$dir."/index.php#download\">download</a></li>
               <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
               <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
               <li><a id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">development</a></li>
