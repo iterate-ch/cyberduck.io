@@ -1,261 +1,108 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
   include "functions.php";
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
-  <?php echo(echoheader(".")); ?>
+	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader(".")); ?>
 
-  <title>Cyberduck | FTP for Mac OS X.</title>
+	<title>Cyberduck | FTP for Mac OS X.</title>
 </head>
 
 <body id="index">
-  <div class="header">
-    <?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
-  </div>
+	<div class="header">
+		<?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+	</div>
 
-  <div class="content">
-    <table cellpadding="5" cellspacing="5" width="100%">
-      <tr>
-        <td width="150" valign="top" class="box-solid">
-          <p><em>"All the other FTP clients I've used have been
-          hard to learn and are confusing, but I've never had to
-          look at the help file for Cyberduck."</em> (<a href=
-          "http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p><br />
+	<div class="content">
+		<table cellpadding="0" cellspacing="5" width="100%">
+			<tr>
+				<td id="maincolumn" valign="top" class="box-dash">
+					<p><strong style="color:#7b7b7b;">Cyberduck is a <a class="ext-link" href="http://opensource.org/docs/definition.php">open source</a> FTP and SFTP (SSH Secure File Transfer) browser licenced under the <a class="ext-link" href="http://www.gnu.org/licenses/gpl.html">GPL</a> with an easy to use interface, integration with external editors and support for many Mac OS X system technologies such as Spotlight, Bonjour, the Keychain and AppleScript.</strong> For a more detailed list of available <strong>features</strong> see <a href="./features.php">here</a>. <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan and Welsh</em>. Many thanks to all <a class="ext-link" href="http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a> and a list of <a href="./help/en/problems/">known problems</a>. Please post any questions on the <strong><a class="ext-link" href="./forum">forum</a></strong> if the <a href="./help/en/faq">FAQ</a> doesn't cover them. This software is written by <a class="ext-link" href="http://sudo.ch/">David V. Kocher</a>. Please have a look at the <a class="ext-link" href="http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">credits</a> to see who contributed. I appreciate any <strong><a class="ext-link" href="mailto:feedback@cyberduck.ch">feedback</a></strong> you might have. For bug reports and feature suggestions you should issue a <a class="ext-link" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext-link" href="http://trac.cyberduck.ch">tracker</a>.</p>
 
+					<div style="margin-bottom:30px;" align="center" id="screenshot">
+						<a href="./img/browser.jpg"><img align="middle" border="0" src="./img/browser.jpg" alt="Cyberduck Screenshot" /></a>
+					</div>
 
-          <div align="center">
-            <a href=
-            "http://www.macworld.com/2004/10/features/bargainsweb/index.php">
-            <img src="./img/MW_4mouselogo_blu.png" width="90"
-            height="67" alt="Macworld Rating" /></a>
-          </div>
+					<div style="margin:10px; margin-bottom:90px">
+						<?php echo(echogoogle());?>
+					</div><img style="margin:10px; margin-top:20px;" src="./img/gnu.png" align="left" alt="GNU GPL Software" border="0" />
 
-          <p>Read more <a href="./reviews.php">reviews.</a></p>
-        </td>
+					<p><small>Copyright (c) 2002-2005 David Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href="License.txt">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small></p>
 
-        <td valign="top" class="box-dash">
-          <p><strong>About.</strong> Cyberduck is a <a class=
-          "ext-link" href=
-          "http://opensource.org/docs/definition.php">open
-          source</a> FTP and SFTP (SSH Secure File Transfer)
-          browser licenced under the <a class="ext-link" href=
-          "http://www.gnu.org/licenses/gpl.html">GPL</a> with an
-          easy to use interface, integration with external editors
-          and support for many Mac OS X system technologies such as
-          Spotlight, Bonjour, the Keychain and AppleScript.</p>
+					<p>This product includes software developed by <strong>sshtools.com</strong> (<a class="ext-link" href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a class="ext-link" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>), the <strong>Apache Software Foundation</strong> (<a class="ext-link" href="http://jakarta.apache.org">http://jakarta.apache.org/</a>) and <strong>Apple Computer</strong> (<a class="ext-link" href="http://apple.com/">http://apple.com</a>).</p>
+					
+				</td>
 
-          <p><strong>Features.</strong> A more detailed list is
-          available on the <a href="./features.php">features</a>
-          page.</p>
+				<td valign="top" width="250px">
+					<div class="box-dash">
+						<p><em>"All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck."</em> (<a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>)</p><br />
 
-          <p><strong>Localizations.</strong> Available in
-          <em>English, Czech, Dutch, Finnish, French, German,
-          Italian, Japanese, Korean, Norwegian, Portuguese, Slovak,
-          Spanish, Chinese (Traditional and Simplified), Russian,
-          Swedish, Hungarian, Danish, Polish, Indonesian, Catalan
-          and Welsh</em>. Many thanks to all <a class="ext-link"
-          href=
-          "http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
-          contributors</a>!</p>
+						<div align="center">
+							<a href="http://www.macworld.com/2004/10/features/bargainsweb/index.php"><img src="./img/MW_4mouselogo_blu.png" width="90" height="67" alt="Macworld Rating" /></a>
+						</div>
 
-          <p><strong>Download.</strong> Scroll to the <a href=
-          "#download">bottom</a> of this page to download the
-          current release. Older versions are available from the
-          <a href="./changelog.php">changelog</a> page. The
-          <a href="./source.php">source code</a> is available as a
-          separate download.</p>
-        </td>
+						<p>Read more <a href="./reviews.php">reviews.</a></p>
+					</div>
 
-        <td width="150" valign="top" class="box-dash">
-          <p><strong>Mailing List.</strong> You can subscribe to
-          the <a href=
-          "http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">
-          Cyberduck-news</a> mailing list to get a notification
-          when a new version is released.</p>
+					<div class="box-solid">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td valign="top"><img width="64" height="90" style="margin:10px; margin-top:-5px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></td>
 
-          <form method="post" action=
-          "http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
-          <p>Your email address: <input type="text" name="email"
-          value="" /> <input type="submit" name="email-button"
-          value="Subscribe" /></p>
-          </form><!--
-          <p><strong>Forum.</strong> Discuss anything related to
-          Cyberduck in the forum hosted at <a class="ext-link"
-          href="./forum">cocoaforge.com</a></p><a href=
-          "./forum"><img width="150" align="middle" alt=
-          "cocoaforge.com" src="./img/cocoaforge.gif" /></a>-->
+								<td valign="top">
+									<p><strong>2.5.3</strong> <em>(Dec-22-2005)</em><br />
+									<strong><a href="./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a><a href="./Cyberduck-2.5.3.dmg"></a></strong><br />
+									<em>Mac OS X 10.3.9 or later required!</em></p>
+								</td>
+							</tr>
+						</table>
+					</div>
 
-          <p><strong>Blog.</strong> <a href=
-          "http://sudo.ch/~dkocher/feed/">Subscribe</a> to the the
-          developer's <a class="ext-link" href=
-          "http://sudo.ch/~dkocher/">blog</a>.</p>
-        </td>
-      </tr><!-- ======= Screenshot ======== -->
+					<div class="box-filled">
+						<p><strong>Donations.</strong> <em><a class="ext-link" href="http://www.gnu.org/philosophy/free-sw.html">Free software</a> is a matter of the users freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a <a href="./donate">donation</a>. It will help to make Cyberduck even better!</em></p>
+					</div>
 
-      <tr>
-        <td id="screenshot-td" colspan="3">
-          <div align="center" id="screenshot">
-            <a href="./img/browser.jpg"><img align="middle" border=
-            "0" src="./img/browser.jpg" alt=
-            "Cyberduck Screenshot" /></a>
-          </div>
-        </td>
-      </tr><?php echo(echogoogle("3"));?>
+					<div class="box-filled">
+						<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.</p>
 
-      <tr>
-        <td width="150" valign="top" class="box-solid">
-          <p><strong>Metamac.</strong> Interview in der aktuellen
-          Ausgabe (<a class="ext-link" href=
-          "http://www.metamac.de/content/announce/1214/metamac-magazin-neue-ausgabe-erschienen2111">47/05</a>)
-          des <a class="ext-link" href=
-          "http://metamac.de">metamac</a> Magazin. <a href=
-          "http://metamac.de/"><img align="middle" alt="metamac.de"
-          src="./img/metamac.png" /></a></p>
+						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+							<p>Your email address: <input type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+						</form>
+					</div>
 
-          <p><strong>PomPomPom.</strong> <a class="ext-link" href=
-          "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=78943909">
-          Interview</a> mit dem Entwickler auf <a class="ext-link"
-          href="http://www.pomcast.com/de/">pomcast.com/de</a>.
-          (German)<a href="http://www.pomcast.com/de/"><img align=
-          "middle" width="150" alt="pomcast.com/de" src=
-          "./img/pomfeedde.jpg" /></a></p>
-        </td>
+					<div class="box-filled">
+						<p><strong>Forum.</strong> Discuss anything related to Cyberduck in the forum hosted at <a class="ext-link" href="./forum">cocoaforge.com</a></p><a href="./forum"></a>
+					</div>
 
-        <td valign="top" class="box-dash">
-          <a name="download" id="download"></a>
+					<div class="box-filled">
+						<p><strong>Blog.</strong> <a href="http://sudo.ch/~dkocher/feed/">Subscribe</a> to the the developer's <a class="ext-link" href="http://sudo.ch/~dkocher/">blog</a>.</p>
+					</div>
 
-          <p><strong>Download.</strong> See the <a href=
-          "./changelog.php">changelog</a> for differences between
-          the versions released.</p>
+					<div class="box-filled">
+						<p><strong>Growl.</strong> You may also want to install <a class="ext-link" href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
 
-          <p class="box-filled"><em>Mac OS X 10.3.9 or later
-          required.</em><br /></p>
+						<div align="center">
+							<a href="http://growl.info"><img src="./img/getgrowl.png" alt="getgrowl" /></a>
+						</div>
 
-          <table cellpadding="0" cellspacing="0">
-            <tr>
-              <td valign="top"><img src="img/arrowDown.png" alt=
-              "Download" /></td>
+						<p><strong>RCDefaultApp.</strong> Set Cyberduck as the default application for all FTP URLs with <a class="ext-link" href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
 
-              <td valign="top"><strong>2.5.3</strong>
-              <em>(Dec-22-2005)</em><br />
-              <a href=
-              "./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a><a href="./Cyberduck-2.5.3.dmg"></a><br />
-              </td>
-            </tr>
-          </table>
+						<p><strong>Quicksilver Module.</strong> Access Cyberduck bookmarks from within <a class="ext-link" href="http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
+					</div>
+				</td>
+			</tr>
 
-          <div>
-            <p><strong>Help.</strong> There is an <a href=
-            "./help/en/howto">introduction</a> and a list of
-            <a href="./help/en/problems/">known problems</a>.
-            Please post any questions on the <a class="ext-link"
-            href="./forum">forum</a> if the <a href=
-            "./help/en/faq">FAQ</a> doesn't cover them.</p>
-          </div>
-
-          <div>
-            <p><strong>Feedback.</strong> This software is written
-            by <a class="ext-link" href="http://sudo.ch/">David V.
-            Kocher</a>. Please have a look at the <a class=
-            "ext-link" href=
-            "http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
-            credits</a> to see who contributed. I appreciate any
-            <a class="ext-link" href=
-            "mailto:feedback@cyberduck.ch">feedback</a>. For bug
-            reports and feature suggestions you should issue a
-            <a class="ext-link" href=
-            "http://trac.cyberduck.ch/newticket">new ticket</a> in
-            the <a class="ext-link" href=
-            "http://trac.cyberduck.ch">tracker</a>.</p>
-          </div>
-
-          <div>
-            <p><strong>Donations.</strong> <em><a class="ext-link"
-            href="http://www.gnu.org/philosophy/free-sw.html">Free
-            software</a> is a matter of the users freedom to run,
-            copy, distribute, study, change and improve the
-            software. If you find this program useful, please
-            consider making a <a href="./donate">donation</a>. It
-            will help to make Cyberduck even better!</em></p>
-          </div>
-        </td>
-
-        <td width="150" valign="top" class="box-dash">
-          <p><strong>Growl.</strong> You may also want to install
-          <a class="ext-link" href="http://growl.info">Growl</a>, a
-          global notification system Cyberduck supports.</p>
-
-          <div align="center">
-            <a href="http://growl.info"><img src=
-            "./img/getgrowl.png" alt="getgrowl" /></a>
-          </div>
-
-          <p><strong>RCDefaultApp.</strong> Set Cyberduck as the
-          default application for all FTP URLs with <a class=
-          "ext-link" href=
-          "http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
-
-          <p><strong>Quicksilver Module.</strong> Access Cyberduck
-          bookmarks from within <a class="ext-link" href=
-          "http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="box-solid" width="150">
-          <div align="center">
-            <img src="./img/gnu.png" alt="GNU GPL Software" border=
-            "0" />
-          </div>
-        </td>
-
-        <td colspan="2" class="box-dash">
-          <p>Copyright (c) 2002-2005 David Kocher. All rights
-          reserved.</p>
-
-          <p>This program is free software; you can redistribute it
-          and/or modify it under the terms of the <a href=
-          "License.txt">GNU General Public License</a> as published
-          by the Free Software Foundation; either version 2 of the
-          License, or (at your option) any later version.</p>
-
-          <p>This program is distributed in the hope that it will
-          be useful, but WITHOUT ANY WARRANTY; without even the
-          implied warranty of MERCHANTABILITY or FITNESS FOR A
-          PARTICULAR PURPOSE. See the GNU General Public License
-          for more details.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan="3" valign="top" class="box-dash">This products
-        includes software developed by
-        <strong>sshtools.com</strong> (<a class="ext-link" href=
-        "http://www.sshtools.com">http://www.sshtools.com</a>),
-        <strong>enterprisedt</strong> (<a class="ext-link" href=
-        "http://www.enterprisedt.com">http://www.enterprisedt.com</a>),
-        the <strong>Apache Software Foundation</strong> (<a class=
-        "ext-link" href=
-        "http://jakarta.apache.org">http://jakarta.apache.org/</a>)
-        and <strong>Apple Computer</strong> (<a class="ext-link"
-        href="http://apple.com/">http://apple.com</a>).</td>
-      </tr>
-
-      <tr>
-        <td colspan="3">
-          <div class="footer">
-            <a href=
-            "http://validator.w3.org/check/referer">Validate</a>,
-            $Date$<br />
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
+			<tr>
+				<td colspan="2">
+					<div class="footer">
+						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>

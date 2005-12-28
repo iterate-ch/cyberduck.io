@@ -113,7 +113,12 @@
             <li>[Bugfix] Overwriting group writable files</li>
           </ul>
         </td>
-      </tr><?php echo(echogoogle("3"));?>
+      </tr>
+
+		<tr>
+			<td colspan="3" class="alert"><?php echo(echogoogle());?></td>
+		</tr>
+
 
       <tr>
         <td class="box-solid" width="150" valign="top">

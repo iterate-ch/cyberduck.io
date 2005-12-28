@@ -132,7 +132,11 @@
           program that does what it's supposed to...and does it
           well.</q></p>
         </td>
-      </tr><?php echo(echogoogle("1"));?>
+      </tr>
+
+		<tr>
+			<td><?php echo(echogoogle());?></td>
+		</tr>
 
       <tr>
         <td colspan="3">

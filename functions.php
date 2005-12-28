@@ -21,10 +21,8 @@ function echodonate($dir) {
 ";
 }
 
-	  function echogoogle($colspan) {
-	  		return "
-	<tr>
-	  		<td class=\"alert\" colspan=\"".$colspan."\">
+	  function echogoogle() {
+	  		return "<div class=\"alert\">
 	  		<script type=\"text/javascript\"><!--
 	  		google_ad_client = \"pub-9176652804694766\";
 	  		google_ad_width = 728;
@@ -40,8 +38,7 @@ function echodonate($dir) {
 	  		//--></script>
 	  		<script type=\"text/javascript\"
 	  		  src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">
-	  		</script>			</td>
-	  	</tr>";
+	  		</script></div>";
 		}
 	
 	function echologo($dir) {
@@ -63,7 +60,6 @@ function echodonate($dir) {
 		<div id=\"navigation\">
 			<ul>
               <li><a id=\"navigation-index\" href=\"".$dir."/index.php\">about</a></li>
-              <li><a id=\"navigation-download\" href=\"".$dir."/index.php#download\">download</a></li>
               <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
               <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
               <li><a id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">development</a></li>
