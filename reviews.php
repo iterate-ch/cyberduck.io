@@ -21,7 +21,7 @@
   <div class="content">
     <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
-        <td colspan="3" class="box-dash">
+        <td colspan="3" class="box-solid">
           <p><q cite="marcopetraroia.com">The best FTP and SFTP
           client for Mac OS X I ever tried. Is not because I like
           birds in general, but because it's the best.</q></p>

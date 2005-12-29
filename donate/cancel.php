@@ -28,7 +28,7 @@
           </div>
         </td>
 
-        <td colspan="2" class="box-dash">
+        <td colspan="2" class="box-solid">
           <div>
             If you don't like Paypal you can still support this
             project by providing me with some good book to read. I

@@ -22,7 +22,7 @@ function echodonate($dir) {
 }
 
 	  function echogoogle() {
-	  		return "<div class=\"alert\">
+	  		return "<div align=\"center\" class=\"alert\">
 	  		<script type=\"text/javascript\"><!--
 	  		google_ad_client = \"pub-9176652804694766\";
 	  		google_ad_width = 728;
@@ -59,13 +59,13 @@ function echodonate($dir) {
     	return "
 		<div id=\"navigation\">
 			<ul>
-              <li><a id=\"navigation-index\" href=\"".$dir."/index.php\">about</a></li>
-              <li><a id=\"navigation-features\" href=\"".$dir."/features.php\">features</a></li>
-              <li><a id=\"navigation-changelog\" href=\"".$dir."/changelog.php\">changelog</a></li>
-              <li><a id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">development</a></li>
-              <li><a id=\"navigation-source\" href=\"".$dir."/source.php\">source</a></li>
-              <li><a class=\"ext-link\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">forum</a></li>
-              <li><a class=\"ext-link\" id=\"navigation-help\" href=\"".$dir."/help\">help</a></li>
+              <li><a accesskey=\"a\" id=\"navigation-index\" href=\"".$dir."/index.php\"><u>a</u>bout</a></li>
+              <li><a accesskey=\"f\"id=\"navigation-features\" href=\"".$dir."/features.php\"><u>f</u>eatures</a></li>
+              <li><a accesskey=\"c\"id=\"navigation-changelog\" href=\"".$dir."/changelog.php\"><u>c</u>hangelog</a></li>
+              <li><a accesskey=\"d\"id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\"><u>d</u>evelopment</a></li>
+              <li><a accesskey=\"s\"id=\"navigation-source\" href=\"".$dir."/source.php\"><u>s</u>ource</a></li>
+              <li><a accesskey=\"o\"class=\"ext-link\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">f<u>o</u>rum</a></li>
+              <li><a accesskey=\"h\"class=\"ext-link\" id=\"navigation-help\" href=\"".$dir."/help\"><u>h</u>elp</a></li>
 			</ul>
 		</div>";
     }

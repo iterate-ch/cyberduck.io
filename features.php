@@ -19,7 +19,7 @@
 	<div class="content">
 		<table cellpadding="5" cellspacing="5" width="100%">
 			<tr>
-				<td class="box-dash">
+				<td class="box-solid">
 					<div class="feature">
 						<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
 						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS) and SFTP (SSH Secure File Transfer).</p>

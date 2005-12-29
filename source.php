@@ -26,7 +26,7 @@
 					</div>
 				</td>
 
-				<td colspan="2" valign="top" class="box-dash">
+				<td colspan="2" valign="top" class="box-solid">
 					<p>Source code is available licenced unter the <a class="ext-link" href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext-link" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk</tt></p>
@@ -55,7 +55,7 @@
 					(CVS/SVN Tag: release-2-5)</p>
 				</td>
 
-				<td colspan="2" class="box-dash">
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.5.3</strong> <em>Dec-22-2005</em><br />
 						<a href="cyberduck-src-2.5.3.tar.gz">cyberduck-src-2.5.3.tar.gz</a></li>
@@ -104,7 +104,7 @@
 					(CVS/SVN Tag: release-2-4)</p>
 				</td>
 
-				<td colspan="2" class="box-dash">
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.4.6</strong> <em>May-30-2005</em><br />
 						<a href="cyberduck-src-2.4.6.tar.gz">cyberduck-src-2.4.6.tar.gz</a></li>
@@ -158,7 +158,7 @@
 					(CVS/SVN Tag: release-2-3)</p>
 				</td>
 
-				<td colspan="2" class="box-dash">
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.3.3</strong> <em>August-09-2004</em><br />
 						<a href="cyberduck-src-2.3.3.tar.gz">cyberduck-src-2.3.3.tar.gz</a></li>
@@ -197,7 +197,7 @@
 					(CVS/SVN Tag: release-2-2)</p>
 				</td>
 
-				<td colspan="2" class="box-dash">
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.2</strong> <em>Mar-06-2004</em><br />
 						<a href="cyberduck-src-2.2.tar.gz">cyberduck-src-2.2.tar.gz</a></li>
@@ -241,7 +241,7 @@
 					(CVS/SVN Tag: release-2-1)</p>
 				</td>
 
-				<td colspan="2" class="box-dash">
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.1</strong> <em>Dec-08-2003</em><br />
 						<a href="cyberduck-src-2.1.tar.gz">cyberduck-src-2.1.tar.gz</a></li>

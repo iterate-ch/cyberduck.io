@@ -32,7 +32,7 @@
           </div>
         </td>
 
-        <td colspan="2" class="box-dash">
+        <td colspan="2" class="box-solid">
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
         </td>
       </tr>
@@ -45,7 +45,7 @@
           </div>
         </td>
 
-        <td colspan="2" class="box-dash">
+        <td colspan="2" class="box-solid">
           <p>I have both a <a class="ext-link" href=
           "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
           amazon.de</a> and <a class="ext-link" href=
