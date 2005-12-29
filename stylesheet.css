@@ -115,7 +115,15 @@
 	body#donate a#navigation-donate {
 		color:#0066cc;
 	}
+
+	#sidebar {
+		width:280px;
+	}
 	
+	/*	#sidebar > div:last-child { 
+		margin-bottom:0px;
+	}
+*/
 	#navigation ul {
 		padding-left:0px;
 		padding-right:60px;
@@ -126,7 +134,7 @@
 	}
 	
 	#navigation ul li {
-		padding-left:7px;
+		padding-left:10px;
 		list-style:none;
 		display:inline;
 		font-weight:normal;
@@ -173,6 +181,7 @@
 	p {
 		text-align:left;
 		padding-left:5px;
+		padding-bottom:5px;
 		padding-right:10px;
 	}
 	
@@ -186,11 +195,7 @@
 		padding-right:0px;
 		margin-bottom:5px;
 	}
-	
-	td :last-child { 
-		margin-bottom:0px;
-	}
-	
+		
 	.box-solid {
 		border-width:1px 1px 1px 1px;
 		border-color:#666666;
@@ -213,9 +218,9 @@
 	
 	div.image a,
  	div.image a:link,
-    div.image a:visited,
-    div.image a:active,
-    div.image a:hover {
+	div.image a:visited,
+	div.image a:active,
+	div.image a:hover {
 		color:#000000;
 		background-color:transparent;
 		text-decoration:none;
@@ -274,9 +279,9 @@
 		height:16px;
 	}
 	
-   	div.alert {
+   div.alert {
 		margin:-5px;
 		padding:2px;
-        background-color: #0066cc;
-        font-weight: bold;
+      background-color: #0066cc;
+      font-weight: bold;
 	}
