@@ -37,7 +37,7 @@
 
         <td colspan="2" class="box-dash">
           <ul>
-            <li>[Feature] New and much improved Bonjour/Rendezvous
+            <li>[Feature] New and much improved Bonjour
             implementation</li>
 
             <li>[Feature] Inline rename files in browser (Return

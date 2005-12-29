@@ -278,6 +278,13 @@
 		padding-right:6px;
 		height:16px;
 	}
+
+	img.sidebar {
+		position:relative;
+		float:left;
+		clear:both;
+		padding-right:6px;
+	}
 	
    div.alert {
 		margin:-5px;
