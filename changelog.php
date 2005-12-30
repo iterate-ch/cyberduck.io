@@ -23,7 +23,7 @@
       <tr>
         <td width="150"></td>
 
-        <td colspan="2" class="box-solid">(There is also an
+        <td colspan="2" class="box-filled">(There is also an
         <a href="./changelog.rss">RSS</a> feed and <a class=
         "ext-link" href=
         "http://trac.cyberduck.ch/file/trunk/Changelog.txt?format=raw">
