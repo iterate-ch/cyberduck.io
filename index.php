@@ -50,7 +50,7 @@
 								<td valign="top"><img width="64" height="90" style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></td>
 
 								<td valign="top">
-									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.3</strong> <em>(Jan-04-2006)</em><br />
+									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.3</strong> <em>(Jan-03-2006)</em><br />
 									<a href="./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a> <a href="./Cyberduck-2.5.3.dmg"></a><br />
 									<em>Mac OS X 10.3.9 or later required!</em></p>
 								</td>
@@ -83,7 +83,7 @@
 					</div>
 
 					<div style="margin-bottom:0px;" class="box-filled">
-						<p><a href="http://quicksilver.blacktree.com"><img class="sidebar" src="./img/quicksilver.png" height="64" width="64" alt="getquicksilver" /></a> <strong>Quicksilver Module.</strong> Access Cyberduck bookmarks from within <a class="ext-link" href="http://quicksilver.blacktree.com/">Quicksilver</a>.</p>
+						<p><a href="http://docs.blacktree.com/quicksilver/plug-ins/cyberduck"><img class="sidebar" src="./img/quicksilver.png" height="64" width="64" alt="getquicksilver" /></a> <strong>Quicksilver Module.</strong> Access Cyberduck bookmarks from within <a class="ext-link" href="http://docs.blacktree.com/quicksilver/plug-ins/cyberduck/">Quicksilver</a>.</p>
 
 						<p><a href="http://growl.info"><img height="64" class="sidebar" src="./img/growlicon.png" alt="getgrowl" /></a> <strong>Growl.</strong> You may also want to install <a class="ext-link" href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
 

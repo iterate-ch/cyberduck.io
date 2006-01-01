@@ -8,12 +8,12 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		<item>
 			<title>Cyberduck 2.5.3</title>
-			<pubDate>Wed, 12 Dec 2005 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg" length="8034686" type="application/octet-stream"/>
+			<pubDate>Wed, 03 Jan 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg" length="8063414" type="application/octet-stream"/>
 			<link>http://cyberduck.ch/Cyberduck-2.5.3.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
-            <li>[Feature] New and much improved Bonjour/Rendezvous
+            <li>[Feature] New and much improved Bonjour
             implementation</li>
 
             <li>[Feature] Inline rename files in browser (Return
