@@ -60,7 +60,7 @@
 						Both download and upload.</p>
 
 						<p><img src="./img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
-						Full AppleScript integration. See the <a class="ext-link" href="http://cvs.cyberduck.ch/cyberduck-cocoa/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
+						Full AppleScript integration. See the <a class="ext-link" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
 					</div>
 
 					<div class="feature">
