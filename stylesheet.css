@@ -181,18 +181,18 @@
 	p {
 		text-align:left;
 		padding-left:5px;
-		padding-bottom:5px;
-		padding-right:10px;
-	}
-	
-	strong {
-		color:#000000;
+		padding-right:5px;
 	}
 	
 	#maincolumn p {
 		padding-left:15px; 
+		padding-right:10px;
 	}
 
+	strong {
+		color:#000000;
+	}
+	
 	.box-filled {
 		color: #4e4e4e;
 		border: 1px solid #e2e2e2;
@@ -207,11 +207,6 @@
 		margin-bottom:5px;
 	}
 
-	.box-dash {
-		border: 1px dashed #e2e2e2;
-		margin-bottom:5px;
-	}
-		
 	ul {
 		padding-left:20px;
 		padding-right:5px;
@@ -282,7 +277,7 @@
 		padding-right:6px;
 	}
 	
-   div.alert {
+   .alert {
 		margin:-5px;
 		padding:2px;
 		background-color: #0066cc;
