@@ -29,7 +29,7 @@
 				<td colspan="2" valign="top" class="box-solid">
 					<p>Source code is available licenced unter the <a class="ext-link" href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext-link" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
 
-					<p><tt>svn co http://svn.cyberduck.ch/trunk</tt></p>
+					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 
 					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext-link" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext-link" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext-link" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
 
