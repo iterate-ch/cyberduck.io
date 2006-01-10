@@ -62,6 +62,12 @@
 						<p><strong>Donations.</strong> <em><a class="ext-link" href="http://www.gnu.org/philosophy/free-sw.html">Free software</a> is a matter of the users freedom to run, copy, distribute, study, change and improve the software. If you find this program useful, please consider making a <a href="./donate">donation</a>. It will help to make Cyberduck even better!</em></p>
 					</div>
 
+					<div class="box-solid">
+						<div style="padding:5px;" align="center">
+							<a href="http://apple.com/universal/"><img src="./img/macosxuniversal20060109.png" alt="universal" /></a>
+						</div>
+					</div>
+
 					<div class="box-filled">
 						<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification when a new version is released.</p>
 
