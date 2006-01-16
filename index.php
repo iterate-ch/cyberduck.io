@@ -32,7 +32,7 @@
 
 					<p><small>Copyright (c) 2002-2005 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href="License.txt">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small></p>
 
-					<p>This product includes software developed by <strong>sshtools.com</strong> (<a class="ext-link" href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a class="ext-link" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>), the <strong>Apache Software Foundation</strong> (<a class="ext-link" href="http://jakarta.apache.org">http://jakarta.apache.org/</a>) and <strong>Apple Computer</strong> (<a class="ext-link" href="http://apple.com/">http://apple.com</a>).</p>
+					<p><small>This product includes software developed by <strong>sshtools.com</strong> (<a class="ext-link" href="http://www.sshtools.com">http://www.sshtools.com</a>), <strong>enterprisedt</strong> (<a class="ext-link" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>), the <strong>Apache Software Foundation</strong> (<a class="ext-link" href="http://jakarta.apache.org">http://jakarta.apache.org/</a>), <strong>Unsanity</strong> (<a class="ext-link" href="http://www.unsanity.com/">http://www.unsanity.com/</a>) and <strong>Apple Computer</strong> (<a class="ext-link" href="http://apple.com/">http://apple.com</a>).</small></p>
 				</td>
 
 				<td id="sidebar" valign="top">
@@ -47,11 +47,11 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td valign="top"><img width="64" height="90" style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></td>
+								<td valign="top"><a href="./Cyberduck-2.5.4.dmg"><img width="64" height="90" style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
 
 								<td valign="top">
-									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.3</strong> <em>(Jan-03-2006)</em><br />
-									<a href="./Cyberduck-2.5.3.dmg">Cyberduck-2.5.3.dmg</a> <a href="./Cyberduck-2.5.3.dmg"></a><br />
+									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.4</strong> <em>(Jan-17-2006)</em><br />
+									<a href="./Cyberduck-2.5.4.dmg">Cyberduck-2.5.4.dmg</a> <a href="./Cyberduck-2.5.4.dmg"></a><br />
 									<em>Mac OS X 10.3.9 or later required!</em></p>
 								</td>
 							</tr>
