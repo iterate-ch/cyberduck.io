@@ -50,7 +50,7 @@
 								<td valign="top"><a href="./Cyberduck-2.5.4.dmg"><img width="64" height="90" style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
 
 								<td valign="top">
-									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.4</strong> <em>(Jan-17-2006)</em><br />
+									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.4</strong> <em>(Jan-19-2006)</em><br />
 									<a href="./Cyberduck-2.5.4.dmg">Cyberduck-2.5.4.dmg</a> <a href="./Cyberduck-2.5.4.dmg"></a><br />
 									<em>Mac OS X 10.3.9 or later required!</em></p>
 								</td>

@@ -32,11 +32,17 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <strong>2.5.4</strong> <em>Jan-17-2006</em><br />
+        <strong>2.5.4</strong> <em>Jan-19-2006</em><br />
         <a href="./Cyberduck-2.5.4.dmg">Download</a></td>
 
         <td colspan="2" class="box-solid">
           <ul>
+<li>[Bugfix] Random crashes (<a href="http://trac.cyberduck.ch/ticket/65">#65</a>, 
+<a href="http://trac.cyberduck.ch/ticket/94">#94</a>, 
+<a href="http://trac.cyberduck.ch/ticket/96">#96</a>, 
+<a href="http://trac.cyberduck.ch/ticket/121">#121</a>, 
+<a href="http://trac.cyberduck.ch/ticket/122">#122</a>)</li>
+<li>[Bugfix] High load while downloading (<a href="http://trac.cyberduck.ch/ticket/12">#12</a>)</li>
           </ul>
         </td>
       </tr>

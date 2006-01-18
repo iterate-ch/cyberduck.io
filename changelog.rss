@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
 		<title>Cyberduck Changelog</title>
@@ -8,11 +8,17 @@
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		<item>
 			<title>Cyberduck 2.5.4</title>
-			<pubDate>Wed, 17 Jan 2006 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg" length="8060126" type="application/octet-stream"/>
+			<pubDate>Wed, 19 Jan 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg" length="8095026" type="application/octet-stream"/>
 			<link>http://cyberduck.ch/Cyberduck-2.5.4.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
+<li>[Bugfix] Random crashes (<a href="http://trac.cyberduck.ch/ticket/65">#65</a>, 
+<a href="http://trac.cyberduck.ch/ticket/94">#94</a>, 
+<a href="http://trac.cyberduck.ch/ticket/96">#96</a>, 
+<a href="http://trac.cyberduck.ch/ticket/121">#121</a>, 
+<a href="http://trac.cyberduck.ch/ticket/122">#122</a>)</li>
+<li>[Bugfix] High load while downloading (<a href="http://trac.cyberduck.ch/ticket/12">#12</a>)</li>
 						</ul>
 			]]></content:encoded>
 		</item>
