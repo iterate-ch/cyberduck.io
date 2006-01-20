@@ -13,6 +13,7 @@
 			<link>http://cyberduck.ch/Cyberduck-2.5.4.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
+<li>[Localize] Thai Localization</li>
 <li>[Bugfix] Random crashes (<a href="http://trac.cyberduck.ch/ticket/65">#65</a>, 
 <a href="http://trac.cyberduck.ch/ticket/94">#94</a>, 
 <a href="http://trac.cyberduck.ch/ticket/96">#96</a>, 

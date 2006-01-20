@@ -37,6 +37,7 @@
 
         <td colspan="2" class="box-solid">
           <ul>
+<li>[Localize] Thai Localization</li>
 <li>[Bugfix] Random crashes (<a href="http://trac.cyberduck.ch/ticket/65">#65</a>, 
 <a href="http://trac.cyberduck.ch/ticket/94">#94</a>, 
 <a href="http://trac.cyberduck.ch/ticket/96">#96</a>, 
