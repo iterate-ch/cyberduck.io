@@ -51,7 +51,7 @@
 
 								<td valign="top">
 									<p><strong><u>D</u>ownload</strong><br /><strong>2.5.4</strong> <em>(Jan-20-2006)</em><br />
-									<a href="./Cyberduck-2.5.4.dmg">Cyberduck-2.5.4.dmg</a> <a href="./Cyberduck-2.5.4.dmg"></a><br />
+									<a href="./Cyberduck-2.5.4.dmg">Cyberduck-2.5.4.dmg</a> <a href="./Cyberduck-2.5.4.dmg"></a> (7.9MB)<br />
 									<em>Mac OS X 10.3.9 or later required!</em></p>
 								</td>
 							</tr>
