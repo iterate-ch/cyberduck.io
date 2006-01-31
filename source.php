@@ -31,6 +31,7 @@
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 
+					<p><i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i></p>
 					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext-link" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext-link" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext-link" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
 
 					<p>Dependencies:</p>
