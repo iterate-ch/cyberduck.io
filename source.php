@@ -27,21 +27,21 @@
 				</td>
 
 				<td colspan="2" valign="top" class="box-solid">
-					<p>Source code is available licenced unter the <a class="ext-link" href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext-link" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
+					<p>Source code is available licenced unter the <a class="ext" href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 
 					<p><i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i></p>
-					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext-link" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext-link" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext-link" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
+					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
 
 					<p>Dependencies:</p>
 
 					<ul>
-						<li>Growl.framework, <a class="ext-link" href="http://growl.info">growl.info</a></li>
+						<li>Growl.framework, <a class="ext" href="http://growl.info">growl.info</a></li>
 
-						<li>Keychain.framework, <a class="ext-link" href="http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
+						<li>Keychain.framework, <a class="ext" href="http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
 
-						<li>DotMacKit.framework, <a class="ext-link" href="http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
+						<li>DotMacKit.framework, <a class="ext" href="http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
 					</ul>
 				</td>
 			</tr>

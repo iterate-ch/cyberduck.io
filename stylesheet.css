@@ -57,7 +57,7 @@
 		line-height:18px;
 	}
 	
-	.ext-link { background:url(./img/extlink.gif) no-repeat 0 58%; padding-bottom:1px; padding-left:16px }
+	.ext { background:url(./img/extlink.gif) no-repeat 0 58%; padding-bottom:1px; padding-left:16px }
 	
 	div#donate {
 		position:absolute;

@@ -32,9 +32,9 @@
           <div>
             If you don't like Paypal you can still support this
             project by providing me with some good book to read. I
-            have both a <a class="ext-link" href=
+            have both a <a class="ext" href=
             "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
-            amazon.de</a> and <a class="ext-link" href=
+            amazon.de</a> and <a class="ext" href=
             "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
             amazon.co.uk</a> wishlist.
           </div>

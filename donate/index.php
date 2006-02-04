@@ -46,9 +46,9 @@
         </td>
 
         <td colspan="2" class="box-solid">
-          <p>I have both a <a class="ext-link" href=
+          <p>I have both a <a class="ext" href=
           "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
-          amazon.de</a> and <a class="ext-link" href=
+          amazon.de</a> and <a class="ext" href=
           "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
           amazon.co.uk</a> wishlist.</p>
         </td>

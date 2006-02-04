@@ -25,7 +25,7 @@
 
         <td colspan="2" class="box-filled">(There is also an
         <a href="./changelog.rss">RSS</a> feed and <a class=
-        "ext-link" href=
+        "ext" href=
         "http://trac.cyberduck.ch/file/trunk/Changelog.txt?format=raw">
         text</a> file.)</td>
       </tr>

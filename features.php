@@ -31,18 +31,18 @@
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan and Welsh</em>.</p>
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
-						Seamless integration with external editors. <a class="ext-link" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext-link" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext-link" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext-link" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext-link" href="http://macromates.com/">TextMate</a>, <a class="ext-link" href="http://mimikaki.net/">mi</a>, <a class="ext-link" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext-link" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext-link" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext-link" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext-link" href="http://www.talacia.com/">Tag</a>.</p>
+						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>.</p>
 
 						<p><img src="./img/gnu.png" class="feature" alt="" /> <strong>Open Source</strong><br />
 						Licensed under the GPL.</p>
 
 						<p><img src="./img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
-						Support for Growl, the global notification system. See <a class="ext-link" href="http://growl.info/">growl.info</a>.</p>
+						Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
 					</div>
 
 					<div class="feature">
 						<p><img src="./img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
-						<a class="ext-link" href="http://www.apple.com/macosx/features/spotlight/">Spotlight</a> Importer for bookmark files.</p>
+						<a class="ext" href="http://www.apple.com/macosx/features/spotlight/">Spotlight</a> Importer for bookmark files.</p>
 
 						<p><img src="./img/document.png" class="feature" alt="" /> <strong>Bookmarking</strong><br />
 						Powerful bookmarking in a the browser drawer. Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
@@ -51,7 +51,7 @@
 						Auto discovery of services on the local network</p>
 
 						<p><img src="./img/finder.png" class="feature" alt="" /> <strong>Integration</strong><br />
-						Use Cyberduck as default system wide protocol handler for FTP (Requires <a class="ext-link" href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>). Open .inetloc files and .duck bookmark files from the Finder.</p>
+						Use Cyberduck as default system wide protocol handler for FTP (Requires <a class="ext" href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>). Open .inetloc files and .duck bookmark files from the Finder.</p>
 
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Resumable Transfers</strong><br />
 						Both download and upload.</p>
@@ -60,15 +60,15 @@
 						Both download and upload.</p>
 
 						<p><img src="./img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
-						Full AppleScript integration. See the <a class="ext-link" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
+						Full AppleScript integration. See the <a class="ext" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
 					</div>
 
 					<div class="feature">
 						<p><img src="./img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
-						All passwords are stored in the system <a class="ext-link" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications.</p>
+						All passwords are stored in the system <a class="ext" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications.</p>
 
 						<p><img src="./img/idisk.png" class="feature" alt="" /> <strong>iDisk</strong><br />
-						Synchronize bookmarks with <a class="ext-link" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a>.</p>
+						Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a>.</p>
 
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
 						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>

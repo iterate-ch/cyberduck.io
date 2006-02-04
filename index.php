@@ -27,7 +27,7 @@
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p><strong style="color:#4e4e4e;">Cyberduck is
-					a <a class="ext-link" href=
+					a <a class="ext" href=
 					"http://opensource.org/docs/definition.php">open
 					source</a> FTP and SFTP (SSH Secure File
 					Transfer) browser licenced under the GPL with
@@ -45,7 +45,7 @@
 					(Traditional and Simplified), Russian, Swedish,
 					Hungarian, Danish, Polish, Indonesian, Catalan,
 					Welsh and Thai</em>. Many thanks to all
-					<a class="ext-link" href=
+					<a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
 					contributors</a>! If you need
 					<strong>help</strong>, there is an <a href=
@@ -53,21 +53,21 @@
 					<a href="./help/en/problems/">common
 					problems</a> and a <a href=
 					"./help/en/faq">FAQ</a>. Please post any
-					questions on the <strong><a class="ext-link"
+					questions on the <strong><a class="ext"
 					href="./forum">forum</a></strong>. This
-					software is written by <a class="ext-link"
+					software is written by <a class="ext"
 					href="http://sudo.ch/">David V. Kocher</a>.
-					Please have a look at the <a class="ext-link"
+					Please have a look at the <a class="ext"
 					href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
 					credits</a> to see who contributed. I
-					appreciate any <strong><a class="ext-link"
+					appreciate any <strong><a class="ext"
 					href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">
 					feedback</a></strong> you might have. For bug
 					reports and feature suggestions you should
-					issue a <a class="ext-link" href=
+					issue a <a class="ext" href=
 					"http://trac.cyberduck.ch/newticket">new
-					ticket</a> in the <a class="ext-link" href=
+					ticket</a> in the <a class="ext" href=
 					"http://trac.cyberduck.ch">tracker</a>.</p>
 
 					<div style=
@@ -108,27 +108,27 @@
 						"feature" alt="" /> <strong>External
 						editors</strong><br />
 						Seamless integration with external editors.
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>,
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.barebones.com/products/bbedit/">
-						BBEdit</a>, <a class="ext-link" href=
+						BBEdit</a>, <a class="ext" href=
 						"http://www.barebones.com/products/textwrangler">
-						TextWrangler</a>, <a class="ext-link" href=
+						TextWrangler</a>, <a class="ext" href=
 						"http://www.tex-edit.com/">Text-Edit
-						Plus</a>, <a class="ext-link" href=
+						Plus</a>, <a class="ext" href=
 						"http://macromates.com/">TextMate</a>,
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://mimikaki.net/">mi</a>, <a class=
-						"ext-link" href=
+						"ext" href=
 						"http://smultron.sourceforge.net/">Smultron</a>,
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.artman21.net/product/JeditX/">JeditX</a>,
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://macrabbit.com/cssedit/">CSSEdit</a>,
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.aynimac.com/">CotEditor</a> and
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.talacia.com/">Tag</a>.</p>
 
 						<p><img src="./img/gnu.png" class="feature"
@@ -142,7 +142,7 @@
 						<p><img src="./img/spotlight.png" class=
 						"feature" alt="" />
 						<strong>Spotlight</strong><br />
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.apple.com/macosx/features/spotlight/">
 						Spotlight</a> Importer for bookmark
 						files.</p>
@@ -166,7 +166,7 @@
 						<strong>Integration</strong><br />
 						Use Cyberduck as default system wide
 						protocol handler for FTP (Requires
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.rubicode.com/Software/RCDefaultApp">
 						RCDefaultApp</a>). Open .inetloc files and
 						.duck bookmark files from the Finder.</p>
@@ -185,7 +185,7 @@
 						"feature" alt="" />
 						<strong>AppleScript</strong><br />
 						Full AppleScript integration. See the
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">
 						sample scripts</a> (included on the disk
 						image).</p>
@@ -196,7 +196,7 @@
 						"feature" alt="" />
 						<strong>Keychain</strong><br />
 						All passwords are stored in the system
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://www.apple.com/macosx/features/security/">
 						Keychain</a> as Internet passwords
 						available also to third party
@@ -206,7 +206,7 @@
 						"feature" alt="" />
 						<strong>iDisk</strong><br />
 						Synchronize bookmarks with <a class=
-						"ext-link" href=
+						"ext" href=
 						"http://www.apple.com/macosx/features/dotmacsync/">
 						.Mac iDisk</a>.</p>
 
@@ -260,19 +260,19 @@
 
 					<p><small>This product includes software
 					developed by <strong>sshtools.com</strong>
-					(<a class="ext-link" href=
+					(<a class="ext" href=
 					"http://www.sshtools.com">http://www.sshtools.com</a>),
 					<strong>enterprisedt</strong> (<a class=
-					"ext-link" href=
+					"ext" href=
 					"http://www.enterprisedt.com">http://www.enterprisedt.com</a>),
 					the <strong>Apache Software Foundation</strong>
-					(<a class="ext-link" href=
+					(<a class="ext" href=
 					"http://jakarta.apache.org">http://jakarta.apache.org/</a>),
-					<strong>Unsanity</strong> (<a class="ext-link"
+					<strong>Unsanity</strong> (<a class="ext"
 					href=
 					"http://www.unsanity.com/">http://www.unsanity.com/</a>)
 					and <strong>Apple Computer</strong> (<a class=
-					"ext-link" href=
+					"ext" href=
 					"http://apple.com/">http://apple.com</a>).</small></p>
 				</td>
 
@@ -323,7 +323,7 @@
 
 					<div class="box-filled">
 						<p><strong>Donations.</strong>
-						<em><a class="ext-link" href=
+						<em><a class="ext" href=
 						"http://www.gnu.org/philosophy/free-sw.html">
 						Free software</a> is a matter of the users
 						freedom to run, copy, distribute, study,
@@ -363,7 +363,7 @@
 					<div class="box-filled">
 						<p><strong>Forum.</strong> Discuss anything
 						related to Cyberduck in the forum hosted at
-						<a class="ext-link" href=
+						<a class="ext" href=
 						"http://forum.cyberduck.ch">cocoaforge.com</a></p><a href="http://forum.cyberduck.ch">
 						</a>
 
@@ -382,7 +382,7 @@
 						"./img/feed-icon-16x16.png" alt="feed" />
 						<strong>Blog.</strong> <a href=
 						"http://sudo.ch/~dkocher/feed/">Subscribe</a>
-						to the the developer's <a class="ext-link"
+						to the the developer's <a class="ext"
 						href=
 						"http://sudo.ch/~dkocher/">blog</a>.</p>
 					</div>
@@ -395,7 +395,7 @@
 						"64" alt="getquicksilver" /></a>
 						<strong>Quicksilver Module.</strong> Access
 						Cyberduck bookmarks from within <a class=
-						"ext-link" href=
+						"ext" href=
 						"http://docs.blacktree.com/quicksilver/plug-ins/cyberduck/">
 						Quicksilver</a>.</p>
 
@@ -403,13 +403,13 @@
 						"64" class="sidebar" src=
 						"./img/growlicon.png" alt="getgrowl" /></a>
 						<strong>Growl.</strong> You may also want
-						to install <a class="ext-link" href=
+						to install <a class="ext" href=
 						"http://growl.info">Growl</a>, a global
 						notification system Cyberduck supports.</p>
 
 						<p><strong>RCDefaultApp.</strong> Set
 						Cyberduck as the default application for
-						all FTP URLs with <a class="ext-link" href=
+						all FTP URLs with <a class="ext" href=
 						"http://www.rubicode.com/Software/RCDefaultApp">
 						RCDefaultApp</a>.</p>
 					</div>
