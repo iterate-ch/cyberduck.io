@@ -35,6 +35,8 @@
           out there, imagine if Filezilla was fast, and looked
           nice.</q></p>
 
+			<p><q cite="forums.macrumors.com">I've been using Cyberduck for a while now, and it rocks my socks. And I'm not even wearing any socks.</q></p>
+			
           <p><q cite="Comment to macworld.com article">Nice
           article, but I don't use any those. I have found
           Cyberduck to totally and wonderfully take care of my FTP

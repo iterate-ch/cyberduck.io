@@ -241,6 +241,10 @@
 		color:#ffffff;
 	}
 	
+	q {
+		text-align: center;
+	}
+	
 	q:before {
 		content:"\201C";
 	}

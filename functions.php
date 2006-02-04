@@ -60,7 +60,6 @@ function echodonate($dir) {
 		<div id=\"navigation\">
 			<ul>
               <li><a accesskey=\"a\" id=\"navigation-index\" href=\"".$dir."/\"><u>a</u>bout</a></li>
-              <li><a accesskey=\"f\"id=\"navigation-features\" href=\"".$dir."/features.php\"><u>f</u>eatures</a></li>
               <li><a accesskey=\"c\"id=\"navigation-changelog\" href=\"".$dir."/changelog.php\"><u>c</u>hangelog</a></li>
               <li><a accesskey=\"v\"id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\">de<u>v</u>elopment</a></li>
               <li><a accesskey=\"s\"id=\"navigation-source\" href=\"".$dir."/source.php\"><u>s</u>ource</a></li>
