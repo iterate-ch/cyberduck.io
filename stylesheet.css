@@ -242,7 +242,7 @@
 	}
 	
 	q {
-		text-align: center;
+		color:#0066cc;
 	}
 	
 	q:before {
@@ -254,7 +254,6 @@
 	}
 	
 	q[cite]:after {
-		color:#0066cc;
 		white-space:pre;
 		content:"\201D\A\2014 " attr(cite);
 	}

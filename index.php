@@ -278,13 +278,10 @@
 
 				<td id="sidebar" valign="top">
 					<div class="box-solid">
-						<p><em>"All the other FTP clients I've used
+						<p><q cite="boingboing.net"><a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">All the other FTP clients I've used
 						have been hard to learn and are confusing,
 						but I've never had to look at the help file
-						for Cyberduck."</em> <a href=
-						"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
-						(boingboing.net)</a>. Read more <a href=
-						"./reviews.php">reviews.</a></p>
+						for Cyberduck</a></q></p>
 
 						<div style="margin:5px;" align="center">
 							<a href=
