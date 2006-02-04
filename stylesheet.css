@@ -58,7 +58,6 @@
 	}
 	
 	.ext-link { background:url(./img/extlink.gif) no-repeat 0 58%; padding-bottom:1px; padding-left:16px }
-	* html .ext-link { background-position:0 .35em } /* IE hack, see #937 */
 	
 	div#donate {
 		position:absolute;
