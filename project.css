@@ -59,8 +59,9 @@
 
 #mainnav li { border: none; }
 #mainnav ul li { padding-left: 0px; list-style: none; display: inline; }
-#mainnav ul li.first { display:none; }
+/*#mainnav ul li.first { display:none; }*/
 #mainnav ul > li:first-child { padding-left: 0; }
+#metanav ul > li:first-child { padding-left: 0; }
 
 #content {
 	position:static;
