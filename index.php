@@ -44,7 +44,7 @@
 					Portuguese, Slovak, Spanish, Chinese
 					(Traditional and Simplified), Russian, Swedish,
 					Hungarian, Danish, Polish, Indonesian, Catalan,
-					Welsh and Thai</em>. Many thanks to all
+					Welsh, Thai and Hebrew</em>. Many thanks to all
 					<a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
 					contributors</a>! If you need
@@ -101,8 +101,8 @@
 						Korean, Norwegian, Portuguese, Slovak,
 						Spanish, Chinese (Traditional and
 						Simplified), Russian, Swedish, Hungarian,
-						Danish, Polish, Indonesian, Catalan and
-						Welsh</em>.</p>
+						Danish, Polish, Indonesian, Catalan,
+						Welsh, Thai and Hebrew</em>.</p>
 
 						<p><img src="./img/textmate.png" class=
 						"feature" alt="" /> <strong>External
@@ -264,16 +264,10 @@
 					"http://www.sshtools.com">http://www.sshtools.com</a>),
 					<strong>enterprisedt</strong> (<a class=
 					"ext" href=
-					"http://www.enterprisedt.com">http://www.enterprisedt.com</a>),
-					the <strong>Apache Software Foundation</strong>
+					"http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
+					and the <strong>Apache Software Foundation</strong>
 					(<a class="ext" href=
-					"http://jakarta.apache.org">http://jakarta.apache.org/</a>),
-					<strong>Unsanity</strong> (<a class="ext"
-					href=
-					"http://www.unsanity.com/">http://www.unsanity.com/</a>)
-					and <strong>Apple Computer</strong> (<a class=
-					"ext" href=
-					"http://apple.com/">http://apple.com</a>).</small></p>
+					"http://jakarta.apache.org">http://jakarta.apache.org/</a>).</small></p>
 				</td>
 
 				<td id="sidebar" valign="top">
@@ -296,7 +290,7 @@
 						<table cellpadding="0" cellspacing="0">
 							<tr>
 								<td valign="top"><a href=
-								"./Cyberduck-2.5.4.dmg"><img width=
+								"./Cyberduck-2.5.5.dmg"><img width=
 								"64" height="90" style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
@@ -307,18 +301,84 @@
 									<p>
 									<strong><u>D</u>ownload</strong><br />
 
-									<strong>2.5.4</strong>
-									<em>(Jan-20-2006)</em><br />
+									<strong>2.5.5</strong>
+									<em>(Feb-20-2006)</em><br />
 									<a href=
-									"./Cyberduck-2.5.4.dmg">Cyberduck-2.5.4.dmg</a>
+									"./Cyberduck-2.5.5.dmg">Cyberduck-2.5.5.dmg</a>
 									<a href=
-									"./Cyberduck-2.5.4.dmg"></a>
-									(7.9MB)<br />
+									"./Cyberduck-2.5.5.dmg"></a>
+									(8.0MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
 								</td>
 							</tr>
 						</table>
+						<p>You can also download a build with a particular localization only (4.2MB):
+						
+						<script type="text/javascript">
+						<!--
+						function setVisible(obj) {
+							for(i = 0; i < obj.options.length; i++) {
+								document.getElementById(obj.options[i].value).style.display = 'none';
+							}
+							document.getElementById(obj.options[obj.selectedIndex].value).style.display = 'inline';
+						}
+						//-->
+						</script>
+						
+						<form>
+							<p><select style="width:100px;" name="localizations" onchange="javascript:setVisible(this)">
+								<option value="en" selected>English</option>
+								<option value="ca">Català</option>
+								<option value="cs">Čeština</option>
+								<option value="cy">Cymraeg</option>
+								<option value="da">Dansk</option>
+								<option value="de">Deutsch</option>
+								<option value="es">Español</option>
+								<option value="fi">Suomi</option>
+								<option value="fr">Français</option>
+								<option value="he">עִבְרִית</option>
+								<option value="hu">Magyar</option>
+								<option value="id">Bahasa Indonesia</option>
+								<option value="it">Italiano</option>
+								<option value="ja">日本語</option>
+								<option value="ko">한국어</option>
+								<option value="nl">Nederlands</option>
+								<option value="no">Nynorsk</option>
+								<option value="pl">Polszczyzna</option>
+								<option value="ru">Pусский язык</option>
+								<option value="sk">Slovenčina</option>
+								<option value="sv">Svenska</option>
+								<option value="th">ภาษาไทย</option>
+								<option value="zh_CN">简体字</option>
+								<option value="zh_TW">簡體字</option>
+							</select>
+							<a id="en" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-en.dmg">Cyberduck-2.5.5-en.dmg</a>
+							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ca.dmg">Cyberduck-2.5.5-ca.dmg</a>
+							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cs.dmg">Cyberduck-2.5.5-cs.dmg</a>
+							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cy.dmg">Cyberduck-2.5.5-cy.dmg</a>
+							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-da.dmg">Cyberduck-2.5.5-da.dmg</a>
+							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-de.dmg">Cyberduck-2.5.5-de.dmg</a>
+							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-es.dmg">Cyberduck-2.5.5-es.dmg</a>
+							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-fi.dmg">Cyberduck-2.5.5-fi.dmg</a>
+							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-fr.dmg">Cyberduck-2.5.5-fr.dmg</a>
+							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-he.dmg">Cyberduck-2.5.5-he.dmg</a>
+							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-hu.dmg">Cyberduck-2.5.5-hu.dmg</a>
+							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-id.dmg">Cyberduck-2.5.5-id.dmg</a>
+							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-it.dmg">Cyberduck-2.5.5-it.dmg</a>
+							<a id="ja" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ja.dmg">Cyberduck-2.5.5-ja.dmg</a>
+							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ko.dmg">Cyberduck-2.5.5-ko.dmg</a>
+							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-nl.dmg">Cyberduck-2.5.5-nl.dmg</a>
+							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-no.dmg">Cyberduck-2.5.5-no.dmg</a>
+							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-pl.dmg">Cyberduck-2.5.5-pl.dmg</a>
+							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ru.dmg">Cyberduck-2.5.5-ru.dmg</a>
+							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-sk.dmg">Cyberduck-2.5.5-sk.dmg</a>
+							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-sv.dmg">Cyberduck-2.5.5-sv.dmg</a>
+							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-th.dmg">Cyberduck-2.5.5-th.dmg</a>
+							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-zh_CN.dmg">Cyberduck-2.5.5-zh_CN.dmg</a>
+							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-zh_TW.dmg">Cyberduck-2.5.5-zh_TW.dmg</a>
+							</p>
+						</form>
 					</div>
 
 					<div class="box-filled">
@@ -382,7 +442,7 @@
 						"./img/feed-icon-16x16.png" alt="feed" />
 						<strong>Blog.</strong> <a href=
 						"http://sudo.ch/~dkocher/feed/">Subscribe</a>
-						to the the developer's <a class="ext"
+						to the the developer&apos;s <a class="ext"
 						href=
 						"http://sudo.ch/~dkocher/">blog</a>.</p>
 					</div>

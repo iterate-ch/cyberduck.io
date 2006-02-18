@@ -7,6 +7,17 @@
 		<language>en-us</language>
 		<copyright>Copyright 2005, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.5.5</title>
+			<pubDate>Wed, 20 Feb 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.5.dmg" length="8267422" type="application/octet-stream"/>
+			<link>http://cyberduck.ch/Cyberduck-2.5.5.dmg</link>
+			<content:encoded><![CDATA[
+						<ul>
+
+						</ul>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.5.4</title>
 			<pubDate>Wed, 20 Jan 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg" length="8267422" type="application/octet-stream"/>
