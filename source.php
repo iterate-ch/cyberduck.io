@@ -19,10 +19,9 @@
 	<div class="content">
 		<table cellpadding="5" cellspacing="5" width="100%">
 			<tr>
-				<td width="150" valign="middle" class="box-filled">
+				<td width="150" valign="middle" class="box-solid">
 					<div align="center">
-						<img src="./img/javafile.png" alt="Java Source" border="0" /><br />
-						<a href="http://intellij.com"><img src="./img/idea.gif" alt="intellij" /></a>
+						<img src="./img/gnu.png" alt="Java Source" border="0" /><br />
 					</div>
 				</td>
 
@@ -32,9 +31,7 @@
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 
 					<p><i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i></p>
-					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
-
-					<p>Dependencies:</p>
+					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>. Cyberduck has the following dependencies:</p>
 
 					<ul>
 						<li>Growl.framework, <a class="ext" href="http://growl.info">growl.info</a></li>
@@ -43,6 +40,7 @@
 
 						<li>DotMacKit.framework, <a class="ext" href="http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
 					</ul>
+					<p><a href="http://www.jetbrains.com/idea/"><img src="./img/idea.gif" alt="intellij" /></a></p>
 				</td>
 			</tr>
 
