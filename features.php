@@ -27,7 +27,7 @@
 						<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
 
-						<p><img src="./img/international.png" class="feature" alt="" /> <strong>International</strong><br />
+						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan and Welsh</em>.</p>
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />

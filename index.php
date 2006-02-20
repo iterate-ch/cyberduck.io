@@ -67,8 +67,8 @@
 					reports and feature suggestions you should
 					issue a <a class="ext" href=
 					"http://trac.cyberduck.ch/newticket">new
-					ticket</a> in the <a class="ext" href=
-					"http://trac.cyberduck.ch">tracker</a>.</p>
+					ticket</a> in the <strong><a class="ext" href=
+					"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
 
 					<div style=
 					"margin-left:10px; margin-bottom:30px; margin-right:5px"
@@ -93,7 +93,7 @@
 						caching, cut &amp; paste, drag &amp; drop
 						and arbitrary character encodings.</p>
 
-						<p><img src="./img/international.png"
+						<p><img src="./img/international16.png"
 						class="feature" alt="" />
 						<strong>International</strong><br />
 						Available in <em>English, Czech, Dutch,
@@ -328,7 +328,7 @@
 						
 						<form>
 							<p><select style="width:100px;" name="localizations" onchange="javascript:setVisible(this)">
-								<option value="en" selected>English</option>
+								<option value="en">English</option>
 								<option value="ca">Català</option>
 								<option value="cs">Čeština</option>
 								<option value="cy">Cymraeg</option>
@@ -341,7 +341,7 @@
 								<option value="hu">Magyar</option>
 								<option value="id">Bahasa Indonesia</option>
 								<option value="it">Italiano</option>
-								<option value="ja">日本語</option>
+								<option value="ja" selected>日本語</option>
 								<option value="ko">한국어</option>
 								<option value="nl">Nederlands</option>
 								<option value="no">Nynorsk</option>
@@ -353,7 +353,7 @@
 								<option value="zh_CN">简体字</option>
 								<option value="zh_TW">簡體字</option>
 							</select>
-							<a id="en" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-en.dmg">Cyberduck-2.5.5-en.dmg</a>
+							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-en.dmg">Cyberduck-2.5.5-en.dmg</a>
 							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ca.dmg">Cyberduck-2.5.5-ca.dmg</a>
 							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cs.dmg">Cyberduck-2.5.5-cs.dmg</a>
 							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cy.dmg">Cyberduck-2.5.5-cy.dmg</a>
@@ -366,7 +366,7 @@
 							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-hu.dmg">Cyberduck-2.5.5-hu.dmg</a>
 							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-id.dmg">Cyberduck-2.5.5-id.dmg</a>
 							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-it.dmg">Cyberduck-2.5.5-it.dmg</a>
-							<a id="ja" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ja.dmg">Cyberduck-2.5.5-ja.dmg</a>
+							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ja.dmg">Cyberduck-2.5.5-ja.dmg</a>
 							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ko.dmg">Cyberduck-2.5.5-ko.dmg</a>
 							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-nl.dmg">Cyberduck-2.5.5-nl.dmg</a>
 							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-no.dmg">Cyberduck-2.5.5-no.dmg</a>
@@ -500,3 +500,4 @@
 	</div>
 </body>
 </html>
+§
