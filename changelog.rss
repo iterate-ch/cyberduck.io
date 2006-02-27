@@ -13,7 +13,14 @@
 			<link>http://cyberduck.ch/Cyberduck-2.5.5.dmg</link>
 			<content:encoded><![CDATA[
 						<ul>
-
+						<li>[Localize] Hebrew Localization</li>
+						<li>[Bugfix] Excape key cancels editing [<a href="http://trac.cyberduck.ch/ticket/190">#190</a>]</li>
+						<li>[Bugfix] Adjust permissions on created folders when transfering files [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
+						<li>[Bugfix] Cannot write to group writable files (SFTP) [<a href="http://trac.cyberduck.ch/ticket/173">#173</a>]</li>
+						<li>[Bugfix] Spotlight binary not executable [<a href="http://trac.cyberduck.ch/ticket/212">#212</a>]</li>
+						<li>[Feature] Added options to use Cyberduck as a portable application (see http://www.freesmug.org/portableapps/) [<a href="http://trac.cyberduck.ch/ticket/180">#180</a>]</li>
+						<li>[Feature] New Crash Reporter (Thanks to M. Uli Kusterer!) [<a href="http://trac.cyberduck.ch/ticket/195">#195</a>]</li>
+						<li>[Feature] Added skEdit to the list of supported editors (http://www.skti.org)</li>
 						</ul>
 			]]></content:encoded>
 		</item>

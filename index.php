@@ -41,9 +41,9 @@
 					<strong>Localizations</strong> are available in
 					<em>English, Czech, Dutch, Finnish, French,
 					German, Italian, Japanese, Korean, Norwegian,
-					Portuguese, Slovak, Spanish, Chinese
+					Slovak, Spanish, Chinese
 					(Traditional and Simplified), Russian, Swedish,
-					Hungarian, Danish, Polish, Indonesian, Catalan,
+					Danish, Polish, Indonesian, Catalan,
 					Welsh, Thai and Hebrew</em>. Many thanks to all
 					<a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
@@ -98,9 +98,9 @@
 						<strong>International</strong><br />
 						Available in <em>English, Czech, Dutch,
 						Finnish, French, German, Italian, Japanese,
-						Korean, Norwegian, Portuguese, Slovak,
+						Korean, Norwegian, Slovak,
 						Spanish, Chinese (Traditional and
-						Simplified), Russian, Swedish, Hungarian,
+						Simplified), Russian, Swedish,
 						Danish, Polish, Indonesian, Catalan,
 						Welsh, Thai and Hebrew</em>.</p>
 
@@ -338,7 +338,6 @@
 								<option value="fi">Suomi</option>
 								<option value="fr">Français</option>
 								<option value="he">עִבְרִית</option>
-								<option value="hu">Magyar</option>
 								<option value="id">Bahasa Indonesia</option>
 								<option value="it">Italiano</option>
 								<option value="ja" selected>日本語</option>
