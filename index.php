@@ -299,7 +299,7 @@
 
 								<td valign="top">
 									<p>
-									<strong><u>D</u>ownload</strong><br />
+									<strong>Download</strong><br />
 
 									<strong>2.5.5</strong>
 									<em>(Feb-20-2006)</em><br />
@@ -307,7 +307,7 @@
 									"./Cyberduck-2.5.5.dmg">Cyberduck-2.5.5.dmg</a>
 									<a href=
 									"./Cyberduck-2.5.5.dmg"></a>
-									(8.0MB)<br />
+									(7.9MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
 								</td>

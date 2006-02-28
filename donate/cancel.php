@@ -45,8 +45,7 @@
 
   <div class="footer">
     <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$<br />
-    <?php echo(echomenu());?>
+    $Date$
   </div>
 </body>
 </html>
