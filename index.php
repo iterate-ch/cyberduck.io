@@ -487,11 +487,11 @@
 						rest, this is the best! (...) I will never
 						use another FTP client again.</a></q></p>
 						
-						<p><q cite="osxguide.com"><a href="http://www.osxguide.com/modules.php?op=modload&name=News&file=article&sid=189&mode=thread&order=0&thold=0">Cyberduck is getting some great acclaim, and deservedly so.
+						<p><q cite="osxguide.com"><a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">Cyberduck is getting some great acclaim, and deservedly so.
 						</a></q></p>
 
 						<p>Read more <a href=
-						"./reviews.php">reviews here.</a>
+						"./reviews.php">reviews here.</a></p>
 					</div>
 				</td>
 			</tr>
