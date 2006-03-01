@@ -313,7 +313,8 @@
 								</td>
 							</tr>
 						</table>
-						<p>You can also download a build with a particular localization only (4.2MB):
+						<p>You can also download a <a href="http://update.cyberduck.ch/localizations/">
+						unilingual build</a> with one particular localization only (4.2MB):
 						
 						<script type="text/javascript">
 						<!--
