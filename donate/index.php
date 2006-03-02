@@ -34,7 +34,8 @@
 
         <td colspan="2" class="box-solid">
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
-        </td>
+<p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
+		</td>
       </tr>
 
       <tr>
@@ -46,7 +47,7 @@
         </td>
 
         <td colspan="2" class="box-solid">
-          <p>I have both a <a class="ext" href=
+          <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
           amazon.de</a> and <a class="ext" href=
           "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
