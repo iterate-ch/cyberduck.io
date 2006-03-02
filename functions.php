@@ -65,6 +65,7 @@ function echodonate($dir) {
               <li><a accesskey=\"s\" id=\"navigation-source\" href=\"".$dir."/source.php\"><u>s</u>ource</a></li>
               <li><a accesskey=\"o\"class=\"ext\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">f<u>o</u>rum</a></li>
               <li><a accesskey=\"h\"class=\"ext\" id=\"navigation-help\" href=\"".$dir."/help\"><u>h</u>elp</a></li>
+              <li><a id=\"navigation-donate\" href=\"".$dir."/donate\">donations</a></li>
 			</ul>
 		</div>";
     }

@@ -21,12 +21,16 @@
   <div class="content">
     <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
-        <td colspan="3" class="alert"><strong style="color:#ffffff">Thank you very much for your
+        <td colspan="3" class="box-filled"><strong>
+		Cyberduck is <a class="ext" href=
+		"http://www.gnu.org/philosophy/free-sw.html">
+		free software</a>, but it still costs money to produce, support, and distribute it.
+Thank you very much for your
         support! It will help to make Cyberduck even better!</strong></td>
       </tr>
 
       <tr>
-        <td width="150" valign="middle" class="box-solid">
+        <td width="150" valign="middle" class="box-filled">
           <div align="center">
             <?php echo(echodonate(".."));?>
           </div>
@@ -39,7 +43,7 @@
       </tr>
 
       <tr>
-        <td width="150" valign="middle" class="box-solid">
+        <td width="150" valign="middle" class="box-filled">
           <div align="center">
             <img src="../img/amazon.png" alt="amazon books" border=
             "0" />

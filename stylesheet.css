@@ -279,3 +279,11 @@
 		padding:2px;
 		background-color: #0066cc;
 	}
+	
+	.alert strong {
+		color:#ffffff;
+	}
+	
+	.alert a {
+		color:#ffffff;
+	}
