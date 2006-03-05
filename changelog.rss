@@ -5,7 +5,19 @@
 		<link>http://cyberduck.ch/changelog.php</link>
 		<description>Cyberduck Changelog.</description>
 		<language>en-us</language>
-		<copyright>Copyright 2005, David V. Kocher</copyright>
+		<copyright>Copyright 2006, David V. Kocher</copyright>
+		<item>
+			<title>Cyberduck Dashboard Widget</title>
+			<pubDate>Mon, 06 Mar 2006 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/Cyberduck.wdgt.zip</link>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck.wdgt.zip" length="180365" type="application/octet-stream"/>
+			<content:encoded><![CDATA[
+			<p>Thanks to Claudio Procida a nifty <a href="http://www.apple.com/macosx/features/dashboard/"</a> widgeet
+			is now available for Cyberduck.</p>
+			<img src="http://cyberduck.ch/img/widget-front.png" alt="Dashboard Widget Front" border="0" />
+			<img src="http://cyberduck.ch/img/widget-back.png" alt="Dashboard Widget Back" border="0" />
+			]]></content:encoded>
+		</item>
 		<item>
 			<title>Cyberduck 2.5.5</title>
 			<pubDate>Wed, 01 Mar 2006 00:00:00 +0100</pubDate>
