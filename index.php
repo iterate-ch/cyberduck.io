@@ -447,6 +447,13 @@
 						"http://sudo.ch/~dkocher/">blog</a>.</p>
 					</div>
 
+					<div class="box-solid">
+						<p><strong>Widget.</strong> <a href="http://update.cyberduck.ch/Cyberduck.wdgt.zip">Download</a> the optional <a class="ext" href="http://www.apple.com/macosx/features/dashboard/">dashboard</a> widget.</p>
+						<div style="padding:5px;" align="center">
+							<a id="widget" href="http://update.cyberduck.ch/Cyberduck.wdgt.zip"></a>
+						</div>
+					</div>
+
 					<div class="box-filled">
 						<p><a href=
 						"http://docs.blacktree.com/quicksilver/plug-ins/cyberduck">

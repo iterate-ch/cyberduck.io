@@ -14,7 +14,7 @@
 	}
 		
 	img {
-		border-width:0px 0px 0px 0px;
+		border:none;
 	}
 	
 	div.footer {
@@ -286,4 +286,20 @@
 	
 	.alert a {
 		color:#ffffff;
+	}
+	
+	a#widget {
+		display:block;
+		margin-top:-40px;
+		background: url(./img/widget-front.png) no-repeat;
+		height:221px;
+		width:158px;
+	}
+	
+	a:hover#widget {
+		display:block;
+		margin-top:-40px;
+		background: url(./img/widget-back.png) no-repeat;
+		height:221px;
+		width:158px;
 	}
