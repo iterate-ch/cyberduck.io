@@ -66,6 +66,13 @@
 		width:134px; 
 	}
 	
+	#download:hover {
+		background-color: transparent;
+		background-image: url("./img/download-halo.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+		
 	input#paypal {
 		width:62px; 
 		height:31px;

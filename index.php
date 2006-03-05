@@ -289,9 +289,8 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td valign="top"><a href=
-								"./Cyberduck-2.5.5.dmg"><img width=
-								"64" height="90" style=
+								<td id="download" valign="top"><a href=
+								"./Cyberduck-2.5.5.dmg"><img style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
 								alt="Download" border=
@@ -448,7 +447,10 @@
 					</div>
 
 					<div class="box-solid">
-						<p><strong>Widget.</strong> <a href="http://update.cyberduck.ch/Cyberduck.wdgt.zip">Download</a> the optional <a class="ext" href="http://www.apple.com/macosx/features/dashboard/">dashboard</a> widget.</p>
+						<p><strong>Widget.</strong> 
+						<a href="http://update.cyberduck.ch/Cyberduck.wdgt.zip">Download</a> the 
+						<a class="ext" href="http://www.apple.com/macosx/features/dashboard/">dashboard</a>
+						widget (Thanks to <a href="http://www.emeraldion.it/home/" class="ext">Claudio Procida</a>!).</p>
 						<div style="padding:5px;" align="center">
 							<a id="widget" href="http://update.cyberduck.ch/Cyberduck.wdgt.zip"></a>
 						</div>
