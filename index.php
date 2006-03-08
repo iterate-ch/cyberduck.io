@@ -46,7 +46,7 @@
 					Danish, Polish, Indonesian, Catalan,
 					Welsh, Thai and Hebrew</em>. Many thanks to all
 					<a class="ext" href=
-					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
+					"http://trac.cyberduck.ch/file/trunk/Credits.rtf">
 					contributors</a>! If you need
 					<strong>help</strong>, there is an <a href=
 					"./help/en/howto">introduction</a>, a list of
