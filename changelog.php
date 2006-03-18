@@ -49,6 +49,10 @@
         </td>
       </tr>
 
+		<tr>
+			<td colspan="3"><?php echo(echogoogle());?></td>
+		</tr>
+
       <tr>
         <td class="box-solid" width="150" valign="top">
         <strong>2.5.4</strong> <em>Jan-20-2006</em><br />
@@ -151,11 +155,6 @@
           </ul>
         </td>
       </tr>
-
-		<tr>
-			<td colspan="3" class="alert"><?php echo(echogoogle());?></td>
-		</tr>
-
 
       <tr>
         <td class="box-solid" width="150" valign="top">
