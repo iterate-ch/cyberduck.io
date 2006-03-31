@@ -27,7 +27,7 @@
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p><strong style="color:#4e4e4e;">Cyberduck is
-					a <a class="ext" href=
+					an <a class="ext" href=
 					"http://opensource.org/docs/definition.php">open
 					source</a> FTP and SFTP (SSH Secure File
 					Transfer) browser licenced under the GPL with
