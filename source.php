@@ -26,7 +26,7 @@
 				</td>
 
 				<td colspan="2" valign="top" class="box-solid">
-					<p>Source code is available licenced unter the <a class="ext" href="http://www.gnu.org/licenses/gpl.html">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
+					<p>Source code is available licenced unter the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository using:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 

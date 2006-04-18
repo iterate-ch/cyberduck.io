@@ -30,7 +30,7 @@
 					an <a class="ext" href=
 					"http://opensource.org/docs/definition.php">open
 					source</a> FTP and SFTP (SSH Secure File
-					Transfer) browser licenced under the GPL with
+					Transfer) browser licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with
 					an easy to use interface, integration with
 					external editors and support for many Mac OS X
 					system technologies such as Spotlight, Bonjour,
@@ -134,7 +134,7 @@
 						<p><img src="./img/gnu.png" class="feature"
 						alt="" /> <strong>Open
 						Source</strong><br />
-						Licensed under the GPL.</p>
+						Licensed under the <a href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a>.</p>
 
 					</div>
 
@@ -247,7 +247,7 @@
 					Kocher. All rights reserved. This program is
 					free software; you can redistribute it and/or
 					modify it under the terms of the <a href=
-					"License.txt">GNU General Public License</a> as
+					"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as
 					published by the Free Software Foundation;
 					either version 2 of the License, or (at your
 					option) any later version.<em>This program is
