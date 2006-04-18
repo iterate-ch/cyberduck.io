@@ -52,9 +52,9 @@ Thank you very much for your
 
         <td colspan="2" class="box-solid">
           <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
-          "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
+          "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
           amazon.de</a>, <a class="ext" href=
-          "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
+          "http://www.amazon.co.uk/gp/registry/1RN1NJU8CX7AW/">
           amazon.co.uk</a> and <a class="ext" href="http://www.amazon.fr/gp/registry/32IESVEAYZ9DB">amazon.fr</a> wishlist.</p>
         </td>
       </tr>
