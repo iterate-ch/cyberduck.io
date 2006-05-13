@@ -24,11 +24,43 @@
         <td width="150"></td>
 
         <td colspan="2" class="box-filled">(There is also an
-        <a href="./changelog.rss">RSS</a> feed and <a class=
+        <a href="http://update.cyberduck.ch/changelog.rss">RSS</a> feed and <a class=
         "ext" href=
         "http://trac.cyberduck.ch/file/trunk/Changelog.txt?format=raw">
         text</a> file.)</td>
       </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <strong>2.5.6</strong> <em>May-15-2006</em><br />
+        <a href="./Cyberduck-2.5.6.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+<li>[Localize] Turkish Localization</li>
+<li>[Feature] Automatic software udpate with Sparkle.framework (Thanks to Andy Matuschak!)</li>
+<li>[Feature] Dashboard Widget included (Thanks to Claudio Procida!)</li>
+<li>[Feature] Marking write-only and non-accessible directories with special icon as in Finder.app</li>
+<li>[Feature] Reintroduced transcript drawer in browser window</li>
+<li>[Feature] Added transcript drawer to transfer window</li>
+<li>[Feature] Option to use Network Diagnostics upon failed connections</li>
+<li>[Feature] New 'Download failed' and 'Upload failed' Growl notifications</li>
+<li>[Feature] Display alert icon in connection dialog if server name cannot be resolved</li>
+<li>[Bugfix] Stalled connection and file transfer attempts can be interrupted [<a href="http://trac.cyberduck.ch/ticket/55">#55</a>]</li>
+<li>[Bugfix] Cannot delete empty folders [<a href="http://trac.cyberduck.ch/ticket/162">#162</a>]</li>
+<li>[Bugfix] Cannot use login username with colon [<a href="http://trac.cyberduck.ch/ticket/309">#309</a>]</li>
+<li>[Bugfix] Certain operations trigger change of character encoding to default</li>
+<li>[Bugfix] Unable to delete directory from server [<a href="http://trac.cyberduck.ch/ticket/256">#256</a>]</li>
+<li>[Bugfix] Permission errors when downloading files from read-only directories [<a href="http://trac.cyberduck.ch/ticket/264">#264</a>]</li>
+<li>[Bugfix] Change download keyboad shortcut [<a href="http://trac.cyberduck.ch/ticket/277">#277</a>]</li>
+<li>[Bugfix] Character encoding issues [<a href="http://trac.cyberduck.ch/ticket/238">#238</a>, <a href="http://trac.cyberduck.ch/ticket/333">#333</a>, <a href="http://trac.cyberduck.ch/ticket/361">#361</a>, <a href="http://trac.cyberduck.ch/ticket/390">#390</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+		<tr>
+			<td colspan="3"><?php echo(echogoogle());?></td>
+		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
@@ -48,10 +80,6 @@
           </ul>
         </td>
       </tr>
-
-		<tr>
-			<td colspan="3"><?php echo(echogoogle());?></td>
-		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">

@@ -44,7 +44,7 @@
 					Slovak, Spanish, Chinese
 					(Traditional and Simplified), Russian, Swedish,
 					Danish, Polish, Indonesian, Catalan,
-					Welsh, Thai and Hebrew</em>. Many thanks to all
+					Welsh, Thai, Turkish and Hebrew</em>. Many thanks to all
 					<a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.rtf">
 					contributors</a>! If you need
@@ -102,7 +102,7 @@
 						Spanish, Chinese (Traditional and
 						Simplified), Russian, Swedish,
 						Danish, Polish, Indonesian, Catalan,
-						Welsh, Thai and Hebrew</em>.</p>
+						Welsh, Thai, Turkish and Hebrew</em>.</p>
 
 						<p><img src="./img/textmate.png" class=
 						"feature" alt="" /> <strong>External
@@ -290,7 +290,7 @@
 						<table cellpadding="0" cellspacing="0">
 							<tr>
 								<td id="download" valign="top"><a href=
-								"./Cyberduck-2.5.5.dmg"><img style=
+								"./Cyberduck-2.5.6.dmg"><img style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
 								alt="Download" border=
@@ -300,12 +300,12 @@
 									<p>
 									<strong>Download</strong><br />
 
-									<strong>2.5.5</strong>
-									<em>(Mar-01-2006)</em><br />
+									<strong>2.5.6</strong>
+									<em>(May-15-2006)</em><br />
 									<a href=
-									"./Cyberduck-2.5.5.dmg">Cyberduck-2.5.5.dmg</a>
+									"./Cyberduck-2.5.6.dmg">Cyberduck-2.5.6.dmg</a>
 									<a href=
-									"./Cyberduck-2.5.5.dmg"></a>
+									"./Cyberduck-2.5.6.dmg"></a>
 									(7.9MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
@@ -352,30 +352,30 @@
 								<option value="zh_CN">简体字</option>
 								<option value="zh_TW">簡體字</option>
 							</select>
-							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-en.dmg">Cyberduck-2.5.5-en.dmg</a>
-							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ca.dmg">Cyberduck-2.5.5-ca.dmg</a>
-							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cs.dmg">Cyberduck-2.5.5-cs.dmg</a>
-							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-cy.dmg">Cyberduck-2.5.5-cy.dmg</a>
-							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-da.dmg">Cyberduck-2.5.5-da.dmg</a>
-							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-de.dmg">Cyberduck-2.5.5-de.dmg</a>
-							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-es.dmg">Cyberduck-2.5.5-es.dmg</a>
-							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-fi.dmg">Cyberduck-2.5.5-fi.dmg</a>
-							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-fr.dmg">Cyberduck-2.5.5-fr.dmg</a>
-							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-he.dmg">Cyberduck-2.5.5-he.dmg</a>
-							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-hu.dmg">Cyberduck-2.5.5-hu.dmg</a>
-							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-id.dmg">Cyberduck-2.5.5-id.dmg</a>
-							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-it.dmg">Cyberduck-2.5.5-it.dmg</a>
-							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ja.dmg">Cyberduck-2.5.5-ja.dmg</a>
-							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ko.dmg">Cyberduck-2.5.5-ko.dmg</a>
-							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-nl.dmg">Cyberduck-2.5.5-nl.dmg</a>
-							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-no.dmg">Cyberduck-2.5.5-no.dmg</a>
-							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-pl.dmg">Cyberduck-2.5.5-pl.dmg</a>
-							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-ru.dmg">Cyberduck-2.5.5-ru.dmg</a>
-							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-sk.dmg">Cyberduck-2.5.5-sk.dmg</a>
-							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-sv.dmg">Cyberduck-2.5.5-sv.dmg</a>
-							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-th.dmg">Cyberduck-2.5.5-th.dmg</a>
-							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-zh_CN.dmg">Cyberduck-2.5.5-zh_CN.dmg</a>
-							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.5-zh_TW.dmg">Cyberduck-2.5.5-zh_TW.dmg</a>
+							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-en.dmg">Cyberduck-2.5.6-en.dmg</a>
+							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ca.dmg">Cyberduck-2.5.6-ca.dmg</a>
+							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cs.dmg">Cyberduck-2.5.6-cs.dmg</a>
+							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cy.dmg">Cyberduck-2.5.6-cy.dmg</a>
+							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-da.dmg">Cyberduck-2.5.6-da.dmg</a>
+							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-de.dmg">Cyberduck-2.5.6-de.dmg</a>
+							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-es.dmg">Cyberduck-2.5.6-es.dmg</a>
+							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fi.dmg">Cyberduck-2.5.6-fi.dmg</a>
+							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fr.dmg">Cyberduck-2.5.6-fr.dmg</a>
+							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-he.dmg">Cyberduck-2.5.6-he.dmg</a>
+							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-hu.dmg">Cyberduck-2.5.6-hu.dmg</a>
+							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-id.dmg">Cyberduck-2.5.6-id.dmg</a>
+							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-it.dmg">Cyberduck-2.5.6-it.dmg</a>
+							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ja.dmg">Cyberduck-2.5.6-ja.dmg</a>
+							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ko.dmg">Cyberduck-2.5.6-ko.dmg</a>
+							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-nl.dmg">Cyberduck-2.5.6-nl.dmg</a>
+							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-no.dmg">Cyberduck-2.5.6-no.dmg</a>
+							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-pl.dmg">Cyberduck-2.5.6-pl.dmg</a>
+							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ru.dmg">Cyberduck-2.5.6-ru.dmg</a>
+							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sk.dmg">Cyberduck-2.5.6-sk.dmg</a>
+							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sv.dmg">Cyberduck-2.5.6-sv.dmg</a>
+							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-th.dmg">Cyberduck-2.5.6-th.dmg</a>
+							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_CN.dmg">Cyberduck-2.5.6-zh_CN.dmg</a>
+							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_TW.dmg">Cyberduck-2.5.6-zh_TW.dmg</a>
 							</p>
 						</form>
 					</div>

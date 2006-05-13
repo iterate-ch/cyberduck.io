@@ -2,8 +2,8 @@
     function echoheader($dir) {
         return "
 		<link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
-		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\"/>
-      <meta http-equiv=\"content-type\" content=\"application/xhtml; charset=utf-8\"></meta>
+		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://update.cyberduck.ch/changelog.rss\"/>
+		<meta http-equiv=\"content-type\" content=\"application/xhtml; charset=utf-8\"></meta>
 ";
     }
 
