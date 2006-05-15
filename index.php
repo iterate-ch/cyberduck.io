@@ -349,6 +349,7 @@
 								<option value="sk">Slovenčina</option>
 								<option value="sv">Svenska</option>
 								<option value="th">ภาษาไทย</option>
+								<option value="tr">Türkçe</option>
 								<option value="zh_CN">简体字</option>
 								<option value="zh_TW">簡體字</option>
 							</select>
@@ -374,6 +375,7 @@
 							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sk.dmg">Cyberduck-2.5.6-sk.dmg</a>
 							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sv.dmg">Cyberduck-2.5.6-sv.dmg</a>
 							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-th.dmg">Cyberduck-2.5.6-th.dmg</a>
+							<a id="tr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-tr.dmg">Cyberduck-2.5.6-tr.dmg</a>
 							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_CN.dmg">Cyberduck-2.5.6-zh_CN.dmg</a>
 							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_TW.dmg">Cyberduck-2.5.6-zh_TW.dmg</a>
 							</p>
