@@ -32,20 +32,21 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <strong>2.5.6</strong> <em>May-15-2006</em><br />
+        <strong>2.5.6</strong> <em>May-22-2006</em><br />
         <a href="./Cyberduck-2.5.6.dmg">Download</a></td>
 
         <td colspan="2" class="box-solid">
           <ul>
 <li>[Localize] Turkish Localization</li>
-<li>[Feature] Automatic software udpate with Sparkle.framework (Thanks to Andy Matuschak!)</li>
+<li>[Feature] Automatic software udpate with Sparkle.framework (Thanks to Andy Matuschak!) [<a href="http://trac.cyberduck.ch/ticket/300">#300</a>]</li>
 <li>[Feature] Dashboard Widget included (Thanks to Claudio Procida!)</li>
 <li>[Feature] Marking write-only and non-accessible directories with special icon as in Finder.app</li>
-<li>[Feature] Reintroduced transcript drawer in browser window</li>
-<li>[Feature] Added transcript drawer to transfer window</li>
+<li>[Feature] Reintroduced transcript drawer in browser window [<a href="http://trac.cyberduck.ch/ticket/104">#104</a>]</li>
+<li>[Feature] Added transcript drawer to transfer window [<a href="http://trac.cyberduck.ch/ticket/375">#375</a>]</li>
 <li>[Feature] Option to use Network Diagnostics upon failed connections</li>
-<li>[Feature] New 'Download failed' and 'Upload failed' Growl notifications</li>
+<li>[Feature] New 'Download failed' and 'Upload failed' Growl notifications [<a href="http://trac.cyberduck.ch/ticket/362">#362</a>]</li>
 <li>[Feature] Display alert icon in connection dialog if server name cannot be resolved</li>
+<li>[Feature] Indicate estimated remaining time left for transfers [<a href="http://trac.cyberduck.ch/ticket/43">#43</a>]</li>
 <li>[Bugfix] Stalled connection and file transfer attempts can be interrupted [<a href="http://trac.cyberduck.ch/ticket/55">#55</a>]</li>
 <li>[Bugfix] Cannot delete empty folders [<a href="http://trac.cyberduck.ch/ticket/162">#162</a>]</li>
 <li>[Bugfix] Cannot use login username with colon [<a href="http://trac.cyberduck.ch/ticket/309">#309</a>]</li>

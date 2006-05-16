@@ -301,7 +301,7 @@
 									<strong>Download</strong><br />
 
 									<strong>2.5.6</strong>
-									<em>(May-15-2006)</em><br />
+									<em>(May-22-2006)</em><br />
 									<a href=
 									"./Cyberduck-2.5.6.dmg">Cyberduck-2.5.6.dmg</a>
 									<a href=
