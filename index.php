@@ -30,8 +30,10 @@
 					an <a class="ext" href=
 					"http://opensource.org/docs/definition.php">open
 					source</a> FTP and SFTP (SSH Secure File
-					Transfer) browser licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with
-					an easy to use interface, integration with
+					Transfer) browser licenced under the <a class=
+					"ext" href=
+					"http://creativecommons.org/licenses/GPL/2.0/">GPL</a>
+					with an easy to use interface, integration with
 					external editors and support for many Mac OS X
 					system technologies such as Spotlight, Bonjour,
 					the Keychain and AppleScript.</strong> For a
@@ -41,11 +43,11 @@
 					<strong>Localizations</strong> are available in
 					<em>English, Czech, Dutch, Finnish, French,
 					German, Italian, Japanese, Korean, Norwegian,
-					Slovak, Spanish, Chinese
-					(Traditional and Simplified), Russian, Swedish,
-					Danish, Polish, Indonesian, Catalan,
-					Welsh, Thai, Turkish and Hebrew</em>. Many thanks to all
-					<a class="ext" href=
+					Slovak, Spanish, Chinese (Traditional and
+					Simplified), Russian, Swedish, Danish, Polish,
+					Indonesian, Catalan, Welsh, Thai, Turkish and
+					Hebrew</em>. Many thanks to all <a class="ext"
+					href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.rtf">
 					contributors</a>! If you need
 					<strong>help</strong>, there is an <a href=
@@ -53,28 +55,28 @@
 					<a href="./help/en/problems/">common
 					problems</a> and a <a href=
 					"./help/en/faq">FAQ</a>. Please post any
-					questions on the <strong><a class="ext"
-					href="./forum">forum</a></strong>. This
-					software is written by <a class="ext"
-					href="http://sudo.ch/">David V. Kocher</a>.
-					Please have a look at the <a class="ext"
-					href=
+					questions on the <strong><a class="ext" href=
+					"./forum">forum</a></strong>. This software is
+					written by <a class="ext" href=
+					"http://sudo.ch/">David V. Kocher</a>. Please
+					have a look at the <a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.html?format=raw">
 					credits</a> to see who contributed. I
-					appreciate any <strong><a class="ext"
-					href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">
+					appreciate any <strong><a class="ext" href=
+					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">
 					feedback</a></strong> you might have. For bug
 					reports and feature suggestions you should
 					issue a <a class="ext" href=
 					"http://trac.cyberduck.ch/newticket">new
 					ticket</a> in the <strong><a class="ext" href=
-					"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
+					"http://trac.cyberduck.ch">issue
+					tracker</a></strong>.</p>
 
 					<div style=
 					"margin-left:10px; margin-bottom:30px; margin-right:5px"
 					align="center" id="screenshot">
 						<a href="./img/browser-ja.jpg"><img align=
-						"middle" border="0" src=
+						"middle" src=
 						"./img/browser-thumb.jpg" alt=
 						"Cyberduck Screenshot" /></a>
 					</div>
@@ -98,11 +100,11 @@
 						<strong>International</strong><br />
 						Available in <em>English, Czech, Dutch,
 						Finnish, French, German, Italian, Japanese,
-						Korean, Norwegian, Slovak,
-						Spanish, Chinese (Traditional and
-						Simplified), Russian, Swedish,
-						Danish, Polish, Indonesian, Catalan,
-						Welsh, Thai, Turkish and Hebrew</em>.</p>
+						Korean, Norwegian, Slovak, Spanish, Chinese
+						(Traditional and Simplified), Russian,
+						Swedish, Danish, Polish, Indonesian,
+						Catalan, Welsh, Thai, Turkish and
+						Hebrew</em>.</p>
 
 						<p><img src="./img/textmate.png" class=
 						"feature" alt="" /> <strong>External
@@ -134,8 +136,9 @@
 						<p><img src="./img/gnu.png" class="feature"
 						alt="" /> <strong>Open
 						Source</strong><br />
-						Licensed under the <a href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a>.</p>
-
+						Licensed under the <a href=
+						"http://creativecommons.org/licenses/GPL/2.0/">
+						GPL</a>.</p>
 					</div>
 
 					<div class="feature">
@@ -205,8 +208,8 @@
 						<p><img src="./img/idisk.png" class=
 						"feature" alt="" />
 						<strong>iDisk</strong><br />
-						Synchronize bookmarks with <a class=
-						"ext" href=
+						Synchronize bookmarks with <a class="ext"
+						href=
 						"http://www.apple.com/macosx/features/dotmacsync/">
 						.Mac iDisk</a>.</p>
 
@@ -238,7 +241,6 @@
 						Support for various encryption ciphers
 						(3DES, Blowfish, Twofish, AES, CAST) and
 						Authentication algorithms (MD5, SHA1).</p>
-						
 					</div>
 
 					<div style="clear:both;"></div>
@@ -247,49 +249,52 @@
 					Kocher. All rights reserved. This program is
 					free software; you can redistribute it and/or
 					modify it under the terms of the <a href=
-					"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as
-					published by the Free Software Foundation;
-					either version 2 of the License, or (at your
-					option) any later version.<em>This program is
-					distributed in the hope that it will be useful,
-					but WITHOUT ANY WARRANTY; without even the
-					implied warranty of MERCHANTABILITY or FITNESS
-					FOR A PARTICULAR PURPOSE. See the GNU General
-					Public License for more
-					details.</em></small></p>
+					"http://creativecommons.org/licenses/GPL/2.0/">GNU
+					General Public License</a> as published by the
+					Free Software Foundation; either version 2 of
+					the License, or (at your option) any later
+					version.<em>This program is distributed in the
+					hope that it will be useful, but WITHOUT ANY
+					WARRANTY; without even the implied warranty of
+					MERCHANTABILITY or FITNESS FOR A PARTICULAR
+					PURPOSE. See the GNU General Public License for
+					more details.</em></small></p>
 
 					<p><small>This product includes software
 					developed by <strong>sshtools.com</strong>
 					(<a class="ext" href=
 					"http://www.sshtools.com">http://www.sshtools.com</a>),
-					<strong>enterprisedt</strong> (<a class=
-					"ext" href=
+					<strong>enterprisedt</strong> (<a class="ext"
+					href=
 					"http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
-					and the <strong>Apache Software Foundation</strong>
-					(<a class="ext" href=
+					and the <strong>Apache Software
+					Foundation</strong> (<a class="ext" href=
 					"http://jakarta.apache.org">http://jakarta.apache.org/</a>).</small></p>
 				</td>
 
 				<td id="sidebar" valign="top">
 					<div class="box-solid">
-						<p><q cite="boingboing.net"><a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">All the other FTP clients I've used
+						<p><q>All the other FTP clients I've used
 						have been hard to learn and are confusing,
 						but I've never had to look at the help file
-						for Cyberduck</a></q></p>
-
-						<div style="margin:5px;" align="center">
+						for Cyberduck<br />
+						— <a href=
+						"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
+						boingboing.net</a></q></p>
+						<!-->                       <div style="margin:5px;" align="center">
 							<a href=
 							"http://www.macworld.com/2004/10/features/bargainsweb/index.php">
 							<img src="./img/macworld.png" width=
 							"90" height="67" alt=
 							"Macworld Rating" /></a>
-						</div>
+						</div>-->
 					</div>
 
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href=
+								<td id="download" valign="top">
+								<a href=
 								"./Cyberduck-2.5.6.dmg"><img style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
@@ -299,7 +304,6 @@
 								<td valign="top">
 									<p>
 									<strong>Download</strong><br />
-
 									<strong>2.5.6</strong>
 									<em>(May-22-2006)</em><br />
 									<a href=
@@ -312,10 +316,13 @@
 								</td>
 							</tr>
 						</table>
-						<p>You can also download a <a href="http://update.cyberduck.ch/localizations/">
-						unilingual build</a> with one particular localization only (4.2MB):
-						
-						<script type="text/javascript">
+
+						<p>You can also download a <a href=
+						"http://update.cyberduck.ch/localizations/">
+						unilingual build</a> with one particular
+						localization only (4.2MB): <script type=
+						"text/javascript">
+//<![CDATA[
 						<!--
 						function setVisible(obj) {
 							for(i = 0; i < obj.options.length; i++) {
@@ -324,62 +331,192 @@
 							document.getElementById(obj.options[obj.selectedIndex].value).style.display = 'inline';
 						}
 						//-->
-						</script>
-						
+//]]>
+</script></p>
+
 						<form>
-							<p><select style="width:100px;" name="localizations" onchange="javascript:setVisible(this)">
-								<option value="en">English</option>
-								<option value="ca">Català</option>
-								<option value="cs">Čeština</option>
-								<option value="cy">Cymraeg</option>
-								<option value="da">Dansk</option>
-								<option value="de">Deutsch</option>
-								<option value="es">Español</option>
-								<option value="fi">Suomi</option>
-								<option value="fr">Français</option>
-								<option value="he">עִבְרִית</option>
-								<option value="id">Bahasa Indonesia</option>
-								<option value="it">Italiano</option>
-								<option value="ja" selected>日本語</option>
-								<option value="ko">한국어</option>
-								<option value="nl">Nederlands</option>
-								<option value="no">Nynorsk</option>
-								<option value="pl">Polszczyzna</option>
-								<option value="ru">Pусский язык</option>
-								<option value="sk">Slovenčina</option>
-								<option value="sv">Svenska</option>
-								<option value="th">ภาษาไทย</option>
-								<option value="tr">Türkçe</option>
-								<option value="zh_CN">简体字</option>
-								<option value="zh_TW">簡體字</option>
-							</select>
-							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-en.dmg">Cyberduck-2.5.6-en.dmg</a>
-							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ca.dmg">Cyberduck-2.5.6-ca.dmg</a>
-							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cs.dmg">Cyberduck-2.5.6-cs.dmg</a>
-							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cy.dmg">Cyberduck-2.5.6-cy.dmg</a>
-							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-da.dmg">Cyberduck-2.5.6-da.dmg</a>
-							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-de.dmg">Cyberduck-2.5.6-de.dmg</a>
-							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-es.dmg">Cyberduck-2.5.6-es.dmg</a>
-							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fi.dmg">Cyberduck-2.5.6-fi.dmg</a>
-							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fr.dmg">Cyberduck-2.5.6-fr.dmg</a>
-							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-he.dmg">Cyberduck-2.5.6-he.dmg</a>
-							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-hu.dmg">Cyberduck-2.5.6-hu.dmg</a>
-							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-id.dmg">Cyberduck-2.5.6-id.dmg</a>
-							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-it.dmg">Cyberduck-2.5.6-it.dmg</a>
-							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ja.dmg">Cyberduck-2.5.6-ja.dmg</a>
-							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ko.dmg">Cyberduck-2.5.6-ko.dmg</a>
-							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-nl.dmg">Cyberduck-2.5.6-nl.dmg</a>
-							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-no.dmg">Cyberduck-2.5.6-no.dmg</a>
-							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-pl.dmg">Cyberduck-2.5.6-pl.dmg</a>
-							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ru.dmg">Cyberduck-2.5.6-ru.dmg</a>
-							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sk.dmg">Cyberduck-2.5.6-sk.dmg</a>
-							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sv.dmg">Cyberduck-2.5.6-sv.dmg</a>
-							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-th.dmg">Cyberduck-2.5.6-th.dmg</a>
-							<a id="tr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-tr.dmg">Cyberduck-2.5.6-tr.dmg</a>
-							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_CN.dmg">Cyberduck-2.5.6-zh_CN.dmg</a>
-							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_TW.dmg">Cyberduck-2.5.6-zh_TW.dmg</a>
-							</p>
+							<p><select style="width:100px;" name=
+							"localizations" onchange=
+							"javascript:setVisible(this)">
+								<option value="en">
+									English
+								</option>
+
+								<option value="ca">
+									Català
+								</option>
+
+								<option value="cs">
+									Čeština
+								</option>
+
+								<option value="cy">
+									Cymraeg
+								</option>
+
+								<option value="da">
+									Dansk
+								</option>
+
+								<option value="de">
+									Deutsch
+								</option>
+
+								<option value="es">
+									Español
+								</option>
+
+								<option value="fi">
+									Suomi
+								</option>
+
+								<option value="fr">
+									Français
+								</option>
+
+								<option value="he">
+									עִבְרִית
+								</option>
+
+								<option value="id">
+									Bahasa Indonesia
+								</option>
+
+								<option value="it">
+									Italiano
+								</option>
+
+								<option value="ja" selected=
+								"selected">
+									日本語
+								</option>
+
+								<option value="ko">
+									한국어
+								</option>
+
+								<option value="nl">
+									Nederlands
+								</option>
+
+								<option value="no">
+									Nynorsk
+								</option>
+
+								<option value="pl">
+									Polszczyzna
+								</option>
+
+								<option value="ru">
+									Pусский язык
+								</option>
+
+								<option value="sk">
+									Slovenčina
+								</option>
+
+								<option value="sv">
+									Svenska
+								</option>
+
+								<option value="th">
+									ภาษาไทย
+								</option>
+
+								<option value="tr">
+									Türkçe
+								</option>
+
+								<option value="zh_CN">
+									简体字
+								</option>
+
+								<option value="zh_TW">
+									簡體字
+								</option>
+							</select> <a id="en" style=
+							"display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-en.dmg"
+							name="en">Cyberduck-2.5.6-en.dmg</a>
+							<a id="ca" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ca.dmg"
+							name="ca">Cyberduck-2.5.6-ca.dmg</a>
+							<a id="cs" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cs.dmg"
+							name="cs">Cyberduck-2.5.6-cs.dmg</a>
+							<a id="cy" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cy.dmg"
+							name="cy">Cyberduck-2.5.6-cy.dmg</a>
+							<a id="da" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-da.dmg"
+							name="da">Cyberduck-2.5.6-da.dmg</a>
+							<a id="de" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-de.dmg"
+							name="de">Cyberduck-2.5.6-de.dmg</a>
+							<a id="es" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-es.dmg"
+							name="es">Cyberduck-2.5.6-es.dmg</a>
+							<a id="fi" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fi.dmg"
+							name="fi">Cyberduck-2.5.6-fi.dmg</a>
+							<a id="fr" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fr.dmg"
+							name="fr">Cyberduck-2.5.6-fr.dmg</a>
+							<a id="he" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-he.dmg"
+							name="he">Cyberduck-2.5.6-he.dmg</a>
+							<a id="hu" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-hu.dmg"
+							name="hu">Cyberduck-2.5.6-hu.dmg</a>
+							<a id="id" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-id.dmg"
+							name="id">Cyberduck-2.5.6-id.dmg</a>
+							<a id="it" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-it.dmg"
+							name="it">Cyberduck-2.5.6-it.dmg</a>
+							<a id="ja" style="display:inline" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ja.dmg"
+							name="ja">Cyberduck-2.5.6-ja.dmg</a>
+							<a id="ko" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ko.dmg"
+							name="ko">Cyberduck-2.5.6-ko.dmg</a>
+							<a id="nl" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-nl.dmg"
+							name="nl">Cyberduck-2.5.6-nl.dmg</a>
+							<a id="no" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-no.dmg"
+							name="no">Cyberduck-2.5.6-no.dmg</a>
+							<a id="pl" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-pl.dmg"
+							name="pl">Cyberduck-2.5.6-pl.dmg</a>
+							<a id="ru" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ru.dmg"
+							name="ru">Cyberduck-2.5.6-ru.dmg</a>
+							<a id="sk" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sk.dmg"
+							name="sk">Cyberduck-2.5.6-sk.dmg</a>
+							<a id="sv" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sv.dmg"
+							name="sv">Cyberduck-2.5.6-sv.dmg</a>
+							<a id="th" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-th.dmg"
+							name="th">Cyberduck-2.5.6-th.dmg</a>
+							<a id="tr" style="display:none" href=
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-tr.dmg"
+							name="tr">Cyberduck-2.5.6-tr.dmg</a>
+							<a id="zh_CN" style="display:none"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_CN.dmg"
+							name=
+							"zh_CN">Cyberduck-2.5.6-zh_CN.dmg</a>
+							<a id="zh_TW" style="display:none"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_TW.dmg"
+							name=
+							"zh_TW">Cyberduck-2.5.6-zh_TW.dmg</a></p>
 						</form>
+
+						<p>Snapshots of the latest <a href=
+						"http://update.cyberduck.ch/nightly/">development
+						build</a> is also available.</p>
 					</div>
 
 					<div class="box-filled">
@@ -443,18 +580,23 @@
 						"./img/feed-icon-16x16.png" alt="feed" />
 						<strong>Blog.</strong> <a href=
 						"http://sudo.ch/~dkocher/feed/">Subscribe</a>
-						to the the developer&apos;s <a class="ext"
-						href=
+						to the the developer's <a class="ext" href=
 						"http://sudo.ch/~dkocher/">blog</a>.</p>
 					</div>
 
 					<div class="box-solid">
-						<p><strong>Widget.</strong> 
-						<a href="http://update.cyberduck.ch/Cyberduck.wdgt.zip">Download</a> the 
-						<a class="ext" href="http://www.apple.com/macosx/features/dashboard/">dashboard</a>
-						widget (Thanks to <a href="http://www.emeraldion.it/home/" class="ext">Claudio Procida</a>!).</p>
+						<p><strong>Widget.</strong> <a href=
+						"http://update.cyberduck.ch/Cyberduck.wdgt.zip">
+						Download</a> the <a class="ext" href=
+						"http://www.apple.com/macosx/features/dashboard/">
+						dashboard</a> widget (Thanks to <a href=
+						"http://www.emeraldion.it/home/" class=
+						"ext">Claudio Procida</a>!).</p>
+
 						<div style="padding:5px;" align="center">
-							<a id="widget" href="http://update.cyberduck.ch/Cyberduck.wdgt.zip"></a>
+							<a id="widget" href=
+							"http://update.cyberduck.ch/Cyberduck.wdgt.zip"
+							name="widget"></a>
 						</div>
 					</div>
 
@@ -485,30 +627,45 @@
 						RCDefaultApp</a>.</p>
 					</div>
 
-					<div style="margin-bottom:0px;" class="box-solid">
-						<p><strong>Reviews.</strong> Cyberduck has been reviewed by many
-						sites and got tremendous feedback over the last year. Read the full reviews
-						by clicking on the citations.</p> 
-		
-						<p><q cite="macsoftreview.com"><a href="http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">[Cyberduck] is one of those apps that just does what it’s supposed to, no more, no less. - check it out today, and I bet you will switch too.</a></q></p>
-		
-						<p><q cite="spymac.com"><a href="http://www.spymac.com/news/article.php?contentid=2875">With a user-friendly interface, funky name, and loads of great features, Cyberduck leads the pack among free FTP clients.
-						</a></q></p>
+					<div style="margin-bottom:0px;" class=
+					"box-solid">
+						<p><strong>Reviews.</strong> Cyberduck has
+						been reviewed by many sites and got
+						tremendous feedback over the last year.
+						Read the full reviews by clicking on the
+						citations.</p>
 
-						<p><q cite="macfanatic.com"><a href="http://www.macfanatic.com/node/19">Forget the
-						rest, this is the best! (...) I will never
-						use another FTP client again.</a></q></p>
-						
-						<p><q cite="osxguide.com"><a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">Cyberduck is getting some great acclaim, and deservedly so.
-						</a></q></p>
+						<p><q>[Cyberduck] is one of those apps that
+						just does what it’s supposed to, no more,
+						no less. - check it out today, and I bet
+						you will switch too.<br />
+						— <a href=
+						"http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">
+						macsoftreview.com</a></q></p>
 
-						<p>Read more <a href=
-						"./reviews.php">reviews here.</a></p>
+						<p><q>With a user-friendly interface, funky
+						name, and loads of great features,
+						Cyberduck leads the pack among free FTP
+						clients.<br />
+						— <a href=
+						"http://www.spymac.com/news/article.php?contentid=2875">
+						spymac.com</a></q></p>
+
+						<p><q>Forget the rest, this is the best!
+						(...) I will never use another FTP client
+						again.<br />
+						— <a href=
+						"%20http://www.macfanatic.com/node/19">macfanatic.com</a></q></p>
+
+						<p><q>Cyberduck is getting some great
+						acclaim, and deservedly so.<br />
+						— <a href=
+						"http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">
+						osxguide.com</a></q></p>
 					</div>
 				</td>
 			</tr>
 		</table>
-	</div>
+	</div>§
 </body>
 </html>
-§

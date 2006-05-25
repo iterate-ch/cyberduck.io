@@ -244,20 +244,31 @@
 	}
 	
 	q {
-/*		color:#0066cc;*/
+		display: block;
+		margin-left:15px;
+		width: 260px;
+		color:#4e4e4e;
+		font-style: italic;
+		font-weight:bold;
+	}
+	
+	q:before, q:after {
+		color: #69c;
+		font-size: 500%;
+		display: block;
+		font-weight:normal;
 	}
 	
 	q:before {
-		content:"\201C";
+		content: open-quote;
+		margin-left:-20px;
+		margin-top:20px;
 	}
 
 	q:after {
-		content:"\201D";
-	}
-	
-	q[cite]:after {
-		white-space:pre;
-		content:"\201D\A\2014 " attr(cite);
+		content: close-quote;
+		margin-left: 230px;
+		margin-top:20px;
 	}
 
 	div.feature {
