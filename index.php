@@ -274,13 +274,13 @@
 
 				<td id="sidebar" valign="top">
 					<div class="box-solid">
-						<p><q>All the other FTP clients I've used
+						<p><blockquote>&#8220;All the other FTP clients I've used
 						have been hard to learn and are confusing,
 						but I've never had to look at the help file
-						for Cyberduck<br />
+						for Cyberduck&#8221;<br />
 						— <a href=
 						"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
-						boingboing.net</a></q></p>
+						boingboing.net</a></blockquote></p>
 						<!-->                       <div style="margin:5px;" align="center">
 							<a href=
 							"http://www.macworld.com/2004/10/features/bargainsweb/index.php">
@@ -635,33 +635,34 @@
 						Read the full reviews by clicking on the
 						citations.</p>
 
-						<p><q>[Cyberduck] is one of those apps that
+						<p><blockquote>&#8220;[Cyberduck] is one of those apps that
 						just does what it’s supposed to, no more,
 						no less. - check it out today, and I bet
-						you will switch too.<br />
+						you will switch too.&#8221;<br />
 						— <a href=
 						"http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">
-						macsoftreview.com</a></q></p>
+						macsoftreview.com</a></blockquote></p>
 
-						<p><q>With a user-friendly interface, funky
+						<p><blockquote>&#8220;With a user-friendly interface, funky
 						name, and loads of great features,
 						Cyberduck leads the pack among free FTP
-						clients.<br />
+						clients.&#8221;<br />
 						— <a href=
 						"http://www.spymac.com/news/article.php?contentid=2875">
-						spymac.com</a></q></p>
+						spymac.com</a></blockquote></p>
 
-						<p><q>Forget the rest, this is the best!
+						<p><blockquote>&#8220;Forget the rest, this is the best!
 						(...) I will never use another FTP client
-						again.<br />
+						again.&#8221;<br />
 						— <a href=
-						"%20http://www.macfanatic.com/node/19">macfanatic.com</a></q></p>
+						"%20http://www.macfanatic.com/node/19">macfanatic.com</a></blockquote></p>
 
-						<p><q>Cyberduck is getting some great
-						acclaim, and deservedly so.<br />
+						<p><blockquote>&#8220;Cyberduck is getting some great
+						acclaim, and deservedly so.&#8221;<br />
 						— <a href=
 						"http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">
-						osxguide.com</a></q></p>
+						osxguide.com</a></blockquote></p>
+						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
 					</div>
 				</td>
 			</tr>

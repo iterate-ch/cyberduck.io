@@ -67,10 +67,10 @@
 	}
 	
 	#download:hover {
-		background-color: transparent;
-		background-image: url("./img/download-halo.png");
-		background-repeat: no-repeat;
-		background-position: center center;
+		background-color:transparent;
+		background-image:url("./img/download-halo.png");
+		background-repeat:no-repeat;
+		background-position:center center;
 	}
 		
 	input#paypal {
@@ -196,16 +196,16 @@
 	}
 	
 	.box-filled {
-		color: #4e4e4e;
-		border: 1px solid #e2e2e2;
-		background: #e5e5db;
+		color:#4e4e4e;;
+		border:1px solid #e2e2e2;;
+		background:#e5e5db;;
 		padding:2px;
 		padding-right:0px;
 		margin-bottom:5px;
 	}
 		
 	.box-solid {
-		border: 1px solid #e2e2e2;
+		border:1px solid #e2e2e2;
 		margin-bottom:5px;
 	}
 
@@ -220,20 +220,20 @@
 	div.image a:visited,
 	div.image a:active,
 	div.image a:hover {
-		color:#000000;
+		color:#000000;;
 		background-color:transparent;
 		text-decoration:none;
     }
 
 	a:link, a:visited {
-		color:#000000;
+		color:#000000;;
 		background-color:transparent;
 		text-decoration:underline;
 		border:none;
 	}
 
 	a:hover	{
-		color:#0066cc;
+		color:#0066cc;;
 		background-color:transparent;
 		text-decoration:none;
 		border:none;
@@ -243,38 +243,43 @@
 		color:#ffffff;
 	}
 	
-	q {
-		display: block;
+	blockquote {
+/*	  	quotes: '\201C' '\201D' '\2018' '\2019';*/
+		display:block;
 		margin-left:15px;
-		width: 260px;
 		color:#4e4e4e;
-		font-style: italic;
+		font-style:italic;
 		font-weight:bold;
 	}
 	
+	/*
 	q:before, q:after {
-		color: #69c;
-		font-size: 500%;
-		display: block;
+		color:#69c;;
+		font-size:500%;
+		display:block;
 		font-weight:normal;
+		height:0px;
 	}
 	
 	q:before {
-		content: open-quote;
-		margin-left:-20px;
-		margin-top:20px;
+		display:block;
+		content:open-quote;
+		margin-left:-25px;
 	}
 
 	q:after {
-		content: close-quote;
-		margin-left: 230px;
-		margin-top:20px;
+		display:block;
+		content:close-quote;
+		margin-left:90%;
+		margin-top:-10px;
+		margin-bottom:40px;
 	}
+	*/
 
 	div.feature {
 		position:relative;
 		float:left;
-		width: 30%;
+		width:30%;
 	}
 	
 	img.feature {
@@ -295,7 +300,7 @@
    .alert {
 		margin:-5px;
 		padding:2px;
-		background-color: #0066cc;
+		background-color:#0066cc;
 	}
 	
 	.alert strong {
@@ -309,7 +314,7 @@
 	a#widget {
 		display:block;
 		margin-top:-40px;
-		background: url(./img/widget-front.png) no-repeat;
+		background:url(./img/widget-front.png) no-repeat;
 		height:221px;
 		width:158px;
 	}
@@ -317,7 +322,8 @@
 	a:hover#widget {
 		display:block;
 		margin-top:-40px;
-		background: url(./img/widget-back.png) no-repeat;
+		background:url(./img/widget-back.png) no-repeat;
 		height:221px;
 		width:158px;
 	}
+}
