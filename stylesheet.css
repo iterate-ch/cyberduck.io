@@ -326,4 +326,8 @@
 		height:221px;
 		width:158px;
 	}
+	
+	p.align-right {
+		text-align:right;
+	}
 }

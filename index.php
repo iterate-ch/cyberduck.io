@@ -514,9 +514,7 @@
 							"zh_TW">Cyberduck-2.5.6-zh_TW.dmg</a></p>
 						</form>
 
-						<p>Snapshots of the latest <a href=
-						"http://update.cyberduck.ch/nightly/">development
-						build</a> is also available.</p>
+						<p class="align-right">Thanks to the <a href="http://icu.unizh.ch/">ICU</a> for hosting the downloads!</p>
 					</div>
 
 					<div class="box-filled">
