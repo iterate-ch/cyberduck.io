@@ -76,8 +76,7 @@
 					"margin-left:10px; margin-bottom:30px; margin-right:5px"
 					align="center" id="screenshot">
 						<a href="./img/browser-ja.jpg"><img align=
-						"middle" src=
-						"./img/browser-thumb.jpg" alt=
+						"middle" src="./img/browser-thumb.jpg" alt=
 						"Cyberduck Screenshot" /></a>
 					</div>
 
@@ -274,13 +273,15 @@
 
 				<td id="sidebar" valign="top">
 					<div class="box-solid">
-						<p><blockquote>&#8220;All the other FTP clients I've used
-						have been hard to learn and are confusing,
-						but I've never had to look at the help file
-						for Cyberduck&#8221;<br />
-						— <a href=
-						"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
-						boingboing.net</a></blockquote></p>
+						<blockquote>
+							“All the other FTP clients I've used
+							have been hard to learn and are
+							confusing, but I've never had to look
+							at the help file for Cyberduck”<br />
+							— <a href=
+							"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
+							boingboing.net</a>
+						</blockquote>
 						<!-->                       <div style="margin:5px;" align="center">
 							<a href=
 							"http://www.macworld.com/2004/10/features/bargainsweb/index.php">
@@ -295,7 +296,7 @@
 							<tr>
 								<td id="download" valign="top">
 								<a href=
-								"./Cyberduck-2.5.6.dmg"><img style=
+								"./Cyberduck-2.6.dmg"><img style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
 								alt="Download" border=
@@ -304,12 +305,12 @@
 								<td valign="top">
 									<p>
 									<strong>Download</strong><br />
-									<strong>2.5.6</strong>
-									<em>(May-22-2006)</em><br />
+									<strong>2.6</strong>
+									<em>(Jun-02-2006)</em><br />
 									<a href=
-									"./Cyberduck-2.5.6.dmg">Cyberduck-2.5.6.dmg</a>
+									"./Cyberduck-2.6.dmg">Cyberduck-2.6.dmg</a>
 									<a href=
-									"./Cyberduck-2.5.6.dmg"></a>
+									"./Cyberduck-2.6.dmg"></a>
 									(7.9MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
@@ -436,85 +437,87 @@
 								</option>
 							</select> <a id="en" style=
 							"display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-en.dmg"
-							name="en">Cyberduck-2.5.6-en.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-en.dmg"
+							name="en">Cyberduck-2.6-en.dmg</a>
 							<a id="ca" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ca.dmg"
-							name="ca">Cyberduck-2.5.6-ca.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-ca.dmg"
+							name="ca">Cyberduck-2.6-ca.dmg</a>
 							<a id="cs" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cs.dmg"
-							name="cs">Cyberduck-2.5.6-cs.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-cs.dmg"
+							name="cs">Cyberduck-2.6-cs.dmg</a>
 							<a id="cy" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-cy.dmg"
-							name="cy">Cyberduck-2.5.6-cy.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-cy.dmg"
+							name="cy">Cyberduck-2.6-cy.dmg</a>
 							<a id="da" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-da.dmg"
-							name="da">Cyberduck-2.5.6-da.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-da.dmg"
+							name="da">Cyberduck-2.6-da.dmg</a>
 							<a id="de" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-de.dmg"
-							name="de">Cyberduck-2.5.6-de.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-de.dmg"
+							name="de">Cyberduck-2.6-de.dmg</a>
 							<a id="es" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-es.dmg"
-							name="es">Cyberduck-2.5.6-es.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-es.dmg"
+							name="es">Cyberduck-2.6-es.dmg</a>
 							<a id="fi" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fi.dmg"
-							name="fi">Cyberduck-2.5.6-fi.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-fi.dmg"
+							name="fi">Cyberduck-2.6-fi.dmg</a>
 							<a id="fr" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-fr.dmg"
-							name="fr">Cyberduck-2.5.6-fr.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-fr.dmg"
+							name="fr">Cyberduck-2.6-fr.dmg</a>
 							<a id="he" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-he.dmg"
-							name="he">Cyberduck-2.5.6-he.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-he.dmg"
+							name="he">Cyberduck-2.6-he.dmg</a>
 							<a id="hu" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-hu.dmg"
-							name="hu">Cyberduck-2.5.6-hu.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-hu.dmg"
+							name="hu">Cyberduck-2.6-hu.dmg</a>
 							<a id="id" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-id.dmg"
-							name="id">Cyberduck-2.5.6-id.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-id.dmg"
+							name="id">Cyberduck-2.6-id.dmg</a>
 							<a id="it" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-it.dmg"
-							name="it">Cyberduck-2.5.6-it.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-it.dmg"
+							name="it">Cyberduck-2.6-it.dmg</a>
 							<a id="ja" style="display:inline" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ja.dmg"
-							name="ja">Cyberduck-2.5.6-ja.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-ja.dmg"
+							name="ja">Cyberduck-2.6-ja.dmg</a>
 							<a id="ko" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ko.dmg"
-							name="ko">Cyberduck-2.5.6-ko.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-ko.dmg"
+							name="ko">Cyberduck-2.6-ko.dmg</a>
 							<a id="nl" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-nl.dmg"
-							name="nl">Cyberduck-2.5.6-nl.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-nl.dmg"
+							name="nl">Cyberduck-2.6-nl.dmg</a>
 							<a id="no" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-no.dmg"
-							name="no">Cyberduck-2.5.6-no.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-no.dmg"
+							name="no">Cyberduck-2.6-no.dmg</a>
 							<a id="pl" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-pl.dmg"
-							name="pl">Cyberduck-2.5.6-pl.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-pl.dmg"
+							name="pl">Cyberduck-2.6-pl.dmg</a>
 							<a id="ru" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-ru.dmg"
-							name="ru">Cyberduck-2.5.6-ru.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-ru.dmg"
+							name="ru">Cyberduck-2.6-ru.dmg</a>
 							<a id="sk" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sk.dmg"
-							name="sk">Cyberduck-2.5.6-sk.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-sk.dmg"
+							name="sk">Cyberduck-2.6-sk.dmg</a>
 							<a id="sv" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-sv.dmg"
-							name="sv">Cyberduck-2.5.6-sv.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-sv.dmg"
+							name="sv">Cyberduck-2.6-sv.dmg</a>
 							<a id="th" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-th.dmg"
-							name="th">Cyberduck-2.5.6-th.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-th.dmg"
+							name="th">Cyberduck-2.6-th.dmg</a>
 							<a id="tr" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-tr.dmg"
-							name="tr">Cyberduck-2.5.6-tr.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.6-tr.dmg"
+							name="tr">Cyberduck-2.6-tr.dmg</a>
 							<a id="zh_CN" style="display:none"
-							href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_CN.dmg"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.6-zh_CN.dmg"
 							name=
-							"zh_CN">Cyberduck-2.5.6-zh_CN.dmg</a>
+							"zh_CN">Cyberduck-2.6-zh_CN.dmg</a>
 							<a id="zh_TW" style="display:none"
-							href="http://update.cyberduck.ch/localizations/Cyberduck-2.5.6-zh_TW.dmg"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.6-zh_TW.dmg"
 							name=
-							"zh_TW">Cyberduck-2.5.6-zh_TW.dmg</a></p>
+							"zh_TW">Cyberduck-2.6-zh_TW.dmg</a></p>
 						</form>
 
-						<p class="align-right">Thanks to the <a href="http://icu.unizh.ch/">ICU</a> for hosting the downloads!</p>
+						<p class="align-right">Thanks to the
+						<a href="http://icu.unizh.ch/">ICU</a> for
+						hosting the downloads!</p>
 					</div>
 
 					<div class="box-filled">
@@ -633,34 +636,52 @@
 						Read the full reviews by clicking on the
 						citations.</p>
 
-						<p><blockquote>&#8220;[Cyberduck] is one of those apps that
-						just does what it’s supposed to, no more,
-						no less. - check it out today, and I bet
-						you will switch too.&#8221;<br />
-						— <a href=
-						"http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">
-						macsoftreview.com</a></blockquote></p>
+						<blockquote>
+							“[Cyberduck] is one of those apps that
+							just does what it’s supposed to, no
+							more, no less. - check it out today,
+							and I bet you will switch too.”<br />
+							— <a href=
+							"http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">
+							macsoftreview.com</a>
+						</blockquote>
 
-						<p><blockquote>&#8220;With a user-friendly interface, funky
-						name, and loads of great features,
-						Cyberduck leads the pack among free FTP
-						clients.&#8221;<br />
-						— <a href=
-						"http://www.spymac.com/news/article.php?contentid=2875">
-						spymac.com</a></blockquote></p>
+						<blockquote>
+							“Ce logiciel rend l’opération vraiment
+							plus simple!”<br />
+							— <a href=
+							"./vvmac_review.pdf">
+							vvmac.com</a>
+						</blockquote>
 
-						<p><blockquote>&#8220;Forget the rest, this is the best!
-						(...) I will never use another FTP client
-						again.&#8221;<br />
-						— <a href=
-						"%20http://www.macfanatic.com/node/19">macfanatic.com</a></blockquote></p>
+						<blockquote>
+							“With a user-friendly interface, funky
+							name, and loads of great features,
+							Cyberduck leads the pack among free FTP
+							clients.”<br />
+							— <a href=
+							"http://www.spymac.com/news/article.php?contentid=2875">
+							spymac.com</a>
+						</blockquote>
 
-						<p><blockquote>&#8220;Cyberduck is getting some great
-						acclaim, and deservedly so.&#8221;<br />
-						— <a href=
-						"http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">
-						osxguide.com</a></blockquote></p>
-						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
+						<blockquote>
+							“Forget the rest, this is the best!
+							(...) I will never use another FTP
+							client again.”<br />
+							— <a href=
+							"%20http://www.macfanatic.com/node/19">macfanatic.com</a>
+						</blockquote>
+
+						<blockquote>
+							“Cyberduck is getting some great
+							acclaim, and deservedly so.”<br />
+							— <a href=
+							"http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">
+							osxguide.com</a>
+						</blockquote>
+
+						<p>Read more <a href=
+						"./reviews.php">testimonials</a>!</p>
 					</div>
 				</td>
 			</tr>
