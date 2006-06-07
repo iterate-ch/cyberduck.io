@@ -306,7 +306,7 @@
 									<p>
 									<strong>Download</strong><br />
 									<strong>2.6</strong>
-									<em>(Jun-02-2006)</em><br />
+									<em>(Jun-07-2006)</em><br />
 									<a href=
 									"./Cyberduck-2.6.dmg">Cyberduck-2.6.dmg</a>
 									<a href=
