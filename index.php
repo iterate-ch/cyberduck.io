@@ -405,7 +405,7 @@
 								</option>
 
 								<option value="pl">
-									Polszczyzna
+									Polski
 								</option>
 
 								<option value="ru">
