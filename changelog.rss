@@ -7,6 +7,18 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.6.1 Nightly Builds</title>
+			<pubDate>Thu, 20 Jul 2006 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/nightly</link>
+			<content:encoded><![CDATA[
+			<p>The latest snapshot of the upcoming <a href="http://trac.cyberduck.ch/milestone/2.6.1">2.6.1</a> release can be 
+			downloaded at <a href="http://update.cyberduck.ch/nightly/">update.cyberduck.ch/nightly</a>.
+			The current builds feature <a href="http://trac.cyberduck.ch/query?status=closed&milestone=2.6.1">several 
+			important bugfixes</a> including the <a href="http://trac.cyberduck.ch/ticket/450">'FTP Active Mode' bug</a> and 
+			frequent crashes seen by some users.</p>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.6</title>
 			<pubDate>Thu, 07 Jun 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.dmg" length="8664243" type="application/octet-stream"/>
