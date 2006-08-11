@@ -7,6 +7,23 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.6.1</title>
+			<pubDate>Thu, 15 Aug 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" length="" type="application/octet-stream"/>
+			<link>http://cyberduck.ch/Cyberduck-2.6.1dmg</link>
+			<content:encoded><![CDATA[
+<ul>
+<li>[Bugfix] Crash or spinning beachball after upload [#504]</li>
+<li>[Bugfix] Active mode connections broken (FTP) [#450]</li>
+<li>[Bugfix] Removed graphical error messages for the sake of simplicity; displayed in log drawer instead [#524, #580]</li>
+<li>[Bugfix] Hostname reachability check slow and blocking user interface [#572, #575]</li>
+<li>[Bugfix] Fails to delete folders recursively in some cases [#533]</li>
+<li>[Bugfix] Unilingual builds broken [#436]</li>
+<li>[Bugfix] Cannot delete symbolic links [#616]</li>
+</ul>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.6.1 Nightly Builds</title>
 			<pubDate>Thu, 20 Jul 2006 00:00:00 +0100</pubDate>
 			<link>http://update.cyberduck.ch/nightly</link>

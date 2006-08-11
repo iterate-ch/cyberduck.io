@@ -58,6 +58,16 @@ Thank you very much for your
           amazon.co.uk</a> and <a class="ext" href="http://www.amazon.fr/gp/registry/32IESVEAYZ9DB">amazon.fr</a> wishlist.</p>
         </td>
       </tr>
+
+      <tr>
+        <td colspan="3" class="box-solid">
+          <p>The following organizations and individual have contributed to Cyberduck:</p>
+<p></p>
+
+
+		<p><small>If you want your name to be removed from this list, please let me know.</small></p>
+        </td>
+      </tr>
     </table>
   </div>
 

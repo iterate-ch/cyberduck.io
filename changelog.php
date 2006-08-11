@@ -32,6 +32,24 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <strong>2.6.1</strong> <em></em><br />
+        <a href="./Cyberduck-2.6.1.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+<li>[Bugfix] Crash or spinning beachball after upload [#504]</li>
+<li>[Bugfix] Active mode connections broken (FTP) [#450]</li>
+<li>[Bugfix] Removed graphical error messages for the sake of simplicity; displayed in log drawer instead [#524, #580]</li>
+<li>[Bugfix] Hostname reachability check slow and blocking user interface [#572, #575]</li>
+<li>[Bugfix] Fails to delete folders recursively in some cases [#533]</li>
+<li>[Bugfix] Unilingual builds broken [#436]</li>
+<li>[Bugfix] Cannot delete symbolic links [#616]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <strong>2.6</strong> <em>Jun-07-2006</em><br />
         <a href="./Cyberduck-2.6.dmg">Download</a></td>
 
