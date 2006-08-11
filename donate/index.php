@@ -61,7 +61,7 @@ Thank you very much for your
 
       <tr>
         <td colspan="3" class="box-solid">
-          <p>The following organizations have contributed to Cyberduck: <i>Charity Poker Tournament (tightpoker.com) group contribution (500$)</i></p>
+          <p>The following organizations have contributed to Cyberduck: <i>Party Poker Strategy Guide (tightpoker.com) group contribution (500$)</i></p>
 		<p><small>If you want your name to be removed from this list, please let me know.</small></p>
         </td>
       </tr>
