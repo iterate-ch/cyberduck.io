@@ -37,13 +37,25 @@
 
         <td colspan="2" class="box-solid">
           <ul>
-<li>[Bugfix] Crash or spinning beachball after upload [#504]</li>
-<li>[Bugfix] Active mode connections broken (FTP) [#450]</li>
-<li>[Bugfix] Removed graphical error messages for the sake of simplicity; displayed in log drawer instead [#524, #580]</li>
-<li>[Bugfix] Hostname reachability check slow and blocking user interface [#572, #575]</li>
-<li>[Bugfix] Fails to delete folders recursively in some cases [#533]</li>
-<li>[Bugfix] Unilingual builds broken [#436]</li>
-<li>[Bugfix] Cannot delete symbolic links [#616]</li>
+			<li>[Bugfix] Crash or spinning beachball after upload
+			[<a href="http://trac.cyberduck.ch/ticket/504">#504</a>]</li>
+
+			<li>[Bugfix] Active mode connections broken (FTP)
+			[<a href="http://trac.cyberduck.ch/ticket/450">#450</a></li>
+
+			<li>[Bugfix] Removed graphical error messages for the
+			sake of simplicity; displayed in log drawer instead
+			[<a href="http://trac.cyberduck.ch/ticket/524">#524</a>, <a href="trac.cyberduck.ch/ticket/580">#580</a>]</li>
+
+			<li>[Bugfix] Hostname reachability check slow and
+			blocking user interface [<a href="http://trac.cyberduck.ch/ticket/572">#572</a>, <a href="http://trac.cyberduck.ch/ticket/575">#575</a>]</li>
+
+			<li>[Bugfix] Fails to delete folders recursively in
+			some cases [<a href="http://trac.cyberduck.ch/ticket/533">#533</a>]</li>
+
+			<li>[Bugfix] Unilingual builds broken [<a href="http://trac.cyberduck.ch/ticket/436">#436</a>]</li>
+
+			<li>[Bugfix] Cannot delete symbolic links [<a href="http://trac.cyberduck.ch/ticket/616">#616</a>]</li>
           </ul>
         </td>
       </tr>
