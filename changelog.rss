@@ -10,7 +10,7 @@
 			<title>Cyberduck 2.6.1</title>
 			<pubDate>Thu, 15 Aug 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" length="" type="application/octet-stream"/>
-			<link>http://cyberduck.ch/Cyberduck-2.6.1dmg</link>
+			<link>http://cyberduck.ch/Cyberduck-2.6.1.dmg</link>
 			<content:encoded><![CDATA[
 <ul>
 			<li>[Bugfix] Crash or spinning beachball after upload
