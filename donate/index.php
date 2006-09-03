@@ -39,7 +39,11 @@ Thank you very much for your
         <td colspan="2" class="box-solid">
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
 <p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
-		</td>
+		
+<p><strong>If you have trouble using the above payment link because the page appears in German only, then please use
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=dkocher%40cyberduck%2ech&item_name=Cyberduck&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8">this page</a>
+instead.</strong></p>
+</td>
       </tr>
 
       <tr>
@@ -61,7 +65,8 @@ Thank you very much for your
 
       <tr>
         <td colspan="3" class="box-solid">
-          <p>The following organizations have contributed to Cyberduck: <i>Party Poker Strategy Guide (tightpoker.com) group contribution (500$)</i></p>
+          <p>The following organizations have contributed to Cyberduck: <i>Party Poker Strategy Guide (<a href="http://tightpoker.com">tightpoker.com</a>) group contribution (500$)</i>,
+<i><a href="http://www.net-tec-online.com">Internetagentur fur Sauna-Hersteller</a> (100ˆ)</i></p>
 		<p><small>If you want your name to be removed from this list, please let me know.</small></p>
         </td>
       </tr>
