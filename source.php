@@ -50,16 +50,33 @@
 
 			<tr>
 				<td class="box-solid" valign="top" width="150">
-					<p><strong>Version 2.5</strong><br />
-					(CVS/SVN Tag: release-2-5)</p>
+					<p><strong>Version 2.6</strong><br />
 				</td>
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong>2.6</strong> <em>Jun-07-2006</em><br />
-						<a href="cyberduck-src-2.6.tar.gz">cyberduck-src-2.6.tar.gz</a></li>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-2/">2.6.2</a></strong> <em>Sep-10-2006</em><br />
+						<a href="cyberduck-src-2.6.2.tar.gz">cyberduck-src-2.6.2.tar.gz</a></li>
 					</ul>
 
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-1/">2.6.1</a></strong> <em>Aug-11-2006</em><br />
+						<a href="cyberduck-src-2.6.1.tar.gz">cyberduck-src-2.6.1.tar.gz</a></li>
+					</ul>
+
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6/">2.6</a></strong> <em>Jun-07-2006</em><br />
+						<a href="cyberduck-src-2.6.tar.gz">cyberduck-src-2.6.tar.gz</a></li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="box-solid" valign="top" width="150">
+					<p><strong>Version 2.5</strong><br />
+				</td>
+
+				<td colspan="2" class="box-solid">
 					<ul>
 						<li><strong>2.5.5</strong> <em>Mar-01-2006</em><br />
 						<a href="cyberduck-src-2.5.5.tar.gz">cyberduck-src-2.5.5.tar.gz</a></li>
@@ -115,7 +132,6 @@
 			<tr>
 				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.4</strong><br />
-					(CVS/SVN Tag: release-2-4)</p>
 				</td>
 
 				<td colspan="2" class="box-solid">
@@ -169,7 +185,6 @@
 			<tr>
 				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.3</strong><br />
-					(CVS/SVN Tag: release-2-3)</p>
 				</td>
 
 				<td colspan="2" class="box-solid">
@@ -208,7 +223,6 @@
 			<tr>
 				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.2</strong><br />
-					(CVS/SVN Tag: release-2-2)</p>
 				</td>
 
 				<td colspan="2" class="box-solid">
@@ -252,7 +266,6 @@
 			<tr>
 				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.1</strong><br />
-					(CVS/SVN Tag: release-2-1)</p>
 				</td>
 
 				<td colspan="2" class="box-solid">

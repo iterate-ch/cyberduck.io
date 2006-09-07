@@ -7,6 +7,22 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.6.2</title>
+			<pubDate>Thu, 10 Sep 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" length="" type="application/octet-stream"/>
+			<link>http://cyberduck.ch/Cyberduck-2.6.2.dmg</link>
+			<content:encoded><![CDATA[
+<ul>
+<li>[Bugfix] Crash when typing hostname in connection dialog for some users [<a href="http://trac.cyberduck.ch/ticket/711">#711</a>]</li>
+<li>[Bugfix] Type-ahead selection not working for non-alphanumeric characters [<a href="http://trac.cyberduck.ch/ticket/271">#271</a>]</li>
+<li>[Bugfix] Control click discards multiple selection [<a href="http://trac.cyberduck.ch/ticket/649">#649</a>]</li>
+<li>[Bugfix] Timeout too slow giving I/O errors on slow connections [<a href="http://trac.cyberduck.ch/ticket/714">#714</a>]</li>
+<li>[Bugfix] Passwords stored in Keychain not accessible by other applications [<a href="http://trac.cyberduck.ch/ticket/708">#708</a>]</li>
+<li>[Bugfix] FTP URLs passed by another application pointing at folders fail to open [<a href="http://trac.cyberduck.ch/ticket/704">#704</a>]</li>
+</ul>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.6.1</title>
 			<pubDate>Thu, 15 Aug 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" length="" type="application/octet-stream"/>

@@ -32,7 +32,24 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <strong>2.6.1</strong> <em></em><br />
+        <strong>2.6.2</strong> <em>Sep-10-2006</em><br />
+        <a href="./Cyberduck-2.6.2.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Bugfix] Crash when typing hostname in connection dialog for some users [<a href="http://trac.cyberduck.ch/ticket/711">#711</a>]</li>
+			<li>[Bugfix] Type-ahead selection not working for non-alphanumeric characters [<a href="http://trac.cyberduck.ch/ticket/271">#271</a>]</li>
+			<li>[Bugfix] Control click discards multiple selection [<a href="http://trac.cyberduck.ch/ticket/649">#649</a>]</li>
+			<li>[Bugfix] Timeout too slow giving I/O errors on slow connections [<a href="http://trac.cyberduck.ch/ticket/714">#714</a>]</li>
+			<li>[Bugfix] Passwords stored in Keychain not accessible by other applications [<a href="http://trac.cyberduck.ch/ticket/708">#708</a>]</li>
+			<li>[Bugfix] FTP URLs passed by another application pointing at folders fail to open [<a href="http://trac.cyberduck.ch/ticket/704">#704</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <strong>2.6.1</strong> <em>Aug-11-2006</em><br />
         <a href="./Cyberduck-2.6.1.dmg">Download</a></td>
 
         <td colspan="2" class="box-solid">
