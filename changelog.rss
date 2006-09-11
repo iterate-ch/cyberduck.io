@@ -8,8 +8,8 @@
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
 			<title>Cyberduck 2.6.2</title>
-			<pubDate>Thu, 10 Sep 2006 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" length="" type="application/octet-stream"/>
+			<pubDate>Thu, 07 Sep 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" length="8738968" type="application/octet-stream"/>
 			<link>http://cyberduck.ch/Cyberduck-2.6.2.dmg</link>
 			<content:encoded><![CDATA[
 <ul>
@@ -25,7 +25,7 @@
 		<item>
 			<title>Cyberduck 2.6.1</title>
 			<pubDate>Thu, 15 Aug 2006 00:00:00 +0100</pubDate>
-			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" length="" type="application/octet-stream"/>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" length="8687697" type="application/octet-stream"/>
 			<link>http://cyberduck.ch/Cyberduck-2.6.1.dmg</link>
 			<content:encoded><![CDATA[
 <ul>
