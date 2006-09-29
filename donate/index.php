@@ -32,7 +32,20 @@ Thank you very much for your
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
-            <?php echo(echodonate(".."));?>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="dkocher@cyberduck.ch">
+<input type="hidden" name="item_name" value="Cyberduck">
+<input type="hidden" name="item_number" value="Cyberduck">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="bn" value="PP-DonationsBF">
+<input type="hidden" name="lc" value="en">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
           </div>
         </td>
 
@@ -40,9 +53,6 @@ Thank you very much for your
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
 <p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
 		
-<p><strong>If you have trouble using the above payment link because the page appears in German only, then please use
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=dkocher%40cyberduck%2ech&item_name=Cyberduck&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8">this page</a>
-instead.</strong></p>
 </td>
       </tr>
 
@@ -66,7 +76,11 @@ instead.</strong></p>
       <tr>
         <td colspan="3" class="box-solid">
           <p>The following organizations have contributed to Cyberduck: <i>Party Poker Strategy Guide (<a href="http://tightpoker.com">tightpoker.com</a>) group contribution (500$)</i>,
-<i><a href="http://www.net-tec-online.com">Internetagentur fur Sauna-Hersteller</a> (100€)</i></p>
+<i><a href="http://www.net-tec-online.com">Internetagentur fur Sauna-Hersteller</a> (100€)</i>,
+<i><a href="http://www.compatiblepoker.com/">Mac Online Poker</a> (150€)</i>,
+
+
+</p>
 		<p><small>If you want your name to be removed from this list, please let me know.</small></p>
         </td>
       </tr>

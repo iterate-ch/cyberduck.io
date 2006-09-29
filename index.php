@@ -515,6 +515,7 @@
 							"zh_TW">Cyberduck-2.6.2-zh_TW.dmg</a></p>
 						</form>
 
+						<p><a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Mirrors</a> provided by <a href="http://sf.net/">sourceforge.net</a>.</p>
 						<p class="align-right">Thanks to the
 						<a href="http://icu.unizh.ch/">ICU</a> for
 						hosting the downloads!</p>
