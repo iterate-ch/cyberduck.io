@@ -517,8 +517,8 @@
 
 						<p><a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Mirrors</a> provided by <a href="http://sf.net/">sourceforge.net</a>.</p>
 						<p class="align-right">Thanks to the
-						<a href="http://icu.unizh.ch/">ICU</a> for
-						hosting the downloads!</p>
+						<a href="http://icu.unizh.ch/">ICU</a> and 
+ <a href="http://www.vis.ethz.ch/">VIS</a> for hosting the downloads!</p>
 					</div>
 
 					<div class="box-filled">
