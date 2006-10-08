@@ -77,7 +77,8 @@ Thank you very much for your
         <td colspan="3" class="box-solid">
           <p>The following organizations have contributed to Cyberduck: <i>Party Poker Strategy Guide (<a href="http://tightpoker.com">tightpoker.com</a>) group contribution (500$)</i>,
 <i><a href="http://www.net-tec-online.com">Internetagentur fur Sauna-Hersteller</a> (100€)</i>,
-<i><a href="http://www.compatiblepoker.com/">Mac Online Poker</a> (150€)</i>,
+<i><a href="http://www.compatiblepoker.com/">Mac Online Poker</a> (150€)</i>, <i><a href="http://www.1a-krankenversicherung.org/
+">Private Krankenversicherung</a> (50€)</i>
 
 
 </p>
