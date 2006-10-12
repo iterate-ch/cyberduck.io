@@ -282,13 +282,6 @@
 							"http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">
 							boingboing.net</a>
 						</blockquote>
-						<!-->                       <div style="margin:5px;" align="center">
-							<a href=
-							"http://www.macworld.com/2004/10/features/bargainsweb/index.php">
-							<img src="./img/macworld.png" width=
-							"90" height="67" alt=
-							"Macworld Rating" /></a>
-						</div>-->
 					</div>
 
 					<div class="box-solid">
@@ -306,12 +299,12 @@
 									<p>
 									<strong>Download</strong><br />
 									<strong>2.6.2</strong>
-									<em>(Sep-10-2006)</em><br />
+									<em>(Sep-07-2006)</em><br />
 									<a href=
 									"./Cyberduck-2.6.2.dmg">Cyberduck-2.6.2.dmg</a>
 									<a href=
 									"./Cyberduck-2.6.2.dmg"></a>
-									(7.9MB)<br />
+									(8.3MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
 								</td>
@@ -515,10 +508,7 @@
 							"zh_TW">Cyberduck-2.6.2-zh_TW.dmg</a></p>
 						</form>
 
-						<p><a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Mirrors</a> provided by <a href="http://sf.net/">sourceforge.net</a>.</p>
-						<p class="align-right">Thanks to the
-						<a href="http://icu.unizh.ch/">ICU</a> and 
- <a href="http://www.vis.ethz.ch/">VIS</a> for hosting the downloads!</p>
+						<p>Thanks to the <a href="http://icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads. <p>Mirrors provided by <a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Sourceforge</a> and the <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH Zurich)</a></p>
 					</div>
 
 					<div class="box-filled">
