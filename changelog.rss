@@ -7,6 +7,17 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.6.2 Nightly Builds</title>
+			<pubDate>Thu, 23 Oct 2006 00:00:00 +0100</pubDate>
+			<link>http://update.cyberduck.ch/nightly</link>
+			<content:encoded><![CDATA[
+			<p>The latest snapshot of the upcoming <a href="http://trac.cyberduck.ch/milestone/2.6.3">2.6.3</a> release can be 
+			downloaded at <a href="http://update.cyberduck.ch/nightly/">update.cyberduck.ch/nightly</a>.
+			The current builds feature many <a href="http://trac.cyberduck.ch/query?status=closed&milestone=2.6.3">improvements</a>,
+			the most important to me being <a href="http://trac.cyberduck.ch/ticket/921">#921</a></p>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.6.2</title>
 			<pubDate>Thu, 07 Sep 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" length="8738968" type="application/octet-stream"/>
