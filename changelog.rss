@@ -7,14 +7,14 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
-			<title>Cyberduck 2.6.3 Nightly Builds</title>
-			<pubDate>Thu, 23 Oct 2006 00:00:00 +0100</pubDate>
+			<title>Cyberduck 2.7 Nightly Builds</title>
+			<pubDate>Thu, 11 Nov 2006 00:00:00 +0100</pubDate>
 			<link>http://update.cyberduck.ch/nightly</link>
 			<content:encoded><![CDATA[
-			<p>The latest snapshot of the upcoming <a href="http://trac.cyberduck.ch/milestone/2.6.3">2.6.3</a> release can be 
+			<p>The latest snapshot of the upcoming <a href="http://trac.cyberduck.ch/milestone/2.7">2.7</a> release can be 
 			downloaded at <a href="http://update.cyberduck.ch/nightly/">update.cyberduck.ch/nightly</a>.
 			The current builds feature many <a href="http://trac.cyberduck.ch/query?status=closed&milestone=2.6.3">improvements</a>,
-			the most important to me being <a href="http://trac.cyberduck.ch/ticket/921">#921</a></p>
+			the most important to me being <a href="http://trac.cyberduck.ch/ticket/921">#921</a>. Death to the spinning beachball!</p>
 			]]></content:encoded>
 		</item>
 		<item>
