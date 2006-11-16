@@ -32,6 +32,31 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <strong>2.7</strong> <em>Nov-20-2006</em><br />
+        <a href="./Cyberduck-2.7.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Feature] Don't block user interface when working in browser. All potentially lengthy operations are now performed in the background [<a href="http://trac.cyberduck.ch/ticket/921">#921</a>]</li>
+			<li>[Feature] All (possibly stalled) operations in progress can be interrupted [<a href="http://trac.cyberduck.ch/ticket/943">#943</a>]</li>
+			<li>[Feature] Improved error handling [#--]</li>
+			<li>[Feature] Failed network operations can be repeated [#--]</li>
+			<li>[Feature] A default bookmark can be configured [<a href="http://trac.cyberduck.ch/ticket/915">#915</a>]</li>
+			<li>[Feature] Option to disable spring-loaded folders [<a href="http://trac.cyberduck.ch/ticket/98">#98</a>]</li>
+			<li>[Feature] Individual settings how to treat duplicate files on uploads and downloads [<a href="http://trac.cyberduck.ch/ticket/500">#500</a>]</li>
+			<li>[Feature] Callback to alternate connect mode upon failure (FTP) [<a href="http://trac.cyberduck.ch/ticket/83">#83</a>]</li>
+			<li>[Feature] Add 'Download To...' menu option to download multiple files into designated, non-default directory [<a href="http://trac.cyberduck.ch/ticket/909">#909</a>]</li>
+			<li>[Feature] The bottom of the browser window shows the security status [<a href="http://trac.cyberduck.ch/ticket/9">#9</a>]</li>
+			<li>[Feature] Improvements to the AppleScript dictionary [<a href="http://trac.cyberduck.ch/ticket/737">#737</a>], [<a href="http://trac.cyberduck.ch/ticket/918">#918</a>], [<a href="http://trac.cyberduck.ch/ticket/878">#878</a>], [<a href="http://trac.cyberduck.ch/ticket/922">#922</a>]</li>
+			<li>[Feature] When duplicating files, propose a filename containing the current date and time [<a href="http://trac.cyberduck.ch/ticket/912">#912</a>]</li>
+			<li>[Feature] Added JarInspector to the list of supported editors (http://www.cgerdes.com) [#--</a>]</li>
+			<li>[Bugfix] Honor the existing permissions when replacing files [#--</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <strong>2.6.2</strong> <em>Sep-07-2006</em><br />
         <a href="./Cyberduck-2.6.2.dmg">Download</a></td>
 

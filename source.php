@@ -31,15 +31,7 @@
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 
 					<p><i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i></p>
-					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. You'll find the application in the <i>build</i> folder. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>. Cyberduck has the following dependencies:</p>
-
-					<ul>
-						<li>Growl.framework, <a class="ext" href="http://growl.info">growl.info</a></li>
-
-						<li>Keychain.framework, <a class="ext" href="http://sf.net/projects/keychain">sf.net/projects/keychain</a></li>
-
-						<li>DotMacKit.framework, <a class="ext" href="http://developer.apple.com/internet/dotmackit.html">developer.apple.com/internet/dotmackit.html</a></li>
-					</ul>
+					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.
 					<p><a href="http://www.jetbrains.com/idea/"><img src="./img/idea.gif" alt="intellij" /></a></p>
 				</td>
 			</tr>
@@ -50,22 +42,35 @@
 
 			<tr>
 				<td class="box-solid" valign="top" width="150">
+					<p><strong>Version 2.7</strong><br />
+				</td>
+
+				<td colspan="2" class="box-solid">
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7/">2.7</a> ()</strong> <em>Nov-20-2006</em><br />
+						<a href="cyberduck-src-2.7.tar.gz">cyberduck-src-2.7.tar.gz</a></li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.6</strong><br />
 				</td>
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-2/">2.6.2</a></strong> <em>Sep-10-2006</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-2/">2.6.2</a> (2396)</strong> <em>Sep-10-2006</em><br />
 						<a href="cyberduck-src-2.6.2.tar.gz">cyberduck-src-2.6.2.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-1/">2.6.1</a></strong> <em>Aug-11-2006</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-1/">2.6.1</a> (2376)</strong> <em>Aug-11-2006</em><br />
 						<a href="cyberduck-src-2.6.1.tar.gz">cyberduck-src-2.6.1.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6/">2.6</a></strong> <em>Jun-07-2006</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6/">2.6</a> (2315)</strong> <em>Jun-07-2006</em><br />
 						<a href="cyberduck-src-2.6.tar.gz">cyberduck-src-2.6.tar.gz</a></li>
 					</ul>
 				</td>
@@ -78,7 +83,7 @@
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong>2.5.5</strong> <em>Mar-01-2006</em><br />
+						<li><strong>2.5.5 (1976)</strong> <em>Mar-01-2006</em><br />
 						<a href="cyberduck-src-2.5.5.tar.gz">cyberduck-src-2.5.5.tar.gz</a></li>
 					</ul>
 
@@ -88,7 +93,7 @@
 					</ul>
 
 					<ul>
-						<li><strong>2.5.3</strong> <em>Jan-03-2006</em><br />
+						<li><strong>2.5.3 (1844)</strong> <em>Jan-03-2006</em><br />
 						<a href="cyberduck-src-2.5.3.tar.gz">cyberduck-src-2.5.3.tar.gz</a></li>
 					</ul>
 
