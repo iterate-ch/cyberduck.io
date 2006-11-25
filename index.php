@@ -509,6 +509,7 @@
 							"zh_TW">Cyberduck-2.7-zh_TW.dmg</a></p>
 						</form>
 
+						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>
 						<p>Thanks to the <a href="http://icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads. <p>Mirrors provided by <a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Sourceforge</a> and the <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH Zurich)</a></p>
 					</div>
 
