@@ -203,7 +203,16 @@
 		padding-right:0px;
 		margin-bottom:5px;
 	}
-		
+
+	.box-alert {
+		color:#000000;;
+		border:1px solid #e2e2e2;;
+		background:#ff6666;;
+		padding:2px;
+		padding-right:0px;
+		margin-bottom:5px;
+	}
+
 	.box-solid {
 		border:1px solid #e2e2e2;
 		margin-bottom:5px;
