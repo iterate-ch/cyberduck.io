@@ -32,6 +32,21 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <strong>2.7.1</strong> <em>Nov-29-2006</em><br />
+        <a href="./Cyberduck-2.7.1.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Localize] Portuguese Localization</li>
+			<li>[Bugfix] Fail gracefully on uploading when server doesn't support changing permissions [#--]</li>
+			<li>[Bugfix] Disconnecting from server could crash application shortly thereafter [#--]</li>
+			<li>[Bugfix] Outline view not updated after dragged files have been uploaded [#--]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <strong>2.7</strong> <em>Nov-25-2006</em><br />
         <a href="./Cyberduck-2.7.dmg">Download</a></td>
 

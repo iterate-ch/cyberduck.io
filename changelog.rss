@@ -7,6 +7,20 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.7.1</title>
+			<pubDate>Thu, 29 Nov 2006 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.7.1.dmg" length="" type="application/octet-stream"/>
+			<link>http://cyberduck.ch/Cyberduck-2.7.1.dmg</link>
+			<content:encoded><![CDATA[
+		<ul>
+			<li>[Localize] Portuguese Localization</li>
+			<li>[Bugfix] Fail gracefully on uploading when server doesn't support changing permissions [#--]</li>
+			<li>[Bugfix] Disconnecting from server could crash application shortly thereafter [#--]</li>
+			<li>[Bugfix] Outline view not updated after dragged files have been uploaded [#--]</li>
+		</ul>
+			]]></content:encoded>
+		</item>
+		<item>
 			<title>Cyberduck 2.7</title>
 			<pubDate>Thu, 25 Nov 2006 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.7.dmg" length="8768940" type="application/octet-stream"/>
