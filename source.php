@@ -47,7 +47,12 @@
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7/">2.7</a> ()</strong> <em>Nov-25-2006</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-1/">2.7.1</a> (2608)</strong> <em>Nov-29-2006</em><br />
+						<a href="cyberduck-src-2.7.1.tar.gz">cyberduck-src-2.7.1.tar.gz</a></li>
+					</ul>
+
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7/">2.7</a> (2600)</strong> <em>Nov-25-2006</em><br />
 						<a href="cyberduck-src-2.7.tar.gz">cyberduck-src-2.7.tar.gz</a></li>
 					</ul>
 				</td>
