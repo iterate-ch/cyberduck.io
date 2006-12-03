@@ -22,11 +22,7 @@
     <table border="0" cellpadding="5" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="box-filled"><strong>
-		Cyberduck is <a class="ext" href=
-		"http://www.gnu.org/philosophy/free-sw.html">
-		free software</a>, but it still costs money to produce, support, and distribute it.
-Thank you very much for your
-        support! It will help to make Cyberduck even better!</strong></td>
+        Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to produce, support, and distribute it. Thank you very much for your support! It will help to make Cyberduck even better!</strong></td>
       </tr>
 
       <tr>
@@ -52,7 +48,7 @@ Thank you very much for your
         <td colspan="2" class="box-solid">
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
 <p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
-		
+        
 </td>
       </tr>
 
@@ -72,20 +68,18 @@ Thank you very much for your
           amazon.co.uk</a> and <a class="ext" href="http://www.amazon.fr/gp/registry/32IESVEAYZ9DB">amazon.fr</a> wishlist.</p>
         </td>
       </tr>
-
+<!--
       <tr>
         <td colspan="3" class="box-solid">
           <p>The following organizations have contributed to Cyberduck (sponsored links): <i>Party Poker Strategy Guide (<a href="http://tightpoker.com">tightpoker.com</a>) group contribution (500$)</i>,
 <i><a href="http://www.net-tec-online.com">Internetagentur fur Sauna-Hersteller</a> (100€)</i>,
 <i><a href="http://www.compatiblepoker.com/">Mac Online Poker</a> (150€)</i>, <i><a href="http://www.1a-krankenversicherung.org/
 ">Private Krankenversicherung</a> (50€)</i>, <i><a href="http://www.artikelverzeichnis.eu">Artikelverzeichnis</a> (50€)</i>, <i><a href="http://www.baufinanzierung-vergleich24.de">baufinanzierung vergleich24</a> (50€)</i>
-
-
-
-</p>
-		<p><small>If you want your name to be removed from this list, please let me know.</small></p>
+          </p>
+          <p><small>If you want your name to be removed from this list, please let me know.</small></p>
         </td>
       </tr>
+-->
     </table>
   </div>
 
