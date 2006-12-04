@@ -38,9 +38,11 @@
         <td colspan="2" class="box-solid">
           <ul>
 			<li>[Localize] Portuguese Localization</li>
+			<li>[Bugfix] Reporting error about failed to set permissions whereas it actually succeeded [#--]</li>
 			<li>[Bugfix] Fail gracefully on uploading when server doesn't support changing permissions [#--]</li>
 			<li>[Bugfix] Disconnecting from server could crash application shortly thereafter [#--]</li>
 			<li>[Bugfix] Outline view not updated after dragged files have been uploaded [#--]</li>
+			<li>[Bugfix] Synchronisation not awaiting selection from user [#--]</li>
           </ul>
         </td>
       </tr>
