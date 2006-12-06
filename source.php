@@ -40,7 +40,9 @@
 						Foundation</strong> (<a class="ext" href=
 						"http://jakarta.apache.org">http://jakarta.apache.org/</a>). <a href="http://www.jetbrains.com/">Jetbrains</a> contributed a free license
 						of their great <a href="http://www.jetbrains.com/idea">IDE</a> to this project.
-					<p><a href="http://www.jetbrains.com/idea/"><img src="./img/idea.gif" alt="intellij" /></a></p>
+					<p><a href="http://www.jetbrains.com/idea/">
+						
+<a href="http://www.jetbrains.com/idea/features/j2me.html" style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/banners/idea468x60_white.gif) no-repeat 10px 50%; border:solid 1px #0D3A9E; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Advanced Java IDE with coding assistance &amp; refactorings for J2ME" title="Advanced Java IDE with coding assistance &amp; refactorings for J2ME"><span style="margin:0 0 0 205px;padding:18px 0 2px 0; line-height:13px;font-size:13px; cursor:pointer; background-image:none;border:0;display:block; width:255px; color:#0D3A9E; font-family:trebuchet ms,arial,sans-serif;">Advanced Java IDE with coding<br/>assistance &amp; refactorings for J2ME</span></a>
 				</td>
 			</tr>
 
