@@ -29,21 +29,28 @@
 					<p>Source code is available licenced unter the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository <i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i> with:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
-					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>. This product includes software
-						developed by <strong>sshtools.com</strong>
-						(<a class="ext" href=
-						"http://www.sshtools.com">http://www.sshtools.com</a>),
-						<strong>enterprisedt</strong> (<a class="ext"
-						href=
-						"http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
-						and the <strong>Apache Software
-						Foundation</strong> (<a class="ext" href=
-						"http://jakarta.apache.org">http://jakarta.apache.org/</a>). <a href="http://www.jetbrains.com/">Jetbrains</a> contributed a free license
-						of their great <a href="http://www.jetbrains.com/idea">IDE</a> to this project.
+					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
+					<p>This product includes software developed by 
+<strong>sshtools.com</strong> (<a class="ext" href=
+"http://www.sshtools.com">http://www.sshtools.com</a>),
+<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
+and the <strong>Apache Software
+Foundation</strong> (<a class="ext" href=
+"http://jakarta.apache.org">http://jakarta.apache.org/</a>),
+<strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">http://growl.info</a>),
+<strong>Wade Tregaskis</strong> (<a class="ext"  href="http://sf.net/projects/keychain">http://sf.net/projects/keychain</a>),
+<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>),
+<strong>Greg Guerin</strong> (<a class="ext" href="http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>),
+<strong>Andy Matuschak</strong> (<a class="ext" href="http://www.andymatuschak.org/pages/sparkle">Sparkle</a>),
+<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
+<strong>Shaun Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),
+					</p>			
+
+					<p><a class="ext" href="http://www.jetbrains.com/">Jetbrains</a> contributed a free license
+					of their great <a class="ext" href="http://www.jetbrains.com/idea">IDE</a> to this project.</p>
 					<p><a href="http://www.jetbrains.com/idea/">
-						
-<a href="http://www.jetbrains.com/idea/features/j2me.html" style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/banners/idea468x60_white.gif) no-repeat 10px 50%; border:solid 1px #0D3A9E; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Advanced Java IDE with coding assistance &amp; refactorings for J2ME" title="Advanced Java IDE with coding assistance &amp; refactorings for J2ME"><span style="margin:0 0 0 205px;padding:18px 0 2px 0; line-height:13px;font-size:13px; cursor:pointer; background-image:none;border:0;display:block; width:255px; color:#0D3A9E; font-family:trebuchet ms,arial,sans-serif;">Advanced Java IDE with coding<br/>assistance &amp; refactorings for J2ME</span></a>
-				</td>
+
+<a href="http://www.jetbrains.com/idea/features/other.html" style="display:block; background:#fff url(http://www.jetbrains.com/idea/opensource/img/banners/idea468x60_white.gif) no-repeat 10px 50%; border:solid 1px #0D3A9E; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Professional Java IDE with advanced. Ant script editing &amp; build running" title="Professional Java IDE with advanced. Ant script editing &amp; build running"><span style="margin:0 0 0 205px;padding:18px 0 2px 0; line-height:13px;font-size:13px; cursor:pointer; background-image:none;border:0;display:block; width:255px; color:#0D3A9E; font-family:trebuchet ms,arial,sans-serif;">Professional Java IDE with advanced.<br/>Ant script editing &amp; build running</span></a>				</td>
 			</tr>
 
 			<tr>
