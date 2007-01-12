@@ -22,7 +22,6 @@
 		<div style="margin:10px; margin-bottom:5px;">
 			<?php echo(echogoogle());?>
 		</div>
-
 		<table cellpadding="0" cellspacing="5">
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
@@ -275,6 +274,12 @@
 						<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
 						<strong>Shaun Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),
 					</small></p>
+
+					<script type="text/javascript">
+					    if (typeof window.Delicious == "undefined") window.Delicious = {};
+					    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
+					</script>
+					<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
 				</td>
 
 				<td id="sidebar" valign="top">
@@ -305,12 +310,12 @@
 									<p>
 									<strong>Download</strong><br />
 									<strong>2.7.2</strong>
-									<em>(Jan-20-2006)</em><br />
+									<em>(Jan-15-2007)</em><br />
 									<a href=
 									"./Cyberduck-2.7.2.dmg">Cyberduck-2.7.2.dmg</a>
 									<a href=
 									"./Cyberduck-2.7.2.dmg"></a>
-									(8.7MB)<br />
+									(9.1MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
 								</td>
