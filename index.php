@@ -274,12 +274,6 @@
 						<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
 						<strong>Shaun Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),
 					</small></p>
-
-					<script type="text/javascript">
-					    if (typeof window.Delicious == "undefined") window.Delicious = {};
-					    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
-					</script>
-					<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
 				</td>
 
 				<td id="sidebar" valign="top">
@@ -689,6 +683,11 @@
 				</td>
 			</tr>
 		</table>
-	</div>§
+		<script type="text/javascript">
+		    if (typeof window.Delicious == "undefined") window.Delicious = {};
+		    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
+		</script>
+		<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
+	</div>
 </body>
 </html>
