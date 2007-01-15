@@ -319,7 +319,7 @@
 						<p>You can also download a <a href=
 						"http://update.cyberduck.ch/localizations/">
 						unilingual build</a> with one particular
-						localization only (4.2MB): <script type=
+						localization only (4.5MB): <script type=
 						"text/javascript">
 //<![CDATA[
 						<!--
