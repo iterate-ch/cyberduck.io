@@ -35,7 +35,11 @@
 						<blockquote>
 							Macupdate.com
 						</blockquote>
-
+						<div align="center"><img src="awards/bstar.png" width="25" height="24" alt="Bstar">
+							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
+							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
+							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
+							<img src="awards/nullstar.png" width="25" height="24" alt="Nullstar"></div>
 					</div>
 
 					<div class="feature">
@@ -50,6 +54,11 @@
 						<blockquote>
 							Versiontracker.com
 						</blockquote>
+						<table class="VTProdDispTbl" cellpadding="0" cellspacing="0" border="0">
+						<tr><td class="VTProdDispShd"><a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14426">Cyberduck</a></td><td id="pirtd24765"></td></tr>
+						<tr><td colspan="2" class="VTLogo">Data provided by <a href="http://www.versiontracker.com/">VersionTracker</a></td></tr>
+						</table>
+						<script type="text/javascript" language="javascript" src="http://tc.versiontracker.com/product/jsdvfd?id=24765&amp;incRating=yes&amp;incStars=yes&amp;type=prod&amp;rndz=91703"></script>
 					</div>
 
 					<div class="feature">
