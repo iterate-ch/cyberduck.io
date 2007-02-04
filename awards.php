@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+  include "functions.php";
+?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta name="generator" content=
+	"HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" />
+	<?php echo(echoheader(".")); ?>
+
+	<title>Cyberduck | FTP for Mac OS X. | Reviews</title>
+</head>
+
+<body id="reviews">
+	<div class="header">
+		<?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+	</div>
+
+	<div class="content">
+		<table border="0" cellpadding="5" cellspacing="5" width=
+		"100%">
+			<tr>
+				<td colspan="3" class="box-solid">
+					<div class="feature">
+						<blockquote>
+							Soft32.com Editor's Pick
+						</blockquote>
+						<div align="center"><img src="awards/pick_editor.jpg" width="100" height="115" alt="Pick Editor"></div>
+						<blockquote>
+							Softpedia Pick (5/5)
+						</blockquote>
+						<div align="center"><img src="awards/spick_mac.gif" width="118" height="66" alt="Spick Mac"></div>
+						<blockquote>
+							Macupdate.com
+						</blockquote>
+
+					</div>
+
+					<div class="feature">
+						<blockquote>
+							Soft32.com Editor's Review Award
+						</blockquote>
+						<div align="center"><img src="awards/5.gif" width="120" height="100" alt="5"></div>
+						<blockquote>
+							Download.com (4/5)
+						</blockquote>
+						<div align="center"><img src="awards/stars_pop_4.gif" width="82" height="14" alt="Stars Pop 4"></div>
+						<blockquote>
+							Versiontracker.com
+						</blockquote>
+					</div>
+
+					<div class="feature">
+						<blockquote>
+							Softpedia Editor's Review
+						</blockquote>
+						<div align="center"><img src="awards/sp_editor_very_good_s.gif" width="100" height="54" alt="Sp Editor Very Good S"></div>
+						<blockquote>
+							ZDNet.co.uk Editor's Rating 'Excellent'
+						</blockquote>
+						<div align="center"><img src="awards/zdnet.png" width="169" height="57" alt="ZDNet"></div>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td><?php echo(echogoogle());?></td>
+			</tr>
+
+			<tr>
+				<td colspan="3">
+					<div class="footer">
+						<a href=
+						"http://validator.w3.org/check/referer">Validate</a>,
+						$Date: 2006-02-28 16:01:03 +0100 (Tue, 28
+						Feb 2006) $<br />
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -44,7 +44,7 @@
 					German, Italian, Japanese, Korean, Norwegian,
 					Slovak, Spanish, Chinese (Traditional and
 					Simplified), Russian, Swedish, Danish, Polish,
-					Indonesian, Catalan, Welsh, Thai, Turkish and
+					Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish and
 					Hebrew</em>. Many thanks to all <a class="ext"
 					href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.rtf">
@@ -101,7 +101,7 @@
 						Finnish, French, German, Italian, Japanese,
 						Korean, Norwegian, Slovak, Spanish, Chinese
 						(Traditional and Simplified), Russian,
-						Swedish, Danish, Polish, Indonesian,
+						Swedish, Danish, Polish, Hungarian, Indonesian,
 						Catalan, Welsh, Thai, Turkish and
 						Hebrew</em>.</p>
 
@@ -294,7 +294,7 @@
 							<tr>
 								<td id="download" valign="top">
 								<a href=
-								"./Cyberduck-2.7.2.dmg"><img style=
+								"./Cyberduck-2.7.3.dmg"><img style=
 								"margin:10px; margin-top:0px" src=
 								"./img/arrowdisk.png" align="left"
 								alt="Download" border=
@@ -303,13 +303,13 @@
 								<td valign="top">
 									<p>
 									<strong>Download</strong><br />
-									<strong>2.7.2</strong>
-									<em>(Jan-15-2007)</em><br />
+									<strong>2.7.3</strong>
+									<em>(Feb-05-2007)</em><br />
 									<a href=
-									"./Cyberduck-2.7.2.dmg">Cyberduck-2.7.2.dmg</a>
+									"./Cyberduck-2.7.3.dmg">Cyberduck-2.7.3.dmg</a>
 									<a href=
-									"./Cyberduck-2.7.2.dmg"></a>
-									(9.1MB)<br />
+									"./Cyberduck-2.7.3.dmg"></a>
+									(9.2MB)<br />
 									<em>Mac OS X 10.3.9 or later
 									required!</em></p>
 								</td>
@@ -377,6 +377,10 @@
 									עִבְרִית
 								</option>
 
+								<option value="hu">
+									Hungarian
+								</option>
+
 								<option value="id">
 									Bahasa Indonesia
 								</option>
@@ -404,6 +408,10 @@
 
 								<option value="pl">
 									Polski
+								</option>
+
+								<option value="pt">
+									Portuguez
 								</option>
 
 								<option value="ru">
@@ -435,82 +443,82 @@
 								</option>
 							</select> <a id="en" style=
 							"display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-en.dmg"
-							name="en">Cyberduck-2.7.2-en.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-en.dmg"
+							name="en">Cyberduck-2.7.3-en.dmg</a>
 							<a id="ca" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-ca.dmg"
-							name="ca">Cyberduck-2.7.2-ca.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ca.dmg"
+							name="ca">Cyberduck-2.7.3-ca.dmg</a>
 							<a id="cs" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-cs.dmg"
-							name="cs">Cyberduck-2.7.2-cs.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-cs.dmg"
+							name="cs">Cyberduck-2.7.3-cs.dmg</a>
 							<a id="cy" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-cy.dmg"
-							name="cy">Cyberduck-2.7.2-cy.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-cy.dmg"
+							name="cy">Cyberduck-2.7.3-cy.dmg</a>
 							<a id="da" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-da.dmg"
-							name="da">Cyberduck-2.7.2-da.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-da.dmg"
+							name="da">Cyberduck-2.7.3-da.dmg</a>
 							<a id="de" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-de.dmg"
-							name="de">Cyberduck-2.7.2-de.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-de.dmg"
+							name="de">Cyberduck-2.7.3-de.dmg</a>
 							<a id="es" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-es.dmg"
-							name="es">Cyberduck-2.7.2-es.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-es.dmg"
+							name="es">Cyberduck-2.7.3-es.dmg</a>
 							<a id="fi" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-fi.dmg"
-							name="fi">Cyberduck-2.7.2-fi.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-fi.dmg"
+							name="fi">Cyberduck-2.7.3-fi.dmg</a>
 							<a id="fr" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-fr.dmg"
-							name="fr">Cyberduck-2.7.2-fr.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-fr.dmg"
+							name="fr">Cyberduck-2.7.3-fr.dmg</a>
 							<a id="he" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-he.dmg"
-							name="he">Cyberduck-2.7.2-he.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-he.dmg"
+							name="he">Cyberduck-2.7.3-he.dmg</a>
 							<a id="hu" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-hu.dmg"
-							name="hu">Cyberduck-2.7.2-hu.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-hu.dmg"
+							name="hu">Cyberduck-2.7.3-hu.dmg</a>
 							<a id="id" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-id.dmg"
-							name="id">Cyberduck-2.7.2-id.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-id.dmg"
+							name="id">Cyberduck-2.7.3-id.dmg</a>
 							<a id="it" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-it.dmg"
-							name="it">Cyberduck-2.7.2-it.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-it.dmg"
+							name="it">Cyberduck-2.7.3-it.dmg</a>
 							<a id="ja" style="display:inline" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-ja.dmg"
-							name="ja">Cyberduck-2.7.2-ja.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ja.dmg"
+							name="ja">Cyberduck-2.7.3-ja.dmg</a>
 							<a id="ko" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-ko.dmg"
-							name="ko">Cyberduck-2.7.2-ko.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ko.dmg"
+							name="ko">Cyberduck-2.7.3-ko.dmg</a>
 							<a id="nl" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-nl.dmg"
-							name="nl">Cyberduck-2.7.2-nl.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-nl.dmg"
+							name="nl">Cyberduck-2.7.3-nl.dmg</a>
 							<a id="no" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-no.dmg"
-							name="no">Cyberduck-2.7.2-no.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-no.dmg"
+							name="no">Cyberduck-2.7.3-no.dmg</a>
 							<a id="pl" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-pl.dmg"
-							name="pl">Cyberduck-2.7.2-pl.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-pl.dmg"
+							name="pl">Cyberduck-2.7.3-pl.dmg</a>
 							<a id="ru" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-ru.dmg"
-							name="ru">Cyberduck-2.7.2-ru.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ru.dmg"
+							name="ru">Cyberduck-2.7.3-ru.dmg</a>
 							<a id="sk" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-sk.dmg"
-							name="sk">Cyberduck-2.7.2-sk.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-sk.dmg"
+							name="sk">Cyberduck-2.7.3-sk.dmg</a>
 							<a id="sv" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-sv.dmg"
-							name="sv">Cyberduck-2.7.2-sv.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-sv.dmg"
+							name="sv">Cyberduck-2.7.3-sv.dmg</a>
 							<a id="th" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-th.dmg"
-							name="th">Cyberduck-2.7.2-th.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-th.dmg"
+							name="th">Cyberduck-2.7.3-th.dmg</a>
 							<a id="tr" style="display:none" href=
-							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-tr.dmg"
-							name="tr">Cyberduck-2.7.2-tr.dmg</a>
+							"http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-tr.dmg"
+							name="tr">Cyberduck-2.7.3-tr.dmg</a>
 							<a id="zh_CN" style="display:none"
-							href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-zh_CN.dmg"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_CN.dmg"
 							name=
-							"zh_CN">Cyberduck-2.7.2-zh_CN.dmg</a>
+							"zh_CN">Cyberduck-2.7.3-zh_CN.dmg</a>
 							<a id="zh_TW" style="display:none"
-							href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.2-zh_TW.dmg"
+							href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_TW.dmg"
 							name=
-							"zh_TW">Cyberduck-2.7.2-zh_TW.dmg</a></p>
+							"zh_TW">Cyberduck-2.7.3-zh_TW.dmg</a></p>
 						</form>
 
 						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>
@@ -678,7 +686,7 @@
 						</blockquote>
 
 						<p>Read more <a href=
-						"./reviews.php">testimonials</a>!</p>
+						"./reviews.php">testimonials</a>! <strong>Awards.</strong> Cyberduck has won several <a href="./awards.php">awards</a>.</p>
 					</div>
 				</td>
 			</tr>

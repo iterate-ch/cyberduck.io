@@ -24,10 +24,31 @@
         <td width="150"></td>
 
         <td colspan="2" class="box-filled">(There is also an
-        <a href="http://update.cyberduck.ch/changelog.rss">RSS</a> feed and <a class=
+        <a href="http://cyberduck.ch/changelog.rss">RSS</a> feed and <a class=
         "ext" href=
         "http://trac.cyberduck.ch/file/trunk/Changelog.txt?format=raw">
         text</a> file.)</td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <strong>2.7.3</strong> <em>Feb-05-2007</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg">Download</a></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Bugfix] Problem parsing PASV response from some servers (FTP) <a href="http://trac.cyberduck.ch/ticket/779">#779</a>, <a href="http://trac.cyberduck.ch/ticket/86">#869</a>]</li> 
+			<li>[Bugfix] Stalls when connection is interrupted during DNS lookup <a href="http://trac.cyberduck.ch/ticket/960">#960</a>]</li>
+			<li>[Bugfix] Improved sorting in 'Kind' browser column <a href="http://trac.cyberduck.ch/ticket/993">#993</a>]</li>
+			<li>[Bugfix] Renaming files using Info panel causes repeated renaming <a href="http://trac.cyberduck.ch/ticket/1005">#1005</a>]</li>
+			<li>[Bugfix] Uploading folders interrupts file transfer (SFTP) <a href="http://trac.cyberduck.ch/ticket/1001">#1001</a>]</li>
+			<li>[Bugfix] Preference for auto-open delay for spring-loaded folders not saved <a href="http://trac.cyberduck.ch/ticket/633">#633</a>]</li>
+			<li>[Bugfix] Preference to open new browser window on launch not used <a href="http://trac.cyberduck.ch/ticket/997">#997</a>]</li>
+			<li>[Bugfix] Symbolic links on local filesystem not handled properly [<a href="http://trac.cyberduck.ch/ticket/995">#995</a>]</li>
+			<li>[Feature] Clear command in History menu [<a href="http://trac.cyberduck.ch/ticket/648">#648</a>]</li>
+			<li>[Feature] Preference to exclude files from transfers [<a href="http://trac.cyberduck.ch/ticket/511">#511</a>]</li>
+          </ul>
+        </td>
       </tr>
 
       <tr>

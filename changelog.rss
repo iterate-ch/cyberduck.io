@@ -7,6 +7,27 @@
 		<language>en-us</language>
 		<copyright>Copyright 2006, David V. Kocher</copyright>
 		<item>
+			<title>Cyberduck 2.7.3</title>
+			<pubDate>Mo, 30 Jan 2007 00:00:00 +0100</pubDate>
+			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg" length="" type="application/octet-stream"/>
+			<link>http://update.cyberduck.ch/Cyberduck-2.7.3.dmg</link>
+			<content:encoded><![CDATA[
+		<ul>
+			<li>[Bugfix] Problem parsing PASV response from some servers (FTP) <a href="http://trac.cyberduck.ch/ticket/779">#779</a>, <a href="http://trac.cyberduck.ch/ticket/86">#869</a>]</li> 
+			<li>[Bugfix] Stalls when connection is interrupted during DNS lookup <a href="http://trac.cyberduck.ch/ticket/960">#960</a>]</li>
+			<li>[Bugfix] Improved sorting in 'Kind' browser column <a href="http://trac.cyberduck.ch/ticket/993">#993</a>]</li>
+			<li>[Bugfix] Renaming files using Info panel causes repeated renaming <a href="http://trac.cyberduck.ch/ticket/1005">#1005</a>]</li>
+			<li>[Bugfix] Uploading folders interrupts file transfer (SFTP) <a href="http://trac.cyberduck.ch/ticket/1001">#1001</a>]</li>
+			<li>[Bugfix] Preference for auto-open delay for spring-loaded folders not saved <a href="http://trac.cyberduck.ch/ticket/633">#633</a>]</li>
+			<li>[Bugfix] Preference to open new browser window on launch not used <a href="http://trac.cyberduck.ch/ticket/997">#997</a>]</li>
+			<li>[Bugfix] Symbolic links on local filesystem not handled properly [<a href="http://trac.cyberduck.ch/ticket/995">#995</a>]</li>
+			<li>[Feature] Clear command in History menu [<a href="http://trac.cyberduck.ch/ticket/648">#648</a>]</li>
+			<li>[Feature] Preference to exclude files from transfers [<a href="http://trac.cyberduck.ch/ticket/511">#511</a>]</li>
+		</ul>
+			]]></content:encoded>
+		</item>
+
+		<item>
 			<title>Cyberduck 2.7.2</title>
 			<pubDate>Mo, 15 Jan 2007 00:00:00 +0100</pubDate>
 			<enclosure url="http://update.cyberduck.ch/Cyberduck-2.7.2.dmg" length="9408559" type="application/octet-stream"/>
