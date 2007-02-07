@@ -144,26 +144,6 @@ Foundation</strong> (<a class="ext" href=
 						<li><strong>2.5</strong> <em>Aug-29-2005</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.5.tar.gz">cyberduck-src-2.5.tar.gz</a></li>
 					</ul>
-
-					<ul>
-						<li><strong>2.5b4</strong> <em>Aug-10-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.5beta4.tar.gz">cyberduck-src-2.5beta4.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.5b3</strong> <em>July-18-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.5beta3.tar.gz">cyberduck-src-2.5beta3.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.5b2</strong> <em>May-30-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.5beta2.tar.gz">cyberduck-src-2.5beta2.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.5b1</strong> <em>May-04-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.5beta1.tar.gz">cyberduck-src-2.5beta1.tar.gz</a></li>
-					</ul>
 				</td>
 			</tr>
 
@@ -197,26 +177,6 @@ Foundation</strong> (<a class="ext" href=
 						<li><strong>2.4</strong> <em>March-28-2005</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.4.tar.gz">cyberduck-src-2.4.tar.gz</a></li>
 					</ul>
-
-					<ul>
-						<li><strong>2.4b4</strong> <em>February-03-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.4beta4.tar.gz">cyberduck-src-2.4b4.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.4b3</strong> <em>January-29-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.4beta3.tar.gz">cyberduck-src-2.4b3.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.4b2</strong> <em>January-06-2005</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.4beta2.tar.gz">cyberduck-src-2.4b2.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.4b1</strong> <em>December-28-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.4beta1.tar.gz">cyberduck-src-2.4beta1.tar.gz</a></li>
-					</ul>
 				</td>
 			</tr>
 
@@ -245,16 +205,6 @@ Foundation</strong> (<a class="ext" href=
 						<li><strong>2.3</strong> <em>May-15-2004</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.3.tar.gz">cyberduck-src-2.3.tar.gz</a></li>
 					</ul>
-
-					<ul>
-						<li><strong>2.3beta2</strong> <em>Apr-27-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.3beta2.tar.gz">cyberduck-src-2.3beta2.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.3beta1</strong> <em>Mar-09-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.3beta1.tar.gz">cyberduck-src-2.3beta1.tar.gz</a></li>
-					</ul>
 				</td>
 			</tr>
 
@@ -268,36 +218,6 @@ Foundation</strong> (<a class="ext" href=
 						<li><strong>2.2</strong> <em>Mar-06-2004</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.2.tar.gz">cyberduck-src-2.2.tar.gz</a></li>
 					</ul>
-
-					<ul>
-						<li><strong>2.2b6</strong> <em>Feb-25-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta6.tar.gz">cyberduck-src-2.2beta6.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.2b5</strong> <em>Feb-12-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta5.tar.gz">cyberduck-src-2.2beta5.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.2b4</strong> <em>Jan-31-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta4.tar.gz">cyberduck-src-2.2beta4.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.2b3</strong> <em>Jan-25-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta3.tar.gz">cyberduck-src-2.2beta3.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.2b2</strong> <em>Jan-24-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta2.tar.gz">cyberduck-src-2.2beta2.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.2b1</strong> <em>Jan-22-2004</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.2beta1.tar.gz">cyberduck-src-2.2beta1.tar.gz</a></li>
-					</ul>
 				</td>
 			</tr>
 
@@ -310,26 +230,6 @@ Foundation</strong> (<a class="ext" href=
 					<ul>
 						<li><strong>2.1</strong> <em>Dec-08-2003</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.1.tar.gz">cyberduck-src-2.1.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.1b5</strong> <em>Aug-15-2003</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.1beta5.tar.gz">cyberduck-src-2.1beta5.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.1b4</strong> <em>Aug-17-2003</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.1beta4.tar.gz">cyberduck-src-2.1beta4.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.1b3</strong> <em>Aug-22-2003</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.1beta3.tar.gz">cyberduck-src-2.1beta3.tar.gz</a></li>
-					</ul>
-
-					<ul>
-						<li><strong>2.1b2:</strong> <em>Aug-29-2003</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-2.1beta2.tar.gz">cyberduck-src-2.1beta2.tar.gz</a></li>
 					</ul>
 				</td>
 			</tr>

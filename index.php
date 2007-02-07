@@ -19,6 +19,9 @@
 	</div>
 
 	<div class="content">
+		<div style="background:#ffff99; padding:2px; margin:5px; margin-bottom:5px;">
+			The developer of Cyberduck has finished his studies (MSc, <a href="http://www.cs.unizh.ch/">UZH</a>) and is looking for a <strong>job</strong> in the field of software engineering. Have a look at my <a href="http://dkocher.name/resume">resume</a>.
+		</div>
 		<div style="margin:10px; margin-bottom:5px;">
 			<?php echo(echogoogle());?>
 		</div>
@@ -597,7 +600,9 @@
 						"http://www.apple.com/macosx/features/dashboard/">
 						dashboard</a> widget (Thanks to <a href=
 						"http://www.emeraldion.it/home/" class=
-						"ext">Claudio Procida</a>!).</p>
+						"ext">Claudio Procida</a>!).
+						<a href="http://cyberduck.ch/help/en/howto/widget.html">Help</a>
+						about using the widget.</p>
 
 						<div style="padding:5px;" align="center">
 							<a id="widget" href=
