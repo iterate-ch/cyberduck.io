@@ -19,9 +19,6 @@
 	</div>
 
 	<div class="content">
-		<div style="background:#ffff99; padding:2px; margin:5px; margin-bottom:5px;">
-			The developer of Cyberduck has finished his studies (MSc, <a href="http://www.cs.unizh.ch/">UZH</a>) and is looking for a <strong>job</strong> in the field of software engineering. Have a look at my <a href="http://dkocher.name/resume">resume</a>.
-		</div>
 		<div style="margin:10px; margin-bottom:5px;">
 			<?php echo(echogoogle());?>
 		</div>
