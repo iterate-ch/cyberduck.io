@@ -22,7 +22,7 @@
 		<div style="margin:10px; margin-bottom:5px;">
 			<?php echo(echogoogle());?>
 		</div>
-		<table cellpadding="0" cellspacing="5">
+		<table cellpadding="0" cellspacing="5" width="100%">
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p><strong style="color:#4e4e4e;">Cyberduck is
@@ -75,7 +75,7 @@
 					<div style=
 					"margin-left:10px; margin-bottom:30px; margin-right:5px"
 					align="center" id="screenshot">
-						<a href="./img/browser-ja.jpg"><img align=
+						<a href="./img/browser.jpg"><img align=
 						"middle" src="./img/browser-thumb.jpg" alt=
 						"Cyberduck Screenshot" /></a>
 					</div>
@@ -304,7 +304,7 @@
 									<p>
 									<strong>Download</strong><br />
 									<strong>2.7.3</strong>
-									<em>(Feb-05-2007)</em><br />
+									<em>(Feb-12-2007)</em><br />
 									<a href=
 									"./Cyberduck-2.7.3.dmg">Cyberduck-2.7.3.dmg</a>
 									<a href=
@@ -640,8 +640,8 @@
 						<p><strong>Reviews.</strong> Cyberduck has
 						been reviewed by many sites and got
 						tremendous feedback over the last year.
-						Read the full reviews by clicking on the
-						citations.</p>
+						<strong>Awards.</strong> Cyberduck has won 
+						several <a href="./awards.php">awards</a>.</p>
 
 						<blockquote>
 							“[Cyberduck] is one of those apps that
@@ -688,16 +688,23 @@
 						</blockquote>
 
 						<p>Read more <a href=
-						"./reviews.php">testimonials</a>! <strong>Awards.</strong> Cyberduck has won several <a href="./awards.php">awards</a>.</p>
+						"./reviews.php">testimonials</a>!</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<script type="text/javascript">
+					    if (typeof window.Delicious == "undefined") window.Delicious = {};
+					    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
+					</script>
+					<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
+					<div class="footer">
+						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
 				</td>
 			</tr>
 		</table>
-		<script type="text/javascript">
-		    if (typeof window.Delicious == "undefined") window.Delicious = {};
-		    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
-		</script>
-		<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
 	</div>
 </body>
 </html>

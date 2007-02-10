@@ -19,7 +19,7 @@
   </div>
 
   <div class="content">
-    <table border="0" cellpadding="5" cellspacing="5" width="100%">
+	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="alert"><strong style="color:#ffffff">Thank you very much for your
         support! It will help to make Cyberduck even better!</strong></td>

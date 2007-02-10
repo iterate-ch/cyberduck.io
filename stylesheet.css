@@ -18,11 +18,10 @@
 	}
 	
 	div.footer {
-		text-align:right;
+		text-align:left;
 		color:#000000;
 		background-color:#ffffff;
 		font-size:0.75em;
-		margin:-5px;
 	}
 	
 	div.header {

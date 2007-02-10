@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="content">
-		<table cellpadding="5" cellspacing="5" width="100%">
+		<table cellpadding="0" cellspacing="5" width="100%">
 			<tr>
 				<td class="box-solid">
 					<div class="feature">
