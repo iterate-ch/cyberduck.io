@@ -65,7 +65,7 @@ Foundation</strong> (<a class="ext" href=
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-3/">2.7.3</a> ()</strong> <em>Feb-12-2007</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-3/">2.7.3</a> (2838)</strong> <em>Feb-12-2007</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.7.3.tar.gz">cyberduck-src-2.7.3.tar.gz</a></li>
 					</ul>
 
