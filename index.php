@@ -57,7 +57,7 @@
 					questions on the <strong><a class="ext" href=
 					"http://forum.cyberduck.ch">forum</a></strong>. This software is
 					written by <a class="ext" href=
-					"http://sudo.ch/">David V. Kocher</a>. Please
+					"http://dkocher.name/">David V. Kocher</a>. Please
 					have a look at the <a class="ext" href=
 					"http://trac.cyberduck.ch/file/trunk/Credits.rtf?format=raw">
 					credits</a> to see who contributed. I
@@ -585,9 +585,9 @@
 						<p><img class="feature" src=
 						"./img/feed-icon-16x16.png" alt="feed" />
 						<strong>Blog.</strong> <a href=
-						"http://sudo.ch/~dkocher/feed/">Subscribe</a>
+						"http://dkocher.name/feed/">Subscribe</a>
 						to the the developer's <a class="ext" href=
-						"http://sudo.ch/~dkocher/">blog</a>.</p>
+						"http://dkocher.name/">blog</a>.</p>
 					</div>
 
 					<div class="box-solid">
