@@ -244,6 +244,16 @@
 
 					<div style="clear:both;"></div>
 
+					<script type="text/javascript" src="http://osx.iusethis.com/app/include/cyberduck"></script>
+
+					<div style="margin-left:15px">
+					<script type="text/javascript">
+					    if (typeof window.Delicious == "undefined") window.Delicious = {};
+					    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
+					</script>
+					<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
+					</div>
+
 					<p><small>Copyright (c) 2002-2005 David V.
 					Kocher. All rights reserved. This program is
 					free software; you can redistribute it and/or
@@ -694,11 +704,6 @@
 			</tr>
 			<tr>
 				<td colspan="3">
-					<script type="text/javascript">
-					    if (typeof window.Delicious == "undefined") window.Delicious = {};
-					    Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
-					</script>
-					<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
 					<div class="footer">
 						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
