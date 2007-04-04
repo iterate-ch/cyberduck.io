@@ -30,8 +30,9 @@ function echodonate($dir) {
 	  		google_ad_width = 728;
 	  		google_ad_height = 90;
 	  		google_ad_format = \"728x90_as\";
-	  		google_ad_type = \"text\";
-	  		google_ad_channel =\"\";
+	  		google_ad_type = \"text_image\";
+			//2007-04-04: Leaderboard
+			google_ad_channel = \"5576259439\";
 	  		google_color_border = \"0066CC\";
 	  		google_color_bg = \"0066CC\";
 	  		google_color_link = \"FFFFFF\";
