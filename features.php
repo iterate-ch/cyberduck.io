@@ -31,7 +31,7 @@
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish and Hebrew</em>.</p>
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
-						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>.</p>
+						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="">skEdit</a>, <a class="ext" href="">PageSpinner</a>.</p>
 
 						<p><img src="./img/gnu.png" class="feature" alt="" /> <strong>Open Source</strong><br />
 						Licensed under the GPL.</p>
@@ -47,11 +47,18 @@
 						<p><img src="./img/document.png" class="feature" alt="" /> <strong>Bookmarking</strong><br />
 						Powerful bookmarking in a the browser drawer. Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
 
+						<p><img src="./img/history.png" class=
+						"feature" alt="" />
+						<strong>History</strong><br />
+						History of visited servers.</p>
 						<p><img src="./img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
 						Auto discovery of services on the local network</p>
 
 						<p><img src="./img/finder.png" class="feature" alt="" /> <strong>Integration</strong><br />
-						Use Cyberduck as default system wide protocol handler for FTP (Requires <a class="ext" href="http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>). Open .inetloc files and .duck bookmark files from the Finder.</p>
+						Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder.</p>
+
+						<p><img src="./img/queue.png" class="feature" alt="" /> <strong>Advanced Transfers</strong><br />
+						Limit the number of concurrent transfers (Queuing) and filter files using a regular expression.</p>
 
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Resumable Transfers</strong><br />
 						Both download and upload.</p>
@@ -81,6 +88,9 @@
 
 						<p><img src="./img/sftp.png" class="feature" alt="" /> <strong>SSH</strong><br />
 						Supports Public key authentication, Keyboard Interactive (PAM) Authentication, Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication algorithms (MD5, SHA1).</p>
+
+						<p><img src="./img/sftp.png" class="feature" alt="" /> <strong>SCP</strong><br />
+						Transfer files using Secure Copy (SCP).</p>
 					</div>
 				</td>
 			</tr>
