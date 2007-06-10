@@ -58,13 +58,7 @@
 						Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder.</p>
 
 						<p><img src="./img/queue.png" class="feature" alt="" /> <strong>Advanced Transfers</strong><br />
-						Limit the number of concurrent transfers (Queuing) and filter files using a regular expression.</p>
-
-						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Resumable Transfers</strong><br />
-						Both download and upload.</p>
-
-						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Recursive Transfers.</strong><br />
-						Both download and upload.</p>
+						Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.</p>
 
 						<p><img src="./img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
 						Full AppleScript integration. See the <a class="ext" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>

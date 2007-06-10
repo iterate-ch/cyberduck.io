@@ -32,6 +32,29 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8b1</strong> <em>Jun-15-2007</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8b1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Feature] Using Ganymed SSH2 library [<a href="http://trac.cyberduck.ch/ticket/185">#185</a>]</li>
+			<li>[Feature] Support for SCP transfers [<a href="http://trac.cyberduck.ch/ticket/1043">#1043]</a></li>
+			<li>[Feature] Queuing file transfers [<a href="http://trac.cyberduck.ch/ticket/986">#986</a>]</li>
+			<li>[Feature] Automatic retry of failed network operations [<a href="http://trac.cyberduck.ch/ticket/783">#783</a>]</li>
+			<li>[Feature] Limit available bandwidth for transfers [<a href="http://trac.cyberduck.ch/ticket/48">#48</a>]</li>
+			<li>[Feature] Browse folder hierarchy in overwrite warning dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
+			<li>[Feature] Browse folder hierarchy in synchronisation dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
+			<li>[Feature] Preference to use small icons in the bookmark drawer [#--]</li>
+			<li>[Feature] Preference to set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
+			<li>[Feature] Setting default permissions for folders [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
+			<li>[Feature] Notes for bookmarks [<a href="http://trac.cyberduck.ch/ticket/67">#67</a>]</li>
+			<li>[Bugfix] Resolve Alias files to upload [<a href="http://trac.cyberduck.ch/ticket/859">#859</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.7.3</strong> <em>Feb-12-2007</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg">Download</a></p></td>
 
