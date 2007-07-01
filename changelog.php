@@ -32,7 +32,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.8b1</strong> <em>Jun-15-2007</em><br />
+        <p><strong>2.8b1</strong> <em>Jul-01-2007</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8b1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -44,11 +44,12 @@
 			<li>[Feature] Limit available bandwidth for transfers [<a href="http://trac.cyberduck.ch/ticket/48">#48</a>]</li>
 			<li>[Feature] Browse folder hierarchy in overwrite warning dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
 			<li>[Feature] Browse folder hierarchy in synchronisation dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
-			<li>[Feature] Preference to use small icons in the bookmark drawer [#--]</li>
-			<li>[Feature] Preference to set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
+			<li>[Feature] Use small icons in the bookmark drawer [#--]</li>
+			<li>[Feature] Set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
 			<li>[Feature] Setting default permissions for folders [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
 			<li>[Feature] Notes for bookmarks [<a href="http://trac.cyberduck.ch/ticket/67">#67</a>]</li>
 			<li>[Bugfix] Resolve Alias files to upload [<a href="http://trac.cyberduck.ch/ticket/859">#859</a>]</li>
+			<li>[Bugfix] Subsequent type-ahead selection misbehaving [<a href="http://trac.cyberduck.ch/ticket/896">#896</a>]</li>
           </ul>
         </td>
       </tr>
