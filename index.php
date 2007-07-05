@@ -138,13 +138,6 @@
 
 				<td id="sidebar" valign="top">
 					<div class="box-solid">
-						<blockquote>
-							“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
-							— <a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>
-						</blockquote>
-					</div>
-
-					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
 								<td id="download" valign="top"><a href="./Cyberduck-2.7.3.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
@@ -155,14 +148,15 @@
 									<strong>2.7.3</strong> <em>(Feb-12-2007)</em><br />
 									<a href="./Cyberduck-2.7.3.dmg">Cyberduck-2.7.3.dmg</a> <a href="./Cyberduck-2.7.3.dmg"></a> (9.2MB)
 									<br /><br />
-									<strong>2.8beta1</strong> <em>(Jun-15-2007)</em><br />
-									<a href="./Cyberduck-2.8b1.dmg">Cyberduck-2.8b1.dmg</a> <a href="./Cyberduck-2.8b1.dmg"></a> (9.1MB)<br />
+									<strong>2.8beta1</strong> <em>(Jul-01-2007)</em><br />
+									<a href="./Cyberduck-2.8b1.dmg">Cyberduck-2.8b1.dmg</a> <a href="./Cyberduck-2.8b1.dmg"></a> (9MB)<br />
 									<em>Mac OS X 10.3.9 or later required!</em></p>
 								</td>
 							</tr>
 						</table>
-
-						<p>You can also download a <a href="http://update.cyberduck.ch/localizations/">unilingual build</a> with one particular localization only (4.5MB):</p> 
+						<!-->
+						<p>You can also download a <a href="http://update.cyberduck.ch/localizations/">unilingual build</a> with one particular localization only (4.5MB):</p>
+						-->
 						<script type="text/javascript">
 						//<![CDATA[
 						<!--
@@ -175,7 +169,7 @@
 						//-->
 						//]]>
 						</script>
-
+						<!-->
 						<form>
 							<p><select style="width:100px;" name="localizations" onchange="javascript:setVisible(this)">
 
@@ -237,7 +231,7 @@
 							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_CN.dmg" name="zh_CN">Cyberduck-2.7.3-zh_CN.dmg</a>
 							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_TW.dmg" name="zh_TW">Cyberduck-2.7.3-zh_TW.dmg</a></p>
 						</form>
-
+						-->
 						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>
 
 						<p>Thanks to the <a href="http://icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads.</p>
@@ -308,6 +302,11 @@
 						<a href="./awards.php">awards</a>.</p>
 
 						<blockquote>
+							“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
+							— <a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>
+						</blockquote>
+						<!--
+						<blockquote>
 							“[Cyberduck] is one of those apps that just does what it’s supposed to, no more, no less. - check it out today, and I bet you will switch too.”<br />
 							— <a href="http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">macsoftreview.com</a>
 						</blockquote>
@@ -331,7 +330,7 @@
 							“Cyberduck is getting some great acclaim, and deservedly so.”<br />
 							— <a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">osxguide.com</a>
 						</blockquote>
-
+						-->
 						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
 					</div>
 				</td>
