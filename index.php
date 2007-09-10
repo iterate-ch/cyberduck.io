@@ -140,17 +140,13 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-2.7.3.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
+								<td id="download" valign="top"><a href="./Cyberduck-2.8.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
 								"0" /></a></td>
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong>2.7.3</strong> <em>(Feb-12-2007)</em><br />
-									<a href="./Cyberduck-2.7.3.dmg">Cyberduck-2.7.3.dmg</a> <a href="./Cyberduck-2.7.3.dmg"></a> (9.2MB)
-									<br /><br />
-									<strong>2.8beta1</strong> <em>(Jul-01-2007)</em><br />
-									<a href="./Cyberduck-2.8b1.dmg">Cyberduck-2.8b1.dmg</a> <a href="./Cyberduck-2.8b1.dmg"></a> (9MB)<br />
-									<em>Mac OS X 10.3.9 or later required!</em></p>
+									<strong>2.8</strong> <em>(Sept-10-2007)</em><br />
+									<a href="./Cyberduck-2.8.dmg">Cyberduck-2.8.dmg</a> <a href="./Cyberduck-2.8.dmg"></a> (9.2MB)</p>
 								</td>
 							</tr>
 						</table>
@@ -203,33 +199,33 @@
 
 							</select> 
 
-							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-en.dmg" name="en">Cyberduck-2.7.3-en.dmg</a>
-							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ca.dmg" name="ca">Cyberduck-2.7.3-ca.dmg</a>
-							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-cs.dmg" name="cs">Cyberduck-2.7.3-cs.dmg</a>
-							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-cy.dmg" name="cy">Cyberduck-2.7.3-cy.dmg</a>
-							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-da.dmg" name="da">Cyberduck-2.7.3-da.dmg</a>
-							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-de.dmg" name="de">Cyberduck-2.7.3-de.dmg</a>
-							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-es.dmg" name="es">Cyberduck-2.7.3-es.dmg</a>
-							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-fi.dmg" name="fi">Cyberduck-2.7.3-fi.dmg</a>
-							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-fr.dmg" name="fr">Cyberduck-2.7.3-fr.dmg</a>
-							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-he.dmg" name="he">Cyberduck-2.7.3-he.dmg</a>
-							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-hu.dmg" name="hu">Cyberduck-2.7.3-hu.dmg</a>
-							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-id.dmg" name="id">Cyberduck-2.7.3-id.dmg</a>
-							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-it.dmg" name="it">Cyberduck-2.7.3-it.dmg</a>
-							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ja.dmg" name="ja">Cyberduck-2.7.3-ja.dmg</a>
-							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ko.dmg" name="ko">Cyberduck-2.7.3-ko.dmg</a>
-							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-nl.dmg" name="nl">Cyberduck-2.7.3-nl.dmg</a>
-							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-no.dmg" name="no">Cyberduck-2.7.3-no.dmg</a>
-							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-pl.dmg" name="pl">Cyberduck-2.7.3-pl.dmg</a>
-							<a id="pt_BR" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-pt_BR.dmg" name="pl">Cyberduck-2.7.3-pt_BR.dmg</a>
-							<a id="pt_PT" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-pt_PT.dmg" name="pl">Cyberduck-2.7.3-pt_PT.dmg</a>
-							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-ru.dmg" name="ru">Cyberduck-2.7.3-ru.dmg</a>
-							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-sk.dmg" name="sk">Cyberduck-2.7.3-sk.dmg</a>
-							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-sv.dmg" name="sv">Cyberduck-2.7.3-sv.dmg</a>
-							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-th.dmg" name="th">Cyberduck-2.7.3-th.dmg</a>
-							<a id="tr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-tr.dmg" name="tr">Cyberduck-2.7.3-tr.dmg</a>
-							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_CN.dmg" name="zh_CN">Cyberduck-2.7.3-zh_CN.dmg</a>
-							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.7.3-zh_TW.dmg" name="zh_TW">Cyberduck-2.7.3-zh_TW.dmg</a></p>
+							<a id="en" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-en.dmg" name="en">Cyberduck-2.8-en.dmg</a>
+							<a id="ca" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-ca.dmg" name="ca">Cyberduck-2.8-ca.dmg</a>
+							<a id="cs" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-cs.dmg" name="cs">Cyberduck-2.8-cs.dmg</a>
+							<a id="cy" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-cy.dmg" name="cy">Cyberduck-2.8-cy.dmg</a>
+							<a id="da" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-da.dmg" name="da">Cyberduck-2.8-da.dmg</a>
+							<a id="de" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-de.dmg" name="de">Cyberduck-2.8-de.dmg</a>
+							<a id="es" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-es.dmg" name="es">Cyberduck-2.8-es.dmg</a>
+							<a id="fi" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-fi.dmg" name="fi">Cyberduck-2.8-fi.dmg</a>
+							<a id="fr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-fr.dmg" name="fr">Cyberduck-2.8-fr.dmg</a>
+							<a id="he" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-he.dmg" name="he">Cyberduck-2.8-he.dmg</a>
+							<a id="hu" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-hu.dmg" name="hu">Cyberduck-2.8-hu.dmg</a>
+							<a id="id" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-id.dmg" name="id">Cyberduck-2.8-id.dmg</a>
+							<a id="it" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-it.dmg" name="it">Cyberduck-2.8-it.dmg</a>
+							<a id="ja" style="display:inline" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-ja.dmg" name="ja">Cyberduck-2.8-ja.dmg</a>
+							<a id="ko" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-ko.dmg" name="ko">Cyberduck-2.8-ko.dmg</a>
+							<a id="nl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-nl.dmg" name="nl">Cyberduck-2.8-nl.dmg</a>
+							<a id="no" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-no.dmg" name="no">Cyberduck-2.8-no.dmg</a>
+							<a id="pl" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-pl.dmg" name="pl">Cyberduck-2.8-pl.dmg</a>
+							<a id="pt_BR" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-pt_BR.dmg" name="pl">Cyberduck-2.8-pt_BR.dmg</a>
+							<a id="pt_PT" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-pt_PT.dmg" name="pl">Cyberduck-2.8-pt_PT.dmg</a>
+							<a id="ru" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-ru.dmg" name="ru">Cyberduck-2.8-ru.dmg</a>
+							<a id="sk" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-sk.dmg" name="sk">Cyberduck-2.8-sk.dmg</a>
+							<a id="sv" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-sv.dmg" name="sv">Cyberduck-2.8-sv.dmg</a>
+							<a id="th" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-th.dmg" name="th">Cyberduck-2.8-th.dmg</a>
+							<a id="tr" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-tr.dmg" name="tr">Cyberduck-2.8-tr.dmg</a>
+							<a id="zh_CN" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-zh_CN.dmg" name="zh_CN">Cyberduck-2.8-zh_CN.dmg</a>
+							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-zh_TW.dmg" name="zh_TW">Cyberduck-2.8-zh_TW.dmg</a></p>
 						</form>
 						-->
 						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>

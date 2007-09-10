@@ -32,8 +32,8 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.8b1</strong> <em>Jul-01-2007</em><br />
-        <a href="http://update.cyberduck.ch/Cyberduck-2.8b1.dmg">Download</a></p></td>
+        <p><strong>2.8</strong> <em>Sept-10-2007</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
           <ul>
@@ -48,6 +48,13 @@
 			<li>[Feature] Set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
 			<li>[Feature] Setting default permissions for folders [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
 			<li>[Feature] Notes for bookmarks [<a href="http://trac.cyberduck.ch/ticket/67">#67</a>]</li>
+			<li>[Feature] Use system setting for connect mode (FTP)<br />
+				<strong>Warning! Make sure your setting in <i>System Preferences &#8594; Network &#8594; Use Passive FTP Mode (PASV)</i> is checked
+				to get the same default setting as in previous versions.</strong></li>
+			<li>[Feature] Added WriteRoom to the list of supported editors (http://hogbaysoftware.com/projects/writeroom)</li>
+			<li>[Feature] Create known hosts file if missing (SFTP)</li>
+			<li>[Bugfix] Improvements to the synchronization dialog [<a href="http://trac.cyberduck.ch/ticket/1189">#1189</a>]</li>
+			<li>[Bugfix] Don't use SOCKS proxy if hostname is excluded in system preferences</li>
 			<li>[Bugfix] Resolve Alias files to upload [<a href="http://trac.cyberduck.ch/ticket/859">#859</a>]</li>
 			<li>[Bugfix] Subsequent type-ahead selection misbehaving [<a href="http://trac.cyberduck.ch/ticket/896">#896</a>]</li>
           </ul>
