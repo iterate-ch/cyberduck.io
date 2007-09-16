@@ -288,9 +288,6 @@
 
 						<p><a href="http://growl.info"><img height="64" class="sidebar" src="./img/growlicon.png" alt="getgrowl" /></a> <strong>Growl.</strong> You may also want to install <a class=
 						"ext" href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
-
-						<p><strong>RCDefaultApp.</strong> Set Cyberduck as the default application for all FTP URLs with <a class="ext" href=
-						"http://www.rubicode.com/Software/RCDefaultApp">RCDefaultApp</a>.</p>
 					</div>
 
 					<div style="margin-bottom:0px;" class="box-solid">
