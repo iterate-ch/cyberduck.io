@@ -108,18 +108,7 @@
 						Transfer files using Secure Copy (SCP).</p>
 					</div>
 
-					<div style="clear:both;"></div><script type="text/javascript" src="http://osx.iusethis.com/app/include/cyberduck">
-</script>
-
-					<div style="margin-left:15px">
-						<script type="text/javascript">
-//<![CDATA[
-						if (typeof window.Delicious == "undefined") window.Delicious = {};
-						Delicious.BLOGBADGE_DEFAULT_CLASS = 'delicious-blogbadge-line';
-//]]>
-</script> <script src="http://images.del.icio.us/static/js/blogbadge.js" type="text/javascript">
-</script>
-					</div>
+					<div style="clear:both;"></div>
 
 					<p><small>Copyright (c) 2002-2005 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
 					"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option)
@@ -242,12 +231,6 @@
 						even better!</em></p>
 					</div>
 
-					<div class="box-solid">
-						<div style="padding:5px;" align="center">
-							<a href="http://apple.com/universal/"><img src="./img/macosxuniversal20060109.png" alt="universal" /></a>
-						</div>
-					</div>
-
 					<div class="box-filled">
 						<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a
 						notification when a new version is released.</p>
@@ -290,9 +273,8 @@
 						"ext" href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
 					</div>
 
-					<div style="margin-bottom:0px;" class="box-solid">
-						<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last year. <strong>Awards.</strong> Cyberduck has won several
-						<a href="./awards.php">awards</a>.</p>
+					<div class="box-solid">
+						<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last years.
 
 						<blockquote>
 							“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
@@ -326,6 +308,12 @@
 						-->
 						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
 					</div>
+
+                                        <div style="margin-bottom:0px;" class="box-solid">
+                                                <div style="padding:5px;" align="center">
+                                                        <a href="http://apple.com/universal/"><img src="./img/macosxuniversal20060109.png" alt="universal" /></a>
+                                                </div>
+                                        </div>
 				</td>
 			</tr>
 
