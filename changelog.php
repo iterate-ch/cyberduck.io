@@ -32,6 +32,21 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8.1</strong> <em>Nov-18-2007</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Bugfix] Saving file in external editor does not cause upload (10.5) [<a href="http://trac.cyberduck.ch/ticket/1244">#1244</a>]</li>
+			<li>[Bugfix] Login failure with correct credentials [<a href="http://trac.cyberduck.ch/ticket/1231">#1231</a>]</li>
+			<li>[Bugfix] Failure to list directory on some servers (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1170">#1170</a>]</li>
+			<li>[Bugfix] Transfers fails with punctuation characters in path (SCP) [<a href="http://trac.cyberduck.ch/ticket/1265">#1265</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.8</strong> <em>Sept-10-2007</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8.dmg">Download</a></p></td>
 

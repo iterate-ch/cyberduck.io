@@ -129,13 +129,13 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-2.8.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
+								<td id="download" valign="top"><a href="./Cyberduck-2.8.1.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
 								"0" /></a></td>
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong>2.8</strong> <em>(Sept-10-2007)</em><br />
-									<a href="./Cyberduck-2.8.dmg">Cyberduck-2.8.dmg</a> <a href="./Cyberduck-2.8.dmg"></a> (9.2MB)</p>
+									<strong>2.8.1</strong> <em>(Sept-10-2007)</em><br />
+									<a href="./Cyberduck-2.8.1.dmg">Cyberduck-2.8.1.dmg</a> <a href="./Cyberduck-2.8.1.dmg"></a> (9.2MB)</p>
 								</td>
 							</tr>
 						</table>
