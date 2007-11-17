@@ -134,7 +134,7 @@
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong>2.8.1</strong> <em>(Sept-10-2007)</em><br />
+									<strong>2.8.1</strong> <em>(Nov-18-2007)</em><br />
 									<a href="./Cyberduck-2.8.1.dmg">Cyberduck-2.8.1.dmg</a> <a href="./Cyberduck-2.8.1.dmg"></a> (9.2MB)</p>
 								</td>
 							</tr>
