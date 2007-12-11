@@ -32,6 +32,28 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8.2</strong> <em>Dec-11-2007</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.2.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Feature] Show transfer progress when using browser session [<a href="http://trac.cyberduck.ch/ticket/1313">#1313</a>]</li>
+			<li>[Feature] Accept relative paths in bookmark setting [<a href="http://trac.cyberduck.ch/ticket/1167">#1167</a>]</li>
+			<li>[Feature] Added MacVim to the list of supported editors (http://slashpunt.org/vim/) [<a href="http://trac.cyberduck.ch/ticket/1322">#1322</a>]</li>
+			<li>[Feature] Ugly folder icons rendered (10.5)</li>
+			<li>[Feature] Back and forward history menu for browser navigation buttons [<a href="http://trac.cyberduck.ch/ticket/1080">#1080</a>]</li>
+			<li>[Bugfix] Writing corrupted entries to the Keychain (10.5) [<a href="http://trac.cyberduck.ch/ticket/1354">#1354</a>]<br />
+				<strong>Warning! Due to this bug you may have to reenter your passwords the first time connecting to each server</strong></li>
+			<li>[Bugfix] Cannot drag files to working directory when there is no space left [<a href="http://trac.cyberduck.ch/ticket/60">#60</a>]</li>
+			<li>[Bugfix] Bookmarks drawer remembers width [<a href="http://trac.cyberduck.ch/ticket/371">#371</a>]</li>
+			<li>[Bugfix] Crashes after application launch (10.3.9) [<a href="http://trac.cyberduck.ch/ticket/1339">#1339</a>]</li>
+			<li>[Bugfix] Downloading multiple files with same name in outline hierarchy [<a href="http://trac.cyberduck.ch/ticket/1400">#1400</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.8.1</strong> <em>Nov-18-2007</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8.1.dmg">Download</a></p></td>
 

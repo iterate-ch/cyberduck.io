@@ -65,7 +65,17 @@ Foundation</strong> (<a class="ext" href=
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8/">2.8</a> (3257)</strong> <em>Sept-10-2007</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-2/">2.8.2</a> (3346)</strong> <em>Dec-11-2007</em><br />
+						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.2.tar.gz">cyberduck-src-2.8.2.tar.gz</a></li>
+					</ul>
+
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-1/">2.8.1</a> (3290)</strong> <em>Nov-17-2007</em><br />
+						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.1.tar.gz">cyberduck-src-2.8.1.tar.gz</a></li>
+					</ul>
+
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8/">2.8</a> (3257)</strong> <em>Sep-10-2007</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.tar.gz">cyberduck-src-2.8.tar.gz</a></li>
 					</ul>
 				</td>
