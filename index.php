@@ -221,7 +221,7 @@
 
 						<p>Thanks to the <a href="http://icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads.</p>
 
-						<p>Mirrors provided by <a href="http://sourceforge.net/project/showfiles.php?group_id=106337">Sourceforge</a> and the <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
+						<p>Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
 						Zurich)</a></p>
 					</div>
 
