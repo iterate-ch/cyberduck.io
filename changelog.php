@@ -32,6 +32,27 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8.3</strong> <em>Jan-14-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.3.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Feature] Log Drawer in browser and transfer window</li>
+			<li>[Feature] Toolbar button to open Terminal.app SSH session in current working directory (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1508">#1508</a>]</li>
+			<li>[Feature] Added MacVim to the list of supported editors (<a href="http://code.google.com/p/macvim/">http://code.google.com/p/macvim/</a>) [<a href="http://trac.cyberduck.ch/ticket/1322">#1322</a>]</li>
+			<li>[Feature] Custom icon for executable files [<a href="http://trac.cyberduck.ch/ticket/945">#945</a>]</li>
+			<li>[Bugfix] Frequent crashes [<a href="http://trac.cyberduck.ch/ticket/1401">#1401</a>, <a href="http://trac.cyberduck.ch/ticket/1409">#1409</a>]</li>
+			<li>[Bugfix] Does not change to correct directory when using a bookmark to the same server [<a href="http://trac.cyberduck.ch/ticket/1411">#1411</a>]</li>
+			<li>[Bugfix] Preserve leading and trailing whitespace when parsing filenames (FTP) [<a href="http://trac.cyberduck.ch/ticket/1381">#1381</a>]</li>
+			<li>[Bugfix] Directory parser compatibility with Webstar Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1302">#1302</a>]</li>
+			<li>[Bugfix] Directory parser compatibility with Freebox Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1258">#1258</a>]</li>
+			<li>[Bugfix] Directory parser compatibility with Trellix Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1213">#1213</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.8.2</strong> <em>Dec-11-2007</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8.2.dmg">Download</a></p></td>
 
