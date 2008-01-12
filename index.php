@@ -326,5 +326,6 @@
 			</tr>
 		</table>
 	</div>
+  <?php echo(echoanalytics(".")); ?>
 </body>
 </html>

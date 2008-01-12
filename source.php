@@ -266,5 +266,6 @@ Foundation</strong> (<a class="ext" href=
 			</tr>
 		</table>
 	</div>
+  <?php echo(echoanalytics(".")); ?>
 </body>
 </html>
