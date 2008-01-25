@@ -32,6 +32,23 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8.4</strong> <em>Jan-25-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.4.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+			<li>[Bugfix] Crash when dismissing sheet attached to window [<a href="http://trac.cyberduck.ch/ticket/1616">#1616</a>]</li>
+			<li>[Bugfix] Resolving Bonjour names blocks user interface [<a href="http://trac.cyberduck.ch/ticket/1657">#1657</a>]</i>
+			<li>[Bugfix] Closing browser window during connection attempt blocks user interface</i>
+			<li>[Bugfix] Downloading to default download location when dragging folder to Finder [<a href="http://trac.cyberduck.ch/ticket/1611">#1611</a>]</i>
+
+			<li>[Feature] Add group ownership as optional browser column [<a href="http://trac.cyberduck.ch/ticket/1590">#1590</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.8.3</strong> <em>Jan-14-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8.3.dmg">Download</a></p></td>
 
