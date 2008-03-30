@@ -31,7 +31,7 @@ function echodonate($dir) {
 	  		google_ad_width = 728;
 	  		google_ad_height = 90;
 	  		google_ad_format = \"728x90_as\";
-	  		google_ad_type = \"text_image\";
+	  		google_ad_type = \"text\";
 			//2007-04-04: Leaderboard
 			google_ad_channel = \"5576259439\";
 	  		google_color_border = \"0066CC\";
@@ -52,7 +52,7 @@ function echodonate($dir) {
 		";
 	}
     function echotitle($dir) {
-        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP and SFTP Browser for Mac OS X.</h3></div>
+        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP/SFTP/WebDAV/S3 Browser for Mac OS X.</h3></div>
 <div id=\"donate-absolute\">
 	<a href=\"$dir/donate\"><img id=\"amazon\" src=\"$dir/img/amazon.png\" alt=\"Amazon\"></img></a>
 ".echodonate($dir)."
