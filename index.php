@@ -219,7 +219,7 @@
 						-->
 						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>
 
-						<p>Thanks to the <a href="http://icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads.</p>
+						<p>Thanks to the <a href="http://www.icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads.</p>
 
 						<p>Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
 						Zurich)</a></p>
