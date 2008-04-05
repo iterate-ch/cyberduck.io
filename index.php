@@ -274,7 +274,7 @@
 					</div>
 
 					<div class="box-solid">
-						<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last years.
+						<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last years.</p>
 
 						<blockquote>
 							“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />

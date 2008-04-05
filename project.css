@@ -1,3 +1,81 @@
+h1 {
+	font-size:1.8em;
+}
+
+.wikipage h1, .wikipage h2, .wikipage h3, .wikipage h4 {
+	letter-spacing:normal;
+}
+
+.wikipage h2 {
+	border-bottom:1px solid #cccccc;
+}
+
+.wikipage h1 {
+	font-weight:normal;
+	border-bottom:2px solid #cccccc;
+}
+
+.wikipage h1 a, .wikipage h2 a, .wikipage h3 a, .wikipage h4 a {
+	text-decoration:none;
+}
+
+.wikipage a:link, .wikipage a:visited {
+	color: #0066CC;
+}
+
+div#title {
+	position:relative;
+	float:left;
+	margin-left:30px;
+	top:5px;
+}
+
+h1#maintitle  {
+	position:absolute;
+	font-family:inherit;
+	font-size:3.0em;
+	top:20px;
+	left:10px;
+}
+
+h3#subtitle  {
+	position:relative;
+	font-family:inherit;
+	font-size:1.2em;
+	top:60px;
+	left:10px;
+}
+	
+#mainnav {
+	border:none;
+	background-image: none;
+}
+
+#mainnav li {
+	border-top:none;
+}
+
+* html #mainnav :link, * html #mainnav :visited {
+	background-image: none;
+}
+
+#mainnav :link, #mainnav :visited {
+	background-image: none;
+}
+
+#mainnav :link:hover, #mainnav :visited:hover {
+
+}
+
+#mainnav .active :link, #mainnav .active :visited {
+	background-image: none;
+
+}
+
+#mainnav .active :link:hover, #mainnav .active :visited:hover {
+	background-image: none;
+
+}
 
 :link, :visited {
     background-color: transparent;
@@ -90,4 +168,8 @@ dt :link:hover, dt :visited:hover { background-color: #cccccc; }
 
 /*browser.css overwrites*/
 #dirlist td.name a.dir { background-image: url(http://cyberduck.ch/img/folder.png) }
+
+.wiki-toc .active {
+	background-color:transparent;
+}
 
