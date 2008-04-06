@@ -19,7 +19,7 @@
 	<div class="content">
 		<table cellpadding="0" cellspacing="5" width="100%">
 			<tr>
-				<td colspan="2"><?php echo(echogoogle());?> </td>
+				<td class="box-solid" colspan="2"><?php echo(echogoogle());?> </td>
 			</tr>
 
 			<tr>

@@ -69,7 +69,7 @@
         </td>
       </tr>
 			<tr>
-				<td colspan="3"><?php echo(echogoogle());?> </td>
+				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
 			</tr>
     </table>
   </div>

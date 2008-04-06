@@ -47,7 +47,7 @@
 			</tr>
 
 			<tr>
-				<td colspan="3"><?php echo(echogoogle());?> </td>
+				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
 			</tr>
 
 			<tr>
@@ -68,7 +68,7 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-5/">2.8.5</a> (3610)</strong> <em>Apr-07-2008</em><br />
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-5/">2.8.5</a> (3611)</strong> <em>Apr-07-2008</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.5.tar.gz">cyberduck-src-2.8.5.tar.gz</a></li>
 					</ul>
 
