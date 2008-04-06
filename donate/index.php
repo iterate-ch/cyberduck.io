@@ -68,6 +68,9 @@
           amazon.co.uk</a> and <a class="ext" href="http://www.amazon.fr/gp/registry/32IESVEAYZ9DB">amazon.fr</a> wishlist.</p>
         </td>
       </tr>
+			<tr>
+				<td colspan="3"><?php echo(echogoogle());?> </td>
+			</tr>
     </table>
   </div>
 
