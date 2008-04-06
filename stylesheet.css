@@ -56,7 +56,16 @@
 		line-height:18px;
 	}
 	
-	.ext { background:url(./img/extlink.gif) no-repeat 0 58%; padding-bottom:1px; padding-left:16px }
+	.ext { 
+		background:url(./img/extlink.gif) no-repeat 0 50%; 
+		padding-bottom:1px; 
+		padding-left:16px 
+	}
+	
+	.new {
+		background:url(./img/badge.png) no-repeat 100% 50%; 
+		padding-right:25px;
+	}
 	
 	div#donate-absolute {
 		position:absolute;
@@ -65,7 +74,7 @@
 		width:134px; 
 	}
 	
-	#download:hover {
+	#download {
 		background-color:transparent;
 		background-image:url("./img/download-halo.png");
 		background-repeat:no-repeat;
@@ -306,9 +315,8 @@
 	}
 	
    .alert {
-		margin:-5px;
 		padding:2px;
-		background-color:#0066cc;
+		background-color:#e2e2e2;
 	}
 	
 	.alert strong {

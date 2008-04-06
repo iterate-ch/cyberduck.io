@@ -25,23 +25,18 @@ function echodonate($dir) {
 
 	  function echogoogle() {
 	  		return "<div align=\"center\" class=\"alert\">
-	  		<script type=\"text/javascript\"><!--
-	  		google_ad_client = \"pub-9176652804694766\";
-	  		google_ad_width = 728;
-	  		google_ad_height = 90;
-	  		google_ad_format = \"728x90_as\";
-	  		google_ad_type = \"text\";
-			//2007-04-04: Leaderboard
-			google_ad_channel = \"5576259439\";
-	  		google_color_border = \"0066CC\";
-	  		google_color_bg = \"0066CC\";
-	  		google_color_link = \"FFFFFF\";
-	  		google_color_url = \"FFCC33\";
-	  		google_color_text = \"FFFFFF\";
-	  		//--></script>
-	  		<script type=\"text/javascript\"
-	  		  src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">
-	  		</script></div>";
+<script type=\"text/javascript\"><!--
+google_ad_client = \"pub-9176652804694766\";
+/* e2e2e2 */
+google_ad_slot = \"8890551797\";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type=\"text/javascript\"
+src=\http://pagead2.googlesyndication.com/pagead/show_ads.js\">
+</script>
+</div>";
 		}
 	
 	function echologo($dir) {
@@ -51,7 +46,7 @@ function echodonate($dir) {
 		";
 	}
     function echotitle($dir) {
-        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP and SFTP Browser for Mac OS X.</h3></div>
+        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV & Amazon S3 Browser for Mac OS X.</h3></div>
 <div id=\"donate-absolute\">
 	<a href=\"$dir/donate\"><img id=\"amazon\" src=\"$dir/img/amazon.png\" alt=\"Amazon\"></img></a>
 ".echodonate($dir)."

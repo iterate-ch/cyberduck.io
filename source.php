@@ -30,22 +30,14 @@
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
-					<p>This product includes software developed by 
-<strong>sshtools.com</strong> (<a class="ext" href=
-"http://www.sshtools.com">http://www.sshtools.com</a>),
-<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>)
-and the <strong>Apache Software
-Foundation</strong> (<a class="ext" href=
-"http://jakarta.apache.org">http://jakarta.apache.org/</a>),
-<strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">http://growl.info</a>),
-<strong>Wade Tregaskis</strong> (<a class="ext"  href="http://sf.net/projects/keychain">http://sf.net/projects/keychain</a>),
-<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>),
-<strong>Greg Guerin</strong> (<a class="ext" href="http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>),
-<strong>Andy Matuschak</strong> (<a class="ext" href="http://www.andymatuschak.org/pages/sparkle">Sparkle</a>),
-<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
-<strong>Shaun Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),
-					</p>			
-
+					<p><small>This product includes software developed by <strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
+					<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a class=
+					"ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), <strong>Christopher Forsythe et al.</strong> (<a class="ext" href=
+					"http://growl.info/">growl.info</a>), <strong>Wade Tregaskis</strong> (<a class="ext" href="http://sf.net/projects/keychain">Keychain Framework</a>),
+					<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href=
+					"http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy Matuschak</strong> (<a class="ext" href=
+					"http://www.andymatuschak.org/pages/sparkle">Sparkle</a>), <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), <strong>Shaun
+					Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),</small></p>
 					<p><a class="ext" href="http://www.jetbrains.com/">Jetbrains</a> contributed a free license
 					of their great <a class="ext" href="http://www.jetbrains.com/idea">IDE</a> to this project.</p>
 					<p><a href="http://www.jetbrains.com/idea/">
@@ -60,10 +52,31 @@ Foundation</strong> (<a class="ext" href=
 
 			<tr>
 				<td class="box-solid" valign="top" width="150">
+					<p><strong>Version 3</strong><br />
+				</td>
+				<td colspan="2" class="box-solid">
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0/">3.0</a> (3700)</strong> <em>Apr-07-2008</em><br />
+						<a href="http://update.cyberduck.ch/cyberduck-src-3.0.tar.gz">cyberduck-src-3.0.tar.gz</a></li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.8</strong><br />
 				</td>
-
 				<td colspan="2" class="box-solid">
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-5/">2.8.5</a> (3610)</strong> <em>Apr-07-2008</em><br />
+						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.5.tar.gz">cyberduck-src-2.8.5.tar.gz</a></li>
+					</ul>
+
+					<ul>
+						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-4/">2.8.4</a> (3470)</strong> <em>Jan-25-2008</em><br />
+						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.4.tar.gz">cyberduck-src-2.8.4.tar.gz</a></li>
+					</ul>
+
 					<ul>
 						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-2/">2.8.3</a> (3430)</strong> <em>Jan-14-2008</em><br />
 						<a href="http://update.cyberduck.ch/cyberduck-src-2.8.3.tar.gz">cyberduck-src-2.8.3.tar.gz</a></li>

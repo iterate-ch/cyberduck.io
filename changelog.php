@@ -32,6 +32,39 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0b1</strong> <em>Apr-15-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+	<li>[Feature] Amazon Simple Storage Service (S3) support (http://aws.amazon.com/s3) [<a href="http://trac.cyberduck.ch/ticket/1725">#1725</a>]</li>
+<li>[Feature] WebDAV protocol support [<a href="http://trac.cyberduck.ch/ticket/464">#464</a>]</li>
+<li>[Feature] Search bookmarks [<a href="http://trac.cyberduck.ch/ticket/916">#916</a>]</li>
+<li>[Feature] Bookmark editor inside browser window instead of drawer</li>
+<li>[Feature] Read trust settings for certificates from Keychain</li>
+<li>[Feature] Different editors for different file types [<a href="http://trac.cyberduck.ch/ticket/146">#146</a>]
+<li>[Feature] PRET (PRE Transfer) command support for distributed FTP (http://www.drftpd.org) [<a href="http://trac.cyberduck.ch/ticket/684">#684</a>]</li>
+<li>[Feature] Skip option not available in transfer prompt [<a href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <p><strong>2.8.5</strong> <em>Apr-07-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-2.8.5.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+          <ul>
+<li>[Feature] Added ForgEdit to the list of supported editors (http://forgedit.com) [<a href="http://trac.cyberduck.ch/ticket/1779">#1779</a>]</li>
+<li>[Bugfix] Downloads no longer keep modified date [<a href="http://trac.cyberduck.ch/ticket/1756">#1756</a>]</li>
+<li>[Bugfix] Leap year bug wen parsing date without year [<a href="http://trac.cyberduck.ch/ticket/1813">#1813</a>]</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>2.8.4</strong> <em>Jan-25-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.8.4.dmg">Download</a></p></td>
 

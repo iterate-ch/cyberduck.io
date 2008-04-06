@@ -17,16 +17,16 @@
 	</div>
 
 	<div class="content">
-		<div style="margin:10px; margin-bottom:5px;">
+		<div style="margin-bottom:5px;">
 			<?php echo(echogoogle());?>
 		</div>
 
 		<table cellpadding="0" cellspacing="5" width="100%">
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
-					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP and SFTP (SSH Secure File Transfer) browser
+					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="new">WebDAV</span> and <span class="new">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
-					Mac OS X system technologies such as Spotlight, Bonjour, the Keychain and AppleScript.</strong> For a more detailed list of available <strong>features</strong> see <a href=
+					Mac OS X system technologies such as Spotlight, Bonjour and the Keychain.</strong> For a more detailed list of available <strong>features</strong> see <a href=
 					"./features.php">here</a>. <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
 					Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish and Hebrew</em>. Many thanks to all <a class=
 					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
@@ -34,7 +34,7 @@
 					"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
 					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf?format=raw">credits</a> to see who contributed. I appreciate any <strong><a class="ext" href=
 					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a></strong> you might have. For bug reports and feature suggestions you should issue a <a class=
-					"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> (<a href="http://trac.cyberduck.ch/register">register</a> first) in the <strong><a class="ext" href=
+					"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <strong><a class="ext" href=
 					"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
 
 					<div style="margin-left:10px; margin-bottom:30px; margin-right:5px" align="center" id="screenshot">
@@ -43,7 +43,7 @@
 
 					<div class="feature">
 						<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
-						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS) and SFTP (SSH Secure File Transfer).</p>
+						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="new">WebDAV</span> (Web-based Distributed Authoring and Versioning) and <a class="new" href="http://aws.amazon.com/s3">Amazon S3</a>.</p>
 
 						<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
@@ -56,9 +56,6 @@
 
 						<p><img src="./img/gnu.png" class="feature" alt="" /> <strong>Open Source</strong><br />
 						Licensed under the GPL.</p>
-
-						<p><img src="./img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
-						Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
 					</div>
 
 					<div class="feature">
@@ -83,6 +80,9 @@
 
 						<p><img src="./img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
 						Full AppleScript integration. See the <a class="ext" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
+
+						<p><img src="./img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
+						Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
 					</div>
 
 					<div class="feature">
@@ -106,6 +106,9 @@
 
 						<p><img src="./img/sftp.png" class="feature" alt="" /> <strong>SCP</strong><br />
 						Transfer files using Secure Copy (SCP).</p>
+
+						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="new">Amazon S3</strong><br />
+						Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
 					</div>
 
 					<div style="clear:both;"></div>
@@ -115,10 +118,10 @@
 					any later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 					A PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small></p>
 
-					<p><small>This product includes software developed by <strong>sshtools.com</strong> (<a class="ext" href="http://www.sshtools.com">http://www.sshtools.com</a>),
-					<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">http://www.enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a class=
-					"ext" href="http://jakarta.apache.org">http://jakarta.apache.org/</a>), <strong>Christopher Forsythe et al.</strong> (<a class="ext" href=
-					"http://growl.info/">http://growl.info</a>), <strong>Wade Tregaskis</strong> (<a class="ext" href="http://sf.net/projects/keychain">http://sf.net/projects/keychain</a>),
+					<p><small>This product includes software developed by <strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
+					<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a class=
+					"ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), <strong>Christopher Forsythe et al.</strong> (<a class="ext" href=
+					"http://growl.info/">growl.info</a>), <strong>Wade Tregaskis</strong> (<a class="ext" href="http://sf.net/projects/keychain">Keychain Framework</a>),
 					<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href=
 					"http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy Matuschak</strong> (<a class="ext" href=
 					"http://www.andymatuschak.org/pages/sparkle">Sparkle</a>), <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), <strong>Shaun
@@ -129,13 +132,15 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-2.8.4.dmg"><img style="margin:10px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
+								<td id="download" valign="top"><a href="./Cyberduck-2.8.5.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
 								"0" /></a></td>
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong>2.8.4</strong> <em>(Jan-25-2008)</em><br />
-									<a href="./Cyberduck-2.8.4.dmg">Cyberduck-2.8.4.dmg</a> <a href="./Cyberduck-2.8.4.dmg"></a> (9.2MB)</p>
+									<strong>2.8.5</strong> <em>(Apr-07-2008)</em><br />
+									<a href="./Cyberduck-2.8.5.dmg">Cyberduck-2.8.5.dmg</a> <a href="./Cyberduck-2.8.5.dmg"></a> (9.2MB)</p>
+									<p><strong class="new">3.0b1</strong> <em>(Beta, Apr-07-2008)</em><br />
+									<a href="./Cyberduck-3.0b1.dmg">Cyberduck-3.0b1.dmg</a> <a href="./Cyberduck-3.0b1.dmg"></a> (9.2MB)</p>
 								</td>
 							</tr>
 						</table>
@@ -217,12 +222,10 @@
 							<a id="zh_TW" style="display:none" href="http://update.cyberduck.ch/localizations/Cyberduck-2.8-zh_TW.dmg" name="zh_TW">Cyberduck-2.8-zh_TW.dmg</a></p>
 						</form>
 						-->
-						<p>Nightly builds featuring the latest bugfixes and features can be found <a href="http://update.cyberduck.ch/nightly/">here</a>.</p>
-
-						<p>Thanks to the <a href="http://www.icu.unizh.ch/">ICU (University of Zurich)</a> for hosting the downloads.</p>
-
-						<p>Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
-						Zurich)</a></p>
+						<p>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring the latest bugfixes and enhancements.</p>
+						<small>
+						<p>Thanks to the <a href="http://www.icu.uzh.ch/">ICU (University of Zurich)</a> for hosting the downloads. Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
+						Zurich)</a>.</p></small>
 					</div>
 
 					<div class="box-filled">
@@ -250,8 +253,8 @@
 					</div>
 
 					<div class="box-filled">
-						<p><img class="feature" src="./img/feed-icon-16x16.png" alt="feed" /> <strong>Blog.</strong> <a href="http://dkocher.name/feed/">Subscribe</a> to the the developer's <a class=
-						"ext" href="http://dkocher.name/">blog</a>.</p>
+						<p><img class="feature" src="./img/feed-icon-16x16.png" alt="feed" /> <strong>Blog.</strong> <a href="http://sudo.ch/feed/">Subscribe</a> to the the developer's <a class=
+						"ext" href="http://sudo.ch/">blog</a>.</p>
 					</div>
 
 					<div class="box-solid">
