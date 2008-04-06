@@ -280,7 +280,7 @@
 			</tr>
 
 			<tr>
-				<td><?php echo(echogoogle());?></td>
+				<td class="box-solid"><?php echo(echogoogle());?></td>
 			</tr>
 
 			<tr>
