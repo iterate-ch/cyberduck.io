@@ -52,18 +52,6 @@
 
 			<tr>
 				<td class="box-solid" valign="top" width="150">
-					<p><strong>Version 3</strong><br />
-				</td>
-				<td colspan="2" class="box-solid">
-					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0/">3.0</a> (3700)</strong> <em>Apr-07-2008</em><br />
-						<a href="http://update.cyberduck.ch/cyberduck-src-3.0.tar.gz">cyberduck-src-3.0.tar.gz</a></li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 2.8</strong><br />
 				</td>
 				<td colspan="2" class="box-solid">
