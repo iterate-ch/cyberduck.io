@@ -17,14 +17,14 @@
 	</div>
 
 	<div class="content">
-		<div style="margin-bottom:5px;">
-			<?php echo(echogoogle());?>
-		</div>
-
 		<table cellpadding="0" cellspacing="5" width="100%">
 			<tr>
+				<td colspan="2"><?php echo(echogoogle());?> </td>
+			</tr>
+
+			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
-					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="new">WebDAV</span> and <span class="new">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
+					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="new"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="new">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
 					Mac OS X system technologies such as Spotlight, Bonjour and the Keychain.</strong> For a more detailed list of available <strong>features</strong> see <a href=
 					"./features.php">here</a>. <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
@@ -43,7 +43,7 @@
 
 					<div class="feature">
 						<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
-						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="new">WebDAV</span> (Web-based Distributed Authoring and Versioning) and <a class="new" href="http://aws.amazon.com/s3">Amazon S3</a>.</p>
+						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="new"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning) and <span class="new"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>.</p>
 
 						<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
@@ -63,7 +63,7 @@
 						<a class="ext" href="http://www.apple.com/macosx/features/spotlight/">Spotlight</a> Importer for bookmark files.</p>
 
 						<p><img src="./img/document.png" class="feature" alt="" /> <strong>Bookmarking</strong><br />
-						Powerful bookmarking in a the browser drawer. Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
+						Powerful bookmarking. Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
 
 						<p><img src="./img/history.png" class=
 						"feature" alt="" />
@@ -89,6 +89,18 @@
 						<p><img src="./img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
 						All passwords are stored in the system <a class="ext" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications.</p>
 
+						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong>SSH</strong><br />
+						Supports Public key authentication, Keyboard Interactive (PAM) Authentication, Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication algorithms (MD5, SHA1).</p>
+
+						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong>SCP</strong><br />
+						Transfer files using Secure Copy (SCP).</p>
+
+						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="new">Amazon S3</strong><br />
+						Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
+
+						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="new">WebDAV</strong><br />
+						With WebDAV you can access your <a class="ext" href="http://www.apple.com/dotmac/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
+
 						<p><img src="./img/idisk.png" class="feature" alt="" /> <strong>iDisk</strong><br />
 						Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a>.</p>
 
@@ -100,15 +112,6 @@
 
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>ASCII</strong><br />
 						Convert line endings on the fly in ASCII transfers.</p>
-
-						<p><img src="./img/sftp.png" class="feature" alt="" /> <strong>SSH</strong><br />
-						Supports Public key authentication, Keyboard Interactive (PAM) Authentication, Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication algorithms (MD5, SHA1).</p>
-
-						<p><img src="./img/sftp.png" class="feature" alt="" /> <strong>SCP</strong><br />
-						Transfer files using Secure Copy (SCP).</p>
-
-						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="new">Amazon S3</strong><br />
-						Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
 					</div>
 
 					<div style="clear:both;"></div>
@@ -321,7 +324,7 @@
 			</tr>
 
 			<tr>
-				<td colspan="3">
+				<td colspan="2">
 					<div class="footer">
 						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
