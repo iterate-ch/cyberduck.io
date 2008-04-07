@@ -47,6 +47,9 @@
 
 						<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
+						
+						<p><img src="./img/quicklook.png" class="feature" alt="" /> <strong class="new">Quick Look</strong><br />
+						Preview files like in Finder.app.</p>
 
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish and Hebrew</em>.</p>
@@ -106,7 +109,6 @@
 
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
 						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
-
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 						Modify permissions on multiple files and recursivly.</p>
 
