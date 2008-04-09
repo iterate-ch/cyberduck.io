@@ -24,7 +24,7 @@
 
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
-					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="new"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="new">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
+					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="version3">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
 					Mac OS X system technologies such as Spotlight, Bonjour and the Keychain.</strong> For a more detailed list of available <strong>features</strong> see <a href=
 					"./features.php">here</a>. <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
@@ -43,12 +43,12 @@
 
 					<div class="feature">
 						<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
-						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="new"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning) and <span class="new"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>.</p>
+						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning) and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>.</p>
 
 						<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
 						
-						<p><img src="./img/quicklook.png" class="feature" alt="" /> <strong class="new">Quick Look</strong><br />
+						<p><img src="./img/quicklook.png" class="feature" alt="" /> <strong class="version3">Quick Look</strong><br />
 						Preview files like in Finder.app.</p>
 
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
@@ -98,10 +98,10 @@
 						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong>SCP</strong><br />
 						Transfer files using Secure Copy (SCP).</p>
 
-						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="new">Amazon S3</strong><br />
+						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon S3</strong><br />
 						Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
 
-						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="new">WebDAV</strong><br />
+						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
 						With WebDAV you can access your <a class="ext" href="http://www.apple.com/dotmac/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
 
 						<p><img src="./img/idisk.png" class="feature" alt="" /> <strong>iDisk</strong><br />
@@ -144,7 +144,7 @@
 									<p><strong>Download</strong><br />
 									<strong>2.8.5</strong> <em>(Apr-07-2008)</em><br />
 									<a href="./Cyberduck-2.8.5.dmg">Cyberduck-2.8.5.dmg</a> <a href="./Cyberduck-2.8.5.dmg"></a> (9.2MB, Mac OS X 10.3.9 or later required.)</p>
-									<p><strong class="new">3.0b1</strong> <em>(Beta, Apr-07-2008)</em><br />
+									<p><strong class="version3">3.0b1</strong> <em>(Beta, Apr-07-2008)</em><br />
 									<a href="./Cyberduck-3.0b1.dmg">Cyberduck-3.0b1.dmg</a> <a href="./Cyberduck-3.0b1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>
