@@ -44,7 +44,7 @@ function echodonate($dir) {
 		";
 	}
     function echotitle($dir) {
-        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP and SFTP Browser for Mac OS X.</h3></div>
+        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV & Amazon S3<br />Browser for Mac OS X.</h3></div>
 <div id=\"donate-absolute\">
 	<a href=\"$dir/donate\"><img id=\"amazon\" src=\"$dir/img/amazon.png\" alt=\"Amazon\"></img></a>
 ".echodonate($dir)."
