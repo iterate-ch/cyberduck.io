@@ -17,6 +17,10 @@
 		border:none;
 	}
 	
+	span {
+		white-space: nowrap;
+	}
+
 	div.footer {
 		text-align:left;
 		color:#000000;

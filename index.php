@@ -26,9 +26,8 @@
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="version3">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
-					Mac OS X system technologies such as Spotlight, Bonjour and the Keychain.</strong> For a more detailed list of available <strong>features</strong> see <a href=
-					"./features.php">here</a>. <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
-					Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish and Hebrew</em>. Many thanks to all <a class=
+					Mac OS X system technologies such as Spotlight, Bonjour, <span class="version3">Quick Look</span> and the Keychain.</strong> <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
+					Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>. Many thanks to all <a class=
 					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
 					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <strong><a class="ext" href=
 					"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
@@ -52,7 +51,7 @@
 						Preview files like in Finder.app.</p>
 
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
-						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish and Hebrew</em>.</p>
+						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>.</p>
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
 						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="">skEdit</a>, <a class="ext" href="">PageSpinner</a>.</p>
@@ -111,9 +110,6 @@
 						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 						Modify permissions on multiple files and recursivly.</p>
-
-						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>ASCII</strong><br />
-						Convert line endings on the fly in ASCII transfers.</p>
 					</div>
 
 					<div style="clear:both;"></div>
