@@ -32,7 +32,21 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.0b1</strong> <em>Apr-15-2008</em><br />
+        <p><strong>3.0b2</strong> <em>Apr-15-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0b2.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+<li>[Localize] Latvian Localization</li>
+<li>[Feature] Quick Look files in browser [<a href="http://trac.cyberduck.ch/ticket/1580">#1580</a>]</li>
+<li>[Bugfix] APPE command broken (FTP) [<a href="http://trac.cyberduck.ch/ticket/1915">#1915</a>]</li>
+		</ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0b1</strong> <em>Apr-07-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
