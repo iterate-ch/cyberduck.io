@@ -50,6 +50,9 @@
 						<p><img src="./img/quicklook.png" class="feature" alt="" /> <strong class="version3">Quick Look</strong><br />
 						Preview files like in Finder.app.</p>
 
+						<p><img src="./img/safari.png" class="feature" alt="" /> <strong class="version3">Web URL</strong><br />
+						Quickly open the corresponding Web URL of a selected file in your web browser.</p>
+
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>.</p>
 
@@ -140,8 +143,8 @@
 									<p><strong>Download</strong><br />
 									<strong>2.8.5</strong> <em>(Apr-07-2008)</em><br />
 									<a href="./Cyberduck-2.8.5.dmg">Cyberduck-2.8.5.dmg</a> <a href="./Cyberduck-2.8.5.dmg"></a> (9.2MB, Mac OS X 10.3.9 or later required.)</p>
-									<p><strong class="version3">3.0b1</strong> <em>(Beta, Apr-07-2008)</em><br />
-									<a href="./Cyberduck-3.0b1.dmg">Cyberduck-3.0b1.dmg</a> <a href="./Cyberduck-3.0b1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<p><strong class="version3">3.0b2</strong> <em>(Beta, Apr-19-2008)</em><br />
+									<a href="./Cyberduck-3.0b2.dmg">Cyberduck-3.0b2.dmg</a> <a href="./Cyberduck-3.0b2.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>
 						</table>

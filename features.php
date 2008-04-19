@@ -30,6 +30,9 @@
 						<p><img src="./img/quicklook.png" class="feature" alt="" /> <strong class="version3">Quick Look</strong><br />
 						Preview files like in Finder.app.</p>
 
+						<p><img src="./img/safari.png" class="feature" alt="" /> <strong class="version3">Web URL</strong><br />
+						Quickly open the corresponding Web URL of a selected file in your web browser.</p>
+
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>.</p>
 
