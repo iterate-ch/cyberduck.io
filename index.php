@@ -88,6 +88,9 @@
 
 						<p><img src="./img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
 						Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
+
+						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong class="version3">Activity Window</strong><br />
+						Overview over all pending background tasks.</p>
 					</div>
 
 					<div class="feature">
