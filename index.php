@@ -146,8 +146,8 @@
 									<p><strong>Download</strong><br />
 									<strong>2.8.5</strong> <em>(Apr-07-2008)</em><br />
 									<a href="./Cyberduck-2.8.5.dmg">Cyberduck-2.8.5.dmg</a> <a href="./Cyberduck-2.8.5.dmg"></a> (9.2MB, Mac OS X 10.3.9 or later required.)</p>
-									<p><strong class="version3">3.0b2</strong> <em>(Beta, Apr-19-2008)</em><br />
-									<a href="./Cyberduck-3.0b2.dmg">Cyberduck-3.0b2.dmg</a> <a href="./Cyberduck-3.0b2.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<p><strong class="version3">3.0b3</strong> <em>(Beta, May-04-2008)</em><br />
+									<a href="./Cyberduck-3.0b3.dmg">Cyberduck-3.0b3.dmg</a> <a href="./Cyberduck-3.0b3.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>
 						</table>
