@@ -1576,10 +1576,6 @@
             Framework (instead of Java Swing) and support for
             SSH</li>
           </ul>
-
-          <p>Older releases prior to version 2.1 using the Java
-          Swing API can be found on <a href="./swing.php">this</a>
-          page.</p>
         </td>
       </tr>
 
