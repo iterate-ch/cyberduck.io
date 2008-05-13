@@ -27,7 +27,7 @@
 					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="version3">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
 					Mac OS X system technologies such as Spotlight, Bonjour, <span class="version3">Quick Look</span> and the Keychain.</strong> <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
-					Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>. Many thanks to all <a class=
+					Spanish, Chinese (Traditional & Simplified Han), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>. Many thanks to all <a class=
 					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
 					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <strong><a class="ext" href=
 					"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
@@ -54,7 +54,7 @@
 						Quickly open the corresponding Web URL of a selected file in your web browser.</p>
 
 						<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
-						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional and Simplified), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>.</p>
+						Available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional & Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>.</p>
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
 						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="">skEdit</a>, <a class="ext" href="">PageSpinner</a>.</p>
@@ -144,10 +144,9 @@
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong>2.8.5</strong> <em>(Apr-07-2008)</em><br />
-									<a href="./Cyberduck-2.8.5.dmg">Cyberduck-2.8.5.dmg</a> <a href="./Cyberduck-2.8.5.dmg"></a> (9.2MB, Mac OS X 10.3.9 or later required.)</p>
-									<p><strong class="version3">3.0b3</strong> <em>(Beta, May-04-2008)</em><br />
-									<a href="./Cyberduck-3.0b3.dmg">Cyberduck-3.0b3.dmg</a> <a href="./Cyberduck-3.0b3.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<p><strong class="version3">3.0</strong> <em>(May-11-2008)</em><br />
+									<a href="./Cyberduck-3.0.dmg">Cyberduck-3.0.dmg</a> <a href="./Cyberduck-3.0.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<p>Older versions are available <a href="changelog.php">here</a>.</p>
 								</td>
 							</tr>
 						</table>

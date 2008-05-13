@@ -32,6 +32,20 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0</strong> <em>May-11-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+<li>[Feature] Support for file renaming and copying (Amazon S3)</li>
+<li>[Feature] Support for copying files (WebDAV)</li>
+<li>[Bugfix] Transfers larger than 2GB fail (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1235">#1235</a>]</li>
+		</ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.0b3</strong> <em>May-04-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0b3.dmg">Download</a></p></td>
 
