@@ -144,7 +144,7 @@
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<p><strong class="version3">3.0</strong> <em>(May-11-2008)</em><br />
+									<p><strong class="version3">3.0</strong> <em>(May-14-2008)</em><br />
 									<a href="./Cyberduck-3.0.dmg">Cyberduck-3.0.dmg</a> <a href="./Cyberduck-3.0.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 									<p>Older versions are available <a href="changelog.php">here</a>.</p>
 								</td>
