@@ -139,7 +139,7 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-2.8.5.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
+								<td id="download" valign="top"><a href="./Cyberduck-3.0.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
 								"0" /></a></td>
 
 								<td valign="top">
