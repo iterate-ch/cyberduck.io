@@ -32,6 +32,25 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0.1</strong> <em>May-16-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+<li>[Bugfix] Cannot connect to servers with unknown host key [<a href="http://trac.cyberduck.ch/ticket/2044">#2044</a>]</li>
+<li>[Bugfix] Cannot edit filename in Info panel [<a href="http://trac.cyberduck.ch/ticket/2049">#2049</a>]</li>
+<li>[Bugfix] External editor failures [<a href="http://trac.cyberduck.ch/ticket/2041">#2041</a>,
+    <a href="http://trac.cyberduck.ch/ticket/2039">#2039</a>,
+    <a href="http://trac.cyberduck.ch/ticket/2052">#2052</a>,
+    <a href="http://trac.cyberduck.ch/ticket/2058">#2058</a>]
+</li>
+<li>[Bugfix] Missing resume option in transfer prompt</li>
+		</ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.0</strong> <em>May-14-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.dmg">Download</a></p></td>
 
