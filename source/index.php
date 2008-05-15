@@ -1,19 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-  include "functions.php";
+  include "../functions.php";
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader(".")); ?>
+	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader("..")); ?>
 
 	<title>Cyberduck | FTP for Mac OS X. | Source Code</title>
 </head>
 
 <body id="source">
 	<div class="header">
-		<?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+		<?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
 	<div class="content">
@@ -21,7 +21,7 @@
 			<tr>
 				<td width="150" valign="middle" class="box-solid">
 					<div align="center">
-						<img src="./img/gnu.png" alt="Java Source" border="0" /><br />
+						<img src="../img/gnu.png" alt="Java Source" border="0" /><br />
 					</div>
 				</td>
 
@@ -289,6 +289,6 @@
 			</tr>
 		</table>
 	</div>
-  <?php echo(echoanalytics(".")); ?>
+  <?php echo(echoanalytics("..")); ?>
 </body>
 </html>
