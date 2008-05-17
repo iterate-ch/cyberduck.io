@@ -32,11 +32,12 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.0.1</strong> <em>May-16-2008</em><br />
+        <p><strong>3.0.1</strong> <em>May-18-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
 		<ul>
+<li>[Feature] Added Taco HTML Edit to the list of supported editors (<a href="http://tacosw.com/htmledit/beta.php">http://tacosw.com/htmledit/beta.php</a>) [<a href="http://trac.cyberduck.ch/ticket/188">#188</a>]</li>
 <li>[Bugfix] Cannot connect to servers with unknown host key [<a href="http://trac.cyberduck.ch/ticket/2044">#2044</a>]</li>
 <li>[Bugfix] Cannot edit filename in Info panel [<a href="http://trac.cyberduck.ch/ticket/2049">#2049</a>]</li>
 <li>[Bugfix] External editor failures [<a href="http://trac.cyberduck.ch/ticket/2041">#2041</a>,
@@ -45,6 +46,7 @@
     <a href="http://trac.cyberduck.ch/ticket/2058">#2058</a>]
 </li>
 <li>[Bugfix] Missing resume option in transfer prompt</li>
+<li>[Bugfix] Removed keep connection active feature. [<a href="http://trac.cyberduck.ch/ticket/2057">#2057</a>]</li>
 		</ul>
         </td>
       </tr>

@@ -139,14 +139,14 @@
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-3.0.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
+								<td id="download" valign="top"><a href="./Cyberduck-3.0.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border=
 								"0" /></a></td>
 
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<p><strong class="version3">3.0</strong> <em>(May-14-2008)</em><br />
-									<a href="./Cyberduck-3.0.dmg">Cyberduck-3.0.dmg</a> <a href="./Cyberduck-3.0.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
-									<p>Older versions are available <a href="changelog.php">here</a>.</p>
+									<p><strong class="version3">3.0.1</strong> <em>(May-18-2008)</em><br />
+									<a href="./Cyberduck-3.0.1.dmg">Cyberduck-3.0.1.dmg</a> <a href="./Cyberduck-3.0.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<p>Older versions are available <a href="changelog">here</a>.</p>
 								</td>
 							</tr>
 						</table>
