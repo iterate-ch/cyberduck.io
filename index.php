@@ -26,8 +26,7 @@
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="version3">Amazon <a href="http://aws.amazon.com/s3">S3</a></span> browser
 					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
-					Mac OS X system technologies such as Spotlight, Bonjour, <span class="version3">Quick Look</span> and the Keychain.</strong> <strong>Localizations</strong> are available in <em>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Slovak,
-					Spanish, Chinese (Traditional & Simplified Han), Russian, Swedish, Danish, Polish, Hungarian, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew and Latvian</em>. Many thanks to all <a class=
+					Mac OS X system technologies such as Spotlight, Bonjour, <span class="version3">Quick Look</span> and the Keychain.</strong> <strong>Localizations</strong> are available in <em>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovak, Español, Português, 汉语/漢語 (減筆字 and 减笔字), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit & Latviešu Valoda</em>. Many thanks to all <a class=
 					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
 					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <strong><a class="ext" href=
 					"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
@@ -146,10 +145,10 @@
 									<p><strong>Download</strong><br />
 									<p><strong class="version3">3.0.1</strong> <em>(May-18-2008)</em><br />
 									<a href="./Cyberduck-3.0.1.dmg">Cyberduck-3.0.1.dmg</a> <a href="./Cyberduck-3.0.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
-									<p>Older versions are available <a href="changelog">here</a>.</p>
 								</td>
 							</tr>
 						</table>
+						<p>Older versions are available <a href="changelog">here</a>.</p>
 						<p>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring the latest bugfixes and enhancements.</p>
 						<small>
 						<p>Thanks to the <a href="http://www.icu.uzh.ch/">ICU (University of Zurich)</a> for hosting the downloads. Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
