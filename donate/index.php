@@ -21,8 +21,10 @@
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
-        <td colspan="3" class="box-filled"><strong>
-        Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to produce, support, and distribute it. Thank you very much for your support! It will help to make Cyberduck even better!</strong></td>
+        <td colspan="3" class="box-solid"><p>
+        Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it. The continued donations of users is what allows Cyberduck to be available for free today.</p>
+
+<p><strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong></p></td>
       </tr>
 
       <tr>
