@@ -146,7 +146,7 @@
 								</td>
 							</tr>
 						</table>
-						<p>Older versions are available <a href="changelog">here</a>.</p>
+						<p>Release notes and previous releases are available <a href="changelog">here</a>.</p>
 						<p>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring the latest bugfixes and enhancements.</p>
 						<p><small>Thanks to the <a href="http://www.icu.uzh.ch/">ICU (University of Zurich)</a> for hosting the downloads. Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
 						Zurich)</a>.</small></p>
