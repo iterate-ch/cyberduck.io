@@ -235,7 +235,7 @@
 						-->
 						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
 					</div>
-
+<!--
                                         <div class="box-solid">
                                                 <div style="padding:5px;" align="center">
 <script type="text/javascript" src="http://osx.iusethis.com/app/include/cyberduck/1"></script>
@@ -243,7 +243,7 @@
 <a href="http://osx.iusethis.com/app/">Support Cyberduck on iusethis</a>
 </noscript>                                                </div>
                                         </div>
-
+-->
                                         <div style="margin-bottom:0px;" class="box-solid">
                                                 <div style="padding:5px;" align="center">
                                                         <a href="http://apple.com/universal/"><img src="./img/macosxuniversal20060109.png" alt="universal" /></a>
