@@ -17,6 +17,20 @@
 		border:none;
 	}
 	
+	#screenshot {
+		display: block;
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		background-image: url( ./img/browser-thumb.jpg);
+		height: 430px;
+		width: 510px;
+		margin-left: 15px;
+	}
+
+	#screenshot:hover {
+		background-image: url( ./img/browser-bookmarks-thumb.jpg);
+	}
+	
 	span {
 		white-space: nowrap;
 	}
@@ -350,4 +364,4 @@
 		text-align:right;
 		font-style:italic;
 	}
-}
+

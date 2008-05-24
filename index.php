@@ -35,10 +35,10 @@
 					"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <strong><a class="ext" href=
 					"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
 
-					<div style="margin-left:10px; margin-bottom:30px; margin-right:5px" align="center" id="screenshot">
-						<a href="./img/browser.jpg"><img align="middle" src="./img/browser-thumb.jpg" alt="Cyberduck Screenshot" /></a>
+					<div>
+						<a href="./img/browser.jpg" id="screenshot"></a>
 					</div>
-
+					
 					<div class="feature">
 						<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
 						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning) and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>.</p>
