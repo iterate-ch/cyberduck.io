@@ -8,7 +8,7 @@
 <head>
 	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader("..")); ?>
 
-	<title>Cyberduck | FTP for Mac OS X. | Source Code</title>
+	<title>Cyberduck | FTP, SFTP, WebDAV &amp; Amazon S3 Browser for Mac OS X | Source Code</title>
 </head>
 
 <body id="source">

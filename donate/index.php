@@ -10,7 +10,7 @@
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("..")); ?>
 
-  <title>Cyberduck | FTP for Mac OS X. | Donate</title>
+  <title>Cyberduck | FTP, SFTP, WebDAV &amp; Amazon S3 Browser for Mac OS X | Donate</title>
 </head>
 
 <body id="donate">
