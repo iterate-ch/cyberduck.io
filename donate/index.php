@@ -21,10 +21,12 @@
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
-        <td colspan="3" class="box-solid"><p>
-        Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it. The continued donations of users is what allows Cyberduck to be available for free today.</p>
+        <td colspan="3" class="box-solid">
+        <blockquote>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it. The continued donations of users is what allows Cyberduck to be available for free today.
 
-<p><strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong></p></td>
+<strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong>
+						</blockquote>
+</td>
       </tr>
 
       <tr>
@@ -65,11 +67,10 @@
         <td colspan="2" class="box-solid">
           <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
-          amazon.de</a>, <a class="ext" href=
-          "http://www.amazon.co.uk/gp/registry/1RN1NJU8CX7AW/">
-          amazon.co.uk</a> and <a class="ext" href="http://www.amazon.fr/gp/registry/32IESVEAYZ9DB">amazon.fr</a> wishlist.</p>
+          amazon.de</a> wishlist.</p>
         </td>
       </tr>
+
 			<tr>
 				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
 			</tr>
