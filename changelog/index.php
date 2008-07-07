@@ -95,7 +95,8 @@
       <tr>
         <td class="box-solid" width="150" valign="top">
         <p><strong>3.0b1</strong> <em>Apr-07-2008</em><br />
-        <a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg">Download</a></p></td>
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg">Download</a><br /><br />
+        <span class="version">Mac OS X 10.4 or later required.</span></p></td>
 
         <td colspan="2" class="box-solid">
           <ul>
@@ -530,8 +531,8 @@
       <tr>
         <td class="box-solid" width="150" valign="top">
         <p><strong>2.5</strong> <em>Aug-29-2005</em><br />
-        <a href="http://update.cyberduck.ch/Cyberduck-2.5.dmg">Download</a><br />
-        Mac OS X 10.3.9 or later</td>
+        <a href="http://update.cyberduck.ch/Cyberduck-2.5.dmg">Download</a><br /><br />
+        <span class="version">Mac OS X 10.3.9 or later required.</span></p></td>
 
         <td colspan="2" class="box-solid">
           <ul>

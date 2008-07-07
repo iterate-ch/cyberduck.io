@@ -344,6 +344,14 @@
 		color:#ffffff;
 	}
 	
+	.version {
+		display: block;
+	    padding: 3px 10px 3px 10px;
+	    background-color: #fff3f3;
+	    border: 1px solid red;
+	    color: #cc0000;
+	}
+	
 	a#widget {
 		display:block;
 		margin-top:-40px;
