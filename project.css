@@ -1,3 +1,7 @@
+#header img, #footer {
+	display: none;
+}
+	
 h1 {
 	font-size:1.8em;
 }
@@ -27,32 +31,17 @@ h1, h2, h3, h4 {
 	color: #0066CC;
 }
 
-div#title {
-	position:relative;
-	float:left;
-	margin-left:30px;
-	top:5px;
-}
-
 h1#maintitle  {
-	position:absolute;
 	font-family:inherit;
-	font-size:3.0em;
+	position:absolute;
 	top:20px;
 }
 
 h3#subtitle  {
-	position:relative;
 	font-family:inherit;
-	font-size:1.2em;
 	top:60px;
 }
 	
-#mainnav {
-	border:none;
-	background-image: none;
-}
-
 #mainnav li {
 	border-top:none;
 }
@@ -154,8 +143,9 @@ h3#subtitle  {
 	border-style: dotted;
 }
 
-#newticket #description { width: auto; }
-#newticket #properties { width: auto; }
+#content.ticket {
+	width: auto;
+}
 
 form#prefs { font-size:0.85em; background-color: #f7f7f7; } 
 
