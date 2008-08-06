@@ -32,6 +32,35 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0.2</strong> <em>Aug-07-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+<li>[Localize] Greek Localization</li>
+<li>[Feature] Added transcript (S3)</li>
+<li>[Feature] Added transcript (WebDAV)</li>
+<li>[Feature] Support for faster directory listings using STAT command on the control connection (FTP) [<a href="http://trac.cyberduck.ch/ticket/683">#683</a>]</li>
+<li>[Feature] Display bookmark view for new browser window [<a href="http://trac.cyberduck.ch/ticket/2252">#2252</a>]</li>
+<li>[Feature] Option in browser context menu to open selected folder in new browser [<a href="http://trac.cyberduck.ch/ticket/2036">#2036</a>]</li>
+<li>[Feature] Option in browser context menu to add bookmark for selected folder [<a href="http://trac.cyberduck.ch/ticket/2222">#2222</a>]</li>
+<li>[Feature] 'Add new bookmark' toolbar button</li>
+<li>[Feature] Cannot select private key in login prompt (SSH) [<a href="http://trac.cyberduck.ch/ticket/2221">#2221</a>]</li>
+<li>[Feature] Authentication with both password and public key (SSH) [<a href="http://trac.cyberduck.ch/ticket/2203">#2203</a>]</li>
+<li>[Bugfix] Moving or copying files to another bucket fails (S3) [<a href="http://trac.cyberduck.ch/ticket/2157">#2157</a>]</li>
+<li>[Bugfix] Folders collapse in outline view when refreshing [<a href="http://trac.cyberduck.ch/ticket/2033">#2033</a>]</li>
+<li>[Bugfix] Cannot connect with empty password [<a href="http://trac.cyberduck.ch/ticket/2109">#2109</a>]</li>
+<li>[Bugfix] Saving when editor exits does not upload edited file [<a href="http://trac.cyberduck.ch/ticket/2120">#2120</a>]</li>
+<li>[Bugfix] Wrong selection with search filter in Transfer window [<a href="http://trac.cyberduck.ch/ticket/2336">#2336</a>]</li>
+<li>[Bugfix] Stop button does not work during countdown to retry transfer [<a href="http://trac.cyberduck.ch/ticket/2121">#2121</a>]</li>
+<li>[Bugfix] Transfers fail using AppleScript (SFTP) [<a href="http://trac.cyberduck.ch/ticket/2244">#2244</a>]</li>
+<li>[Bugfix] Update Growl.framework to 1.1.4</li>
+		</ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.0.1</strong> <em>May-18-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg">Download</a></p></td>
 
