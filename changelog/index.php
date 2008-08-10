@@ -32,7 +32,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.0.2</strong> <em>Aug-07-2008</em><br />
+        <p><strong>3.0.2</strong> <em>Aug-10-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
