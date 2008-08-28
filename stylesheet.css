@@ -20,11 +20,9 @@
 	#screenshot {
 		display: block;
 		background-repeat: no-repeat;
-		background-position: 0px 0px;
+		background-position: 50% 50%;
 		background-image: url( ./img/browser-thumb.jpg);
 		height: 430px;
-		width: 510px;
-		margin-left: 15px;
 	}
 
 	#screenshot:hover {
