@@ -32,6 +32,20 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.0.3</strong> <em>Okt-20-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+<li>[Bugfix] Arbitrary Crashes [<a href="http://trac.cyberduck.ch/ticket/2142">#2142</a>]</li>
+<li>[Bugfix] Symbolic links not parsed properly for some STAT listings (FTP) [<a href="http://trac.cyberduck.ch/ticket/2435">#2435</a>]</li>
+<li>[Bugfix] Open Web URL fails [<a href="http://trac.cyberduck.ch/ticket/2466">#2466</a>]</li>
+		</ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.0.2</strong> <em>Aug-10-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg">Download</a></p></td>
 
