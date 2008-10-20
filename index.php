@@ -141,7 +141,7 @@
 								<td id="download" valign="top"><a href="./Cyberduck-3.0.3.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong class="version3">3.0.3</strong> <em>(Okt-20-2008)</em><br />
+									<strong class="version3">3.0.3</strong> <em>(Oct-20-2008)</em><br />
 									<a href="./Cyberduck-3.0.3.dmg">Cyberduck-3.0.3.dmg</a> <a href="./Cyberduck-3.0.3.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>
