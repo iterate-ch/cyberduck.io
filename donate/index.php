@@ -70,10 +70,6 @@
           amazon.de</a> wishlist.</p>
         </td>
       </tr>
-
-			<tr>
-				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-			</tr>
     </table>
   </div>
 
