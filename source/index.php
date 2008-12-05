@@ -56,22 +56,22 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0-3/">3.0.3</a> (4205)</strong> <em>Okt-20-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-0-3/">3.0.3</a> (4205)</strong> <em>Okt-20-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.0.3.tar.gz">cyberduck-src-3.0.3.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0-2/">3.0.2</a> (4160)</strong> <em>Aug-10-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-0-2/">3.0.2</a> (4160)</strong> <em>Aug-10-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.0.2.tar.gz">cyberduck-src-3.0.2.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0-1/">3.0.1</a> (3999)</strong> <em>May-18-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-0-1/">3.0.1</a> (3999)</strong> <em>May-18-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.0.1.tar.gz">cyberduck-src-3.0.1.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-3-0/">3.0</a> (3966)</strong> <em>May-14-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-0/">3.0</a> (3966)</strong> <em>May-14-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.0.tar.gz">cyberduck-src-3.0.tar.gz</a></li>
 					</ul>
 				</td>
@@ -83,32 +83,32 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-5/">2.8.5</a> (3611)</strong> <em>Apr-07-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8-5/">2.8.5</a> (3611)</strong> <em>Apr-07-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.5.tar.gz">cyberduck-src-2.8.5.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-4/">2.8.4</a> (3470)</strong> <em>Jan-25-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8-4/">2.8.4</a> (3470)</strong> <em>Jan-25-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.4.tar.gz">cyberduck-src-2.8.4.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-2/">2.8.3</a> (3430)</strong> <em>Jan-14-2008</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8-2/">2.8.3</a> (3430)</strong> <em>Jan-14-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.3.tar.gz">cyberduck-src-2.8.3.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-2/">2.8.2</a> (3346)</strong> <em>Dec-11-2007</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8-2/">2.8.2</a> (3346)</strong> <em>Dec-11-2007</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.2.tar.gz">cyberduck-src-2.8.2.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8-1/">2.8.1</a> (3290)</strong> <em>Nov-17-2007</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8-1/">2.8.1</a> (3290)</strong> <em>Nov-17-2007</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.1.tar.gz">cyberduck-src-2.8.1.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-8/">2.8</a> (3257)</strong> <em>Sep-10-2007</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-8/">2.8</a> (3257)</strong> <em>Sep-10-2007</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.8.tar.gz">cyberduck-src-2.8.tar.gz</a></li>
 					</ul>
 				</td>
@@ -121,22 +121,22 @@
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-3/">2.7.3</a> (2838)</strong> <em>Feb-12-2007</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-7-3/">2.7.3</a> (2838)</strong> <em>Feb-12-2007</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.7.3.tar.gz">cyberduck-src-2.7.3.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-2/">2.7.2</a> (2750)</strong> <em>Jan-15-2007</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-7-2/">2.7.2</a> (2750)</strong> <em>Jan-15-2007</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.7.2.tar.gz">cyberduck-src-2.7.2.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7-1/">2.7.1</a> (2608)</strong> <em>Nov-29-2006</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-7-1/">2.7.1</a> (2608)</strong> <em>Nov-29-2006</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.7.1.tar.gz">cyberduck-src-2.7.1.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-7/">2.7</a> (2600)</strong> <em>Nov-25-2006</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-7/">2.7</a> (2600)</strong> <em>Nov-25-2006</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.7.tar.gz">cyberduck-src-2.7.tar.gz</a></li>
 					</ul>
 				</td>
@@ -149,17 +149,17 @@
 
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-2/">2.6.2</a> (2396)</strong> <em>Sep-10-2006</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-6-2/">2.6.2</a> (2396)</strong> <em>Sep-10-2006</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.6.2.tar.gz">cyberduck-src-2.6.2.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6-1/">2.6.1</a> (2376)</strong> <em>Aug-11-2006</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-6-1/">2.6.1</a> (2376)</strong> <em>Aug-11-2006</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.6.1.tar.gz">cyberduck-src-2.6.1.tar.gz</a></li>
 					</ul>
 
 					<ul>
-						<li><strong><a href="http:///svn.cyberduck.ch/branches/release-2-6/">2.6</a> (2315)</strong> <em>Jun-07-2006</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-2-6/">2.6</a> (2315)</strong> <em>Jun-07-2006</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-2.6.tar.gz">cyberduck-src-2.6.tar.gz</a></li>
 					</ul>
 				</td>
