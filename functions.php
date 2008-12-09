@@ -5,7 +5,7 @@
 		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\" />
 		<link rel=\"shortcut icon\" href=\"".$dir."/favicon.ico\" type=\"image/vnd.microsoft.icon\" />
 		<meta http-equiv=\"content-type\" content=\"application/xhtml; charset=utf-8\"></meta>
-		<meta name=\"verify-v1\" content=\"Hc7e/v4mfc4jwCrvdWUfI+jYYf0SUlL5PNBtrfbx9Wc=\" />
+		<meta name=\"verify-v1\" content=\"oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=\" />
 ";
     }
 
@@ -57,6 +57,7 @@ function echodonate($dir) {
 			<ul>
               <li><a accesskey=\"a\" id=\"navigation-index\" href=\"".$dir."/\"><u>a</u>bout</a></li>
               <li><a accesskey=\"c\" id=\"navigation-changelog\" href=\"".$dir."/changelog/\"><u>c</u>hangelog</a></li>
+<li><a class=\"ext\" href=\"http://sudo.ch/category/cyberduck/\">blog</a></li>
               <li><a accesskey=\"d\" id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\"><u>d</u>evelopment</a></li>
               <li><a accesskey=\"s\" id=\"navigation-source\" href=\"".$dir."/source/\"><u>s</u>ource</a></li>
               <li><a accesskey=\"o\" class=\"ext\" id=\"navigation-forum\" href=\"http://forum.cyberduck.ch/\">f<u>o</u>rum</a></li>
