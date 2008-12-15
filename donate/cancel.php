@@ -29,23 +29,27 @@
         </td>
 
         <td colspan="2" class="box-solid">
-          <div>
+          <p>
             If you don't like Paypal you can still support this
             project by providing me with some good book to read. I
-            have both a <a class="ext" href=
+            have a <a class="ext" href=
             "http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">
-            amazon.de</a> and <a class="ext" href=
-            "http://www.amazon.co.uk/exec/obidos/registry/1RN1NJU8CX7AW/">
-            amazon.co.uk</a> wishlist.
+            amazon.de</a> wishlist.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <div class="footer">
+			<a href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+            <a href=
+            "http://validator.w3.org/check/referer">Validate</a>,
+            $Date$<br />
           </div>
         </td>
       </tr>
     </table>
   </div>
-
-  <div class="footer">
-    <a href="http://validator.w3.org/check/referer">Validate</a>,
-    $Date$
-  </div>
+  <?php echo(echoanalytics("..")); ?>
 </body>
 </html>
