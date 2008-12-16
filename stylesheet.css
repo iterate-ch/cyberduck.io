@@ -133,6 +133,10 @@
 	body#donate a#navigation-donate {
 		color:#0066cc;
 	}
+	
+	#screenshots {
+		text-align: center;
+	}
 
 	#sidebar {
 		width:280px;

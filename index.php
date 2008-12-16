@@ -28,7 +28,7 @@
 						</p>
 					 <p>Localizations are available in <em>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda &amp; Ελληνικά</em>.</p>
 					
-					<div>
+					<div id="screenshots">
 						<a href="./img/browser-bookmarks.jpg"><img width="350px" src="./img/browser-bookmarks-thumb.jpg"/></a>
 						<a href="./img/browser.jpg"><img width="350px" src="./img/browser-thumb.jpg"/></a>
 					</div>
