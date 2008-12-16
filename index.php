@@ -24,19 +24,13 @@
 
 			<tr>
 				<td id="maincolumn" valign="top" class="box-solid">
-					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> and <span class="version3">Amazon <a class="ext" href="http://aws.amazon.com/s3">S3</a></span> browser
-					licenced under the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GPL</a> with an easy to use interface, integration with external editors and support for many
-				Mac OS X system technologies such as Spotlight, Bonjour, <span class="version3"><a href="http://www.apple.com/macosx/features/quicklook.html" class="ext">QuickLook</a></span> and the Keychain.</strong> <strong>Localizations</strong> are available in <em>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda &amp; Ελληνικά</em>. Many thanks to all <a class=
-				"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
-					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <strong><a class="ext" href=
-					"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
-					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf?format=raw">credits</a> to see who contributed. I appreciate any <strong><a class="ext" href=
-					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a></strong> you might have. For bug reports and feature suggestions you should issue a <a class=
-					"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <strong><a class="ext" href=
-					"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
-
+					<p><strong style="color:#4e4e4e;">Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span><!--, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a>--> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser with an easy to use interface, integration with external editors and support for many Mac OS X system technologies such as Spotlight, Bonjour, QuickLook and the Keychain.</strong>
+						</p>
+					 <p>Localizations are available in <em>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda &amp; Ελληνικά</em>.</p>
+					
 					<div>
-						<a href="./img/browser.jpg" id="screenshot"></a>
+						<a href="./img/browser-bookmarks.jpg"><img width="350px" src="./img/browser-bookmarks-thumb.jpg"/></a>
+						<a href="./img/browser.jpg"><img width="350px" src="./img/browser-thumb.jpg"/></a>
 					</div>
 					
 					<div class="feature">
@@ -57,6 +51,9 @@
 
 						<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
 						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="">skEdit</a>, <a class="ext" href="">PageSpinner</a>.</p>
+
+						<p><img src="./img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
+						All passwords are stored in the system <a class="ext" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications.</p>
 
 						<p><img src="./img/gnu.png" class="feature" alt="" /> <strong>Open Source</strong><br />
 						Licensed under the GPL.</p>
@@ -82,6 +79,8 @@
 						<p><img src="./img/queue.png" class="feature" alt="" /> <strong>Advanced Transfers</strong><br />
 						Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.</p>
 
+						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
+						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
 						<p><img src="./img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
 						Full AppleScript integration. See the <a class="ext" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
 
@@ -93,11 +92,8 @@
 					</div>
 
 					<div class="feature">
-						<p><img src="./img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
-						All passwords are stored in the system <a class="ext" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party applications.</p>
-
 						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong>SSH</strong><br />
-						Supports Public key authentication, Keyboard Interactive (PAM) Authentication, Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication algorithms (MD5, SHA1).</p>
+						Supports Public key authentication, Keyboard Interactive (PAM) Authentication, Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication algorithms (MD5, SHA1).</p><p>Archive and expand TAR and ZIP files remotely.</p>
 
 						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong>SCP</strong><br />
 						Transfer files using Secure Copy (SCP).</p>
@@ -105,19 +101,32 @@
 						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon S3</strong><br />
 						Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
 
+						<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon CloudFront</strong><br />
+						Manage CloudFront distributions.</p>
+
 						<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
 						With WebDAV you can access your <a class="ext" href="http://www.apple.com/dotmac/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
+
+						<p><img src="./img/cf.png" class="feature" alt="" /> <strong class="version3">Mosso Cloud Files</strong><br />
+						Manage your Rackspace Cloud Hosting distributions.</p>
 
 						<p><img src="./img/idisk.png" class="feature" alt="" /> <strong>iDisk</strong><br />
 						Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a>.</p>
 
-						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
-						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
 						<p><img src="./img/advanced.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 						Modify permissions on multiple files and recursivly.</p>
 					</div>
 
 					<div style="clear:both;"></div>
+
+						<p>Many thanks to all <a class=
+					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need <strong>help</strong>, there is an <a href="./help/en/howto">introduction</a>, a list of
+						<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <strong><a class="ext" href=
+						"http://forum.cyberduck.ch">forum</a></strong>. This software is written by <a class="ext" href="http://dkocher.name/">David V. Kocher</a>. Please have a look at the <a class=
+						"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf?format=raw">credits</a> to see who contributed. I appreciate any <strong><a class="ext" href=
+						"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a></strong> you might have. For bug reports and feature suggestions you should issue a <a class=
+						"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <strong><a class="ext" href=
+						"http://trac.cyberduck.ch">issue tracker</a></strong>.</p>
 
 					<p><small>Copyright (c) 2002-2005 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
 					"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option)
@@ -163,7 +172,7 @@
 						notification when a new version is released.</p>
 
 						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
-							<p>Email: <input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+							<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
 						</form>
 					</div>
 
