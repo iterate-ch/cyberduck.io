@@ -26,7 +26,7 @@
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p class="lead">
 						<strong>
-							Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span><!-->, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a>--> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
+							Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
 						
 							It features easy to use interface that allows to toggle between bookmarks and the browser outline view.
 						
