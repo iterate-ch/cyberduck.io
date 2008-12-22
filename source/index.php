@@ -56,6 +56,11 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-1/">3.1</a> ()</strong> <em>Dec-20-2008</em><br />
+						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.1.tar.gz">cyberduck-src-3.1.tar.gz</a></li>
+					</ul>
+
+					<ul>
 						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-0-3/">3.0.3</a> (4205)</strong> <em>Okt-20-2008</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.0.3.tar.gz">cyberduck-src-3.0.3.tar.gz</a></li>
 					</ul>
@@ -293,7 +298,7 @@
 			<tr>
 				<td colspan="3">
 					<div class="footer">
-						<a href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
 						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
 				</td>

@@ -20,7 +20,7 @@
 	span {
 		white-space: nowrap;
 	}
-
+		
 	div.footer {
 		text-align:left;
 		color:#000000;
@@ -45,6 +45,10 @@
 		left:10px;
 		float:left;
 		z-index:2;
+	}
+	
+	div#features {
+		clear: both;
 	}
 	
 	div.content {
@@ -137,6 +141,24 @@
 	#screenshots {
 		text-align: center;
 	}
+	
+	div.figure {
+		float: left;
+		width: 50%;
+	}
+	
+	div.figure p {
+	  	text-align: center;
+	  	font-style: italic;
+	  	font-size: smaller;
+	  	text-indent: 0;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+	a.swissmade {
+		float: right;
+	}
 
 	#sidebar {
 		width:280px;
@@ -200,6 +222,14 @@
 		text-align:left;
 		padding-left:5px;
 		padding-right:5px;
+	}
+	
+	p.lead strong {
+		color: #4e4e4e;
+	}
+	
+	p.lead a {
+		color: #4e4e4e;
 	}
 	
 	#maincolumn {
@@ -308,7 +338,7 @@
 	div.feature {
 		position:relative;
 		float:left;
-		width:30%;
+		width:33%;
 	}
 	
 	img.feature {

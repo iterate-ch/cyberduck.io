@@ -32,6 +32,32 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.1</strong> <em>Dec-20-2008</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+			<li>[Feature] Amazon CloudFront Support (S3)</li>
+			<li>[Feature] Cloud Files Support (Mosso) [<a href="http://trac.cyberduck.ch/ticket/2745">#2745</a>]</li>
+			<li>[Feature] Pre-configured protocol settings for MobileMe iDisk (WebDAV)</li>
+			<li>[Feature] Send arbitrary commands over SSH using the 'Send Command...' interface (SFTP) [<a href="http://trac.cyberduck.ch/ticket/3">#3</a>]
+			<li>[Feature] Archive and unarchive files and folders (ZIP, TAR etc.) (SFTP) [<a href="http://trac.cyberduck.ch/ticket/2376">#2376</a>]
+
+			<li>[Feature] Clickable URL fields
+			<li>[Feature] Display distinguished icon per protocol for bookmarks
+			<li>[Feature] Set quarantine attribute on downloaded files</li>
+			<li>[Bugfix] Uploads fail with digest access authentication [<a href="http://trac.cyberduck.ch/ticket/2268">#2268</a>]</li>
+			<li>[Bugfix] Manually sorting bookmarks using drag and drop works for the entire row [<a href="http://trac.cyberduck.ch/ticket/2571">#2571</a>]</li>
+		</ul>
+        </td>
+      </tr>
+
+		<tr>
+			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
+		</tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.0.3</strong> <em>Oct-20-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg">Download</a></p></td>
 
@@ -154,10 +180,6 @@
           </ul>
         </td>
       </tr>
-
-		<tr>
-			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
@@ -1661,7 +1683,7 @@
       <tr>
         <td colspan="3">
           <div class="footer">
-			<a href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+			<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
             <a href=
             "http://validator.w3.org/check/referer">Validate</a>,
             $Date$<br />
