@@ -26,30 +26,30 @@
 						<blockquote>
 							Soft32.com Editor's Pick
 						</blockquote>
-						<div align="center"><img src="awards/pick_editor.jpg" width="100" height="115" alt="Pick Editor"></div>
+						<div align="center"><img src="pick_editor.jpg" width="100" height="115" alt="Pick Editor"></div>
 						<blockquote>
 							Softpedia Pick (5/5)
 						</blockquote>
-						<div align="center"><img src="awards/spick_mac.gif" width="118" height="66" alt="Spick Mac"></div>
+						<div align="center"><img src="spick_mac.gif" width="118" height="66" alt="Spick Mac"></div>
 						<blockquote>
 							Macupdate.com
 						</blockquote>
-						<div align="center"><img src="awards/bstar.png" width="25" height="24" alt="Bstar">
-							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
-							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
-							<img src="awards/bstar.png" width="25" height="24" alt="Bstar">
-							<img src="awards/nullstar.png" width="25" height="24" alt="Nullstar"></div>
+						<div align="center"><img src="bstar.png" width="25" height="24" alt="Bstar">
+							<img src="bstar.png" width="25" height="24" alt="Bstar">
+							<img src="bstar.png" width="25" height="24" alt="Bstar">
+							<img src="bstar.png" width="25" height="24" alt="Bstar">
+							<img src="nullstar.png" width="25" height="24" alt="Nullstar"></div>
 					</div>
 
 					<div class="feature">
 						<blockquote>
 							Soft32.com Editor's Review Award
 						</blockquote>
-						<div align="center"><img src="awards/5.gif" width="120" height="100" alt="5"></div>
+						<div align="center"><img src="5.gif" width="120" height="100" alt="5"></div>
 						<blockquote>
 							Download.com (4/5)
 						</blockquote>
-						<div align="center"><img src="awards/stars_pop_4.gif" width="82" height="14" alt="Stars Pop 4"></div>
+						<div align="center"><img src="stars_pop_4.gif" width="82" height="14" alt="Stars Pop 4"></div>
 						<blockquote>
 							Versiontracker.com
 						</blockquote>
@@ -64,11 +64,11 @@
 						<blockquote>
 							Softpedia Editor's Review
 						</blockquote>
-						<div align="center"><img src="awards/sp_editor_very_good_s.gif" width="100" height="54" alt="Sp Editor Very Good S"></div>
+						<div align="center"><img src="sp_editor_very_good_s.gif" width="100" height="54" alt="Sp Editor Very Good S"></div>
 						<blockquote>
 							ZDNet.co.uk Editor's Rating 'Excellent'
 						</blockquote>
-						<div align="center"><img src="awards/zdnet.png" width="169" height="57" alt="ZDNet"></div>
+						<div align="center"><img src="zdnet.png" width="169" height="57" alt="ZDNet"></div>
 					</div>
 				</td>
 			</tr>
@@ -80,7 +80,7 @@
 			<tr>
 				<td colspan="3">
 					<div class="footer">
-						<a href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
 						<a href=
 						"http://validator.w3.org/check/referer">Validate</a>,
 						$Date: 2006-02-28 16:01:03 +0100 (Tue, 28
