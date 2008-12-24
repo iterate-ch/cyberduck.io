@@ -26,25 +26,24 @@
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p class="lead">
 						<strong>
-							Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
+							Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
 						
-							It features easy to use interface that allows to toggle between bookmarks and the browser outline view.
+							It features an easy to use interface that allows to toggle between bookmarks and the browser outline view.
 						
-							For editing files, it provides a seamless integration with many supported external editors.
+							For editing files, it provides a seamless integration with several external editors.
+
 							Many OS X core system technologies such as Spotlight, Bonjour, QuickLook and the Keychain are supported.
-						
-							Emerging cloud distribution services from <a href="http://aws.amazon.com/cloudfront/">Amazon</a> and <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Rackspace</a> are easily configurable to replicate your content.
 						</strong>
 					</p>
 					
-					<p>Many thanks to all <a class=
-				"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>! If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
-					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <a class="ext" href=
-					"http://forum.cyberduck.ch">forum</a>. This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. Please have a look at the <a class=
-					"ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf?format=raw">credits</a> to see who contributed. I appreciate any <a class="ext" href=
-					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class=
-					"ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href=
-					"http://trac.cyberduck.ch">issue tracker</a>.</p>
+					<p>If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
+					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <a class="ext" href="http://forum.cyberduck.ch">forum</a>.
+					
+					This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. 
+					
+					Many thanks to all <a class="ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>!
+				
+					For bug reports and feature suggestions you should issue a <a class="ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 				
 					<div id="screenshots">
 						<div class="figure">
@@ -130,7 +129,7 @@
 							Manage CloudFront distributions.</p>
 
 							<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
-							With WebDAV you can access your <a class="ext" href="http://www.apple.com/dotmac/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
+							With WebDAV you can access your <a class="ext" href="http://www.apple.com/mobileme/features/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
 
 							<p><img src="./img/cf.png" class="feature" alt="" /> <strong class="version3">Mosso Cloud Files</strong><br />
 							Manage your Rackspace <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Hosting</a> distributions.</p>
