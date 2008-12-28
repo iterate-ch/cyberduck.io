@@ -32,7 +32,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1</strong> <em>Dec-20-2008</em><br />
+        <p><strong>3.1</strong> <em>Jan-05-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -42,10 +42,13 @@
 			<li>[Feature] Pre-configured protocol settings for MobileMe iDisk (WebDAV)</li>
 			<li>[Feature] Send arbitrary commands over SSH using the 'Send Command...' interface (SFTP) [<a href="http://trac.cyberduck.ch/ticket/3">#3</a>]
 			<li>[Feature] Archive and unarchive files and folders (ZIP, TAR etc.) (SFTP) [<a href="http://trac.cyberduck.ch/ticket/2376">#2376</a>]
-
 			<li>[Feature] Clickable URL fields
-			<li>[Feature] Display distinguished icon per protocol for bookmarks
 			<li>[Feature] Set quarantine attribute on downloaded files</li>
+			<li>[Feature] Added Espresso to the list of supported editors (http://macrabbit.com/espresso/) [<a href="http://trac.cyberduck.ch/ticket/2823">#2823</a>]</li>
+			<li>[Feature] Download folder in Dock bounces once when download finishes (10.5)</li>
+			<li>[Feature] Read IdentityFile setting from OpenSSH configuration in ~/.ssh/config (SFTP) [<a href="http://trac.cyberduck.ch/ticket/152">#152</a>]</li>
+			<li>[Feature] Default transfer setting for regular expression of skipped files includes GIT and others [<a href="http://trac.cyberduck.ch/ticket/2829">#2829</a>]</li>
+			<li>[Feature] Added QuickLook button to toolbar configuration</li>
 			<li>[Bugfix] Uploads fail with digest access authentication [<a href="http://trac.cyberduck.ch/ticket/2268">#2268</a>]</li>
 			<li>[Bugfix] Manually sorting bookmarks using drag and drop works for the entire row [<a href="http://trac.cyberduck.ch/ticket/2571">#2571</a>]</li>
 		</ul>
