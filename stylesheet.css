@@ -396,7 +396,16 @@
 		text-align:right;
 		font-style:italic;
 	}
-
+	
 	div.amzn_wdgt {
 		width: 100% !important;
+		border: none !important;
+	}
+	
+	div.amzn_wdgt div.wdgt_brdr div {
+		text-align: left !important;
+	}
+	
+	div.amzn_wdgt div.wdgt_ft, div.amzn_wdgt div.wdgt_hd {
+		display: none;
 	}
