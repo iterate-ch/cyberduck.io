@@ -397,3 +397,6 @@
 		font-style:italic;
 	}
 
+	div.amzn_wdgt {
+		width: 100% !important;
+	}

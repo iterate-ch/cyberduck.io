@@ -59,15 +59,20 @@
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
-            <img src="../img/amazon.png" alt="amazon books" border=
-            "0" />
+            <a href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/"><img src="../img/amazon.png" alt="amazon books" border=
+            "0" /></a>
           </div>
         </td>
 
         <td colspan="2" class="box-solid">
-          <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
+<!--          <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
-          amazon.de</a> wishlist.</p>
+          amazon.de</a> wishlist.</p>-->
+
+		<script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/httpcybech-21/8004/3ed7239d-88ef-47f6-a09c-83c0eeeba434"> </script>
+		<noscript>
+			<a href="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fhttpcybech-21%2F8004%2F3ed7239d-88ef-47f6-a09c-83c0eeeba434&Operation=NoScript">Amazon.de Widgets</a>
+		</noscript>
         </td>
       </tr>
 
