@@ -36,6 +36,13 @@ function echodonate($dir) {
 	  		  src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">
 	  		</script></div>";
 		}
+
+    function echoamazon() {
+					return "<script type=\"text/javascript\"><!--
+					amazon_ad_tag = \"httpcybech-21\"; amazon_ad_width = \"728\"; amazon_ad_height = \"90\"; amazon_ad_price = \"retail\"; amazon_ad_border = \"hide\";//--></script>
+					<script type=\"text/javascript\" src=\"http://www.assoc-amazon.de/s/ads.js\"></script>
+		";
+	}
 	
 	function echologo($dir) {
 		return "	    <div id=\"logo\"><img id=\"icon\" src=
