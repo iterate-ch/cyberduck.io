@@ -57,10 +57,26 @@
       </tr>
 
       <tr>
+        <td width="150" valign="top" class="box-filled">
+	<p style="text-align:center;"><strong>Bank Account</strong></p>
+        </td>
+
+        <td colspan="2" class="box-solid">
+          	<p>
+				David Kocher, Switzerland<br />
+				<tt>
+					Postfinance<br />
+					<strong>IBAN</strong> CH19 0900 0000 3030 0229 3<br />
+					<strong>BIC</strong> POFICHBEXXX
+				</tt>
+			</p>
+        </td>
+      </tr>
+
+      <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
-            <a href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/"><img src="../img/amazon.png" alt="amazon books" border=
-            "0" /></a>
+            <a href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/"><img src="../img/amazon.png" alt="amazon books" border="0" /></a>
           </div>
         </td>
 
