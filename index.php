@@ -41,8 +41,6 @@
 					
 					This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. 
 					
-					Many thanks to all <a class="ext" href="http://trac.cyberduck.ch/file/trunk/Credits.rtf">contributors</a>!
-				
 					For bug reports and feature suggestions you should issue a <a class="ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 				
 					<div id="screenshots">
@@ -260,7 +258,7 @@
 							— <a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">osxguide.com</a>
 						</blockquote>
 						-->
-						<p>Read more <a href="./reviews.php">testimonials</a>!</p>
+						<p>Read more <a href="reviews">testimonials</a>!</p>
 					</div>
 <!--
                                         <div class="box-solid">
