@@ -127,7 +127,7 @@
 							Manage CloudFront distributions.</p>
 
 							<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
-							With WebDAV you can access your <a class="ext" href="http://www.apple.com/mobileme/features/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a> or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server.</p>
+							With WebDAV you can access your <a class="ext" href="http://www.apple.com/mobileme/features/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a>, Microsoft SharePoint or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server. Supports Basic, Digest and NTLM Authentication.</p>
 
 							<p><img src="./img/cf.png" class="feature" alt="" /> <strong class="version3">Mosso Cloud Files</strong><br />
 							Manage your Rackspace <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Hosting</a> distributions.</p>
