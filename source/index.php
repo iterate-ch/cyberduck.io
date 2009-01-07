@@ -8,12 +8,12 @@
 <head>
 	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader("..")); ?>
 
-	<title>Cyberduck | FTP, SFTP, WebDAV &amp; Amazon S3 Browser for Mac OS X | Source Code</title>
+	<title><?php echo(echotitle("Source Code")); ?></title>
 </head>
 
 <body id="source">
 	<div class="header">
-		<?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
+		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
 	<div class="content">
@@ -56,7 +56,7 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-1/">3.1</a> ()</strong> <em>Jan-05-2009</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-1/">3.1</a> (4448)</strong> <em>Jan-08-2009</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.1.tar.gz">cyberduck-src-3.1.tar.gz</a></li>
 					</ul>
 

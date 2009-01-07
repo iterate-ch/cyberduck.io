@@ -8,12 +8,12 @@
 <head>
 	<meta name="generator" content="HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" /><?php echo(echoheader(".")); ?>
 
-	<title>Cyberduck | FTP, SFTP, WebDAV &amp; Amazon S3 Browser for Mac OS X.</title>
+	<title><?php echo(echotitle("About")); ?></title>
 </head>
 
 <body id="index">
 	<div class="header">
-		<?php echo(echologo("."));?><?php echo(echotitle("."));?><?php echo(echosubmenu("."));?>
+		<?php echo(echologo("."));?><?php echo(echocaption("."));?><?php echo(echosubmenu("."));?>
 	</div>
 
 	<div class="content">
@@ -26,17 +26,15 @@
 				<td id="maincolumn" valign="top" class="box-solid">
 					<p class="lead">
 						<strong>
-							Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
-						
-							It features an easy to use interface that allows to toggle between bookmarks and the browser outline view.
-						
-							For editing files, it provides a seamless integration with several external editors.
+Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
+</strong>
+It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with several external editors makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and a large number translations makes you feel at home.
 
-							Many OS X core system technologies such as Spotlight, Bonjour, QuickLook and the Keychain are supported.
-						</strong>
+						Localizations are available in <i>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional &amp; Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew, Latvian and Greek.</i>
 					</p>
 					
-					<p>If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
+					<p>
+If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
 					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <a class="ext" href="http://forum.cyberduck.ch">forum</a>.
 					
 					This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. 
@@ -166,7 +164,7 @@
 								<td id="download" valign="top"><a href="./Cyberduck-3.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong class="version3">3.1</strong> <em>(Jan-05-2009)</em><br />
+									<strong class="version3">3.1</strong> <em>(Jan-08-2009)</em><br />
 									<a href="./Cyberduck-3.1.dmg">Cyberduck-3.1.dmg</a> <a href="./Cyberduck-3.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>

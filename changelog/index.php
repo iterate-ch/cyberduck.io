@@ -10,12 +10,12 @@
   "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
   <?php echo(echoheader("..")); ?>
 
-  <title>Cyberduck | FTP, SFTP, WebDAV &amp; Amazon S3 Browser for Mac OS X | Changelog</title>
+	<title><?php echo(echotitle("Changelog")); ?></title>
 </head>
 
 <body id="changelog">
   <div class="header">
-    <?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
+    <?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
   </div>
 
   <div class="content">
@@ -32,7 +32,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1</strong> <em>Jan-05-2009</em><br />
+        <p><strong>3.1</strong> <em>Jan-08-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">

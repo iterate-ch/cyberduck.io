@@ -50,13 +50,17 @@ function echodonate($dir) {
 		\"Cyberduck\"  /></div>
 		";
 	}
-    function echotitle($dir) {
+    function echocaption($dir) {
         return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV, Cloud Files &amp; Amazon S3 Browser for Mac OS X.</h3></div>
 <div id=\"donate-absolute\">
 	<a href=\"http://www.amazon.de/gp/registry/1QIQE5HKOS011\"><img id=\"amazon\" src=\"$dir/img/amazon.png\" alt=\"Amazon\"></img></a>
 ".echodonate($dir)."
 		</div>";
     }
+
+	function echotitle($page) {
+		return "Cyberduck | FTP, SFTP, WebDAV, Rackspace Cloud Files &amp; Amazon S3 Browser for Mac OS X | $page";
+	}
     
     function echosubmenu($dir) {
     	return "

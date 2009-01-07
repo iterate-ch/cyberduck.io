@@ -10,12 +10,12 @@
 	"HTML Tidy for Mac OS X (vers 1st December 2004), see www.w3.org" />
 	<?php echo(echoheader("..")); ?>
 
-	<title>Cyberduck | FTP for Mac OS X. | Reviews</title>
+	<title><?php echo(echotitle("Reviews")); ?></title>
 </head>
 
 <body id="reviews">
 	<div class="header">
-		<?php echo(echologo(".."));?><?php echo(echotitle(".."));?><?php echo(echosubmenu(".."));?>
+		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
 	<div class="content">
