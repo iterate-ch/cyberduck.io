@@ -161,11 +161,11 @@ If you need help, there is an <a href="./help/en/howto">introduction</a>, a list
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-3.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
+								<td id="download" valign="top"><a href="./Cyberduck-3.1.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong class="version3">3.1</strong> <em>(Jan-08-2009)</em><br />
-									<a href="./Cyberduck-3.1.dmg">Cyberduck-3.1.dmg</a> <a href="./Cyberduck-3.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<strong class="version3">3.1</strong> <em>(Jan-10-2009)</em><br />
+									<a href="./Cyberduck-3.1.1.dmg">Cyberduck-3.1.1.dmg</a> <a href="./Cyberduck-3.1.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
 								</td>
 							</tr>
 						</table>

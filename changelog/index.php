@@ -32,6 +32,25 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.1.1</strong> <em>Jan-10-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		<ul>
+	        <li>[Bugfix] Crash if no default login name is set in Preferences [<a
+	                href="http://trac.cyberduck.ch/ticket/2852">#2852</a>]
+	        </li>
+	        <li>[Bugfix] Upload incompatibility (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2858">#2858</a>]</li>
+		</ul>
+        </td>
+      </tr>
+
+		<tr>
+			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
+		</tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.1</strong> <em>Jan-08-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
 
@@ -69,10 +88,6 @@
 		</ul>
         </td>
       </tr>
-
-		<tr>
-			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
