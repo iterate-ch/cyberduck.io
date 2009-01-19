@@ -76,7 +76,10 @@
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
+<!--
             <a href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/"><img src="../img/amazon.png" alt="amazon books" border="0" /></a>
+-->
+<a href="http://www.amazon.de/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.de%2Fgp%2Fregistry%2Fwishlist%2F1QIQE5HKOS011%3Fie%3DUTF8%26%252AVersion%252A%3D1%26%252Aentries%252A%3D0&site-redirect=de&tag=httpcybech-21&linkCode=ur2&camp=1638&creative=19454"><img src="../img/amazon.png" alt="amazon books" border="0" /></a>
           </div>
         </td>
 

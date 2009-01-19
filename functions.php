@@ -11,7 +11,7 @@
 
 function echodonate($dir) {
 	return "
-            <form action=\"https://www.paypal.com/cgi-bin/webscr\"
+            <form action=\"https://www.paypal.com/cgi-bin/webscr\" style=\"display:inline\"
             method=\"post\">
 <input type=\"hidden\" name=\"lc\" value=\"US\" />
               <input type=\"hidden\" name=\"cmd\" value=
@@ -53,9 +53,7 @@ function echodonate($dir) {
     function echocaption($dir) {
         return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV, Cloud Files &amp; Amazon S3 Browser for Mac OS X.</h3></div>
 <div id=\"donate-absolute\">
-	<a href=\"http://www.amazon.de/gp/registry/1QIQE5HKOS011\"><img id=\"amazon\" src=\"$dir/img/amazon.png\" alt=\"Amazon\"></img></a>
-".echodonate($dir)."
-		</div>";
+<a href=\"http://www.amazon.de/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.de%2Fgp%2Fregistry%2Fwishlist%2F1QIQE5HKOS011%3Fie%3DUTF8%26%252AVersion%252A%3D1%26%252Aentries%252A%3D0&site-redirect=de&tag=httpcybech-21&linkCode=ur2&camp=1638&creative=19454\"><img src=\"$dir/img/amazon.png\" alt=\"amazon books\" border=\"0\" /></a>".echodonate($dir)."</div>";
     }
 
 	function echotitle($page) {
