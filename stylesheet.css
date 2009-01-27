@@ -118,6 +118,7 @@
 		clear:left;
 		font-size:1.2em;
 		top:-25px;
+		font-family: Georgia;
 	}
 	
 	div#navigation {
@@ -227,6 +228,7 @@
 	p.lead {
 		font-size: 20px;
 		line-height: normal;
+		font-family: Georgia;
 	}
 	
 	p.lead strong {

@@ -119,10 +119,10 @@ If you need help, there is an <a href="./help/en/howto">introduction</a>, a list
 							Transfer files using Secure Copy (SCP).</p>
 
 							<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon S3</strong><br />
-							Browse Amazon Simple Storage Service the way you are used to with other file systems.</p>
+							Browse <a class="ext" href="http://aws.amazon.com/s3">Amazon Simple Storage Service</a> the way you are used to with other file systems.</p>
 
 							<p><img src="./img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon CloudFront</strong><br />
-							Manage CloudFront distributions.</p>
+							Manage <a href="http://aws.amazon.com/cloudfront/" class="ext">CloudFront</a> distributions.</p>
 
 							<p><img src="./img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
 							With WebDAV you can access your <a class="ext" href="http://www.apple.com/mobileme/features/idisk.html">iDisk</a>, GMX <a class="ext" href="http://faq.gmx.de/datenverwaltung/mc/index.html">Mediacenter</a>, Microsoft SharePoint or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server. Supports Basic, Digest and NTLM Authentication.</p>
