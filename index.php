@@ -28,12 +28,12 @@
 						<strong>
 Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> browser for the Mac.
 </strong>
-It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with several external editors makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and a large number translations makes you feel at home.
-
-						Localizations are available in <i>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional &amp; Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew, Latvian and Greek.</i>
+It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with several external editors makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and a large number of translations makes you feel at home.
 					</p>
 					
 					<p>
+						Localizations are available in <i>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional &amp; Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew, Latvian and Greek.</i>
+
 If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
 					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <a class="ext" href="http://forum.cyberduck.ch">forum</a>.
 					
@@ -55,7 +55,7 @@ If you need help, there is an <a href="./help/en/howto">introduction</a>, a list
 					<div id="features">
 						<div class="feature">
 							<p><img src="./img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
-							FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning) and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>.</p>
+							FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning), <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> and <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a>.</p>
 
 							<p><img src="./img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 							Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>

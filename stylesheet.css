@@ -223,6 +223,11 @@
 		padding-left:5px;
 		padding-right:5px;
 	}
+
+	p.lead {
+		font-size: 20px;
+		line-height: normal;
+	}
 	
 	p.lead strong {
 		color: #4e4e4e;
