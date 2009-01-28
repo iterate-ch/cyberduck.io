@@ -30,17 +30,7 @@ Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">
 </strong>
 It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with several external editors makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and a large number of translations makes you feel at home.
 					</p>
-					
-					<p>
-						Localizations are available in <i>English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional &amp; Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew, Latvian and Greek.</i>
-
-If you need help, there is an <a href="./help/en/howto">introduction</a>, a list of
-					<a href="./help/en/problems/">common problems</a> and a <a href="./help/en/faq">FAQ</a>. Please post any questions on the <a class="ext" href="http://forum.cyberduck.ch">forum</a>.
-					
-					This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. 
-					
-					For bug reports and feature suggestions you should issue a <a class="ext" href="http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
-				
+									
 					<div id="screenshots">
 						<div class="figure">
 							<a href="./img/browser-bookmarks.jpg"><img width="350px" src="./img/browser-bookmarks-thumb.jpg"/></a>
@@ -201,16 +191,6 @@ If you need help, there is an <a href="./help/en/howto">introduction</a>, a list
 
 						<div style="margin-top:-10px; margin-bottom:5px;" align="center">
 							<a href="http://forum.cyberduck.ch"><img width="128" src="./img/cocoaforge.png" alt="forum" /></a>
-						</div>
-					</div>
-
-					<div class="box-solid">
-						<p><strong>Widget.</strong> <a href="http://update.cyberduck.ch/Cyberduck.wdgt.zip">Download</a> the <a class="ext" href=
-						"http://www.apple.com/macosx/features/dashboard/">dashboard</a> widget (Thanks to <a href="http://www.emeraldion.it/home/" class="ext">Claudio Procida</a>!). <a href=
-						"http://cyberduck.ch/help/en/howto/widget.html">Help</a> about using the widget.</p>
-
-						<div style="padding:5px;" align="center">
-							<a id="widget" href="http://update.cyberduck.ch/Cyberduck.wdgt.zip" name="widget"></a>
 						</div>
 					</div>
 

@@ -7,7 +7,7 @@
 	  	margin-right:auto;
 		margin-left:auto;
 		padding:0px;
-		font-family:"Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-family: Georgia;
 		font-size:0.85em;
 		color:#000000;
 		background-color:#ffffff;
@@ -111,6 +111,7 @@
 		position:relative;
 		float:left;
 		font-size:3.0em;
+		font-family: "Gill Sans";
 	}
 
 	h3#subtitle  {
@@ -184,6 +185,7 @@
 	
 	#navigation a {
 		text-decoration:none;
+		font-family: "Gill Sans";
 	}
 	
 	#navigation ul > li:first-child {
@@ -227,9 +229,7 @@
 	}
 
 	p.lead {
-		font-size: 1.4em;
 		line-height: normal;
-		font-family: Georgia;
 	}
 	
 	p.lead strong {
@@ -247,10 +247,12 @@
 	#maincolumn p {
 		padding-left:15px; 
 		padding-right:10px;
+		clear: both;
 	}
 
 	strong {
 		color:#000000;
+		font-family: "Gill Sans";
 	}
 	
 	.box-filled {
