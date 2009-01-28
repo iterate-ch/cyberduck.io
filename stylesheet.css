@@ -111,7 +111,7 @@
 		position:relative;
 		float:left;
 		font-size:3.0em;
-		font-family: "Gill Sans";
+		font-family:"Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 	}
 
 	h3#subtitle  {
@@ -185,7 +185,7 @@
 	
 	#navigation a {
 		text-decoration:none;
-		font-family: "Gill Sans";
+		font-family:"Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 	}
 	
 	#navigation ul > li:first-child {
@@ -252,7 +252,7 @@
 
 	strong {
 		color:#000000;
-		font-family: "Gill Sans";
+		font-family:"Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 	}
 	
 	.box-filled {
