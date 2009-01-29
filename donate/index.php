@@ -32,20 +32,7 @@
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="dkocher@cyberduck.ch">
-<input type="hidden" name="item_name" value="Cyberduck">
-<input type="hidden" name="item_number" value="Cyberduck">
-<input type="hidden" name="no_shipping" value="2">
-<input type="hidden" name="no_note" value="1">
-<input type="hidden" name="currency_code" value="EUR">
-<input type="hidden" name="tax" value="0">
-<input type="hidden" name="bn" value="PP-DonationsBF">
-<input type="hidden" name="lc" value="en">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+				<?php echo(echodonate("..")); ?>
           </div>
         </td>
 
