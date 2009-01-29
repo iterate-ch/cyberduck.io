@@ -151,11 +151,27 @@ It features an easy to use interface with quickly accessible bookmarks. The outl
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-3.1.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a></td>
+								<td id="download" valign="top"><a href="./Cyberduck-3.1.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a>
+</td>
 								<td valign="top">
 									<p><strong>Download</strong><br />
 									<strong class="version3">3.1.1</strong> <em>(Jan-10-2009)</em><br />
-									<a href="./Cyberduck-3.1.1.dmg">Cyberduck-3.1.1.dmg</a> <a href="./Cyberduck-3.1.1.dmg"></a> (10.3MB, Mac OS X 10.4 or later required.)</p>
+									<a href="./Cyberduck-3.1.1.dmg">Cyberduck-3.1.1.dmg</a> <a href="./Cyberduck-3.1.1.dmg"></a><br />(10.3MB, Mac OS X 10.4 or later required.)
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="dkocher@cyberduck.ch">
+<input type="hidden" name="item_name" value="Cyberduck">
+<input type="hidden" name="item_number" value="Cyberduck">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="bn" value="PP-DonationsBF">
+<input type="hidden" name="lc" value="en">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
 								</td>
 							</tr>
 						</table>
