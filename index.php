@@ -151,12 +151,12 @@ It features an easy to use interface with quickly accessible bookmarks. The outl
 					<div class="box-solid">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
-								<td id="download" valign="top"><a href="./Cyberduck-3.1.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a>
+								<td id="download" valign="top"><a href="./Cyberduck-3.1.2.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png" align="left" alt="Download" border="0" /></a>
 </td>
 								<td valign="top">
 									<p><strong>Download</strong><br />
-									<strong class="version3">3.1.1</strong> <em>(Jan-10-2009)</em><br />
-									<a href="./Cyberduck-3.1.1.dmg">Cyberduck-3.1.1.dmg</a> <a href="./Cyberduck-3.1.1.dmg"></a><br />(10.3MB, Mac OS X 10.4 or later required.)
+									<strong class="version3">3.1.2</strong> <em>(Feb-01-2009)</em><br />
+									<a href="./Cyberduck-3.1.2.dmg">Cyberduck-3.1.2.dmg</a> <a href="./Cyberduck-3.1.2.dmg"></a><br />(10.3MB, Mac OS X 10.4 or later required.)
 
 									<?php echo(echodonate(".")); ?>
 </p>

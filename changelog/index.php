@@ -32,6 +32,26 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.1.2</strong> <em>Feb-01-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Feature] Enforce hostname verification (SSL)</li>
+		        <li>[Feature] Improved container listing performance (Mosso)</li>
+		        <li>[Feature] Updated bookmark icons (by Robert Curtis)</li>
+				<li>[Bugfix] Fix Amazon CloudFront distribution configuration</li>
+		        <li>[Bugfix] Accept valid certificates without prompt if no explicit trust is given (SSL)</li>
+		        <li>[Bugfix] Files not downloaded recursively (S3)</li>
+		        <li>[Bugfix] Create and expand archives with space in filename [#2884]</li>
+		        <li>[Bugfix] Incorrect CDN URI for public containers (Mosso) [#2875]</li>
+		        <li>[Bugfix] Observe bandwidth setting for uploads (Mosso/WebDAV)</li>
+		    </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.1.1</strong> <em>Jan-10-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg">Download</a></p></td>
 
