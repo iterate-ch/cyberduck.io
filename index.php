@@ -57,7 +57,23 @@ It features an easy to use interface with quickly accessible bookmarks. The outl
 							Quickly open the corresponding Web URL of a selected file in your web browser.</p>
 
 							<p><img src="./img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
-							Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://macromates.com/">TextMate</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href="http://www.aynimac.com/">CotEditor</a> and <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="">skEdit</a>, <a class="ext" href="">PageSpinner</a>.</p>
+							Seamless integration with external editors. 
+							<a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, 
+							<a class="ext" href="http://www.barebones.com/products/bbedit/">BBEdit</a>, 
+							<a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, 
+							<a class="ext" href="http://macromates.com/">TextMate</a>, 
+							<a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, 
+							<a class="ext" href="http://mimikaki.net/">mi</a>, 
+							<a class="ext" href="http://smultron.sourceforge.net/">Smultron</a>, 
+							<a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, 
+							<a class="ext" href="http://www.aynimac.com/">CotEditor</a>, 
+							<a class="ext" href="http://www.talacia.com/">Tag</a>, 
+							<a class="ext" href="http://skti.org/skedit/">skEdit</a> and 
+							<a class="ext" href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a> and 
+							<a class="ext" href="http://code.google.com/p/macvim/">MacVim</a> and 
+							<a class="ext" href="http://forgedit.com/">ForgEdit</a> and 
+							<a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, 
+							<a class="ext" href="http://www.optima-system.com/pagespinner/">PageSpinner</a>.</p>
 
 							<p><img src="./img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 							Speaks your language. <!--Available in English, Czech, Dutch, Finnish, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Slovak, Spanish, Chinese (Traditional &amp; Simplified Han), Russian, Swedish, Hungarian, Danish, Polish, Indonesian, Catalan, Welsh, Thai, Turkish, Hebrew, Latvian and Greek.<br />-->English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda &amp; Ελληνικά</p>
