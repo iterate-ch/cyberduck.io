@@ -180,9 +180,10 @@ It features an easy to use interface with quickly accessible bookmarks. The outl
 							</tr>
 						</table>
 						<p>Release notes and previous releases are available <a href="changelog">here</a>.</p>
-						<p>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring the latest bugfixes and enhancements.</p>
-						<p><small>Thanks to the <a href="http://www.icu.uzh.ch/">ICU (University of Zurich)</a> for hosting the downloads. Mirror provided by <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
-						Zurich)</a>.</small></p>
+						<p><small>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring the latest bugfixes and enhancements.</small></p>
+						<p><small>Downloads hosted by the <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.
+							Additional mirrors provided by <a href="http://www.icu.uzh.ch/~dkocher/cyberduck">ICU (University of Zurich)</a> and <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
+						Zurich)</a>. Thanks to everyone involved!</small></p>
 					</div>
 
 					<div class="box-filled">
