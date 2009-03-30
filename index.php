@@ -265,7 +265,7 @@
                 <p>
                     <small>Downloads hosted by the <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content
                         Delivery</i></a>.
-                        Additional mirrors provided by <a href="http://www.icu.uzh.ch/~dkocher/cyberduck">ICU (University of
+                        Additional mirrors provided by <a href="http://www.icu.uzh.ch/">ICU (University of
                             Zurich)</a> and <a href="http://mirror.ethz.ch/cyberduck/">VIS (ETH
                             Zurich)</a>. Thanks to everyone involved!
                     </small>
