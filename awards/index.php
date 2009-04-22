@@ -72,11 +72,6 @@
 					</div>
 				</td>
 			</tr>
-
-			<tr>
-				<td><?php echo(echogoogle());?></td>
-			</tr>
-
 			<tr>
 				<td colspan="3">
 					<div class="footer">
@@ -90,5 +85,6 @@
 			</tr>
 		</table>
 	</div>
+  <?php echo(echoanalytics("..")); ?>
 </body>
 </html>

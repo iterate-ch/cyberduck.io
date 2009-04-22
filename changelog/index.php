@@ -32,6 +32,32 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.2</strong> <em>Apr-24-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Feature] Choose Time Zone for bookmark (FTP) [<a href="http://trac.cyberduck.ch/ticket/434">#434</a>]</li>
+		        <li>[Feature] IPv6 Interoperability with support for EPSV and EPRT commands (FTP) [<a href="http://trac.cyberduck.ch/ticket/2539">#2539</a>, <a href="http://trac.cyberduck.ch/ticket/2539">#2885</a>]</li>
+		        <li>[Feature] UTF8 charset negogiation [<a href="http://tools.ietf.org/html/draft-ietf-ftpext-utf-8-option-00">draft-ietf-ftpext-utf-8-option-00</a>] (FTP)</li>
+		        <li>[Feature] Support for directory listings using MLSD [<a href="http://tools.ietf.org/html/rfc3659">RFC 3659</a>] (FTP)</li>
+		        <li>[Feature] Support for Modification Time (MFMT) extension [<a href="http://tools.ietf.org/html/draft-somers-ftp-mfxx-04">draft-somers-ftp-mfxx-04</a>] (FTP)</li>
+		        <li>[Feature] Support for hierarchical directory structure (Mosso)</li>
+		        <li>[Feature] Added Espresso to the list of supported editors (http://macrabbit.com/espresso/) [<a href="http://trac.cyberduck.ch/ticket/2823">#2823</a>]</li>
+		        <li>[Feature] Display date of transfer [<a href="http://trac.cyberduck.ch/ticket/1462">#1462</a>]</li>
+		        <li>[Feature] Option for big sized icons in bookmark list</li>
+		        <li>[Feature] Drag URL to browser window to open connection [<a href="http://trac.cyberduck.ch/ticket/2326">#2326</a>]</li>
+		        <li>[Bugfix] Update passwords in Keychain [<a href="http://trac.cyberduck.ch/ticket/2984">#2984</a>]</li>
+		        <li>[Bugfix] Only reauthenticate when needed (Mosso) [<a href="http://trac.cyberduck.ch/ticket/2876">#2876</a>]</li>
+		        <li>[Bugfix] Invalid Origin parameter when creating CloudFront distribution (S3) [<a href="http://trac.cyberduck.ch/ticket/3068">#3068</a>]</li>
+		        <li>[Bugfix] Improve Interoperability (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2974">#2974</a>, <a href="http://trac.cyberduck.ch/ticket/3076">#3076</a>]</li>
+		        <li>[Bugfix] Different recursive permissions for directory and files [<a href="http://trac.cyberduck.ch/ticket/1787">#1787</a>]</li>
+		    </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.1.2</strong> <em>Feb-01-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg">Download</a></p></td>
 

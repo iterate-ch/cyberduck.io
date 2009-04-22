@@ -47,14 +47,14 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-			</tr>
-
-			<tr>
 				<td class="box-solid" valign="top" width="150">
 					<p><strong>Version 3</strong><br />
 				</td>
 				<td colspan="2" class="box-solid">
+					<ul>
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-2/">3.2</a> ()</strong> <em>Apr-24-2009</em><br />
+						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.2.tar.gz">cyberduck-src-3.2.tar.gz</a></li>
+					</ul>
 					<ul>
 						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-1-2/">3.1.2</a> (4500)</strong> <em>Feb-01-2009</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.1.2.tar.gz">cyberduck-src-3.1.2.tar.gz</a></li>

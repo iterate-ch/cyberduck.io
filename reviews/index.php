@@ -278,11 +278,6 @@
 					</div>
 				</td>
 			</tr>
-
-			<tr>
-				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-			</tr>
-
 			<tr>
 				<td>
 					<div class="footer">
@@ -293,5 +288,6 @@
 			</tr>
 		</table>
 	</div>
+  <?php echo(echoanalytics("..")); ?>
 </body>
 </html>
