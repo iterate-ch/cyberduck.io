@@ -280,17 +280,14 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid"><?php echo(echogoogle());?></td>
+				<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
 			</tr>
 
 			<tr>
-				<td colspan="3">
+				<td>
 					<div class="footer">
-						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
-						<a href=
-						"http://validator.w3.org/check/referer">Validate</a>,
-						$Date: 2006-02-28 16:01:03 +0100 (Tue, 28
-						Feb 2006) $<br />
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
 				</td>
 			</tr>
