@@ -74,7 +74,12 @@ $timestamp = date("r", strtotime($keyarray['payment_date']));
 $transactionID = $keyarray['txn_id'];
 
 // Create our license dictionary to be signed
-$dict = array("Email" => $email);
+$dict = array("Product" => $product,
+			  "Name" => $name,
+			  "Email" => $email,
+			  "Licenses" => $count,
+			  "Timestamp" => $timestamp,
+			  "TransactionID" => $transactionID);
 
 $license = licenseDataForDictionary($dict, $key, $privateKey);
 
@@ -87,4 +92,8 @@ $licenseName = str_replace(array("##NAME##", "##EMAIL##"), array($name, $email),
 $bcc = str_replace(array("##NAME##", "##EMAIL##"), array($name, $email), $bcc);
 
 sendMail($to, $from, $subject, $message, $license, $licenseName, $bcc);
+
+fclose ($fp);
+
+header("Location: $redirect_url");
 ?>
