@@ -222,10 +222,7 @@
                             "ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a
                             class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), <strong>Christopher
                         Forsythe et al.</strong> (<a class="ext" href=
-                            "http://growl.info/">growl.info</a>), <strong>Wade Tregaskis</strong> (<a class="ext"
-                                                                                                      href="http://sf.net/projects/keychain">Keychain
-                        Framework</a>),
-                    <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and
+                            "http://growl.info/">growl.info</a>), <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and
                         UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href=
                             "http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy
                         Matuschak</strong> (<a class="ext" href=
