@@ -45,7 +45,7 @@ $licenseName = "##NAME##.cyberducklicense";
 // ---PAYPAL ONLY CONFIG----
 
 // Your PDT authorization token
-$auth_token = "AUTH TOKEN HERE";
+$auth_token = "3vOf-GLS3uLfp1fOAbwof4APV5r5FuvUBE0gQBULHzxIQA1HrENs4XNlORS";
 // Put in a URL here to redirect back to after the transaction
 $redirect_url = "http://$domain/donate/thanks.php";
 $error_url = "http://$domain/donate/error.php";
