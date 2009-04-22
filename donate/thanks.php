@@ -22,7 +22,11 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="box-solid">
-<p><strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong></p></td>
+<p><strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong></p>
+
+<p>Your transaction has been completed, and a receipt for your purchase has been emailed to you. You may log into your account at <a href="https://www.paypal.com/">paypal.com</a> to view details of this transaction.
+</p>
+</td>
       </tr>
       <tr>
         <td colspan="3">
