@@ -67,8 +67,6 @@ for ($i = 1; $i < count($lines); $i++)
 $product = $keyarray['item_name'];
 $name = $keyarray['first_name']." ".$keyarray['last_name'];
 $email = $keyarray['payer_email'];
-$amount = $keyarray['mc_gross'];
-$count = $keyarray['quantity'];
 // RFC 2822 formatted date
 $timestamp = date("r", strtotime($keyarray['payment_date']));
 $transactionID = $keyarray['txn_id'];
@@ -77,7 +75,6 @@ $transactionID = $keyarray['txn_id'];
 $dict = array("Product" => $product,
 			  "Name" => $name,
 			  "Email" => $email,
-			  "Licenses" => $count,
 			  "Timestamp" => $timestamp,
 			  "TransactionID" => $transactionID);
 

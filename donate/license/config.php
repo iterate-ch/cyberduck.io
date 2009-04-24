@@ -17,14 +17,14 @@ $domain = "cyberduck.ch";
 $product = "Cyberduck";
 
 // These fields below should be customized for your application.  You can use ##NAME## in place of the customer's name and ##EMAIL## in place of his/her email
-$from = "feedback@$domain";
-$subject = "$product License Key for ##NAME##";
+$from = "David Kocher <feedback@$domain>";
+$subject = "$product Donation Key for ##NAME##";
 $message =
 "Dear ##NAME##,
 
-Thank you very much for your support! Your donation is very much appreciated and will help to make Cyberduck even better!
+Thank you very much for your support! The transaction has been completed, and another receipt from Paypal has been emailed to you. 
 
-As a contributor to Cyberduck, you receive a license key that disables the donations prompt that is displayed after installing or updating Cyberduck. Double click the attached file to register your license key.
+Your donation is very much appreciated and will help to advance development and make Cyberduck even better. As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck. Double click the attached file to register your donation key with Cyberduck.
 
 
 Best Regards,
