@@ -11,6 +11,7 @@
   <?php echo(echoheader("..")); ?>
 
 	<title><?php echo(echotitle("Donate")); ?></title>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body id="donate">
@@ -44,7 +45,6 @@
         <td colspan="2" class="box-solid">
           <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
 <p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
-        
 </td>
       </tr>
 
