@@ -23,7 +23,8 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="box-solid">
-	        <p>
+	        <p class="lead">
+				<strong>Donation Key Recovery.</strong>
 	        	As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck. The donation key is sent to you by email automatically after the the Paypal transaction has been completed. To recover a lost registration key, enter your email address below to look it up.
 	        </p>
 			<p>
@@ -34,22 +35,25 @@
 			<script charset="utf-8" type="text/javascript">
 			$(document).ready(function(){
 			   $("input#lookup").click(function(event) {
+					$("#result").empty();
 				 	jQuery.ajax(
 						{
-							url: "recover.py", 
+							url: "registration.py/recover", 
 							cache: false,
 							type: "POST",
 							data: ({email : $("input#email").attr("value")}),
 							success: function(data) {
-								$("p#result").empty();
-								$("p#result").append(data);
+								$("#result").empty();
+								$("#result").append(data);
 							}
 						}
 					);
 			   });
 			 });
 			</script>
-			<p id="result"></p>
+			<p>
+				<strong id="result"/>
+			</p>
 		</td>
 	  </tr>
 

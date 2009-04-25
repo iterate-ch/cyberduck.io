@@ -1,5 +1,6 @@
-#!/usr/bin/python
+#!/usr/local/bin/python
 
+import cgi
 import os
 import sys
 import smtplib
@@ -11,29 +12,11 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from aquaticprime import licenceData
 from datetime import datetime
 
 #create table registration(name TEXT, email TEXT PRIMARY KEY, license TEXT, timestamp TEXT, transactionid TEXT);
 
-db = 'donations.sqlite'
-
-def insert(name, email):
-	conn = sqlite3.connect(db)
-	c = conn.cursor()
-
-	row = (name, email, licenceData({u'Email':email}), datetime.now().isoformat(), u'')
-	print 'Add license key for ' + email
-	try:
-		c.execute('insert into registration values(?,?,?,?,?)', row)
-	except sqlite3.IntegrityError, (ErrorMessage):
-		print u'Error adding license key for ' + email + ':', ErrorMessage
-		pass
-	finally:
-		# Save (commit) the changes
-		conn.commit()
-		# We can also close the cursor if we are done with it
-		c.close()
+db = '/usr/home/dkocher/registration.cyberduck.ch/donations.sqlite'
 
 
 def find(email):
@@ -62,7 +45,7 @@ def reminder(name, email, license):
 		greeting = ' '.join(('Hello', name, ','))
 	else:
 		greeting = ''
-	text = greeting + u"\nYou or someone else has requested to recover your Cyberduck Donation Key. As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck.\n\nDouble click the attached file to register your donation key with Cyberduck.\n\nPlease not that Cyberduck 3.2 or later is required.\n\nBest Regards,\nDavid Kocher\n\n---\nPost bug reports and feature requests at http://trac.cyberduck.ch/\n---\nHelp Wiki at http://help.cyberduck.ch"
+	text = greeting + u"\nYou or someone else has requested to recover your Cyberduck Donation Key. As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck.\n\nDouble click the attached file to register your donation key with Cyberduck.\n\nPlease not that Cyberduck 3.2 or later is required.\n\nBest Regards,\nDavid Kocher\n\n---\nHelp Wiki at http://help.cyberduck.ch\n---\nPost bug reports and feature requests at http://trac.cyberduck.ch/\n\n"
 	body = MIMEText(text, 'plain')
 	outer.attach(body)
 
@@ -79,6 +62,16 @@ def reminder(name, email, license):
 	# Now send the message
 	s = smtplib.SMTP()
 	s.connect("localhost")
+	print u'Sending reminder email to', email
 	s.sendmail("David Kocher <key@cyberduck.ch>", email, outer.as_string())
 	s.quit()
-	return True
+
+
+def recover(req, email):
+	license = find(email)
+	if license != None:
+		reminder(None, email, license)
+		return u'A new donation key has been sent to your email.'
+	else:
+		return u'Lookup failed. You are not a registered user.'
+		
