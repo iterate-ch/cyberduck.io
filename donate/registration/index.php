@@ -38,7 +38,7 @@
 					$("#result").empty();
 				 	jQuery.ajax(
 						{
-							url: "registration.py/recover", 
+							url: "http://reg.cyberduck.ch/lookup", 
 							cache: false,
 							type: "POST",
 							data: ({email : $("input#email").attr("value")}),
