@@ -10,7 +10,7 @@ import registration
 
 def insertFromFile(file):
 	for line in open(file, 'r'):
-		insertEmail(line.rstrip())
+		registration.insert(u'', line.rstrip())
 
 
 # Send registration keys to all users in the database
