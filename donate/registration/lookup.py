@@ -11,7 +11,7 @@ if __name__=="__main__":
 	print
 	try:
 		form = cgi.FieldStorage()
-		email = form['email'].value
+		email = cgi.escape(form['email'].value)
 		license = registration.find(email)
 		if license != None:
 			registration.reminder(None, email, license)

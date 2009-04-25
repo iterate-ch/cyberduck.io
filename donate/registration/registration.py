@@ -16,11 +16,12 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+import email.Utils
+
 from aquaticprime import licenceData
 
 #create table registration(name TEXT, email TEXT PRIMARY KEY, license TEXT, timestamp TEXT, transactionid TEXT);
-
-db = '/usr/home/dkocher/reg.cyberduck.ch/donations.sqlite'
+db = 'donations.sqlite'
 
 LOG_FILENAME = 'registration.log'
 
@@ -89,6 +90,8 @@ def reminder(name, to, license):
 def mail(to, body, license):
 	# Create the enclosing (outer) message
 	multipart = MIMEMultipart()
+ 	multipart["Date"] = email.Utils.formatdate(localtime=1)
+ 	multipart["Message-ID"] = email.Utils.make_msgid()
 	multipart['Subject'] = 'Cyberduck Donation Key'
 	multipart['To'] = to
 	multipart['From'] = 'David Kocher <key@cyberduck.ch>'
