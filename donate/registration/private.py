@@ -5,6 +5,8 @@ import sys
 import sqlite3
 
 import registration
+
+from datetime import datetime
 from aquaticprime import licenceData
 
 #create table registration(name TEXT, email TEXT PRIMARY KEY, license TEXT, timestamp TEXT, transactionid TEXT);
