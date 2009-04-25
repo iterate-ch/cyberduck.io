@@ -1,0 +1,22 @@
+#!/usr/local/bin/python
+
+import cgi
+import registration
+
+from traceback import format_exception
+from sys import exc_info
+
+if __name__=="__main__":
+	try:
+		form = cgi.FieldStorage()
+		email = form['email'].value
+		logging.info('Looking up registration for %s', email)
+		license = registration.find(email)
+		if license != None:
+			registration.reminder(None, email, license)
+			print u'A new donation key has been sent to your email.'
+		else:
+			print u'Lookup failed. You are not a registered user.'
+	except:
+		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
+		cgi.print_exception()

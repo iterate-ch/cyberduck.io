@@ -81,5 +81,3 @@ def licenceData(license_info):
 	licence_data += u"</plist>\n"
 	
 	return licence_data
-
-#print licenceData({u'name':u'koen'})
