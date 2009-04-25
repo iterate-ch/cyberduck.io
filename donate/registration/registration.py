@@ -1,6 +1,5 @@
 #!/usr/local/bin/python
 
-import cgi
 import os
 import sys
 import smtplib
@@ -11,8 +10,6 @@ from email.message import Message
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
-from datetime import datetime
 
 #create table registration(name TEXT, email TEXT PRIMARY KEY, license TEXT, timestamp TEXT, transactionid TEXT);
 
