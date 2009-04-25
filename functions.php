@@ -1,10 +1,10 @@
 <?php
     function echoheader($dir) {
         return "
-		<link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\"></link>
+		<link rel=\"Stylesheet\" type=\"text/css\" href=\"".$dir."/stylesheet.css\" />
 		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"http://cyberduck.ch/changelog.rss\" />
 		<link rel=\"shortcut icon\" href=\"".$dir."/favicon.ico\" type=\"image/vnd.microsoft.icon\" />
-		<meta http-equiv=\"content-type\" content=\"application/xhtml; charset=utf-8\"></meta>
+		<meta http-equiv=\"content-type\" content=\"application/xhtml; charset=utf-8\" />
 		<meta name=\"verify-v1\" content=\"oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=\" />
 ";
     }
