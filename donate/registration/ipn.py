@@ -7,10 +7,7 @@ import sys
 from urllib import urlencode
 from traceback import format_exception
 from sys import exc_info
-
-import glob
 import logging
-import logging.handlers
 
 import registration
 
@@ -37,6 +34,8 @@ def confirm(form):
 
 
 if __name__=="__main__":
+	print "Content-type: text/html"
+	print
 	try:
 		form = cgi.FieldStorage()
 		if confirm(form):

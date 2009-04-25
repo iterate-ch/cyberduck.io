@@ -2,11 +2,13 @@
 
 import cgi
 import registration
-
+import logging
 from traceback import format_exception
 from sys import exc_info
 
 if __name__=="__main__":
+	print "Content-type: text/html"
+	print
 	try:
 		form = cgi.FieldStorage()
 		email = form['email'].value
