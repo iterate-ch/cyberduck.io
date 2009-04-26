@@ -45,12 +45,14 @@ if __name__=="__main__":
 				logging.warn('IPN Payment status %s not handled for %s', status, email)
 			else:
 				try:
-					itemname = form['item_name'].value
-					firstname = form['first_name'].value
-					lastname = form['last_name'].value
+					charset = form.getfirst('charset') or 'UTF8'
+					logging.debug('Charset is %s', charset)
+					itemname = form.getfirst('item_name', '').decode(charset)
+					firstname = form.getfirst('first_name', '').decode(charset)
+					lastname = form.getfirst('last_name', '').decode(charset)
 					name = firstname + ' ' + lastname
-					timestamp = form['payment_date'].value
-					transaction = form['txn_id'].value
+					timestamp = form.getfirst('payment_date', '').decode(charset)
+					transaction = form.getfirst('txn_id', '').decode(charset)
 					# Insert into registration database
 					logging.info('Insert %s into registration database', email)
 					license = registration.insert(name, email, timestamp, transaction)
