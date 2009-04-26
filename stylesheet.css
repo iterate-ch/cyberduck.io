@@ -227,6 +227,10 @@
 		padding-left:5px;
 		padding-right:5px;
 	}
+	
+	form {
+		padding-left:5px;
+	}
 
 	p.lead {
 		line-height: normal;
@@ -418,5 +422,9 @@
 	}
 	
 	div.amzn_wdgt div.wdgt_ft, div.amzn_wdgt div.wdgt_hd {
+		display: none;
+	}
+
+	.hidden {
 		display: none;
 	}

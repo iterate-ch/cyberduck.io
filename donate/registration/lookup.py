@@ -7,7 +7,7 @@ from traceback import format_exception
 from sys import exc_info
 
 if __name__=="__main__":
-	print "Content-type: text/html"
+	print "Content-type: text/plain"
 	print
 	try:
 		form = cgi.FieldStorage()

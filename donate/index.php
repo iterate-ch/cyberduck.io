@@ -12,6 +12,7 @@
 
 	<title><?php echo(echotitle("Donate")); ?></title>
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+   <script src="js/jquery.form.js" type="text/javascript"></script>
 </head>
 
 <body id="donate">
@@ -68,10 +69,7 @@
       <tr>
         <td width="150" valign="middle" class="box-filled">
           <div align="center">
-<!--
-            <a href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/"><img src="../img/amazon.png" alt="amazon books" border="0" /></a>
--->
-<a href="http://www.amazon.de/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.de%2Fgp%2Fregistry%2Fwishlist%2F1QIQE5HKOS011%3Fie%3DUTF8%26%252AVersion%252A%3D1%26%252Aentries%252A%3D0&site-redirect=de&tag=httpcybech-21&linkCode=ur2&camp=1638&creative=19454"><img src="../img/amazon.png" alt="amazon books" border="0" /></a>
+<a href="http://www.amazon.de/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.de%2Fgp%2Fregistry%2Fwishlist%2F1QIQE5HKOS011%3Fie%3DUTF8%26%252AVersion%252A%3D1%26%252Aentries%252A%3D0&site-redirect=de&tag=httpcybech-21&linkCode=ur2&camp=1638&creative=19454"><img src="img/amazon.png" alt="amazon books" border="0" /></a>
           </div>
         </td>
 
@@ -79,14 +77,43 @@
           <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
           amazon.de</a> wishlist.</p>
-<!--
-		<script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/httpcybech-21/8004/3ed7239d-88ef-47f6-a09c-83c0eeeba434"> </script>
-		<noscript>
-			<a href="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fhttpcybech-21%2F8004%2F3ed7239d-88ef-47f6-a09c-83c0eeeba434&Operation=NoScript">Amazon.de Widgets</a>
-		</noscript>
--->
         </td>
       </tr>
+
+	      <tr>
+		        <td width="150" valign="top" class="box-filled">
+			<br />
+					          <div align="center">
+<img src="img/cert.png" alt="Donation Key" border="0" />
+					          </div>
+		        </td>
+
+		        <td colspan="2" class="box-solid">
+					        <p class="lead">
+					<strong>Donation Key Recovery.</strong>
+		        	As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck. The donation key is sent to you by email automatically after the the Paypal transaction has been completed. To recover a lost registration key, enter your email address below to look it up.
+		        </p>
+				<p>
+					<form id="lookup" method="GET" action="lookup">
+						<label for="email">Email address registered with Paypal:</label>
+						<input type="text" id="email" name="email" value="me@example.net"/>
+						<input type="submit" id="lookup" value="Lookup"/>
+					</form>
+					<script charset="utf-8" type="text/javascript">
+						$(document).ready(function() {
+						    var options = {
+								target: '#result',
+								clearForm: true
+							}
+							$("form#lookup").ajaxForm(options);
+						 });
+					</script>
+				<p>
+					<strong id="result">No invocation yet.</strong>
+				</p>
+			</td>
+		  </tr>
+
 
       <tr>
         <td colspan="3">
