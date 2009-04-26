@@ -15,9 +15,9 @@ if __name__=="__main__":
 		license = registration.find(email)
 		if license != None:
 			registration.reminder(None, email, license)
-			print u'A new donation key has been sent to your email.'
+			print u'A new donation key has been sent to '+email+'.'
 		else:
-			print u'You are not a registered user.'
+			print u'No registration can be found for '+email+'.'
 	except:
 		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
 		cgi.print_exception()
