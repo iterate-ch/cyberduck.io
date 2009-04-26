@@ -8,9 +8,13 @@ from datetime import datetime
 
 import registration
 
-def batch(file):
+def insert(file):
 	for line in open(file, 'r'):
 		registration.insert(u'', line.rstrip(), datetime.now().isoformat(), u'')
+
+def delete(file):
+	for line in open(file, 'r'):
+		registration.delete(line.rstrip())
 
 
 # Send registration keys to all users in the database

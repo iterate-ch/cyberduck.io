@@ -7,8 +7,8 @@ from base64 import decodestring as b64decode
 from base64 import encodestring as b64encode
 from binascii import unhexlify as hex2bin
 
-pubKey = open('public.key', 'r').read() 
-privKey = open('private.key', 'r').read() 
+pubKey = u'0xAF026CFCF552C3D09A051124A596CEF7BBB26B15629504CD163B09675BE507C9C526ED3DBFCB91B78F718E0886A18400B56BC00E9213228CD6D6E9C84D8B6099AA3DE6E6F46F6CC7970982DE93A2A7318351FDFA25AE75B403996E50BB40643384214234E84EDA3E518772A4FF57FE29DD7C77A5EEB14C9023CA18FEC63236EF'
+privKey = u'***REMOVED***'
 
 def hex2dec(s):
 	return int(s, 16)

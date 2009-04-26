@@ -20,4 +20,4 @@ if __name__=="__main__":
 			print u'No registration can be found for '+email+'.'
 	except:
 		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
-		print u'No registration can be found'
+		print u'No registration can be found.'

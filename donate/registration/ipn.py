@@ -57,8 +57,8 @@ if __name__=="__main__":
 					logging.info('Insert %s into registration database', email)
 					license = registration.insert(name, email, timestamp, transaction)
 					# Send confirmation
-					#registration.confirm(name, email, license)
-					#logging.info('Confirmation sent to %s', email)
+					registration.confirm(name, email, license)
+					logging.info('Confirmation sent to %s', email)
 				except KeyError, (ErrorMessage):
 					logging.error('Missing key %s', ErrorMessage)
 					raise

@@ -32,13 +32,29 @@ logging.basicConfig(level=logging.DEBUG,
                     filename=LOG_FILENAME,
                     filemode='a')
 
+def delete(email):
+	conn = sqlite3.connect(db)
+	c = conn.cursor()
+
+	row = (email,)
+	logging.info('Deleting license for %s', email)
+	try:
+		c.execute('delete from registration where (email=?)', row)
+		logging.info('Deleted license for %s', email)
+	finally:
+		# Save (commit) the changes
+		conn.commit()
+		# We can also close the cursor if we are done with it
+		c.close()
+
+
 # Add new donator to database
 def insert(name, email, timestamp, transaction):
 	conn = sqlite3.connect(db)
 	c = conn.cursor()
 
 	license = licenceData({u'Name':name, u'Email':email, u'Product':'Cyberduck', u'Timestamp':timestamp, u'Transaction':transaction})
-	row = (name, email, license, timestamp, u'')
+	row = (name, email, license, timestamp, transaction)
 	logging.info('Add license key for %s, %s', name, email)
 	try:
 		c.execute('insert into registration values(?,?,?,?,?)', row)
@@ -117,5 +133,5 @@ def mail(name, to, body, license):
 	s = smtplib.SMTP()
 	s.connect("localhost")
 	logging.info('Sending license to %s', to)
-	s.sendmail("David Kocher <key@cyberduck.ch>", to, multipart.as_string())
+	s.sendmail("David Kocher <key@cyberduck.ch>", [to, 'license@cyberduck.ch'], multipart.as_string())
 	s.quit()
