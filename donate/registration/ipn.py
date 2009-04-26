@@ -39,13 +39,13 @@ if __name__=="__main__":
 	try:
 		form = cgi.FieldStorage()
 		if confirm(form):
-			status = form['payment_status'].value
-			email = form['payer_email'].value
+			charset = form.getfirst('charset') or 'UTF8'
+			status = form.getfirst('payment_status').decode(charset)
+			email = form.getfirst('payer_email').decode(charset)
 			if not status == "Completed":
 				logging.warn('IPN Payment status %s not handled for %s', status, email)
 			else:
 				try:
-					charset = form.getfirst('charset') or 'UTF8'
 					logging.debug('Charset is %s', charset)
 					itemname = form.getfirst('item_name', '').decode(charset)
 					firstname = form.getfirst('first_name', '').decode(charset)
