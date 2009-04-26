@@ -30,7 +30,7 @@ def confirm(form):
 		return True
 	else:
 		logging.warn('Callback verification failed')
-		return False
+		raise RuntimeError('Callback verification failed')
 
 
 if __name__=="__main__":
@@ -61,7 +61,7 @@ if __name__=="__main__":
 					#logging.info('Confirmation sent to %s', email)
 				except KeyError, (ErrorMessage):
 					logging.error('Missing key %s', ErrorMessage)
-					cgi.print_exception()
+					raise
 	except:
 		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
 		cgi.print_exception()

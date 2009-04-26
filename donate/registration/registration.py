@@ -65,6 +65,7 @@ def find(email):
 	finally:
 		# We can also close the cursor if we are done with it
 		c.close()
+	logging.warn('Lookup for %s failed', email)
 	return None
 
 

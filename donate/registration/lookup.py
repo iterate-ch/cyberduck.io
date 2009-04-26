@@ -17,7 +17,7 @@ if __name__=="__main__":
 			registration.reminder(None, email, license)
 			print u'A new donation key has been sent to your email.'
 		else:
-			print u'Lookup failed. You are not a registered user.'
+			print u'You are not a registered user.'
 	except:
 		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
 		cgi.print_exception()
