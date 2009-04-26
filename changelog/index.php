@@ -32,7 +32,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.2</strong> <em>Apr-24-2009</em><br />
+        <p><strong>3.2</strong> <em>Apr-26-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -45,8 +45,10 @@
 		        <li>[Feature] Support for hierarchical directory structure (Mosso)</li>
 		        <li>[Feature] Added Espresso to the list of supported editors (http://macrabbit.com/espresso/) [<a href="http://trac.cyberduck.ch/ticket/2823">#2823</a>]</li>
 		        <li>[Feature] Display date of transfer [<a href="http://trac.cyberduck.ch/ticket/1462">#1462</a>]</li>
+		        <li>[Feature] Display percentage transferred [<a href="http://trac.cyberduck.ch/ticket/2618">#2618</a>]</li>
 		        <li>[Feature] Option for big sized icons in bookmark list</li>
 		        <li>[Feature] Drag URL to browser window to open connection [<a href="http://trac.cyberduck.ch/ticket/2326">#2326</a>]</li>
+		        <li>[Feature] Display realm of HTTP authentication (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/3083">#3083</a>]</li>
 		        <li>[Bugfix] Update passwords in Keychain [<a href="http://trac.cyberduck.ch/ticket/2984">#2984</a>]</li>
 		        <li>[Bugfix] Only reauthenticate when needed (Mosso) [<a href="http://trac.cyberduck.ch/ticket/2876">#2876</a>]</li>
 		        <li>[Bugfix] Invalid Origin parameter when creating CloudFront distribution (S3) [<a href="http://trac.cyberduck.ch/ticket/3068">#3068</a>]</li>
