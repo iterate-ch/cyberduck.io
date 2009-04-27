@@ -109,7 +109,7 @@
 						 });
 					</script>
 				<p>
-					<strong id="result">No invocation yet.</strong>
+					<strong id="result"></strong>
 				</p>
 			</td>
 		  </tr>
