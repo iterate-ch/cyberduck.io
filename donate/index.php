@@ -44,26 +44,21 @@
         </td>
 
         <td colspan="2" class="box-solid">
-          <p>Paypal accepts all major credit cards. You do not need to open an account.</p>
-<p><img src="http://www.paypal.com/en_US/i/icon/icon_visa.gif" alt="Visa" /> <img src="http://www.paypal.com/en_US/i/icon/icon_mastercard.gif" alt="MasterCard" /> <img src="http://www.paypal.com/en_US/i/icon/icon_discover.gif" alt="Discover" /> <img src="http://www.paypal.com/en_US/i/logo/icon_amex.gif" alt="American Express" /> <img src="http://www.paypal.com/en_US/i/icon/icon_echeck.gif" alt="eCheck" /></p>
+			        <p class="lead">
+			<strong>Contribution.</strong>
+				As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck.
+	
+	You can use your credit card or bank account without the need to open a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">Paypal</a> account. You will receive a receipt from Paypal when completing the transaction.</p>
+
+	        <p>If you prefer not to use Paypal you can send money by IBAN. You will have to request a donation key from me by email.</p>
+		<p>David Kocher, Switzerland<br />
+		<tt>
+			Postfinance<br />
+			<strong>IBAN</strong> CH19 0900 0000 3030 0229 3<br />
+			<strong>BIC</strong> POFICHBEXXX
+		</tt>
+	</p>
 </td>
-      </tr>
-
-      <tr>
-        <td width="150" valign="top" class="box-filled">
-	<p style="text-align:center;"><strong>Bank Account</strong></p>
-        </td>
-
-        <td colspan="2" class="box-solid">
-          	<p>
-				David Kocher, Switzerland<br />
-				<tt>
-					Postfinance<br />
-					<strong>IBAN</strong> CH19 0900 0000 3030 0229 3<br />
-					<strong>BIC</strong> POFICHBEXXX
-				</tt>
-			</p>
-        </td>
       </tr>
 
       <tr>
@@ -74,9 +69,11 @@
         </td>
 
         <td colspan="2" class="box-solid">
-          <p>If you prefer not to to use Paypal, I do also have a <a class="ext" href=
+			        <p class="lead">
+			<strong>Amazon.</strong>
+          If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
-          amazon.de</a> wishlist.</p>
+          Amazon</a> wishlist.</p>
         </td>
       </tr>
 
@@ -91,7 +88,7 @@
 		        <td colspan="2" class="box-solid">
 					        <p class="lead">
 					<strong>Donation Key Recovery.</strong>
-		        	As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck. The donation key is sent to you by email automatically after the the Paypal transaction has been completed. To recover a lost registration key, enter your email address below to look it up.
+		        	The donation key is sent to you by email automatically after the the Paypal transaction has been completed. To recover a lost registration key, enter your email address below to look it up.
 		        </p>
 				<p>
 					<form id="lookup" method="GET" action="lookup">
