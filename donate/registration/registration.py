@@ -54,7 +54,7 @@ def insert(name, email, timestamp, transaction):
 	conn = sqlite3.connect(db)
 	c = conn.cursor()
 
-	license = licenceData({u'Name':name, u'Email':email, u'Product':'Cyberduck', u'Timestamp':timestamp, u'Transaction':transaction})
+	license = licenceData({u'Email':email, u'Product':'Cyberduck', u'Timestamp':timestamp, u'Transaction':transaction})
 	row = (name, email, license, timestamp, transaction)
 	logging.info('Add license key for %s, %s', name, email)
 	try:

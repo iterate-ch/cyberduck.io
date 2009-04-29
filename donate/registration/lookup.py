@@ -12,13 +12,16 @@ if __name__=="__main__":
 	print
 	try:
 		form = cgi.FieldStorage()
-		email = cgi.escape(form['email'].value)
-		license = registration.find(email)
-		if license != None:
-			registration.reminder(None, email, license)
-			print u'A new donation key has been sent to '+email+'.'
+		if form.has_key("email"):
+			email   = cgi.escape(form['email'].value)
+			license = registration.find(email)
+			if license != None:
+				registration.reminder(None, email, license)
+				print u'A new donation key has been sent to '+email+'.'
+			else:
+				print u'No registration can be found for '+email+'.'
 		else:
-			print u'No registration can be found for '+email+'.'
+			print u'No registration can be found.'
 	except:
 		logging.error('Unexpected error:'.join(format_exception(*exc_info())))
 		print u'No registration can be found.'
