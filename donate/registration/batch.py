@@ -3,15 +3,12 @@
 
 import os
 import sys
-import sqlite3
-
-from datetime import datetime
 
 import registration
 
 def insert(file):
 	for line in open(file, 'r'):
-		registration.insert(u'', line.rstrip(), datetime.now().isoformat(), u'')
+		registration.insert(line.rstrip())
 
 
 def delete(file):

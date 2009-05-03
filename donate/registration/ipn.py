@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import cgi
-import time
 import urllib2
 import sys
 from urllib import urlencode
@@ -55,11 +54,9 @@ if __name__=="__main__":
 					timestamp = form.getfirst('payment_date', '').decode(charset)
 					transaction = form.getfirst('txn_id', '').decode(charset)
 					# Insert into registration database
-					logging.info('Insert %s into registration database', email)
-					license = registration.insert(name, email, timestamp, transaction)
+					license = registration.insertImpl(name, email, timestamp, transaction)
 					# Send confirmation
 					registration.confirm(name, email, license)
-					logging.info('Confirmation sent to %s', email)
 				except KeyError, (ErrorMessage):
 					logging.error('Missing key %s', ErrorMessage)
 					raise

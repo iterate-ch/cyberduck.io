@@ -18,6 +18,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 import email.Utils
+import email.Charset 
+email.Charset.add_charset('utf-8',email.Charset.SHORTEST, None, None)
+
+from datetime import datetime
 
 from aquaticprime import licenceData
 
@@ -38,7 +42,6 @@ def delete(email):
 	c = conn.cursor()
 
 	row = (email,)
-	logging.info('Deleting license for %s', email)
 	try:
 		c.execute('delete from registration where (email=?)', row)
 		logging.info('Deleted license for %s', email)
@@ -49,8 +52,12 @@ def delete(email):
 		c.close()
 
 
+def insert(email):
+	insertImpl(u'', email, datetime.now().isoformat(), u'')
+
+
 # Add new donator to database
-def insert(name, email, timestamp, transaction):
+def insertImpl(name, email, timestamp, transaction):
 	conn = sqlite3.connect(db)
 	c = conn.cursor()
 
@@ -95,13 +102,13 @@ def greeting(name):
 	
 def confirm(name, to, license):
 	text = greeting(name) + u",\n\nThank you very much for your support! The transaction has been completed, and another receipt from Paypal has been emailed to you.\n\nYour donation is very much appreciated and will help to advance development and make Cyberduck even better.  As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck.\n\nDouble click the attached file or drag it to the Cyberduck application icon to register your donation key.\n\nPlease not that Cyberduck 3.2 or later is required.\n\nHave fun,\nDavid Kocher\n\n---\nHelp Wiki at http://help.cyberduck.ch\n---\nPost bug reports and feature requests at http://trac.cyberduck.ch/\n\n"
-	body = MIMEText(text, 'plain', 'utf-8')
+	body = MIMEText(text.encode('utf-8'), 'plain', 'utf-8')
 	mail(name, to, body, license)
 
 
 def reminder(name, to, license):
 	text = greeting(name) + u",\n\nYou or someone else has requested to recover your Cyberduck Donation Key. As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck.\n\nDouble click the attached file or drag it to the Cyberduck application icon to register your donation key.\n\nPlease not that Cyberduck 3.2 or later is required.\n\nHave fun,\nDavid Kocher\n\n---\nHelp Wiki at http://help.cyberduck.ch\n---\nPost bug reports and feature requests at http://trac.cyberduck.ch/\n\n"
-	body = MIMEText(text, 'plain', 'utf-8')
+	body = MIMEText(text.encode('utf-8'), 'plain', 'utf-8')
 	mail(name, to, body, license)
 
 
@@ -115,7 +122,7 @@ def mail(name, to, body, license):
 	else:
 		multipart['Subject'] = 'Cyberduck Donation Key for '+to
 	multipart['To'] = to
-	multipart['Bcc'] = 'license@cyberduck.ch'
+	# multipart['Bcc'] = 'license@cyberduck.ch'
 	multipart['From'] = 'David Kocher <key@cyberduck.ch>'
 	multipart.preamble = u'Please use a MIME-aware mail reader.\n'
 	multipart.attach(body)
@@ -134,5 +141,5 @@ def mail(name, to, body, license):
 	s = smtplib.SMTP()
 	s.connect("localhost")
 	logging.info('Sending license to %s', to)
-	s.sendmail("David Kocher <key@cyberduck.ch>", [to, 'license@cyberduck.ch'], multipart.as_string())
+	s.sendmail("David Kocher <key@cyberduck.ch>", to, multipart.as_string())
 	s.quit()
