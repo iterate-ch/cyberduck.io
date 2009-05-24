@@ -93,7 +93,7 @@
 				<p>
 					<form id="lookup" method="GET" action="lookup">
 						<label for="email">Email address registered with Paypal:</label>
-						<input type="text" id="email" name="email" value="me@example.net"/>
+						<input type="text" id="email" name="email" />
 						<input type="submit" id="lookup" value="Lookup"/>
 					</form>
 					<script charset="utf-8" type="text/javascript">
