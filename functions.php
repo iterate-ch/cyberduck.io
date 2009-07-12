@@ -61,7 +61,7 @@ function echodonate($dir) {
     }
 
 	function echotitle($page) {
-		return "Cyberduck | FTP, SFTP, WebDAV, Rackspace Cloud Files &amp; Amazon S3 Browser for Mac OS X | $page";
+		return "Cyberduck | FTP, SFTP, WebDAV, Cloud Files &amp; Amazon S3 Browser for Mac OS X | $page";
 	}
     
     function echosubmenu($dir) {

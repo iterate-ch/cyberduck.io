@@ -27,7 +27,7 @@
             <p class="lead">
                 <strong>Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open
                     source</a> FTP, SFTP, <span class="version3">WebDAV</span>,
-                    <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a>
+                    <a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a>
                     and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
                     browser for the Mac.</strong>
 
@@ -74,7 +74,7 @@
                                 class="version3"><a href="http://webdav.org" class="ext">WebDAV</a></span> (Web-based
                         Distributed Authoring and Versioning), <span class="version3"><a class="ext"
                                                                                          href="http://aws.amazon.com/s3">Amazon
-                            S3</a></span> and <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Mosso Cloud Files</a>.
+                            S3</a></span> and <a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Rackspace Cloud Files</a>.
                     </p>
 
                     <p><img src="./img/column.png" class="feature" alt=""/> <strong>Browser</strong><br/>
@@ -186,9 +186,9 @@
                         SharePoint or any other <a href="http://webdav.org" class="ext">WebDAV</a> compliant server. Supports
                         Basic, Digest and NTLM Authentication.</p>
 
-                    <p><img src="./img/cf.png" class="feature" alt=""/> <strong class="version3">Mosso Cloud Files</strong><br/>
-                        Manage your Rackspace <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Hosting</a>
-                        distributions.</p>
+                    <p><img src="./img/cf.png" class="feature" alt=""/> <strong class="version3">Rackspace Cloud Files</strong><br/>
+                        Manage your Rackspace <a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a>
+                        storage including the configuration of your <a href="http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
 
                     <p><img src="./img/idisk.png" class="feature" alt=""/> <strong>iDisk</strong><br/>
                         Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac
