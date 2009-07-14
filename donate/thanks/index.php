@@ -22,10 +22,15 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td colspan="3" class="box-solid">
-<p><strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong></p>
+<p><strong>Your donation is very much appreciated and will help to advance development and
+			 make Cyberduck even better.</strong></p>
 
-<p>Your transaction has been completed, and a receipt for your purchase has been emailed to you. You may log into your account at <a href="https://www.paypal.com/">paypal.com</a> to view details of this transaction.
-</p>
+<p>
+	The transaction has been completed, and a receipt from Paypal has been emailed to you. You may log into your account at <a href="https://www.paypal.com/">paypal.com</a> to view details of this transaction.</p>
+	
+<p>As a contributor to Cyberduck, you receive a donation key that disables the donation prompt which is displayed after installing or updating Cyberduck. It should be in your mailbox by now, too.
+	
+ You can always <a href="http://cyberduck.ch/donate#recover">recover</a> your donation key using the email adress registered with Paypal.</p>
 </td>
       </tr>
       <tr>
