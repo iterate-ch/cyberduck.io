@@ -73,7 +73,8 @@
 			<strong>Amazon.</strong>
           If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
-          Amazon</a> wishlist.</p>
+          Amazon</a> wishlist. You will have to request a donation key from me by email.
+</p>
         </td>
       </tr>
 
