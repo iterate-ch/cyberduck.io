@@ -32,6 +32,36 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.2.1</strong> <em>Jul-14-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Feature] Create placeholder objects for virtual directory (S3)</li>
+		        <li>[Feature] Info window displays signed temporary public URL with a default validity of 24 hours (S3)</li>
+		        <li>[Feature] Info window displays BitTorrent URL of file (S3)</li>
+		        <li>[Feature] Option to enable Bucket Access Logging in the Info window (S3)</li>
+		        <li>[Feature] Option to enable CloudFront Access Logging in the Info window (S3)</li>
+		        <li>[Feature] Updated to Cloudfront API Version 2009-04-02 (S3)</li>
+		        <li>[Feature] Access third party buckets using anonymous login (S3)</li>
+		        <li>[Feature] Editable hostname to connect to third party services implementing S3 [<a
+		                href="http://trac.cyberduck.ch/ticket/3125">#3125</a>] (S3)
+		        </li>
+		        <li>[Feature[ Option to specify object expiration using Cache-Control header [<a
+		                href="http://trac.cyberduck.ch/ticket/3185">#3185</a>] (S3)
+		        </li>
+		        <li>[Bugfix] MobileMe iDisk upload failures (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/3149">#3149</a>]
+		        </li>
+		        <li>[Bugfix] Overwrite action causes empty downloaded file [<a
+		                href="http://trac.cyberduck.ch/ticket/3252">#3252</a>]
+		        </li>
+		        <li>[Bugfix] Status bar is draggable [<a href="http://trac.cyberduck.ch/ticket/2159">#2159</a>]</li>
+		    </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.2</strong> <em>Apr-26-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p></td>
 

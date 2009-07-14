@@ -236,14 +236,14 @@
                 <table cellpadding="0" cellspacing="0">
                     <tr>
                         <td id="download" valign="top">
-                            <a href="./Cyberduck-3.2.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png"
+                            <a href="./Cyberduck-3.2.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png"
                                                                  align="left" alt="Download" border="0"/></a>
                         </td>
                         <td valign="top">
                             <p>
                                 <strong>Download</strong><br/>
-                                <strong class="version3">3.2</strong> <em>(Apr-26-2009)</em><br/>
-                                <a href="./Cyberduck-3.2.dmg">Cyberduck-3.2.dmg</a><br/>(10.3MB, Mac OS X 10.4 or later
+                                <strong class="version3">3.2.1</strong> <em>(Jul-14-2009)</em><br/>
+                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(10.3MB, Mac OS X 10.4 or later
                                 required. Mac OS X 10.5 recommended.)
 								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 								<input type="hidden" name="cmd" value="_s-xclick">
