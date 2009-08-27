@@ -36,7 +36,7 @@
 		right:0px;
 		top:5px;
 		color:#000000;
-		background:#e5e5db;
+/*		background:#e5e5db;*/
 	}
 	
 	div.header #logo {
@@ -428,3 +428,8 @@
 	.hidden {
 		display: none;
 	}
+	
+	li.removed {
+        /*text-decoration: line-through;*/
+    }
+    
