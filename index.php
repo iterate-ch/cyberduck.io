@@ -215,8 +215,10 @@
             </p>
 
             <p>
-                <small>This product includes software developed by <strong>Christian Plattner</strong> (<a class="ext"
-                                                                                                           href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
+                <small>This product includes software developed by
+					<strong>Duncan McGregor et al.</strong> (<a class="ext" href="https://rococoa.dev.java.net/">Rococoa</a>),
+					<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://jna.dev.java.net/">JNA</a>),
+					<strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
                     <strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">enterprisedt.com</a>) and
                     the <strong>Apache Software Foundation</strong> (<a class=
                             "ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a

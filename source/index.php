@@ -30,14 +30,25 @@
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>
-					<p><small>This product includes software developed by <strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
-					<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">enterprisedt.com</a>) and the <strong>Apache Software Foundation</strong> (<a class=
-					"ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), <strong>Christopher Forsythe et al.</strong> (<a class="ext" href=
-					"http://growl.info/">growl.info</a>), <strong>Wade Tregaskis</strong> (<a class="ext" href="http://sf.net/projects/keychain">Keychain Framework</a>),
-					<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href=
-					"http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy Matuschak</strong> (<a class="ext" href=
-					"http://www.andymatuschak.org/pages/sparkle">Sparkle</a>), <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), <strong>Shaun
-					Wexler</strong> (<a href="http://www.macfoh.com/">SKWSegmentedControl</a>),</small></p>
+					<p>
+						
+		                <small>This product includes software developed by
+							<strong>Duncan McGregor et al.</strong> (<a class="ext" href="https://rococoa.dev.java.net/">Rococoa</a>),
+							<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://jna.dev.java.net/">JNA</a>),
+							<strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
+		                    <strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">enterprisedt.com</a>) and
+		                    the <strong>Apache Software Foundation</strong> (<a class=
+		                            "ext" href="http://jakarta.apache.org">jakarta.apache.org</a>), <strong>James Murty</strong> (<a
+		                            class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), <strong>Christopher
+		                        Forsythe et al.</strong> (<a class="ext" href=
+		                            "http://growl.info/">growl.info</a>), <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and
+		                        UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href=
+		                            "http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy
+		                        Matuschak</strong> (<a class="ext" href=
+		                            "http://www.andymatuschak.org/pages/sparkle">Sparkle</a>), <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), <strong>Shaun Wexler</strong> (<a class="ext" href="http://www.macfoh.com/">SKWSegmentedControl</a>), <strong>Brian Amerige</strong> (<a class="ext" href="http://extendmac.com/EMKeychain/">EMKeychain</a>), <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>)
+		                </small>
+					
+					</p>
 					<p><a class="ext" href="http://www.jetbrains.com/">Jetbrains</a> contributed a free license
 					of their great <a class="ext" href="http://www.jetbrains.com/idea">IDE</a> to this project.</p>
 					<p><a href="http://www.jetbrains.com/idea/">
