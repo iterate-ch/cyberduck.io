@@ -29,10 +29,9 @@
 		    <ul>
 		        <li>[Bugfix] Incompatibility with Mac OS X 10.6 (Snow Leopard) [<a href="http://trac.cyberduck.ch/ticket/3039">#3039</a>]
 		        </li>
-		        <li>[Feature] 64-Bit support.</li>
 		        <li>[Feature] New application icon (Thanks to Dietmar Kerschner)</li>
-		        <li class="removed">[Feature] MobileMe bookmark syncing</li>
 		        <li class="removed">[Feature] AppleScript support</li>
+		        <li class="removed">[Feature] Dashboard Widget</li>
 		    </ul>
         </td>
       </tr>
