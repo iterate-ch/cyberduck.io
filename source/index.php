@@ -26,7 +26,7 @@
 				</td>
 
 				<td colspan="2" valign="top" class="box-solid">
-					<p>Source code is available licenced unter the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository <i>(You can get Subversion for Mac OS X e.g. from <a href="http://www.codingmonkeys.de/mbo/">Martin Ott's page</a>.)</i> with:</p>
+					<p>Source code is available licenced unter the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository with:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
 					<p>To compile everything, type <tt>make</tt> but make sure to install <a class="ext" href="http://jakarta.apache.org/ant">Ant</a> and <a class="ext" href="http://developer.apple.com/tools/macosxtools.html">xcodebuild</a> first. For more details, see the <a class="ext" href="http://svn.cyberduck.ch/trunk/build/BUILD">build instructions</a>.</p>

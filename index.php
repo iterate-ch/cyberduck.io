@@ -238,7 +238,7 @@
                         <td valign="top" class="box-filled">
                             <p>
                                 <strong>3.2.1</strong> <em>(Jul-14-2009)</em><br/>
-                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(<i>Mac OS X 10.4 or later
+                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(<i>Intel/PPC Mac OS X 10.4 or later
                                 required</i>.)
                             </p>
 							<p>
@@ -250,9 +250,9 @@
 								</form>
 							</p>
                             <p>
-                                <strong>Beta (Mac OS X 10.6 Snow Leopard compatible)</strong><br/>
+                                <strong>Beta (Mac OS X 10.6 Snow Leopard compatible.)</strong><br/>
                                 <strong>3.3b1</strong> <em>(Aug-28-2009)</em><br/>
-                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a><br/>(<i>Mac OS X 10.5 or later
+                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a><br/>(<i>Intel Mac OS X 10.5 or later
                                 required</i>.)<br />
 								Limitations:
 								<ul>
