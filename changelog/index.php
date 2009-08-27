@@ -21,14 +21,25 @@
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
-        <td width="150"></td>
+        <td class="box-solid" width="150" valign="top">
+        <p><strong>3.3b1</strong> <em>Aug-28-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.3b1.zip">Download</a></p></td>
 
-        <td colspan="2" class="box-filled">(There is also an
-        <a href="http://cyberduck.ch/changelog.rss">RSS</a> feed and <a class=
-        "ext" href=
-        "http://trac.cyberduck.ch/file/trunk/Changelog.txt?format=raw">
-        text</a> file.)</td>
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Bugfix] Incompatibility with Mac OS X 10.6 (Snow Leopard) [<a href="http://trac.cyberduck.ch/ticket/3039">#3039</a>]
+		        </li>
+		        <li>[Feature] 64-Bit support.</li>
+		        <li>[Feature] New application icon (Thanks to Dietmar Kerschner)</li>
+		        <li class="removed">[Feature] MobileMe bookmark syncing</li>
+		        <li class="removed">[Feature] AppleScript support</li>
+		    </ul>
+        </td>
       </tr>
+
+		<tr>
+			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
+		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
@@ -122,10 +133,6 @@
 		</ul>
         </td>
       </tr>
-
-		<tr>
-			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">

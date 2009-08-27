@@ -235,22 +235,32 @@
             <div class="box-solid">
                 <table cellpadding="0" cellspacing="0">
                     <tr>
-                        <td id="download" valign="top">
-                            <a href="./Cyberduck-3.2.1.dmg"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png"
-                                                                 align="left" alt="Download" border="0"/></a>
-                        </td>
-                        <td valign="top">
+                        <td valign="top" class="box-filled">
                             <p>
-                                <strong>Download</strong><br/>
-                                <strong class="version3">3.2.1</strong> <em>(Jul-14-2009)</em><br/>
-                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(10.3MB, Mac OS X 10.4 or later
-                                required. Mac OS X 10.5 recommended.)
+                                <strong>3.2.1</strong> <em>(Jul-14-2009)</em><br/>
+                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(<i>Mac OS X 10.4 or later
+                                required</i>.)
+                            </p>
+							<p>
 								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="4914397">
 								<input type="image" src="https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 								<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 								</form>
+							</p>
+                            <p>
+                                <strong>Beta (Mac OS X 10.6 Snow Leopard compatible)</strong><br/>
+                                <strong>3.3b1</strong> <em>(Aug-28-2009)</em><br/>
+                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a><br/>(<i>Mac OS X 10.5 or later
+                                required</i>.)<br />
+								Limitations:
+								<ul>
+									<li class="removed">No AppleScript support.</li>
+									<li class="removed">No Dashboard Widget included.</li>
+									<li class="removed">MobileMe bookmark synchronization only works when <a href="http://trac.cyberduck.ch/wiki/help/en/faq#Launchapplicationin32bitmode">launched in 32bit mode</a>.</li>
+							        <li class="removed">No Dashboard Widget.</li>
+								</ul>
                             </p>
                         </td>
                     </tr>
