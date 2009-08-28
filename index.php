@@ -252,17 +252,9 @@
 								</form>
 							</p>
                             <p>
-                                <strong>Beta (Mac OS X 10.6 Snow Leopard compatible.)</strong><br/>
                                 <strong>3.3b1</strong> <em>(Aug-28-2009)</em><br/>
-                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a><br/>(<i>Intel Mac OS X 10.5 or later
-                                required</i>.)<br />
-								Limitations:
-								<ul>
-									<li class="removed">No AppleScript support.</li>
-									<li class="removed">No Dashboard Widget included.</li>
-									<li class="removed">MobileMe bookmark synchronization only works when <a href="http://trac.cyberduck.ch/wiki/help/en/faq#Launchapplicationin32bitmode">launched in 32bit mode</a>.</li>
-							        <li class="removed">No Dashboard Widget.</li>
-								</ul>
+                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a>
+								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible. Intel Mac OS X 10.5 or later required</i>.)<br />
                             </p>
                         </td>
                     </tr>
