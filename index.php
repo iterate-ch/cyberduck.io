@@ -253,7 +253,7 @@
 							</p>
                             <p>
                                 <strong>3.3b1</strong> <em>(Aug-28-2009)</em><br/>
-                                <a href="./Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a>
+                                <a href="http://update.cyberduck.ch/Cyberduck-3.3b1.zip">Cyberduck-3.3b1.zip</a>
 								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible beta. Intel Mac OS X 10.5 or later required</i>.)<br />
                             </p>
                         </td>
