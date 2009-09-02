@@ -34,11 +34,9 @@
 						<blockquote>
 							Macupdate.com
 						</blockquote>
-						<div align="center"><img src="bstar.png" width="25" height="24" alt="Bstar">
-							<img src="bstar.png" width="25" height="24" alt="Bstar">
-							<img src="bstar.png" width="25" height="24" alt="Bstar">
-							<img src="bstar.png" width="25" height="24" alt="Bstar">
-							<img src="nullstar.png" width="25" height="24" alt="Nullstar"></div>
+						<div align="center">
+								<script type='text/javascript' src='http://www.macupdate.com/developer/badge/?app=8392'></script>
+						</div>
 					</div>
 
 					<div class="feature">
