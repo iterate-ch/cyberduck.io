@@ -50,7 +50,7 @@
 	
 	You can use your credit card or bank account without the need to open a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">Paypal</a> account. You will receive a receipt from Paypal when completing the transaction.</p>
 
-	        <p>If you prefer not to use Paypal you can send money by IBAN. You will have to request a donation key from <a href="mailto:dkocher@cyberduck.ch">me</a> by email.</p>
+	        <p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a>.</p>
 		<p>David Kocher, Switzerland<br />
 		<tt>
 			Postfinance<br />
@@ -73,9 +73,9 @@
 			<strong>Amazon.</strong>
           If you prefer not to to use Paypal, I do also have a <a class="ext" href=
           "http://www.amazon.de/gp/registry/1QIQE5HKOS011/">
-          Amazon</a> wishlist. You will have to request a donation key from <a href="mailto:dkocher@cyb
-erduck.ch">me</a> by email.
-</p>
+          Amazon</a> wishlist.
+	 You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a>. 
+		</p>
         </td>
       </tr>
 
