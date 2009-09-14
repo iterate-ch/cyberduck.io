@@ -23,7 +23,7 @@
       <tr>
         <td class="box-solid" width="150" valign="top">
         <p><strong>3.3b2</strong> <em>Sep-05-2009</em><br />
-        <a href="http://update.cyberduck.ch/Cyberduck-3.3b2.zip">Download</a></p></td>
+        <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
 		    <ul>
@@ -36,7 +36,7 @@
       <tr>
         <td class="box-solid" width="150" valign="top">
         <p><strong>3.3b1</strong> <em>Aug-28-2009</em><br />
-        <a href="http://update.cyberduck.ch/Cyberduck-3.3b1.zip">Download</a></p></td>
+        <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b1.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
 		    <ul>
