@@ -22,6 +22,19 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td class="box-solid" width="150" valign="top">
+        <p><strong>3.3b3</strong> <em>Sep-15-2009</em><br />
+        <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Feature] PPC support again available</li>
+				<li>[Bugfix] Various bugfixes and performance improvements</li>
+		    </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="box-solid" width="150" valign="top">
         <p><strong>3.3b2</strong> <em>Sep-05-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip">Download</a></p></td>
 
