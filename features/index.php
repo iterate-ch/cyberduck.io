@@ -98,9 +98,6 @@
 							<p><img src="../img/cf.png" class="feature" alt="" /> <strong class="version3">Mosso Cloud Files</strong><br />
 							Manage your Rackspace <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Hosting</a> distributions.</p>
 
-							<p><img src="../img/idisk.png" class="feature" alt="" /> <strong>iDisk</strong><br />
-							Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac iDisk</a>.</p>
-
 							<p><img src="../img/permissions.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 							Modify permissions on multiple files and recursivly.</p>
 

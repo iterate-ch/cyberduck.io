@@ -28,6 +28,7 @@
         <td colspan="2" class="box-solid">
 		    <ul>
 		        <li>[Feature] PPC support again available</li>
+		        <li>[Bugfix] Some localizations broken [<a href="http://trac.cyberduck.ch/ticket/3648">#3648</a>]</li>
 				<li>[Bugfix] Various bugfixes and performance improvements</li>
 		    </ul>
         </td>

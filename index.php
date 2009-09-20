@@ -190,10 +190,6 @@
                         Manage your Rackspace <a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a>
                         storage including the configuration of your <a href="http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
 
-                    <p><img src="./img/idisk.png" class="feature" alt=""/> <strong>iDisk</strong><br/>
-                        Synchronize bookmarks with <a class="ext" href="http://www.apple.com/macosx/features/dotmacsync/">.Mac
-                            iDisk</a>.</p>
-
                     <p><img src="./img/permissions.png" class="feature" alt=""/> <strong>Permissions</strong><br/>
                         Modify permissions on multiple files and recursivly.</p>
 
@@ -252,9 +248,9 @@
 								</form>
 							</p>
                             <p>
-                                <strong>3.3b2</strong> <em>(Sep-05-2009)</em><br/>
-                                <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip">Cyberduck-3.3b2.zip</a>
-								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible beta. Intel Mac OS X 10.5 or later required</i>.)<br />
+                                <strong>3.3b3</strong> <em>(Sep-20-2009)</em><br/>
+                                <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Cyberduck-3.3b3.zip</a>
+								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible beta. Mac OS X 10.5 or later required</i>.)<br />
                             </p>
                         </td>
                     </tr>
