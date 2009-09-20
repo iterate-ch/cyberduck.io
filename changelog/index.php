@@ -22,7 +22,7 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b3</strong> <em>Sep-15-2009</em><br />
+        <p><strong>3.3b3</strong> <em>Sep-21-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
