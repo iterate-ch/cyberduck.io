@@ -283,7 +283,7 @@
             <div class="box-filled">
                 <p><img class="feature" src="./img/feed-icon-16x16.png" alt="feed"/> <strong>Blog.</strong> <a
                         href="http://sudo.ch/feed/">Subscribe</a> to the the developer's <a class=
-                        "ext" href="http://sudo.ch/">blog</a>.</p>
+                        "ext" href="http://sudo.ch/">blog</a> or follow <a href="http://twitter.com/davidkocher">me on twitter</a>.</p>
             </div>
 
             <div class="box-filled">
