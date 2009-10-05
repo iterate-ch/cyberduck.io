@@ -248,8 +248,8 @@
 								</form>
 							</p>
                             <p>
-                                <strong>3.3b3</strong> <em>(Sep-21-2009)</em><br/>
-                                <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Cyberduck-3.3b3.zip</a>
+                                <strong>3.3b4</strong> <em>(Oct-05-2009)</em><br/>
+                                <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip">Cyberduck-3.3b4.zip</a>
 								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible beta. Mac OS X 10.5 or later required</i>.)<br />
                             </p>
                         </td>
