@@ -22,7 +22,7 @@
 	<table cellpadding="0" cellspacing="5" width="100%">
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b4</strong> <em>Oct-05-2009</em><br />
+        <p><strong>3.3b4</strong> <em>Oct-09-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -33,6 +33,7 @@
 		        </li>
 		        <li>[Bugfix] Wrong menu item font size [<a href="http://trac.cyberduck.ch/ticket/3736">#3736</a>]</li>
 		        <li>[Bugfix] Various bugfixes</li>
+		        <li>[Feature] CDN Log Retention (Rackspace Cloud Files)</li>
 		    </ul>
         </td>
       </tr>
