@@ -22,15 +22,6 @@
 
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
-      <tr>
-        <td colspan="3" class="box-solid">
-        <blockquote>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it. The continued donations of users is what allows Cyberduck to be available for free today.
-
-<strong>Thank you very much for your support! It will help to make Cyberduck even better!</strong>
-						</blockquote>
-</td>
-      </tr>
-
 	      <tr>
 		        <td width="150" valign="top" class="box-filled">
 			<br />
