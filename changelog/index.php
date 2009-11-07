@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta name="generator" content=
-  "HTML Tidy for Mac OS X (vers 12 April 2005), see www.w3.org" />
+  "HTML Tidy for Mac OS X (vers 12 Apr 2005), see www.w3.org" />
   <?php echo(echoheader("..")); ?>
 
 	<title><?php echo(echotitle("Changelog")); ?></title>
@@ -806,7 +806,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.5b3</strong> <em>July-18-2005</em><br />
+        <p><strong>2.5b3</strong> <em>Jul-18-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.5b3.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -992,7 +992,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4.4</strong> <em>April-27-2005</em><br />
+        <p><strong>2.4.4</strong> <em>Apr-27-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4.4.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1017,7 +1017,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4.3</strong> <em>April-11-2005</em><br />
+        <p><strong>2.4.3</strong> <em>Apr-11-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1043,7 +1043,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4</strong> <em>March-28-2005</em><br />
+        <p><strong>2.4</strong> <em>Mar-28-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1113,7 +1113,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4b3</strong> <em>January-29-2005</em><br />
+        <p><strong>2.4b3</strong> <em>Jan-29-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4b3.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1160,7 +1160,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4b2</strong> <em>January-06-2005</em><br />
+        <p><strong>2.4b2</strong> <em>Jan-06-2005</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4b2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1204,7 +1204,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.4b1</strong> <em>December-28-2004</em><br />
+        <p><strong>2.4b1</strong> <em>Dec-28-2004</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.4b1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -1308,7 +1308,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.3.3</strong> <em>August-09-2004</em><br />
+        <p><strong>2.3.3</strong> <em>Aug-09-2004</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.3.3.dmg">Download</a><br />
         Mac OS X 10.2 or later</td>
 
@@ -1321,7 +1321,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>2.3.2</strong> <em>August-05-2004</em><br />
+        <p><strong>2.3.2</strong> <em>Aug-05-2004</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-2.3.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
