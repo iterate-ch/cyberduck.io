@@ -51,9 +51,10 @@
 	You can use your credit card or bank account without the need to open a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">Paypal</a> account. You will receive a receipt from Paypal when completing the transaction.</p>
 
 	        <p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a>.</p>
-		<p>David Kocher, Switzerland<br />
+		<p>
 		<tt>
-			Postfinance<br />
+			David Kocher<br />
+			3013 Bern, Switzerland<br />
 			<strong>IBAN</strong> CH19 0900 0000 3030 0229 3<br />
 			<strong>BIC</strong> POFICHBEXXX
 		</tt>
