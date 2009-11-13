@@ -55,13 +55,13 @@
 
             <div id="screenshots">
                 <div class="figure">
-                    <a href="./img/browser-bookmarks.jpg"><img alt="Cyberduck Bookmarks" width="350px"
-                                                               src="./img/browser-bookmarks-thumb.jpg"/></a>
+                    <a href="./img/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="350px"
+                                                               src="./img/browser-bookmarks-thumb.png"/></a>
 
                     <p>Integrated Bookmarks</p>
                 </div>
                 <div class="figure">
-                    <a href="./img/browser.jpg"><img alt="Cyberduck Browser" width="350px" src="./img/browser-thumb.jpg"/></a>
+                    <a href="./img/browser.png"><img alt="Cyberduck Browser" width="350px" src="./img/browser-thumb.png"/></a>
 
                     <p>QuickLook Preview in Browser</p>
                 </div>

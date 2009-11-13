@@ -63,7 +63,7 @@
 				</td>
 				<td colspan="2" class="box-solid">
 					<ul>
-						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-3/">3.3</a> (5550)</strong> <em>Nov-13-2009</em><br />
+						<li><strong><a href="http://svn.cyberduck.ch/branches/release-3-3/">3.3</a> (5552)</strong> <em>Nov-13-2009</em><br />
 						<a href="http://update.cyberduck.ch/src/cyberduck-src-3.3.tar.gz">cyberduck-src-3.3.tar.gz</a></li>
 					</ul>
 				</td>
