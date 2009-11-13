@@ -56,7 +56,7 @@
 			David Kocher<br />
 			3013 Bern, Switzerland<br />
 			<strong>IBAN</strong> CH19 0900 0000 3030 0229 3<br />
-			<strong>BIC</strong> POFICHBEXXX
+			<strong>BIC</strong> POFICHBEXXX or POFICHBE
 		</tt>
 	</p>
 </td>
