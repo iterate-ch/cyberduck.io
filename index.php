@@ -117,9 +117,6 @@
                         All passwords are stored in the system <a class="ext"
                                                                   href="http://www.apple.com/macosx/features/security/">Keychain</a>
                         as Internet passwords available also to third party applications.</p>
-
-                    <p><img src="./img/gnu.png" class="feature" alt=""/> <strong>Open Source</strong><br/>
-                        Licensed under the GPL.</p>
                 </div>
 
                 <div class="feature">
@@ -150,11 +147,6 @@
                     <p><img src="./img/sync.png" class="feature" alt=""/> <strong>Synchronization</strong><br/>
                         Synchronize local with remote directories (and vice versa) and get a preview of affected files before
                         any action is taken.</p>
-
-                    <p><img src="./img/applescript.png" class="feature" alt=""/> <strong>AppleScript</strong><br/>
-                        Full AppleScript integration. See the <a class="ext"
-                                                                 href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample
-                            scripts</a> (included on the disk image).</p>
 
                     <p><img src="./img/growl.png" class="feature" alt=""/> <strong>Growl</strong><br/>
                         Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.
@@ -195,6 +187,9 @@
 
                     <p><img src="./img/archive.png" class="feature" alt=""/><strong>Archives</strong><br/>Archive and expand TAR
                         and ZIP files remotely over SSH.</p>
+
+                    <p><img src="./img/gnu.png" class="feature" alt=""/> <strong>Open Source</strong><br/>
+                        Licensed under the GPL.</p>
                 </div>
             </div>
 
@@ -233,11 +228,15 @@
             <div class="box-solid">
                 <table cellpadding="0" cellspacing="0">
                     <tr>
-                        <td valign="top" class="box-filled">
+                        <td id="download" valign="top">
+                            <a href="Cyberduck-3.3.zip"><img style="margin:15px; margin-top:0px" src="./img/arrowdisk.png"
+                                                                 align="left" alt="Download" border="0"/></a>
+                        </td>
+                        <td valign="top">
                             <p>
-                                <strong>3.2.1</strong> <em>(Jul-14-2009)</em><br/>
-                                <a href="./Cyberduck-3.2.1.dmg">Cyberduck-3.2.1.dmg</a><br/>(<i>Intel/PPC Mac OS X 10.4 or later
-                                required</i>.)
+								<strong>Download</strong><br />
+                                <strong>3.3</strong> <em>(Nov-13-2009)</em><br/>
+                                <a href="Cyberduck-3.3.zip">Cyberduck-3.3.zip</a>
                             </p>
 							<p>
 								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -247,18 +246,15 @@
 								<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 								</form>
 							</p>
-                            <p>
-                                <strong>3.3b4</strong> <em>(Oct-09-2009)</em><br/>
-                                <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip">Cyberduck-3.3b4.zip</a>
-								<br/>(<i>Mac OS X 10.6 Snow Leopard compatible beta. Mac OS X 10.5 or later required</i>.)<br />
-                            </p>
                         </td>
                     </tr>
                 </table>
-                <p>Release notes and previous releases are available <a href="changelog">here</a>.</p>
+	            <p>
+					Mac OS X 10.6 Snow Leopard compatible. Intel/PPC Mac OS X 10.5 or later required.
+	Release notes and previous releases are available <a href="changelog">here</a>.</p>
 
                 <p>
-                    <small>There are also <a href="http://update.cyberduck.ch/nightly/">nightly builds available</a> featuring
+                    <small>There are also <a href="http://update.cyberduck.ch/nightly/">nightly snapshot builds available</a> featuring
                         the latest bugfixes and enhancements.
                     </small>
                 </p>

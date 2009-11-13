@@ -20,9 +20,27 @@
 
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
+     <tr>
+        <td class="box-solid" width="150" valign="top">
+        <p><strong>3.3 (5550)</strong> <em>Nov-13-2009</em><br />
+        <a href="http://update.cyberduck.ch/Cyberduck-3.3.zip">Download</a></p></td>
+
+        <td colspan="2" class="box-solid">
+		    <ul>
+		        <li>[Feature] Octal input field for permissions [<a href="http://trac.cyberduck.ch/ticket/13">#13</a>]</li>
+		        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+		        <li>[Bugfix] Connect to default bookmark for new browser window [<a href="http://trac.cyberduck.ch/ticket/3798">#3798</a>]
+		        </li>
+		        <li>[Bugfix] Excessive Growl notifications [<a href="http://trac.cyberduck.ch/ticket/2388">#2388</a>]</li>
+		        <li>[Bugfix] Icon set explicitly for every downloaded file [<a href="http://trac.cyberduck.ch/ticket/3824">#3824]</a>
+		        </li>
+		    </ul>
+        </td>
+      </tr>
+
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b4</strong> <em>Oct-09-2009</em><br />
+        <p><strong>3.3b4 (5455)</strong> <em>Oct-09-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -40,7 +58,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b3</strong> <em>Sep-21-2009</em><br />
+        <p><strong>3.3b3 (5321)</strong> <em>Sep-21-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -54,7 +72,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b2</strong> <em>Sep-05-2009</em><br />
+        <p><strong>3.3b2 (5220)</strong> <em>Sep-05-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -67,7 +85,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3b1</strong> <em>Aug-28-2009</em><br />
+        <p><strong>3.3b1 (5185)</strong> <em>Aug-28-2009</em><br />
         <a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b1.zip">Download</a><br /><br />
         <span class="version">Mac OS X 10.5 or later required.</span></p></td>
 
@@ -88,7 +106,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.2.1</strong> <em>Jul-14-2009</em><br />
+        <p><strong>3.2.1 (4923)</strong> <em>Jul-14-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -118,7 +136,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.2</strong> <em>Apr-26-2009</em><br />
+        <p><strong>3.2 (4648)</strong> <em>Apr-26-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -146,7 +164,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1.2</strong> <em>Feb-01-2009</em><br />
+        <p><strong>3.1.2 (4500)</strong> <em>Feb-01-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -166,7 +184,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1.1</strong> <em>Jan-10-2009</em><br />
+        <p><strong>3.1.1 (4457)</strong> <em>Jan-10-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -181,7 +199,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1</strong> <em>Jan-08-2009</em><br />
+        <p><strong>3.1 (4448)</strong> <em>Jan-08-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
