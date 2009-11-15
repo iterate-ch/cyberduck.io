@@ -71,7 +71,6 @@ function echodonate($dir) {
               <li><a accesskey=\"a\" id=\"navigation-index\" href=\"".$dir."/\"><u>a</u>bout</a></li>
               <li><a accesskey=\"c\" id=\"navigation-changelog\" href=\"".$dir."/changelog/\"><u>c</u>hangelog</a></li>
               <li><a accesskey=\"d\" id=\"navigation-trac\" href=\"http://trac.cyberduck.ch/\"><u>d</u>evelopment</a></li>
-              <li><a accesskey=\"s\" id=\"navigation-source\" href=\"".$dir."/source/\"><u>s</u>ource</a></li>
               <li><a accesskey=\"h\" id=\"navigation-help\" href=\"http://help.cyberduck.ch/\"><u>h</u>elp</a></li>
               <li><a id=\"navigation-donate\" href=\"".$dir."/donate\">donations</a></li>
 			</ul>
