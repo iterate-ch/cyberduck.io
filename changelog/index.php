@@ -20,6 +20,10 @@
 
   <div class="content">
 	<table cellpadding="0" cellspacing="5" width="100%">
+		<tr>
+			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
+		</tr>
+
      <tr>
         <td class="box-solid" width="150" valign="top">
         <p><strong>3.3 (5552)</strong> <em>Nov-13-2009</em><br />
@@ -99,10 +103,6 @@
 		    </ul>
         </td>
       </tr>
-
-		<tr>
-			<td class="box-solid" colspan="3"><?php echo(echogoogle());?> </td>
-		</tr>
 
       <tr>
         <td class="box-solid" width="150" valign="top">
