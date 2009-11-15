@@ -186,6 +186,7 @@
 	#navigation a {
 		text-decoration:none;
 		font-family:"Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+		font-weight: bold;
 	}
 	
 	#navigation ul > li:first-child {
