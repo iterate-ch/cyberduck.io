@@ -26,7 +26,7 @@
 
      <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.3 (5552)</strong> <em>Nov-13-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.3">3.3</a> (5552)</strong> <em>Nov-13-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.3.zip">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -106,7 +106,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.2.1 (4923)</strong> <em>Jul-14-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.2.1">3.2.1</a> (4923)</strong> <em>Jul-14-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -136,7 +136,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.2 (4648)</strong> <em>Apr-26-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.2">3.2</a> (4648)</strong> <em>Apr-26-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -164,7 +164,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1.2 (4500)</strong> <em>Feb-01-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.1.2">3.1.2</a> (4500)</strong> <em>Feb-01-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -184,7 +184,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1.1 (4457)</strong> <em>Jan-10-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.1.1">3.1.1</a> (4457)</strong> <em>Jan-10-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -199,7 +199,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.1 (4448)</strong> <em>Jan-08-2009</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.1">3.1</a> (4448)</strong> <em>Jan-08-2009</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -239,7 +239,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.0.3</strong> <em>Oct-20-2008</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.0.3">3.0.3</a></strong> <em>Oct-20-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
@@ -253,7 +253,7 @@
 
       <tr>
         <td class="box-solid" width="150" valign="top">
-        <p><strong>3.0.2</strong> <em>Aug-10-2008</em><br />
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/3.0.2">3.0.2</a></strong> <em>Aug-10-2008</em><br />
         <a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg">Download</a></p></td>
 
         <td colspan="2" class="box-solid">
