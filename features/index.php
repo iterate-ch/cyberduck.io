@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<?php
-  include "../functions.php";
-?>
+
+<?php include "../../functions.php"; ?>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -12,12 +12,12 @@
 </head>
 
 <body id="features">
-	<div class="header">
+	<div id="header">
 		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
-	<div class="content">
-		<table cellpadding="0" cellspacing="5" width="100%">
+	<div id="content">
+		<table cellpadding="0" cellspacing="5">
 			<tr>
 				<td class="box-solid">
 					<div id="features">
@@ -108,8 +108,8 @@
 			</tr>
 			<tr>
 				<td>
-					<div class="footer">
-						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+					<div id="footer">
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a>
 						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
 				</td>

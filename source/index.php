@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-  include "../functions.php";
-?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<?php include "../functions.php";?>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -12,12 +12,12 @@
 </head>
 
 <body id="source">
-	<div class="header">
+	<div id="header">
 		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
-	<div class="content">
-		<table cellpadding="0" cellspacing="5" width="100%">
+	<div id="content">
+		<table cellpadding="0" cellspacing="5">
 			<tr>
 				<td width="150" valign="middle" class="box-solid">
 					<div align="center">
@@ -25,7 +25,7 @@
 					</div>
 				</td>
 
-				<td colspan="2" valign="top" class="box-solid">
+				<td colspan="2" class="box-solid">
 					<p>Source code is available licenced unter the <a class="ext" href="http://creativecommons.org/licenses/GPL/2.0/">GNU General Public Licence</a>. You can browse the SVN Repository <a class="ext" href="http://trac.cyberduck.ch/browser/">here</a>. The current unstable version can be checked out from the SVN repository with:</p>
 
 					<p><tt>svn co http://svn.cyberduck.ch/trunk cyberduck</tt></p>
@@ -56,7 +56,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 3.3</strong><br />
 				</td>
 				<td colspan="2" class="box-solid">
@@ -68,7 +68,7 @@
 			</tr>
 			
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 3</strong><br />
 				</td>
 				<td colspan="2" class="box-solid">
@@ -116,7 +116,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.8</strong><br />
 				</td>
 				<td colspan="2" class="box-solid">
@@ -153,7 +153,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.7</strong><br />
 				</td>
 
@@ -181,7 +181,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.6</strong><br />
 				</td>
 
@@ -204,7 +204,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.5</strong><br />
 				</td>
 
@@ -242,7 +242,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.4</strong><br />
 				</td>
 
@@ -275,7 +275,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.3</strong><br />
 				</td>
 
@@ -303,7 +303,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.2</strong><br />
 				</td>
 
@@ -316,7 +316,7 @@
 			</tr>
 
 			<tr>
-				<td class="box-solid" valign="top" width="150">
+				<td class="box-solid" width="150">
 					<p><strong>Version 2.1</strong><br />
 				</td>
 
@@ -330,8 +330,8 @@
 
 			<tr>
 				<td colspan="3">
-					<div class="footer">
-						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+					<div id="footer">
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a>
 						<a href="http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 					</div>
 				</td>

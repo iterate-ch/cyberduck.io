@@ -10,7 +10,7 @@
     }
 
 	  function echogoogle() {
-	  		return "<div align=\"center\" class=\"alert\">
+	  		return "<div align=\"center\" class=\"google\">
 	  		<script type=\"text/javascript\"><!--
 	  		google_ad_client = \"pub-9176652804694766\";
 			google_ad_width = 728;

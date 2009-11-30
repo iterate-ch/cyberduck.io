@@ -1,5 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <?php
   include "../functions.php";
 ?>
@@ -14,12 +15,12 @@
 </head>
 
 <body id="reviews">
-	<div class="header">
+	<div id="header">
 		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 	</div>
 
-	<div class="content">
-		<table cellpadding="0" cellspacing="5" width="100%">
+	<div id="content">
+		<table cellpadding="0" cellspacing="5">
 			<tr>
 				<td colspan="3" class="box-solid">
 					<div class="feature">
@@ -51,7 +52,7 @@
 						<blockquote>
 							Versiontracker.com
 						</blockquote>
-						<table class="VTProdDispTbl" cellpadding="0" cellspacing="0" border="0">
+						<table class="VTProdDispTbl" cellpadding="0" cellspacing="5" border="0">
 						<tr><td class="VTProdDispShd"><a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14426">Cyberduck</a></td><td id="pirtd24765"></td></tr>
 						<tr><td colspan="2" class="VTLogo">Data provided by <a href="http://www.versiontracker.com/">VersionTracker</a></td></tr>
 						</table>
@@ -72,8 +73,8 @@
 			</tr>
 			<tr>
 				<td colspan="3">
-					<div class="footer">
-						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a><br />
+					<div id="footer">
+						<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software"></a>
 						<a href=
 						"http://validator.w3.org/check/referer">Validate</a>,
 						$Date: 2006-02-28 16:01:03 +0100 (Tue, 28
