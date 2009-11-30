@@ -150,8 +150,10 @@ left: 30px;
 }
 	
 	h1#maintitle {
+font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 font-size: 3.0em;
 margin-bottom: 0;
+margin-top: 27px;
 }
 
 	h3#subtitle {
