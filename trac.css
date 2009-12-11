@@ -1,0 +1,233 @@
+#banner #header {
+display: none;
+}
+
+	#footer {
+display: none;
+}
+	
+	form {
+text-align: left;
+}
+	
+h1 {
+font-size: 1.8em;
+}
+
+h1, h2, h3, h4 {
+letter-spacing: inherit;
+}
+
+.wikipage h1, .wikipage h2, .wikipage h3, .wikipage h4 {
+letter-spacing: normal;
+}
+
+.wikipage h2 {
+border-bottom: 1px solid #cccccc;
+}
+
+.wikipage h1 {
+font-weight: normal;
+border-bottom: 2px solid #cccccc;
+}
+
+.wikipage h1 a, .wikipage h2 a, .wikipage h3 a, .wikipage h4 a {
+text-decoration: none;
+}
+
+.wikipage a:link, .wikipage a:visited {
+color: #0066CC;
+}
+
+.wikipage tt {
+background-color: #F7F7F7;
+border: 1px solid #D7D7D7;
+overflow: auto;
+/*	padding: 0.25em;*/
+}
+
+h3#subtitle {
+/*	top:60px;*/
+}
+	
+
+blockquote.citation {
+font-weight: normal;
+}
+
+:link, :visited {
+background-color: transparent;
+border: none;
+}
+:link:hover, :visited:hover {
+background-color: transparent;
+color: #0066cc;
+border: none;
+}
+
+#metanav {
+position: absolute;
+top: 20px;
+right: 30px;
+height: 15px;
+text-transform: lowercase;
+}
+
+#ctxtnav {
+text-transform: lowercase;
+}
+
+.nav a {
+text-decoration: none;
+}
+
+#main {
+position: absolute;
+top: 199px;
+height: auto;
+right: 30px;
+bottom: auto;
+padding: 10px 20px 30px;
+width: 90%;
+border: 1px solid #cccccc;
+}
+
+#main #content h2 {
+padding: 2px;
+}
+
+* html #mainnav :link, * html #mainnav :visited {
+background-image: none;
+}
+
+#mainnav {
+position: absolute;
+padding: 0;
+margin: 0;
+top: 182px;
+height: 20px;
+right: 30px;
+text-align: right;
+border: none;
+background: transparent;
+text-transform: lowercase;
+}
+
+#mainnav ul {
+padding: 0;
+height: 20px;
+border: none;
+	#background: #fff url(http://cyberduck.ch/img/navigation.png) repeat-x;
+}
+
+#mainnav ul li {
+list-style: none;
+display: inline;
+background-color: #efefef;
+border: none;
+font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+}
+
+#mainnav :link, #mainnav :visited {
+background-image: none;
+padding: 0.2em 10px 0.2em 10px;
+border: none;
+}
+
+#mainnav :link:hover, #mainnav :visited:hover {
+border:none;
+}
+
+#mainnav .active :link, #mainnav .active :visited {
+background-image: none;
+}
+
+#mainnav .active :link:hover, #mainnav .active :visited:hover {
+background-image: none;
+}
+
+/*#mainnav ul li.first {
+display: none;
+}
+*/
+#mainnav ul > li:first-child {
+padding-left: 0;
+}
+#metanav ul > li:first-child {
+padding-left: 0;
+}
+
+#content {
+position: static;
+width: auto;
+right: 0px;
+/*	padding:5px;*/
+	height:auto;
+/*	border: 1px solid #E2E2E2;*/
+	font-family: Georgia;
+}
+
+#content.ticket {
+width: auto;
+}
+
+form#prefs {
+font-size: 0.85em;
+background-color: #f7f7f7;
+}
+
+/*reports.css overwrites*/
+table.listing tbody tr:hover {
+background-color: #cccccc !important
+}
+
+/*timeline.css overwrites*/
+dt :link:hover, dt :visited:hover {
+background-color: #cccccc;
+}
+
+/*search.css overwrites*/
+#results dd {
+font-size: 1em;
+margin: 0;
+padding: 0
+}
+
+/*browser.css overwrites*/
+#dirlist td.name a.dir {
+background-image: url(http://cyberduck.ch/img/folder.png)
+}
+
+.wiki-toc .active {
+background-color: transparent;
+}
+
+.wikipage h1 a.wiki, .wikipage h2 a.wiki {
+/*	color: black;*/
+	font-weight: bold;
+}
+
+.wikipage h3 {
+font-size: 16px;
+}
+
+.wikipage p, .wikipage li {
+font-size: 14px;
+max-width: 600px;
+}
+
+.wikipage p strong {
+background-color: lightYellow;
+/*	padding: 8px;*/
+/*	border: 1px solid #CCCCCC;*/
+}
+
+.wikipage ul ul {
+list-style-type: circle;
+}
+
+#search {
+margin-right: 45px;
+margin-top: 30px;
+display: none;
+}
