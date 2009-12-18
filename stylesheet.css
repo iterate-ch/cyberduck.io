@@ -41,14 +41,9 @@ padding-left: 30px;
 }
 	
 	#header {
-position: absolute;
-height: 300px;
-top: 5px;
-right: 0;
-left: 0;
+float: left;
+width: 100%;
 color: #000000;
-margin-right: 30px;
-/*		background:#e5e5db;*/
 }
 	
 	#header #logo {
@@ -63,21 +58,21 @@ z-index: 2;
 clear: both;
 }
 	
-	#content {
-position: absolute;
-top: 180px;
-left: auto;
+	#container {
+width: 100%;
+float: left;
 bottom: auto;
 padding-bottom: 15px;
 color: #000000;
-/*max-width: 900px;*/
-max-width: none;
-right: 30px;
-}
-	
-	#index #content {
 max-width: none;
 }
+
+	#content {
+float: left;
+background-color: #e5e5db;
+padding: 10px 20px 30px;
+min-height: 400px;
+	}
 	
 	.ext {
 background: url(./img/extlink.gif) no-repeat 0 50%;
@@ -90,21 +85,14 @@ padding-left: 16px
 		/* padding-right:25px;*/
 }
 	
-	div#donate-absolute {
-position: absolute;
-top: 5px;
-right: 30px;
-width: 134px;
-}
-
 	#download {
 text-align: right;
 float: right;
 }
 
 	#teaser {
-/*margin-top: -115px;*/
-height: 380px;
+float: left;
+width: 280px;
 }
 
 	.box-shadow-start {
@@ -143,10 +131,9 @@ float: right;
 width: 62px;
 }
 	
-	div#title {
-position: relative;
-top: 5px;
-left: 30px;
+	#title {
+float: left;
+margin: 5px 0 30px 30px;
 }
 	
 	h1#maintitle {
@@ -163,10 +150,10 @@ font-weight: normal;
 margin-top: 5px;
 }
 	
-	div#navigation {
-position: absolute;
-top: 140px;
-width: 100%;
+	#navigation {
+float: left;
+clear: both;
+width: 1180px;
 text-align: right;
 }
 	
@@ -203,16 +190,17 @@ float: right;
 }
 
 	#sidebar {
+float: none;
+margin-left: 900px;
 width: 280px;
 min-width: 280px;
 }
 	
 	#navigation ul {
-padding-left: 0px;
-padding-top: 2px;
-padding-bottom: 2px;
+padding: 2px 0 2px 0;
 background-color: #EFEFEF;
 min-height: 18px;
+margin: 0;
 }
 	
 	#navigation ul li {
@@ -272,11 +260,12 @@ padding-right: 5px;
 	
 	form {
 text-align: center;
+margin: 0;
 }
 
 	#maincolumn {
-/*min-width: 720px;*/
-padding: 10px 20px 30px 20px;
+float: left;
+width: 900px;
 }
 	
 	#maincolumn p {
@@ -302,11 +291,13 @@ font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-ser
 	
 	.box-filled {
 color: #4e4e4e;;
-background: #e5e5db;;
+background-color: #e5e5db;
 margin-bottom: 5px;
 }
 
 	#sidebar .box-solid {
+float: left;
+width: 270px;
 padding-left: 10px;
 border-left: 0;
 }
@@ -388,6 +379,10 @@ position: relative;
 float: left;
 width: 33%;
 }
+
+	#sidebar div.feature {
+width: 100%;
+	}
 	
 	img.feature {
 position: relative;
@@ -398,16 +393,14 @@ height: 16px;
 }
 
 	img.sidebar {
-position: relative;
-float: left;
-clear: both;
 padding-right: 6px;
+float: left;
 }
 	
    .google {
-margin-top: 10px;
-margin-bottom: 5px;
+border-top: 10px solid white;
 height: 100px;
+background-color: white;
 }
 	
 	.version {
