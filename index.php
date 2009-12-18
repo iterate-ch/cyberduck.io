@@ -213,6 +213,7 @@
 				</form>
 			</div>
 
+<!--
 			<div class="box-solid">
 				<p><strong>Forum.</strong> Discuss anything related to Cyberduck in the forum hosted at <a class="ext" href="http://forum.cyberduck.ch">cocoaforge.com</a></p>
 
@@ -220,12 +221,13 @@
 					<a href="http://forum.cyberduck.ch"><img width="128" src="./img/cocoaforge.png" alt="forum" /></a>
 				</div>
 			</div>
-
+-->
+<!--
 			<div class="box-solid">
 				<p><a href="http://growl.info"><img height="64" class="sidebar" src="./img/growlicon.png" alt="getgrowl" /></a> <strong>Growl.</strong> You may also want to install <a class="ext"
 				href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
 			</div>
-
+-->
 			<div class="box-solid">
 				<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last years.</p>
 
@@ -258,20 +260,6 @@
 					“Cyberduck is getting some great acclaim, and deservedly so.”<br />
 					— <a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">osxguide.com</a>
 				</blockquote>
-			</div><!--
-					<div class="box-solid">
-						<div style="padding:5px;" align="center">
-						<script type="text/javascript" src="http://osx.iusethis.com/app/include/cyberduck/1"></script>
-						<noscript>
-						<a href="http://osx.iusethis.com/app/">Support Cyberduck on iusethis</a>
-						</noscript>
-						</div>
-					</div>-->
-
-			<div style="margin-bottom:0px;" class="box-solid">
-				<div style="padding:5px;" align="center">
-					<a href="http://apple.com/universal/"><img src="./img/macosxuniversal20060109.png" alt="universal" /></a>
-				</div>
 			</div>
 		</div><?php echo(echoanalytics(".")); ?>
 	</div>
