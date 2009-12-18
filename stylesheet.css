@@ -59,7 +59,7 @@ clear: both;
 }
 	
 	#container {
-width: 100%;
+width: 1180px;
 float: left;
 bottom: auto;
 padding-bottom: 15px;
@@ -190,8 +190,7 @@ float: right;
 }
 
 	#sidebar {
-float: none;
-margin-left: 900px;
+float: left;
 width: 280px;
 min-width: 280px;
 }
