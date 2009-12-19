@@ -59,12 +59,12 @@ clear: both;
 }
 	
 	#container {
-width: 1180px;
-float: left;
-bottom: auto;
+width: 1080px;
+float: right;
 padding-bottom: 15px;
 color: #000000;
 max-width: none;
+margin-right: 40px;
 }
 
 	#content {
@@ -151,9 +151,10 @@ margin-top: 5px;
 }
 	
 	#navigation {
-float: left;
+float: right;
 clear: both;
-width: 1180px;
+width: 100%;
+margin-right: 40px;
 text-align: right;
 }
 	
@@ -190,9 +191,8 @@ float: right;
 }
 
 	#sidebar {
-float: left;
+float: right;
 width: 280px;
-min-width: 280px;
 }
 	
 	#navigation ul {
@@ -264,7 +264,7 @@ margin: 0;
 
 	#maincolumn {
 float: left;
-width: 900px;
+width: 800px;
 }
 	
 	#maincolumn p {
