@@ -75,6 +75,12 @@ text-transform: lowercase;
 
 #ctxtnav {
 text-transform: lowercase;
+height: auto;
+background-color: #E5E5DB;
+}
+
+#changelog {
+	background-color: white;
 }
 
 .nav a {
@@ -82,14 +88,12 @@ text-decoration: none;
 }
 
 #main {
-position: absolute;
-top: 199px;
+float: right;
+clear: both;
 height: auto;
-right: 30px;
-bottom: auto;
-padding: 10px 20px 30px;
+margin: 0 40px 40px 0;
+border: 1px solid #E5E5DB;
 width: 90%;
-border: 1px solid #cccccc;
 }
 
 #main #content h2 {
@@ -101,23 +105,19 @@ background-image: none;
 }
 
 #mainnav {
-position: absolute;
+float: right;
 padding: 0;
-margin: 0;
-top: 182px;
-height: 20px;
-right: 30px;
+margin: 0 40px 0 0;
 text-align: right;
 border: none;
+height: 16px;
 background: transparent;
 text-transform: lowercase;
 }
 
 #mainnav ul {
 padding: 0;
-height: 20px;
 border: none;
-	#background: #fff url(http://cyberduck.ch/img/navigation.png) repeat-x;
 }
 
 #mainnav ul li {
@@ -135,7 +135,7 @@ border: none;
 }
 
 #mainnav :link:hover, #mainnav :visited:hover {
-border:none;
+border: none;
 }
 
 #mainnav .active :link, #mainnav .active :visited {
@@ -158,13 +158,12 @@ padding-left: 0;
 }
 
 #content {
-position: static;
-width: auto;
-right: 0px;
-/*	padding:5px;*/
-	height:auto;
-/*	border: 1px solid #E2E2E2;*/
-	font-family: Georgia;
+height:auto;
+font-family: Georgia;
+min-width: 500px;
+background-color: white;
+border-right: 1px solid #E5E5DB;
+border-bottom: 1px solid #E5E5DB;
 }
 
 #content.ticket {
