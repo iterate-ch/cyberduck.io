@@ -116,11 +116,13 @@ text-transform: lowercase;
 }
 
 #mainnav ul {
+height: 16px;
 padding: 0;
 border: none;
 }
 
 #mainnav ul li {
+height: 16px;
 list-style: none;
 display: inline;
 background-color: #efefef;

@@ -32,12 +32,13 @@ white-space: nowrap;
 }
 		
 	#footer {
+width: 100%;
 clear: both;
 text-align: left;
 color: #000000;
 background-color: #ffffff;
 font-size: 0.75em;
-padding-left: 30px;
+padding: 0px 0px 30px;
 }
 	
 	#header {
@@ -47,12 +48,29 @@ color: #000000;
 }
 	
 	#header #logo {
-position: relative;
-top: 10px;
-left: 10px;
+margin: 20px 10px 10px 30px;
 float: left;
-z-index: 2;
 }
+
+	#header #title {
+float: left;
+margin: 20px 0 30px 30px;
+}
+	
+	#header h1#maintitle {
+font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
+font-size: 3.0em;
+margin-bottom: 0;
+margin-top: 27px;
+}
+
+	#header h3#subtitle {
+font-size: 1.2em;
+font-family: Georgia;
+font-weight: normal;
+margin-top: 5px;
+}
+	
 	
 	#features {
 clear: both;
@@ -68,7 +86,8 @@ margin-right: 40px;
 }
 
 	#content {
-float: left;
+width: 100%;
+float: right;
 background-color: #e5e5db;
 padding: 10px 20px 30px;
 min-height: 400px;
@@ -129,25 +148,6 @@ height: 31px;
 position: relative;
 float: right;
 width: 62px;
-}
-	
-	#title {
-float: left;
-margin: 5px 0 30px 30px;
-}
-	
-	h1#maintitle {
-font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
-font-size: 3.0em;
-margin-bottom: 0;
-margin-top: 27px;
-}
-
-	h3#subtitle {
-font-size: 1.2em;
-font-family: Georgia;
-font-weight: normal;
-margin-top: 5px;
 }
 	
 	#navigation {
