@@ -38,7 +38,7 @@ text-align: left;
 color: #000000;
 background-color: #ffffff;
 font-size: 0.75em;
-padding: 0px 0px 30px;
+padding: 0px 0px 30px 30px;
 }
 	
 	#header {
@@ -77,8 +77,8 @@ clear: both;
 }
 	
 	#container {
-width: 1080px;
-float: right;
+width: 1120px;
+float: left;
 padding-bottom: 15px;
 color: #000000;
 max-width: none;
@@ -86,11 +86,11 @@ margin-right: 40px;
 }
 
 	#content {
-width: 100%;
-float: right;
+float: left;
 background-color: #e5e5db;
 padding: 10px 20px 30px;
 min-height: 400px;
+width: 800px;
 	}
 	
 	.ext {
@@ -151,9 +151,9 @@ width: 62px;
 }
 	
 	#navigation {
-float: right;
+float: left;
 clear: both;
-width: 100%;
+width: 1120px;
 margin-right: 40px;
 text-align: right;
 }
@@ -400,30 +400,6 @@ float: left;
 border-top: 10px solid white;
 height: 100px;
 background-color: white;
-}
-	
-	.version {
-display: block;
-padding: 3px 10px 3px 10px;
-background-color: #fff3f3;
-border: 1px solid red;
-color: #cc0000;
-}
-	
-	a#widget {
-display: block;
-margin-top: -40px;
-background: url(./img/widget-front.png) no-repeat;
-height: 221px;
-width: 158px;
-}
-	
-	a:hover#widget {
-display: block;
-margin-top: -40px;
-background: url(./img/widget-back.png) no-repeat;
-height: 221px;
-width: 158px;
 }
 	
 	p.align-right {
