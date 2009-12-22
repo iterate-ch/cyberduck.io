@@ -3,7 +3,10 @@ display: none;
 }
 
 	#footer {
-display: none;
+border:none;
+}
+
+	#footer .right {
 }
 	
 	form {
@@ -67,8 +70,8 @@ border: none;
 
 #metanav {
 position: absolute;
+width: 1120px;
 top: 20px;
-right: 30px;
 height: 15px;
 text-transform: lowercase;
 }
@@ -88,12 +91,12 @@ text-decoration: none;
 }
 
 #main {
-float: right;
-clear: both;
+float: left;
 height: auto;
-margin: 0 40px 40px 0;
+margin: 0;
+padding: 10px 20px 30px;
 border: 1px solid #E5E5DB;
-width: 90%;
+width: 798px;
 }
 
 #main #content h2 {
@@ -105,20 +108,23 @@ background-image: none;
 }
 
 #mainnav {
-float: right;
+float:left;
+width: 800px;
 padding: 0;
-margin: 0 40px 0 0;
-text-align: right;
 border: none;
+border-left: 40px solid #EFEFEF;
+margin: 0;
+text-align: right;
 height: 16px;
-background: transparent;
 text-transform: lowercase;
 }
 
 #mainnav ul {
+background-color: #e5e5db;
 height: 16px;
 padding: 0;
 border: none;
+text-align: left;
 }
 
 #mainnav ul li {
@@ -127,12 +133,13 @@ list-style: none;
 display: inline;
 background-color: #efefef;
 border: none;
+padding: 2px 0 2px 0;
 font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 }
 
 #mainnav :link, #mainnav :visited {
 background-image: none;
-padding: 0.2em 10px 0.2em 10px;
+padding: 2px 10px 2px 10px;
 border: none;
 }
 
@@ -160,16 +167,13 @@ padding-left: 0;
 }
 
 #content {
-height:auto;
+position: static;
 font-family: Georgia;
-min-width: 500px;
 background-color: white;
-border-right: 1px solid #E5E5DB;
-border-bottom: 1px solid #E5E5DB;
+padding: 0;
 }
 
 #content.ticket {
-width: auto;
 }
 
 form#prefs {
@@ -214,7 +218,6 @@ font-size: 16px;
 
 .wikipage p, .wikipage li {
 font-size: 14px;
-max-width: 600px;
 }
 
 .wikipage p strong {
