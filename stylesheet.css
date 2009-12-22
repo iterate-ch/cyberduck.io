@@ -21,6 +21,7 @@ border: none;
 table {
 	margin: 0;
 	border: none;
+	border-collapse: collapse;
 }
 
 	tt {
@@ -221,7 +222,7 @@ border-left: none;
 }
 	
 	tr {
-color: #000000;
+border-bottom: 1px solid white;
 }
 	
 	td {
