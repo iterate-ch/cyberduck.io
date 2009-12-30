@@ -76,9 +76,6 @@
 						<p><img src="../img/sync.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
 						Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
 
-						<p><img src="../img/applescript.png" class="feature" alt="" /> <strong>AppleScript</strong><br />
-						Full AppleScript integration. See the <a class="ext" href="http://svn.cyberduck.ch/trunk/AppleScript%20Samples/">sample scripts</a> (included on the disk image).</p>
-
 						<p><img src="../img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
 						Support for Growl, the global notification system. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
 

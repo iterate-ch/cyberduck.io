@@ -137,7 +137,7 @@
 						<p><img src="./img/archive.png" class="feature" alt="" /><strong>Archives</strong><br />
 						Archive and expand TAR and ZIP files remotely over SSH.</p>
 
-						<p><img src="./img/heckert_gnu.small.png" class="feature" alt="" /> <strong>Open Source</strong><br />
+						<p><img src="./img/gnu.png" class="feature" alt="" /> <strong>Open Source</strong><br />
 						Licensed under the GPL.</p>
 					</div>
 				</div>
