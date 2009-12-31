@@ -21,11 +21,38 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1</a></strong> <em>Jan-01-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.3.1.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						       <li>[Feature] Support for new US West Location (S3)</li>
+						       <li>[Bugfix] Bookmark menu [<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>]</li>
+						       <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+						       <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) [<a
+						               href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]
+						       <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
+						               href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)
+						       <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)
+						       <li>[Bugfix] Bonjour bookmarks ignore TXT record with path and credentials attributes (<a
+						               href="http://trac.cyberduck.ch/ticket/3901">#3984</a>)
+						       </li>
+						       <li>[Bugfix] Donation prompt cannot be supressed (<a href="http://trac.cyberduck.ch/ticket/3937">#3937</a>)</li>
+						       <li>[Bugfix] Error when uploading file with different display name from real filename (<a
+						               href="http://trac.cyberduck.ch/ticket/4041">#4041</a>)
+						       </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3">3.3</a> (5552)</strong> <em>Nov-13-2009</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.3.zip">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Octal input field for permissions [<a href="http://trac.cyberduck.ch/ticket/13">#13</a>]</li>
 
@@ -46,7 +73,7 @@
 							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Fails to launch with Japanese locale</li>
 
@@ -67,7 +94,7 @@
 							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] PPC support again available</li>
 
@@ -84,7 +111,7 @@
 							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] 64-bit support</li>
 
@@ -101,7 +128,7 @@
 							<span class="version">Mac OS X 10.5 or later required.</span></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Incompatibility with Mac OS X 10.6 (Snow Leopard) [<a href="http://trac.cyberduck.ch/ticket/3039">#3039</a>]</li>
 
@@ -120,7 +147,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Create placeholder objects for virtual directory (S3)</li>
 
@@ -155,7 +182,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Choose Time Zone for bookmark (FTP) [<a href="http://trac.cyberduck.ch/ticket/434">#434</a>]</li>
 
@@ -202,7 +229,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Enforce hostname verification (SSL)</li>
 
@@ -231,7 +258,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Crash if no default login name is set in Preferences [<a href="http://trac.cyberduck.ch/ticket/2852">#2852</a>]</li>
 
@@ -246,7 +273,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Amazon CloudFront Support (S3)</li>
 
@@ -293,7 +320,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Arbitrary Crashes [<a href="http://trac.cyberduck.ch/ticket/2142">#2142</a>]</li>
 
@@ -310,7 +337,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Greek Localization</li>
 
@@ -357,7 +384,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Added Taco HTML Edit to the list of supported editors (<a href="http://tacosw.com/htmledit/beta.php">http://tacosw.com/htmledit/beta.php</a>) [<a href=
 								"http://trac.cyberduck.ch/ticket/188">#188</a>]</li>
@@ -382,7 +409,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Support for file renaming and copying (Amazon S3)</li>
 
@@ -399,7 +426,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0b3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Activity Window [<a href="http://trac.cyberduck.ch/ticket/">#1250</a>]</li>
 							</ul>
@@ -412,7 +439,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-3.0b2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Latvian Localization</li>
 
@@ -433,7 +460,7 @@
 							<span class="version">Mac OS X 10.4 or later required.</span></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Amazon Simple Storage Service (S3) support (http://aws.amazon.com/s3) [<a href="http://trac.cyberduck.ch/ticket/1725">#1725</a>]</li>
 
@@ -460,7 +487,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.5.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Added ForgEdit to the list of supported editors (http://forgedit.com) [<a href="http://trac.cyberduck.ch/ticket/1779">#1779</a>]</li>
 
@@ -477,7 +504,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Crash when dismissing sheet attached to window [<a href="http://trac.cyberduck.ch/ticket/1616">#1616</a>]</li>
 
@@ -498,7 +525,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Log Drawer in browser and transfer window</li>
 
@@ -530,7 +557,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Show transfer progress when using browser session [<a href="http://trac.cyberduck.ch/ticket/1313">#1313</a>]</li>
 
@@ -562,7 +589,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Application code is signed (10.5)</li>
 
@@ -583,7 +610,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.8.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Using Ganymed SSH2 library [<a href="http://trac.cyberduck.ch/ticket/185">#185</a>]</li>
 
@@ -632,7 +659,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Problem parsing PASV response from some servers (FTP) <a href="http://trac.cyberduck.ch/ticket/779">#779</a>, <a href=
 								"http://trac.cyberduck.ch/ticket/86">#869</a>]</li>
@@ -666,7 +693,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.7.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Option to use single connection for browser and transfers [<a href="http://trac.cyberduck.ch/ticket/57">#57</a>]</li>
 
@@ -707,7 +734,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.7.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Portuguese Localization</li>
 
@@ -730,7 +757,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.7.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Don't block user interface when working in browser. All potentially lengthy operations are now performed in the background [<a href=
 								"http://trac.cyberduck.ch/ticket/921">#921</a>]</li>
@@ -773,7 +800,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Crash when typing hostname in connection dialog for some users [<a href="http://trac.cyberduck.ch/ticket/711">#711</a>]</li>
 
@@ -796,7 +823,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Crash or spinning beachball after upload [<a href="http://trac.cyberduck.ch/ticket/504">#504</a>]</li>
 
@@ -823,7 +850,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.6.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Turkish Localization</li>
 
@@ -877,7 +904,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5.5.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Hebrew Localization</li>
 
@@ -905,7 +932,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Thai Localization</li>
 
@@ -923,7 +950,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] New and much improved Bonjour implementation</li>
 
@@ -948,7 +975,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Spinning beachball of death when connecting on some systems</li>
 
@@ -963,7 +990,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Dragging files to application icon will upload to frontmost browser</li>
 
@@ -998,7 +1025,7 @@
 							<span class="version">Mac OS X 10.3.9 or later required.</span></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Graphical interface refinements</li>
 
@@ -1019,7 +1046,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5b4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Updated navigation bar interface elements</li>
 
@@ -1040,7 +1067,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5b3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Catalan Localization</li>
 
@@ -1077,7 +1104,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5b2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Indonesian Localization</li>
 
@@ -1101,7 +1128,7 @@
 							Mac OS X 10.3 or later</p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Right-click a file in the browser will first select before it displays the contextual menu</li>
 
@@ -1126,7 +1153,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.5b1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] FTP using TLS support (using AUTH TLS as in draft-murray-auth-ftp-ssl-16) for the control channel (sending login credentials) and optionally the data
 								channel (file listings and transfers) if the server is capable of.</li>
@@ -1180,7 +1207,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Added Tag to the list of supported editors (http://www.talacia.com/)</li>
 
@@ -1197,7 +1224,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4.4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Danish Localization</li>
 
@@ -1220,7 +1247,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Browser refresh issues</li>
 
@@ -1245,7 +1272,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Swedish Localization</li>
 
@@ -1278,7 +1305,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4b4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Dragging files to the Finder</li>
 
@@ -1305,7 +1332,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4b3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Russian Localization</li>
 
@@ -1344,7 +1371,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4b2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Allow the selection of files in the browser by typing more than just the first character of the filename</li>
 
@@ -1378,7 +1405,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4b1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Synchronization of files</li>
 
@@ -1456,7 +1483,7 @@
 							Mac OS X 10.2 or later</p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Correctly parsing symbolic links</li>
 							</ul>
@@ -1469,7 +1496,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Slovak Localization</li>
 
@@ -1502,7 +1529,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Chinese (Simplified) Localization</li>
 
@@ -1529,7 +1556,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Supporting Keyboard Interactive (PAM) Authentication (SSH)</li>
 
@@ -1548,7 +1575,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Much improved queue management (fewer connections)</li>
 
@@ -1603,7 +1630,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] External editor support (SubEthaEdit, BBEdit, TextWrangler, Text-Edit Plus)</li>
 							</ul>
@@ -1616,7 +1643,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Supporting folders with sticky/set-uid/set-gid bits (FTP)</li>
 
@@ -1635,7 +1662,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta6.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Preliminary support for Windows, VMS and OS/2 file listings (FTP)</li>
 
@@ -1660,7 +1687,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta5.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Chinese (Traditional) Localization</li>
 
@@ -1695,7 +1722,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Bugfix] Fixed a bug that with some servers the permissions could not be modified (FTP)</li>
 
@@ -1714,7 +1741,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Caching folder listings</li>
 
@@ -1733,7 +1760,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Updated Japanese localization</li>
 
@@ -1755,7 +1782,7 @@
 							<p><strong>2.2b1</strong> <em>Jan-22-2004</em> <a href="./Cyberduck-2.2beta1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Keychain integration</li>
 
@@ -1796,7 +1823,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.1.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Bookmarks can now be edited.</li>
 
@@ -1835,7 +1862,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta5.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] HTTP is now supported again. Files can be downloaded from regular web servers.</li>
 
@@ -1861,7 +1888,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta4.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Cyberduck now has the official creator code 'CYCK'.</li>
 
@@ -1876,7 +1903,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta3.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Localize] Localization support</li>
 
@@ -1909,7 +1936,7 @@
 							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta2.dmg">Download</a></p>
 						</td>
 
-						<td colspan="2">
+						<td>
 							<ul>
 								<li>[Feature] Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
 							</ul>
