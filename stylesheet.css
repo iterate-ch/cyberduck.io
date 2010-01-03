@@ -307,7 +307,8 @@ margin-bottom: 5px;
 	ul {
 padding-left: 20px;
 padding-right: 5px;
-list-style-type: square;
+list-style-type: disc;
+list-style-position: inside;
 }
 	
 	div.image a,
