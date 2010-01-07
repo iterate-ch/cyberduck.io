@@ -21,27 +21,46 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1</a></strong> <em>Jan-01-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4">3.4</a></strong> <em>Jan-08-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						        <li>[Localize] Serbian Localization</li>
+						        <li>[Feature] Support external editors with no ODB support for different file types (
+						            <a href="http://trac.cyberduck.ch/ticket/3834">#3834</a>)
+						        </li>
+						        <li>[Feature] Allow user to define applications to use for editing (
+						            <a href="http://trac.cyberduck.ch/ticket/3112">#3112</a>)
+						        </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1</a></strong> <em>Jan-05-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.3.1.zip">Download</a></p>
 						</td>
 
 						<td>
 							<ul>
-						       <li>[Feature] Support for new US West Location (S3)</li>
-						       <li>[Bugfix] Bookmark menu [<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>]</li>
-						       <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
-						       <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) [<a
-						               href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]
-						       <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
-						               href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)
-						       <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)
-						       <li>[Bugfix] Bonjour bookmarks ignore TXT record with path and credentials attributes (<a
-						               href="http://trac.cyberduck.ch/ticket/3901">#3984</a>)
-						       </li>
-						       <li>[Bugfix] Donation prompt cannot be supressed (<a href="http://trac.cyberduck.ch/ticket/3937">#3937</a>)</li>
-						       <li>[Bugfix] Error when uploading file with different display name from real filename (<a
-						               href="http://trac.cyberduck.ch/ticket/4041">#4041</a>)
-						       </li>
+						        <li>[Feature] Support for new US West Location (S3)</li>
+						        <li>[Bugfix] Bookmark menu [<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>]</li>
+						        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+						        <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) [<a
+						                href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]
+						        <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
+						                href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)
+						        <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)
+						        <li>[Bugfix] Bonjour bookmarks ignore TXT record with path and credentials attributes (<a
+						                href="http://trac.cyberduck.ch/ticket/3901">#3984</a>)
+						        </li>
+						        <li>[Bugfix] Donation prompt cannot be supressed (<a href="http://trac.cyberduck.ch/ticket/3937">#3937</a>)</li>
+						        <li>[Bugfix] Error when uploading file with different display name from real filename (<a
+						                href="http://trac.cyberduck.ch/ticket/4041">#4041</a>)
+						        </li>
 						   </ul>
 						</td>
 					</tr>

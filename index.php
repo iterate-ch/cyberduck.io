@@ -173,9 +173,9 @@
 				<div class="box-shadow">
 					<div id="download">
 						<div style="float:left">
-							<strong>Version 3.3.1</strong><br />
-							<em>Jan-01-2010</em><br />
-							<a href="Cyberduck-3.3.1.zip">Cyberduck-3.3.1.zip</a><br />
+							<strong>Version 3.4</strong><br />
+							<em>Jan-08-2010</em><br />
+							<a href="Cyberduck-3.4.zip">Cyberduck-3.4.zip</a><br />
 							Universal Binary<br />
 							Mac OS X 10.5<br />
 							or later required.
