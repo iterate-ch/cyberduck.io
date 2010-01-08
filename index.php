@@ -157,7 +157,7 @@
 				UKPrefsPanel</a>), <strong>Greg Guerin</strong> (<a class="ext" href="http://www.amug.org/~glguerin/sw/#macbinary">MacBinary Toolkit</a>), <strong>Andy Matuschak</strong> (<a class=
 				"ext" href="http://www.andymatuschak.org/pages/sparkle">Sparkle</a>), <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), <strong>Shaun
 				Wexler</strong> (<a class="ext" href="http://www.macfoh.com/">SKWSegmentedControl</a>), <strong>Brian Amerige</strong> (<a class="ext" href=
-				"http://extendmac.com/EMKeychain/">EMKeychain</a>), <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>)</small></p>
+				"http://extendmac.com/EMKeychain/">EMKeychain</a>), <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>), <strong>Steve McLeod</strong> (<a class="ext" href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)</small></p>
 			</div>
 
 			<div id="footer">
