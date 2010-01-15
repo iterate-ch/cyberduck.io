@@ -34,6 +34,9 @@
 						        <li>[Feature] Allow user to define applications to use for editing (
 						            <a href="http://trac.cyberduck.ch/ticket/3112">#3112</a>)
 						        </li>
+						        <li>[Feature] Configure Amazon CloudFront Streaming Distributions (S3) (<a
+						                href="http://trac.cyberduck.ch/ticket/4069">#4069</a>)
+						        </li>
 						   </ul>
 						</td>
 					</tr>
@@ -60,6 +63,11 @@
 						        <li>[Bugfix] Donation prompt cannot be supressed (<a href="http://trac.cyberduck.ch/ticket/3937">#3937</a>)</li>
 						        <li>[Bugfix] Error when uploading file with different display name from real filename (<a
 						                href="http://trac.cyberduck.ch/ticket/4041">#4041</a>)
+						        </li>
+						        <li>[Bugfix] Quick Connect needs extra keystroke to connect (<a href="http://trac.cyberduck.ch/ticket/3801">#3801</a>)
+						        </li>
+						        <li>[Bugfix] Password in non-default keychain are copied to login keychain (<a
+						                href="http://trac.cyberduck.ch/ticket/2878">#2878</a>)
 						        </li>
 						   </ul>
 						</td>
