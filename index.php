@@ -174,7 +174,7 @@
 					<div id="download">
 						<div style="float:left">
 							<strong>Version 3.4</strong><br />
-							<em>Jan-11-2010</em><br />
+							<em>Jan-16-2010</em><br />
 							<a href="Cyberduck-3.4.zip">Cyberduck-3.4.zip</a><br />
 							Universal Binary<br />
 							Mac OS X 10.5<br />
