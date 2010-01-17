@@ -21,6 +21,23 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.1">3.4.1</a></strong> <em>Jan-16-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.1.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+								<li>[Feature] Display checksum of files in Info panel (S3, Rackspace Cloud Files) (<a
+						                href="http://trac.cyberduck.ch/ticket/4043">#4043</a>)
+						        </li>
+						        <li>[Bugfix] Incompatibilities when running on OS X 10.5 [<a
+						                href="http://trac.cyberduck.ch/ticket/4102">#4102</a>]
+						        </li>
+						   </ul>
+						</td>
+					</tr>
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4">3.4</a></strong> <em>Jan-16-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.zip">Download</a></p>
 						</td>
