@@ -426,3 +426,23 @@ display: none;
 	li.removed {
 text-decoration: line-through;
 }
+
+	td.y {
+background: url(img/checkmark.png) no-repeat scroll 0 0;
+	}
+
+	td.n {
+background: url(img/no.png) no-repeat scroll 0 0;
+	}
+	
+	th {
+		text-align: left;
+	}
+	
+	.version {
+		display: block;
+		padding: 3px 10px 3px 10px;
+		background-color: #fff3f3;
+		border: 1px solid red;
+		color: #cc0000;
+	}
