@@ -21,7 +21,7 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.1">3.4.1</a></strong> <em>Jan-17-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.1">3.4.1</a> (5780)</strong> <em>Jan-17-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.1.zip">Download</a></p>
 						</td>
 
@@ -38,7 +38,7 @@
 					</tr>
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4">3.4</a></strong> <em>Jan-16-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4">3.4</a> (5755)</strong> <em>Jan-16-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.zip">Download</a></p>
 						</td>
 
@@ -60,7 +60,7 @@
 
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1</a></strong> <em>Jan-05-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1 (5676)</a></strong> <em>Jan-05-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.3.1.zip">Download</a></p>
 						</td>
 
