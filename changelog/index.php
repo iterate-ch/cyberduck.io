@@ -1989,7 +1989,7 @@
 				</table>
 			</div>
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 			</div>
 		</div>

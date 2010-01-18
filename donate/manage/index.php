@@ -43,7 +43,7 @@ include "../../functions.php";
 			</div>
 
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="../../img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date: 2009-07-20 23:51:01 +0200 (Mon, 20 Jul 2009) $<br />
 			</div>
 		</div>
@@ -54,7 +54,7 @@ include "../../functions.php";
 
 				<div class="box-shadow">
 					<div align="center">
-						<img src="../img/cert.png" alt="Donation Key" border="0" />
+						<img src="http://media.cyberduck.ch/img/cert.png" alt="Donation Key" border="0" />
 					</div>
 				</div>
 
