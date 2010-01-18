@@ -30,7 +30,7 @@
 	}
 	
 	function echologo($dir) {
-		return "<div id=\"logo\"><a href=\"http://cyberduck.ch\"><img id=\"icon\" src=\"$dir/img/cyberduck.icon.png\" width=\"128\" height=\"128\" alt=\"Cyberduck\"/></a></div>";
+		return "<div id=\"logo\"><a href=\"http://cyberduck.ch\"><img id=\"icon\" src=\"http://media.cyberduck.ch/img/cyberduck.icon.png\" width=\"128\" height=\"128\" alt=\"Cyberduck\"/></a></div>";
 	}
 	
     function echocaption($dir) {
