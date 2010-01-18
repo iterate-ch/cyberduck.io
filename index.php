@@ -20,7 +20,7 @@
 				<p class="lead"><strong>Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
 				href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
 				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
-				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with several external editors makes it easy to change content quickly. Both Amazon
+				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
 				CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the
 				Keychain are supported and a large number of translations makes you feel at home.</p>
 
