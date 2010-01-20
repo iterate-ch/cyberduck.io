@@ -120,7 +120,7 @@
 						Browse <a class="ext" href="http://aws.amazon.com/s3">Amazon Simple Storage Service</a> the way you are used to with other file systems.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong class="version3">Amazon CloudFront</strong><br />
-						Manage <a href="http://aws.amazon.com/cloudfront/" class="ext">CloudFront</a> distributions.</p>
+						Manage basic and streaming <a href="http://aws.amazon.com/cloudfront/" class="ext">CloudFront</a> distributions.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong class="version3">WebDAV</strong><br />
 						With WebDAV you can access your <a class="ext" href="http://www.apple.com/mobileme/features/idisk.html">iDisk</a>, GMX <a class="ext" href=
