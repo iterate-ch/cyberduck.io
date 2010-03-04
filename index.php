@@ -18,7 +18,7 @@
 
 			<div id="content">
 				<p class="lead"><strong>Cyberduck is an <a class="ext" href="http://opensource.org/docs/definition.php">open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
-				href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
+				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
 				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
 				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
 				CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the
@@ -47,7 +47,7 @@
 						<p><img src="http://media.cyberduck.ch/img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
 						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class=
 						"ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning), <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> and
-						<a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Rackspace Cloud Files</a>.</p>
+						<a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Rackspace Cloud Files</a>.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
 						Document based, list and outline view, caching, cut &amp; paste, drag &amp; drop and arbitrary character encodings.</p>
@@ -128,7 +128,7 @@
 						Supports Basic, Digest and NTLM Authentication.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong class="version3">Rackspace Cloud Files</strong><br />
-						Manage your Rackspace <a class="ext" href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a> storage including the configuration of your <a href=
+						Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of your <a href=
 						"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>Permissions</strong><br />

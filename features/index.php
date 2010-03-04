@@ -103,7 +103,7 @@
 						Supports Basic, Digest and NTLM Authentication.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong class="version3">Mosso Cloud Files</strong><br />
-						Manage your Rackspace <a class="ext" href="http://www.mosso.com/cloudfiles.jsp">Cloud Hosting</a> distributions.</p>
+						Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Hosting</a> distributions.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 						Modify permissions on multiple files and recursivly.</p>
