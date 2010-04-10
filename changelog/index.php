@@ -21,6 +21,23 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.2">3.4.2</a> ()</strong> <em>Apr-5-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.2.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+								<li>[Feature] Choose localization in preferences</li>
+								<li>[Feature] Option to disable use of system proxy settings in preferences</li>
+						        <li>[Bugfix] Connections fail with at sign in username (WebDAV) (<a
+						                href="http://trac.cyberduck.ch/ticket/4097">#4097</a>)
+						        </li>
+						        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+						   </ul>
+						</td>
+					</tr>
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.1">3.4.1</a> (5780)</strong> <em>Jan-17-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.1.zip">Download</a></p>
 						</td>
