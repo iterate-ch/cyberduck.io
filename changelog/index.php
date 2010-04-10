@@ -21,7 +21,7 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.2">3.4.2</a> (5902)</strong> <em>Apr-5-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.2">3.4.2</a> (5902)</strong> <em>Apr-10-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.2.zip">Download</a></p>
 						</td>
 
