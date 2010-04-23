@@ -26,7 +26,7 @@
 				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
 				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
 
-				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a>.</p>
+				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
 				<p><tt>David Kocher</tt><br />
 				<tt>3013 Bern, Switzerland</tt><br />
@@ -34,10 +34,10 @@
 				<tt><strong>BIC</strong> POFICHBEXXX</tt> or <tt>POFICHBE</tt></p>
 
 				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, I do also have a <a class="ext" href="http://www.amazon.de/gp/registry/1QIQE5HKOS011/">Amazon
-				Wishlist</a>. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a>.</p>
+				Wishlist</a>. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
 				<form id="lookup" method="get" action="lookup">
-					<p class="lead"><strong>Donation Key Recovery.</strong> The donation key is sent to you by email automatically after the the Paypal transaction has been completed. To recover a
+					<p class="lead"><strong>Donation Key Recovery.</strong> The donation key is sent to you by email automatically after the Paypal transaction has been completed. To recover a
 					lost registration key, enter your email address below to look it up.</p>
 
 					<p><label for="email">Email address registered with Paypal:</label> <input type="text" id="email" name="email" /> <input type="submit" id="lookup" value="Lookup" />
