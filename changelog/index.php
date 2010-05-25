@@ -21,6 +21,38 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> ()</strong> <em>May-30-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						        <li>[Localize] Slovenian Localization</li>
+						        <li>[Feature] Google Docs storage support (Google Docs)</li>
+						        <li>[Feature] Convert uploads to Google Docs format (Google Docs)</li>
+						        <li>[Feature] Optical Character Recognition (OCR) for image uploads (Google Docs)</li>
+						        <li>[Feature] Support for Asia Pacific (Singapore) location (S3)</li>
+						        <li>[Feature] Support for keyboard-interactive authentiation using SecurID (<a
+						                href="http://trac.cyberduck.ch/ticket/4459">#4459</a>) (SFTP)
+						        </li>
+						        <li>[Feature] HTTP plain text connection support to connect to third party S3 servers (<a
+						                href="http://trac.cyberduck.ch/ticket/4181">#4181</a>) (S3)
+						        </li>
+						        <li>[Feature] Custom metadata attributes (<a href="http://trac.cyberduck.ch/ticket/4063">#4063</a>) (S3,
+						            Rackspace Cloud Files)
+						        </li>
+						        <li>[Feature] Configure Access Logs for CloudFront streaming distributions (S3)</li>
+						        <li>[Feature] Option for Reduced Redundancy Storage (RRS) (S3)</li>
+						        <li>[Bugfix] Overwrite files causes append (S3) (<a href="http://trac.cyberduck.ch/ticket/4419">#4419</a>)</li>
+						        <li>[Bugfix] Connect anonymously to public buckets (S3) (<a
+						                href="http://trac.cyberduck.ch/ticket/4419">#4480</a>)
+						        </li>
+						        <li>[Bugfix] Help menu items disabled (<a href="http://trac.cyberduck.ch/ticket/4406">#4406</a>)</li>
+						   </ul>
+						</td>
+					</tr>
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.2">3.4.2</a> (5902)</strong> <em>Apr-10-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.4.2.zip">Download</a></p>
 						</td>

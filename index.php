@@ -18,7 +18,7 @@
 
 			<div id="content">
 				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://en.wikipedia.org/wiki/Free_and_open_source_software">libre open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
-				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
+				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>, <a href="http://docs.google.com/">Google Docs</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
 				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
 				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
 				CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the
@@ -46,7 +46,7 @@
 					<div class="feature">
 						<p><img src="http://media.cyberduck.ch/img/ftp.png" class="feature" alt="" /> <strong>Protocols</strong><br />
 						FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), <span class="version3"><a href="http://webdav.org" class=
-						"ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning), <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span> and
+						"ext">WebDAV</a></span> (Web-based Distributed Authoring and Versioning), <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>, <a href="http://docs.google.com/">Google Docs</a> and
 						<a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Rackspace Cloud Files</a>.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/column.png" class="feature" alt="" /> <strong>Browser</strong><br />
@@ -130,6 +130,9 @@
 						<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong class="version3">Rackspace Cloud Files</strong><br />
 						Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of your <a href=
 						"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
+
+						<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Docs</strong><br />
+						Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>Permissions</strong><br />
 						Modify permissions on multiple files and recursivly.</p>

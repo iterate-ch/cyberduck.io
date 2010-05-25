@@ -34,11 +34,11 @@
 	}
 	
     function echocaption($dir) {
-        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV, Cloud Files &amp; Amazon S3 Browser for Mac OS X.</h3></div>";
+        return "<div id=\"title\"><h1 id=\"maintitle\">Cyberduck</h1><h3 id=\"subtitle\">FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac OS X.</h3></div>";
     }
 
 	function echotitle($page) {
-		return "Cyberduck | FTP, SFTP, WebDAV, Cloud Files &amp; Amazon S3 Browser for Mac OS X | $page";
+		return "Cyberduck | FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac OS X | $page";
 	}
     
     function echosubmenu($dir) {
