@@ -43,17 +43,17 @@ include "../functions.php";
 
 					<blockquote>
 						“The best FTP and SFTP client for Mac OS X I ever tried. Is not because I like birds in general, but because it's the best.”<br />
-						— <a href="marcopetraroia.com">marcopetraroia.com</a>
+						— <a href="http://marcopetraroia.com">marcopetraroia.com</a>
 					</blockquote>
 
 					<blockquote>
 						“Forget the rest, this is the best! (...) I will never use another FTP client again.”<br />
-						— <a href="macfanatic.com">macfanatic.com</a>
+						— <a href="http://macfanatic.com">macfanatic.com</a>
 					</blockquote>
 
 					<blockquote>
 						“Cyberduck is an outstanding FTP client for OS X. For the windows users out there, imagine if Filezilla was fast, and looked nice.”<br />
-						— <a href="minglewithingle.com">minglewithingle.com</a>
+						— <a href="http://minglewithingle.com">minglewithingle.com</a>
 					</blockquote>
 
 					<blockquote>
