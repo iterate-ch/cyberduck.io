@@ -21,15 +21,17 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> ()</strong> <em>May-30-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> ()</strong> <em>Jun-09-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip">Download</a></p>
 						</td>
 
 						<td>
 							<ul>
 						        <li>[Localize] Slovenian Localization</li>
+						        <li>[Localize] Romanian Localization</li>
 						        <li>[Feature] Google Docs storage support (Google Docs)</li>
 						        <li>[Feature] Convert uploads to Google Docs format (Google Docs)</li>
+						        <li>[Feature] Download format preferences for documents (Google Docs)</li>
 						        <li>[Feature] Optical Character Recognition (OCR) for image uploads (Google Docs)</li>
 						        <li>[Feature] Support for Asia Pacific (Singapore) location (S3)</li>
 						        <li>[Feature] Support for keyboard-interactive authentiation using SecurID (<a
