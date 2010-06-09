@@ -17,7 +17,7 @@
 			<?php echo(echogoogle());?>
 
 			<div id="content">
-				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://en.wikipedia.org/wiki/Free_and_open_source_software">libre open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
+				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://en.wikipedia.org/wiki/Free_and_open_source_software">libre, open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
 				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>, <a href="http://docs.google.com/">Google Docs</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
 				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
 				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
