@@ -21,6 +21,23 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5.1">3.5.1</a> (6115)</strong> <em>Jun-15-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.5.1.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						        <li>[Bugfix] Crash opening Info window (<a href="http://trac.cyberduck.ch/ticket/4536">#4536</a>)</li>
+						        <li>[Bugfix] Nested folder not visible (<a href="http://trac.cyberduck.ch/ticket/4534">#4534</a>) (Google Docs)</li>
+						        <li>[Bugfix] Upload into folder not possible (<a href="http://trac.cyberduck.ch/ticket/4550">#4550</a>) (Google Docs)</li>
+						        <li>[Bugfix] Downloading spreadsheets fails with permission error (<a href="http://trac.cyberduck.ch/ticket/4538
+						        ">#4538</a>) (Google Docs)</li>
+						        <li>[Bugfix] Replacing documents on upload adding new revision (Google Docs)</li>
+						   </ul>
+						</td>
+					</tr>
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> (6066)</strong> <em>Jun-09-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip">Download</a></p>
 						</td>
