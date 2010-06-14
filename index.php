@@ -178,7 +178,7 @@
 						<div style="float:left">
 							<strong>Version 3.5.1</strong><br />
 							<em>Jun-15-2010</em><br />
-							<a href="Cyberduck-3.5.zip">Cyberduck-3.5.1.zip</a><br />
+							<a href="Cyberduck-3.5.1.zip">Cyberduck-3.5.1.zip</a><br />
 							Universal Binary<br />
 							Mac OS X 10.5<br />
 							or later required.
