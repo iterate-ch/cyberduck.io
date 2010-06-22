@@ -55,6 +55,8 @@
 				</form>
 
 				<p><strong id="result"></strong></p>
+				
+				<p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the donation key attached ends with <tt>.cyberducklicense</tt></p>
 			</div>
 
 			<div id="footer">
