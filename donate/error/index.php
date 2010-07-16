@@ -15,9 +15,8 @@
 	<div id="container">
 		<div id="maincolumn">
 			<div id="content">
-				<p class="lead"><strong>Error.</strong> There was an unkown error with this transaction.</p>
-
-				<p class="lead"><strong>Feedback.</strong> If there was an issue with the Paypal website, please <a href="mailto:feedback@cyberduck.ch">let me know</a>.</p>
+				<p class="lead"><strong>Error.</strong> There was an unkown error with this transaction.
+				If there was an issue with the Paypal website, please <a href="mailto:feedback@cyberduck.ch">let me know</a>.</p>
 
 				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
 				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
