@@ -17,6 +17,11 @@
 			<div id="content">
 				<p class="lead"><strong>Canceled.</strong> If you don't like Paypal you can still support this project by providing me with some good book to read. I have a <a class="ext" href=
 				"http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">amazon.de</a> wishlist.</p>
+				
+				<p class="lead"><strong>Feedback.</strong> If there was an issue with the Paypal website, please <a href="mailto:feedback@cyberduck.ch">let me know</a>.</p>
+				
+				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
+				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
 			</div>
 			<div id="footer">
 				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
