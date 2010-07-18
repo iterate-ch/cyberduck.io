@@ -16,7 +16,7 @@
 		<div id="maincolumn">
 			<div id="content">
 				<p class="lead"><strong>Canceled.</strong> If you don't like Paypal you can still support this project by providing me with some good book to read. I have a <a class="ext" href=
-				"http://www.amazon.de/exec/obidos/registry/1QIQE5HKOS011/">amazon.de</a> wishlist.</p>
+				"http://www.amazon.de/wishlist/1QIQE5HKOS011">amazon.de</a> wishlist.</p>
 				
 				<p class="lead"><strong>Feedback.</strong> If there was an issue with the Paypal website, please <a href="mailto:feedback@cyberduck.ch">let me know</a>.</p>
 				
