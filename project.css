@@ -247,3 +247,25 @@ display: none;
             border: 1px solid red;
 }
 
+.trac-resizable {
+	width: 100%;
+}
+
+#openid_form {
+	width:auto;
+	font-family: Georgia;
+}
+
+#openid_form .error {	
+	font-size: 1.8em;	
+	font-weight: bold;
+	font-family: Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif;
+	margin: 0.15em 1em 0.5em 0;
+}
+
+#openid_input_area {
+	background-color: #E5E5DB;
+}
+
+
+
