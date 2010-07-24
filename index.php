@@ -59,14 +59,7 @@
 						Quickly open the corresponding Web URL of a selected file in your web browser.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/textmate.png" class="feature" alt="" /> <strong>External editors</strong><br />
-						Seamless integration with external editors. <a class="ext" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>, <a class="ext" href=
-						"http://www.barebones.com/products/bbedit/">BBEdit</a>, <a class="ext" href="http://www.barebones.com/products/textwrangler">TextWrangler</a>, <a class="ext" href=
-						"http://macromates.com/">TextMate</a>, <a class="ext" href="http://www.tex-edit.com/">Text-Edit Plus</a>, <a class="ext" href="http://mimikaki.net/">mi</a>, <a class="ext"
-						href="http://smultron.sourceforge.net/">Smultron</a>, <a class="ext" href="http://macrabbit.com/cssedit/">CSSEdit</a>, <a class="ext" href=
-						"http://www.aynimac.com/">CotEditor</a>, <a class="ext" href="http://www.talacia.com/">Tag</a>, <a class="ext" href="http://skti.org/skedit/">skEdit</a> and <a class="ext"
-						href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a> and <a class="ext" href="http://code.google.com/p/macvim/">MacVim</a> and <a class="ext" href=
-						"http://forgedit.com/">ForgEdit</a> and <a class="ext" href="http://www.artman21.net/product/JeditX/">JeditX</a>, <a class="ext" href=
-						"http://www.optima-system.com/pagespinner/">PageSpinner</a>.</p>
+						Seamless integration with external editors. Edit any file on the server in your preferred application.</p>
 
 						<p><img src="http://media.cyberduck.ch/img/international16.png" class="feature" alt="" /> <strong>International</strong><br />
 						Speaks your language. 
