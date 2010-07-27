@@ -264,8 +264,18 @@ display: none;
 }
 
 #openid_input_area {
-	background-color: #E5E5DB;
+	background-color: #F7F7F7;
 }
 
+#edit {
+	background-color: #F7F7F7;
+}
 
+a#edit {
+	background-color: inherit;
+}
 
+.milestone .description {
+        background-color: #F7F7F7;
+
+}
