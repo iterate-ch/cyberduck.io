@@ -68,8 +68,7 @@
 						Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა &amp; Slovenščina</p>
 
 						<p><img src="http://media.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
-						All passwords are stored in the system <a class="ext" href="http://www.apple.com/macosx/features/security/">Keychain</a> as Internet passwords available also to third party
-						applications.</p>
+						All passwords are stored in the system Keychain as Internet passwords available also to third party applications.</p>
 					</div>
 
 					<div class="feature">
