@@ -205,9 +205,6 @@
 					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
 				</form>
 			</div>
-
-			<div class="box-solid">
-			</div>
 		</div><?php echo(echoanalytics(".")); ?>
 	</div>
 </body>
