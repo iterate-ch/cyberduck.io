@@ -174,7 +174,8 @@ include "../functions.php";
 				<div class="box-shadow-start"></div>
 
 				<div class="box-shadow">
-					<div class="feature">
+					<p class="lead"><strong>Reviews.</strong> Reviewed by many sites with tremendous feedback over the last years.</p>
+					<div>
 						<blockquote>
 							Soft32.com Editor's Pick
 						</blockquote>
@@ -184,7 +185,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
+					<div>
 						<blockquote>
 							Softpedia Pick (5/5)
 						</blockquote>
@@ -194,7 +195,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
+					<div>
 						<blockquote>
 							Macupdate.com
 						</blockquote>
@@ -205,7 +206,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
+					<div>
 						<blockquote>
 							Soft32.com Editor's Review Award
 						</blockquote>
@@ -215,7 +216,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
+					<div>
 						<blockquote>
 							Download.com (4/5)
 						</blockquote>
@@ -225,27 +226,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
-						<blockquote>
-							Versiontracker.com
-						</blockquote>
-
-						<table class="VTProdDispTbl" cellpadding="0" cellspacing="5" border="0">
-							<tr>
-								<td class="VTProdDispShd"><a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14426">Cyberduck</a></td>
-
-								<td id="pirtd24765"></td>
-							</tr>
-
-							<tr>
-								<td colspan="2" class="VTLogo">Data provided by <a href="http://www.versiontracker.com/">VersionTracker</a></td>
-							</tr>
-						</table><script type="text/javascript" language="javascript" src=
-						"http://tc.versiontracker.com/product/jsdvfd?id=24765&amp;incRating=yes&amp;incStars=yes&amp;type=prod&amp;rndz=91703">
-</script>
-					</div>
-
-					<div class="feature">
+					<div>
 						<blockquote>
 							Softpedia Editor's Review
 						</blockquote>
@@ -255,7 +236,7 @@ include "../functions.php";
 						</div>
 					</div>
 
-					<div class="feature">
+					<div>
 						<blockquote>
 							ZDNet.co.uk Editor's Rating 'Excellent'
 						</blockquote>
