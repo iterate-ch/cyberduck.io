@@ -1,13 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<?php
-include "../../functions.php";
-?>
+
+<?php include "../../functions.php";?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.3), see www.w3.org" /><?php echo(echoheader("../..")); ?>
-
+	<?php echo(echoheader("../..")); ?>
 	<title><?php echo(echotitle("Donate")); ?></title>
 </head>
 
