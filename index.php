@@ -195,66 +195,14 @@
 			</div>
 
 			<div class="box-solid">
-				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <strong>Blog.</strong> <a href="http://sudo.ch/feed/">Subscribe</a> to the the developer's <a class="ext" href=
-				"http://sudo.ch/">blog</a> or <a href="http://twitter.com/davidkocher">follow @davidkocher on twitter</a>.</p>
-			</div>
-
-			<div class="box-solid">
+				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the developer's <a class="ext" href="http://sudo.ch/">blog</a>.</p>
+				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification
 				when a new version is released.</p>
 
 				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
 				</form>
-			</div>
-
-<!--
-			<div class="box-solid">
-				<p><strong>Forum.</strong> Discuss anything related to Cyberduck in the forum hosted at <a class="ext" href="http://forum.cyberduck.ch">cocoaforge.com</a></p>
-
-				<div style="margin-top:-10px; margin-bottom:5px;" align="center">
-					<a href="http://forum.cyberduck.ch"><img width="128" src="http://media.cyberduck.ch/img/cocoaforge.png" alt="forum" /></a>
-				</div>
-			</div>
--->
-<!--
-			<div class="box-solid">
-				<p><a href="http://growl.info"><img height="64" class="sidebar" src="http://media.cyberduck.ch/img/growlicon.png" alt="getgrowl" /></a> <strong>Growl.</strong> You may also want to install <a class="ext"
-				href="http://growl.info">Growl</a>, a global notification system Cyberduck supports.</p>
-			</div>
--->
-			<div class="box-solid">
-				<p><strong>Reviews.</strong> Cyberduck has been reviewed by many sites and got tremendous feedback over the last years.</p>
-
-				<blockquote>
-					“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
-					— <a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>
-				</blockquote>
-
-				<blockquote>
-					“[Cyberduck] is one of those apps that just does what it’s supposed to, no more, no less. - check it out today, and I bet you will switch too.”<br />
-					— <a href="http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">macsoftreview.com</a>
-				</blockquote>
-
-				<blockquote>
-					“Ce logiciel rend l’opération vraiment plus simple!”<br />
-					— <a href="./reviews/vvmac_review.pdf">vvmac.com</a>
-				</blockquote>
-
-				<blockquote>
-					“With a user-friendly interface, funky name, and loads of great features, Cyberduck leads the pack among free FTP clients.”<br />
-					— <a href="http://www.spymac.com/news/article.php?contentid=2875">spymac.com</a>
-				</blockquote>
-
-				<blockquote>
-					“Forget the rest, this is the best! (...) I will never use another FTP client again.”<br />
-					— <a href="http://www.macfanatic.com/node/19">macfanatic.com</a>
-				</blockquote>
-
-				<blockquote>
-					“Cyberduck is getting some great acclaim, and deservedly so.”<br />
-					— <a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">osxguide.com</a>
-				</blockquote>
 			</div>
 		</div><?php echo(echoanalytics(".")); ?>
 	</div>
