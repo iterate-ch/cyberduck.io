@@ -229,7 +229,7 @@ border-bottom: 1px solid white;
 text-align: left;
 vertical-align: top;
 }
-	
+
 	input#mailinglist {
 width: 120px;
 }
@@ -427,16 +427,26 @@ display: none;
 text-decoration: line-through;
 }
 
-	td.y {
-background: url(img/checkmark.png) no-repeat scroll 0 0;
+	#comparison td {
+		padding: 2px 0 2px 0;
 	}
 
-	td.n {
+	#comparison td.y {
+background: url(img/checkmark.png) no-repeat scroll 0 0;
+vertical-align:middle;
+	}
+
+	#comparison  td.n {
 background: url(img/no.png) no-repeat scroll 0 0;
+vertical-align:middle;
 	}
 	
 	th {
 		text-align: left;
+	}
+	
+	#comparison th {
+		padding-right: 8px;
 	}
 	
 	.version {
