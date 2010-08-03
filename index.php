@@ -17,16 +17,12 @@
 			<?php echo(echogoogle());?>
 
 			<div id="content">
-				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://en.wikipedia.org/wiki/Free_and_open_source_software">libre, open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
+				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">libre, open source</a> FTP, SFTP, <span class="version3">WebDAV</span>, <a class="ext"
 				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>, <a href="http://docs.google.com/">Google Docs</a> and <span class="version3"><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
 				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
 				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
 				CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the
 				Keychain are supported and 30 translations make you feel at home.</p>
-
-				<p class="lead">This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href=
-				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
-				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 
 				<div id="screenshots">
 					<div class="figure">
@@ -171,9 +167,9 @@
 							<strong>Version 3.5.1</strong><br />
 							<em>Jun-15-2010</em><br />
 							<a href="Cyberduck-3.5.1.zip">Cyberduck-3.5.1.zip</a><br />
-							Universal Binary<br />
+							<em>Universal Binary<br />
 							Mac OS X 10.5<br />
-							or later required.
+							or later required.</em>
 						</div>
 
 						<div style="float:right">
@@ -195,14 +191,20 @@
 			</div>
 
 			<div class="box-solid">
+				<p class="lead"><strong>News &amp; Feedback.</strong> This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href=
+				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
+				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
+
 				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the developer's <a class="ext" href="http://sudo.ch/">blog</a>.</p>
 				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification
 				when a new version is released.</p>
-
 				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
 				</form>
+			</div>
+
+			<div class="box-solid">
 			</div>
 		</div><?php echo(echoanalytics(".")); ?>
 	</div>
