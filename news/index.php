@@ -47,6 +47,7 @@
 
 	<div id="container">
 		<div id="maincolumn">
+			<?php echo(echogoogle());?>
 			<div id="content">
 				<div id="feed">
 					<?php
