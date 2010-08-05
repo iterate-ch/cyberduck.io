@@ -7,7 +7,7 @@
 <head>
 	<?php echo(echoheader("..")); ?>
 	<title><?php echo(echotitle("Donate")); ?></title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script src="js/jquery.form.js" type="text/javascript">
 </script>
 </head>
