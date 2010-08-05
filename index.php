@@ -197,7 +197,7 @@
 				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
 				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 
-				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the developer's <a class="ext" href="http://sudo.ch/">blog</a>.</p>
+				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the development <a class="ext" href="news">blog</a>.</p>
 				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification
 				when a new version is released.</p>
