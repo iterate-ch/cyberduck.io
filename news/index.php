@@ -20,7 +20,7 @@
 	<title><?php echo(echotitle("News")); ?></title>
 </head>
 
-<body id="comparison">
+<body id="news">
 	<div id="header">
 		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 		<style type="text/css"  media="all">
@@ -53,9 +53,9 @@
 					<?php
 						//$rss = fetch_rss("http://cyberduck.ch/changelog.rss");
 						$rss = fetch_rss("http://sudo.ch/category/cyberduck/feed/atom");
-						foreach ($rss->items as $item ) {
+						foreach ($rss->items as $item) {
 							echo "<h2><a href=\"".$item['link']."\">".$item['title']."</a></h2>";
-							echo "<small>".date('D, d M Y H:i:s', $item['published'])."</small>";
+							echo "<small>".date('D, d M Y H:i:s', strtotime($item['published']))."</small>";
 							echo $item['atom_content'];
 						}
 					?>
