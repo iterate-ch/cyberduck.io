@@ -25,13 +25,7 @@
 		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
 		<style type="text/css"  media="all">
 		/* begin styles for RSS Feed */
-			
 			#content #feed {
-				background-color: white;
-			}
-			
-			#content #feed {
-				margin-right: -20px;
 				padding-bottom: 10px;
 				border-right: 1px solid #E5E5DB;
 			}
@@ -84,7 +78,7 @@
 
 				<div class="box-shadow-end"></div>
 
-				<div class="box-solid">
+				<div>
 					<p><strong>Reviews.</strong> Cyberduck has been <a href="reviews">reviewed</a> by many sites and got tremendous feedback over the last years.</p>
 					<blockquote>
 						“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
