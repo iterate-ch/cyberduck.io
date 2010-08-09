@@ -17,7 +17,7 @@
 		define('MAGPIE_CACHE_ON', true);
 	?>
 
-	<title><?php echo(echotitle("Feature Comparison Matrix")); ?></title>
+	<title><?php echo(echotitle("News")); ?></title>
 </head>
 
 <body id="comparison">
