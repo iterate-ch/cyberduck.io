@@ -42,6 +42,11 @@
 				padding-top:10px;
 				padding-bottom:5px;
 			}
+			
+			#content #feed .entry {
+				background-color: white;
+				border-bottom: 1px solid white;
+			}
 		</style>
 	</div>
 
@@ -54,9 +59,11 @@
 						//$rss = fetch_rss("http://cyberduck.ch/changelog.rss");
 						$rss = fetch_rss("http://sudo.ch/category/cyberduck/feed/atom");
 						foreach ($rss->items as $item) {
+							echo "<div class=\"entry\">";
 							echo "<h2><a href=\"".$item['link']."\">".$item['title']."</a></h2>";
 							echo "<small>".date('D, d M Y H:i:s', strtotime($item['published']))."</small>";
 							echo $item['atom_content'];
+							echo "</div>";
 						}
 					?>
 				</div>
