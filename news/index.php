@@ -47,6 +47,25 @@
 				background-color: white;
 				border-bottom: 1px solid white;
 			}
+
+                        #content #feed .entry li {
+				margin: 7px 0px 8px 10px;
+				display:list-item;
+			}
+
+			.entry p, .entry ul {
+                                font-family: Georgia;
+			}
+
+.entry ul {
+        list-style: none;
+	text-indent: -12px;
+}
+
+.entry ul li:before {
+        content: "\00BB \0020";
+}
+
 		</style>
 	</div>
 
