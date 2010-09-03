@@ -21,6 +21,84 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6">3.6</a> ()</strong> <em>Sep-06-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.6.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						        <li>[Feature] Connecting to Google Storage (Google Storage)</li>
+						        <li>[Feature] Edit Access Control List (ACL) (<a href="http://trac.cyberduck.ch/ticket/3191">#3191</a>) (S3, Google
+						            Storage, Google Docs)
+						        </li>
+						        <li>[Feature] Enable Bucket Versioning (<a href="http://trac.cyberduck.ch/ticket/4511">#4511</a>) (S3)</li>
+						        <li>[Feature] Enable Bucket Multi-Factor Authentication Delete (<a
+						                href="http://trac.cyberduck.ch/ticket/4510">#4510</a>) (S3)
+						        </li>
+						        <li>[Feature] Display previous file versions in browser (S3)</li>
+						        <li>[Feature] Download previous file version (S3)</li>
+						        <li>[Feature] Revert to previous file version (S3)</li>
+						        <li>[Feature] Default root file (index.html) configuration for distribution (CloudFront)</li>
+						        <li>[Feature] Eucalyptus Walrus support enabled by default (S3)</li>
+						        <li>[Feature] Duplicate Bookmark (<a href="http://trac.cyberduck.ch/ticket/3385">#3385</a>)</li>
+						        <li>[Feature] Import bookmarks from thirdparty applications (Filezilla, Fetch, Interarchy, Flow) (<a
+						                href="http://trac.cyberduck.ch/ticket/3373">#3373</a>)
+						        </li>
+						        <li>[Feature] Copy directory listing to clipboard (<a href="http://trac.cyberduck.ch/ticket/2372">#2372)</a>
+						        </li>
+						        <li>[Feature] Support for thirdparty terminal applications (<a
+						                href="http://trac.cyberduck.ch/ticket/2987">#2987</a>)
+						        </li>
+						        <li>[Feature] Change SSH options for open in Terminal.app (<a
+						                href="http://trac.cyberduck.ch/ticket/4232">#4232</a>)
+						        </li>
+						        <li>[Feature] Unsecure connection warning when password is transmitted in plaintext</li>
+						        <li>[Feature] Alert to change connection to TLS if server supports AUTH TLS (FTP)</li>
+						        <li>[Feature] Edit metadata for multiple files (S3, Google Storage)</li>
+						        <li>[Feature] Menu items to copy HTTP, CDN, signed & authenticated URLs to clipboard (<a
+						                href="http://trac.cyberduck.ch/ticket/4207">#4207)</a>)
+						        <li>[Feature] Menu items to open HTTP, CDN, signed & authenticated URLs in Web Browser
+						        <li>[Feature] Move and rename files and folders (Google Docs)</li>
+						        <li>[Feature] Update size display incrementally while calculating recursively (<a
+						                href="http://trac.cyberduck.ch/ticket/3213">#3213)</a>)
+						        <li>[Feature] Hidden preference to change SSH options for 'Open in Terminal.app' (<a
+						                href="http://trac.cyberduck.ch/ticket/4232">#4232)</a>)
+						        <li>[Feature] Batch editing of S3 metadata (Google Storage, S3) (<a href="http://trac.cyberduck.ch/ticket/5105">#5105)</a>)
+						        <li>[Feature] Show number of active transfers in Dock (<a href="http://trac.cyberduck.ch/ticket/3808">#3808)</a>)
+						        <li>[Feature] Copy directory listing to clipboard (<a href="http://trac.cyberduck.ch/ticket/2372">#2372)</a>)
+						        <li>[Bugfix] Improved interoperability with Eucalyptus Walrus (S3)</li>
+						        <li>[Bugfix] Improved interoperability with Dunkel Cloud Storage (S3)</li>
+						        <li>[Bugfix] Trust validation failure with self signed certificates for HTTP redirects (WebDAV) (
+						            <a href="http://trac.cyberduck.ch/ticket/2443">#2443</a>)
+						        </li>
+						        <li>[Bugfix] Drag and drop of a file over a bookmark to upload (
+						            <a href="http://trac.cyberduck.ch/ticket/4562">#4562</a>)
+						        </li>
+						        <li>[Bugfix] Connect authenticated to thirdparty buckets (S3) (
+						            <a href="http://trac.cyberduck.ch/ticket/4480">#4480</a>)
+						        </li>
+						        <li>[Bugfix] Connections stalls after long idle (SFTP) (
+						            <a href="http://trac.cyberduck.ch/ticket/5073">#5073)</a>, <a href="http://trac.cyberduck.ch/ticket/4214">#4214)</a>,
+						            <a href="http://trac.cyberduck.ch/ticket/3941">#3941)</a>)
+						        </li>
+						        <li>[Bugfix] Dragging files for upload is slow (<a href="http://trac.cyberduck.ch/ticket/4141">#4141)</a>)</li>
+						        <li>[Bugfix] STAT fails for directories containing spaces in filename (FTP) (<a
+						                href="http://trac.cyberduck.ch/ticket/2500">#2500)</a>)
+						        </li>
+						        <li>[Bugfix] Upload to drop box gives file listing error (<a
+						                href="http://trac.cyberduck.ch/ticket/2552">#2552)</a>)
+						        </li>
+						        <li>[Bugfix] Incompatibility with Akamai NetStorage (SFTP) (<a href="http://trac.cyberduck.ch/ticket/4015">#4015)</a>)
+						        </li>
+						        <li>[Bugfix] Usability of changing permissions in Info panel (FTP, SFTP) (<a
+						                href="http://trac.cyberduck.ch/ticket/3930">#3930)</a>)
+						        </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5.1">3.5.1</a> (6115)</strong> <em>Jun-15-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.5.1.zip">Download</a></p>
 						</td>

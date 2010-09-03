@@ -166,16 +166,16 @@
 				<div class="box-shadow">
 					<div id="download">
 						<div style="float:left">
-							<strong>Version 3.5.1</strong><br />
-							<em>Jun-15-2010</em><br />
-							<a href="Cyberduck-3.5.1.zip">Cyberduck-3.5.1.zip</a><br />
+							<strong>Version 3.6</strong><br />
+							<em>Sep-06-2010</em><br />
+							<a href="Cyberduck-3.6.zip">Cyberduck-3.6.zip</a><br />
 							<em>Universal Binary<br />
 							Mac OS X 10.5<br />
 							or later required.</em>
 						</div>
 
 						<div style="float:right">
-							<a href="Cyberduck-3.5.1.zip"><img src="http://media.cyberduck.ch/img/zip.png" alt="Download" border="0" width="128px" /></a>
+							<a href="Cyberduck-3.6.zip"><img src="http://media.cyberduck.ch/img/zip.png" alt="Download" border="0" width="128px" /></a>
 						</div>
 					</div>
 
