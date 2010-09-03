@@ -54,7 +54,6 @@
 			}
 
 			.entry p, .entry ul {
-                                font-family: Georgia;
 			}
 
 .entry ul {
@@ -71,7 +70,6 @@
 
 	<div id="container">
 		<div id="maincolumn">
-			<?php echo(echogoogle());?>
 			<div id="content">
 				<div id="feed">
 					<?php
