@@ -48,12 +48,13 @@
 				border-bottom: 1px solid white;
 			}
 
-                        #content #feed .entry li {
+			#content #feed .entry li {
 				margin: 7px 0px 8px 10px;
 				display:list-item;
 			}
 
-			.entry p, .entry ul {
+			#content #feed .entry p, .entry ul {
+				padding-left:10px;
 			}
 
 .entry ul {
