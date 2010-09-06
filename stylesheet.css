@@ -28,6 +28,22 @@ table {
 background-color: white;
 }
 	
+	h2 {
+		font-size: 1.3em;
+	}
+	
+	img.headline {
+		float: left;
+		width: 32px;
+	}
+
+	h2.headline {
+		margin: 0;
+		padding: 0;
+		color: black;
+		background-repeat: no-repeat;
+	}
+	
 	#footer {
 width: 100%;
 clear: both;
@@ -68,9 +84,13 @@ font-weight: normal;
 margin-top: 5px;
 }
 	
+	#features .description {
+		padding: 0 0 10px 50px;
+	}
 	
-	#features {
+	.column {
 clear: both;
+overflow: auto;
 }
 	
 	#container {
@@ -95,20 +115,33 @@ padding-bottom: 1px;
 padding-left: 16px
 }
 	
-	.version3 {
-		/* background:url(http://media.cyberduck.ch/img/badge.png) no-repeat 100% 50%; */
-		/* padding-right:25px;*/
-}
-	
-	#download {
-text-align: right;
+	#teaser .download {
 float: right;
+margin-bottom: 10px;
+margin-right: 20px;
 }
+
+	#teaser .download div {
+	text-align: right;
+	float: left;
+	width: 200px;
+	padding-right: 10px;
+}
+
+	#teaser .download#windows {
+		/*background: url(img/availablesoon.png) no-repeat 0 50%;*/
+	}
 
 	#teaser {
 float: left;
 width: 280px;
 }
+	#teaser p {
+margin: 0;
+padding-right: 15px;
+text-align:right;
+}
+		
 
 	.box-shadow-start {
 background: transparent url(http://media.cyberduck.ch/img/teaserbgstart.png) no-repeat scroll 0 100%;
@@ -129,12 +162,6 @@ margin-left: -45px;
 padding-left: 45px;
 }
 	
-	#teaser p {
-text-align: right;
-padding-right: 15px;
-margin: 0;
-}
-		
 	input#paypal {
 width: 62px;
 height: 31px;
@@ -154,7 +181,7 @@ text-align: right;
 }
 	
 	body#index a#navigation-index, 
-	body#features a#navigation-features,
+	body.features a#navigation-features,
 	body#changelog a#navigation-changelog,
 	body#source a#navigation-source, 		
 	body#reviews a#navigation-reviews, 
@@ -165,6 +192,8 @@ color: #0066cc;
 	
 	#screenshots {
 text-align: center;
+overflow: auto;
+margin-bottom: 20px;
 }
 	
 	div.figure {
@@ -263,8 +292,9 @@ width: 800px;
 }
 	
 	#maincolumn p {
-padding-left: 10px;
 padding-right: 10px;
+padding-left: 0;
+margin-top: 0;
 }
 
 	p.lead strong {
@@ -272,15 +302,14 @@ padding-right: 10px;
 		font-size: 1.3em;
 }
 	
-	p.lead a {
-		/*color: #4e4e4e;*/
-}
-	
-
 	strong {
-color: #000000;
+color: black;
 font-family: "Gill Sans", Tahoma, Geneva, Trebuchet MS, Verdana, Arial, sans-serif;
 }
+
+	strong a:link, strong a:visited {
+		color: black;
+	}
 	
 	.box-filled {
 color: #4e4e4e;;
@@ -369,7 +398,6 @@ margin-bottom: 40px;
 	*/
 
 	div.feature {
-position: relative;
 float: left;
 width: 33%;
 }

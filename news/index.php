@@ -95,40 +95,10 @@
 		<div id="sidebar">
 			<div id="teaser">
 				<div class="box-shadow-start"></div>
-
 				<div class="box-shadow">
 					<p class="lead"><strong>Blog.</strong> Prosa about noteworthy upcoming features and the current development status. <img  src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /><a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				</div>
-
 				<div class="box-shadow-end"></div>
-
-				<div>
-					<p><strong>Reviews.</strong> Cyberduck has been <a href="reviews">reviewed</a> by many sites and got tremendous feedback over the last years.</p>
-					<blockquote>
-						“All the other FTP clients I've used have been hard to learn and are confusing, but I've never had to look at the help file for Cyberduck”<br />
-						— <a href="http://www.boingboing.net/2005/01/07/cyberduck_ftp_browse.html">boingboing.net</a>
-					</blockquote>
-					<blockquote>
-						“[Cyberduck] is one of those apps that just does what it’s supposed to, no more, no less. - check it out today, and I bet you will switch too.”<br />
-						— <a href="http://www.macsoftreview.com/2006/01/29/david-kochers-cyberduck/?p=13">macsoftreview.com</a>
-					</blockquote>
-					<blockquote>
-						“Ce logiciel rend l’opération vraiment plus simple!”<br />
-						— <a href="./reviews/vvmac_review.pdf">vvmac.com</a>
-					</blockquote>
-					<blockquote>
-						“With a user-friendly interface, funky name, and loads of great features, Cyberduck leads the pack among free FTP clients.”<br />
-						— <a href="http://www.spymac.com/news/article.php?contentid=2875">spymac.com</a>
-					</blockquote>
-					<blockquote>
-						“Forget the rest, this is the best! (...) I will never use another FTP client again.”<br />
-						— <a href="http://www.macfanatic.com/node/19">macfanatic.com</a>
-					</blockquote>
-					<blockquote>
-						“Cyberduck is getting some great acclaim, and deservedly so.”<br />
-						— <a href="http://www.osxguide.com/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=189&amp;mode=thread&amp;order=0&amp;thold=0">osxguide.com</a>
-					</blockquote>
-				</div>
 			</div>
 		</div>
 	</div><?php echo(echoanalytics("..")); ?>
