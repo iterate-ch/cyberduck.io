@@ -16,6 +16,7 @@
 
 	<div id="container">
 		<div id="maincolumn">
+			<?php echo(echogoogle());?>
 			<div id="content">
 				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">libre, open source</a> FTP, SFTP, <span>WebDAV</span>, <a class="ext"
 				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>, <a href="http://docs.google.com/">Google Docs</a> and <span><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
@@ -291,7 +292,7 @@
 				</form>
 			</div>
 		</div>
-		<!--<?php echo(echoanalytics(".")); ?>-->
+		<?php echo(echoanalytics(".")); ?>
 	</div>
 </body>
 </html>
