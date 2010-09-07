@@ -21,6 +21,21 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6.1">3.6.1</a> (6900)</strong> <em>Sep-07-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.6.1.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+						        <li>[Bugfix] Permissions reset (FTP) (<a href="http://trac.cyberduck.ch/ticket/5132">#5132</a>)</li>
+						        <li>[Bugfix] Failure reading symbolic link target for directories (SFTP) (<a
+						                href="http://trac.cyberduck.ch/ticket/5141">#5141</a>)
+						        </li>
+						   </ul>
+						</td>
+					</tr>
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6">3.6</a> (6890)</strong> <em>Sep-06-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.6.zip">Download</a></p>
 						</td>
