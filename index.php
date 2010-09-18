@@ -18,12 +18,7 @@
 		<div id="maincolumn">
 			<?php echo(echogoogle());?>
 			<div id="content">
-				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">libre, open source</a> FTP, SFTP, <span>WebDAV</span>, <a class="ext"
-				href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>, <a href="http://docs.google.com/">Google Docs</a> and <span><a class="ext" href="http://aws.amazon.com/s3">Amazon S3</a></span>
-				browser for the Mac.</strong> It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures
-				efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon
-				CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the
-				Keychain are supported and 30 translations make you feel at home.</p>
+				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">libre, open source</a> FTP, SFTP, WebDAV, Cloud Files, Google Docs and Amazon S3</span> browser for Mac and Windows.</strong></p>
 
 				<div id="screenshots">
 					<div class="figure">
@@ -43,7 +38,7 @@
 					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Connecting to every server.</h2>
-						<p><a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
+						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
 						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a> and <a href=
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>.</p>
 					</div>
@@ -51,20 +46,20 @@
 					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Edit any file with your preferred editor.</h2>
-						<p>Seamless integration with external editors. Edit any text or binary file on the server in your preferred application.</p>
+						<p> To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Edit any text or binary file on the server in your preferred application.</p>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Distribute your content in the cloud.</h2>
-						<p>Browse your cloud storage the way you are used to. Interoperability with all important players in cloud storage and content distribution networks. Choose between Amazon CloudFront and Rackspace Limelight as your content distribution network (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>) partner. Works with emerging open cloud software from <a href="http://open.eucalyptus.com/">Eucalyptus</a> and <a href="http://www.openstack.org/">OpenStack</a>.</p>
+						<p>Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Works with emerging open cloud software from <a href="http://open.eucalyptus.com/">Eucalyptus</a> and <a href="http://www.openstack.org/">OpenStack</a>.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
-								Manage basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront" class="ext">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
+								Manage basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files stored in your Google Storage account selectively to anyone who has an email address registered with Google.</p>
+								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
@@ -77,11 +72,11 @@
 					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
-						<p>Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and location of your content. Support for bucket versioning and Multi-Factor Authentication Delete.</p>
+						<p>Browse <a class="ext" href="http://aws.amazon.com/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and location of your content.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon S3</strong><br />
-								Browse <a class="ext" href="http://aws.amazon.com/s3">Amazon Simple Storage Service</a> the way you are used to with other file systems. With versioning enabled, revert to any previous version of a file.</p>
+								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
+									Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled, revert to any previous version of a file.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>ACL</strong><br />
@@ -128,11 +123,12 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/quicklook.png" class="feature" alt="" /> <strong>Quick Look</strong><br />
-								Press the space key to preview files like in Finder.app without explicitly downloading.</p>
+								Quickly preview files with Quick Look. Press the space key to preview files like in Finder.app without explicitly downloading.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/outline.png" class="feature" alt="" /> <strong>Accessible</strong><br />
-								Choose between list and outline view. Cut &amp; paste or drag &amp; drop files to organize.</p>
+									The outline view of the browser allows to browse large folder structures
+									efficiently. Cut &amp; paste or drag &amp; drop files to organize.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/safari.png" class="feature" alt="" /> <strong>Web URL</strong><br />
