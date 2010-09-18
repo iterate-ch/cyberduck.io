@@ -18,8 +18,6 @@
 		<div id="maincolumn">
 			<?php echo(echogoogle());?>
 			<div id="content">
-				<p class="lead"><strong>Cyberduck is a <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">libre, open source</a> FTP, SFTP, WebDAV, Cloud Files, Google Docs and Amazon S3</span> browser for Mac and Windows.</strong></p>
-
 				<div id="screenshots">
 					<div class="figure">
 						<a href="./img/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/browser-bookmarks-thumb.png" /></a>
