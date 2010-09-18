@@ -50,7 +50,7 @@
 					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Distribute your content in the cloud.</h2>
-						<p>Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Works with emerging open cloud software from <a href="http://open.eucalyptus.com/">Eucalyptus</a> and <a href="http://www.openstack.org/">OpenStack</a>.</p>
+						<p>Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
@@ -70,7 +70,7 @@
 					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
-						<p>Browse <a class="ext" href="http://aws.amazon.com/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and location of your content.</p>
+						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and location of your content.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
