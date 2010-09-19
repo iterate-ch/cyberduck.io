@@ -213,7 +213,7 @@
 
 				<div style="clear:both;"></div>
 
-				<p><small>Copyright (c) 2002-2009 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
+				<p><small>Copyright (c) 2002-2010 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
 				"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any
 				later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 				PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small></p>
