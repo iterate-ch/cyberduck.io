@@ -71,16 +71,27 @@
 				<div class="box-shadow-start"></div>
 
 				<div class="box-shadow">
-					<p class="lead"><strong>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute
-					it.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt.</p><br />
+					<p class="lead"><strong>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt.</p><br />
 
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_s-xclick" /><input type="hidden" name="hosted_button_id" value="4914397" /><input type="image" src=
-						"https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" /><img alt="" border="0" src=
-						"https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+						<input type="hidden" name="cmd" value="_s-xclick" />
+						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
+						<input type="image" src="https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Donate to the development of Cyberduck!" />
+						<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 					</form>
+					<script type="text/javascript">
+							//<![CDATA[
+							$(document).ready(function() {
+								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+									$("form input#paypal").attr('value', 'NKZSJQTDVF4ZA');
+								}
+								else {
+									$("form input#paypal").attr('value', '4914397');
+								}
+							});
+					//]]>
+					</script>
 				</div>
-
 				<div class="box-shadow-end"></div>
 			</div>
 		</div>
