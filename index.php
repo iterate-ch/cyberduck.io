@@ -7,6 +7,7 @@
 <head>
 	<?php echo(echoheader(".")); ?>
 	<title><?php echo(echotitle("About")); ?></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 </head>
 
 <body id="index">
@@ -261,12 +262,24 @@
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
-
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_s-xclick" /><input type="hidden" name="hosted_button_id" value="4914397" /><input type="image" src=
-						"https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" /><img alt="" border="0" src=
-						"https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+						<input type="hidden" name="cmd" value="_s-xclick" />
+						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
+						<input type="image" src="https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Donate to the development of Cyberduck!" />
+						<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 					</form>
+					<script type="text/javascript">
+							//<![CDATA[
+							$(document).ready(function() {
+								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+									$("form input#paypal").attr('value', 'NKZSJQTDVF4ZA');
+								}
+								else {
+									$("form input#paypal").attr('value', '4914397');
+								}
+							});
+					//]]>
+					</script>
 				</div>
 
 				<div class="box-shadow-end"></div>
