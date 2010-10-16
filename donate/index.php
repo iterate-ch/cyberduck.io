@@ -19,7 +19,6 @@
 
 	<div id="container">
 		<div id="maincolumn">
-			<?php echo(echogoogle());?>
 			<div id="content">
 				<p class="lead"><strong>Free Software.</strong> <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">Free software</a> is a matter of the users freedom to run, copy,
 				distribute, study, change and improve the software. The continued donations of users is what allows Cyberduck to be available for free today. If you find this program useful, please
