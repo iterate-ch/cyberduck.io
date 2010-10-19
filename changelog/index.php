@@ -21,6 +21,54 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7">3.7</a> (7366)</strong> <em>Oct-20-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Feature] Option to upload with temporary name and rename file after transfer is complete (<a
+							            href="http://trac.cyberduck.ch/ticket/4165">#4165</a>)
+							    </li>
+							    <li>[Feature] Copy files between browser windows with different sessions (<a
+							            href="http://trac.cyberduck.ch/ticket/21">#21</a>)
+							    </li>
+							    <li>[Feature] Option to display hidden files in upload prompt (<a
+							            href="http://trac.cyberduck.ch/ticket/1243">#1243</a>)
+							    </li>
+							    <li>[Feature] Import Transmit favorites (<a href="http://trac.cyberduck.ch/ticket/3073">#3073</a>)</li>
+							    <li>[Feature] Copy and open multiple URLs(<a href="http://trac.cyberduck.ch/ticket/5135">#5135</a>)
+							    </li>
+							    <li>[Feature] Support for PuTTY private key format (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/5322">#5322</a>)
+							    </li>
+							    <li>[Feature] Duplicate Bookmarks using drag and drop with option key</li>
+							    <li>[Feature] Display only affected files in synchronization preview (#5226)</li>
+							    <li>[Feature] Change update source to snapshot builds in Preferences</li>
+							    <li>[Bugfix] Files pasted upload to parent directory (<a href="http://trac.cyberduck.ch/ticket/5155">#5155</a>)
+							    </li>
+							    <li>[Bugfix] Uploading .xlsx or .docx documents fails with permission error (<a
+							            href="http://trac.cyberduck.ch/ticket/5169">#5169</a>) (Google Docs)
+							    </li>
+							    <li>[Bugfix] Reading and writing ACLs (Google Docs)</li>
+							    <li>[Bugfix] Interoperability with cPanel Web Disk (WebDAV) (<a
+							            href="http://trac.cyberduck.ch/ticket/5188">#5188</a>)
+							    </li>
+							    <li>[Bugfix] Downloading previous versions of file (S3) (<a href="http://trac.cyberduck.ch/ticket/5217">#5217</a>)
+							    </li>
+							    <li>[Bugfix] Skip directories with matching timestamp from synchronization (<a
+							            href="http://trac.cyberduck.ch/ticket/557">#557</a>)
+							    </li>
+							    <li>[Bugfix] Not using proper storage URL (<a href="http://trac.cyberduck.ch/ticket/5216">#5216</a>) (Swift
+							        OpenStack)
+							    </li>
+							    <li>[Bugfix] Proxy connection failure (#5239) (S3)</li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6.1">3.6.1</a> (6900)</strong> <em>Sep-07-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.6.1.zip">Download</a></p>
 						</td>
@@ -34,6 +82,7 @@
 						   </ul>
 						</td>
 					</tr>
+					
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6">3.6</a> (6890)</strong> <em>Sep-06-2010</em><br />
