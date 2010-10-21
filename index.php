@@ -160,7 +160,7 @@
 					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Advanced SSH features.</h2>
-						<p>No comprimise accessing your <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a> servers with all the bells and whistles.</p>
+						<p>No compromise accessing your <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a> servers with all the bells and whistles.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>Authentication and security</strong><br />
