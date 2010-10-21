@@ -21,6 +21,21 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7.1">3.7.1</a> (7380)</strong> <em>Oct-21-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.7.1.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Bugfix] Crash importing Transmit bookmarks for some users (<a
+							            href="http://trac.cyberduck.ch/ticket/5351">#5351</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7">3.7</a> (7367)</strong> <em>Oct-20-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip">Download</a></p>
 						</td>

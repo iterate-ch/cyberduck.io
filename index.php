@@ -244,9 +244,9 @@
 					<div id="mac" class="download">
 						<div>
 							<strong>Download</strong><br />
-							<strong>Version 3.7</strong><br />
-							<em>Oct-20-2010</em><br />
-							<a href="Cyberduck-3.7.zip">Cyberduck-3.7.zip</a><br />
+							<strong>Version 3.7.1</strong><br />
+							<em>Oct-21-2010</em><br />
+							<a href="Cyberduck-3.7.1.zip">Cyberduck-3.7.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
