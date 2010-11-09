@@ -22,7 +22,7 @@
 			<div id="content">
 				<p class="lead"><strong>Free Software.</strong> <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">Free software</a> is a matter of the users freedom to run, copy,
 				distribute, study, change and improve the software. The continued donations of users is what allows Cyberduck to be available for free today. If you find this program useful, please
-				consider making a <a id="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=4914397">donation</a>. It will help to make Cyberduck even better!</p>
+				consider making a <a id="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">donation</a>. It will help to make Cyberduck even better!</p>
 
 				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
 				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
@@ -84,11 +84,11 @@
 							$(document).ready(function() {
 								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
 									$("form input#paypal").attr('value', 'NKZSJQTDVF4ZA');
-									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NKZSJQTDVF4ZA');
+									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKZSJQTDVF4ZA');
 								}
 								else {
 									$("form input#paypal").attr('value', '4914397');
-									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=4914397');
+									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397');
 								}
 							});
 					//]]>
