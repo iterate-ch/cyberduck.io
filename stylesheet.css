@@ -181,8 +181,9 @@ text-align: right;
 }
 	
 	body#index a#navigation-index, 
-	body.features a#navigation-features,
+	body#features a#navigation-features,
 	body#changelog a#navigation-changelog,
+        body#news a#navigation-news,
 	body#source a#navigation-source, 		
 	body#reviews a#navigation-reviews, 
 	body#license a#navigation-license, 

@@ -28,6 +28,8 @@
 			#content #feed {
 				padding-bottom: 10px;
 				border-right: 1px solid #E5E5DB;
+				width: 700px;
+				float: right;
 			}
 			
 			#content #feed small {
