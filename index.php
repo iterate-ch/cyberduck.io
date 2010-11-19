@@ -21,18 +21,31 @@
 			<div id="content">
 				<div id="screenshots">
 					<div class="figure">
-						<a href="./img/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/browser-bookmarks-thumb.png" /></a>
+						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
+						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
 
-						<p>Integrated Bookmarks</p>
+						<p>Bookmarks</p>
 					</div>
 
 					<div class="figure">
-						<a href="./img/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/browser-thumb.png" /></a>
+						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
+						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
 
-						<p>QuickLook Preview in Browser</p>
+						<p>Browser</p>
 					</div>
 				</div>
-				
+				<script type="text/javascript">
+						//<![CDATA[
+						$(document).ready(function() {
+							if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+								$("#screenshots .windows").css('display', 'inline');
+							}
+							else {
+								$("#screenshots .mac").css('display', 'inline');
+							}
+						});
+				//]]>
+				</script>
 				<div id="features">
 					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
