@@ -38,8 +38,9 @@
 					<div class="description">
 						<h2 class="headline">Connecting to every server.</h2>
 						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a> and <a href=
-						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>.</p>
+						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>, <a href=
+							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
+						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>. Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
@@ -51,18 +52,18 @@
 					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Distribute your content in the cloud.</h2>
-						<p>Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
+						<p>Both Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Connect to any server using FTP, SFTP or WebDAV and configure it as the origin of a new Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN distribution.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
-								Manage basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
+								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
-								Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of your <a href=
+								Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of <a href=
 								"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
 							</div>
 						</div>
@@ -71,7 +72,7 @@
 					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
-						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and location of your content.</p>
+						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and geographical location of your content.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
@@ -101,11 +102,15 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>Files</strong><br />
-								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload. Spotlight Importer for bookmark files.</p>
+								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload. 
+								<p><img src="http://media.cyberduck.ch/img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
+								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/history.png" class="feature" alt="" /> <strong>History</strong><br />
 								History of visited servers.</p>
+								<p><img src="http://media.cyberduck.ch/img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
+								Auto discovery of FTP &amp; WebDAV services on the local network.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
@@ -131,7 +136,7 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/safari.png" class="feature" alt="" /> <strong>Web URL</strong><br />
-								Quickly copy or open the corresponding Web URL of a selected file in your web browser.</p>
+								Quickly copy or open the corresponding HTTP URLs of a selected file in your web browser.</p>
 							</div>
 						</div>
 					</div>
@@ -144,7 +149,7 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/download.png" class="feature" alt="" /> <strong>Download and Upload</strong><br />
-								Drag and drop to and from the browser to transfer files without a hassle.</p>
+								Drag and drop to and from the browser to download and upload or copy files between servers. No hassle.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/sync.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
@@ -169,8 +174,9 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>Interoperability</strong><br />
-									Read settings from your existing OpenSSH configuration options including Host aliases, public key authentication preferences and default login user.</p>
-									<p>Integration with Terminal.app to open the current working directory in a shell.</p>
+									Read settings from your existing <a href="http://www.openssh.org/">OpenSSH</a> configuration options including Host aliases, public key authentication preferences and default login user.
+									Integration with Terminal.app to open the current working directory in a shell.
+									Works with <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> private keys.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>Archives</strong><br />
@@ -182,19 +188,19 @@
 					<img src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Integration with system technologies.</h2>
-						<p>A good citizen of Mac OS X.</p>
+						<p>A native citizen of Mac OS X and Windows.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
 							All passwords are stored in the system Keychain as Internet passwords available also to third party applications. Certificates are validated using the trust settings in the Keychain.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
-								Auto discovery of services on the local network.</p>
-							</div>
-							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/finder.png" class="feature" alt="" /> <strong>Finder</strong><br />
 								Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder.</p>
+							</div>
+							<div class="feature">
+								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
+								<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.</p>
 							</div>
 						</div>
 					</div>
@@ -202,7 +208,7 @@
 					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">We are open.</h2>
-						<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source on <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> for your own hacking pleasure. Licensed under the GPL.</p>
+						<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source on <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> for your own hacking pleasure. Licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.</p>
 					</div>
 					
 					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
