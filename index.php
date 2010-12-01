@@ -253,12 +253,12 @@
 					<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), 
 					<strong>Shaun Wexler</strong> (<a class="ext" href="http://www.snoize.com/">CTGradient</a>), 
 					<strong>Brian Amerige</strong> (<a class="ext" href="http://extendmac.com/EMKeychain/">EMKeychain</a>), 
-					<strong>Steve McLeod</strong> (<a class="ext" href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)</small>
+					<strong>Steve McLeod</strong> (<a class="ext" href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)
 					<strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>), 
 					<strong>Andy Matuschak</strong> (<a class="ext" href="http://sparkle.andymatuschak.org/">Sparkle</a>), 
 					<strong>wyDay</strong> (<a class="ext" href="http://code.google.com/p/wyupdate/">wyUpdate</a>),
 					<strong>Jeremy D. Miller</strong> (<a class="ext" href="http://structuremap.net/structuremap/">StructureMap</a>),
-					<strong>Ayende Rahien</strong> (<a class="ext" href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino Mocks</a>),
+					<strong>Ayende Rahien</strong> (<a class="ext" href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino Mocks</a>).</small>
 				</p>
 			</div>
 
