@@ -21,6 +21,76 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.8">3.8</a> (7920)</strong> <em>Dec-03-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.8.zip">Download</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Feature] CDN configuration with custom origin server (Amazon CloudFront)</li>
+							    <li>[Feature] CDN invalidation requests (Amazon CloudFront) (<a
+							            href="http://trac.cyberduck.ch/ticket/5197">#5197</a>)
+							    </li>
+							    <li>[Feature] Connecting to Swift Storage (Openstack)</li>
+							    <li>[Feature] FireFTP Bookmarks Importer</li>
+							    <li>[Feature] CrossFTP Bookmarks Importer</li>
+							    <li>[Feature] Perform MD5 hash calculation during upload (<a
+							            href="http://trac.cyberduck.ch/ticket/185">#5186</a>) (S3, Cloudfiles)
+							    </li>
+							    <li>[Feature] Rename existing files on upload or download (<a
+							            href="http://trac.cyberduck.ch/ticket/5117">#5117</a>)
+							    </li>
+							    <li>[Feature] Show last access timestamp in history (<a
+							            href="http://trac.cyberduck.ch/ticket/3805">#3805</a>)
+							    </li>
+							    <li>[Feature] Synchronize comparing MD5 checksum of file (S3, Cloudfiles, Dropbox, Azure)</li>
+							    <li>[Feature] Display decimal file size (OS X 10.6) (<a
+							            href="http://trac.cyberduck.ch/ticket/3771">#3771</a>)
+							    </li>
+							    <li>[Feature] Display relative date in browser (OS X 10.6)</li>
+							    <li>[Bugfix] Slow SFTP transfers (<a
+							            href="http://trac.cyberduck.ch/ticket/185">#185</a>)
+							    </li>
+							    <li>[Bugfix] Reduced upload preparation time for thousands of files</li>
+							    <li>[Bugfix] Connect through HTTP/HTTPS proxy (<a
+							            href="http://trac.cyberduck.ch/ticket/5379">#5379</a>)
+							    </li>
+							    <li>[Bugfix] Support for S3Fox directory placeholders (S3)</li>
+							    <li>[Bugfix] Support for Google Storage Console directory placeholders (S3)</li>
+							    <li>[Bugfix] Support for s3sync.rb directory placeholders (<a
+							            href="http://trac.cyberduck.ch/ticket/5374">#5374</a>) (S3)
+							    </li>
+							    <li>[Bugfix] Connect through HTTP/HTTPS proxy (<a
+							            href="http://trac.cyberduck.ch/ticket/5379">#5379</a>) (Google Docs)
+							    </li>
+							    <li>[Bugfix] Changing storage class fails (S3)</li>
+							    <li>[Bugfix] Apply ACLs recursively (S3)</li>
+							    <li>[Bugfix] Apply custom HTTP headers recursively (S3)</li>
+							    <li>[Bugfix] Interoperability (<a
+							            href="http://trac.cyberduck.ch/ticket/2609">#2609</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/4231">#4231</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/2915">#2915</a>) (WebDAV)
+							    </li>
+							    <li>[Bugfix] SSL version number incompatibility (<a
+							            href="http://trac.cyberduck.ch/ticket/5061">#5061</a>)
+							    </li>
+							    <li>[Bugfix] Preserve upload modification date does not work for folders (<a
+							            href="http://trac.cyberduck.ch/ticket/3017">#3017</a>)
+							    </li>
+							    <li>[Bugfix] Uploading large documents might fail (<a
+							            href="http://trac.cyberduck.ch/ticket/5411">#5411</a>) (Google Docs)
+							    </li>
+							    <li>[Bugfix] Web URL configuration fails for relative default path (<a
+							            href="http://trac.cyberduck.ch/ticket/4012">#4012</a>)
+							    </li>
+							    <li>[Bugfix] Support CIDR styled patterns for hosts excluded from proxy settings (<a
+							            href="http://trac.cyberduck.ch/ticket/5142">#5142</a>)
+							    </li>						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7">3.7</a> (7380)</strong> <em>Oct-21-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip">Download</a></p>
 						</td>
