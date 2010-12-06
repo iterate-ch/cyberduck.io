@@ -5,6 +5,8 @@
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
 			<link rel='shortcut icon' href='".$dir."/favicon.ico' type='image/vnd.microsoft.icon' />
 
+			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+
 			<meta http-equiv='content-type' content='application/xhtml; charset=utf-8' />
 			<meta name='verify-v1' content='oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=' />";
     }
