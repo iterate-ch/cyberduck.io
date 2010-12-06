@@ -28,8 +28,8 @@
 					</div>
 
 					<div class="figure">
-						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
-						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
+						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
+						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
 
 						<p>Browser</p>
 					</div>
