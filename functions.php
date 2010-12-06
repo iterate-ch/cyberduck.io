@@ -33,7 +33,24 @@
 	}
 	
 	function echologo($dir) {
-		return "<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='".$dir."/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
+		return "
+		    <div id='metanav'>
+	                <ul id='lang'>
+	                        <li><a href='?l=en'>English</a></li>
+	                        <li><a href='?l=ja'>日本語</a></li>
+	                </ul>
+	                <script charset='utf-8' type='text/javascript'>
+	                //<![CDATA[
+	                        $(document).ready(function() {
+	                                $('#metanav #lang a').click(function() {
+	                                        var l = this.href.match(/\?l=(\w{2})$/);
+	                                        document.cookie = 'language='+l[1]+';path=/;domain=.cyberduck.ch';
+	                                });
+	                        });
+	                //]]>
+	                </script>
+	        </div>
+			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='".$dir."/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
 	}
 	
     function echocaption($dir) {

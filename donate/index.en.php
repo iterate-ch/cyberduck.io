@@ -1,3 +1,5 @@
+<?php include "../lang.php"; ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -13,7 +15,9 @@
 
 <body id="donate">
 	<div id="header">
-		<?php echo(echologo(".."));?><?php echo(echocaption(".."));?><?php echo(echosubmenu(".."));?>
+		<?php echo(echologo(".."));?>
+		<?php echo(echocaption(".."));?>
+		<?php echo(echosubmenu(".."));?>
 	</div>
 
 	<div id="container">
