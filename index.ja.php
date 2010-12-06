@@ -66,10 +66,10 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">あらゆるサーバに接続。</h2>
-						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>, <a href=
+						<p>使いやすいインターフェースで、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
+						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>、 <a href=
 							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
-						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>. Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
+						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>に接続。 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> や <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>のオープンな最新クラウドソフトウェアも利用できます。</p>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
@@ -300,7 +300,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<div id="windows" class="download">
 						<div>
 							<strong>プライベートベータ</strong><br />
-<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.<br />
+プライベートベータに<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">申し込む</a><br />
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em>
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
