@@ -6,7 +6,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader(".")); ?>
-	<title><?php echo(echotitle("About")); ?></title>
+	<title>
+Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
+	</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 </head>
 
@@ -14,7 +16,16 @@
 	<div id="header">
 		<?php echo(echologo("."));?>
 		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'>Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、 <br />Could Files、Google Docs、S3用ブラウザです</h3></div>
-		<?php echo(echosubmenu("."));?>
+		<div id='navigation'>
+			<ul>
+				<li><a id="navigation-index" href="/">Cyberduckについて</li>
+				<li><a id="navigation-news" href="/news/">ニュース</a></li>
+				<li><a id="navigation-changelog" href="/changelog/">更新履歴</a></li>
+				<li><a id="navigation-trac" href="http://trac.cyberduck.ch/">開発</a></li>
+				<li><a id="navigation-help" href="http://help.cyberduck.ch/ja">ヘルプ</a></li>
+				<li><a id="navigation-donate" href="/donate">寄付</a></li>
+			</ul>
+		</div>
 	</div>
 
 	<div id="container">
@@ -29,14 +40,14 @@
 						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
 						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
 
-						<p>Bookmarks</p>
+						<p>ブックマーク</p>
 					</div>
 
 					<div class="figure">
 						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
 						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
 
-						<p>Browser</p>
+						<p>ブラウザ</p>
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -54,7 +65,7 @@
 				<div id="features">
 					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Connecting to every server.</h2>
+						<h2 class="headline">あらゆるサーバに接続。</h2>
 						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
 						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>, <a href=
 							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
@@ -63,8 +74,8 @@
 
 					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Edit any file with your preferred editor.</h2>
-						<p> To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Edit any text or binary file on the server in your preferred application.</p>
+						<h2 class="headline">あらゆるファイルを好きなエディタで編集。</h2>
+						<p>ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携。コンテンツを素早く簡単に変更できます。どんなテキストファイルやバイナリファイルも、好みのアプリケーションを使ってサーバ上で編集できます。</p>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
@@ -74,164 +85,160 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
-								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
+								カスタムオリジン、ベーシックおよびストリーミングのCloudFrontディストリビューションを管理。配置のトグル、CNAMEの定義、配信アクセスロギング、デフォルトインデックスファイルの設定も可能です。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
+								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />認証付きURLを備えたACLを使用してファイルへのアクセス権を付与し、安全にファイルを共有できます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
-								Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of <a href=
-								"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
+								Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>ストレージを管理。	<a href=
+									"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>の構成も可能です。</p>
 							</div>
 						</div>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Amazon S3 for the rest of us.</h2>
-						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and geographical location of your content.</p>
+						<h2 class="headline">Amazon S3</h2>
+						<p>							 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> Serviceを自分のハードディスクのようにブラウズ。S3ストレージオプションの素晴らしい新機能に対応。ロギングオプション、ストレージクラス、コンテンツの地理的ロケーションを定義できます。</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
-									Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled, revert to any previous version of a file.</p>
+								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>バージョニングとMFA</strong><br />
+									バケットバージョニングと多要素認証削除に対応。バージョニングを有効にすれば、ファイルのあらゆる過去のバージョンに回復可能。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>ACL</strong><br />
-								Configure Access Control Lists (ACLs) for fine grained access permissions. Copy a signed URL for temporary access.</p>
+								アクセス制御リスト（ACL）で、きめ細かいアクセス許可を設定。一時アクセスのために署名付きURLをコピーすることもできます。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/info.png" class="feature" alt="" /> <strong>Metadata</strong><br />
-									You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and control cache expire settings. Batch editing included.</p>
+								<p><img src="http://media.cyberduck.ch/img/info.png" class="feature" alt="" /> <strong>メタデータ</strong><br />
+									ファイルの標準HTTPヘッダを編集、またはカスタムHTTPヘッダを追加して、メタデータの格納やキャッシュ有効期限の設定が可能。バッチ編集にも対応。</p>
 							</div>
 						</div>
 					</div>
 				
 					<img src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Manage your Google Docs.</h2>
-						<p>Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads.</p>
+						<h2 class="headline">Google Docsを管理。</h2>
+						<p>Google Docs形式に変換してアップロード。画像はOCR（光学式文字認識）されます。</p>
 					</div>
 				
 					<img src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">First class bookmarking.</h2>
-						<p>Organize your bookmarks with drag and drop and quickly search using the filter field.</p>
+						<h2 class="headline">最上級のブックマーク。</h2>
+						<p>ドラッグ&ドロップでブックマークを管理、フィルタフィールドを使って素早く検索。</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>Files</strong><br />
-								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload. 
+								<p><img src="http://media.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>ファイル</strong><br />
+								ブックマークをFinder.appにドラッグ&ドロップしておけば、ファイルをブックマークにドロップするだけでアップロードできます。 
 								<p><img src="http://media.cyberduck.ch/img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
-								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.</p>
+								ブックマークファイルのためのSpotlightインポーター。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/history.png" class="feature" alt="" /> <strong>History</strong><br />
-								History of visited servers.</p>
+								<p><img src="http://media.cyberduck.ch/img/history.png" class="feature" alt="" /> <strong>履歴</strong><br />
+								訪問したサーバの履歴を保存。</p>
 								<p><img src="http://media.cyberduck.ch/img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
-								Auto discovery of FTP &amp; WebDAV services on the local network.</p>
+								ローカルネットワーク上のFTPおよびWebDAVサービスを自動で発見。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
-								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import Bookmarks</a> from third-party applications.
+							 サードパーティのアプリケーションから <a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">ブックマークをインポート</a>。
 							</div>
 						</div>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/browse.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Browse with ease.</h2>
-						<p>Browse and move your files quickly in the browser with caching enabled for the best performance. Works with any character encoding for the correct display of Umlaute, Japanese and Chinese.</p>
+						<h2 class="headline">簡単に閲覧。</h2>
+						<p>ブラウザ上で素早くファイルを閲覧、移動できます。キャッシュを利用して最高のパフォーマンスを実現。あらゆる文字エンコードに対応し、ウムラウト、日本語、中国語も正しく表示。</p>
 
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/quicklook.png" class="feature" alt="" /> <strong>Quick Look</strong><br />
-								Quickly preview files with Quick Look. Press the space key to preview files like in Finder.app without explicitly downloading.</p>
+								Quick Lookでファイルを素早くプレビュー。スペースキーを押すと、明示的にダウンロードすることなく、Finder.appのようにファイルをプレビューできます。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/outline.png" class="feature" alt="" /> <strong>Accessible</strong><br />
-									The outline view of the browser allows to browse large folder structures
-									efficiently. Cut &amp; paste or drag &amp; drop files to organize.</p>
+								<p><img src="http://media.cyberduck.ch/img/outline.png" class="feature" alt="" /> <strong>使いやすく</strong><br />
+									Theブラウザのアウトラインビューで、大量のフォルダ構造も効率良く閲覧。カット&ペーストまたはドラッグ&ドロップでファイルを整理できます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/safari.png" class="feature" alt="" /> <strong>Web URL</strong><br />
-								Quickly copy or open the corresponding HTTP URLs of a selected file in your web browser.</p>
+								Webブラウザ上で対応するHTTP URLを選択し、素早くコピーしたり開いたりできます。</p>
 							</div>
 						</div>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Transfer anything.</h2>
-						<p>Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.</p>
+						<h2 class="headline">すべてを転送。</h2>
+						<p>同時転送数の制限、正規表現によるファイルの絞り込みができます。中断したダウンロードもアップロードも再開できます。ディレクトリの再帰転送も可能。</p>
 
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/download.png" class="feature" alt="" /> <strong>Download and Upload</strong><br />
-								Drag and drop to and from the browser to download and upload or copy files between servers. No hassle.</p>
+								<p><img src="http://media.cyberduck.ch/img/download.png" class="feature" alt="" /> <strong>ダウンロードとアップロード</strong><br />
+								ブラウザからブラウザへドラッグ&ドロップするだけで、サーバ間のファイルダウンロードやアップロード、コピーができます。とても簡単です。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/sync.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
-								Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
+								<p><img src="http://media.cyberduck.ch/img/sync.png" class="feature" alt="" /> <strong>同期</strong><br />
+								ローカルディレクトリをリモートディレクトリと同期（その逆も同じ）。操作を実行する前に、影響するファイルをプレビューできます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
-								Support for Growl, the global notification system for file transfer events. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
+								グローバル通知システムのGrowlに対応。ファイル転送イベントを通知します。growl.infoをご覧ください。</p>
 							</div>
 						</div>
 					</div>
 									
 					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Advanced SSH features.</h2>
-						<p>No compromise accessing your <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a> servers with all the bells and whistles.</p>
+						<h2 class="headline">高度なSSH機能。</h2>
+						<p>至れり尽くせり、妥協のないSFTPサーバアクセス。</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>Authentication and security</strong><br />
-								Supports Public key authentication, Keyboard Interactive (PAM) Authentication and one-time passwords. Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication
-								algorithms (MD5, SHA1). Optionally transfer files using Secure Copy (SCP).</p>
+								<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>認証とセキュリティ</strong><br />
+公開鍵認証、キーボードインタラクティブ（PAM）認証、ワンタイムパスワードに対応。多様な暗号化方式（3DES、Blowfish、Twofish、AES、CAST）と認証アルゴリズムをサポート。任意でSecure Copy（SCP）を使用したファイル転送も可能。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>Interoperability</strong><br />
-									Read settings from your existing <a href="http://www.openssh.org/">OpenSSH</a> configuration options including Host aliases, public key authentication preferences and default login user.
-									Integration with Terminal.app to open the current working directory in a shell.
-									Works with <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> private keys.</p>
+								<p><img src="http://media.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>相互運用性</strong><br />
+									既存のOpenSSH構成オプションから、ホストエイリアス、公開鍵認証設定、デフォルトログインユーザを含む設定を読み込めます。Terminal.appとの統合により、シェル内の現在の作業ディレクトリを開くことが可能。PuTTY公開鍵も使用できます。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>Archives</strong><br />
-								Archive and expand TAR and ZIP files remotely over SSH.</p>
+								<p><img src="http://media.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>アーカイブ</strong><br />
+								SSH経由のリモートで、TARおよびZIPファイルを圧縮、展開。</p>
 							</div>
 						</div>
 					</div>
 				
 					<img src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">Integration with system technologies.</h2>
-						<p>A native citizen of Mac OS X and Windows.</p>
+						<h2 class="headline">システムテクノロジーとの統合。</h2>
+						<p>Mac OS XでもWindowsでもネイティブ。</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
-							All passwords are stored in the system Keychain as Internet passwords available also to third party applications. Certificates are validated using the trust settings in the Keychain.</p>
+								<p><img src="http://media.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>キーチェーン</strong><br />
+							すべてのパスワードはシステムのキーチェーンに格納され、インターネットパスワードはサードパーティアプリケーションでも利用可能。証明書はキーチェーンの信頼設定を使用して認証されます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/finder.png" class="feature" alt="" /> <strong>Finder</strong><br />
-								Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder.</p>
+								システム全体でFTPとSFTPのデフォルトプロトコルハンドラとしてCyberduckを使用すれば、.inetlocファイルや.duckブックマークファイルをFinderから開けます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
-								<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.</p>
+								プライベートベータ に<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">登録</a> してください。</p>
 							</div>
 						</div>
 					</div>
 
 					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">We are open.</h2>
-						<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source on <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> for your own hacking pleasure. Licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.</p>
+						<h2 class="headline">オープン。</h2>
+						<p>日々の開発活動をフォローしたり、ロードマップを見たり、ハッキングを楽しむために trac.cyberduck.ch からソースを入手することもできます。GPLに基づいてライセンスされます。</p>
 					</div>
 					
 					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
 					<div class="description">
-						<h2 class="headline">International.</h2>
+						<h2 class="headline">インターナショナル。</h2>
 						<p>Speaks your language.  English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>
 					</div>
 				</div>
@@ -253,7 +260,7 @@
 					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://jakarta.apache.org/slide/">Jakarta Slide</a>), 
 					<strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), 
 					<strong>Lowell Vaughn et al.</strong> (<a class="ext" href="https://github.com/rackspace/java-cloudfiles">Cloud Files API</a>), 
-					<strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">growl.info</a>), 
+					<strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">Growl</a>), 
 					<strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter and UKPrefsPanel</a>), 
 					<strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>), 
 					<strong>Shaun Wexler</strong> (<a class="ext" href="http://www.snoize.com/">CTGradient</a>), 
@@ -280,11 +287,11 @@
 				<div class="box-shadow">
 					<div id="mac" class="download">
 						<div>
-							<strong>Download</strong><br />
-							<strong>Version 3.8</strong><br />
-							<em>Dec-03-2010</em><br />
+							<strong>ダウンロード</strong><br />
+							<strong>バージョン3.8</strong><br />
+							<em>2010年12月3日</em><br />
 							<a href="Cyberduck-3.8.zip">Cyberduck-3.8.zip</a><br />
-							<em>Universal Binary. Mac OS X 10.5 or later required.</em><br />
+							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
 						<img src="http://media.cyberduck.ch/img/mac32.png" />
@@ -292,17 +299,16 @@
 
 					<div id="windows" class="download">
 						<div>
-							<strong>Private Beta</strong><br />
+							<strong>プライベートベータ</strong><br />
 <a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.<br />
-							<em>Windows XP, Windows Vista or
-							Windows 7 required.</em>
+							<em>Windows XP、Windows VistaまたはWindows 7が必要</em>
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />
 						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-						<input type="image" src="https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Donate to the development of Cyberduck!" />
+						<input type="image" src="https://www.paypal.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="寄付する" />
 						<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 					</form>
 					<script type="text/javascript">
@@ -327,12 +333,11 @@
 				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
 				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 
-				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the development <a class="ext" href="news">blog</a>.</p>
-				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
-				<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification
-				when a new version is released.</p>
+				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>ブログ</strong> <a class="ext" href="news">開発ブログ</a><a class="ext" href="http://cyberduck.ch/changelog.rss">購読</a> を.</p>
+				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">@davidkocherをフォロー。</a>.</p>
+				<p><strong>メーリングリスト</strong> <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
 				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
-					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="登録" /></p>
 				</form>
 			</div>
 		</div>
