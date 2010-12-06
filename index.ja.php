@@ -329,9 +329,9 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 			</div>
 
 			<div class="box-solid">
-				<p class="lead"><strong>News &amp; Feedback.</strong> This software is written by <a class="ext" href="http://sudo.ch/">David V. Kocher</a>. I appreciate any <a class="ext" href=
-				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
-				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
+				<p class="lead"><strong>ニュースとフィードバック</strong> このソフトウェアは <a class="ext" href="http://sudo.ch/">David V. Kocher</a>が開発しました。<a class="ext" href=
+				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">ご意見</a> をお待ちしています。バグレポートおよび機能追加の提案をするには、<a class="ext" href=
+				"http://trac.cyberduck.ch/newticket">イシュートラッカー</a> で <a class="ext" href="http://trac.cyberduck.ch">新規チケット</a>を作成してください。</p>
 
 				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>ブログ</strong> <a class="ext" href="news">開発ブログ</a><a class="ext" href="http://cyberduck.ch/changelog.rss">購読</a> を.</p>
 				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">@davidkocherをフォロー。</a>.</p>
