@@ -44,7 +44,7 @@
 	                        $(document).ready(function() {
 	                                $('#metanav #lang a').click(function() {
 	                                        var l = this.href.match(/\?l=(\w{2})$/);
-	                                        document.cookie = 'language='+l[1]+';path=/;domain=.cyberduck.ch';
+	                                        document.cookie='language='+l[1]+';path=/;domain=.cyberduck.ch';
 	                                });
 	                        });
 	                //]]>
