@@ -15,7 +15,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 <body id="index">
 	<div id="header">
 		<?php echo(echologo("."));?>
-		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'>Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、 <br />Could Files、Google Docs、S3用ブラウザです</h3></div>
+		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'><a href='http://www.gnu.org/philosophy/free-sw.html'>オープンソース</a> のFTP、SFTP、WebDAV、Cloud Files、 <br />Google Docs、Amazon S3用ブラウザ、MacとWindowsに対応。</h3></div>
 		<div id='navigation'>
 			<ul>
 				<li><a id="navigation-index" href="/">Cyberduckについて</li>
@@ -32,9 +32,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 		<div id="maincolumn">
 			<?php echo(echogoogle());?>
 			<div id="content">
-				<p>
-					Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Could Files、Google Docs、S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザのアウトラインビューで大量のフォルダ構造も効率よく閲覧し、QuickLookで素早くファイルをプレビューすることができます。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。クラウドでコンテンツを配信するために、Amazon CloudFrontやRackspace Cloud Filesを構成することも簡単です。30言語以上のローカライズ版が提供されています。
-				</p>
 				<div id="screenshots">
 					<div class="figure">
 						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
@@ -67,8 +64,8 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<div class="description">
 						<h2 class="headline">あらゆるサーバに接続。</h2>
 						<p>使いやすいインターフェースで、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>、 <a href=
-							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
+						Authoring and Versioning)、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>、 <a href=
+							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a>、<a href=
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>に接続。 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> や <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>のオープンな最新クラウドソフトウェアも利用できます。</p>
 					</div>
 
@@ -81,7 +78,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">クラウドでコンテンツを配布。</h2>
-						<p>コンテンツ配信ネットワーク（CDN）を使用してファイルを配信するために、Amazon CloudFrontやRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon CloudFront CDN配信のオリジンとして構成できます。</p>
+						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN配信のオリジンとして構成できます。</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
@@ -101,7 +98,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3</h2>
-						<p>							 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> Serviceを自分のハードディスクのようにブラウズ。S3ストレージオプションの素晴らしい新機能に対応。ロギングオプション、ストレージクラス、コンテンツの地理的ロケーションを定義できます。</p>
+						<p>							 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> を自分のハードディスクのようにブラウズ。S3ストレージオプションの素晴らしい新機能に対応。ロギングオプション、ストレージクラス、コンテンツの地理的ロケーションを定義できます。</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>バージョニングとMFA</strong><br />
@@ -142,7 +139,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 								ローカルネットワーク上のFTPおよびWebDAVサービスを自動で発見。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
+								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>インポート</strong><br />
 							 サードパーティのアプリケーションから <a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">ブックマークをインポート</a>。
 							</div>
 						</div>
@@ -185,7 +182,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
-								グローバル通知システムのGrowlに対応。ファイル転送イベントを通知します。growl.infoをご覧ください。</p>
+								グローバル通知システムのGrowlに対応。ファイル転送イベントを通知します。<a class="ext" href="http://growl.info/">growl.info</a>をご覧ください。</p>
 							</div>
 						</div>
 					</div>
@@ -193,7 +190,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">高度なSSH機能。</h2>
-						<p>至れり尽くせり、妥協のないSFTPサーバアクセス。</p>
+						<p>至れり尽くせり、妥協のない<a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a>サーバアクセス。</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>認証とセキュリティ</strong><br />
@@ -201,7 +198,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>相互運用性</strong><br />
-									既存のOpenSSH構成オプションから、ホストエイリアス、公開鍵認証設定、デフォルトログインユーザを含む設定を読み込めます。Terminal.appとの統合により、シェル内の現在の作業ディレクトリを開くことが可能。PuTTY公開鍵も使用できます。</p>
+									既存の<a href="http://www.openssh.org/">OpenSSH</a>構成オプションから、ホストエイリアス、公開鍵認証設定、デフォルトログインユーザを含む設定を読み込めます。Terminal.appとの統合により、シェル内の現在の作業ディレクトリを開くことが可能。<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a>公開鍵も使用できます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>アーカイブ</strong><br />
@@ -225,7 +222,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
-								プライベートベータ に<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">登録</a> してください。</p>
+								プライベートベータに<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">登録</a> してください。</p>
 							</div>
 						</div>
 					</div>
@@ -233,13 +230,13 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">オープン。</h2>
-						<p>日々の開発活動をフォローしたり、ロードマップを見たり、ハッキングを楽しむために trac.cyberduck.ch からソースを入手することもできます。GPLに基づいてライセンスされます。</p>
+						<p>日々の開発活動をフォローしたり、ロードマップを見たり、ハッキングを楽しむために <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> からソースを入手することもできます。<a href="http://www.gnu.org/licenses/gpl.html">GPL</a> に基づいてライセンスされます。</p>
 					</div>
 					
 					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">インターナショナル。</h2>
-						<p>Speaks your language.  English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>
+						<p>あなたの言語で使えます。 English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>
 					</div>
 				</div>
 
@@ -334,7 +331,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 				"http://trac.cyberduck.ch/newticket">イシュートラッカー</a> で <a class="ext" href="http://trac.cyberduck.ch">新規チケット</a>を作成してください。</p>
 
 				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>ブログ</strong> <a class="ext" href="news">開発ブログ</a><a class="ext" href="http://cyberduck.ch/changelog.rss">購読</a> を.</p>
-				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">@davidkocherをフォロー。</a>.</p>
+				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter</strong> <a class="ext" href="http://twitter.com/davidkocher">@davidkocherをフォロー</a>。</p>
 				<p><strong>メーリングリスト</strong> <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
 				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="登録" /></p>
