@@ -13,6 +13,14 @@ padding: 0px;
 color: #000000;
 background-color: #ffffff;
 }
+
+	body#index {
+		background: url(img/teaser-windows.en.png) no-repeat 0 20px;
+	}
+	
+	body#index #navigation {
+		margin-top: 180px;
+	}
 	
 	img {
 border: none;
@@ -128,10 +136,6 @@ margin-right: 20px;
 	padding-right: 10px;
 }
 
-	#teaser .download#windows {
-		/*background: url(img/availablesoon.png) no-repeat 0 50%;*/
-	}
-
 	#teaser {
 float: left;
 width: 280px;
@@ -141,7 +145,6 @@ margin: 0;
 padding-right: 15px;
 text-align:right;
 }
-		
 
 	.box-shadow-start {
 background: transparent url(http://media.cyberduck.ch/img/teaserbgstart.png) no-repeat scroll 0 100%;
@@ -183,8 +186,8 @@ text-align: right;
 	body#index a#navigation-index, 
 	body#features a#navigation-features,
 	body#changelog a#navigation-changelog,
-        body#news a#navigation-news,
-	body#source a#navigation-source, 		
+	body#news a#navigation-news,
+	body#source a#navigation-source,
 	body#reviews a#navigation-reviews, 
 	body#license a#navigation-license, 
 	body#donate a#navigation-donate {
