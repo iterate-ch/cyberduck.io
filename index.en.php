@@ -289,7 +289,6 @@
 					<div id="windows" class="download">
 						<div>
 							<strong>Private Beta</strong><br />
-<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.<br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em>
 						</div>

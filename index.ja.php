@@ -298,7 +298,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<div id="windows" class="download">
 						<div>
 							<strong>プライベートベータ</strong><br />
-プライベートベータに<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">申し込む</a><br />
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em>
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
