@@ -215,7 +215,6 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
-								<a href="mailto:feedback@cyberduck.ch?subject=Windows Private Beta">Signup</a> for the private beta.</p>
 							</div>
 						</div>
 					</div>
