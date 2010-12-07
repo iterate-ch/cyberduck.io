@@ -181,6 +181,7 @@ float: left;
 clear: both;
 width: 1120px;
 text-align: right;
+border-top: 2px solid #E5E5DB;
 }
 	
 	body#index a#navigation-index, 
