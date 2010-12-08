@@ -21,33 +21,6 @@
 		<div id="maincolumn">
 			<?php echo(echogoogle());?>
 			<div id="content">
-				<div id="screenshots">
-					<div class="figure">
-						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
-						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
-
-						<p>Bookmarks</p>
-					</div>
-
-					<div class="figure">
-						<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
-						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
-
-						<p>Browser</p>
-					</div>
-				</div>
-				<script type="text/javascript">
-						//<![CDATA[
-						$(document).ready(function() {
-							if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-								$("#screenshots .windows").css('display', 'inline');
-							}
-							else {
-								$("#screenshots .mac").css('display', 'inline');
-							}
-						});
-				//]]>
-				</script>
 				<div id="features">
 					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
@@ -57,6 +30,34 @@
 							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>. Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
 					</div>
+
+					<div id="screenshots">
+						<div class="figure">
+							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
+							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
+
+							<p>Bookmarks</p>
+						</div>
+
+						<div class="figure">
+							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
+							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
+
+							<p>Browser</p>
+						</div>
+					</div>
+					<script type="text/javascript">
+							//<![CDATA[
+							$(document).ready(function() {
+								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+									$("#screenshots .windows").css('display', 'inline');
+								}
+								else {
+									$("#screenshots .mac").css('display', 'inline');
+								}
+							});
+					//]]>
+					</script>
 
 					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
