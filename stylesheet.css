@@ -15,7 +15,7 @@ background-color: #ffffff;
 }
 
 	body#index {
-		background: url(http://media.cyberduck.ch/img/teaser-windows.en.png) no-repeat 0 20px;
+		background: url(img/teaser-windows) no-repeat 320px 70px;
 	}
 	
 	body#index #navigation {
