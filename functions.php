@@ -58,7 +58,7 @@
     }
 
 	function echotitle($page) {
-		return "Cyberduck | FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; S3 Browser for Mac &amp; Windows | $page";
+		return "$page";
 	}
     
     function echosubmenu($dir) {
