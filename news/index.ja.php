@@ -19,7 +19,7 @@
 		define('MAGPIE_CACHE_ON', true);
 	?>
 
-	<title>Cyberduck | FTP、SFTP、WebDAV、クラウドストレージ、Google Docs、S3用ブラウザ、MacとWindowsに対応 | ニュース</title>
+	<title>ニュース</title>
 </head>
 
 <body id="news">

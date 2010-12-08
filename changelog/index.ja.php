@@ -8,9 +8,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader("..")); ?>
-	<title>
-		Cyberduck | FTP、SFTP、WebDAV、クラウドストレージ、Google Docs、S3用ブラウザ、MacとWindowsに対応 | 更新履歴
-	</title>
+	<title>更新履歴</title>
 </head>
 
 <body id="changelog">
