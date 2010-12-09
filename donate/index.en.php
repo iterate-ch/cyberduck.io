@@ -37,8 +37,15 @@
 				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
 				<tt><strong>BIC</strong> POFICHBEXXX</tt> or <tt>POFICHBE</tt></p>
 
-				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, I do also have a <a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">Amazon
-				Wishlist</a>. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion of the Amazon order process.</p>
+				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, you can send us something from our wishlist (in German).
+				<ul>
+					<li>
+						<a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project Lead)</a>. 			</li>
+					<li>
+						<a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead Developer)</a>. 
+					</li>
+				</ul>
+You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion of the Amazon order process.</p>
 
 				<form id="lookup" method="get" action="lookup">
 					<p class="lead"><strong>Donation Key Recovery.</strong> The donation key is sent to you by email automatically after the Paypal transaction has been completed. To recover a
