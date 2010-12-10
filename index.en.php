@@ -216,6 +216,8 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
+									Reads your proxy configuration from network settings. Encrypts passwords limiting access to your account.
+									</p>
 							</div>
 						</div>
 					</div>
