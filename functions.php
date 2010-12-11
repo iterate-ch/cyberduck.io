@@ -8,7 +8,8 @@
 			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 
 			<meta http-equiv='content-type' content='application/xhtml; charset=utf-8' />
-			<meta name='verify-v1' content='oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=' />";
+			<meta name='verify-v1' content='oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=' />
+			";
     }
 
 	  function echogoogle() {
@@ -50,7 +51,7 @@
 	                //]]>
 	                </script>
 	        </div>
-			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='".$dir."/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
+			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://media.cyberduck.ch/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
 	}
 	
     function echocaption($dir) {
