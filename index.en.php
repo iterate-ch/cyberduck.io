@@ -23,7 +23,7 @@
 			<?php echo(echogoogle());?>
 			<div id="content">
 				<div id="features">
-					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/connect.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Connecting to every server.</h2>
 						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
@@ -34,15 +34,15 @@
 
 					<div id="screenshots">
 						<div class="figure">
-							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
-							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
+							<a class="windows" style="display:none;" href="http://cdn.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://cdn.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
+							<a class="mac" style="display:none;" href="http://cdn.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://cdn.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
 
 							<p>Bookmarks</p>
 						</div>
 
 						<div class="figure">
-							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
-							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
+							<a class="windows" style="display:none;" href="http://cdn.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://cdn.cyberduck.ch/img/windows/browser-thumb.png" /></a>
+							<a class="mac" style="display:none;" href="http://cdn.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://cdn.cyberduck.ch/img/mac/browser-thumb.png" /></a>
 
 							<p>Browser</p>
 						</div>
@@ -60,176 +60,176 @@
 					//]]>
 					</script>
 
-					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Edit any file with your preferred editor.</h2>
 						<p> To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Edit any text or binary file on the server in your preferred application.</p>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Distribute your content in the cloud.</h2>
 						<p>Both Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Connect to any server using FTP, SFTP or WebDAV and configure it as the origin of a new Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN distribution.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
 								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
+								<p><img src="http://cdn.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
 								Manage your Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a> storage including the configuration of <a href=
 								"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>.</p>
 							</div>
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
 						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and geographical location of your content.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
 									Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled, revert to any previous version of a file.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>ACL</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/permissions.png" class="feature" alt="" /> <strong>ACL</strong><br />
 								Configure Access Control Lists (ACLs) for fine grained access permissions. Copy a signed URL for temporary access.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/info.png" class="feature" alt="" /> <strong>Metadata</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/info.png" class="feature" alt="" /> <strong>Metadata</strong><br />
 									You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and control cache expire settings. Batch editing included.</p>
 							</div>
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/google-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Manage your Google Docs.</h2>
 						<p>Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads.</p>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/bookmark.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">First class bookmarking.</h2>
 						<p>Organize your bookmarks with drag and drop and quickly search using the filter field.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>Files</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>Files</strong><br />
 								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload. 
-								<p><img src="http://media.cyberduck.ch/img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
 								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/history.png" class="feature" alt="" /> <strong>History</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/history.png" class="feature" alt="" /> <strong>History</strong><br />
 								History of visited servers.</p>
-								<p><img src="http://media.cyberduck.ch/img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/rendezvous.png" class="feature" alt="" /> <strong>Bonjour</strong><br />
 								Auto discovery of FTP &amp; WebDAV services on the local network.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
 								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import Bookmarks</a> from third-party applications.
 							</div>
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/browse.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/browse.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Browse with ease.</h2>
 						<p>Browse and move your files quickly in the browser with caching enabled for the best performance. Works with any character encoding for the correct display of Umlaute, Japanese and Chinese.</p>
 
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/quicklook.png" class="feature" alt="" /> <strong>Quick Look</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/quicklook.png" class="feature" alt="" /> <strong>Quick Look</strong><br />
 								Quickly preview files with Quick Look. Press the space key to preview files like in Finder.app without explicitly downloading.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/outline.png" class="feature" alt="" /> <strong>Accessible</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/outline.png" class="feature" alt="" /> <strong>Accessible</strong><br />
 									The outline view of the browser allows to browse large folder structures
 									efficiently. Cut &amp; paste or drag &amp; drop files to organize.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/safari.png" class="feature" alt="" /> <strong>Web URL</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/safari.png" class="feature" alt="" /> <strong>Web URL</strong><br />
 								Quickly copy or open the corresponding HTTP URLs of a selected file in your web browser.</p>
 							</div>
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/transfer.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Transfer anything.</h2>
 						<p>Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.</p>
 
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/download.png" class="feature" alt="" /> <strong>Download and Upload</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/download.png" class="feature" alt="" /> <strong>Download and Upload</strong><br />
 								Drag and drop to and from the browser to download and upload or copy files between servers. No hassle.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/sync.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/sync.png" class="feature" alt="" /> <strong>Synchronization</strong><br />
 								Synchronize local with remote directories (and vice versa) and get a preview of affected files before any action is taken.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/growl.png" class="feature" alt="" /> <strong>Growl</strong><br />
 								Support for Growl, the global notification system for file transfer events. See <a class="ext" href="http://growl.info/">growl.info</a>.</p>
 							</div>
 						</div>
 					</div>
 									
-					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Advanced SSH features.</h2>
 						<p>No compromise accessing your <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a> servers with all the bells and whistles.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>Authentication and security</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/protocol.png" class="feature" alt="" /> <strong>Authentication and security</strong><br />
 								Supports Public key authentication, Keyboard Interactive (PAM) Authentication and one-time passwords. Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication
 								algorithms (MD5, SHA1). Optionally transfer files using Secure Copy (SCP).</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>Interoperability</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/openssh.png" class="feature" alt="" /><strong>Interoperability</strong><br />
 									Read settings from your existing <a href="http://www.openssh.org/">OpenSSH</a> configuration options including Host aliases, public key authentication preferences and default login user.
 									Integration with Terminal.app to open the current working directory in a shell.
 									Works with <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> private keys.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>Archives</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/archive.png" class="feature" alt="" /><strong>Archives</strong><br />
 								Archive and expand TAR and ZIP files remotely over SSH.</p>
 							</div>
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/mac32.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Integration with system technologies.</h2>
 						<p>A native citizen of Mac OS X and Windows.</p>
 						<div class="column">
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/keychain.png" class="feature" alt="" /> <strong>Keychain</strong><br />
 							All passwords are stored in the system Keychain as Internet passwords available also to third party applications. Certificates are validated using the trust settings in the Keychain.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/finder.png" class="feature" alt="" /> <strong>Finder</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/finder.png" class="feature" alt="" /> <strong>Finder</strong><br />
 								Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
+								<p><img src="http://cdn.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
 									Reads your proxy configuration from network settings. Encrypts passwords limiting access to your account.
 									</p>
 							</div>
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">We are open.</h2>
 						<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source on <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> for your own hacking pleasure. Licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.</p>
 					</div>
 					
-					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
+					<img src="http://cdn.cyberduck.ch/img/language.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">International.</h2>
 						<p>Speaks your language.  English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>
@@ -268,7 +268,7 @@
 			</div>
 
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://cdn.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 			</div>
 		</div>
@@ -287,7 +287,7 @@
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
-						<img src="http://media.cyberduck.ch/img/mac32.png" />
+						<img src="http://cdn.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
@@ -296,7 +296,7 @@
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em>
 						</div>
-						<img src="http://media.cyberduck.ch/img/windows32.png" />
+						<img src="http://cdn.cyberduck.ch/img/windows32.png" />
 					</div>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />
@@ -326,8 +326,8 @@
 				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a class="ext" href=
 				"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a class="ext" href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 
-				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the development <a class="ext" href="news">blog</a>.</p>
-				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
+				<p><img class="feature" src="http://cdn.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>Blog.</strong> <a class="ext" href="http://cyberduck.ch/changelog.rss">Subscribe</a> to the the development <a class="ext" href="news">blog</a>.</p>
+				<p><img class="feature" src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter.</strong> <a class="ext" href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				<p><strong>Mailing List.</strong> You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get a notification
 				when a new version is released.</p>
 				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">

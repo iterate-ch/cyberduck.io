@@ -101,7 +101,7 @@
 			<div id="teaser">
 				<div class="box-shadow-start"></div>
 				<div class="box-shadow">
-					<p class="lead"><strong>Blog.</strong> Prosa about noteworthy upcoming features and the current development status. <img  src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /><a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
+					<p class="lead"><strong>Blog.</strong> Prosa about noteworthy upcoming features and the current development status. <img  src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /><a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>
