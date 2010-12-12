@@ -1,9 +1,9 @@
 <?php
     function echoheader($dir) {
         return "
-			<link rel='Stylesheet' type='text/css' href='http://cdn.cyberduck.ch/stylesheet.css' />
+			<link rel='Stylesheet' type='text/css' href='http://media.cyberduck.ch/stylesheet.css' />
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
-			<link rel='shortcut icon' href='http://cdn.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
+			<link rel='shortcut icon' href='http://media.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
 
 			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 
@@ -51,7 +51,7 @@
 	                //]]>
 	                </script>
 	        </div>
-			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://cdn.cyberduck.ch/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
+			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://media.cyberduck.ch/img/cyberduck.icon.png' width='128' height='128' alt='Cyberduck'/></a></div>";
 	}
 	
     function echocaption($dir) {
