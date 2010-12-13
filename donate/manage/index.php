@@ -50,7 +50,7 @@
 
 				<div class="box-shadow">
 					<div align="center">
-						<img src="../img/cert.png" alt="Donation Key" border="0" />
+						<img src="../img/cert.png" alt="Donation Key" />
 					</div>
 				</div>
 
