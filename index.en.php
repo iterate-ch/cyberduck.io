@@ -10,7 +10,7 @@
 	<?php echo(echoheader(".")); ?>
 	<title><?php echo(echotitle("FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac &amp; Windows.")); ?></title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure & Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (CDN). Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home." />
+	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure &amp; Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (CDN). Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home." />
 	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, limelight, google storage, google docs, browser, mac, os x, windows" />
 </head>
 
@@ -111,7 +111,7 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/document.png" class="feature" alt="" /> <strong>Files</strong><br />
-								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload. 
+								Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
 								<p><img src="http://media.cyberduck.ch/img/spotlight.png" class="feature" alt="" /> <strong>Spotlight</strong><br />
 								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.</p>
 							</div>
@@ -123,7 +123,7 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/advanced.png" class="feature" alt="" /> <strong>Import</strong><br />
-								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import Bookmarks</a> from third-party applications.
+								<a href="http://trac.cyberduck.ch/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import Bookmarks</a> from third-party applications.</p>
 							</div>
 						</div>
 					</div>

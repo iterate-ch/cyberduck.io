@@ -216,6 +216,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/windows32.png" class="feature" alt="" /> <strong>Windows</strong><br />
+							   ネットワーク設定からプロキシ構成を読み込みます。パスワードは暗号化され、アカウントへのアクセスを保護します。</p>
 							</div>
 						</div>
 					</div>
