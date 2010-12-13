@@ -23,23 +23,16 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.8.1">3.8.1</a> (7954)</strong> <em>Dec-06-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.8.1.zip">Download</a></p>
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0 (Public Beta)</a></strong> <em>Dec-13-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-Installer-4.0b8.8069.exe">Download</a><br />
+							<span class="version">Windows XP, Windows Vista or Windows 7 required.</span></p>
 						</td>
 
 						<td>
 							<ul>
-							    <li>[Bugfix] Fails to display custom language preference (<a
-							            href="http://trac.cyberduck.ch/ticket/5500">#5500</a>)
-							    </li>
-							    <li>[Bugfix] Clear data channels not supported (<a
-							            href="http://trac.cyberduck.ch/ticket/5509">#5509</a>) (FTP-TLS)
-							    </li>
-							    <li>[Bugfix] Some files not displayed (<a
-							            href="http://trac.cyberduck.ch/ticket/5505">#5505</a>) (FTP)
-							    </li>
-							    <li>[Bugfix] Wrong file size reported for uploads (<a
-							            href="http://trac.cyberduck.ch/ticket/5503">#5503</a>)
+							    <li>[Feature] Version for Microsoft Windows XP, Windows Vista & Windows 7.</li>
+							    <li>[Feature] Connecting to Windows Azure Blob Storage (Azure) (<a
+							            href="http://trac.cyberduck.ch/ticket/3938">#3938</a>)
 							    </li>
 						   </ul>
 						</td>

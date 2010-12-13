@@ -16,7 +16,9 @@
 
 <body id="index">
 	<div id="header">
-		<?php echo(echologo("."));?><?php echo(echocaption("."));?><?php echo(echosubmenu("."));?>
+		<?php echo(echologo("."));?>
+		<?php echo(echocaption("."));?>
+		<?php echo(echosubmenu("."));?>
 	</div>
 
 	<div id="container">
@@ -57,6 +59,14 @@
 								else {
 									$("#screenshots .mac").css('display', 'inline');
 								}
+                                $('#screenshots .windows a').click(function() {
+									$("#screenshots .mac").css('display', 'none');
+									$("#screenshots .windows").css('display', 'inline');
+                                });
+                                $('#screenshots .mac a').click(function() {
+									$("#screenshots .mac").css('display', 'inline');
+									$("#screenshots .windows").css('display', 'none');
+                                });
 							});
 					//]]>
 					</script>
@@ -281,21 +291,22 @@
 				<div class="box-shadow">
 					<div id="mac" class="download">
 						<div>
-							<strong>Download</strong><br />
 							<strong>Version 3.8.1</strong><br />
 							<em>Dec-03-2010</em><br />
 							<a href="Cyberduck-3.8.1.zip">Cyberduck-3.8.1.zip</a><br />
-							<em>Universal Binary. Mac OS X 10.5 or later required.</em><br />
-							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
+							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
 						<img src="http://media.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
 						<div>
-							<strong>Private Beta</strong><br />
+							<strong>Version 4.0 Public Beta</strong><br />
+							<em>Dec-13-2010</em><br />
+							<a href="Cyberduck-Installer-4.0b8.8069.exe">Cyberduck-Installer-4.0b8.exe</a><br />
 							<em>Windows XP, Windows Vista or
-							Windows 7 required.</em>
+							Windows 7 required.</em><br />
+							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>

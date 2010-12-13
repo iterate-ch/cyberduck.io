@@ -292,16 +292,18 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<strong>バージョン3.8.1</strong><br />
 							<em>2010年12月3日</em><br />
 							<a href="Cyberduck-3.8.1.zip">Cyberduck-3.8.1.zip</a><br />
-							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em><br />
-							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
+							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
 						<img src="http://media.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
 						<div>
-							<strong>プライベートベータ</strong><br />
-							<em>Windows XP、Windows VistaまたはWindows 7が必要</em>
+							<strong>Version 4.0 Public Beta</strong><br />
+							<em>Dec-13-2010</em><br />
+							<a href="Cyberduck-Installer-4.0b8.8069.exe">Cyberduck-Installer-4.0b8.exe</a><br />
+							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
+							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
 						<img src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
