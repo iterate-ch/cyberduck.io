@@ -47,19 +47,8 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					</div>
 
 					<div id="screenshots">
-						<div class="figure">
-							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" /></a>
-							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser-bookmarks.png"><img alt="Cyberduck Bookmarks" width="400px" src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" /></a>
-
-							<p>ブックマーク</p>
-						</div>
-
-						<div class="figure">
-							<a class="windows" style="display:none;" href="http://media.cyberduck.ch/img/windows/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/windows/browser-thumb.png" /></a>
-							<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Browser" width="400px" src="http://media.cyberduck.ch/img/mac/browser-thumb.png" /></a>
-
-							<p>ブラウザ</p>
-						</div>
+						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Bookmarks" src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" /></a>
+						<a class="windows" style="display:none;" href="img/windows/browser.png"><img alt="Cyberduck Browser" src="img/windows/browser-bookmarks.png" /></a>
 					</div>
 					<script type="text/javascript">
 							//<![CDATA[
