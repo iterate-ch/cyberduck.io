@@ -299,7 +299,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />
 						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-						<input type="image" src="img/donate.gif" name="submit" alt="寄付する" />
+						<input type="image" src="img/donate" name="submit" alt="寄付する" />
 					</form>
 					<script type="text/javascript">
 							//<![CDATA[

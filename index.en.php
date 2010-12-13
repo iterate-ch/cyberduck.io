@@ -293,7 +293,7 @@
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />
 						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-						<input type="image" src="img/donate.gif" name="submit" alt="Donate to the development of Cyberduck!" />
+						<input type="image" src="img/donate" name="submit" alt="Donate to the development of Cyberduck!" />
 					</form>
 					<script type="text/javascript">
 							//<![CDATA[
