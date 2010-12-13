@@ -24,7 +24,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0 (Public Beta)</a></strong> <em>Dec-13-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-Installer-4.0b8.8069.exe">Download</a><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-Installer-4.0b8.8071.exe">Download</a><br />
 							<span class="version">Windows XP, Windows Vista or Windows 7 required.</span></p>
 						</td>
 
