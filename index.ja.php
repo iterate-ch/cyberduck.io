@@ -226,7 +226,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<p>日々の開発活動をフォローしたり、ロードマップを見たり、ハッキングを楽しむために <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> からソースを入手することもできます。<a href="http://www.gnu.org/licenses/gpl.html">GPL</a> に基づいてライセンスされます。</p>
 					</div>
 					
-					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/language.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">インターナショナル。</h2>
 						<p>あなたの言語で使えます。 English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>
@@ -283,7 +283,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<a href="Cyberduck-3.8.1.zip">Cyberduck-3.8.1.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
-						<img src="http://media.cyberduck.ch/img/mac32.png" />
+						<img alt="Mac" src="http://media.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
@@ -294,7 +294,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
-						<img src="http://media.cyberduck.ch/img/windows32.png" />
+						<img alt="Windows" src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />

@@ -276,7 +276,7 @@
 							<a href="Cyberduck-3.8.1.zip">Cyberduck-3.8.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
-						<img src="http://media.cyberduck.ch/img/mac32.png" />
+						<img alt="Mac" src="http://media.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
@@ -288,7 +288,7 @@
 							Windows 7 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
-						<img src="http://media.cyberduck.ch/img/windows32.png" />
+						<img alt="Windows" src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick" />
