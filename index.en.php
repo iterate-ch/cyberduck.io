@@ -25,7 +25,7 @@
 			<?php echo(echogoogle());?>
 			<div id="content">
 				<div id="features">
-					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
+					<img src="http://media.cyberduck.ch/img/connect.png" alt="" class="headline" />
 					<div class="description">
 						<h2 class="headline">Connecting to every server.</h2>
 						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
@@ -51,13 +51,13 @@
 					//]]>
 					</script>
 
-					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Edit any file with your preferred editor.</h2>
 						<p> To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Edit any text or binary file on the server in your preferred application.</p>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Distribute your content in the cloud.</h2>
 						<p>Both Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>). Connect to any server using FTP, SFTP or WebDAV and configure it as the origin of a new Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN distribution.</p>
@@ -77,7 +77,7 @@
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
 						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define logging options, storage class and geographical location of your content.</p>
@@ -97,13 +97,13 @@
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Manage your Google Docs.</h2>
 						<p>Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads.</p>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">First class bookmarking.</h2>
 						<p>Organize your bookmarks with drag and drop and quickly search using the filter field.</p>
@@ -127,7 +127,7 @@
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/browse.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/browse.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Browse with ease.</h2>
 						<p>Browse and move your files quickly in the browser with caching enabled for the best performance. Works with any character encoding for the correct display of Umlaute, Japanese and Chinese.</p>
@@ -149,7 +149,7 @@
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Transfer anything.</h2>
 						<p>Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.</p>
@@ -170,7 +170,7 @@
 						</div>
 					</div>
 									
-					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Advanced SSH features.</h2>
 						<p>No compromise accessing your <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a> servers with all the bells and whistles.</p>
@@ -193,7 +193,7 @@
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Integration with system technologies.</h2>
 						<p>A native citizen of Mac OS X and Windows.</p>
@@ -214,13 +214,13 @@
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">We are open.</h2>
 						<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source on <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> for your own hacking pleasure. Licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>.</p>
 					</div>
 					
-					<img src="http://media.cyberduck.ch/img/language.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/language.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">International.</h2>
 						<p>Speaks your language.  English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina &amp; Română.</p>

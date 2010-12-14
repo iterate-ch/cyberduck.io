@@ -36,7 +36,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 			<?php echo(echogoogle());?>
 			<div id="content">
 				<div id="features">
-					<img src="http://media.cyberduck.ch/img/connect.png" class="headline" />
+					<img src="http://media.cyberduck.ch/img/connect.png" alt="" class="headline" />
 					<div class="description">
 						<h2 class="headline">あらゆるサーバに接続。</h2>
 						<p>使いやすいインターフェースで、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
@@ -62,13 +62,13 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					//]]>
 					</script>
 
-					<img src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">あらゆるファイルを好きなエディタで編集。</h2>
 						<p>ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携。コンテンツを素早く簡単に変更できます。どんなテキストファイルやバイナリファイルも、好みのアプリケーションを使ってサーバ上で編集できます。</p>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">クラウドでコンテンツを配布。</h2>
 						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN配信のオリジンとして構成できます。</p>
@@ -88,7 +88,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3</h2>
 						<p>							 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> を自分のハードディスクのようにブラウズ。S3ストレージオプションの素晴らしい新機能に対応。ロギングオプション、ストレージクラス、コンテンツの地理的ロケーションを定義できます。</p>
@@ -108,13 +108,13 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/google-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Google Docsを管理。</h2>
 						<p>Google Docs形式に変換してアップロード。画像はOCR（光学式文字認識）されます。</p>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/bookmark.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">最上級のブックマーク。</h2>
 						<p>ドラッグ&ドロップでブックマークを管理、フィルタフィールドを使って素早く検索。</p>
@@ -138,7 +138,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/browse.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/browse.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">簡単に閲覧。</h2>
 						<p>ブラウザ上で素早くファイルを閲覧、移動できます。キャッシュを利用して最高のパフォーマンスを実現。あらゆる文字エンコードに対応し、ウムラウト、日本語、中国語も正しく表示。</p>
@@ -159,7 +159,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/transfer.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">すべてを転送。</h2>
 						<p>同時転送数の制限、正規表現によるファイルの絞り込みができます。中断したダウンロードもアップロードも再開できます。ディレクトリの再帰転送も可能。</p>
@@ -180,7 +180,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 									
-					<img src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/sftp-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">高度なSSH機能。</h2>
 						<p>至れり尽くせり、妥協のない<a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP</a>サーバアクセス。</p>
@@ -200,7 +200,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 				
-					<img src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/mac32.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">システムテクノロジーとの統合。</h2>
 						<p>Mac OS XでもWindowsでもネイティブ。</p>
@@ -220,7 +220,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 					</div>
 
-					<img src="http://media.cyberduck.ch/img/osi.png" class="headline" />
+					<img alt="" src="http://media.cyberduck.ch/img/osi.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">オープン。</h2>
 						<p>日々の開発活動をフォローしたり、ロードマップを見たり、ハッキングを楽しむために <a href="http://trac.cyberduck.ch">trac.cyberduck.ch</a> からソースを入手することもできます。<a href="http://www.gnu.org/licenses/gpl.html">GPL</a> に基づいてライセンスされます。</p>
