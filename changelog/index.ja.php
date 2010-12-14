@@ -37,6 +37,8 @@
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0 (Public Beta)</a> (8087)</strong> <em>Dec-13-2010</em><br />
 							<a href="http://update.cyberduck.ch/windows/beta/Cyberduck-Installer-4.0b8.8071.exe">Download</a><br />
 							<span class="version">Windows XP, Windows Vista or Windows 7 required.</span></p>
+							<p><strong><a href="4.0/Press_4.0_en.txt">Press Release (en)</a></strong><br />
+							<strong><a href="4.0/Press_4.0_ja.txt">Press Release (ja)</a></strong></p>
 						</td>
 
 						<td>
@@ -77,6 +79,8 @@
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.8">3.8</a> (7920)</strong> <em>Dec-03-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.8.zip">Download</a></p>
+							<p><strong><a href="3.8/Press_3.8_en.txt">Press Release (en)</a></strong><br />
+							<strong><a href="3.8/Press_3.8_ja.txt">Press Release (ja)</a></strong></p>
 						</td>
 
 						<td>
@@ -226,6 +230,7 @@
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6">3.6</a> (6890)</strong> <em>Sep-06-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.6.zip">Download</a></p>
+							<p><strong><a href="3.6/Press_3.6_en.txt">Press Release (en)</a></strong></p>
 						</td>
 
 						<td>
@@ -321,6 +326,7 @@
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> (6066)</strong> <em>Jun-09-2010</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip">Download</a></p>
+							<p><strong><a href="3.5/Press_3.5_en.txt">Press Release (en)</a></strong></p>
 						</td>
 
 						<td>
