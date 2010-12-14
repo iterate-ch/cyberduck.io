@@ -1,0 +1,50 @@
+﻿プレスリリース
+
+Cyberduck for Windows 4.0パブリックベータをリリース
+
+スイス ベルン州、2010年12月14日
+
+Cyberduck 4.0 for Windowsパブリックベータをリリースしました。ファイルサーバおよびクラウドストレージにアクセスするための最も人気のあるMac用クライアントソフトウェアが、1年におよぶ開発と2ヶ月以上にわたるプライベートベータテストを経て、ついにWindowsプラットフォームに登場します。
+
+ほとんどあらゆるサーバに接続できる多様なプロトコルに対応しており、サポートされるプロトコルには、FTP/TLS（File Transfer Protocol）、SFTP（SSH Secure File Transfer）、WebDAV（Web-based Distributed Authoring and Versioning）、Amazon S3、Google Storage、Google Docs、Windows Azure、Rackspace Cloud Filesがあります。
+
+ブラウザの階層ビューで大量のフォルダ構造も効率よく閲覧し、ドラッグ&ドロップでファイルをダウンロード、アップロード、移動することができます。訪問したサーバの履歴を保存できるほか、Bonjourの統合により、ローカルネットワーク上のFTPやWebDAVサービスを自動で発見します。
+
+あらゆる外部エディタアプリケーションでファイルを編集できる強力な機能により、コンテンツを素早く編集し、ファイルを保存するだけで、バックグラウンドで変更がサーバにアップロードされます。
+
+Google Docsの文書の同期をまとめて管理し、画像をOCR（光学式文字認識）することで、編集できるよう変換してアップロードすることも可能です。
+
+Cyberduckの画期的にシンプルなインターフェースなら、クラウドを利用したコンテンツ配信のための高度な構成オプションを容易かつ直感的に操作できます。Amazon CloudFront CDNのカスタムオリジンに対応しているため、FTPまたはSFTPであらゆるサーバに接続し、Amazon CloudFront CDNを使用して配布するコンテンツをオリジンが取得するよう構成することができます。
+
+ファイルへのアクセスを読み出しおよび書き込み権限により制限し、Amazon S3やGoogle Storageを使用する際には、アクセス制御リスト（ACL）にも対応します。Google Storageに保存されたファイルへのアクセスを特定のメールアドレスに限定することで、大きなファイルであっても、即座に共同作業者に安全に共有できます。
+
+Amazon S3用のその他の高度な設定としては、ストレージの冗長レベル、地理的ロケーション、ファイルバージョニング（復元を含む）、アクセスログ設定、ファイルを削除から保護するためのハードウェアトークンのワンタイムパスコードを使用した多要素認証（MFA）があります。
+
+SFTPはOpenSSHおよびPuTTY鍵形式の公開鍵認証に対応しています。
+
+ソフトウェアは絶えず改良されていますが、ソフトウェアアップデートコンポーネントが統合されているため、常に最新かつ最も優れたバージョンを確実に使用することができます。バージョン4.0以降では、MacとWindowsの両方において同等のリリースを提供していきます。サードパーティーのソフトウェアからCyberduckに移行するユーザは、他の様々なFTPクライアントの接続の詳細を含むブックマークを取り込むことができます。
+
+Cyberduckはあなたの言語で使用できます。英語、チェコ語、オランダ語、フィンランド語、フランス語、ドイツ語、イタリア語、日本語、韓国語、ノルウェー語、スロバキア語、スペイン語、ブラジルポルトガル語、ポルトガル語、簡体中国語、繁体中国語、ロシア語、スウェーデン語、デンマーク語、ポーランド語、ハンガリー語、インドネシア語、カタルーニャ語、ウェールズ語、タイ語、トルコ語、ヘブライ語、ウクライナ語、ラトビア語、ギリシャ語、セルビア語、グルジア語、スロベニア語、ルーマニア語に対応しています。
+
+Windows XP、Windows Vista、またはWindows 7が必要です。
+
+
+--
+連絡先
+David Kocher
+Yves Langisch
+mailto:feedback-ja@cyberduck.ch
+http://cyberduck.ch
+
+Blog
+http://cyberduck.ch/news
+
+Wiki
+http://help.cyberduck.ch
+
+バグトラッキングおよび機能追加の要望
+http://trac.cyberduck.ch
+
+Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Rackspace Could Files、Google Docs、Windows Azure、Amazon S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザの階層ビューで大量のフォルダ構造も効率よく閲覧し、ドラッグ&ドロップでファイルをダウンロード、アップロード、移動できます。ファイル転送や、ローカルディレクトリをリモートディレクトリと同期するのも簡単です。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。コンテンツディストリビューションネットワーク（CDN）を使用してコンテンツを配信するために、Amazon CloudFrontやRackspace Limelightを容易に構成することも可能です。日本語、韓国語、中国語、スペイン後、ドイツ語、フランス語を含む30言語以上にローカライズされたユーザインターフェースで、すぐに使いこなすことができます。
+
+Copyright (c) 2002-2010 David Kocher. Copyright (c) 2010 Yves Langisch. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.

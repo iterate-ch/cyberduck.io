@@ -1,0 +1,50 @@
+FOR IMMEDIATE RELEASE
+
+Cyberduck for Windows 4.0 Public Beta Released
+
+Bern, Dec 13, 2010
+
+We are pleased to announce the availability of Cyberduck 4.0 for Windows Public Beta. The most popular client to access file servers and cloud storage on the Mac makes its debut on the Windows platform after one year of development and more than two month of private beta testing.
+
+A plethora of protocols is supported to connect to just about any server. These are FTP/TLS (File Transfer Protocol), SFTP (SSH Secure File Transfer), WebDAV (Web-based Distributed Authoring and Versioning), Amazon S3, Google Storage, Google Docs, Windows Azure and Rackspace Cloud Files.
+
+The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. A history of visited servers is kept and Bonjour integration enables auto discovery of FTP and WebDAV services on the local network.
+
+Its power feature to edit files with any external editor application makes it easy to edit content quickly, uploading changes to the server upon save in the background.
+
+Manage your Google Docs synchronizing documents en masse, with the option to convert uploads for editing and Optical Character Recognition (OCR) for images.
+
+The ground breaking simplicity of Cyberduck wraps advanced configuration options for content distribution in the cloud into an easily accessible and intuitive user interface. With support for custom origins, you can connect to any server using FTP or SFTP and configure it as the origin to fetch content for distribution using Amazon CloudFront CDN.
+
+Access to files can be restricted with read and write permissions including support for Access Control Lists (ACL) when working with Amazon S3 or Google Storage. One can limit access to files stored in Google Storage selectively to an email address making secure sharing of potentially big files with collaborators a snap.
+
+Other advanced options supported for S3 are storage redundancy levels, geographical location, file versioning (including revert) and access log configuration and multi-factor authentication (MFA) to secure files from deletion using a one-time passcode from a hardware token.
+
+SFTP supports public key authentication with both OpenSSH and PuTTY key formats.
+
+An integrated software update component makes sure you are always using the latest and greatest of the steadily improved software. Features in version 4.0 and onward will be on par for both Mac and Windows. For users migrating to Cyberduck from third-party software, bookmarks with connection details of various other FTP clients are imported.
+
+Cyberduck speaks your language and is available in English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk, Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk, Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά, Cрпски, ქართული ენა, Slovenščina & Română.
+
+Windows XP, Windows Vista or Windows 7 required.
+
+
+--
+Contact
+David Kocher
+Yves Langisch
+mailto:feedback@cyberduck.ch
+http://cyberduck.ch
+
+Blog
+http://cyberduck.ch/news
+
+Wiki
+http://help.cyberduck.ch
+
+Bug Tracking and Feature Requests
+http://trac.cyberduck.ch
+
+Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure & Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (CDN). Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home.
+
+Copyright (c) 2002-2010 David Kocher. Copyright (c) 2010 Yves Langisch. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
