@@ -79,9 +79,11 @@
 					<p class="lead"><strong>Cyberduckは <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">フリーソフトウェア</a> ですが、開発、サポート、配布にコストがかかっています。</strong> Cyberduckに寄付をしていただくと、寄付を求める表示を停止するキーを受け取ることができます。</p><br />
 
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_s-xclick" />
-						<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-						<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" />
+						<fieldset>
+							<input type="hidden" name="cmd" value="_s-xclick" />
+							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
+							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" />
+						</fieldset>
 					</form>
 					<script type="text/javascript">
 							//<![CDATA[
