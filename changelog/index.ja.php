@@ -41,7 +41,7 @@
 
 						<td>
 							<ul>
-							    <li>[Feature] Version for Microsoft Windows XP, Windows Vista & Windows 7.</li>
+							    <li>[Feature] Version for Microsoft Windows XP, Windows Vista &amp; Windows 7.</li>
 							    <li>[Feature] Connecting to Windows Azure Blob Storage (Azure) (<a
 							            href="http://trac.cyberduck.ch/ticket/3938">#3938</a>)
 							    </li>
@@ -258,17 +258,17 @@
 						        <li>[Feature] Unsecure connection warning when password is transmitted in plaintext</li>
 						        <li>[Feature] Alert to change connection to TLS if server supports AUTH TLS (FTP)</li>
 						        <li>[Feature] Edit metadata for multiple files (S3, Google Storage)</li>
-						        <li>[Feature] Menu items to copy HTTP, CDN, signed & authenticated URLs to clipboard (<a
-						                href="http://trac.cyberduck.ch/ticket/4207">#4207)</a>)
-						        <li>[Feature] Menu items to open HTTP, CDN, signed & authenticated URLs in Web Browser
+						        <li>[Feature] Menu items to copy HTTP, CDN, signed &amp; authenticated URLs to clipboard (<a
+						                href="http://trac.cyberduck.ch/ticket/4207">#4207)</a>)</li>
+						        <li>[Feature] Menu items to open HTTP, CDN, signed &amp; authenticated URLs in Web Browser
 						        <li>[Feature] Move and rename files and folders (Google Docs)</li>
 						        <li>[Feature] Update size display incrementally while calculating recursively (<a
-						                href="http://trac.cyberduck.ch/ticket/3213">#3213)</a>)
+						                href="http://trac.cyberduck.ch/ticket/3213">#3213)</a>)</li>
 						        <li>[Feature] Hidden preference to change SSH options for 'Open in Terminal.app' (<a
-						                href="http://trac.cyberduck.ch/ticket/4232">#4232)</a>)
-						        <li>[Feature] Batch editing of S3 metadata (Google Storage, S3) (<a href="http://trac.cyberduck.ch/ticket/5105">#5105)</a>)
-						        <li>[Feature] Show number of active transfers in Dock (<a href="http://trac.cyberduck.ch/ticket/3808">#3808)</a>)
-						        <li>[Feature] Copy directory listing to clipboard (<a href="http://trac.cyberduck.ch/ticket/2372">#2372)</a>)
+						                href="http://trac.cyberduck.ch/ticket/4232">#4232)</a>)</li>
+						        <li>[Feature] Batch editing of S3 metadata (Google Storage, S3) (<a href="http://trac.cyberduck.ch/ticket/5105">#5105)</a>)</li>
+						        <li>[Feature] Show number of active transfers in Dock (<a href="http://trac.cyberduck.ch/ticket/3808">#3808)</a>)</li>
+						        <li>[Feature] Copy directory listing to clipboard (<a href="http://trac.cyberduck.ch/ticket/2372">#2372)</a>)</li>
 						        <li>[Bugfix] Improved interoperability with Eucalyptus Walrus (S3)</li>
 						        <li>[Bugfix] Improved interoperability with Dunkel Cloud Storage (S3)</li>
 						        <li>[Bugfix] Trust validation failure with self signed certificates for HTTP redirects (WebDAV) (
