@@ -428,10 +428,10 @@
 						        <li>[Bugfix] Bookmark menu [<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>]</li>
 						        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
 						        <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) [<a
-						                href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]
+						                href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]</li>
 						        <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
-						                href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)
-						        <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)
+						                href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)</li>
+						        <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)</li>
 						        <li>[Bugfix] Bonjour bookmarks ignore TXT record with path and credentials attributes (<a
 						                href="http://trac.cyberduck.ch/ticket/3901">#3984</a>)
 						        </li>
