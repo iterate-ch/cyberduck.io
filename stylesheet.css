@@ -26,6 +26,12 @@ background-color: #ffffff;
 border: none;
 }
 
+fieldset {
+	border: 0;
+	padding: 0
+	margin: 0;
+}
+
 table {
 	margin: 0;
 	border: none;
