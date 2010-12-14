@@ -328,7 +328,6 @@
 				</form>
 			</div>
 		</div>
-		<?php echo(echoanalytics(".")); ?>
 	</div>
 </body>
 </html>

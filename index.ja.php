@@ -333,7 +333,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 				</form>
 			</div>
 		</div>
-		<?php echo(echoanalytics(".")); ?>
 	</div>
 </body>
 </html>

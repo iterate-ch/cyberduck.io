@@ -108,6 +108,6 @@
 				<div class="box-shadow-end"></div>
 			</div>
 		</div>
-	</div><?php echo(echoanalytics("..")); ?>
+	</div>
 </body>
 </html>
