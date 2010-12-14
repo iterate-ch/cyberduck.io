@@ -260,7 +260,7 @@
 						        <li>[Feature] Edit metadata for multiple files (S3, Google Storage)</li>
 						        <li>[Feature] Menu items to copy HTTP, CDN, signed &amp; authenticated URLs to clipboard (<a
 						                href="http://trac.cyberduck.ch/ticket/4207">#4207)</a>)</li>
-						        <li>[Feature] Menu items to open HTTP, CDN, signed &amp; authenticated URLs in Web Browser
+						        <li>[Feature] Menu items to open HTTP, CDN, signed &amp; authenticated URLs in Web Browser</li>
 						        <li>[Feature] Move and rename files and folders (Google Docs)</li>
 						        <li>[Feature] Update size display incrementally while calculating recursively (<a
 						                href="http://trac.cyberduck.ch/ticket/3213">#3213)</a>)</li>
