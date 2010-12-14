@@ -245,7 +245,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://jna.dev.java.net/">JNA</a>), 
 					<strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
 					<strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
-					<strong>enterprisedt</strong> (<a class="ext" href="http://www.enterprisedt.com">edtFTPj</a>), 
 					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://commons.apache.org">Apache Commons</a>), 
 					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://jakarta.apache.org/slide/">Jakarta Slide</a>), 
 					<strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), 
@@ -283,7 +282,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<a href="Cyberduck-3.8.1.zip">Cyberduck-3.8.1.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
-						<img alt="Mac" src="http://media.cyberduck.ch/img/mac32.png" />
+						<img alt="" src="http://media.cyberduck.ch/img/mac32.png" />
 					</div>
 
 					<div id="windows" class="download">
@@ -294,7 +293,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
-						<img alt="Windows" src="http://media.cyberduck.ch/img/windows32.png" />
+						<img alt="" src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<fieldset>
