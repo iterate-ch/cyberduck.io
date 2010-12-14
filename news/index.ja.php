@@ -19,6 +19,44 @@
 		define('MAGPIE_CACHE_ON', true);
 	?>
 
+	<style type="text/css"  media="all">
+	/* begin styles for RSS Feed */
+		#content #feed {
+			padding-bottom: 10px;
+			border-right: 1px solid #E5E5DB;
+			width: 700px;
+			float: right;
+		}
+		#content #feed small {
+			padding-left: 10px;
+		}
+		#content #feed h2 {
+			background-color: #E5E5DB;
+			padding: 2px;
+			padding-left: 10px;
+			margin-bottom: 0;
+			padding-top:10px;
+			padding-bottom:5px;
+		}
+		#content #feed .entry {
+			background-color: white;
+			border-bottom: 1px solid white;
+		}
+		#content #feed .entry li {
+			margin: 7px 0px 8px 10px;
+			display:list-item;
+		}
+		#content #feed .entry p, .entry ul {
+			padding-left:10px;
+		}
+		.entry ul {
+		       list-style: none;
+		text-indent: -12px;
+		}
+		.entry ul li:before {
+		       content: "\00BB \0020";
+		}
+	</style>
 	<title>ニュース</title>
 </head>
 
@@ -36,52 +74,6 @@
 				<li><a id="navigation-donate" href="../donate">寄付</a></li>
 			</ul>
 		</div>
-		<style type="text/css"  media="all">
-		/* begin styles for RSS Feed */
-			#content #feed {
-				padding-bottom: 10px;
-				border-right: 1px solid #E5E5DB;
-				width: 700px;
-				float: right;
-			}
-			
-			#content #feed small {
-				padding-left: 10px;
-			}
-
-			#content #feed h2 {
-				background-color: #E5E5DB;
-				padding: 2px;
-				padding-left: 10px;
-				margin-bottom: 0;
-				padding-top:10px;
-				padding-bottom:5px;
-			}
-			
-			#content #feed .entry {
-				background-color: white;
-				border-bottom: 1px solid white;
-			}
-
-			#content #feed .entry li {
-				margin: 7px 0px 8px 10px;
-				display:list-item;
-			}
-
-			#content #feed .entry p, .entry ul {
-				padding-left:10px;
-			}
-
-.entry ul {
-        list-style: none;
-	text-indent: -12px;
-}
-
-.entry ul li:before {
-        content: "\00BB \0020";
-}
-
-		</style>
 	</div>
 
 	<div id="container">
