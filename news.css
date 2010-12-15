@@ -4,13 +4,9 @@
 	width: 700px;
 	float: right;
 }
-#content #feed small {
-	padding-left: 10px;
-}
 #content #feed h2 {
 	/*background-color: #E5E5DB;*/
 	padding: 2px;
-	padding-left: 10px;
 	margin-bottom: 0;
 	padding-top:10px;
 	padding-bottom:5px;
