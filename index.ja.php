@@ -71,7 +71,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img alt="" src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">クラウドでコンテンツを配布。</h2>
-						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDN配信のオリジンとして構成できます。</p>
+						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDNディストリビューションのオリジンとして構成できます。</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
