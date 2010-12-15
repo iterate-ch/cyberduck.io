@@ -20,9 +20,6 @@
 	margin: 7px 0px 8px 10px;
 	display:list-item;
 }
-#content #feed .entry p, .entry ul {
-	padding-left:10px;
-}
 .entry ul {
        list-style: none;
 text-indent: -12px;
