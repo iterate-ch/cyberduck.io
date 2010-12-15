@@ -152,6 +152,12 @@ padding-right: 15px;
 text-align:right;
 }
 
+	#teaser form {
+float: left;
+width: 100%;
+padding-top: 10px;
+}
+
 	.box-shadow-start {
 background: transparent url(http://media.cyberduck.ch/img/teaserbgstart.png) no-repeat scroll 0 100%;
 margin-left: -45px;
@@ -169,6 +175,7 @@ height: 83px;
 background: transparent url(http://media.cyberduck.ch/img/teaserbg.png) repeat-y scroll 0 0;
 margin-left: -45px;
 padding-left: 45px;
+overflow: auto;
 }
 	
 	input#paypal {
@@ -432,6 +439,7 @@ float: left;
 	
    .google {
 border-top: 10px solid white;
+border-left: 10px solid white;
 height: 100px;
 background-color: white;
 }

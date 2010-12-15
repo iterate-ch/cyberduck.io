@@ -1,7 +1,7 @@
 <?php
     function echoheader($dir) {
         return "
-			<link rel='Stylesheet' type='text/css' href='".$dir."/stylesheet.css' />
+			<link rel='Stylesheet' type='text/css' href='http://media.cyberduck.ch/stylesheet.css' />
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
 			<link rel='shortcut icon' href='http://media.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
 

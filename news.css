@@ -27,3 +27,10 @@ text-indent: -12px;
 .entry ul li:before {
        content: "\00BB \0020";
 }
+ins {
+	text-decoration: none;
+}
+#maincolumn p {
+	margin-top: 13px;
+	margin-botom: 13px; 
+}
