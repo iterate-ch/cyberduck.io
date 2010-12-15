@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader("..")); ?>
-	<link rel="Stylesheet" type="text/css" href="news.css" />
+	<link rel="Stylesheet" type="text/css" href="http://media.cyberduck.ch/news.css" />
 	<?php
 		define('MAGPIE_DIR',  './magpierss-0.72/');
 		// access magpie libraries
