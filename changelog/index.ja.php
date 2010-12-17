@@ -1533,7 +1533,7 @@
 						<td width="150" valign="top">
 							<p><strong>2.4.6</strong> <em>May-30-2005</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg">Download</a><br />
-							Mac OS X 10.3 or later</p>
+							<span class="version">Mac OS X 10.3 or later required.</span></p>
 						</td>
 
 						<td>
@@ -1888,7 +1888,7 @@
 						<td width="150" valign="top">
 							<p><strong>2.3.3</strong> <em>Aug-09-2004</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-2.3.3.dmg">Download</a><br />
-							Mac OS X 10.2 or later</p>
+							<span class="version">Mac OS X 10.2 or later required.</span></p>
 						</td>
 
 						<td>
