@@ -10,7 +10,7 @@
 	<?php echo(echoheader(".")); ?>
 	<title><?php echo(echotitle("FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac &amp; Windows.")); ?></title>
 	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure &amp; Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Rackspace Limelight can be easily configured to distribute your files using their content distribution networks (CDN). Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home." />
-	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, limelight, google storage, google docs, browser, mac, os x, windows" />
+	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, limelight, google storage, google docs, browser, mac, os x, windows, program, application" />
 </head>
 
 <body id="index">
