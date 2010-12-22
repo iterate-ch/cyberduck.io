@@ -27,18 +27,20 @@
     }
 
 	  function echogoogle() {
-		return "<div class='google'>
-			<script type='text/javascript'>
-				<!--
-				google_ad_client = 'pub-9176652804694766';
-				google_ad_width = 728;
-				google_ad_height = 90;
-				google_ad_slot = '8890551797';
-				google_ad_type = 'text';
-				//-->
-			</script>
-				<script type='text/javascript' src='http://pagead2.googlesyndication.com/pagead/show_ads.js'>
-			</script></div>";
+		return "
+			<div class='google'>
+				<script type='text/javascript'>
+					<!--
+					google_ad_client = 'ca-pub-9176652804694766';
+					google_ad_slot = '8890551797';
+					google_ad_width = 728;
+					google_ad_height = 90;
+					//-->
+				</script>
+				<script type='text/javascript'
+					src='http://pagead2.googlesyndication.com/pagead/show_ads.js'>
+				</script>
+			</div>";
 		}
 
     function echoamazon() {
