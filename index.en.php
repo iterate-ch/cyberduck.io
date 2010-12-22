@@ -282,7 +282,7 @@
 						<div>
 							<strong>Version 4.0 Public Beta</strong><br />
 							<em>Dec-13-2010</em><br />
-							<a href="windows/beta/Cyberduck-Installer-4.0b8.8071.exe" onClick="javascript: pageTracker._trackPageview('/Cyberduck-Installer-4.0b8.8071.exe');">Cyberduck-Installer-4.0b8.exe</a><br />
+							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript: pageTracker._trackPageview('/Cyberduck-Installer-4.0b8.8071.exe');">Cyberduck-Installer-4.0b8.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
