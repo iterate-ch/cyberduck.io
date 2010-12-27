@@ -279,7 +279,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<strong>ダウンロード</strong><br />
 							<strong>バージョン3.8.1</strong><br />
 							<em>2010年12月6日</em><br />
-							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackPageview', ('/Cyberduck-3.8.1.zip')]);">Cyberduck-3.8.1.zip</a><br />
+							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
 						<img alt="" src="http://media.cyberduck.ch/img/mac32.png" />
@@ -289,7 +289,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<div>
 							<strong>バージョン4.0パブリックベータ</strong><br />
 							<em>2010年12月13日</em><br />
-							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript:_gaq.push(['_trackPageview', ('/Cyberduck-Installer-4.0b8.8124.exe')]);">Cyberduck-Installer-4.0b8.exe</a><br />
+							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-Installer-4.0b8.8124.exe']);">Cyberduck-Installer-4.0b8.exe</a><br />
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
