@@ -272,7 +272,7 @@
 						<div>
 							<strong>Version 3.8.1</strong><br />
 							<em>Dec-06-2010</em><br />
-							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
+							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
 						<img alt="" src="http://media.cyberduck.ch/img/mac32.png" />
@@ -282,7 +282,7 @@
 						<div>
 							<strong>Version 4.0 Public Beta</strong><br />
 							<em>Dec-13-2010</em><br />
-							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-Installer-4.0b8.8124.exe']);">Cyberduck-Installer-4.0b8.exe</a><br />
+							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b8.8124.exe']);">Cyberduck-Installer-4.0b8.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>

@@ -35,7 +35,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0 (Public Beta)</a> (8071)</strong> <em>Dec-13-2010</em><br />
-							<a href="http://update.cyberduck.ch/windows/beta/Cyberduck-Installer-4.0b8.8071.exe" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-Installer-4.0b8.8071.exe']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/windows/beta/Cyberduck-Installer-4.0b8.8071.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b8.8071.exe']);">Download</a><br />
 							<span class="version">Windows XP, Windows Vista or Windows 7 required.</span></p>
 							<p><strong><a href="4.0/Press_4.0b8_en.txt">Press Release (en)</a></strong><br />
 							<strong><a href="4.0/Press_4.0b8_ja.txt">Press Release (ja)</a></strong></p>
@@ -54,7 +54,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.8.1">3.8.1</a> (7954)</strong> <em>Dec-06-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.8.1.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -78,7 +78,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.8">3.8</a> (7920)</strong> <em>Dec-03-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.8.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.8.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.8.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.zip']);">Download</a></p>
 							<p><strong><a href="3.8/Press_3.8_en.txt">Press Release (en)</a></strong><br />
 							<strong><a href="3.8/Press_3.8_ja.txt">Press Release (ja)</a></strong></p>
 						</td>
@@ -150,7 +150,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7">3.7</a> (7380)</strong> <em>Oct-21-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.7.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.7.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -165,7 +165,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.7">3.7</a> (7367)</strong> <em>Oct-20-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.7.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.7.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.7.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -213,7 +213,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6.1">3.6.1</a> (6900)</strong> <em>Sep-07-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.6.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.6.1.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.6.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.6.1.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -229,7 +229,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.6">3.6</a> (6890)</strong> <em>Sep-06-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.6.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.6.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.6.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.6.zip']);">Download</a></p>
 							<p><strong><a href="3.6/Press_3.6_en.txt">Press Release (en)</a></strong></p>
 						</td>
 
@@ -308,7 +308,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5.1">3.5.1</a> (6115)</strong> <em>Jun-15-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.5.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.5.1.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.5.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.5.1.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -325,7 +325,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.5">3.5</a> (6066)</strong> <em>Jun-09-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.5.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.5.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.5.zip']);">Download</a></p>
 							<p><strong><a href="3.5/Press_3.5_en.txt">Press Release (en)</a></strong></p>
 						</td>
 
@@ -360,7 +360,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.2">3.4.2</a> (5902)</strong> <em>Apr-10-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.4.2.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.4.2.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.4.2.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -386,7 +386,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4.1">3.4.1</a> (5780)</strong> <em>Jan-17-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.4.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.4.1.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.4.1.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -403,7 +403,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.4">3.4</a> (5755)</strong> <em>Jan-16-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.4.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.4.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.4.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.4.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -425,7 +425,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3.1">3.3.1 (5676)</a></strong> <em>Jan-05-2010</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.3.1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.3.1.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.3.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.3.1.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -457,7 +457,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.3">3.3</a> (5552)</strong> <em>Nov-13-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.3.zip" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.3.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.3.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.3.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -478,7 +478,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.3b4 (5455)</strong> <em>Oct-09-2009</em><br />
-							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip" onClick="javascript:_gaq.push(['_trackPageview', '/beta/Cyberduck-3.3b4.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b4.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/beta/Cyberduck-3.3b4.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -499,7 +499,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.3b3 (5321)</strong> <em>Sep-21-2009</em><br />
-							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip" onClick="javascript:_gaq.push(['_trackPageview', '/beta/Cyberduck-3.3b3.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b3.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/beta/Cyberduck-3.3b3.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -516,7 +516,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.3b2 (5220)</strong> <em>Sep-05-2009</em><br />
-							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip" onClick="javascript:_gaq.push(['_trackPageview', '/beta/Cyberduck-3.3b2.zip']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/beta/Cyberduck-3.3b2.zip']);">Download</a></p>
 						</td>
 
 						<td>
@@ -531,7 +531,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.3b1 (5185)</strong> <em>Aug-28-2009</em><br />
-							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b1.zip" onClick="javascript:_gaq.push(['_trackPageview', '/beta/Cyberduck-3.3b1.zip']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/beta/Cyberduck-3.3b1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/beta/Cyberduck-3.3b1.zip']);">Download</a><br />
 							<br />
 							<span class="version">Mac OS X 10.5 or later required.</span></p>
 						</td>
@@ -552,7 +552,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.2.1">3.2.1</a> (4923)</strong> <em>Jul-14-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.2.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.2.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.2.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -587,7 +587,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.2">3.2</a> (4648)</strong> <em>Apr-26-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -634,7 +634,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.1.2">3.1.2</a> (4500)</strong> <em>Feb-01-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.1.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.1.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.1.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -663,7 +663,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.1.1">3.1.1</a> (4457)</strong> <em>Jan-10-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.1.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.1.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.1.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -678,7 +678,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.1">3.1</a> (4448)</strong> <em>Jan-08-2009</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -725,7 +725,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.0.3">3.0.3</a></strong> <em>Oct-20-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -742,7 +742,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/3.0.2">3.0.2</a></strong> <em>Aug-10-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -789,7 +789,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.0.1</strong> <em>May-18-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -814,7 +814,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.0</strong> <em>May-14-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -831,7 +831,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.0b3</strong> <em>May-04-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0b3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0b3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0b3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0b3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -844,7 +844,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.0b2</strong> <em>Apr-19-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0b2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0b2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0b2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0b2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -863,7 +863,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>3.0b1</strong> <em>Apr-07-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-3.0b1.dmg']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-3.0b1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-3.0b1.dmg']);">Download</a><br />
 							<br />
 							<span class="version">Mac OS X 10.4 or later required.</span></p>
 						</td>
@@ -892,7 +892,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8.5</strong> <em>Apr-07-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.5.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.5.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -909,7 +909,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8.4</strong> <em>Jan-25-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -930,7 +930,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8.3</strong> <em>Jan-14-2008</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -962,7 +962,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8.2</strong> <em>Dec-11-2007</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -994,7 +994,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8.1</strong> <em>Nov-18-2007</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1015,7 +1015,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.8</strong> <em>Sept-10-2007</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.8.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.8.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.8.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.8.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1064,7 +1064,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.7.3</strong> <em>Feb-12-2007</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.7.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.7.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.7.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1098,7 +1098,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.7.2</strong> <em>Jan-15-2007</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.7.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.7.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.7.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.7.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1139,7 +1139,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.7.1</strong> <em>Nov-29-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.7.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.7.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.7.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.7.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1162,7 +1162,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.7</strong> <em>Nov-25-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.7.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.7.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.7.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.7.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1205,7 +1205,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.6.2</strong> <em>Sep-07-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.6.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.6.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.6.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1228,7 +1228,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.6.1</strong> <em>Aug-11-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.6.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.6.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.6.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1255,7 +1255,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.6</strong> <em>Jun-07-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.6.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.6.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.6.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.6.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1309,7 +1309,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5.5</strong> <em>Mar-01-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.5.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.5.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1337,7 +1337,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5.4</strong> <em>Jan-20-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1355,7 +1355,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5.3</strong> <em>Jan-03-2006</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1380,7 +1380,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5.2</strong> <em>Nov-18-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1395,7 +1395,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5.1</strong> <em>Nov-14-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1428,7 +1428,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5</strong> <em>Aug-29-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5.dmg']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5.dmg']);">Download</a><br />
 							<br />
 							<span class="version">Mac OS X 10.3.9 or later required.</span></p>
 						</td>
@@ -1451,7 +1451,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5b4</strong> <em>Aug-10-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5b4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5b4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5b4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5b4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1472,7 +1472,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5b3</strong> <em>Jul-18-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5b3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5b3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5b3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5b3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1509,7 +1509,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5b2</strong> <em>May-30-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5b2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5b2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5b2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5b2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1532,7 +1532,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4.6</strong> <em>May-30-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4.6.dmg']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4.6.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4.6.dmg']);">Download</a><br />
 							<span class="version">Mac OS X 10.3 or later required.</span></p>
 						</td>
 
@@ -1558,7 +1558,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.5b1</strong> <em>May-04-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.5b1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.5b1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.5b1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.5b1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1612,7 +1612,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4.5</strong> <em>May-04-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4.5.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4.5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4.5.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1629,7 +1629,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4.4</strong> <em>Apr-27-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4.4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4.4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4.4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4.4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1652,7 +1652,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4.3</strong> <em>Apr-11-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1677,7 +1677,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4</strong> <em>Mar-28-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1710,7 +1710,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4b4</strong> <em>February-03-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4b4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4b4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4b4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4b4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1737,7 +1737,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4b3</strong> <em>Jan-29-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4b3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4b3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4b3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4b3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1776,7 +1776,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4b2</strong> <em>Jan-06-2005</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4b2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4b2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4b2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4b2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1810,7 +1810,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.4b1</strong> <em>Dec-28-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.4b1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.4b1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.4b1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.4b1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1887,7 +1887,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3.3</strong> <em>Aug-09-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3.3.dmg']);">Download</a><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3.3.dmg']);">Download</a><br />
 							<span class="version">Mac OS X 10.2 or later required.</span></p>
 						</td>
 
@@ -1901,7 +1901,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3.2</strong> <em>Aug-05-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1934,7 +1934,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3.1</strong> <em>June-15-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1961,7 +1961,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3</strong> <em>May-15-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -1980,7 +1980,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3b2</strong> <em>Apr-27-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3beta2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3beta2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2035,7 +2035,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.3b1</strong> <em>Mar-09-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.3beta1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.3beta1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.3beta1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2048,7 +2048,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2</strong> <em>Mar-06-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2067,7 +2067,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2b6</strong> <em>Feb-25-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta6.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2beta6.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta6.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2beta6.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2092,7 +2092,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2b5</strong> <em>Feb-12-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2beta5.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2beta5.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2127,7 +2127,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2b4</strong> <em>Jan-31-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2beta4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2beta4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2146,7 +2146,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2b3</strong> <em>Jan-25-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2beta3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2beta3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2165,7 +2165,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.2b2</strong> <em>Jan-24-2004</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.2beta2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.2beta2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.2beta2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2228,7 +2228,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.1</strong> <em>Dec-08-2003</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.1.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.1.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.1.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2267,7 +2267,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.1b5</strong> <em>Aug-29-2003</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta5.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.1beta5.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta5.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta5.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2293,7 +2293,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.1b4</strong> <em>Aug-22-2003</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta4.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.1beta4.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta4.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta4.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2308,7 +2308,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.1b3</strong> <em>Aug-17-2003</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta3.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.1beta3.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta3.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta3.dmg']);">Download</a></p>
 						</td>
 
 						<td>
@@ -2341,7 +2341,7 @@
 					<tr>
 						<td width="150" valign="top">
 							<p><strong>2.1b2</strong> <em>Aug-15-2003</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta2.dmg" onClick="javascript:_gaq.push(['_trackPageview', '/Cyberduck-2.1beta2.dmg']);">Download</a></p>
+							<a href="http://update.cyberduck.ch/Cyberduck-2.1beta2.dmg" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta2.dmg']);">Download</a></p>
 						</td>
 
 						<td>
