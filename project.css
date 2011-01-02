@@ -279,3 +279,15 @@ a#edit {
         background-color: #F7F7F7;
 
 }
+
+.google ins {
+#	height: 0 !important;
+}
+
+div.login {
+	border: none;
+}
+
+div.login h1 {
+	text-align: left;
+}
