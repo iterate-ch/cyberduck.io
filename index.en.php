@@ -270,7 +270,7 @@
 				<div class="box-shadow">
 					<div id="mac" class="download">
 						<div>
-							<strong>Version 3.8.1</strong><br />
+							<strong>Download<br />Version 3.8.1</strong><br />
 							<em>Dec-06-2010</em><br />
 							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
