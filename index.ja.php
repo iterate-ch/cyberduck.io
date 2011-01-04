@@ -318,6 +318,19 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 
 				<div class="box-shadow-end"></div>
 			</div>
+			
+			<div style="margin:0 15px 0 15px">
+				<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-9176652804694766";
+				google_ad_slot = "4963721868";
+				google_ad_width = 250;
+				google_ad_height = 250;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
 		</div>
 	</div>
 </body>
