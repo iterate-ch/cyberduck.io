@@ -61,6 +61,10 @@
 					<p class="lead"><strong>Blog.</strong> About noteworthy upcoming features and the current development status.</p>
 						<p><img src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
 						<p><img src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
+						<p>You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get emails about the latest updates.</p>
+						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+							<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+						</form>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>
