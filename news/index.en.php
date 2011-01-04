@@ -70,6 +70,14 @@
 					<p>Subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get emails about the latest updates.</p>
 					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
 						<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+						<br />
+					</form>
+					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">Cyberduck-users</a> group to discuss features and issues you are having.
+						<img src="http://media.cyberduck.ch/img/groups.png"
+					         height=30 width=140 alt="Google Groups">
+						</p>
+					<form method="post" action="http://groups.google.com/group/cyberduck/boxsubscribe">
+						<p><input type="text" name="email" value="" /> <input type="submit" name="sub" value="Subscribe" /></p>
 					</form>
 				</div>
 				<div class="box-shadow-end"></div>
