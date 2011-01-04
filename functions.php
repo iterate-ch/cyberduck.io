@@ -28,7 +28,7 @@
 
 	  function echogoogle() {
 		return "
-			<div class='google'>
+			<div class='google-banner'>
 				<script type='text/javascript'>
 					<!--
 					google_ad_client = 'ca-pub-9176652804694766';
