@@ -59,12 +59,18 @@
 				<div class="box-shadow-start"></div>
 				<div class="box-shadow">
 					<p class="lead"><strong>Blog.</strong> About noteworthy upcoming features and the current development status.</p>
-						<p><img src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
-						<p><img src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
-						<p>You can subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get emails about the latest updates.</p>
-						<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
-							<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
-						</form>
+					<br />
+					<p>This software is written by <a href="http://sudo.ch/">David V. Kocher</a> and Yves Langisch. We appreciate any <a href=
+					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">feedback</a> you might have. For bug reports and feature suggestions you should issue a <a href=
+					"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a href="http://trac.cyberduck.ch">issue tracker</a>.</p>
+					<br />
+					<p><img src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
+					<p><img src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
+					<br />
+					<p>Subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list to get emails about the latest updates.</p>
+					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+						<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
+					</form>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>

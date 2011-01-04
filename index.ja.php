@@ -318,19 +318,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 
 				<div class="box-shadow-end"></div>
 			</div>
-
-			<div class="box-solid">
-				<p class="lead"><strong>ニュースとフィードバック</strong> このソフトウェアは <a class="ext" href="http://sudo.ch/">David V. Kocher</a>が開発しました。<a class="ext" href=
-				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">ご意見</a> をお待ちしています。バグレポートおよび機能追加の提案をするには、<a class="ext" href=
-				"http://trac.cyberduck.ch/newticket">イシュートラッカー</a> で <a class="ext" href="http://trac.cyberduck.ch">新規チケット</a>を作成してください。</p>
-
-				<p><img class="feature" src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /><strong>ブログ</strong> <a class="ext" href="news">開発ブログ</a> を <a class="ext" href="http://cyberduck.ch/changelog.rss">購読</a>。</p>
-				<p><img class="feature" src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <strong>Twitter</strong> <a class="ext" href="http://twitter.com/davidkocher">@davidkocherをフォロー</a>。</p>
-				<p><strong>メーリングリスト</strong> <a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a> メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
-				<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
-					<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="登録" /></p>
-				</form>
-			</div>
 		</div>
 	</div>
 </body>
