@@ -75,12 +75,12 @@
 					<p><img src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
 					<p><img src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">@davidkocherをフォロー</a>。</p>
 					<br />
-					<p><a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">Cyberduck-news</a>  メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
-					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberduck-news">
+					<p><a href="http://lists.cyberduck.ch/mailman/listinfo/news">news</a>  メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
+					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/news">
 						<p><input id="mailinglist" type="text" name="email" value="" /> <input type="submit" name="email-button" value="Subscribe" /></p>
 						<br />
 					</form>
-					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">Cyberduck-users</a> group to discuss features and issues you are having.
+					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a> group to discuss features and issues you are having.
 						<img src="http://media.cyberduck.ch/img/groups.png" height="30" width="140" alt="Google Groups" />
 					</p>
 					<form method="post" action="http://groups.google.com/group/cyberduck/boxsubscribe">
