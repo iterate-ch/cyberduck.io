@@ -309,7 +309,7 @@
 					//]]>
 					</script>
 
-					<div style="margin:0 15px 0 15px">
+					<div class="google-box">
 						<script type="text/javascript"><!--
 						google_ad_client = "ca-pub-9176652804694766";
 						google_ad_slot = "4963721868";
