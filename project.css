@@ -267,7 +267,7 @@ display: none;
 	background-color: #F7F7F7;
 }
 
-#edit, form {
+#edit, #content form {
 	background-color: #F7F7F7;
 }
 
@@ -286,8 +286,11 @@ a#edit {
 
 div.login {
 	border: none;
+	margin: 0;
 }
 
 div.login h1 {
 	text-align: left;
+	margin-top: 0.15em;
+	width: auto;
 }
