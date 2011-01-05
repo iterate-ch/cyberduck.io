@@ -2362,7 +2362,7 @@
 				<div class="box-shadow-start"></div>
 
 				<div class="box-shadow">
-					<p class="lead"><strong>リリースノートと過去のリリース</strong> 最新のバグフィックスと改良を取り入れた、<a href="http://update.cyberduck.ch/nightly/">ナイトリースナップショットビルドもあります</a>。</p>
+					<p class="lead"><strong>リリースノートと過去のリリース</strong> 最新のバグフィックスと改良を取り入れた、<a href="http://trac.cyberduck.ch/wiki/help/en/faq#NightlyandBetabuilds">ナイトリースナップショットビルドもあります</a>。</p>
 				</div>
 
 				<div class="box-shadow-end"></div>
