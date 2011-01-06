@@ -22,7 +22,7 @@
 				<p class="lead"><strong>Donation Key Registry.</strong> Add donation key manually for a given email address.</p>
 
 				<form id="add" method="get" action="add" name="add">
-					<label for="email">Email address:</label> <input type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
+					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
 				</form><script charset="utf-8" type="text/javascript">
 //<![CDATA[
 						$(document).ready(function() {

@@ -437,7 +437,7 @@ padding-right: 6px;
 float: left;
 }
 	
-   .google-banner {
+   	.google-banner {
 border-top: 10px solid white;
 border-left: 10px solid white;
 background-color: white;
@@ -445,8 +445,9 @@ background-color: white;
 
 	.google-box {
 margin:40px 15px 0 15px;
-position: absolute;
-bottom: 0;
+float: left;
+#position: absolute;
+#bottom: 0;
 }
 	
 	p.align-right {
