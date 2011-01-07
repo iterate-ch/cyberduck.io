@@ -317,6 +317,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 				</div>
 
 				<div class="google-box">
+					<small>Advertisement</small>
 					<script type="text/javascript"><!--
 					google_ad_client = "ca-pub-9176652804694766";
 					google_ad_slot = "4963721868";
