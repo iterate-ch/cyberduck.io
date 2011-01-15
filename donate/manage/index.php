@@ -21,21 +21,38 @@
 			<div id="content">
 				<p class="lead"><strong>Donation Key Registry.</strong> Add donation key manually for a given email address.</p>
 
+				<h2>Add</h2>
 				<form id="add" method="get" action="add" name="add">
 					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
 				</form><script charset="utf-8" type="text/javascript">
 //<![CDATA[
 						$(document).ready(function() {
 							var options = {
-								target: '#result',
+								target: '#result-add',
 								clearForm: true
 							}
 							$("form#add").ajaxForm(options);
 						 });
 				//]]>
 				</script>
+				<p><strong id="result-add"></strong></p>
 
-				<p><strong id="result"></strong></p>
+				<h2>Find</h2>
+				<form id="find" method="get" action="find" name="find">
+					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
+				</form><script charset="utf-8" type="text/javascript">
+//<![CDATA[
+						$(document).ready(function() {
+							var options = {
+								target: '#result-find',
+								clearForm: true
+							}
+							$("form#find").ajaxForm(options);
+						 });
+				//]]>
+				</script>
+
+				<p><strong id="result-find"></strong></p>
 			</div>
 
 			<div id="footer">
