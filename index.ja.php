@@ -315,7 +315,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					//]]>
 					</script>
 				</div>
-
+				<div class="box-shadow-end"></div>
 				<div class="google-box">
 					<small>Advertisement</small>
 					<script type="text/javascript"><!--
@@ -329,8 +329,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 					</script>
 				</div>
-
-				<div class="box-shadow-end"></div>
 			</div>
 		</div>
 	</div>
