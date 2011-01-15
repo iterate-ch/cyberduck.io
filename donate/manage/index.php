@@ -21,7 +21,6 @@
 			<div id="content">
 				<p class="lead"><strong>Donation Key Registry.</strong> Add donation key manually for a given email address.</p>
 
-				<h2>Add</h2>
 				<form id="add" method="get" action="add" name="add">
 					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
 				</form><script charset="utf-8" type="text/javascript">
@@ -37,9 +36,8 @@
 				</script>
 				<p><strong id="result-add"></strong></p>
 
-				<h2>Find</h2>
 				<form id="find" method="get" action="find" name="find">
-					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
+					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Find" />
 				</form><script charset="utf-8" type="text/javascript">
 //<![CDATA[
 						$(document).ready(function() {
@@ -52,7 +50,7 @@
 				//]]>
 				</script>
 
-				<p><strong id="result-find"></strong></p>
+				<tt id="result-find"></tt>
 			</div>
 
 			<div id="footer">
