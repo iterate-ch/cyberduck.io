@@ -67,7 +67,10 @@
 
 				<p><strong id="result"></strong></p>
 				
-				<p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the donation key attached ends with <tt>.cyberducklicense</tt>.</p>
+				<p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble receiving or opening the key.</p>
+				
+				<p class="lead"><strong>Organization Site Keys.</strong> If you are running a lab of computers or similar and want a key installed on every workstation registered to your organization, contact <a href=
+				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David Kocher</a> by email to set this up.
 			</div>
 
 			<div id="footer">
