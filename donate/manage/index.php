@@ -38,19 +38,7 @@
 
 				<form id="find" method="get" action="find" name="find">
 					<label for="email">Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Find" />
-				</form><script charset="utf-8" type="text/javascript">
-//<![CDATA[
-						$(document).ready(function() {
-							var options = {
-								target: '#result-find',
-								clearForm: true
-							}
-							$("form#find").ajaxForm(options);
-						 });
-				//]]>
-				</script>
-
-				<tt id="result-find"></tt>
+				</form>
 			</div>
 
 			<div id="footer">
