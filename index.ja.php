@@ -288,8 +288,8 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<div id="windows" class="download">
 						<div>
 							<strong>バージョン4.0パブリックベータ</strong><br />
-							<em>2010年12月13日</em><br />
-							<a href="windows/beta/Cyberduck-Installer-4.0b8.8124.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b8.8124.exe']);">Cyberduck-Installer-4.0b8.exe</a><br />
+							<em>2011年01月26日</em><br />
+							<a href="windows/beta/Cyberduck-Installer-4.0b9.8294.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b8.8294.exe']);">Cyberduck-Installer-4.0b8.exe</a><br />
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
 						</div>
