@@ -12,7 +12,7 @@
 Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
 	</title>
 	<meta name="description" content="Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Could Files、Google Docs、S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザのアウトラインビューで大量のフォルダ構造も効率よく閲覧し、Quick Lookで素早くファイルをプレビューすることができます。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。クラウドでコンテンツを配信するために、Amazon CloudFrontやRackspace Cloud Filesを構成することも簡単です。30言語以上のローカライズ版が提供されています。" />
-	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, limelight, google storage, google docs, browser, mac, os x, windows, program, application" />
+	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, akamai, google storage, google docs, browser, mac, os x, windows, program, application" />
 </head>
 
 <body id="index">
@@ -71,7 +71,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<img alt="" src="http://media.cyberduck.ch/img/cf-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">クラウドでコンテンツを配布。</h2>
-						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やRackspace Limelightを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDNディストリビューションのオリジンとして構成できます。</p>
+						<p>コンテンツ配信ネットワーク（<a href="http://trac.cyberduck.ch/wiki/help/en/howto/cdn">CDN</a>）を使用してファイルを配信するために、Amazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a>やAkamaiを設定するのも簡単。FTP、SFTP、WebDAVであらゆるサーバに接続し、新しいAmazon <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> CDNディストリビューションのオリジンとして構成できます。</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
@@ -83,7 +83,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
 								Rackspace <a class="ext" href="https://www.rackspacecloud.com/signup/503.html">Cloud Files</a>ストレージを管理。	<a href=
-									"http://www.rackspacecloud.com/cloud_hosting_products/files/limelight">Limelight Content Distribution</a>の構成も可能です。</p>
+									"http://www.rackspacecloud.com/cloud_hosting_products/files">Limelight Content Distribution</a>の構成も可能です。</p>
 							</div>
 						</div>
 					</div>

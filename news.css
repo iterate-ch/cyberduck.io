@@ -1,11 +1,12 @@
+#content {
+	background-color: white;
+}
 #content #feed {
 	padding-bottom: 10px;
-	border-right: 1px solid #E5E5DB;
 	width: 700px;
 	float: right;
 }
 #content #feed h2 {
-	/*background-color: #E5E5DB;*/
 	padding: 2px;
 	margin-bottom: 0;
 	padding-top:10px;
@@ -15,6 +16,12 @@
 	background-color: white;
 	border-bottom: 1px solid white;
 	padding-left: 10px;
+}
+#content #feed .entry:hover {
+	background-color: #EFEFEF;
+}
+#content #feed .entry .tw_button {
+	border-bottom: 1px solid #cccccc;
 }
 #content #feed .entry li {
 	margin: 7px 0px 8px 10px;
