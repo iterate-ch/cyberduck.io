@@ -306,7 +306,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							//<![CDATA[
 							$(document).ready(function() {
 								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-									$("form input#paypal").attr('value', 'NKZSJQTDVF4ZA');
+									$("form input#paypal").attr('value', '7TAQE4SM2FH6L');
 								}
 								else {
 									$("form input#paypal").attr('value', '4914397');
