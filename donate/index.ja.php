@@ -89,8 +89,8 @@
 							//<![CDATA[
 							$(document).ready(function() {
 								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-									$("form input#paypal").attr('value', 'NKZSJQTDVF4ZA');
-									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKZSJQTDVF4ZA');
+									$("form input#paypal").attr('value', '7TAQE4SM2FH6L');
+									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TAQE4SM2FH6L');
 								}
 								else {
 									$("form input#paypal").attr('value', '4914397');
