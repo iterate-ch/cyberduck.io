@@ -74,7 +74,7 @@
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
-								Manage your Rackspace <a class="ext" href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Cloud Files</a> storage including the configuration of <a href=
+								Manage your Rackspace <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Cloud Files</a> storage including the configuration of <a href=
 								"http://trac.cyberduck.ch/wiki/help/en/howto/akamai/">Akamai content delivery network (CDN)</a>.</p>
 							</div>
 						</div>

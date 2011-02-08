@@ -82,7 +82,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
-								Rackspace <a class="ext" href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Cloud Files</a>ストレージを管理。	<a href=
+								Rackspace <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Cloud Files</a>ストレージを管理。	<a href=
 									"http://trac.cyberduck.ch/wiki/help/en/howto/akamai">Akamai</a>の構成も可能です。</p>
 							</div>
 						</div>
