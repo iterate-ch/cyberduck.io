@@ -45,31 +45,65 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>に接続。 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> や <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>のオープンな最新クラウドソフトウェアも利用できます。</p>
 					</div>
 
-					<div id="screenshots">
-						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Bookmarks" src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" /></a>
-						<a class="windows" style="display:none;" href="img/windows/browser.png"><img alt="Cyberduck Browser" src="img/windows/browser-bookmarks.png" /></a>
+					<div id="screenshots" class="showcase">
+						<div>
+							<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" width="600px" alt="01" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/mac/browser.png" width="600px" alt="02" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/mac/browser-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks.png" width="600px" alt="03" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/windows/browser.png" width="600px" alt="04" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/windows/browser-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
 					</div>
 					<script type="text/javascript">
 							//<![CDATA[
 							$(document).ready(function() {
-								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-									$("#screenshots .windows").css('display', 'inline');
-								}
-								else {
-									$("#screenshots .mac").css('display', 'inline');
-								}
+								$("#screenshots").awShowcase(
+								{
+									width:					600,
+									height:					540,
+									auto:					false,
+									interval:				3000,
+									continuous:				false,
+									loading:				true,
+									tooltip_width:			200,
+									tooltip_icon_width:		32,
+									tooltip_icon_height:	32,
+									tooltip_offsetx:		18,
+									tooltip_offsety:		0,
+									arrows:					false,
+									buttons:				false,
+									btn_numbers:			true,
+									keybord_keys:			true,
+									mousetrace:				false,
+									pauseonover:			true,
+									transition:				'fade', /* vslide/hslide/fade */
+									transition_speed:		400,
+									show_caption:			'onhover', /* onload/onhover/show */
+									thumbnails:				true,
+									thumbnails_position:	'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+									thumbnails_direction:	'vertical', /* vertical/horizontal */
+									thumbnails_slidex:		0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+								});
 							});
 					//]]>
 					</script>
-					<div align="center" style="margin-top:-30px">
-						<small>
-							Screenshot<br /> 
-							<a href="#" onclick="$('#screenshots .mac').css('display', 'inline');$('#screenshots .windows').css('display', 'none');return false">Mac</a>
-							|
-							<a href="#" onclick="$('#screenshots .windows').css('display', 'inline');$('#screenshots .mac').css('display', 'none');return false">Windows</a>
-						</small>
-					</div>
-					<br />
 
 					<img alt="" src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">

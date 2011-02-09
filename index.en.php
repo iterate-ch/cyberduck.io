@@ -8,6 +8,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader(".")); ?>
+
+	<link rel="stylesheet" href="style.aw-showcase.css" />
+	<script type="text/javascript" src="jquery.aw-showcase.min.js"></script>
+
 	<title><?php echo(echotitle("FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac &amp; Windows.")); ?></title>
 	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure & Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Manage the documents in your Google Docs account with the option to convert uploaded images to documents with optical character recognition (OCR). Both Amazon CloudFront and Akamai content delivery networks (CDN) can be easily configured to distribute your files worldwide from edge locations. Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home.
 
@@ -37,31 +41,65 @@
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>. Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
 					</div>
 
-					<div id="screenshots">
-						<a class="mac" style="display:none;" href="http://media.cyberduck.ch/img/mac/browser.png"><img alt="Cyberduck Bookmarks" src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" /></a>
-						<a class="windows" style="display:none;" href="img/windows/browser.png"><img alt="Cyberduck Browser" src="img/windows/browser-bookmarks.png" /></a>
+					<div id="screenshots" class="showcase">
+						<div>
+							<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" width="600px" alt="01" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/mac/browser.png" width="600px" alt="02" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/mac/browser-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks.png" width="600px" alt="03" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
+						<div>
+							<img src="http://media.cyberduck.ch/img/windows/browser.png" width="600px" alt="04" />
+							<div class="showcase-thumbnail">
+								<img src="http://media.cyberduck.ch/img/windows/browser-thumb.png" alt="01" width="140px" />
+							</div>
+						</div>
 					</div>
 					<script type="text/javascript">
 							//<![CDATA[
 							$(document).ready(function() {
-								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-									$("#screenshots .windows").css('display', 'inline');
-								}
-								else {
-									$("#screenshots .mac").css('display', 'inline');
-								}
+								$("#screenshots").awShowcase(
+								{
+									width:					600,
+									height:					540,
+									auto:					false,
+									interval:				3000,
+									continuous:				false,
+									loading:				true,
+									tooltip_width:			200,
+									tooltip_icon_width:		32,
+									tooltip_icon_height:	32,
+									tooltip_offsetx:		18,
+									tooltip_offsety:		0,
+									arrows:					false,
+									buttons:				false,
+									btn_numbers:			true,
+									keybord_keys:			true,
+									mousetrace:				false,
+									pauseonover:			true,
+									transition:				'fade', /* vslide/hslide/fade */
+									transition_speed:		400,
+									show_caption:			'onhover', /* onload/onhover/show */
+									thumbnails:				true,
+									thumbnails_position:	'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+									thumbnails_direction:	'vertical', /* vertical/horizontal */
+									thumbnails_slidex:		0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+								});
 							});
 					//]]>
 					</script>
-					<div align="center" style="margin-top:-30px">
-						<small>
-							Screenshot<br /> 
-							<a href="#" onclick="$('#screenshots .mac').css('display', 'inline');$('#screenshots .windows').css('display', 'none');return false">Mac</a>
-							|
-							<a href="#" onclick="$('#screenshots .windows').css('display', 'inline');$('#screenshots .mac').css('display', 'none');return false">Windows</a>
-						</small>
-					</div>
-					<br />
 					<img alt="" src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Edit any file with your preferred editor.</h2>
