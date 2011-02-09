@@ -54,24 +54,28 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks.png" width="600px" alt="01" />
 							<div class="showcase-thumbnail">
 								<img src="http://media.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" alt="01" width="140px" />
+								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
 							<img src="http://media.cyberduck.ch/img/mac/browser.png" width="600px" alt="02" />
 							<div class="showcase-thumbnail">
 								<img src="http://media.cyberduck.ch/img/mac/browser-thumb.png" alt="01" width="140px" />
+								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
 							<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks.png" width="600px" alt="03" />
 							<div class="showcase-thumbnail">
 								<img src="http://media.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" alt="01" width="140px" />
+								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
 							<img src="http://media.cyberduck.ch/img/windows/browser.png" width="600px" alt="04" />
 							<div class="showcase-thumbnail">
 								<img src="http://media.cyberduck.ch/img/windows/browser-thumb.png" alt="01" width="140px" />
+								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 					</div>
