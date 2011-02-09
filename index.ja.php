@@ -8,6 +8,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader(".")); ?>
+
+	<link rel="stylesheet" href="style.aw-showcase.css" />
+	<script type="text/javascript" src="jquery.aw-showcase.min.js"></script>
+
 	<title>
 Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
 	</title>
