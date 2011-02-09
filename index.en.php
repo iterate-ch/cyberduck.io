@@ -53,7 +53,15 @@
 							});
 					//]]>
 					</script>
-
+					<div align="center" style="margin-top:-30px">
+						<small>
+							Screenshot<br /> 
+							<a href="#" onclick="$('#screenshots .mac').css('display', 'inline');$('#screenshots .windows').css('display', 'none');return false">Mac</a>
+							|
+							<a href="#" onclick="$('#screenshots .windows').css('display', 'inline');$('#screenshots .mac').css('display', 'none');return false">Windows</a>
+						</small>
+					</div>
+					<br />
 					<img alt="" src="http://media.cyberduck.ch/img/pencil.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Edit any file with your preferred editor.</h2>
