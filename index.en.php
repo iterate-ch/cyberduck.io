@@ -33,40 +33,58 @@
 			<div id="content">
 				<div id="features">
 					<img src="http://cdn.cyberduck.ch/img/connect.png" alt="" class="headline" />
-					<div class="description">
+					<div class="description" style="padding-right:40px">
 						<h2 class="headline">Connecting to every server.</h2>
-						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>, <a href=
-							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a> and <a href=
-						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>. Works with emerging open cloud software from <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> and <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>.</p>
+						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
+						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href=
+							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a>, <a href=
+						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a> and even <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>.</p>
+
+						<div class="column">
+							<div class="feature">
+								<p><img src="http://cdn.cyberduck.ch/img/openstack.png" class="feature" alt="" /> <strong>Emerging open cloud software standards.</strong><br />Works with thirdparty providers using either S3 or the Openstack API such as <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dunkel">Dunkel Cloud Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files (US/UK)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack">Internap XIPCloud Storage</a> or any custom <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> installation.</p>
+							</div>
+							<div class="feature">
+								<p><img src="http://cdn.cyberduck.ch/img/ftp.png" class="feature" alt="" /> <strong>FTP Core</strong><br />A widley tested <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a> implementation for the best interoperability with support for FTP over secured SSL/TLS connections.</p>
+							</div>
+							<div class="feature">
+							</div>
+						</div>
 					</div>
 
 					<div id="screenshots" class="showcase">
 						<div>
-							<img src="http://cdn.cyberduck.ch/img/mac/browser-bookmarks.png" width="600px" alt="01" />
+							<img src="http://cdn.cyberduck.ch/img/mac/browser-bookmarks.png" width="600px" alt="Bookmarks" />
 							<div class="showcase-thumbnail">
 								<img src="http://cdn.cyberduck.ch/img/mac/browser-bookmarks-thumb.png" alt="01" width="140px" />
 								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
-							<img src="http://cdn.cyberduck.ch/img/mac/browser.png" width="600px" alt="02" />
+							<img src="http://cdn.cyberduck.ch/img/mac/browser.png" width="600px" alt="Browser" />
 							<div class="showcase-thumbnail">
 								<img src="http://cdn.cyberduck.ch/img/mac/browser-thumb.png" alt="01" width="140px" />
 								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
-							<img src="http://cdn.cyberduck.ch/img/windows/browser-bookmarks.png" width="600px" alt="03" />
+							<img src="http://cdn.cyberduck.ch/img/windows/browser-bookmarks.png" width="600px" alt="Bookmarks" />
 							<div class="showcase-thumbnail">
 								<img src="http://cdn.cyberduck.ch/img/windows/browser-bookmarks-thumb.png" alt="01" width="140px" />
 								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
 						<div>
-							<img src="http://cdn.cyberduck.ch/img/windows/browser.png" width="600px" alt="04" />
+							<img src="http://cdn.cyberduck.ch/img/windows/browser.png" width="600px" alt="Browser" />
 							<div class="showcase-thumbnail">
 								<img src="http://cdn.cyberduck.ch/img/windows/browser-thumb.png" alt="01" width="140px" />
+								<div class="showcase-thumbnail-cover"></div>
+							</div>
+						</div>
+						<div>
+							<img src="img/mac/info-cloudfront.png" width="428px" alt="CloudFront" />
+							<div class="showcase-thumbnail">
+								<img src="img/mac/info-cloudfront.png" alt="01" width="140px" />
 								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
@@ -153,7 +171,7 @@
 					<img alt="" src="http://cdn.cyberduck.ch/img/google-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Manage your Google Docs.</h2>
-						<p>Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads.</p>
+						<p>Convert uploads to Google Docs format and Optical Character Recognition (OCR) for image uploads. Define access control lists to share documents with other users using Google login credentials.</p>
 					</div>
 				
 					<img alt="" src="http://cdn.cyberduck.ch/img/bookmark.png" class="headline" />
