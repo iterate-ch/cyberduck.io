@@ -81,13 +81,6 @@
 								<div class="showcase-thumbnail-cover"></div>
 							</div>
 						</div>
-						<div>
-							<img src="img/mac/info-cloudfront.png" width="428px" alt="CloudFront" />
-							<div class="showcase-thumbnail">
-								<img src="img/mac/info-cloudfront.png" alt="01" width="140px" />
-								<div class="showcase-thumbnail-cover"></div>
-							</div>
-						</div>
 					</div>
 					<script type="text/javascript">
 							//<![CDATA[
