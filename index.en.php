@@ -9,8 +9,8 @@
 <head>
 	<?php echo(echoheader(".")); ?>
 
-	<link rel="stylesheet" href="style.aw-showcase.css" />
-	<script type="text/javascript" src="jquery.aw-showcase.min.js"></script>
+	<link rel="stylesheet" href="http://static.cyberduck.ch/style.aw-showcase.css" />
+	<script type="text/javascript" src="http://static.cyberduck.ch/jquery.aw-showcase.min.js"></script>
 
 	<title><?php echo(echotitle("FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac &amp; Windows.")); ?></title>
 	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure & Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Manage the documents in your Google Docs account with the option to convert uploaded images to documents with optical character recognition (OCR). Both Amazon CloudFront and Akamai content delivery networks (CDN) can be easily configured to distribute your files worldwide from edge locations. Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home.

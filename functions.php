@@ -1,9 +1,9 @@
 <?php
     function echoheader($dir) {
         return "
-			<link rel='Stylesheet' type='text/css' href='http://cdn.cyberduck.ch/stylesheet.css' />
+			<link rel='Stylesheet' type='text/css' href='http://static.cyberduck.ch/stylesheet.css' />
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
-			<link rel='shortcut icon' href='http://cdn.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
+			<link rel='shortcut icon' href='http://static.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
 
 			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js' type='text/javascript'></script>
 

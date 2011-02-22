@@ -9,8 +9,8 @@
 <head>
 	<?php echo(echoheader(".")); ?>
 
-	<link rel="stylesheet" href="style.aw-showcase.css" />
-	<script type="text/javascript" src="jquery.aw-showcase.min.js"></script>
+	<link rel="stylesheet" href="http://static.cyberduck.ch/style.aw-showcase.css" />
+	<script type="text/javascript" src="http://static.cyberduck.ch/jquery.aw-showcase.min.js"></script>
 
 	<title>
 Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
