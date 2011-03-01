@@ -338,6 +338,7 @@
 							<em>Dec-06-2010</em><br />
 							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
+							<a href="http://itunes.com/mac/cyberduck"><img src="http://cdn.cyberduck.ch/img/mas.png" /></a>
 						</div>
 						<img alt="" src="http://cdn.cyberduck.ch/img/mac32.png" />
 					</div>
