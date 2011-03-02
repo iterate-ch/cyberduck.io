@@ -65,7 +65,7 @@
 					"http://trac.cyberduck.ch/newticket">new ticket</a> in the <a href="http://trac.cyberduck.ch">issue tracker</a>.</p>
 					<br />
 					<p><img src="http://cdn.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
-					<p><img src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">Follow @davidkocher</a>.</p>
+					<p><img src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/cyberduckapp">Follow @cyberduckapp</a>.</p>
 					<br />
 					<p>Subscribe to the <a href="http://lists.cyberduck.ch/mailman/listinfo/news">news</a> mailing list to get emails about the latest updates.</p>
 					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/news">

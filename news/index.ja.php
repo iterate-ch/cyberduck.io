@@ -73,7 +73,7 @@
 					"http://trac.cyberduck.ch/newticket">イシュートラッカー</a> で <a class="ext" href="http://trac.cyberduck.ch">新規チケット</a>を作成してください。</p>
 					<br />
 					<p><img src="http://cdn.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
-					<p><img src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/davidkocher">@davidkocherをフォロー</a>。</p>
+					<p><img src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/cyberduckapp">@cyberduckappをフォロー</a>。</p>
 					<br />
 					<p><a href="http://lists.cyberduck.ch/mailman/listinfo/news">news</a>  メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
 					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/news">
