@@ -332,7 +332,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							<em>2010年12月6日</em><br />
 							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
-							<a href="http://itunes.com/mac/cyberduck"><img src="http://cdn.cyberduck.ch/img/mas.png" /></a>
 						</div>
 						<img alt="" src="http://cdn.cyberduck.ch/img/mac32.png" />
 					</div>
