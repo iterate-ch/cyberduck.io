@@ -23,6 +23,81 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0</a> ()</strong> <em>Mar-08-2010</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.0.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.zip']);">Download (Mac)</a></p>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.0.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.exe']);">Download (Windows)</a></p>
+							<p><strong><a href="4.0/Press_4.0_en.txt">Press Release (en)</a></strong><br />
+							<strong><a href="4.0/Press_4.0_ja.txt">Press Release (ja)</a></strong></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Localize] Ukrainian Localization</li>
+							    <li>[Feature] Version for Microsoft Windows XP, Windows Vista & Windows 7.</li>
+							    <li>[Feature] Replaced protocol implementation (FTP)</li>
+							    <li>[Feature] Connecting to Windows Azure Blob Storage (Azure) (<a
+							            href="http://trac.cyberduck.ch/ticket/3938">#3938</a>)
+							    </li>
+							    <li>[Feature] Copy and paste files using menu item to duplicate</li>
+							    <li>[Feature] Multipart Uploads with parallelism (S3) (<a
+							            href="http://trac.cyberduck.ch/ticket/5487">#5487</a>)
+							    </li>
+							    <li>[Feature] Support new 5TB Object Size Limit (S3)</li>
+							    <li>[Feature] Upload item in Finder context menu to upload selected file (Mac)</li>
+							    <li>[Feature] Upload item in Services menu of thirdparty programs main menu supporting files and folders (Mac)</li>
+							    <li>[Feature] Select bookmark to upload to when dragging files to application</li>
+							    <li>[Feature] User interface to create symbolic links (SFTP) [<a
+							            href="http://trac.cyberduck.ch/ticket/1724">#1724</a>]
+							    </li>
+							    <li>[Feature] Support for Asia Pacific (Tokyo) location (S3)</li>
+							    <li>[Feature] Website endpoint configuration option for buckets (S3)</li>
+							    <li>[Feature] CDN configuration for website endpoints as custom origin (CloudFront)</li>
+							    <li>[Feature] Invalidation (Purge) of files in CDN (Cloudfiles/Akamai)</li>
+							    <li>[Feature] Skip option not available in transfer prompt [<a
+							            href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]
+							    </li>
+							    <li>[Bugfix] Limit number of concurrent transfers (<a
+							            href="http://trac.cyberduck.ch/ticket/5539">#5539</a>)
+							    </li>
+							    <li>[Bugfix] Qeued transfers start in random order (#5632)</li>
+							    <li>[Bugfix] Dragging into topmost folder in browser (<a
+							            href="http://trac.cyberduck.ch/ticket/1945">#1945</a>)
+							    </li>
+							    <li>[Bugfix] ACLs getting dropped when updating metadata (S3) (<a
+							            href="http://trac.cyberduck.ch/ticket/5571">#5571</a>)
+							    </li>
+							    <li>[Bugfix] .CDN_ACCESS_LOGS folder listing is empty (Cloudfiles) (<a
+							            href="http://trac.cyberduck.ch/ticket/5350">#5350</a>)
+							    <li>[Bugfix] Unicode normalization for filenames in upload (<a
+							            href="http://trac.cyberduck.ch/ticket/5162">#5162</a>)
+							    </li>
+							    <li>[Bugfix] Duplicate file breaks editing (<a
+							            href="http://trac.cyberduck.ch/ticket/5524">#5524</a>)
+							    </li>
+							    <li>[Bugfix] Large transfer history causes slowdown (<a
+							            href="http://trac.cyberduck.ch/ticket/2889">#2889</a>)
+							    </li>
+							    <li>[Bugfix] List all files regardless of document ownership (<a
+							            href="http://trac.cyberduck.ch/ticket/5570">#5570</a>) (Google Docs)
+							    </li>
+							    <li>[Bugfix] Images always converted to documents (<a
+							            href="http://trac.cyberduck.ch/ticket/5601">#5601</a>) (Google Docs)
+							    </li>
+							    <li>[Bugfix] Preserve symbolic links in uploads (<a
+							            href="http://trac.cyberduck.ch/ticket/1860">#1860</a>) (SFTP)
+							    </li>
+							    <li>[Bugfix] High CPU usage after transfer has completed (<a
+							            href="http://trac.cyberduck.ch/ticket/5640">#5640</a>)
+							    </li>
+							    <li>[Bugfix] Multiple distributions created (CloudFront) (<a
+							            href="http://trac.cyberduck.ch/ticket/5675">#5675</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0 (Public Beta)</a> (8071)</strong> <em>Dec-13-2010</em><br />
 							<a href="http://update.cyberduck.ch/windows/beta/Cyberduck-Installer-4.0b8.8071.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b8.8071.exe']);">Download</a></p>
 							</p><span class="version">Windows XP, Windows Vista or Windows 7 required.</span></p>
@@ -2343,7 +2418,7 @@
 				</table>
 			</div>
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://cdn.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 			</div>
 		</div>
