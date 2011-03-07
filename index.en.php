@@ -332,9 +332,9 @@
 				<div class="box-shadow">
 					<div id="mac" class="download">
 						<div>
-							<strong>Download<br />Version 3.8.1</strong><br />
-							<em>Dec-06-2010</em><br />
-							<a href="Cyberduck-3.8.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-3.8.1.zip']);">Cyberduck-3.8.1.zip</a><br />
+							<strong>Download<br />Version 4.0</strong><br />
+							<em>Mar-08-2010</em><br />
+							<a href="Cyberduck-4.0.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.zip']);">Cyberduck-4.0.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
 						<img alt="" src="http://media.cyberduck.ch/img/mac32.png" />
@@ -342,9 +342,9 @@
 
 					<div id="windows" class="download">
 						<div>
-							<strong>Version 4.0 Public Beta</strong><br />
-							<em>Jan-26-2011</em><br />
-							<a href="windows/beta/Cyberduck-Installer-4.0b9.8294.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0b9.8294.exe']);">Cyberduck-Installer-4.0b9.exe</a><br />
+							<strong>Version 4.0</strong><br />
+							<em>Mar-08-2010</em><br />
+							<a href="windows/beta/Cyberduck-Installer-4.0.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.exe']);">Cyberduck-Installer-4.0.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
