@@ -296,7 +296,7 @@
 
 				<div style="clear:both;"></div>
 
-				<p><small>Copyright (c) 2002-2010 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
+				<p><small>Copyright (c) 2002-2011 David V. Kocher. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the <a href=
 				"http://creativecommons.org/licenses/GPL/2.0/">GNU General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any
 				later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 				PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small></p>
@@ -338,7 +338,7 @@
 					<div id="mac" class="download">
 						<div>
 							<strong>Download<br />Version 4.0</strong><br />
-							<em>Mar-08-2010</em><br />
+							<em>Mar-08-2011</em><br />
 							<a href="Cyberduck-4.0.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.zip']);">Cyberduck-4.0.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
@@ -348,7 +348,7 @@
 					<div id="windows" class="download">
 						<div>
 							<strong>Version 4.0</strong><br />
-							<em>Mar-08-2010</em><br />
+							<em>Mar-08-2011</em><br />
 							<a href="windows/Cyberduck-Installer-4.0.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.exe']);">Cyberduck-Installer-4.0.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
