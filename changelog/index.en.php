@@ -23,7 +23,7 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0</a> (8505)</strong> <em>Mar-08-2010</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0">4.0</a> (8505)</strong> <em>Mar-08-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.0.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.0.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.exe']);">Download (Windows)</a></p>
 							<p><strong><a href="4.0/Press_4.0_en.txt">Press Release (en)</a></strong><br />
@@ -2423,7 +2423,7 @@
 				</table>
 			</div>
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://media.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://cdn.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 			</div>
 		</div>
