@@ -82,8 +82,13 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<script type="text/javascript">
 							//<![CDATA[
 							$(document).ready(function() {
+								selected = 0;
+								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+									selected = 2;
+								}
 								$("#screenshots").awShowcase(
 								{
+									selected: 				selected,
 									width:					600,
 									height:					540,
 									auto:					false,

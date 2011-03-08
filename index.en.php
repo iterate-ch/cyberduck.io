@@ -83,8 +83,13 @@
 					<script type="text/javascript">
 							//<![CDATA[
 							$(document).ready(function() {
+								selected = 0;
+								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+									selected = 2;
+								}
 								$("#screenshots").awShowcase(
 								{
+									selected: 				selected,
 									width:					600,
 									height:					540,
 									auto:					false,
@@ -109,7 +114,7 @@
 									thumbnails_position:	'outside-last', /* outside-last/outside-first/inside-last/inside-first */
 									thumbnails_direction:	'vertical', /* vertical/horizontal */
 									thumbnails_slidex:		0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
-								});
+								});								
 							});
 					//]]>
 					</script>
