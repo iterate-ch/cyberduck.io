@@ -68,6 +68,7 @@
 							    <li>[Feature] Skip option not available in transfer prompt [<a
 							            href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]
 							    </li>
+								<li>[Feature] Open connection in PuTTY Terminal for current working directory (SFTP) (#5593) (Windows)</li>
 							    <li>[Bugfix] Limit number of concurrent transfers (<a
 							            href="http://trac.cyberduck.ch/ticket/5539">#5539</a>)
 							    </li>
@@ -104,6 +105,9 @@
 							    <li>[Bugfix] Multiple distributions created (CloudFront) (<a
 							            href="http://trac.cyberduck.ch/ticket/5675">#5675</a>)
 							    </li>
+								<li>[Bugfix] Passwords not saved when custom port set (#5623) (Windows)</li>
+								<li>[Bugfix] Switching application interface language (#5718) (Windows)</li>
+								<li>[Bugfix] Uploads with reduced redunandency fail (#5694) (S3) (Windows)</li>							
 						   </ul>
 						</td>
 					</tr>
