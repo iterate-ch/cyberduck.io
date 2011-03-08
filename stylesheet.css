@@ -9,6 +9,7 @@ font-size: 0.85em;
 width: 100%;
 margin-right: auto;
 margin-left: auto;
+margin-top:0;
 padding: 0px;
 color: #000000;
 background-color: #ffffff;
@@ -73,6 +74,12 @@ float: left;
 width: 100%;
 color: #000000;
 }
+
+	#header {
+		background-image:url(img/ready.png);
+		background-repeat: no-repeat;
+		background-position:600px -55px;
+	}
 	
 	#header #logo {
 margin: 20px 10px 10px 30px;
