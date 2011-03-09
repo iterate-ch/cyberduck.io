@@ -45,7 +45,7 @@
 								<p><img src="http://cdn.cyberduck.ch/img/openstack.png" class="feature" alt="" /> <strong>Emerging open cloud software standards.</strong><br />Works with thirdparty providers using either S3 or the Openstack API such as <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dunkel">Dunkel Cloud Storage</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files (US/UK)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack">Internap XIPCloud Storage</a> or any custom <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> or <a href="http://trac.cyberduck.ch/wiki/help/en/howto/scality">Scality</a> installation.</p>
 							</div>
 							<div class="feature-50">
-								<p><img src="http://cdn.cyberduck.ch/img/ftp.png" class="feature" alt="" /> <strong>FTP Core</strong><br />A widley tested <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a> implementation for the best interoperability with support for FTP over secured SSL/TLS connections.</p>
+								<p><img src="http://cdn.cyberduck.ch/img/ftp.png" class="feature" alt="" /> <strong>FTP Core</strong><br />A widely tested <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a> implementation for the best interoperability with support for FTP over secured SSL/TLS connections.</p>
 							</div>
 						</div>
 					</div>
