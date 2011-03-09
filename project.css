@@ -21,6 +21,10 @@ font-size: 1.8em;
 	padding: 0;
 }
 
+#header img {
+	margin: 0;
+}
+
 h1, h2, h3, h4 {
 letter-spacing: inherit;
 }
