@@ -351,6 +351,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						</div>
 						<img alt="" src="http://cdn.cyberduck.ch/img/windows32.png" />
 					</div>
+					
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
@@ -370,6 +371,13 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							});
 					//]]>
 					</script>
+
+					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a> group to discuss features and issues you are having.
+						<a href="http://groups.google.com/group/cyberduck"><img src="http://cdn.cyberduck.ch/img/groups.png" height="30" width="140" alt="Google Groups" /></a>
+					</p>
+					<form method="post" action="http://groups.google.com/group/cyberduck/boxsubscribe">
+						<p><input type="text" name="email" value="" /> <input type="submit" name="sub" value="Subscribe" /></p>
+					</form>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>
