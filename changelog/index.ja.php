@@ -80,7 +80,7 @@
 							    <li>[Feature] Support for Asia Pacific (Tokyo) location (S3)</li>
 							    <li>[Feature] Website endpoint configuration option for buckets (S3)</li>
 							    <li>[Feature] CDN configuration for website endpoints as custom origin (CloudFront)</li>
-							    <li>[Feature] Invalidation (Purge) of files in CDN (Cloudfiles/Akamai)</li>
+							    <li>[Feature] Invalidation (Purge) of files in CDN (Cloud Files/Akamai)</li>
 							    <li>[Feature] Skip option not available in transfer prompt [<a
 							            href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]
 							    </li>
@@ -95,7 +95,7 @@
 							    <li>[Bugfix] ACLs getting dropped when updating metadata (S3) (<a
 							            href="http://trac.cyberduck.ch/ticket/5571">#5571</a>)
 							    </li>
-							    <li>[Bugfix] .CDN_ACCESS_LOGS folder listing is empty (Cloudfiles) (<a
+							    <li>[Bugfix] .CDN_ACCESS_LOGS folder listing is empty (Cloud Files) (<a
 							            href="http://trac.cyberduck.ch/ticket/5350">#5350</a>)
 							    <li>[Bugfix] Unicode normalization for filenames in upload (<a
 							            href="http://trac.cyberduck.ch/ticket/5162">#5162</a>)
@@ -189,7 +189,7 @@
 							    <li>[Feature] FireFTP Bookmarks Importer</li>
 							    <li>[Feature] CrossFTP Bookmarks Importer</li>
 							    <li>[Feature] Perform MD5 hash calculation during upload (<a
-							            href="http://trac.cyberduck.ch/ticket/185">#5186</a>) (S3, Cloudfiles)
+							            href="http://trac.cyberduck.ch/ticket/185">#5186</a>) (S3, Cloud Files)
 							    </li>
 							    <li>[Feature] Rename existing files on upload or download (<a
 							            href="http://trac.cyberduck.ch/ticket/5117">#5117</a>)
@@ -197,7 +197,7 @@
 							    <li>[Feature] Show last access timestamp in history (<a
 							            href="http://trac.cyberduck.ch/ticket/3805">#3805</a>)
 							    </li>
-							    <li>[Feature] Synchronize comparing MD5 checksum of file (S3, Cloudfiles, Dropbox, Azure)</li>
+							    <li>[Feature] Synchronize comparing MD5 checksum of file (S3, Cloud Files, Dropbox, Azure)</li>
 							    <li>[Feature] Display decimal file size (OS X 10.6) (<a
 							            href="http://trac.cyberduck.ch/ticket/3771">#3771</a>)
 							    </li>
