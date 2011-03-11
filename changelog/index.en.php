@@ -2432,7 +2432,8 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Public beta release using the Cocoa Framework (instead of Java Swing) and support for SSH</li>
+								<li>[Feature] Using the Cocoa Framework (instead of Java Swing)</li>
+								<li>[Feature] Support for SFTP (SSH File Transfer Protocol) connections</li>
 							</ul>
 						</td>
 					</tr>
