@@ -737,9 +737,9 @@
 
 								<li>[Bugfix] Files not downloaded recursively (S3)</li>
 
-								<li>[Bugfix] Create and expand archives with space in filename [#2884]</li>
+								<li>[Bugfix] Create and expand archives with space in filename (#2884)</li>
 
-								<li>[Bugfix] Incorrect CDN URI for public containers (Mosso) [#2875]</li>
+								<li>[Bugfix] Incorrect CDN URI for public containers (Mosso) (#2875)</li>
 
 								<li>[Bugfix] Observe bandwidth setting for uploads (Mosso/WebDAV)</li>
 							</ul>
@@ -1120,7 +1120,7 @@
 
 								<li>[Feature] Browse folder hierarchy in synchronisation dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
 
-								<li>[Feature] Use small icons in the bookmark drawer [#--]</li>
+								<li>[Feature] Use small icons in the bookmark drawer (#--)</li>
 
 								<li>[Feature] Set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
 
@@ -1172,7 +1172,7 @@
 
 								<li>[Bugfix] Symbolic links on local filesystem not handled properly [<a href="http://trac.cyberduck.ch/ticket/995">#995</a>]</li>
 
-								<li>[Bugfix] Send creation time of file with UTIME [#--]</li>
+								<li>[Bugfix] Send creation time of file with UTIME (#--)</li>
 
 								<li>[Feature] Clear command in History menu [<a href="http://trac.cyberduck.ch/ticket/648">#648</a>]</li>
 
@@ -1201,17 +1201,17 @@
 
 								<li>[Feature] Per bookmark setting for download folder [<a href="http://trac.cyberduck.ch/ticket/158">#158</a>]</li>
 
-								<li>[Feature] Per bookmark setting to use single connection for browser and transfers [#--]</li>
+								<li>[Feature] Per bookmark setting to use single connection for browser and transfers (#--)</li>
 
 								<li>[Feature] Advanced settings in connection and bookmark window in disclosable view</li>
 
-								<li>[Feature] Added PageSpinner to the list of supported editors (http://www.optima-system.com/pagespinner) [#205]</li>
+								<li>[Feature] Added PageSpinner to the list of supported editors (http://www.optima-system.com/pagespinner) (#205)</li>
 
-								<li>[Bugfix] Disconnecting in the background not blocking the user interface [#--]</li>
+								<li>[Bugfix] Disconnecting in the background not blocking the user interface (#--)</li>
 
 								<li>[Bugfix] Folders marked as inaccessible after timeouts and cannot be opened after reconnecting [<a href="http://trac.cyberduck.ch/ticket/611">#611</a>]</li>
 
-								<li>[Bugfix] Applescript/Dashboard should not use seperate session for transfers [#--]</li>
+								<li>[Bugfix] Applescript/Dashboard should not use seperate session for transfers (#--)</li>
 
 								<li>[Bugfix] Cannot write to group writable files (SFTP) [<a href="http://trac.cyberduck.ch/ticket/173">#173</a>]</li>
 
@@ -1232,15 +1232,15 @@
 							<ul>
 								<li>[Localize] Portuguese Localization</li>
 
-								<li>[Bugfix] Reporting error about failed to set permissions whereas it actually succeeded [#--]</li>
+								<li>[Bugfix] Reporting error about failed to set permissions whereas it actually succeeded (#--)</li>
 
-								<li>[Bugfix] Fail gracefully on uploading when server doesn't support changing permissions [#--]</li>
+								<li>[Bugfix] Fail gracefully on uploading when server doesn't support changing permissions (#--)</li>
 
-								<li>[Bugfix] Disconnecting from server could crash application shortly thereafter [#--]</li>
+								<li>[Bugfix] Disconnecting from server could crash application shortly thereafter (#--)</li>
 
-								<li>[Bugfix] Outline view not updated after dragged files have been uploaded [#--]</li>
+								<li>[Bugfix] Outline view not updated after dragged files have been uploaded (#--)</li>
 
-								<li>[Bugfix] Synchronisation not awaiting selection from user [#--]</li>
+								<li>[Bugfix] Synchronisation not awaiting selection from user (#--)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1258,9 +1258,9 @@
 
 								<li>[Feature] All (possibly stalled) operations in progress can be interrupted [<a href="http://trac.cyberduck.ch/ticket/943">#943</a>]</li>
 
-								<li>[Feature] Improved error handling [#--]</li>
+								<li>[Feature] Improved error handling (#--)</li>
 
-								<li>[Feature] Failed network operations can be repeated [#--]</li>
+								<li>[Feature] Failed network operations can be repeated (#--)</li>
 
 								<li>[Feature] A default bookmark can be configured [<a href="http://trac.cyberduck.ch/ticket/915">#915</a>]</li>
 
@@ -1281,9 +1281,9 @@
 
 								<li>[Feature] When duplicating files, propose a filename containing the current date and time [<a href="http://trac.cyberduck.ch/ticket/912">#912</a>]</li>
 
-								<li>[Feature] Added JarInspector to the list of supported editors (http://www.cgerdes.com) [#--]</li>
+								<li>[Feature] Added JarInspector to the list of supported editors (http://www.cgerdes.com) (#--)</li>
 
-								<li>[Bugfix] Honor the existing permissions when replacing files [#--]</li>
+								<li>[Bugfix] Honor the existing permissions when replacing files (#--)</li>
 							</ul>
 						</td>
 					</tr>
