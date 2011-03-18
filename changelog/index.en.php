@@ -63,15 +63,15 @@
 							    <li>[Feature] Upload item in Finder context menu to upload selected file (Mac)</li>
 							    <li>[Feature] Upload item in Services menu of thirdparty programs main menu supporting files and folders (Mac)</li>
 							    <li>[Feature] Select bookmark to upload to when dragging files to application</li>
-							    <li>[Feature] User interface to create symbolic links (SFTP) [<a
-							            href="http://trac.cyberduck.ch/ticket/1724">#1724</a>]
+							    <li>[Feature] User interface to create symbolic links (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/1724">#1724</a>)
 							    </li>
 							    <li>[Feature] Support for Asia Pacific (Tokyo) location (S3)</li>
 							    <li>[Feature] Website endpoint configuration option for buckets (S3)</li>
 							    <li>[Feature] CDN configuration for website endpoints as custom origin (CloudFront)</li>
 							    <li>[Feature] Invalidation (Purge) of files in CDN (Cloud Files/Akamai)</li>
-							    <li>[Feature] Skip option not available in transfer prompt [<a
-							            href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]
+							    <li>[Feature] Skip option not available in transfer prompt (<a
+							            href="http://trac.cyberduck.ch/ticket/1159">#1159</a>)
 							    </li>
 								<li>[Feature] Open connection in PuTTY Terminal for current working directory (SFTP) (#5593) (Windows)</li>
 							    <li>[Bugfix] Limit number of concurrent transfers (<a
@@ -465,7 +465,7 @@
 						        <li>[Bugfix] Connections fail with at sign in username (WebDAV) (<a
 						                href="http://trac.cyberduck.ch/ticket/4097">#4097</a>)
 						        </li>
-						        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+						        <li>[Bugfix] SOCKS proxy support broken (<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>)</li>
 						   </ul>
 						</td>
 					</tr>
@@ -480,8 +480,8 @@
 								<li>[Feature] Display checksum of files in Info panel (S3, Rackspace Cloud Files) (<a
 						                href="http://trac.cyberduck.ch/ticket/4043">#4043</a>)
 						        </li>
-						        <li>[Bugfix] Incompatibilities when running on OS X 10.5 [<a
-						                href="http://trac.cyberduck.ch/ticket/4102">#4102</a>]
+						        <li>[Bugfix] Incompatibilities when running on OS X 10.5 (<a
+						                href="http://trac.cyberduck.ch/ticket/4102">#4102</a>)
 						        </li>
 						   </ul>
 						</td>
@@ -517,10 +517,10 @@
 						<td>
 							<ul>
 						        <li>[Feature] Support for new US West Location (S3)</li>
-						        <li>[Bugfix] Bookmark menu [<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>]</li>
-						        <li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
-						        <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) [<a
-						                href="http://trac.cyberduck.ch/ticket/3950">#3950</a>]</li>
+						        <li>[Bugfix] Bookmark menu (<a href="http://trac.cyberduck.ch/ticket/3924">#3924</a>)</li>
+						        <li>[Bugfix] SOCKS proxy support broken (<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>)</li>
+						        <li>[Bugfix] Container listing limited to 10000 files (Rackspace Cloud Files) (<a
+						                href="http://trac.cyberduck.ch/ticket/3950">#3950</a>)</li>
 						        <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
 						                href="http://trac.cyberduck.ch/ticket/3100">#3100</a>)</li>
 						        <li>[Bugfix] Selection in synchronize prompt (<a href="http://trac.cyberduck.ch/ticket/3901">#3901</a>)</li>
@@ -548,15 +548,15 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Octal input field for permissions [<a href="http://trac.cyberduck.ch/ticket/13">#13</a>]</li>
+								<li>[Feature] Octal input field for permissions (<a href="http://trac.cyberduck.ch/ticket/13">#13</a>)</li>
 
-								<li>[Bugfix] SOCKS proxy support broken [<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>]</li>
+								<li>[Bugfix] SOCKS proxy support broken (<a href="http://trac.cyberduck.ch/ticket/3803">#3803</a>)</li>
 
-								<li>[Bugfix] Connect to default bookmark for new browser window [<a href="http://trac.cyberduck.ch/ticket/3798">#3798</a>]</li>
+								<li>[Bugfix] Connect to default bookmark for new browser window (<a href="http://trac.cyberduck.ch/ticket/3798">#3798</a>)</li>
 
-								<li>[Bugfix] Excessive Growl notifications [<a href="http://trac.cyberduck.ch/ticket/2388">#2388</a>]</li>
+								<li>[Bugfix] Excessive Growl notifications (<a href="http://trac.cyberduck.ch/ticket/2388">#2388</a>)</li>
 
-								<li>[Bugfix] Icon set explicitly for every downloaded file [<a href="http://trac.cyberduck.ch/ticket/3824">#3824]</a></li>
+								<li>[Bugfix] Icon set explicitly for every downloaded file (<a href="http://trac.cyberduck.ch/ticket/3824">#3824]</a></li>
 							</ul>
 						</td>
 					</tr>
@@ -571,9 +571,9 @@
 							<ul>
 								<li>[Bugfix] Fails to launch with Japanese locale</li>
 
-								<li>[Bugfix] Duplicate files in browser listing when sorting by modification date [<a href="http://trac.cyberduck.ch/ticket/3745">#3745</a>]</li>
+								<li>[Bugfix] Duplicate files in browser listing when sorting by modification date (<a href="http://trac.cyberduck.ch/ticket/3745">#3745</a>)</li>
 
-								<li>[Bugfix] Wrong menu item font size [<a href="http://trac.cyberduck.ch/ticket/3736">#3736</a>]</li>
+								<li>[Bugfix] Wrong menu item font size (<a href="http://trac.cyberduck.ch/ticket/3736">#3736</a>)</li>
 
 								<li>[Bugfix] Various bugfixes</li>
 
@@ -592,7 +592,7 @@
 							<ul>
 								<li>[Feature] PPC support again available</li>
 
-								<li>[Bugfix] Some localizations broken [<a href="http://trac.cyberduck.ch/ticket/3648">#3648</a>]</li>
+								<li>[Bugfix] Some localizations broken (<a href="http://trac.cyberduck.ch/ticket/3648">#3648</a>)</li>
 
 								<li>[Bugfix] Various bugfixes and performance improvements</li>
 							</ul>
@@ -624,7 +624,7 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Incompatibility with Mac OS X 10.6 (Snow Leopard) [<a href="http://trac.cyberduck.ch/ticket/3039">#3039</a>]</li>
+								<li>[Bugfix] Incompatibility with Mac OS X 10.6 (Snow Leopard) (<a href="http://trac.cyberduck.ch/ticket/3039">#3039</a>)</li>
 
 								<li>[Feature] New application icon (Thanks to Dietmar Kerschner)</li>
 
@@ -657,15 +657,15 @@
 
 								<li>[Feature] Access third party buckets using anonymous login (S3)</li>
 
-								<li>[Feature] Editable hostname to connect to third party services implementing S3 [<a href="http://trac.cyberduck.ch/ticket/3125">#3125</a>] (S3)</li>
+								<li>[Feature] Editable hostname to connect to third party services implementing S3 (<a href="http://trac.cyberduck.ch/ticket/3125">#3125</a>) (S3)</li>
 
-								<li>[Feature[ Option to specify object expiration using Cache-Control header [<a href="http://trac.cyberduck.ch/ticket/3185">#3185</a>] (S3)</li>
+								<li>[Feature[ Option to specify object expiration using Cache-Control header (<a href="http://trac.cyberduck.ch/ticket/3185">#3185</a>) (S3)</li>
 
-								<li>[Bugfix] MobileMe iDisk upload failures (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/3149">#3149</a>]</li>
+								<li>[Bugfix] MobileMe iDisk upload failures (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/3149">#3149</a>)</li>
 
-								<li>[Bugfix] Overwrite action causes empty downloaded file [<a href="http://trac.cyberduck.ch/ticket/3252">#3252</a>]</li>
+								<li>[Bugfix] Overwrite action causes empty downloaded file (<a href="http://trac.cyberduck.ch/ticket/3252">#3252</a>)</li>
 
-								<li>[Bugfix] Status bar is draggable [<a href="http://trac.cyberduck.ch/ticket/2159">#2159</a>]</li>
+								<li>[Bugfix] Status bar is draggable (<a href="http://trac.cyberduck.ch/ticket/2159">#2159</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -678,41 +678,41 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Choose Time Zone for bookmark (FTP) [<a href="http://trac.cyberduck.ch/ticket/434">#434</a>]</li>
+								<li>[Feature] Choose Time Zone for bookmark (FTP) (<a href="http://trac.cyberduck.ch/ticket/434">#434</a>)</li>
 
-								<li>[Feature] IPv6 Interoperability with support for EPSV and EPRT commands (FTP) [<a href="http://trac.cyberduck.ch/ticket/2539">#2539</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/2539">#2885</a>]</li>
+								<li>[Feature] IPv6 Interoperability with support for EPSV and EPRT commands (FTP) (<a href="http://trac.cyberduck.ch/ticket/2539">#2539</a>, <a href=
+								"http://trac.cyberduck.ch/ticket/2539">#2885</a>)</li>
 
-								<li>[Feature] UTF8 charset negogiation [<a href="http://tools.ietf.org/html/draft-ietf-ftpext-utf-8-option-00">draft-ietf-ftpext-utf-8-option-00</a>] (FTP)</li>
+								<li>[Feature] UTF8 charset negogiation (<a href="http://tools.ietf.org/html/draft-ietf-ftpext-utf-8-option-00">draft-ietf-ftpext-utf-8-option-00</a>) (FTP)</li>
 
-								<li>[Feature] Support for directory listings using MLSD [<a href="http://tools.ietf.org/html/rfc3659">RFC 3659</a>] (FTP)</li>
+								<li>[Feature] Support for directory listings using MLSD (<a href="http://tools.ietf.org/html/rfc3659">RFC 3659</a>) (FTP)</li>
 
-								<li>[Feature] Support for Modification Time (MFMT) extension [<a href="http://tools.ietf.org/html/draft-somers-ftp-mfxx-04">draft-somers-ftp-mfxx-04</a>] (FTP)</li>
+								<li>[Feature] Support for Modification Time (MFMT) extension (<a href="http://tools.ietf.org/html/draft-somers-ftp-mfxx-04">draft-somers-ftp-mfxx-04</a>) (FTP)</li>
 
 								<li>[Feature] Support for hierarchical directory structure (Mosso)</li>
 
-								<li>[Feature] Added Espresso to the list of supported editors (http://macrabbit.com/espresso/) [<a href="http://trac.cyberduck.ch/ticket/2823">#2823</a>]</li>
+								<li>[Feature] Added Espresso to the list of supported editors (http://macrabbit.com/espresso/) (<a href="http://trac.cyberduck.ch/ticket/2823">#2823</a>)</li>
 
-								<li>[Feature] Display date of transfer [<a href="http://trac.cyberduck.ch/ticket/1462">#1462</a>]</li>
+								<li>[Feature] Display date of transfer (<a href="http://trac.cyberduck.ch/ticket/1462">#1462</a>)</li>
 
-								<li>[Feature] Display percentage transferred [<a href="http://trac.cyberduck.ch/ticket/2618">#2618</a>]</li>
+								<li>[Feature] Display percentage transferred (<a href="http://trac.cyberduck.ch/ticket/2618">#2618</a>)</li>
 
 								<li>[Feature] Option for big sized icons in bookmark list</li>
 
-								<li>[Feature] Drag URL to browser window to open connection [<a href="http://trac.cyberduck.ch/ticket/2326">#2326</a>]</li>
+								<li>[Feature] Drag URL to browser window to open connection (<a href="http://trac.cyberduck.ch/ticket/2326">#2326</a>)</li>
 
-								<li>[Feature] Display realm of HTTP authentication (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/3083">#3083</a>]</li>
+								<li>[Feature] Display realm of HTTP authentication (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/3083">#3083</a>)</li>
 
-								<li>[Bugfix] Update passwords in Keychain [<a href="http://trac.cyberduck.ch/ticket/2984">#2984</a>]</li>
+								<li>[Bugfix] Update passwords in Keychain (<a href="http://trac.cyberduck.ch/ticket/2984">#2984</a>)</li>
 
-								<li>[Bugfix] Only reauthenticate when needed (Mosso) [<a href="http://trac.cyberduck.ch/ticket/2876">#2876</a>]</li>
+								<li>[Bugfix] Only reauthenticate when needed (Mosso) (<a href="http://trac.cyberduck.ch/ticket/2876">#2876</a>)</li>
 
-								<li>[Bugfix] Invalid Origin parameter when creating CloudFront distribution (S3) [<a href="http://trac.cyberduck.ch/ticket/3068">#3068</a>]</li>
+								<li>[Bugfix] Invalid Origin parameter when creating CloudFront distribution (S3) (<a href="http://trac.cyberduck.ch/ticket/3068">#3068</a>)</li>
 
-								<li>[Bugfix] Improve Interoperability (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2974">#2974</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/3076">#3076</a>]</li>
+								<li>[Bugfix] Improve Interoperability (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/2974">#2974</a>, <a href=
+								"http://trac.cyberduck.ch/ticket/3076">#3076</a>)</li>
 
-								<li>[Bugfix] Different recursive permissions for directory and files [<a href="http://trac.cyberduck.ch/ticket/1787">#1787</a>]</li>
+								<li>[Bugfix] Different recursive permissions for directory and files (<a href="http://trac.cyberduck.ch/ticket/1787">#1787</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -754,9 +754,9 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Crash if no default login name is set in Preferences [<a href="http://trac.cyberduck.ch/ticket/2852">#2852</a>]</li>
+								<li>[Bugfix] Crash if no default login name is set in Preferences (<a href="http://trac.cyberduck.ch/ticket/2852">#2852</a>)</li>
 
-								<li>[Bugfix] Upload incompatibility (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2858">#2858</a>]</li>
+								<li>[Bugfix] Upload incompatibility (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/2858">#2858</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -771,13 +771,13 @@
 							<ul>
 								<li>[Feature] Amazon CloudFront Support (S3)</li>
 
-								<li>[Feature] Cloud Files Support (Mosso) [<a href="http://trac.cyberduck.ch/ticket/2745">#2745</a>]</li>
+								<li>[Feature] Cloud Files Support (Mosso) (<a href="http://trac.cyberduck.ch/ticket/2745">#2745</a>)</li>
 
 								<li>[Feature] Pre-configured protocol settings for MobileMe iDisk (WebDAV)</li>
 
-								<li>[Feature] Send arbitrary commands over SSH using the 'Send Command...' interface (SFTP) [<a href="http://trac.cyberduck.ch/ticket/3">#3</a>]</li>
+								<li>[Feature] Send arbitrary commands over SSH using the 'Send Command...' interface (SFTP) (<a href="http://trac.cyberduck.ch/ticket/3">#3</a>)</li>
 
-								<li>[Feature] Archive and unarchive files and folders (ZIP, TAR etc.) (SFTP) [<a href="http://trac.cyberduck.ch/ticket/2376">#2376</a>]</li>
+								<li>[Feature] Archive and unarchive files and folders (ZIP, TAR etc.) (SFTP) (<a href="http://trac.cyberduck.ch/ticket/2376">#2376</a>)</li>
 
 								<li>[Feature] Clickable URL fields</li>
 
@@ -787,23 +787,23 @@
 
 								<li>[Feature] Download folder in Dock bounces once when download finishes (10.5)</li>
 
-								<li>[Feature] Read IdentityFile setting from OpenSSH configuration in ~/.ssh/config (SFTP) [<a href="http://trac.cyberduck.ch/ticket/152">#152</a>]</li>
+								<li>[Feature] Read IdentityFile setting from OpenSSH configuration in ~/.ssh/config (SFTP) (<a href="http://trac.cyberduck.ch/ticket/152">#152</a>)</li>
 
-								<li>[Feature] Default transfer setting for regular expression of skipped files includes GIT and others [<a href="http://trac.cyberduck.ch/ticket/2829">#2829</a>]</li>
+								<li>[Feature] Default transfer setting for regular expression of skipped files includes GIT and others (<a href="http://trac.cyberduck.ch/ticket/2829">#2829</a>)</li>
 
 								<li>[Feature] Added QuickLook button to toolbar configuration</li>
 
 								<li>[Feature] Display Favicon for Web URL if available in bookmark window</li>
 
-								<li>[Feature] NTLM Authentication (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2835">#2835</a>]</li>
+								<li>[Feature] NTLM Authentication (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/2835">#2835</a>)</li>
 
-								<li>[Bugfix] Uploads fail with digest access authentication (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2268">#2268</a>]</li>
+								<li>[Bugfix] Uploads fail with digest access authentication (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/2268">#2268</a>)</li>
 
-								<li>[Bugfix] Microsoft SharePoint interoperability (WebDAV) [<a href="http://trac.cyberduck.ch/ticket/2223">#2223</a>]</li>
+								<li>[Bugfix] Microsoft SharePoint interoperability (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/2223">#2223</a>)</li>
 
-								<li>[Bugfix] Manually sorting bookmarks using drag and drop works for the entire row [<a href="http://trac.cyberduck.ch/ticket/2571">#2571</a>]</li>
+								<li>[Bugfix] Manually sorting bookmarks using drag and drop works for the entire row (<a href="http://trac.cyberduck.ch/ticket/2571">#2571</a>)</li>
 
-								<li>[Bugfix] Passwords stored in non default keychain are ignored [<a href="http://trac.cyberduck.ch/ticket/2001">#2001</a>]</li>
+								<li>[Bugfix] Passwords stored in non default keychain are ignored (<a href="http://trac.cyberduck.ch/ticket/2001">#2001</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -816,11 +816,11 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Arbitrary Crashes [<a href="http://trac.cyberduck.ch/ticket/2142">#2142</a>]</li>
+								<li>[Bugfix] Arbitrary Crashes (<a href="http://trac.cyberduck.ch/ticket/2142">#2142</a>)</li>
 
-								<li>[Bugfix] Symbolic links not parsed properly for some STAT listings (FTP) [<a href="http://trac.cyberduck.ch/ticket/2435">#2435</a>]</li>
+								<li>[Bugfix] Symbolic links not parsed properly for some STAT listings (FTP) (<a href="http://trac.cyberduck.ch/ticket/2435">#2435</a>)</li>
 
-								<li>[Bugfix] Open Web URL fails [<a href="http://trac.cyberduck.ch/ticket/2466">#2466</a>]</li>
+								<li>[Bugfix] Open Web URL fails (<a href="http://trac.cyberduck.ch/ticket/2466">#2466</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -839,33 +839,33 @@
 
 								<li>[Feature] Added transcript (WebDAV)</li>
 
-								<li>[Feature] Support for faster directory listings using STAT command on the control connection (FTP) [<a href="http://trac.cyberduck.ch/ticket/683">#683</a>]</li>
+								<li>[Feature] Support for faster directory listings using STAT command on the control connection (FTP) (<a href="http://trac.cyberduck.ch/ticket/683">#683</a>)</li>
 
-								<li>[Feature] Display bookmark view for new browser window [<a href="http://trac.cyberduck.ch/ticket/2252">#2252</a>]</li>
+								<li>[Feature] Display bookmark view for new browser window (<a href="http://trac.cyberduck.ch/ticket/2252">#2252</a>)</li>
 
-								<li>[Feature] Option in browser context menu to open selected folder in new browser [<a href="http://trac.cyberduck.ch/ticket/2036">#2036</a>]</li>
+								<li>[Feature] Option in browser context menu to open selected folder in new browser (<a href="http://trac.cyberduck.ch/ticket/2036">#2036</a>)</li>
 
-								<li>[Feature] Option in browser context menu to add bookmark for selected folder [<a href="http://trac.cyberduck.ch/ticket/2222">#2222</a>]</li>
+								<li>[Feature] Option in browser context menu to add bookmark for selected folder (<a href="http://trac.cyberduck.ch/ticket/2222">#2222</a>)</li>
 
 								<li>[Feature] 'Add new bookmark' toolbar button</li>
 
-								<li>[Feature] Cannot select private key in login prompt (SSH) [<a href="http://trac.cyberduck.ch/ticket/2221">#2221</a>]</li>
+								<li>[Feature] Cannot select private key in login prompt (SSH) (<a href="http://trac.cyberduck.ch/ticket/2221">#2221</a>)</li>
 
-								<li>[Feature] Authentication with both password and public key (SSH) [<a href="http://trac.cyberduck.ch/ticket/2203">#2203</a>]</li>
+								<li>[Feature] Authentication with both password and public key (SSH) (<a href="http://trac.cyberduck.ch/ticket/2203">#2203</a>)</li>
 
-								<li>[Bugfix] Moving or copying files to another bucket fails (S3) [<a href="http://trac.cyberduck.ch/ticket/2157">#2157</a>]</li>
+								<li>[Bugfix] Moving or copying files to another bucket fails (S3) (<a href="http://trac.cyberduck.ch/ticket/2157">#2157</a>)</li>
 
-								<li>[Bugfix] Folders collapse in outline view when refreshing [<a href="http://trac.cyberduck.ch/ticket/2033">#2033</a>]</li>
+								<li>[Bugfix] Folders collapse in outline view when refreshing (<a href="http://trac.cyberduck.ch/ticket/2033">#2033</a>)</li>
 
-								<li>[Bugfix] Cannot connect with empty password [<a href="http://trac.cyberduck.ch/ticket/2109">#2109</a>]</li>
+								<li>[Bugfix] Cannot connect with empty password (<a href="http://trac.cyberduck.ch/ticket/2109">#2109</a>)</li>
 
-								<li>[Bugfix] Saving when editor exits does not upload edited file [<a href="http://trac.cyberduck.ch/ticket/2120">#2120</a>]</li>
+								<li>[Bugfix] Saving when editor exits does not upload edited file (<a href="http://trac.cyberduck.ch/ticket/2120">#2120</a>)</li>
 
-								<li>[Bugfix] Wrong selection with search filter in Transfer window [<a href="http://trac.cyberduck.ch/ticket/2336">#2336</a>]</li>
+								<li>[Bugfix] Wrong selection with search filter in Transfer window (<a href="http://trac.cyberduck.ch/ticket/2336">#2336</a>)</li>
 
-								<li>[Bugfix] Stop button does not work during countdown to retry transfer [<a href="http://trac.cyberduck.ch/ticket/2121">#2121</a>]</li>
+								<li>[Bugfix] Stop button does not work during countdown to retry transfer (<a href="http://trac.cyberduck.ch/ticket/2121">#2121</a>)</li>
 
-								<li>[Bugfix] Transfers fail using AppleScript (SFTP) [<a href="http://trac.cyberduck.ch/ticket/2244">#2244</a>]</li>
+								<li>[Bugfix] Transfers fail using AppleScript (SFTP) (<a href="http://trac.cyberduck.ch/ticket/2244">#2244</a>)</li>
 
 								<li>[Bugfix] Update Growl.framework to 1.1.4</li>
 							</ul>
@@ -880,19 +880,19 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Added Taco HTML Edit to the list of supported editors (<a href="http://tacosw.com/htmledit/beta.php">http://tacosw.com/htmledit/beta.php</a>) [<a href=
-								"http://trac.cyberduck.ch/ticket/188">#188</a>]</li>
+								<li>[Feature] Added Taco HTML Edit to the list of supported editors (<a href="http://tacosw.com/htmledit/beta.php">http://tacosw.com/htmledit/beta.php</a>) (<a href=
+								"http://trac.cyberduck.ch/ticket/188">#188</a>)</li>
 
-								<li>[Bugfix] Cannot connect to servers with unknown host key [<a href="http://trac.cyberduck.ch/ticket/2044">#2044</a>]</li>
+								<li>[Bugfix] Cannot connect to servers with unknown host key (<a href="http://trac.cyberduck.ch/ticket/2044">#2044</a>)</li>
 
-								<li>[Bugfix] Cannot edit filename in Info panel [<a href="http://trac.cyberduck.ch/ticket/2049">#2049</a>]</li>
+								<li>[Bugfix] Cannot edit filename in Info panel (<a href="http://trac.cyberduck.ch/ticket/2049">#2049</a>)</li>
 
-								<li>[Bugfix] External editor failures [<a href="http://trac.cyberduck.ch/ticket/2041">#2041</a>, <a href="http://trac.cyberduck.ch/ticket/2039">#2039</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/2052">#2052</a>, <a href="http://trac.cyberduck.ch/ticket/2058">#2058</a>]</li>
+								<li>[Bugfix] External editor failures (<a href="http://trac.cyberduck.ch/ticket/2041">#2041</a>, <a href="http://trac.cyberduck.ch/ticket/2039">#2039</a>, <a href=
+								"http://trac.cyberduck.ch/ticket/2052">#2052</a>, <a href="http://trac.cyberduck.ch/ticket/2058">#2058</a>)</li>
 
 								<li>[Bugfix] Missing resume option in transfer prompt</li>
 
-								<li>[Bugfix] Removed keep connection active feature. [<a href="http://trac.cyberduck.ch/ticket/2057">#2057</a>]</li>
+								<li>[Bugfix] Removed keep connection active feature. (<a href="http://trac.cyberduck.ch/ticket/2057">#2057</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -909,7 +909,7 @@
 
 								<li>[Feature] Support for copying files (WebDAV)</li>
 
-								<li>[Bugfix] Transfers larger than 2GB fail (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1235">#1235</a>]</li>
+								<li>[Bugfix] Transfers larger than 2GB fail (SFTP) (<a href="http://trac.cyberduck.ch/ticket/1235">#1235</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -922,7 +922,7 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Activity Window [<a href="http://trac.cyberduck.ch/ticket/">#1250</a>]</li>
+								<li>[Feature] Activity Window (<a href="http://trac.cyberduck.ch/ticket/">#1250</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -937,11 +937,11 @@
 							<ul>
 								<li>[Localize] Latvian Localization</li>
 
-								<li>[Feature] Quick Look files in browser [<a href="http://trac.cyberduck.ch/ticket/1580">#1580</a>]</li>
+								<li>[Feature] Quick Look files in browser (<a href="http://trac.cyberduck.ch/ticket/1580">#1580</a>)</li>
 
-								<li>[Feature] Set corresponding Web URL in bookmark. <i>Open in Browser</i> toolbar button [<a href="http://trac.cyberduck.ch/ticket/1098">#1098</a>]</li>
+								<li>[Feature] Set corresponding Web URL in bookmark. <i>Open in Browser</i> toolbar button (<a href="http://trac.cyberduck.ch/ticket/1098">#1098</a>)</li>
 
-								<li>[Bugfix] APPE command broken (FTP) [<a href="http://trac.cyberduck.ch/ticket/1915">#1915</a>]</li>
+								<li>[Bugfix] APPE command broken (FTP) (<a href="http://trac.cyberduck.ch/ticket/1915">#1915</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -956,21 +956,21 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Amazon Simple Storage Service (S3) support (http://aws.amazon.com/s3) [<a href="http://trac.cyberduck.ch/ticket/1725">#1725</a>]</li>
+								<li>[Feature] Amazon Simple Storage Service (S3) support (http://aws.amazon.com/s3) (<a href="http://trac.cyberduck.ch/ticket/1725">#1725</a>)</li>
 
-								<li>[Feature] WebDAV protocol support [<a href="http://trac.cyberduck.ch/ticket/464">#464</a>]</li>
+								<li>[Feature] WebDAV protocol support (<a href="http://trac.cyberduck.ch/ticket/464">#464</a>)</li>
 
-								<li>[Feature] Search bookmarks [<a href="http://trac.cyberduck.ch/ticket/916">#916</a>]</li>
+								<li>[Feature] Search bookmarks (<a href="http://trac.cyberduck.ch/ticket/916">#916</a>)</li>
 
 								<li>[Feature] Bookmark editor inside browser window instead of drawer</li>
 
 								<li>[Feature] Read trust settings for certificates from Keychain</li>
 
-								<li>[Feature] Different editors for different file types [<a href="http://trac.cyberduck.ch/ticket/146">#146</a>]</li>
+								<li>[Feature] Different editors for different file types (<a href="http://trac.cyberduck.ch/ticket/146">#146</a>)</li>
 
-								<li>[Feature] PRET (PRE Transfer) command support for distributed FTP (http://www.drftpd.org) [<a href="http://trac.cyberduck.ch/ticket/684">#684</a>]</li>
+								<li>[Feature] PRET (PRE Transfer) command support for distributed FTP (http://www.drftpd.org) (<a href="http://trac.cyberduck.ch/ticket/684">#684</a>)</li>
 
-								<li>[Feature] Skip option not available in transfer prompt [<a href="http://trac.cyberduck.ch/ticket/1159">#1159</a>]</li>
+								<li>[Feature] Skip option not available in transfer prompt (<a href="http://trac.cyberduck.ch/ticket/1159">#1159</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -983,11 +983,11 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Added ForgEdit to the list of supported editors (http://forgedit.com) [<a href="http://trac.cyberduck.ch/ticket/1779">#1779</a>]</li>
+								<li>[Feature] Added ForgEdit to the list of supported editors (http://forgedit.com) (<a href="http://trac.cyberduck.ch/ticket/1779">#1779</a>)</li>
 
-								<li>[Bugfix] Downloads no longer keep modified date [<a href="http://trac.cyberduck.ch/ticket/1756">#1756</a>]</li>
+								<li>[Bugfix] Downloads no longer keep modified date (<a href="http://trac.cyberduck.ch/ticket/1756">#1756</a>)</li>
 
-								<li>[Bugfix] Leap year bug wen parsing date without year [<a href="http://trac.cyberduck.ch/ticket/1813">#1813</a>]</li>
+								<li>[Bugfix] Leap year bug wen parsing date without year (<a href="http://trac.cyberduck.ch/ticket/1813">#1813</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1000,15 +1000,15 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Crash when dismissing sheet attached to window [<a href="http://trac.cyberduck.ch/ticket/1616">#1616</a>]</li>
+								<li>[Bugfix] Crash when dismissing sheet attached to window (<a href="http://trac.cyberduck.ch/ticket/1616">#1616</a>)</li>
 
-								<li>[Bugfix] Resolving Bonjour names blocks user interface [<a href="http://trac.cyberduck.ch/ticket/1657">#1657</a>]</li>
+								<li>[Bugfix] Resolving Bonjour names blocks user interface (<a href="http://trac.cyberduck.ch/ticket/1657">#1657</a>)</li>
 
 								<li>[Bugfix] Closing browser window during connection attempt blocks user interface</li>
 
-								<li>[Bugfix] Downloading to default download location when dragging folder to Finder [<a href="http://trac.cyberduck.ch/ticket/1611">#1611</a>]</li>
+								<li>[Bugfix] Downloading to default download location when dragging folder to Finder (<a href="http://trac.cyberduck.ch/ticket/1611">#1611</a>)</li>
 
-								<li>[Feature] Add group ownership as optional browser column [<a href="http://trac.cyberduck.ch/ticket/1590">#1590</a>]</li>
+								<li>[Feature] Add group ownership as optional browser column (<a href="http://trac.cyberduck.ch/ticket/1590">#1590</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1023,24 +1023,24 @@
 							<ul>
 								<li>[Feature] Log Drawer in browser and transfer window</li>
 
-								<li>[Feature] Toolbar button to open Terminal.app SSH session in current working directory (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1508">#1508</a>]</li>
+								<li>[Feature] Toolbar button to open Terminal.app SSH session in current working directory (SFTP) (<a href="http://trac.cyberduck.ch/ticket/1508">#1508</a>)</li>
 
-								<li>[Feature] Added MacVim to the list of supported editors (<a href="http://code.google.com/p/macvim/">http://code.google.com/p/macvim/</a>) [<a href=
-								"http://trac.cyberduck.ch/ticket/1322">#1322</a>]</li>
+								<li>[Feature] Added MacVim to the list of supported editors (<a href="http://code.google.com/p/macvim/">http://code.google.com/p/macvim/</a>) (<a href=
+								"http://trac.cyberduck.ch/ticket/1322">#1322</a>)</li>
 
-								<li>[Feature] Custom icon for executable files [<a href="http://trac.cyberduck.ch/ticket/945">#945</a>]</li>
+								<li>[Feature] Custom icon for executable files (<a href="http://trac.cyberduck.ch/ticket/945">#945</a>)</li>
 
-								<li>[Bugfix] Frequent crashes [<a href="http://trac.cyberduck.ch/ticket/1401">#1401</a>, <a href="http://trac.cyberduck.ch/ticket/1409">#1409</a>]</li>
+								<li>[Bugfix] Frequent crashes (<a href="http://trac.cyberduck.ch/ticket/1401">#1401</a>, <a href="http://trac.cyberduck.ch/ticket/1409">#1409</a>)</li>
 
-								<li>[Bugfix] Does not change to correct directory when using a bookmark to the same server [<a href="http://trac.cyberduck.ch/ticket/1411">#1411</a>]</li>
+								<li>[Bugfix] Does not change to correct directory when using a bookmark to the same server (<a href="http://trac.cyberduck.ch/ticket/1411">#1411</a>)</li>
 
-								<li>[Bugfix] Preserve leading and trailing whitespace when parsing filenames (FTP) [<a href="http://trac.cyberduck.ch/ticket/1381">#1381</a>]</li>
+								<li>[Bugfix] Preserve leading and trailing whitespace when parsing filenames (FTP) (<a href="http://trac.cyberduck.ch/ticket/1381">#1381</a>)</li>
 
-								<li>[Bugfix] Directory parser compatibility with Webstar Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1302">#1302</a>]</li>
+								<li>[Bugfix] Directory parser compatibility with Webstar Server (FTP) (<a href="http://trac.cyberduck.ch/ticket/1302">#1302</a>)</li>
 
-								<li>[Bugfix] Directory parser compatibility with Freebox Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1258">#1258</a>]</li>
+								<li>[Bugfix] Directory parser compatibility with Freebox Server (FTP) (<a href="http://trac.cyberduck.ch/ticket/1258">#1258</a>)</li>
 
-								<li>[Bugfix] Directory parser compatibility with Trellix Server (FTP) [<a href="http://trac.cyberduck.ch/ticket/1213">#1213</a>]</li>
+								<li>[Bugfix] Directory parser compatibility with Trellix Server (FTP) (<a href="http://trac.cyberduck.ch/ticket/1213">#1213</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1053,26 +1053,26 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Show transfer progress when using browser session [<a href="http://trac.cyberduck.ch/ticket/1313">#1313</a>]</li>
+								<li>[Feature] Show transfer progress when using browser session (<a href="http://trac.cyberduck.ch/ticket/1313">#1313</a>)</li>
 
-								<li>[Feature] Accept relative paths in bookmark setting [<a href="http://trac.cyberduck.ch/ticket/1167">#1167</a>]</li>
+								<li>[Feature] Accept relative paths in bookmark setting (<a href="http://trac.cyberduck.ch/ticket/1167">#1167</a>)</li>
 
-								<li>[Feature] Added MacVim to the list of supported editors (http://slashpunt.org/vim/) [<a href="http://trac.cyberduck.ch/ticket/1322">#1322</a>]</li>
+								<li>[Feature] Added MacVim to the list of supported editors (http://slashpunt.org/vim/) (<a href="http://trac.cyberduck.ch/ticket/1322">#1322</a>)</li>
 
 								<li>[Feature] Ugly folder icons rendered (10.5)</li>
 
-								<li>[Feature] Back and forward history menu for browser navigation buttons [<a href="http://trac.cyberduck.ch/ticket/1080">#1080</a>]</li>
+								<li>[Feature] Back and forward history menu for browser navigation buttons (<a href="http://trac.cyberduck.ch/ticket/1080">#1080</a>)</li>
 
-								<li>[Bugfix] Writing corrupted entries to the Keychain (10.5) [<a href="http://trac.cyberduck.ch/ticket/1354">#1354</a>]<br />
+								<li>[Bugfix] Writing corrupted entries to the Keychain (10.5) (<a href="http://trac.cyberduck.ch/ticket/1354">#1354</a>)<br />
 								<strong>Warning! Due to this bug you may have to reenter your passwords the first time connecting to each server</strong></li>
 
-								<li>[Bugfix] Cannot drag files to working directory when there is no space left [<a href="http://trac.cyberduck.ch/ticket/60">#60</a>]</li>
+								<li>[Bugfix] Cannot drag files to working directory when there is no space left (<a href="http://trac.cyberduck.ch/ticket/60">#60</a>)</li>
 
-								<li>[Bugfix] Bookmarks drawer remembers width [<a href="http://trac.cyberduck.ch/ticket/371">#371</a>]</li>
+								<li>[Bugfix] Bookmarks drawer remembers width (<a href="http://trac.cyberduck.ch/ticket/371">#371</a>)</li>
 
-								<li>[Bugfix] Crashes after application launch (10.3.9) [<a href="http://trac.cyberduck.ch/ticket/1339">#1339</a>]</li>
+								<li>[Bugfix] Crashes after application launch (10.3.9) (<a href="http://trac.cyberduck.ch/ticket/1339">#1339</a>)</li>
 
-								<li>[Bugfix] Downloading multiple files with same name in outline hierarchy [<a href="http://trac.cyberduck.ch/ticket/1400">#1400</a>]</li>
+								<li>[Bugfix] Downloading multiple files with same name in outline hierarchy (<a href="http://trac.cyberduck.ch/ticket/1400">#1400</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1087,13 +1087,13 @@
 							<ul>
 								<li>[Feature] Application code is signed (10.5)</li>
 
-								<li>[Bugfix] Saving file in external editor does not cause upload (10.5) [<a href="http://trac.cyberduck.ch/ticket/1244">#1244</a>]</li>
+								<li>[Bugfix] Saving file in external editor does not cause upload (10.5) (<a href="http://trac.cyberduck.ch/ticket/1244">#1244</a>)</li>
 
-								<li>[Bugfix] Login failure with correct credentials [<a href="http://trac.cyberduck.ch/ticket/1231">#1231</a>]</li>
+								<li>[Bugfix] Login failure with correct credentials (<a href="http://trac.cyberduck.ch/ticket/1231">#1231</a>)</li>
 
-								<li>[Bugfix] Failure to list directory on some servers (SFTP) [<a href="http://trac.cyberduck.ch/ticket/1170">#1170</a>]</li>
+								<li>[Bugfix] Failure to list directory on some servers (SFTP) (<a href="http://trac.cyberduck.ch/ticket/1170">#1170</a>)</li>
 
-								<li>[Bugfix] Transfers fails with punctuation characters in path (SCP) [<a href="http://trac.cyberduck.ch/ticket/1265">#1265</a>]</li>
+								<li>[Bugfix] Transfers fails with punctuation characters in path (SCP) (<a href="http://trac.cyberduck.ch/ticket/1265">#1265</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1106,27 +1106,27 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Using Ganymed SSH2 library [<a href="http://trac.cyberduck.ch/ticket/185">#185</a>]</li>
+								<li>[Feature] Using Ganymed SSH2 library (<a href="http://trac.cyberduck.ch/ticket/185">#185</a>)</li>
 
-								<li>[Feature] Support for SCP transfers [<a href="http://trac.cyberduck.ch/ticket/1043">#1043]</a></li>
+								<li>[Feature] Support for SCP transfers (<a href="http://trac.cyberduck.ch/ticket/1043">#1043]</a></li>
 
-								<li>[Feature] Queuing file transfers [<a href="http://trac.cyberduck.ch/ticket/986">#986</a>]</li>
+								<li>[Feature] Queuing file transfers (<a href="http://trac.cyberduck.ch/ticket/986">#986</a>)</li>
 
-								<li>[Feature] Automatic retry of failed network operations [<a href="http://trac.cyberduck.ch/ticket/783">#783</a>]</li>
+								<li>[Feature] Automatic retry of failed network operations (<a href="http://trac.cyberduck.ch/ticket/783">#783</a>)</li>
 
-								<li>[Feature] Limit available bandwidth for transfers [<a href="http://trac.cyberduck.ch/ticket/48">#48</a>]</li>
+								<li>[Feature] Limit available bandwidth for transfers (<a href="http://trac.cyberduck.ch/ticket/48">#48</a>)</li>
 
-								<li>[Feature] Browse folder hierarchy in overwrite warning dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
+								<li>[Feature] Browse folder hierarchy in overwrite warning dialog (<a href="http://trac.cyberduck.ch/ticket/18">#18</a>)</li>
 
-								<li>[Feature] Browse folder hierarchy in synchronisation dialog [<a href="http://trac.cyberduck.ch/ticket/18">#18</a>]</li>
+								<li>[Feature] Browse folder hierarchy in synchronisation dialog (<a href="http://trac.cyberduck.ch/ticket/18">#18</a>)</li>
 
 								<li>[Feature] Use small icons in the bookmark drawer (#--)</li>
 
-								<li>[Feature] Set the default protocol helper application for FTP and SFTP URLs [<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>]</li>
+								<li>[Feature] Set the default protocol helper application for FTP and SFTP URLs (<a href="http://trac.cyberduck.ch/ticket/1049">#1049</a>)</li>
 
-								<li>[Feature] Setting default permissions for folders [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
+								<li>[Feature] Setting default permissions for folders (<a href="http://trac.cyberduck.ch/ticket/77">#77</a>)</li>
 
-								<li>[Feature] Notes for bookmarks [<a href="http://trac.cyberduck.ch/ticket/67">#67</a>]</li>
+								<li>[Feature] Notes for bookmarks (<a href="http://trac.cyberduck.ch/ticket/67">#67</a>)</li>
 
 								<li>[Feature] Use system setting for connect mode (FTP)<br />
 								<strong>Warning! Make sure your setting in <i>System Preferences → Network → Use Passive FTP Mode (PASV)</i> is checked to get the same default setting as in previous
@@ -1136,13 +1136,13 @@
 
 								<li>[Feature] Create known hosts file if missing (SFTP)</li>
 
-								<li>[Bugfix] Improvements to the synchronization dialog [<a href="http://trac.cyberduck.ch/ticket/1189">#1189</a>]</li>
+								<li>[Bugfix] Improvements to the synchronization dialog (<a href="http://trac.cyberduck.ch/ticket/1189">#1189</a>)</li>
 
 								<li>[Bugfix] Don't use SOCKS proxy if hostname is excluded in system preferences</li>
 
-								<li>[Bugfix] Resolve Alias files to upload [<a href="http://trac.cyberduck.ch/ticket/859">#859</a>]</li>
+								<li>[Bugfix] Resolve Alias files to upload (<a href="http://trac.cyberduck.ch/ticket/859">#859</a>)</li>
 
-								<li>[Bugfix] Subsequent type-ahead selection misbehaving [<a href="http://trac.cyberduck.ch/ticket/896">#896</a>]</li>
+								<li>[Bugfix] Subsequent type-ahead selection misbehaving (<a href="http://trac.cyberduck.ch/ticket/896">#896</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1156,27 +1156,27 @@
 						<td>
 							<ul>
 								<li>[Bugfix] Problem parsing PASV response from some servers (FTP) <a href="http://trac.cyberduck.ch/ticket/779">#779</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/86">#869</a>]</li>
+								"http://trac.cyberduck.ch/ticket/86">#869</a>)</li>
 
-								<li>[Bugfix] Stalls when connection is interrupted during DNS lookup <a href="http://trac.cyberduck.ch/ticket/960">#960</a>]</li>
+								<li>[Bugfix] Stalls when connection is interrupted during DNS lookup <a href="http://trac.cyberduck.ch/ticket/960">#960</a>)</li>
 
-								<li>[Bugfix] Improved sorting in 'Kind' browser column <a href="http://trac.cyberduck.ch/ticket/993">#993</a>]</li>
+								<li>[Bugfix] Improved sorting in 'Kind' browser column <a href="http://trac.cyberduck.ch/ticket/993">#993</a>)</li>
 
-								<li>[Bugfix] Renaming files using Info panel causes repeated renaming <a href="http://trac.cyberduck.ch/ticket/1005">#1005</a>]</li>
+								<li>[Bugfix] Renaming files using Info panel causes repeated renaming <a href="http://trac.cyberduck.ch/ticket/1005">#1005</a>)</li>
 
-								<li>[Bugfix] Uploading folders interrupts file transfer (SFTP) <a href="http://trac.cyberduck.ch/ticket/1001">#1001</a>]</li>
+								<li>[Bugfix] Uploading folders interrupts file transfer (SFTP) <a href="http://trac.cyberduck.ch/ticket/1001">#1001</a>)</li>
 
-								<li>[Bugfix] Preference for auto-open delay for spring-loaded folders not saved <a href="http://trac.cyberduck.ch/ticket/633">#633</a>]</li>
+								<li>[Bugfix] Preference for auto-open delay for spring-loaded folders not saved <a href="http://trac.cyberduck.ch/ticket/633">#633</a>)</li>
 
-								<li>[Bugfix] Preference to open new browser window on launch not used <a href="http://trac.cyberduck.ch/ticket/997">#997</a>]</li>
+								<li>[Bugfix] Preference to open new browser window on launch not used <a href="http://trac.cyberduck.ch/ticket/997">#997</a>)</li>
 
-								<li>[Bugfix] Symbolic links on local filesystem not handled properly [<a href="http://trac.cyberduck.ch/ticket/995">#995</a>]</li>
+								<li>[Bugfix] Symbolic links on local filesystem not handled properly (<a href="http://trac.cyberduck.ch/ticket/995">#995</a>)</li>
 
 								<li>[Bugfix] Send creation time of file with UTIME (#--)</li>
 
-								<li>[Feature] Clear command in History menu [<a href="http://trac.cyberduck.ch/ticket/648">#648</a>]</li>
+								<li>[Feature] Clear command in History menu (<a href="http://trac.cyberduck.ch/ticket/648">#648</a>)</li>
 
-								<li>[Feature] Preference to exclude files from transfers using regular expression [<a href="http://trac.cyberduck.ch/ticket/511">#511</a>]</li>
+								<li>[Feature] Preference to exclude files from transfers using regular expression (<a href="http://trac.cyberduck.ch/ticket/511">#511</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1189,17 +1189,17 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Option to use single connection for browser and transfers [<a href="http://trac.cyberduck.ch/ticket/57">#57</a>]</li>
+								<li>[Feature] Option to use single connection for browser and transfers (<a href="http://trac.cyberduck.ch/ticket/57">#57</a>)</li>
 
-								<li>[Feature] Option to remember open browser windows and reconnect upon relaunching the application [<a href="http://trac.cyberduck.ch/ticket/59">#59</a>]</li>
+								<li>[Feature] Option to remember open browser windows and reconnect upon relaunching the application (<a href="http://trac.cyberduck.ch/ticket/59">#59</a>)</li>
 
-								<li>[Feature] Delay for spring-loaded folders can be set [<a href="http://trac.cyberduck.ch/ticket/633">#633</a>]</li>
+								<li>[Feature] Delay for spring-loaded folders can be set (<a href="http://trac.cyberduck.ch/ticket/633">#633</a>)</li>
 
-								<li>[Feature] Calculate size of directory [<a href="http://trac.cyberduck.ch/ticket/5">#5</a>]</li>
+								<li>[Feature] Calculate size of directory (<a href="http://trac.cyberduck.ch/ticket/5">#5</a>)</li>
 
-								<li>[Feature] Duplicate files using option-drag [<a href="http://trac.cyberduck.ch/ticket/150">#150</a>]</li>
+								<li>[Feature] Duplicate files using option-drag (<a href="http://trac.cyberduck.ch/ticket/150">#150</a>)</li>
 
-								<li>[Feature] Per bookmark setting for download folder [<a href="http://trac.cyberduck.ch/ticket/158">#158</a>]</li>
+								<li>[Feature] Per bookmark setting for download folder (<a href="http://trac.cyberduck.ch/ticket/158">#158</a>)</li>
 
 								<li>[Feature] Per bookmark setting to use single connection for browser and transfers (#--)</li>
 
@@ -1209,15 +1209,15 @@
 
 								<li>[Bugfix] Disconnecting in the background not blocking the user interface (#--)</li>
 
-								<li>[Bugfix] Folders marked as inaccessible after timeouts and cannot be opened after reconnecting [<a href="http://trac.cyberduck.ch/ticket/611">#611</a>]</li>
+								<li>[Bugfix] Folders marked as inaccessible after timeouts and cannot be opened after reconnecting (<a href="http://trac.cyberduck.ch/ticket/611">#611</a>)</li>
 
 								<li>[Bugfix] Applescript/Dashboard should not use seperate session for transfers (#--)</li>
 
-								<li>[Bugfix] Cannot write to group writable files (SFTP) [<a href="http://trac.cyberduck.ch/ticket/173">#173</a>]</li>
+								<li>[Bugfix] Cannot write to group writable files (SFTP) (<a href="http://trac.cyberduck.ch/ticket/173">#173</a>)</li>
 
-								<li>[Bugfix] File length is set to zero if updating permission fails (SFTP) [<a href="http://trac.cyberduck.ch/ticket/974">#974</a>]</li>
+								<li>[Bugfix] File length is set to zero if updating permission fails (SFTP) (<a href="http://trac.cyberduck.ch/ticket/974">#974</a>)</li>
 
-								<li>[Bugfix] Directory listing is not refreshed when upload is completed after "Try Again" [<a href="http://trac.cyberduck.ch/ticket/982">#982</a>]</li>
+								<li>[Bugfix] Directory listing is not refreshed when upload is completed after "Try Again" (<a href="http://trac.cyberduck.ch/ticket/982">#982</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1253,33 +1253,33 @@
 
 						<td>
 							<ul>
-								<li>[Feature] Don't block user interface when working in browser. All potentially lengthy operations are now performed in the background [<a href=
-								"http://trac.cyberduck.ch/ticket/921">#921</a>]</li>
+								<li>[Feature] Don't block user interface when working in browser. All potentially lengthy operations are now performed in the background (<a href=
+								"http://trac.cyberduck.ch/ticket/921">#921</a>)</li>
 
-								<li>[Feature] All (possibly stalled) operations in progress can be interrupted [<a href="http://trac.cyberduck.ch/ticket/943">#943</a>]</li>
+								<li>[Feature] All (possibly stalled) operations in progress can be interrupted (<a href="http://trac.cyberduck.ch/ticket/943">#943</a>)</li>
 
 								<li>[Feature] Improved error handling (#--)</li>
 
 								<li>[Feature] Failed network operations can be repeated (#--)</li>
 
-								<li>[Feature] A default bookmark can be configured [<a href="http://trac.cyberduck.ch/ticket/915">#915</a>]</li>
+								<li>[Feature] A default bookmark can be configured (<a href="http://trac.cyberduck.ch/ticket/915">#915</a>)</li>
 
-								<li>[Feature] Option to disable spring-loaded folders [<a href="http://trac.cyberduck.ch/ticket/98">#98</a>]</li>
+								<li>[Feature] Option to disable spring-loaded folders (<a href="http://trac.cyberduck.ch/ticket/98">#98</a>)</li>
 
-								<li>[Feature] Individual settings how to treat duplicate files on uploads and downloads [<a href="http://trac.cyberduck.ch/ticket/500">#500</a>]</li>
+								<li>[Feature] Individual settings how to treat duplicate files on uploads and downloads (<a href="http://trac.cyberduck.ch/ticket/500">#500</a>)</li>
 
-								<li>[Feature] Callback to alternate connect mode upon failure (FTP) [<a href="http://trac.cyberduck.ch/ticket/83">#83</a>]</li>
+								<li>[Feature] Callback to alternate connect mode upon failure (FTP) (<a href="http://trac.cyberduck.ch/ticket/83">#83</a>)</li>
 
-								<li>[Feature] Add 'Download To...' menu option to download multiple files into designated, non-default directory [<a href=
-								"http://trac.cyberduck.ch/ticket/909">#909</a>]</li>
+								<li>[Feature] Add 'Download To...' menu option to download multiple files into designated, non-default directory (<a href=
+								"http://trac.cyberduck.ch/ticket/909">#909</a>)</li>
 
-								<li>[Feature] The bottom of the browser window shows the security status [<a href="http://trac.cyberduck.ch/ticket/9">#9</a>]</li>
+								<li>[Feature] The bottom of the browser window shows the security status (<a href="http://trac.cyberduck.ch/ticket/9">#9</a>)</li>
 
-								<li>[Feature] Improvements to the AppleScript dictionary [<a href="http://trac.cyberduck.ch/ticket/737">#737</a>], [<a href=
-								"http://trac.cyberduck.ch/ticket/918">#918</a>], [<a href="http://trac.cyberduck.ch/ticket/878">#878</a>], [<a href=
-								"http://trac.cyberduck.ch/ticket/922">#922</a>]</li>
+								<li>[Feature] Improvements to the AppleScript dictionary (<a href="http://trac.cyberduck.ch/ticket/737">#737</a>), (<a href=
+								"http://trac.cyberduck.ch/ticket/918">#918</a>), (<a href="http://trac.cyberduck.ch/ticket/878">#878</a>), (<a href=
+								"http://trac.cyberduck.ch/ticket/922">#922</a>)</li>
 
-								<li>[Feature] When duplicating files, propose a filename containing the current date and time [<a href="http://trac.cyberduck.ch/ticket/912">#912</a>]</li>
+								<li>[Feature] When duplicating files, propose a filename containing the current date and time (<a href="http://trac.cyberduck.ch/ticket/912">#912</a>)</li>
 
 								<li>[Feature] Added JarInspector to the list of supported editors (http://www.cgerdes.com) (#--)</li>
 
@@ -1296,17 +1296,17 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Crash when typing hostname in connection dialog for some users [<a href="http://trac.cyberduck.ch/ticket/711">#711</a>]</li>
+								<li>[Bugfix] Crash when typing hostname in connection dialog for some users (<a href="http://trac.cyberduck.ch/ticket/711">#711</a>)</li>
 
-								<li>[Bugfix] Type-ahead selection not working for non-alphanumeric characters [<a href="http://trac.cyberduck.ch/ticket/271">#271</a>]</li>
+								<li>[Bugfix] Type-ahead selection not working for non-alphanumeric characters (<a href="http://trac.cyberduck.ch/ticket/271">#271</a>)</li>
 
-								<li>[Bugfix] Control click discards multiple selection [<a href="http://trac.cyberduck.ch/ticket/649">#649</a>]</li>
+								<li>[Bugfix] Control click discards multiple selection (<a href="http://trac.cyberduck.ch/ticket/649">#649</a>)</li>
 
-								<li>[Bugfix] Timeout too slow giving I/O errors on slow connections [<a href="http://trac.cyberduck.ch/ticket/714">#714</a>]</li>
+								<li>[Bugfix] Timeout too slow giving I/O errors on slow connections (<a href="http://trac.cyberduck.ch/ticket/714">#714</a>)</li>
 
-								<li>[Bugfix] Passwords stored in Keychain not accessible by other applications [<a href="http://trac.cyberduck.ch/ticket/708">#708</a>]</li>
+								<li>[Bugfix] Passwords stored in Keychain not accessible by other applications (<a href="http://trac.cyberduck.ch/ticket/708">#708</a>)</li>
 
-								<li>[Bugfix] FTP URLs passed by another application pointing at folders fail to open [<a href="http://trac.cyberduck.ch/ticket/704">#704</a>]</li>
+								<li>[Bugfix] FTP URLs passed by another application pointing at folders fail to open (<a href="http://trac.cyberduck.ch/ticket/704">#704</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1319,21 +1319,21 @@
 
 						<td>
 							<ul>
-								<li>[Bugfix] Crash or spinning beachball after upload [<a href="http://trac.cyberduck.ch/ticket/504">#504</a>]</li>
+								<li>[Bugfix] Crash or spinning beachball after upload (<a href="http://trac.cyberduck.ch/ticket/504">#504</a>)</li>
 
-								<li>[Bugfix] Active mode connections broken (FTP) [<a href="http://trac.cyberduck.ch/ticket/450">#450</a></li>
+								<li>[Bugfix] Active mode connections broken (FTP) (<a href="http://trac.cyberduck.ch/ticket/450">#450</a></li>
 
-								<li>[Bugfix] Removed graphical error messages for the sake of simplicity; displayed in log drawer instead [<a href="http://trac.cyberduck.ch/ticket/524">#524</a>,
-								<a href="http://trac.cyberduck.ch/ticket/580">#580</a>]</li>
+								<li>[Bugfix] Removed graphical error messages for the sake of simplicity; displayed in log drawer instead (<a href="http://trac.cyberduck.ch/ticket/524">#524</a>,
+								<a href="http://trac.cyberduck.ch/ticket/580">#580</a>)</li>
 
-								<li>[Bugfix] Hostname reachability check slow and blocking user interface [<a href="http://trac.cyberduck.ch/ticket/572">#572</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/575">#575</a>]</li>
+								<li>[Bugfix] Hostname reachability check slow and blocking user interface (<a href="http://trac.cyberduck.ch/ticket/572">#572</a>, <a href=
+								"http://trac.cyberduck.ch/ticket/575">#575</a>)</li>
 
-								<li>[Bugfix] Fails to delete folders recursively in some cases [<a href="http://trac.cyberduck.ch/ticket/533">#533</a>]</li>
+								<li>[Bugfix] Fails to delete folders recursively in some cases (<a href="http://trac.cyberduck.ch/ticket/533">#533</a>)</li>
 
-								<li>[Bugfix] Unilingual builds broken [<a href="http://trac.cyberduck.ch/ticket/436">#436</a>]</li>
+								<li>[Bugfix] Unilingual builds broken (<a href="http://trac.cyberduck.ch/ticket/436">#436</a>)</li>
 
-								<li>[Bugfix] Cannot delete symbolic links [<a href="http://trac.cyberduck.ch/ticket/616">#616</a>]</li>
+								<li>[Bugfix] Cannot delete symbolic links (<a href="http://trac.cyberduck.ch/ticket/616">#616</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1348,46 +1348,46 @@
 							<ul>
 								<li>[Localize] Turkish Localization</li>
 
-								<li>[Feature] Automatic software udpate with Sparkle.framework (Thanks to Andy Matuschak!) [<a href="http://trac.cyberduck.ch/ticket/300">#300</a>]</li>
+								<li>[Feature] Automatic software udpate with Sparkle.framework (Thanks to Andy Matuschak!) (<a href="http://trac.cyberduck.ch/ticket/300">#300</a>)</li>
 
 								<li>[Feature] Dashboard Widget included (Thanks to Claudio Procida!)</li>
 
 								<li>[Feature] Marking write-only and non-accessible directories with special icon as in Finder.app</li>
 
-								<li>[Feature] Reintroduced transcript drawer in browser window [<a href="http://trac.cyberduck.ch/ticket/104">#104</a>]</li>
+								<li>[Feature] Reintroduced transcript drawer in browser window (<a href="http://trac.cyberduck.ch/ticket/104">#104</a>)</li>
 
-								<li>[Feature] Added transcript drawer to transfer window [<a href="http://trac.cyberduck.ch/ticket/375">#375</a>]</li>
+								<li>[Feature] Added transcript drawer to transfer window (<a href="http://trac.cyberduck.ch/ticket/375">#375</a>)</li>
 
 								<li>[Feature] Option to use Network Diagnostics upon failed connections</li>
 
-								<li>[Feature] New 'Download failed' and 'Upload failed' Growl notifications [<a href="http://trac.cyberduck.ch/ticket/362">#362</a>]</li>
+								<li>[Feature] New 'Download failed' and 'Upload failed' Growl notifications (<a href="http://trac.cyberduck.ch/ticket/362">#362</a>)</li>
 
 								<li>[Feature] Display alert icon in connection dialog if server name cannot be resolved</li>
 
-								<li>[Feature] Indicate estimated remaining time left for transfers [<a href="http://trac.cyberduck.ch/ticket/43">#43</a>]</li>
+								<li>[Feature] Indicate estimated remaining time left for transfers (<a href="http://trac.cyberduck.ch/ticket/43">#43</a>)</li>
 
 								<li>[Feature] New non-blocking alert boxes replace modal sheets</li>
 
-								<li>[Bugfix] Stalled connection and file transfer attempts can be interrupted [<a href="http://trac.cyberduck.ch/ticket/55">#55</a>]</li>
+								<li>[Bugfix] Stalled connection and file transfer attempts can be interrupted (<a href="http://trac.cyberduck.ch/ticket/55">#55</a>)</li>
 
-								<li>[Bugfix] Cannot delete empty folders [<a href="http://trac.cyberduck.ch/ticket/162">#162</a>]</li>
+								<li>[Bugfix] Cannot delete empty folders (<a href="http://trac.cyberduck.ch/ticket/162">#162</a>)</li>
 
-								<li>[Bugfix] Cannot use login username with colon [<a href="http://trac.cyberduck.ch/ticket/309">#309</a>]</li>
+								<li>[Bugfix] Cannot use login username with colon (<a href="http://trac.cyberduck.ch/ticket/309">#309</a>)</li>
 
 								<li>[Bugfix] Certain operations trigger change of character encoding to default</li>
 
-								<li>[Bugfix] Unable to delete directory from server [<a href="http://trac.cyberduck.ch/ticket/256">#256</a>]</li>
+								<li>[Bugfix] Unable to delete directory from server (<a href="http://trac.cyberduck.ch/ticket/256">#256</a>)</li>
 
-								<li>[Bugfix] Permission errors when downloading files from read-only directories [<a href="http://trac.cyberduck.ch/ticket/264">#264</a>]</li>
+								<li>[Bugfix] Permission errors when downloading files from read-only directories (<a href="http://trac.cyberduck.ch/ticket/264">#264</a>)</li>
 
-								<li>[Bugfix] Change download keyboad shortcut [<a href="http://trac.cyberduck.ch/ticket/277">#277</a>]</li>
+								<li>[Bugfix] Change download keyboad shortcut (<a href="http://trac.cyberduck.ch/ticket/277">#277</a>)</li>
 
-								<li>[Bugfix] Character encoding issues [<a href="http://trac.cyberduck.ch/ticket/238">#238</a>, <a href="http://trac.cyberduck.ch/ticket/333">#333</a>, <a href=
-								"http://trac.cyberduck.ch/ticket/361">#361</a>, <a href="http://trac.cyberduck.ch/ticket/390">#390</a>]</li>
+								<li>[Bugfix] Character encoding issues (<a href="http://trac.cyberduck.ch/ticket/238">#238</a>, <a href="http://trac.cyberduck.ch/ticket/333">#333</a>, <a href=
+								"http://trac.cyberduck.ch/ticket/361">#361</a>, <a href="http://trac.cyberduck.ch/ticket/390">#390</a>)</li>
 
 								<li>[Bugfix] Improved compatibility with certain FTP servers</li>
 
-								<li>[Bugfix] Cannot upload files to drop boxes [<a href="http://trac.cyberduck.ch/ticket/421">#421</a>]</li>
+								<li>[Bugfix] Cannot upload files to drop boxes (<a href="http://trac.cyberduck.ch/ticket/421">#421</a>)</li>
 							</ul>
 						</td>
 					</tr>
@@ -1402,18 +1402,18 @@
 							<ul>
 								<li>[Localize] Hebrew Localization</li>
 
-								<li>[Bugfix] Excape key cancels editing [<a href="http://trac.cyberduck.ch/ticket/190">#190</a>]</li>
+								<li>[Bugfix] Excape key cancels editing (<a href="http://trac.cyberduck.ch/ticket/190">#190</a>)</li>
 
-								<li>[Bugfix] Adjust permissions on created folders when transfering files [<a href="http://trac.cyberduck.ch/ticket/77">#77</a>]</li>
+								<li>[Bugfix] Adjust permissions on created folders when transfering files (<a href="http://trac.cyberduck.ch/ticket/77">#77</a>)</li>
 
-								<li>[Bugfix] Cannot write to group writable files (SFTP) [<a href="http://trac.cyberduck.ch/ticket/173">#173</a>]</li>
+								<li>[Bugfix] Cannot write to group writable files (SFTP) (<a href="http://trac.cyberduck.ch/ticket/173">#173</a>)</li>
 
-								<li>[Bugfix] Spotlight binary not executable [<a href="http://trac.cyberduck.ch/ticket/212">#212</a>]</li>
+								<li>[Bugfix] Spotlight binary not executable (<a href="http://trac.cyberduck.ch/ticket/212">#212</a>)</li>
 
-								<li>[Feature] Added options to use Cyberduck as a portable application (see http://www.freesmug.org/portableapps/) [<a href=
-								"http://trac.cyberduck.ch/ticket/180">#180</a>]</li>
+								<li>[Feature] Added options to use Cyberduck as a portable application (see http://www.freesmug.org/portableapps/) (<a href=
+								"http://trac.cyberduck.ch/ticket/180">#180</a>)</li>
 
-								<li>[Feature] New Crash Reporter (Thanks to M. Uli Kusterer!) [<a href="http://trac.cyberduck.ch/ticket/195">#195</a>]</li>
+								<li>[Feature] New Crash Reporter (Thanks to M. Uli Kusterer!) (<a href="http://trac.cyberduck.ch/ticket/195">#195</a>)</li>
 
 								<li>[Feature] Added skEdit to the list of supported editors (http://www.skti.org)</li>
 							</ul>
