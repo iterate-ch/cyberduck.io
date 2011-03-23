@@ -182,7 +182,7 @@ height: 83px;
 background: transparent url(http://media.cyberduck.ch/img/teaserbg.png) repeat-y scroll 0 0;
 margin-left: -45px;
 padding-left: 45px;
-overflow: auto;
+overflow: hidden;
 }
 	
 	input#paypal {
