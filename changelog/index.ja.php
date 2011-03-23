@@ -34,6 +34,45 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0.2">4.0.2</a> (8510)</strong> <em>Mar-24-2011</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.0.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.2.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.0.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.2.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Feature] SSL URL for files in Akamai CDN enabled containers (Cloud Files)</li>
+							    <li>[Feature] Transcript (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/2944">#2944</a>)
+							    </li>
+							    <li>[Bugfix] Incomplete transfer synchronizing root directory (WebDAV) (<a
+							            href="http://trac.cyberduck.ch/ticket/5662">#5662</a>)
+							    </li>
+							    <li>[Bugfix] Wrong version downloaded (S3 Versioning) (<a
+							            href="http://trac.cyberduck.ch/ticket/5758">#5758</a>)
+							    </li>
+							    <li>[Bugfix] Wrong local path for uploads with file chooser (Windows) (<a
+							            href="http://trac.cyberduck.ch/ticket/5590">#5590</a>)
+							    </li>
+							    <li>[Bugfix] Interoperability (FTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/5763">#5763</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/5757">#5757</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/5772">#5772</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/5771">#5771</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/5590">#5590</a>)
+							    </li>
+							    <li>[Bugfix] Uploads larger than 100MB fail (Google Docs) (<a
+							            href="http://trac.cyberduck.ch/ticket/5712">#5712</a>)
+							    </li>
+							    <li>[Bugfix] Replace password for private key fails (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/5754">#5754</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0.1">4.0.1</a> (8510)</strong> <em>Mar-08-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.0.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.1.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.0.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.1.exe']);">Download (Windows)</a></p>
