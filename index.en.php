@@ -352,7 +352,7 @@
 							<a href="windows/Cyberduck-Installer-4.0.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.2.exe']);">Cyberduck-Installer-4.0.2.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
-							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN: <i>Open Source Content Delivery</i></a>.</small>
+							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN</a> and <a href="http://www.rackspace.com/cloud/cloud_hosting_products/files/">Rackspace</a>.</small>
 						</div>
 						<img alt="" src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
