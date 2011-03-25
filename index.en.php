@@ -376,13 +376,6 @@
 							});
 					//]]>
 					</script>
-
-					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a> group to discuss features and issues you are having.
-						<a href="http://groups.google.com/group/cyberduck"><img src="http://media.cyberduck.ch/img/groups.png" height="30" width="140" alt="Google Groups" /></a>
-					</p>
-					<form method="post" action="http://groups.google.com/group/cyberduck/boxsubscribe">
-						<p><input type="text" name="email" value="" /> <input type="submit" name="sub" value="Subscribe" /></p>
-					</form>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>
