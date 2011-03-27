@@ -355,7 +355,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
-							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
+							<input type="hidden" id="paypal" name="hosted_button_id" value="VTBUBS29YLYE4" />
 							<input type="image" src="img/donate" name="submit" alt="寄付する" />
 						</fieldset>
 					</form>
@@ -364,9 +364,6 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 							$(document).ready(function() {
 								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
 									$("form input#paypal").attr('value', '7TAQE4SM2FH6L');
-								}
-								else {
-									$("form input#paypal").attr('value', '4914397');
 								}
 							});
 					//]]>
