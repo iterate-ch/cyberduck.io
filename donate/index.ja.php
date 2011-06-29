@@ -38,10 +38,8 @@
 
 				<p>Paypalを利用したくない場合は、IBANで送金することができます。手続きが完了したら、 <a href="mailto:feedback@cyberduck.ch">寄付キーを要求</a> してください。</p>
 
-				<p><tt>David Kocher</tt><br />
-				<tt>3013 Bern, Switzerland</tt><br />
 				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
-				<tt><strong>BIC</strong> POFICHBEXXX</tt> or <tt>POFICHBE</tt></p>
+				<tt><strong>BIC</strong> POFICHBEXXX</tt></p>
 
 				<form id="lookup" method="get" action="lookup">
 					<p class="lead"><strong>寄付キーの再取得</strong> Paypalでの手続きが完了すると、寄付キーがメールで自動送信されます。登録キーを紛失した場合は、以下にメールアドレスを入力して再取得できます。</p>
@@ -82,7 +80,7 @@
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" />
+							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);"/>
 						</fieldset>
 					</form>
 					<script type="text/javascript">

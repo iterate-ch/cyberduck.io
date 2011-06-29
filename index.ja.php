@@ -356,7 +356,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="VTBUBS29YLYE4" />
-							<input type="image" src="img/donate" name="submit" alt="寄付する" />
+							<input type="image" src="img/donate" name="submit" alt="寄付する" onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);"/>
 						</fieldset>
 					</form>
 					<script type="text/javascript">

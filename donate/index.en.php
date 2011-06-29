@@ -32,10 +32,8 @@
 
 				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
-				<p><tt>David Kocher</tt><br />
-				<tt>3013 Bern, Switzerland</tt><br />
 				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
-				<tt><strong>BIC</strong> POFICHBEXXX</tt> or <tt>POFICHBE</tt></p>
+				<tt><strong>BIC</strong> POFICHBEXXX</tt></p>
 
 				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, you can send us something from our wishlist (in German).</p>
 				<ul>
@@ -90,7 +88,7 @@
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" />
+							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);"/>
 						</fieldset>
 					</form>
 					<script type="text/javascript">
