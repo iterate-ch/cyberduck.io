@@ -376,6 +376,24 @@
 					</script>
 				</div>
 				<div class="box-shadow-end"></div>
+				
+				<p>
+					<div align="center">
+						<img src="img/macworld.png" alt="" />
+					</div>
+				</p>
+				<p />
+				<p>
+					<div align="center">
+						<img src="img/editorschoice.png" alt="" />
+					</div>
+				</p>
+				<p />
+				<p>
+					<div align="center">
+						<img src="img/pcadvisor.png" alt="" />
+					</div>
+				</p>
 			</div>
 		</div>
 	</div>
