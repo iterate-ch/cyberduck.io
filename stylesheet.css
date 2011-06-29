@@ -156,12 +156,12 @@ width: 280px;
 	#teaser p {
 padding-right: 15px;
 text-align:right;
+margin-top: 0;
 }
 
 	#teaser form {
 float: left;
 width: 100%;
-padding-top: 10px;
 }
 
 	.box-shadow-start {
