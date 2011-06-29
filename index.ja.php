@@ -373,19 +373,19 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 
 				<p>
 					<div align="center">
-						<img src="img/macworld.png" alt="" />
+						<img src="http://media.cyberduck.ch/img/macworld.png" alt="" />
 					</div>
 				</p>
 				<p />
 				<p>
 					<div align="center">
-						<img src="img/editorschoice.png" alt="" />
+						<img src="http://media.cyberduck.ch/img/editorschoice.png" alt="" />
 					</div>
 				</p>
 				<p />
 				<p>
 					<div align="center">
-						<img src="img/pcadvisor.png" alt="" />
+						<img src="http://media.cyberduck.ch/img/pcadvisor.png" alt="" />
 					</div>
 				</p>
 			</div>
