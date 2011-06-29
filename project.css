@@ -68,7 +68,6 @@ font-weight: normal;
 
 :link, :visited {
 background-color: transparent;
-border: none;
 }
 :link:hover, :visited:hover {
 background-color: transparent;
