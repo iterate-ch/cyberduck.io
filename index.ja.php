@@ -352,11 +352,12 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<img alt="" src="http://media.cyberduck.ch/img/windows32.png" />
 					</div>
 					
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+							onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);">
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="VTBUBS29YLYE4" />
-							<input type="image" src="img/donate" name="submit" alt="寄付する" onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);"/>
+							<input type="image" src="img/donate" name="submit" alt="寄付する"/>
 						</fieldset>
 					</form>
 					<script type="text/javascript">

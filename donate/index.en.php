@@ -84,11 +84,12 @@
 				<div class="box-shadow">
 					<p class="lead"><strong>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt. Or buy Cyberduck from the App Store.</p><br />
 
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+							onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);">
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
-							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!" onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);"/>
+							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!"/>
 						</fieldset>
 					</form>
 					<script type="text/javascript">
