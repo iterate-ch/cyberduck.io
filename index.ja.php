@@ -353,7 +353,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					</div>
 					
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
-							onClick="javascript:_gaq.push(['_trackEvent', 'Paypal']);">
+							onClick="javascript:_gaq.push(['_trackEvent', 'Paypal', 'VTBUBS29YLYE4']);">
 						<fieldset>
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" id="paypal" name="hosted_button_id" value="VTBUBS29YLYE4" />
