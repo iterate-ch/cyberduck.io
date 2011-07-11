@@ -34,6 +34,60 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1">4.1</a> (8900)</strong> <em>Jul-11-2011</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Localize] Bulgarian Localization</li>
+							    <li>[Feature] Replaced WebDAV protocol implementation</li>
+							    <li>[Feature] Sort bookmarks by nickname, hostname or protocol (<a
+							            href="http://trac.cyberduck.ch/ticket/5925">#5925</a>)
+							    </li>
+								<li>[Feature] Set preferred default editor (Windows) (#5729)</li>
+								<li>[Feature] IPv6 support (Windows) (#5699)</li>
+							    <li>[Feature] Enable access logs for custom origin distributions (CloudFront)</li>
+							    <li>[Feature] Choose target bucket for access logs (CloudFront)</li>
+							    <li>[Feature] Choose target bucket for access logs (S3)</li>
+							    <li>[Feature] CDN (Akamai) configuration (Cloudfiles UK) (<a href="http://trac.cyberduck.ch/ticket/5989">#5989</a>)
+							    </li>
+							    <li>[Feature] Filter bookmarks by comments (<a href="http://trac.cyberduck.ch/ticket/5926">#5926</a>)</li>
+							    <li>[Feature] Upload arbitrary file types (Google Docs)</li>
+							    <li>[Feature] Support trackpad gestures for navigation and selection (Mac) (<a
+							            href="http://trac.cyberduck.ch/ticket/2793">#2793</a>)
+							    </li>
+							    <li>[Bugfix] Delete only trashes documents (Google Docs) (<a
+							            href="http://trac.cyberduck.ch/ticket/5873">#5873</a>)
+							    </li>
+							    <li>[Bugfix] Wrong timestamp in transfer prompt (<a
+							            href="http://trac.cyberduck.ch/ticket/5916">#5916</a>)
+							    </li>
+							    <li>[Bugfix] Uploading file to collection places it in root folder instead (Google Docs) (<a
+							            href="http://trac.cyberduck.ch/ticket/5856">#5856</a>)
+							    </li>
+								<li>[Bugfix] Support for extended character sets (Windows) (#6016)</li>
+							    <li>[Bugfix] Limited to 10'000 containers (Cloudfiles) (<a href="http://trac.cyberduck.ch/ticket/6037">6037</a>)
+							    </li>
+							    <li>[Bugfix] SSL version number incompatibility (<a href="http://trac.cyberduck.ch/ticket/5061">#5061</a>)</li>
+							    <li>[Bugfix] Donation key validation failure (10.5) (<a href="http://trac.cyberduck.ch/ticket/5846">#5846</a>)</li>
+							    <li>[Bugfix] CDN URL for files only available after opening Info window (Cloudfiles) (<a
+							            href="http://trac.cyberduck.ch/ticket/6040">#6040</a>)
+							    </li>
+							    <li>[Bugfix] Interoperability (FTP) (<a href="http://trac.cyberduck.ch/ticket/5866">#5866</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/5949">#5949</a>)
+							    </li>
+								<li>[Bugfix] Copy and edit filenames in browser (Windows) (#5336, #6039)</li>
+							    <li>[Bugfix] Preserve modification dates for folders on upload (<a
+							            href="http://trac.cyberduck.ch/ticket/6048">#6048</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.0.2">4.0.2</a> (8601)</strong> <em>Mar-25-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.0.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.0.2.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.0.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.0.2.exe']);">Download (Windows)</a></p>
