@@ -334,7 +334,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<div>
 							<strong>ダウンロード</strong><br />
 							<strong>バージョン4.1</strong><br />
-							<em>2011年3月24日</em><br />
+							<em>Jul-12-2011</em><br />
 							<a href="Cyberduck-4.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.zip']);">Cyberduck-4.1.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
