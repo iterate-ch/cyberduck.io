@@ -300,9 +300,9 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<strong>Duncan McGregor et al.</strong> (<a class="ext" href="http://code.google.com/p/rococoa/">Rococoa</a>), 
 					<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://jna.dev.java.net/">JNA</a>), 
 					<strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
-					<strong>Christian Plattner</strong> (<a class="ext" href="http://www.ganymed.ethz.ch/ssh2/">Ganymed</a>),
+					<strong>Christian Plattner et al.</strong> (<a class="ext" href="http://ganymed-ssh-2.googlecode.com">Ganymed</a>),
 					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://commons.apache.org">Apache Commons</a>), 
-					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://jakarta.apache.org/slide/">Jakarta Slide</a>), 
+					<strong>Jon Stevens</strong> (<a class="ext" href="http://sardine.googlecode.com">Sardine</a>), 
 					<strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>), 
 					<strong>Lowell Vaughn et al.</strong> (<a class="ext" href="https://github.com/rackspace/java-cloudfiles">Cloud Files API</a>), 
 					<strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">Growl</a>), 
@@ -313,7 +313,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<strong>Steve McLeod</strong> (<a class="ext" href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)
 					<strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>), 
 					<strong>Andy Matuschak</strong> (<a class="ext" href="http://sparkle.andymatuschak.org/">Sparkle</a>), 
-					<strong>wyDay</strong> (<a class="ext" href="http://code.google.com/p/wyupdate/">wyUpdate</a>),
+					<strong>wyDay</strong> (<a class="ext" href="http://wyupdate.googlecode.com">wyUpdate</a>),
 					<strong>Jeremy D. Miller</strong> (<a class="ext" href="http://structuremap.net/structuremap/">StructureMap</a>),
 					<strong>Ayende Rahien</strong> (<a class="ext" href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino Mocks</a>).</small>
 				</p>
