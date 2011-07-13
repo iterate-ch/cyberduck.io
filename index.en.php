@@ -348,7 +348,7 @@
 					<div id="windows" class="download">
 						<div>
 							<strong>Version 4.1</strong><br />
-							<em>Mar-25-2011</em><br />
+							<em>Jul-12-2011</em><br />
 							<a href="windows/Cyberduck-Installer-4.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.exe']);">Cyberduck-Installer-4.1.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
