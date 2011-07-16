@@ -74,7 +74,7 @@
 	}
 
 	function echotitle($page) {
-		return "$page";
+		return "Cyberduck – $page";
 	}
 	
 	function echosubmenu($dir) {
