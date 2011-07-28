@@ -340,7 +340,7 @@
 							<strong>Download<br />Version 4.1</strong><br />
 							<em>Jul-12-2011</em><br />
 							<a href="Cyberduck-4.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.zip']);">Cyberduck-4.1.zip</a><br />
-							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
+							<em>Universal Binary. Mac OS X 10.5 or later required. Works with 10.7 Lion.</em>
 						</div>
 						<img alt="" src="http://cdn.cyberduck.ch/img/mac32.png" />
 					</div>
