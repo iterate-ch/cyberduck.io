@@ -27,23 +27,19 @@
 				distribute, study, change and improve the software. The continued donations of users is what allows Cyberduck to be available for free today. If you find this program useful, please
 				consider making a <a id="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">donation</a>. It will help to make Cyberduck even better!</p>
 
-				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
-				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
+				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to be shared.</p>
+
+				<p>To make the payment with Paypal, you can use your credit card or bank account without the need to open an account. You will receive the donation key automatically by email and additionally a receipt from Paypal when the transaction is complete.</p>
 
 				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
 				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
 				<tt><strong>BIC</strong> POFICHBEXXX</tt></p>
 
-				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, you can send us something from our wishlist (in German).</p>
-				<ul>
-					<li>
-						<a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project Lead)</a>. 			</li>
-					<li>
-						<a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead Developer)</a>. 
-					</li>
-				</ul>
-<p>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion of the Amazon order process.</p>
+				<p class="lead"><strong>Organization Site Keys.</strong> We are providing organization site keys for scenarios like pre-configured installations for site wide deployments inside an organizations where the individual user should not be bothered with a donation prompt request. An organization site key is not limited to a single user.</p>
+				
+				<p>Please contact <a href=
+				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David Kocher</a> by email to set this up.
 
 				<form id="lookup" method="get" action="lookup">
 					<p class="lead"><strong>Donation Key Recovery.</strong> The donation key is sent to you by email automatically after the Paypal transaction has been completed. To recover a
@@ -67,8 +63,17 @@
 				
 				<p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble receiving or opening the key.</p>
 				
-				<p class="lead"><strong>Organization Site Keys.</strong> If you are running a lab of computers or similar and want a key installed on every workstation registered to your organization, contact <a href=
-				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David Kocher</a> by email to set this up.
+				<p class="lead"><strong>Amazon.</strong> If you prefer not to to use Paypal, you can send us something from our wishlist (in German).</p>
+				<ul>
+					<li>
+						<a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project Lead)</a>. 			</li>
+					<li>
+						<a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead Developer)</a>. 
+					</li>
+				</ul>
+<p>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion of the Amazon order process.</p>
+
+
 			</div>
 
 			<div id="footer">
@@ -106,6 +111,7 @@
 							});
 					//]]>
 					</script>
+					<p>Please do not make a payment of just a few cents. It is not really worth the effort looking at the transaction costs.</p>
 				</div>
 				<div class="box-shadow-end"></div>
 			</div>
