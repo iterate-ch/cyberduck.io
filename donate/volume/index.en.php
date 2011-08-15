@@ -9,7 +9,7 @@
 <head>
 	<?php echo(echoheader("..")); ?>
 	<title><?php echo(echotitle("Donate")); ?></title>
-	<script src="js/jquery.form.js" type="text/javascript">
+	<script src="../js/jquery.form.js" type="text/javascript">
 </script>
 </head>
 
@@ -26,23 +26,22 @@
 				<p class="lead"><strong>Organization Site Keys.</strong> We are providing organization site keys for scenarios like pre-configured installations for site wide deployments inside an organizations where the individual user should not be bothered with a donation prompt request. An organization site key is not limited to a single user. Please contact <a href=
 				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David Kocher</a> by email to set this up.
 
-				<p>Calculate suggested volume pricing </p>
 				<form id="calculate" method="get" action="calculate">
-					<p><label for="volume">Number of installations:</label> <input type="text" id="volume" name="volume" /> <input type="submit" id="calculate" value="Calculate" />
+					<p class="lead"><strong>Volume Pricing.</strong> The volume pricing for a site key for 
+					<label for="volume"></label> <input size="5" type="text" id="volume" name="volume" value="0" /> <input type="submit" id="calculate" value="Calculate" />
 					<script charset="utf-8" type="text/javascript">
-//<![CDATA[
-									$(document).ready(function() {
-									var options = {
-									target: '#result',
-									clearForm: false
-									}
-									$("form#calculate").ajaxForm(options);
-									});
-									//]]>
-					</script></p>
+						//<![CDATA[
+						$(document).ready(function() {
+							var options = {
+								target: '#result',
+								clearForm: false
+							}
+							$("form#calculate").ajaxForm(options);
+						});
+						//]]>
+					</script>
+					installations gives a total amount of <strong id="result">0</strong> <strong>€</strong>.</p>
 				</form>
-
-				<p>Price is <strong id="result">0</strong> €.</p>
 			</div>
 
 			<div id="footer">
