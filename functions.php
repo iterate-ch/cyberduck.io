@@ -64,7 +64,7 @@
 							});
 					//]]>
 					</script>
-					<a href='http://cyberduck.ch/appstore'><img width='128px' alt='Mac App Store' src='http://cdn.cyberduck.ch/img/mas.png' /></a>	
+					<a href='http://cyberduck.ch/appstore'><img width='128px' alt='Mac App Store' src='".$dir."/img/mas' /></a>	
 			</div>
 			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://cdn.cyberduck.ch/img/cyberduck.icon.png' width='192' height='192' alt='Cyberduck'/></a></div>";
 	}
