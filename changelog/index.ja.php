@@ -34,7 +34,25 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.1">4.1.1</a> (8987)</strong> <em>Mar-08-2011</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.2">4.1.2</a> (8997)</strong> <em>Aug-31-2011</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.1.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.2.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.2.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Feature] Rename files (Cloudfiles)</li>
+							    <li>[Feature] Duplicate files (Cloudfiles)</li>
+							    <li>[Bugfix] Select filename only without suffix in browser (<a
+							            href="http://trac.cyberduck.ch/ticket/6158">#6158</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.1">4.1.1</a> (8980)</strong> <em>Aug-25-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.1.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.1.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.1.exe']);">Download (Windows)</a></p>
 						</td>
