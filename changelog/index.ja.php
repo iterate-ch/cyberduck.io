@@ -74,9 +74,7 @@
 
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1">4.1</a> (8911)</strong> <em>Jul-12-2011</em><br />
-							<a href="http://update.cyberduck.ch/Cyberduck-4.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.zip']);">Download (Mac)</a>
-							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.exe']);">Download (Windows)</a></p>
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1">4.1</a> (8911)</strong> <em>Jul-12-2011</em><br /></p>
 						</td>
 
 						<td>
