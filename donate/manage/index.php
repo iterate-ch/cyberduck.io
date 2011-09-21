@@ -61,7 +61,7 @@
 			</div>
 
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://g.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://cdn.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date: 2009-07-20 23:51:01 +0200 (Mon, 20 Jul 2009) $<br />
 			</div>
 		</div>

@@ -26,7 +26,7 @@
 				updating Cyberduck. You can use your credit card or bank account without the need to open a Paypal account. You will receive a receipt from Paypal when completing the transaction.</p>
 			</div>
 			<div id="footer">
-				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://g.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
+				<a class="swissmade" href="http://www.swissmadesoftware.org"><img src="http://cdn.cyberduck.ch/img/sms-logo-small-footer.png" alt="swiss made software" /></a> <a href=
 				"http://validator.w3.org/check/referer">Validate</a>, $Date$<br />
 			</div>
 		</div>
