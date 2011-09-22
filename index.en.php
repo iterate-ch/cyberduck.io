@@ -303,7 +303,7 @@
 
 				<p><small>This product includes software developed by 
 					<strong>Duncan McGregor et al.</strong> (<a class="ext" href="http://code.google.com/p/rococoa/">Rococoa</a>), 
-					<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://jna.dev.java.net/">JNA</a>), 
+					<strong>Timothy Wall et al.</strong> (<a class="ext" href="https://github.com/twall/jna">JNA</a>), 
 					<strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
 					<strong>Christian Plattner et al.</strong> (<a class="ext" href="http://ganymed-ssh-2.googlecode.com">Ganymed</a>),
 					<strong>Apache Software Foundation</strong> (<a class="ext" href="http://commons.apache.org">Apache Commons</a>), 
