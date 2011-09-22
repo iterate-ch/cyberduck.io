@@ -36,11 +36,8 @@
 				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
 				<tt><strong>BIC</strong> POFICHBEXXX</tt></p>
 
-				<p class="lead"><strong>Organization Site Keys.</strong> We are providing organization site keys for scenarios like pre-configured installations for site wide deployments inside an organizations where the individual user should not be bothered with a donation prompt request. An organization site key is not limited to a single user.</p>
+				<p class="lead"><strong>Organization Site Keys.</strong> We are providing organization site keys for scenarios like pre-configured installations for site wide deployments inside an organizations where the individual user should not be bothered with a donation prompt request. An organization site key is not limited to a single user. Refer to <a href="volume">volume pricing</a>.</p>
 				
-				<p>Please contact <a href=
-				"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David Kocher</a> by email to set this up.
-
 				<form id="lookup" method="get" action="lookup">
 					<p class="lead"><strong>Donation Key Recovery.</strong> The donation key is sent to you by email automatically after the Paypal transaction has been completed. To recover a
 					lost registration key, enter your email address below to look it up.</p>
