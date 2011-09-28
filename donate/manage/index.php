@@ -22,7 +22,7 @@
 				<p class="lead"><strong>Donation Key Registry.</strong> Add donation key manually for a given email address.</p>
 
 				<form id="add" method="get" action="add" name="add">
-					<label for="email">Add Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Add" />
+					<label for="addinput">Add email address:</label> <input style="width: 250px;" type="text" id="addinput" name="email" /> <input type="submit" id="add" value="Add" />
 				</form>
 				<script charset="utf-8" type="text/javascript">
 				//<![CDATA[
@@ -35,29 +35,45 @@
 						 });
 				//]]>
 				</script>
-				<p><strong id="result-add"></strong></p><hr />
+				<p><strong id="result-add"></strong></p>
+				<hr />
 
 				<form id="find" method="get" action="find" name="find">
-					<label for="email">Find Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Find" />
+					<label for="findinput">Find for email address:</label> <input style="width: 250px;" type="text" id="findinput" name="email" /> <input type="submit" id="add" value="Find" />
 				</form>
 				<hr />
 
-                                <form id="delete" method="get" action="delete" name="delete">
-                                        <label for="email">Delete Email address:</label> <input style="width: 250px;" type="text" id="email" name="email" /> <input type="submit" id="add" value="Delete" />
-
-                                </form>
-                                <script charset="utf-8" type="text/javascript">
-                                //<![CDATA[
-                                                $(document).ready(function() {
-                                                        var options = {
-                                                                target: '#result-delete',
-                                                                clearForm: true
-                                                        }
-                                                        $("form#delete").ajaxForm(options);
-                                                 });
-                                //]]>
-                                </script>
-                                <p><strong id="result-delete"></strong></p><hr />
+				<form id="delete" method="get" action="delete" name="delete">
+					<label for="deleteinput">Delete email address:</label> <input style="width: 250px;" type="text" id="deleteinput" name="email" /> <input type="submit" id="add" value="Delete" />
+				</form>
+				<script charset="utf-8" type="text/javascript">
+				//<![CDATA[
+				          $(document).ready(function() {
+				                  var options = {
+				                          target: '#result-delete',
+				                          clearForm: true
+				                  }
+				                  $("form#delete").ajaxForm(options);
+				           });
+				//]]>
+				</script>
+				<p><strong id="result-delete"></strong></p><hr />
+				
+				<form id="send" method="get" action="send" name="send">
+					<label for="sendinput">Send to email address:</label> <input style="width: 250px;" type="text" id="sendinput" name="email" /> <input type="submit" id="send" value="Send" />
+				</form>
+				<script charset="utf-8" type="text/javascript">
+				//<![CDATA[
+				          $(document).ready(function() {
+				                  var options = {
+				                          target: '#result-send',
+				                          clearForm: true
+				                  }
+				                  $("form#send").ajaxForm(options);
+				           });
+				//]]>
+				</script>
+				<p><strong id="result-send"></strong></p><hr />
 			</div>
 
 			<div id="footer">
