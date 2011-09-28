@@ -23,6 +23,32 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.3">4.1.3</a> (9045)</strong> <em>Sep-28-2011</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.1.3.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.3.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.3.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.3.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Bugfix] Freeze after file transfer is complete (<a
+							            href="http://trac.cyberduck.ch/ticket/6183">#6183</a>)
+							    </li>
+							    <li>[Bugfix] Connection failure to Eucalyptus Cloud installation (S3) (<a
+							            href="http://trac.cyberduck.ch/ticket/6206">#6206</a>)
+							    </li>
+							    <li>[Feature] Copy streaming URLs (Cloudfiles)</li>
+							    <li>[Feature] Option to set ACLs for Google Apps Domain (Google Storage)</li>
+							    <li>[Feature] Option to set ACLs for Google Group Email Address (Google Storage)</li>
+							    <li>[Feature] Allow setting non-metadata headers (Cloudfiles, Openstack Swift) (<a
+							            href="http://trac.cyberduck.ch/ticket/6191">#6191</a>, <a
+							            href="http://trac.cyberduck.ch/ticket/6239">#6239</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.2">4.1.2</a> (8997)</strong> <em>Aug-31-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.1.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.2.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.2.exe']);">Download (Windows)</a></p>
