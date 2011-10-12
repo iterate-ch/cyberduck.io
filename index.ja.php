@@ -389,6 +389,40 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 						<img src="http://cdn.cyberduck.ch/img/pcadvisor.png" alt="" />
 					</div>
 				</p>
+				<p />
+				<p>
+					<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
+					<script type="text/javascript">
+						new TWTR.Widget({
+						  version: 2,
+						  type: 'profile',
+						  rpp: 10,
+						  interval: 30000,
+						  width: 'auto',
+						  height: 650,
+						  theme: {
+						    shell: {
+						      background: '#EAEAEA',
+						      color: '#000000'
+						    },
+						    tweets: {
+						      background: '#ffffff',
+						      color: '#000000',
+						      links: '#00006c'
+						    }
+						  },
+						  features: {
+						    scrollbar: false,
+						    loop: false,
+						    live: false,
+						    hashtags: true,
+						    timestamp: true,
+						    avatars: false,
+						    behavior: 'all'
+						  }
+						}).render().setUser('cyberduckapp').start();
+					</script>
+				</p>
 			</div>
 		</div>
 	</div>
