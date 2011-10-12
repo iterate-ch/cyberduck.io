@@ -7,7 +7,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<?php echo(echoheader("..")); ?>
+	<?php echo(echoheader("../..")); ?>
 	<title><?php echo(echotitle("Donate")); ?></title>
 	<script src="../js/jquery.form.js" type="text/javascript">
 </script>
