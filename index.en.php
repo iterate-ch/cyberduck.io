@@ -134,7 +134,7 @@
 								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://cdn.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
+								<p><img src="http://cdn.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Cloud Storage</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://cdn.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />

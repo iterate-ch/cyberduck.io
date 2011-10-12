@@ -134,7 +134,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 								カスタムオリジン、ベーシックおよびストリーミングのCloudFrontディストリビューションを管理。配置のトグル、CNAMEの定義、配信アクセスロギング、デフォルトインデックスファイルの設定も可能です。</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://cdn.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Storage for Developers</strong><br />認証付きURLを備えたACLを使用してファイルへのアクセス権を付与し、安全にファイルを共有できます。</p>
+								<p><img src="http://cdn.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Cloud Storage</strong><br />認証付きURLを備えたACLを使用してファイルへのアクセス権を付与し、安全にファイルを共有できます。</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://cdn.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
