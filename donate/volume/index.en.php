@@ -1,4 +1,4 @@
-<?php include "../lang.php"; ?>
+<?php include "../../lang.php"; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -42,6 +42,13 @@
 					</script>
 					installations gives a total amount of <strong id="result">0</strong> <strong>€</strong>.</p>
 				</form>
+				
+				<p>Instead of Paypal, the following international bank account number can be used:</p>
+				<p>
+					<tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br />
+					<tt><strong>SWIFT</strong> POFICHBEXXX</tt><br />
+					<tt><strong>BCN</strong> 9000</tt><br />
+				</p>
 			</div>
 
 			<div id="footer">
