@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<?php echo(echoheader("..")); ?>
-	<link rel="Stylesheet" type="text/css" href="http://cdn.cyberduck.ch/news.css" />
+	<link rel="Stylesheet" type="text/css" href="http://media.cyberduck.ch/news.css" />
 	<?php
 		define('MAGPIE_DIR',  './magpierss-0.72/');
 		// access magpie libraries
@@ -72,8 +72,8 @@
 					"mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">ご意見</a> をお待ちしています。バグレポートおよび機能追加の提案をするには、<a class="ext" href=
 					"http://trac.cyberduck.ch/newticket">イシュートラッカー</a> で <a class="ext" href="http://trac.cyberduck.ch">新規チケット</a>を作成してください。</p>
 					<br />
-					<p><img src="http://cdn.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
-					<p><img src="http://cdn.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/cyberduckapp">@cyberduckappをフォロー</a>。</p>
+					<p><img src="http://media.cyberduck.ch/img/feed-icon-16x16.png" alt="feed" /> <a href="http://cyberduck.ch/changelog.rss">Subscribe to the RSS feed.</a></p>
+					<p><img src="http://media.cyberduck.ch/img/twitter.png" alt="twitter" /> <a href="http://twitter.com/cyberduckapp">@cyberduckappをフォロー</a>。</p>
 					<br />
 					<p><a href="http://lists.cyberduck.ch/mailman/listinfo/cyberduck-news">news</a>  メーリングリストに登録すると、新しいバージョンがリリースされた際に通知を受け取ることができます。</p>
 					<form method="post" action="http://lists.cyberduck.ch/mailman/subscribe/cyberd
@@ -82,7 +82,7 @@
 						<br />
 					</form>
 					<p>Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a> group to discuss features and issues you are having.
-						<a href="http://groups.google.com/group/cyberduck"><img src="http://cdn.cyberduck.ch/img/groups.png" height="30" width="140" alt="Google Groups" /></a>
+						<a href="http://groups.google.com/group/cyberduck"><img src="http://media.cyberduck.ch/img/groups.png" height="30" width="140" alt="Google Groups" /></a>
 					</p>
 					<form method="post" action="http://groups.google.com/group/cyberduck/boxsubscribe">
 						<p><input type="text" name="email" value="" /> <input type="submit" name="sub" value="Subscribe" /></p>
