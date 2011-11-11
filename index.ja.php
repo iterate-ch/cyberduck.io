@@ -44,7 +44,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					<div class="description">
 						<h2 class="headline">あらゆるサーバに接続。</h2>
 						<p>使いやすいインターフェースで、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP/TLS (FTP secured over SSL/TLS)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning)、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>、 <a href=
+						Authoring and Versioning)、<a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Cloud Storage</a>、 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>、 <a href=
 							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a>、<a href=
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>に接続。 <a href="http://trac.cyberduck.ch/wiki/help/en/howto/eucalyptus/">Eucalyptus</a> や <a href="http://trac.cyberduck.ch/wiki/help/en/howto/openstack/">OpenStack</a>のオープンな最新クラウドソフトウェアも利用できます。</p>
 					</div>

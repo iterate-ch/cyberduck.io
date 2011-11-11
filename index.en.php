@@ -15,9 +15,9 @@
 	<title><?php echo(echotitle("FTP, SFTP, WebDAV, Cloud Files, Google Docs &amp; Amazon S3 Browser for Mac &amp; Windows.")); ?></title>
 	<meta name="description" content="Cyberduck is an open source FTP, SFTP, WebDAV, Rackspace Cloud Files, Google Docs, Windows Azure & Amazon S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The browser allows to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Manage the documents in your Google Docs account with the option to convert uploaded images to documents with optical character recognition (OCR). Both Amazon CloudFront and Akamai content delivery networks (CDN) can be easily configured to distribute your files worldwide from edge locations. Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home.
 
-	Supports connecting to FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), WebDAV (Web-based Distributed Authoring and Versioning), Amazon S3, Google Storage, Google Docs, Windows Azure and Rackspace Cloud Files.
+	Supports connecting to FTP (File Transfer Protocol), FTP/TLS (FTP secured over SSL/TLS), SFTP (SSH Secure File Transfer), WebDAV (Web-based Distributed Authoring and Versioning), Amazon S3, Google Cloud Storage, Google Docs, Windows Azure and Rackspace Cloud Files.
 	" />
-	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, akamai, google storage, google docs, browser, mac, os x, windows, program, application" />
+	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, akamai, google cloud storage, google docs, browser, mac, os x, windows, program, application" />
 </head>
 
 <body id="index">
@@ -36,7 +36,7 @@
 					<div class="description" style="padding-right:40px">
 						<h2 class="headline">Connecting to every server.</h2>
 						<p>With an easy to use interface, connect to <a href="http://trac.cyberduck.ch/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/sftp">SFTP (SSH Secure File Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav" >WebDAV</a> (Web-based Distributed
-						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Storage</a>, <a href=
+						Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Cloud Storage</a>, <a href=
 							"http://trac.cyberduck.ch/wiki/help/en/howto/azure">Windows Azure</a>, <a href=
 						"http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a> and even <a href="http://trac.cyberduck.ch/wiki/help/en/howto/googledocs/">Google Docs</a>.</p>
 
