@@ -34,6 +34,43 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.2">4.2</a> (9313)</strong> <em>Sep-28-2011</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.2.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.2.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Feature] Drag files between browser windows to copy files from server to server</li>
+							    <li>[Feature] Support server side encryption (S3)</li>
+							    <li>[Feature] Configure access logs for buckets (Google Cloud Storage)</li>
+							    <li>[Feature] Interoperability with OpenSSH to read private key from keychain.</li>
+							    <li>[Feature] Connect to multiple projects (Google Cloud Storage) (<a
+							            href="http://trac.cyberduck.ch/ticket/5955">#5955</a>)
+							    </li>
+							    <li>[Feature] Support OAuth 2.0 Authentication (Google Cloud Storage) (<a
+							            href="http://trac.cyberduck.ch/ticket/5955">#5955</a>)
+							    </li>
+							    <li>[Feature] Support US West (Oregon) location (S3)</li>
+							    <li>[Feature] Try public key authentication login with default keys from OpenSSH (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/3982">#3982</a>)
+							    </li>
+							    <li>[Bugfix] Performance improvement preparing files for download</li>
+							    <li>[Bugfix] ETag mismatch deleting files (Google Docs) (<a
+							            href="http://trac.cyberduck.ch/ticket/6204">#6204</a>)
+							    </li>
+							    <li>[Bugfix] Creating new file (WebDAV) (<a
+							            href="http://trac.cyberduck.ch/ticket/6341">#6341</a>)
+							    </li>
+							    <li>[Bugfix] No error message when SFTP subsystem is disabled (SFTP) (<a
+							            href="http://trac.cyberduck.ch/ticket/5902">#5902</a>)
+							    </li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.1.3">4.1.3</a> (9045)</strong> <em>Sep-28-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.1.3.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.1.3.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.1.3.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.1.3.exe']);">Download (Windows)</a></p>
