@@ -2640,13 +2640,13 @@
 		</div>
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Release notes and previous releases.</strong> There are also <a href="http://trac.cyberduck.ch/wiki/help/en/faq#NightlyandBetabuilds">nightly snapshot builds available</a> featuring the latest bugfixes and enhancements.</p>
 				</div>
 
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

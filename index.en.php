@@ -332,7 +332,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<div id="mac" class="download">
@@ -375,7 +375,7 @@
 					//]]>
 					</script>
 				</div>
-				<div class="box-shadow-end"></div>
+				
 
 				<p>
 					<div align="center">

@@ -163,25 +163,12 @@ margin-top: 0;
 float: left;
 width: 100%;
 }
-
-	.box-shadow-start {
-background: transparent url(http://media.cyberduck.ch/img/teaserbgstart.png) no-repeat scroll 0 100%;
-margin-left: -45px;
-padding-left: 45px;
-height: 40px;
-}
-	.box-shadow-end {
-background: transparent url(http://media.cyberduck.ch/img/teaserbgend.png) no-repeat scroll 0 0;
-margin-left: -45px;
-padding-left: 45px;
-height: 83px;
-}
 	
 	.box-shadow {
-background: transparent url(http://media.cyberduck.ch/img/teaserbg.png) repeat-y scroll 0 0;
-margin-left: -45px;
-padding-left: 45px;
-overflow: hidden;
+min-height: 200px;
+background: #efefef;
+box-shadow: #888 -10px 10px 10px;
+padding: 20px 5px 5px 5px;
 }
 	
 	input#paypal {

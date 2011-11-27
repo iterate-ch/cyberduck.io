@@ -31,7 +31,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute
@@ -43,7 +43,7 @@
 					</form>
 				</div>
 
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

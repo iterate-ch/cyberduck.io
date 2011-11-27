@@ -59,7 +59,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it still costs money to write, support, and distribute it.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt. Or buy Cyberduck from the App Store.</p><br />
@@ -88,7 +88,7 @@
 					</script>
 					<p>Please do not make a payment of just a few cents. It is not really worth the effort looking at the transaction costs.</p>
 				</div>
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

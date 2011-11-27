@@ -71,7 +71,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Cyberduckは <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">フリーソフトウェア</a> ですが、開発、サポート、配布にコストがかかっています。</strong> Cyberduckに寄付をしていただくと、寄付を求める表示を停止するキーを受け取ることができます。</p><br />
@@ -99,7 +99,7 @@
 					//]]>
 					</script>
 				</div>
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

@@ -169,7 +169,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Reviews.</strong> Reviewed by many sites with tremendous feedback over the last years.</p>
@@ -245,7 +245,7 @@
 					</div>
 				</div>
 
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

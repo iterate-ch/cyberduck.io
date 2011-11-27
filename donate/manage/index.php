@@ -84,7 +84,7 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<div align="center">
@@ -92,7 +92,7 @@
 					</div>
 				</div>
 
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

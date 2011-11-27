@@ -32,13 +32,13 @@
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<p class="lead"><strong>Your donation is very much appreciated.</strong> It will help to advance development and make Cyberduck even better!</p>
 				</div>
 
-				<div class="box-shadow-end"></div>
+				
 			</div>
 		</div>
 	</div>

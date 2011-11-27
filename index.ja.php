@@ -327,7 +327,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 
 		<div id="sidebar">
 			<div id="teaser">
-				<div class="box-shadow-start"></div>
+				
 
 				<div class="box-shadow">
 					<div id="mac" class="download">
@@ -370,7 +370,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 					//]]>
 					</script>
 				</div>
-				<div class="box-shadow-end"></div>
+				
 
 				<p>
 					<div align="center">
