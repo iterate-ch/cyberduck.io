@@ -338,7 +338,7 @@
 					<div id="mac" class="download">
 						<div>
 							<strong>Download<br />Version 4.2</strong><br />
-							<em>Nov-25-2011</em><br />
+							<em>Nov-28-2011</em><br />
 							<a href="Cyberduck-4.2.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.2.zip']);">Cyberduck-4.2.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required. Works with 10.7 Lion.</em>
 						</div>
@@ -348,7 +348,7 @@
 					<div id="windows" class="download">
 						<div>
 							<strong>Version 4.2</strong><br />
-							<em>Nov-25-2011</em><br />
+							<em>Nov-28-2011</em><br />
 							<a href="windows/Cyberduck-Installer-4.2.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.2.exe']);">Cyberduck-Installer-4.2.exe</a><br />
 							<em>Windows XP, Windows Vista or
 							Windows 7 required.</em><br />
