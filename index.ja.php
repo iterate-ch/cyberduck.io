@@ -26,7 +26,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ�
 		<div id='navigation'>
 			<ul>
 				<li><a id="navigation-index" href="/">Cyberduckについて</li>
-				<li><a id="navigation-news" href="/news/">ニュース</a></li>
+				<li><a id="navigation-news" href="http://blog.cyberduck.ch/">ニュース</a></li>
 				<li><a id="navigation-changelog" href="/changelog/">更新履歴</a></li>
 				<li><a id="navigation-trac" href="http://trac.cyberduck.ch/">開発</a></li>
 				<li><a id="navigation-help" href="http://help.cyberduck.ch/ja">ヘルプ</a></li>

@@ -82,7 +82,7 @@
 			<div id='navigation'>
 				<ul>
 					<li><a accesskey='a' id='navigation-index' href='".$dir."/'>about</a></li>
-					<li><a id='navigation-news' href='".$dir."/news/'>news</a></li>
+					<li><a id='navigation-news' href='http://blog.cyberduck.ch/'>news</a></li>
 					<li><a accesskey='c' id='navigation-changelog' href='".$dir."/changelog/'>changelog</a></li>
 					<li><a accesskey='d' id='navigation-trac' href='http://trac.cyberduck.ch/'>development</a></li>
 					<li><a accesskey='h' id='navigation-help' href='http://help.cyberduck.ch/en'>help</a></li>
