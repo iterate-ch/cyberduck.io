@@ -75,12 +75,6 @@ width: 100%;
 color: #000000;
 }
 
-	#header {
-		background-image:url(img/ready.png);
-		background-repeat: no-repeat;
-		background-position:600px -55px;
-	}
-	
 	#header #logo {
 margin: 20px 10px 10px 30px;
 float: left;
