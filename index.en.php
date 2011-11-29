@@ -131,15 +131,15 @@
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Amazon CloudFront</strong><br />
-								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file for your distribution.</p>
+								Manage custom origin, basic and streaming <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">CloudFront</a> distributions. Toggle deployment, define CNAMEs, distribution access logging and set the default index file.</p>
 							</div>
 							<div class="feature">
-								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Cloud Storage</strong><br />Grant access to files using ACLs with an authenticated URL to share files with securely.</p>
+								<p><img src="http://media.cyberduck.ch/img/google.png" class="feature" alt="" /> <strong>Google Cloud Storage</strong><br />With OAuth or interoperable authentication support. Share files securely with an authenticated URL. Configure bucket access logging to get statistics with <a href="https://qloudstat.com">Qloudstat</a>.</p>
 							</div>
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/cf.png" class="feature" alt="" /> <strong>Rackspace Cloud Files</strong><br />
 								Manage your Rackspace <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Cloud Files</a> storage including the configuration of <a href=
-								"http://trac.cyberduck.ch/wiki/help/en/howto/akamai/">Akamai content delivery network (CDN)</a>.</p>
+								"http://trac.cyberduck.ch/wiki/help/en/howto/akamai/">Akamai content delivery network (CDN)</a> with support to toggle on access logs for <a href="https://qloudstat.com">Qloudstat</a>.</p>
 							</div>
 						</div>
 					</div>
@@ -147,7 +147,7 @@
 					<img alt="" src="http://media.cyberduck.ch/img/s3-disk.png" class="headline" />
 					<div class="description">
 						<h2 class="headline">Amazon S3 for the rest of us.</h2>
-						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define website endpoints, logging options, storage class and geographical location of your content.</p>
+						<p>Browse <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like your harddisk. Supporting the latest and greatest additions to the S3 storage options. Define website endpoints, enable access logging, configure storage class, encryption and bucket location.</p>
 						<div class="column">
 							<div class="feature">
 								<p><img src="http://media.cyberduck.ch/img/s3.png" class="feature" alt="" /> <strong>Versioning and MFA</strong><br />
