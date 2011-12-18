@@ -31,6 +31,10 @@
 						<td>
 							<ul>
 							    <li>[Bugfix] Edited files not uploaded (<a href="http://trac.cyberduck.ch/ticket/6399">#6399</a>)</li>
+							    <li>[Bugfix] Content-Type not set to proper MIME type of file on upload (WebDAV) (<a
+							            href="http://trac.cyberduck.ch/ticket/6433">#6433</a>)
+							    </li>
+							    <li>[Bugfix] Transfer status not saved (<a href="http://trac.cyberduck.ch/ticket/6430">#6430</a>)</li>
 						   </ul>
 						</td>
 					</tr>
