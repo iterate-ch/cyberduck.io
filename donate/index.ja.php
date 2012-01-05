@@ -38,8 +38,12 @@
 
 				<p>Paypalを利用したくない場合は、IBANで送金することができます。手続きが完了したら、 <a href="mailto:feedback@cyberduck.ch">寄付キーを要求</a> してください。</p>
 
-				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
-				<tt><strong>BIC</strong> POFICHBEXXX</tt></p>
+				<p>
+					<tt><strong>To</strong> iterate GmbH</tt><br />
+					<tt><strong>Bank</strong> Postfinance, 3030 Bern</tt><br />
+					<tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br />
+					<tt><strong>SWIFT BIC</strong> POFICHBEXXX</tt>
+				</p>
 
 				<form id="lookup" method="get" action="lookup">
 					<p class="lead"><strong>寄付キーの再取得</strong> Paypalでの手続きが完了すると、寄付キーがメールで自動送信されます。登録キーを紛失した場合は、以下にメールアドレスを入力して再取得できます。</p>

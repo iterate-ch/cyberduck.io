@@ -34,9 +34,10 @@
 				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
 				<p>
-				<tt><strong>IBAN</strong> CH19 0900 0000 3030 0229 3</tt><br />
-				<tt><strong>SWIFT</strong> POFICHBEXXX</tt><br />
-				<tt><strong>BCN</strong> 9000</tt><br />
+					<tt><strong>To</strong> iterate GmbH</tt><br />
+					<tt><strong>Bank</strong> Postfinance, 3030 Bern</tt><br />
+					<tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br />
+					<tt><strong>SWIFT BIC</strong> POFICHBEXXX</tt></p>
 				</p>
 
 				<p class="lead"><strong>Organization Site Keys.</strong> We are providing organization site keys for scenarios like pre-configured installations for site wide deployments inside an organizations where the individual user should not be bothered with a donation prompt request. An organization site key is not limited to a single user. Refer to <a href="volume">volume pricing</a>.</p>
