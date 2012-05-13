@@ -16,7 +16,7 @@
 <body id="donate">
 	<div id="header">
 		<?php echo(echologo(".."));?>
-		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'><a href='http://www.gnu.org/philosophy/free-sw.html'>オープンソース</a> のFTP、SFTP、WebDAV、Cloud Files、 <br />Google Docs、Amazon S3用ブラウザ、MacとWindowsに対応。</h3></div>
+		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'><a href='http://www.gnu.org/philosophy/free-sw.html'>オープンソース</a> のFTP、SFTP、WebDAV、Cloud Files、 <br />Google Drive、Amazon S3用ブラウザ、MacとWindowsに対応。</h3></div>
 		<div id='navigation'>
 			<ul>
 				<li><a id="navigation-index" href="../">Cyberduckについて</li>

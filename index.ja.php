@@ -13,16 +13,16 @@
 	<script type="text/javascript" src="http://media.cyberduck.ch/jquery.aw-showcase.min.js"></script>
 
 	<title>
-Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Docs、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
+Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Drive、S3用ブラウザ、MacとWindowsに対応 | Cyberduckについて
 	</title>
-	<meta name="description" content="Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Could Files、Google Docs、S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザのアウトラインビューで大量のフォルダ構造も効率よく閲覧し、Quick Lookで素早くファイルをプレビューすることができます。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。クラウドでコンテンツを配信するために、Amazon CloudFrontやRackspace Cloud Filesを構成することも簡単です。30言語以上のローカライズ版が提供されています。" />
+	<meta name="description" content="Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Could Files、Google Drive、S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザのアウトラインビューで大量のフォルダ構造も効率よく閲覧し、Quick Lookで素早くファイルをプレビューすることができます。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。クラウドでコンテンツを配信するために、Amazon CloudFrontやRackspace Cloud Filesを構成することも簡単です。30言語以上のローカライズ版が提供されています。" />
 	<meta name="keywords" content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, cloudfiles, akamai, google storage, google docs, browser, mac, os x, windows, program, application" />
 </head>
 
 <body id="index">
 	<div id="header">
 		<?php echo(echologo("."));?>
-		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'><a href='http://www.gnu.org/philosophy/free-sw.html'>オープンソース</a> のFTP、SFTP、WebDAV、Cloud Files、 <br />Google Docs、Amazon S3用ブラウザ、MacとWindowsに対応。</h3></div>
+		<div id='title'><h1 id='maintitle'>Cyberduck</h1><h3 id='subtitle'><a href='http://www.gnu.org/philosophy/free-sw.html'>オープンソース</a> のFTP、SFTP、WebDAV、Cloud Files、 <br />Google Drive、Amazon S3用ブラウザ、MacとWindowsに対応。</h3></div>
 		<div id='navigation'>
 			<ul>
 				<li><a id="navigation-index" href="/">Cyberduckについて</li>
