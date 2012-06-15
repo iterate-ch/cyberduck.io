@@ -3,7 +3,7 @@
 		return "
 			<link rel='Stylesheet' type='text/css' href='".$dir."/stylesheet.css' />
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
-			<link rel='shortcut icon' href='http://media.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
+			<link rel='shortcut icon' href='http://cdn.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
 
 			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js' type='text/javascript'></script>
 
@@ -66,7 +66,7 @@
 					</script>
 					<a href='http://cyberduck.ch/appstore'><img width='128px' alt='Mac App Store' src='".$dir."/img/mas' /></a>	
 			</div>
-			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://media.cyberduck.ch/img/cyberduck.icon.png' width='192' height='192' alt='Cyberduck'/></a></div>";
+			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://cdn.cyberduck.ch/img/cyberduck.icon.png' width='192' height='192' alt='Cyberduck'/></a></div>";
 	}
 	
 	function echocaption($dir) {
