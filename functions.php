@@ -26,7 +26,7 @@
 
 	  function echogoogle() {
 		return "
-			<div class='google-banner'>
+			<span class='google-banner' style=\"width:728px;height:90px\">
 				<script type='text/javascript'>
 					<!--
 					google_ad_client = 'ca-pub-9176652804694766';
@@ -38,7 +38,7 @@
 				<script type='text/javascript'
 					src='http://pagead2.googlesyndication.com/pagead/show_ads.js'>
 				</script>
-			</div>";
+			</span>";
 		}
 
 	function echoamazon() {
