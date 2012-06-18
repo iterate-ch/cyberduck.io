@@ -7,9 +7,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<?php echo(echoheader(".")); ?>
-
 	<link rel="stylesheet" href="http://cdn.cyberduck.ch/style.aw-showcase.css" />
+	<?php echo(echoheader(".")); ?>
 	<script type="text/javascript" src="http://cdn.cyberduck.ch/jquery.aw-showcase.min.js"></script>
 
 	<title>
