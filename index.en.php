@@ -349,8 +349,8 @@
 							<strong>Version 4.2.1</strong><br />
 							<em>Dec-12-2011</em><br />
 							<a href="windows/Cyberduck-Installer-4.2.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.2.1.exe']);">Cyberduck-Installer-4.2.1.exe</a><br />
-							<em>Windows XP, Windows Vista or
-							Windows 7 required.</em><br />
+							<em>Windows XP, Windows Vista,
+							Windows 7 or Windows 8 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN</a> and <a href="http://www.rackspace.com/cloud/cloud_hosting_products/files/">Rackspace</a>.</small>
 						</div>
 						<img alt="" src="http://cdn.cyberduck.ch/img/windows32.png" />
