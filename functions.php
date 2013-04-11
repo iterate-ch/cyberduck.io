@@ -70,6 +70,7 @@ for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prot
 					//]]>
 					</script>
 					<a href='http://cyberduck.ch/appstore'><img width='128px' alt='Mac App Store' src='".$dir."/img/mas' /></a>	
+					<a href='http://cyberduck.ch/donate'><img width='128px' alt='Paypal' src='".$dir."/img/donate.png' /></a>	
 			</div>
 			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://cdn.cyberduck.ch/img/cyberduck.icon.png' width='192' height='192' alt='Cyberduck'/></a></div>";
 	}
