@@ -23,6 +23,55 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.3">4.3</a> (10857)</strong> <em>Apr-18-2013</em><br />
+							<a href="http://update.cyberduck.ch/Cyberduck-4.3.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.zip']);">Download (Mac)</a>
+							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.3.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.exe']);">Download (Windows)</a></p>
+						</td>
+
+						<td>
+							<ul>
+							    <li>[Localize] Arabic Localization</li>
+							    <li>[Feature] Retina resolution support (<a href="http://trac.cyberduck.ch/ticket/6760">#6760</a>)</li>
+							    <li>[Feature] Notification center support (10.8) (<a href="http://trac.cyberduck.ch/ticket/6792">#6792</a>)</li>
+							    <li>[Feature] Gatekeeper support (10.8) (<a href="http://trac.cyberduck.ch/ticket/6888">#6888</a>)</li>
+							    <li>[Feature] Bucket location in South America (Sao Paulo) Region (S3)</li>
+							    <li>[Feature] Bucket location in Asia Pacific (Sydney) Region (S3)</li>
+							    <li>[Feature] One click setup for analytics with Qloudstat (S3, CloudFront, Cloudfiles, Google Storage)</li>
+							    <li>[Feature] Multi-Object Delete (S3)</li>
+							    <li>[Feature] Interoperability with HP Cloud (Openstack)</li>
+							    <li>[Feature] Interoperability with Lunacloud Storage (S3)</li>
+							    <li>[Feature] Website Configuration (Google Storage)</li>
+							    <li>[Feature] Website Configuration (Cloudfiles)</li>
+							    <li>[Feature] Edit container metadata (Cloudfiles)</li>
+							    <li>[Feature] Reuse Session key on data connection (FTP/TLS) (#5087)</li>
+							    <li>[Bugfix] Hangs editing file in external editor (10.8.2) (<a
+							            href="http://trac.cyberduck.ch/ticket/6878">#6878</a>)
+							    </li>
+							    <li>[Bugfix] Moving folders deletes the folder (Cloudfiles) (<a
+							            href="http://trac.cyberduck.ch/ticket/6442">#6442</a>)
+							    </li>
+							    <li>[Bugfix] Copy folder from server to server (<a href="http://trac.cyberduck.ch/ticket/6440">#6440</a>)</li>
+							    <li>[Bugfix] Duplicate folder (<a href="http://trac.cyberduck.ch/ticket/6495">#6495</a>)</li>
+							    <li>[Bugfix] Interoperability with latest API (CloudFront)</li>
+							    <li>[Bugfix] Crash in Rendezvous resolver (<a href="http://trac.cyberduck.ch/ticket/6495">#6814</a>)</li>
+							    <li>[Bugfix] Java optional install required (App Store) (<a href="http://trac.cyberduck.ch/ticket/6090">#6090</a>)
+							    </li>
+							    <li>[Bugfix] Changes in editor not uploaded when choosing save on close (<a
+							            href="http://trac.cyberduck.ch/ticket/6590">#6590</a>)
+							    </li>
+							    <li>[Bugfix] Versioning for directory placeholders (S3) (<a href="http://trac.cyberduck.ch/ticket/5748">#5748</a>)
+							    </li>
+							    <li>[Bugfix] Duplicating file does not retain permissions (#6525)</li>
+							    <li>[Bugfix] SSL hostname verification on HTTP redirects</li>
+							    <li>[Remove] Dropped support Azure Blob Storage connections (Azure)</li>
+							    <li>[Remove] Dropped support Dropbox connections (Dropbox)</li>
+							    <li>[Remove] Dropped support Google Drive connections (Google Docs)</li>
+						   </ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="150" valign="top">
 							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.2.1">4.2.1</a> (9350)</strong> <em>Dec-12-2011</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.2.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.2.1.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.2.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.2.1.exe']);">Download (Windows)</a></p>
