@@ -333,7 +333,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Drive、S3用ブラウザ
 						<div>
 							<strong>ダウンロード</strong><br />
 							<strong>バージョン4.3</strong><br />
-							<em>Apr-18-2013</em><br />
+							<em>Apr-25-2013</em><br />
 							<a href="Cyberduck-4.3.zip" onclick="javascript:mixpanel.track('Downloads', {'zip': 'Cyberduck-4.3.zip'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.zip']);">Cyberduck-4.3.zip</a><br />
 							<em>ユニバーサルバイナリ、Mac OS X 10.5以降が必要</em>
 						</div>
@@ -343,7 +343,7 @@ Cyberduck | FTP、SFTP、WebDAV、Cloud Files、Google Drive、S3用ブラウザ
 					<div id="windows" class="download">
 						<div>
 							<strong>バージョン4.3</strong><br />
-							<em>Apr-18-2013</em><br />
+							<em>Apr-25-2013</em><br />
 							<a href="windows/Cyberduck-Installer-4.3.exe" onclick="javascript:mixpanel.track('Downloads', {'exe': 'Cyberduck-Installer-4.3.exe'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.exe']);">Cyberduck-Installer-4.3.exe</a><br />
 							<em>Windows XP、Windows VistaまたはWindows 7が必要</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN</a> and <a href="http://www.rackspace.com/cloud/cloud_hosting_products/files/">Rackspace</a>.</small>
