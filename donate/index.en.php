@@ -98,20 +98,6 @@
 							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!"/>
 						</fieldset>
 					</form>
-					<script type="text/javascript">
-							//<![CDATA[
-							$(document).ready(function() {
-								if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-									$("form input#paypal").attr('value', '7TAQE4SM2FH6L');
-									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TAQE4SM2FH6L');
-								}
-								else {
-									$("form input#paypal").attr('value', '4914397');
-									$("a#paypal").attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397');
-								}
-							});
-					//]]>
-					</script>
 					<p>Please do not make a payment of just a few cents. It is not really worth the effort looking at the transaction costs.</p>
 				</div>
 				

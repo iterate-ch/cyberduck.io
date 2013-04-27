@@ -10,7 +10,7 @@
 			<meta http-equiv='content-type' content='application/xhtml; charset=utf-8' />
 			<meta name='verify-v1' content='oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=' />
 
-			<script type=\"text/javascript\">
+			<script type='text/javascript'>
 				var _gaq = _gaq || [];
 				_gaq.push(['_setAccount', 'UA-3203018-1']);
 				_gaq.push(['_trackPageview']);
@@ -21,17 +21,31 @@
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
 			</script>
-			<script type=\"text/javascript\">
+			<script type='text/javascript'>
 				(function(d,c){
-					var a,b,g,e;a=d.createElement(\"script\");a.type=\"text/javascript\";a.async=!0;a.src=(\"https:\"===d.location.protocol?\"https:\":\"http:\")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;\"undefined\"!==typeof f?b=c[f]=[]:f=\"mixpanel\";g=\"disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config\".split(\" \");
+					var a,b,g,e;a=d.createElement('script');a.type='text/javascript';a.async=!0;a.src=('https:'===d.location.protocol?'https:':'http:')+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;'undefined'!==typeof f?b=c[f]=[]:f='mixpanel';g='disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config'.split(' ');
 for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
-				mixpanel.init(\"ad5a07784a06fde742c533edec3967af\");
+				mixpanel.init('ad5a07784a06fde742c533edec3967af');
+			</script>
+			<script type='text/javascript'>
+					//<![CDATA[
+					$(document).ready(function() {
+						if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+							$('form input#paypal').attr('value', '7TAQE4SM2FH6L');
+							$('a#paypal').attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TAQE4SM2FH6L');
+						}
+						else {
+							$('form input#paypal').attr('value', '4914397');
+							$('a#paypal').attr('href', 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397');
+						}
+					});
+			//]]>
 			</script>";
 	}
 
 	  function echogoogle() {
 		return "
-			<span class='google-banner' style=\"width:728px;height:90px\">
+			<span class='google-banner' style='width:728px;height:90px'>
 				<script type='text/javascript'>
 					<!--
 					google_ad_client = 'ca-pub-9176652804694766';
@@ -69,8 +83,8 @@ for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prot
 							});
 					//]]>
 					</script>
-					<a href='http://cyberduck.ch/appstore'><img width='128px' alt='Mac App Store' src='".$dir."/img/mas' /></a>	
-					<a href='http://cyberduck.ch/donate'><img width='128px' alt='Paypal' src='".$dir."/img/donate.png' /></a>	
+					<a href='/appstore'><img width='128px' alt='Mac App Store' src='".$dir."/img/mas' /></a>	
+					<a id='paypal' href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397'><img width='128px' alt='Support Development' src='".$dir."/img/donationbadge.png' /></a>	
 			</div>
 			<div id='logo'><a href='http://cyberduck.ch'><img id='icon' src='http://cdn.cyberduck.ch/img/cyberduck.icon.png' width='192' height='192' alt='Cyberduck'/></a></div>";
 	}
