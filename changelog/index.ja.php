@@ -34,7 +34,7 @@
 				<table cellpadding="0" cellspacing="0">
 					<tr>
 						<td width="150" valign="top">
-							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.3.1">4.3.1</a> (11008)</strong> <em>May-03-2013</em><br />
+							<p><strong><a href="http://trac.cyberduck.ch/milestone/4.3.1">4.3.1</a> (11010)</strong> <em>May-03-2013</em><br />
 							<a href="http://update.cyberduck.ch/Cyberduck-4.3.1.zip" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.1.zip']);">Download (Mac)</a>
 							<a href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.3.1.exe" onClick="javascript:_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.1.exe']);">Download (Windows)</a></p>
 						</td>
