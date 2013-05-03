@@ -27,9 +27,21 @@
 				distribute, study, change and improve the software. The continued donations of users is what allows Cyberduck to be available for free today. If you find this program useful, please
 				consider making a <a id="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">donation</a>. It will help to make Cyberduck even better!</p>
 
-				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to be shared.</p>
+				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
+					 updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to be shared.</p>
 
-				<p>To make the payment with Paypal, you can use your credit card or bank account without the need to open an account. You will receive the donation key automatically by email and additionally a receipt from Paypal when the transaction is complete.</p>
+				<p>To make the payment with Paypal, you can use your credit card or bank account without the need to open an account. You will receive the donation key automatically by email and 
+					additionally a receipt from Paypal when the transaction is complete.</p>
+					
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+							onclick="javascript:mixpanel.track('Donate', {}, function(){});_gaq.push(['_trackEvent', 'Paypal', 'VTBUBS29YLYE4']);">
+						<fieldset>
+							<input type="hidden" name="cmd" value="_s-xclick" />
+							<input type="hidden" id="paypal" name="hosted_button_id" value="4914397" />
+							<input type="image" src="../img/donate" name="submit" alt="Donate to the development of Cyberduck!"/>
+						</fieldset>
+					</form>
+					
 
 				<p>If you prefer not to use Paypal you can send money by IBAN. You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has been completed.</p>
 
@@ -74,7 +86,12 @@
 				</ul>
 <p>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion of the Amazon order process.</p>
 
-
+				<p class="lead"><strong>Mac App Store.</strong> The presence of Cyberduck in the <a href="/appstore">Mac App Store</a> is important for the visibility of the project in particular for new and average users on the Mac platform. 
+					The caveat is that the donation key model is not supported in the App Store per the developer agreement. Software asking for voluntary contributions does not get approved. 
+					We have therefore opted to distribute Cyberduck in the App Store for a fixed price with no donation prompt. It is your choice to buy the version from the App Store or
+					 download from the website and opt in for a payment if you feel like. Cyberduck is libre (FLOSS) software and will remain so in the future.</p>
+				<p>
+				Your purchase receipt from the App Store version is copied to the Application Support folder and recognized as a key when running any version of Cyberduck.</p>
 			</div>
 
 			<div id="footer">
