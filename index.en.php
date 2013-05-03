@@ -330,9 +330,9 @@
 				<div class="box-shadow">
 					<div id="mac" class="download">
 						<div>
-							<strong>Download<br />Version 4.3</strong><br />
-							<em>Apr-25-2013</em><br />
-							<a href="Cyberduck-4.3.zip" onclick="javascript:mixpanel.track('Downloads', {'zip': 'Cyberduck-4.3.zip'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.zip']);">Cyberduck-4.3.zip</a><br />
+							<strong>Download<br />Version 4.3.1</strong><br />
+							<em>May-03-2013</em><br />
+							<a href="Cyberduck-4.3.1.zip" onclick="javascript:mixpanel.track('Downloads', {'zip': 'Cyberduck-4.3.1.zip'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.1.zip']);">Cyberduck-4.3.1.zip</a><br />
 							<em>Universal Binary. Mac OS X 10.5 or later required.</em>
 						</div>
 						<img alt="Mac" src="http://cdn.cyberduck.ch/img/mac32.png" width="32px" height="32px" />
@@ -340,9 +340,9 @@
 
 					<div id="windows" class="download">
 						<div>
-							<strong>Version 4.3</strong><br />
-							<em>Apr-25-2013</em><br />
-							<a href="windows/Cyberduck-Installer-4.3.exe" onclick="javascript:mixpanel.track('Downloads', {'exe': 'Cyberduck-Installer-4.3.exe'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.exe']);">Cyberduck-Installer-4.3.exe</a><br />
+							<strong>Version 4.3.1</strong><br />
+							<em>May-03-2013</em><br />
+							<a href="windows/Cyberduck-Installer-4.3.1.exe" onclick="javascript:mixpanel.track('Downloads', {'exe': 'Cyberduck-Installer-4.3.1.exe'}, function(){});_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.1.exe']);">Cyberduck-Installer-4.3.1.exe</a><br />
 							<em>Windows XP, Windows Vista, Windows 7 or Windows 8 required.</em><br />
 							<small>Downloads hosted by <a href="http://cacheboy.net/">Cacheboy CDN</a> and <a href="http://www.rackspace.com/cloud/cloud_hosting_products/files/">Rackspace</a>.</small>
 						</div>
