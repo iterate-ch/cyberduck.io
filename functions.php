@@ -5,7 +5,7 @@
 			<link rel='alternate' type='application/rss+xml' title='RSS 2.0' href='http://cyberduck.ch/changelog.rss' />
 			<link rel='shortcut icon' href='http://cdn.cyberduck.ch/favicon.ico' type='image/vnd.microsoft.icon' />
 
-			<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js' type='text/javascript'></script>
+			<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js' type='text/javascript'></script>
 
 			<meta http-equiv='content-type' content='application/xhtml; charset=utf-8' />
 			<meta name='verify-v1' content='oRWGrJdrdxdw/s7np84vtm1fMFPyoTGsh7vhwiKJK4U=' />
@@ -20,12 +20,6 @@
 					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
-			</script>
-			<script type='text/javascript'>
-				(function(d,c){
-					var a,b,g,e;a=d.createElement('script');a.type='text/javascript';a.async=!0;a.src=('https:'===d.location.protocol?'https:':'http:')+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;'undefined'!==typeof f?b=c[f]=[]:f='mixpanel';g='disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config'.split(' ');
-for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
-				mixpanel.init('ad5a07784a06fde742c533edec3967af');
 			</script>
 			<script type='text/javascript'>
 					//<![CDATA[
