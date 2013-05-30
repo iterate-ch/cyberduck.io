@@ -27,7 +27,7 @@
 				distribute, study, change and improve the software. The continued donations of users is what allows Cyberduck to be available for free today. If you find this program useful, please
 				consider making a <a id="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4914397">donation</a>. It will help to make Cyberduck even better!</p>
 
-				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that disables the donation prompt that is displayed after installing or
+				<p class="lead"><strong>Contribution.</strong> As a contributor to Cyberduck, you receive a donation key that registers the installed application to your name and disables the donation prompt that is otherwise displayed after installing or
 					 updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to be shared.</p>
 
 				<p>To make the payment with Paypal, you can use your credit card or bank account without the need to open an account. You will receive the donation key automatically by email and 
