@@ -388,37 +388,8 @@
 				</p>
 				<p />
 				<p>
-					<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
-					<script type="text/javascript">
-						new TWTR.Widget({
-						  version: 2,
-						  type: 'profile',
-						  rpp: 10,
-						  interval: 30000,
-						  width: 'auto',
-						  height: 650,
-						  theme: {
-						    shell: {
-						      background: '#EAEAEA',
-						      color: '#000000'
-						    },
-						    tweets: {
-						      background: '#ffffff',
-						      color: '#000000',
-						      links: '#00006c'
-						    }
-						  },
-						  features: {
-						    scrollbar: false,
-						    loop: false,
-						    live: false,
-						    hashtags: true,
-						    timestamp: true,
-						    avatars: false,
-						    behavior: 'all'
-						  }
-						}).render().setUser('cyberduckapp').start();
-					</script>
+                    <a class="twitter-timeline" href="https://twitter.com/cyberduckapp" data-widget-id="390207087331901440">Tweets by @cyberduckapp</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</p>
 			</div>
 		</div>
