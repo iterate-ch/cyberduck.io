@@ -54,9 +54,6 @@ a:hover, a:focus {
 .navbar-default {
     padding-top: 0;
     margin-bottom: 0;
-    /*background-color: #3C404C;*/
-    /*background-color: #66666a;*/
-    /*background-color: #3C404C;*/
     background-color: #eee;
     border: 0;
     border-radius: 0;
@@ -83,8 +80,15 @@ a:hover, a:focus {
     margin-top: 8px;
 }
 
+.navbar-default .navbar-nav>li:nth-child(2) {
+    border-left: 1px solid #999999;
+}
+
 .navbar-default .navbar-nav>li:first-child {
     border-left: none;
+    border-right: none;
+    padding-right: 10px;
+    margin-top: 0;
 }
 
 .navbar-default .navbar-nav>li:last-child {
