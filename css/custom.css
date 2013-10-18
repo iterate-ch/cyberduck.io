@@ -186,3 +186,23 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
 .screen-reader-text {
     display: none;
 }
+
+/* Ads */
+.cyberduckch-responsive {
+    width: 320px;
+    height: 50px;
+}
+
+@media (min-width: 500px) {
+    .cyberduckch-responsive {
+        width: 468px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 800px) {
+    .cyberduckch-responsive {
+        width: 728px;
+        height: 90px;
+    }
+}
