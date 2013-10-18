@@ -200,7 +200,7 @@ div.login h1 {
     width: auto;
 }
 
-.wiki-toc, #prefs {
+.wiki-toc, #prefs, #ticket {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #bce8f1;
