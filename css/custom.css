@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+h1, h2, h3 {
+    margin-top: 30px;
+}
+
+.alert h1, .alert h2, .alert h3 {
+    margin-top: 0;
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.jumbotron small {
+    font-size: 11px;
+}
+
+.jumbotron p {
+    line-height: 1;
+}
+
+body > header, body > #page > header {
+    background-color: #eee;
+}
+
+nav {
+    font-size: 16px;
+}
+
+:link, :visited {
+    color: #428bca;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.page-header {
+    padding-top: 10px;
+}
+
+.page-header h2 {
+    color: #999;
+    font-weight: normal;
+}
+
+.navbar-default {
+    padding-top: 0;
+    margin-bottom: 0;
+    /*background-color: #3C404C;*/
+    /*background-color: #66666a;*/
+    /*background-color: #3C404C;*/
+    background-color: #eee;
+    border: 0;
+    border-radius: 0;
+}
+
+/*.navbar-nav > li > a {*/
+/*border-left: 1px solid #555555;*/
+/*padding: 0 5px 0 10px;*/
+/*color: #999999;*/
+/*}*/
+
+/*.navbar-nav > li.active > a {*/
+/*color: #fff;*/
+/*}*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #999999;
+    padding: 0 5px;
+}
+
+.navbar-default .navbar-nav>li {
+    padding: 0 5px;
+    border-right: 1px solid #999999;
+    margin-top: 8px;
+}
+
+.navbar-default .navbar-nav>li:first-child {
+    border-left: none;
+}
+
+.navbar-default .navbar-nav>li:last-child {
+    border-right: none;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #5a5a5a;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #5a5a5a;
+    background-color: transparent;
+}
+
+.navbar-default ul {
+    margin-top: 40px;
+}
+
+.navbar-nav>li>a {
+    padding: 1px 5px 1px 10px;
+}
+
+body {
+    /*font-family: "Cardo",sans-serif;*/
+    font-family: "Droid Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Droid Sans", sans-serif;
+    font-weight: bold;
+}
+
+body > footer, body > #page > footer {
+    min-height: 50px;
+    background-color: #66666a;
+    color: #ddd;
+    margin-top: 20px;
+    /*font-size: 11px;*/
+}
+
+body > footer :link, body > footer :visited, body > #page > footer :link, body > #page > footer :visited {
+    color: #fff;
+}
+
+body > footer a:hover, body > #page > footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+nav .alert {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
+    font-weight: normal;
+}
+
+.btn {
+    margin-bottom: 2px;
+}
+
+.btn-primary {
+    background-color: #5a5a5a;
+    border-color: #3C404B;
+}
+
+.btn-primary a {
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #BA3900;
+    border-color: #BA3900;
+}
+
+.btn-danger a {
+    color: #fff;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.btn .media-body {
+}
+
+.headline {
+    /*border-top: 2px solid #f1f1f1;*/
+}
+
+.screen-reader-text {
+    display: none;
+}

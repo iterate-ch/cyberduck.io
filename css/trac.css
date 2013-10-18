@@ -1,0 +1,224 @@
+#banner #header {
+    display: none;
+}
+
+#banner #search {
+    display: none;
+}
+
+#banner {
+    margin-top: 5px;
+}
+
+#footer {
+    display: none;
+    border:none;
+}
+
+#footer .right {
+}
+
+.wikipage h1, .wikipage h2, .wikipage h3, .wikipage h4 {
+    letter-spacing: normal;
+}
+
+.wikipage h1 a, .wikipage h2 a, .wikipage h3 a, .wikipage h4 a {
+    text-decoration: none;
+}
+
+.wikipage a:link, .wikipage a:visited {
+    color: #0066CC;
+}
+
+.wikipage tt {
+    background-color: #F7F7F7;
+    border: 1px solid #D7D7D7;
+    overflow: auto;
+}
+
+blockquote.citation {
+    font-weight: normal;
+}
+
+:link, :visited {
+    background-color: transparent;
+    border: none;
+}
+
+:link:hover, :visited:hover {
+    background-color: transparent;
+    color: #0066cc;
+    border: none;
+}
+
+#metanav {
+    text-transform: lowercase;
+}
+
+#ctxtnav {
+    text-transform: lowercase;
+    height: auto;
+}
+
+#changelog {
+	background-color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ul {
+    font-size: inherit;
+}
+
+* html #mainnav :link, * html #mainnav :visited {
+    background-image: none;
+}
+
+#mainnav {
+    border: none;
+/*    border-left: 40px solid #EFEFEF;*/
+    text-transform: lowercase;
+}
+
+#mainnav ul {
+    background-color: #efefef;
+    height: 16px;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+
+#mainnav ul li {
+    list-style: none;
+    border: none;
+    padding: 2px 0 2px 0;
+}
+
+#mainnav :link, #mainnav :visited {
+    background-image: none;
+    padding: 2px 10px 2px 10px;
+    border: none;
+}
+
+#mainnav :link:hover, #mainnav :visited:hover {
+    border: none;
+}
+
+#mainnav .active :link, #mainnav .active :visited {
+    background-image: none;
+}
+
+#mainnav .active :link:hover, #mainnav .active :visited:hover {
+    background-image: none;
+}
+
+/*#mainnav ul li.first {
+display: none;
+}
+*/
+#mainnav ul > li:first-child {
+padding-left: 0;
+}
+#metanav ul > li:first-child {
+padding-left: 0;
+}
+
+#content {
+/*    position: static;*/
+/*    background-color: white;*/
+    padding: 0;
+}
+
+#content.ticket {
+}
+
+form#prefs {
+    font-size: 0.85em;
+    background-color: #f7f7f7;
+}
+
+/*reports.css overwrites*/
+table.listing tbody tr:hover {
+    background-color: #cccccc !important
+}
+
+h2.report-result {
+    margin: 10px 0 0;
+}
+
+/*timeline.css overwrites*/
+dt :link:hover, dt :visited:hover {
+    background-color: #cccccc;
+}
+
+/*search.css overwrites*/
+#results dd {
+    font-size: 1em;
+    margin: 0;
+    padding: 0
+}
+
+/*browser.css overwrites*/
+#dirlist td.name a.dir {
+    background-image: url(http://cyberduck.ch/img/folder.png)
+}
+
+.wiki-toc .active {
+    background-color: transparent;
+}
+
+.wikipage h1 a.wiki, .wikipage h2 a.wiki {
+/*	color: black;*/
+	font-weight: bold;
+}
+
+.wikipage p strong {
+    background-color: lightYellow;
+}
+
+.wikipage ul ul {
+    list-style-type: circle;
+}
+
+.trac-resizable {
+	width: 100%;
+}
+
+#openid_form {
+	width:auto;
+}
+
+#openid_form .error {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 0.15em 1em 0.5em 0;
+}
+
+#openid_input_area {
+	background-color: #F7F7F7;
+}
+
+#edit, #content form {
+	background-color: #F7F7F7;
+}
+
+a#edit {
+	background-color: inherit;
+}
+
+.milestone .description {
+    background-color: #F7F7F7;
+}
+
+div.login {
+	border: none;
+	margin: 0;
+}
+
+div.login h1 {
+	text-align: left;
+	margin-top: 0.15em;
+	width: auto;
+}
