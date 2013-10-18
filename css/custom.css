@@ -29,6 +29,10 @@ nav {
     font-size: 16px;
 }
 
+a {
+    color: inherit;
+}
+
 :link, :visited {
     color: #428bca;
 }

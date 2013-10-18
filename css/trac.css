@@ -189,10 +189,6 @@ dt :link:hover, dt :visited:hover {
     margin: 0.15em 1em 0.5em 0;
 }
 
-a#edit {
-    background-color: inherit;
-}
-
 div.login {
     border: none;
     margin: 0;
