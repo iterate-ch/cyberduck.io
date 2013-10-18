@@ -77,7 +77,10 @@ a:hover, a:focus {
 .navbar-default .navbar-nav>li {
     padding: 0 5px;
     border-right: 1px solid #999999;
-    margin-top: 8px;
+}
+
+.navbar-default .navbar-nav>li img, .navbar-default .navbar-nav>li button {
+    margin-top: -8px;
 }
 
 .navbar-default .navbar-nav>li:nth-child(2) {
@@ -88,13 +91,11 @@ a:hover, a:focus {
     border-left: none;
     border-right: none;
     padding-right: 10px;
-    margin-top: 0;
 }
 
 .navbar-default .navbar-nav>li:last-child {
     border-right: none;
     padding-left: 10px;
-    margin-top: 0;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
