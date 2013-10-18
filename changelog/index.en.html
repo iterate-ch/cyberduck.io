@@ -82,6 +82,96 @@
 </h2>
 <table class="table table-responsive table-striped">
 <tr>
+    <td valign="top">
+        <p><strong><a href="http://trac.cyberduck.ch/milestone/4.4">4.4</a> ()</strong>
+            <em>Oct-22-2013</em><br/>
+            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/Cyberduck-4.4.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.zip']);">Download
+                (Mac)</a>
+            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/windows/Cyberduck-Installer-4.4.exe"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.exe']);">Download
+                (Windows)</a></p>
+        <div class="alert alert-success">Mac OS X 10.6 or later required.</div>
+    </td>
+
+    <td>
+        <ul>
+            <li>[Feature] Performance improvements</li>
+            <li>[Feature] No Java installation requirement (Mac)</li>
+            <li>[Feature] Resumable multipart uploads (S3) (<a href="http://trac.cyberduck.ch/ticket/6208">#6208</a>)
+            </li>
+            <li>[Feature] Bucket lifecycle configuration to archive objects in Glacier (S3) <a
+                    href="http://trac.cyberduck.ch/ticket/6830">#6830</a></li>
+            <li>[Feature] Keystone (2.0) authentication support (OpenStack) (<a
+                    href="http://trac.cyberduck.ch/ticket/6330">#6330</a>)
+            </li>
+            <li>[Feature] Multiple region support (OpenStack) (<a href="http://trac.cyberduck.ch/ticket/6902">#6902</a>)
+            </li>
+            <li>[Feature] Set container metadata (OpenStack)</li>
+            <li>[Feature] Edit non prefixed headers (OpenStack) (<a
+                    href="http://trac.cyberduck.ch/ticket/7209">#7209</a>)
+            </li>
+            <li>[Feature] Support ECHDE cipher suites (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/7344">#7344</a>)
+            </li>
+            <li>[Feature] Select region when creating new container (S3, OpenStack)</li>
+            <li>[Feature] Confirmation alert on move and rename in browser (<a
+                    href="http://trac.cyberduck.ch/ticket/595">#595</a>)
+            </li>
+            <li>[Feature] Transfer action to skip existing files that match checksum, size or timestamp (<a
+                    href="http://trac.cyberduck.ch/ticket/6500">#6500</a>)
+            </li>
+            <li>[Feature] Fullscreen option for browser window</li>
+            <li>[Feature] Remember window position of browser window when saving workspace</li>
+            <li>[Feature] Copy temporary signed URLs (OpenStack) (<a
+                    href="http://trac.cyberduck.ch/ticket/7018">#7018</a>)
+            </li>
+            <li>[Feature] Preview file status in overwrite prompt when choosing transfer action</li>
+            <li>[Feature] Option to continue or cancel on failure transferring multiple files</li>
+            <li>[Feature] Display download progress in Finder and Dock</li>
+            <li>[Feature] Enable website configuration for buckets (GreenQloud)</li>
+            <li>[Bugfix] Cannot edit non prefixed headers (OpenStack) (<a href="http://trac.cyberduck.ch/ticket/7209">#7209</a>)
+            </li>
+            <li>[Bugfix] Sandboxing denies access to SSH keys (Mac) (<a href="http://trac.cyberduck.ch/ticket/7208">#7208</a>)
+            </li>
+            <li>[Bugfix] Quick Look does not display preview (Mac) (<a
+                    href="http://trac.cyberduck.ch/ticket/7231">#7231</a>)
+            </li>
+            <li>[Bugfix] Failure duplicating files (FTP) (<a href="http://trac.cyberduck.ch/ticket/7224">#7224</a>)</li>
+            <li>[Bugfix] Save workspace does not work for multiple browser sessions to the same server (<a
+                    href="http://trac.cyberduck.ch/ticket/7213">#7213</a>)
+            </li>
+            <li>[Bugfix] Permission error for upload to write-only folder (<a
+                    href="http://trac.cyberduck.ch/ticket/6240">#6240</a>)
+            </li>
+            <li>[Bugfix] Authentication with none password (SFTP) (<a
+                    href="http://trac.cyberduck.ch/ticket/7322">#7322</a>)
+            </li>
+            <li>[Bugfix] Interoperability issues (WebDAV) (<a href="http://trac.cyberduck.ch/ticket/7227">#7227</a>)
+            </li>
+            <li>[Bugfix] Subsequent edit fails (<a href="http://trac.cyberduck.ch/ticket/7248">#7248</a>)</li>
+            <li>[Bugfix] Omit absolute paths in archives (ZIP, TAR) (<a href="http://trac.cyberduck.ch/ticket/6644">#6644</a>)
+            </li>
+            <li>[Bugfix] Connect mode fallback failures (FTP) (<a href="http://trac.cyberduck.ch/ticket/5385">#5385</a>)
+            </li>
+            <li>[Bugfix] Directory placeholder not displayed if same name as object (OpenStack) (<a
+                    href="http://trac.cyberduck.ch/ticket/6988">#6988</a>)
+            </li>
+            <li>[Bugfix] Cannot set custom keyboard shortcut (<a href="http://trac.cyberduck.ch/ticket/7045">#7045</a>)
+            </li>
+            <li>[Bugfix] Registration with Growl fails (<a href="http://trac.cyberduck.ch/ticket/7274">#7274</a>)</li>
+            <li>[Bugfix] Changing permissions resets extended access rights flags (SFTP, FTP) (<a
+                    href="http://trac.cyberduck.ch/ticket/3790">#3790</a>)
+            </li>
+            <li>[Bugfix] Remember browser column widths (<a href="http://trac.cyberduck.ch/ticket/6034">#6034</a>)</li>
+            <li>[Bugfix] Refresh list of thirdparty application bookmarks to import (<a
+                    href="http://trac.cyberduck.ch/ticket/6141">#6141</a>)
+            </li>
+            <li>[Bugfix] PRET support not working anymore (<a href="http://trac.cyberduck.ch/ticket/7427">#7427</a>)
+            </li>
+        </ul>
+    </td>
+</tr>
+<tr>
     <td>
         <p><strong><a href="http://trac.cyberduck.ch/milestone/4.3.1">4.3.1</a> (11010)</strong>
             <em>May-03-2013</em><br/>
@@ -3237,7 +3327,7 @@
 <tr>
     <td>
         <p><strong>2.1b5</strong> <em>Aug-29-2003</em><br/>
-            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/Cyberduck-2.1beta5.dmg"
+            <a class="btn btn-default btn-xs" href="#"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta5.dmg']);">Download</a>
         </p>
     </td>
@@ -3269,7 +3359,7 @@
 <tr>
     <td>
         <p><strong>2.1b4</strong> <em>Aug-22-2003</em><br/>
-            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/Cyberduck-2.1beta4.dmg"
+            <a class="btn btn-default btn-xs" href="#"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta4.dmg']);">Download</a>
         </p>
     </td>
@@ -3286,7 +3376,7 @@
 <tr>
     <td>
         <p><strong>2.1b3</strong> <em>Aug-17-2003</em><br/>
-            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/Cyberduck-2.1beta3.dmg"
+            <a class="btn btn-default btn-xs" href="#"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta3.dmg']);">Download</a>
         </p>
     </td>
@@ -3325,7 +3415,7 @@
 <tr>
     <td>
         <p><strong>2.1b2</strong> <em>Aug-15-2003</em><br/>
-            <a class="btn btn-default btn-xs" href="http://update.cyberduck.ch/Cyberduck-2.1beta2.dmg"
+            <a class="btn btn-default btn-xs" href="#"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.dmg', '/Cyberduck-2.1beta2.dmg']);">Download</a>
         </p>
     </td>
@@ -3346,7 +3436,7 @@
 
 <div class="container">
     <a class="swissmade" href="http://www.swissmadesoftware.org"><img
-            src="https://media.cyberduck.ch/img/sms-logo-small-footer.png"
+            width="122px" height="16px" src="http://media.cyberduck.ch/img/sms-logo-small-footer.png"
             alt="swiss made software"/></a>
 </div>
 
