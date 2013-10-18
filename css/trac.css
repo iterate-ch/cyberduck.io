@@ -12,7 +12,7 @@
 
 #footer {
     display: none;
-    border:none;
+    border: none;
 }
 
 #footer .right {
@@ -61,7 +61,7 @@ blockquote.citation {
 }
 
 #changelog {
-	background-color: white;
+    background-color: white;
 }
 
 .nav a {
@@ -78,7 +78,7 @@ blockquote.citation {
 
 #mainnav {
     border: none;
-/*    border-left: 40px solid #EFEFEF;*/
+    /*    border-left: 40px solid #EFEFEF;*/
     text-transform: lowercase;
 }
 
@@ -119,29 +119,27 @@ display: none;
 }
 */
 #mainnav ul > li:first-child {
-padding-left: 0;
+    padding-left: 0;
 }
+
 #metanav ul > li:first-child {
-padding-left: 0;
+    padding-left: 0;
 }
 
 #content {
-/*    position: static;*/
-/*    background-color: white;*/
     padding: 0;
 }
 
 #content.ticket {
+    width: 100%;
 }
 
 form#prefs {
     font-size: 0.85em;
-    background-color: #f7f7f7;
 }
 
 /*reports.css overwrites*/
 table.listing tbody tr:hover {
-    background-color: #cccccc !important
 }
 
 h2.report-result {
@@ -150,7 +148,6 @@ h2.report-result {
 
 /*timeline.css overwrites*/
 dt :link:hover, dt :visited:hover {
-    background-color: #cccccc;
 }
 
 /*search.css overwrites*/
@@ -170,12 +167,8 @@ dt :link:hover, dt :visited:hover {
 }
 
 .wikipage h1 a.wiki, .wikipage h2 a.wiki {
-/*	color: black;*/
-	font-weight: bold;
-}
-
-.wikipage p strong {
-    background-color: lightYellow;
+    /*	color: black;*/
+    font-weight: bold;
 }
 
 .wikipage ul ul {
@@ -183,42 +176,30 @@ dt :link:hover, dt :visited:hover {
 }
 
 .trac-resizable {
-	width: 100%;
+    width: 100%;
 }
 
 #openid_form {
-	width:auto;
+    width: auto;
 }
 
 #openid_form .error {
-	font-size: 1.8em;
-	font-weight: bold;
-	margin: 0.15em 1em 0.5em 0;
-}
-
-#openid_input_area {
-	background-color: #F7F7F7;
-}
-
-#edit, #content form {
-	background-color: #F7F7F7;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0.15em 1em 0.5em 0;
 }
 
 a#edit {
-	background-color: inherit;
-}
-
-.milestone .description {
-    background-color: #F7F7F7;
+    background-color: inherit;
 }
 
 div.login {
-	border: none;
-	margin: 0;
+    border: none;
+    margin: 0;
 }
 
 div.login h1 {
-	text-align: left;
-	margin-top: 0.15em;
-	width: auto;
+    text-align: left;
+    margin-top: 0.15em;
+    width: auto;
 }
