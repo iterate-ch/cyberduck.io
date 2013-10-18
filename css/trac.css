@@ -200,11 +200,21 @@ div.login h1 {
     width: auto;
 }
 
-.wiki-toc, #prefs, #ticket {
+.wiki-toc, #prefs, #ticket, #changelog {
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid #bce8f1;
+    border: 1px solid transparent;
     border-radius: 4px;
+}
+
+.wiki-toc, #prefs, #ticket {
     color: #3a87ad;
     background-color: #d9edf7;
+    border-color: #bce8f1
+}
+
+#changelog {
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5
 }
