@@ -188,6 +188,10 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
     display: none;
 }
 
+blockquote p {
+    font-size: inherit;
+}
+
 /* Ads */
 .cyberduckch-responsive {
     width: 320px;
