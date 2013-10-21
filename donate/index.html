@@ -197,47 +197,77 @@
         </div>
     </div>
 
-    <h3>Organization Site Keys</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Organization Site Keys</h3>
 
-    <p> We are providing organization site keys for
-        scenarios like pre-configured installations for site wide deployments inside an organizations where
-        the individual user should not be bothered with a donation prompt request. An organization site key
-        is not limited to a single user. Refer to <a href="volume">volume pricing</a>.</p>
+            <p>
+                We are providing organization site keys for scenarios like pre-configured installations for site wide
+                deployments inside an organizations where the individual user should not be bothered with a donation
+                prompt request. An organization site key is not limited to a single user. Please contact
+                <a href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David
+                    Kocher</a> requesting a key with the desired entitlements.
+            </p>
 
-    <form id="lookup" method="get" action="lookup" class="form-inline" role="form">
-        <h3>Donation Key Recovery</h3>
-
-        <p> The donation key is sent to you by email
-            automatically after the Paypal transaction has been completed. To recover a
-            lost registration key, enter your email address below to look it up.</p>
-
-        <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email address registered with Paypal" id="email"
-                   name="email"/>
+            <form id="calculate" method="get" action="calculate"
+                  class="form-inline" role="form">
+                The volume pricing for a site key for
+                <div class="form-group">
+                    <input class="form-control" size="5" type="text" id="volume"
+                           name="volume" placeholder="Installations" value="0"/>
+                </div>
+                <button type="submit" class="btn btn-default" id="calculate">Calculate</button>
+                <script charset="utf-8" type="text/javascript">
+                    //<![CDATA[
+                    $(document).ready(function () {
+                        var options = {
+                            target: '#result',
+                            clearForm: false
+                        }
+                        $("form#calculate").ajaxForm(options);
+                    });
+                    //]]>
+                </script>
+                installations gives a total amount of <strong id="result">0</strong> <strong>€</strong>.
+            </form>
         </div>
-        <button type="submit" class="btn btn-default" id="lookup">
-            Lookup
-        </button>
-        <script charset="utf-8" type="text/javascript">
-            //<![CDATA[
-            $(document).ready(function () {
-                var options = {
-                    target: '#result',
-                    clearForm: true
-                }
-                $("form#lookup").ajaxForm(options);
-            });
-            //]]>
-        </script>
-    </form>
+        <div class="col-md-6">
+            <h3>Donation Key Recovery</h3>
 
-    <p id="result" class="alert alert-info" style="display: none"/>
+            <p> The donation key is sent to you by email
+                automatically after the Paypal transaction has been completed. To recover a
+                lost registration key, enter your email address below to look it up.</p>
 
-    <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
-        donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
-                href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
-        receiving or opening the key.</p></small>
+            <form id="lookup" method="get" action="lookup" class="form-inline" role="form">
 
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email address registered with Paypal" id="email"
+                           name="email"/>
+                </div>
+                <button type="submit" class="btn btn-default" id="lookup">
+                    Lookup
+                </button>
+                <script charset="utf-8" type="text/javascript">
+                    //<![CDATA[
+                    $(document).ready(function () {
+                        var options = {
+                            target: '#result',
+                            clearForm: true
+                        }
+                        $("form#lookup").ajaxForm(options);
+                    });
+                    //]]>
+                </script>
+            </form>
+
+            <p id="result" class="alert alert-info" style="display: none"/>
+
+            <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
+                donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
+                        href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
+                receiving or opening the key.</p></small>
+        </div>
+    </div>
 </div>
 <footer>
     <div class="container"/>
