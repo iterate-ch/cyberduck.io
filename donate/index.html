@@ -221,14 +221,14 @@
                     //<![CDATA[
                     $(document).ready(function () {
                         var options = {
-                            target: '#result',
+                            target: '#calculate-result',
                             clearForm: false
-                        }
+                        };
                         $("form#calculate").ajaxForm(options);
                     });
                     //]]>
                 </script>
-                installations gives a total amount of <strong id="result">0</strong> <strong>€</strong>.
+                installations gives a total amount of <strong id="calculate-result">0</strong> <strong>€</strong>.
             </form>
         </div>
         <div class="col-md-6">
@@ -251,16 +251,16 @@
                     //<![CDATA[
                     $(document).ready(function () {
                         var options = {
-                            target: '#result',
+                            target: '#lookup-result',
                             clearForm: true
-                        }
+                        };
                         $("form#lookup").ajaxForm(options);
                     });
                     //]]>
                 </script>
             </form>
 
-            <p id="result" class="alert alert-info" style="display: none"/>
+            <p id="lookup-result" class="alert alert-info" style="display: none"/>
 
             <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
                 donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
