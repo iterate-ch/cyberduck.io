@@ -65,6 +65,10 @@ a:hover, a:focus {
     border-right: 1px solid #999999;
 }
 
+.navbar-default .in .navbar-nav>li {
+    border:none;
+}
+
 .navbar-default .navbar-nav>li img, .navbar-default .navbar-nav>li button {
     margin-top: -8px;
 }
@@ -73,15 +77,27 @@ a:hover, a:focus {
     border-left: 1px solid #999999;
 }
 
+.navbar-default .in .navbar-nav>li:nth-child(2) {
+    border: none;
+}
+
 .navbar-default .navbar-nav>li:first-child {
     border-left: none;
     border-right: none;
     padding-right: 10px;
 }
 
+.navbar-default .in .navbar-nav>li:first-child {
+    display: none;
+}
+
 .navbar-default .navbar-nav>li:last-child {
     border-right: none;
     padding-left: 10px;
+}
+
+.navbar-default .in .navbar-nav>li:last-child {
+    display: none;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
