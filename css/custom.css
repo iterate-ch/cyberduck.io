@@ -25,10 +25,6 @@ body > header, body > #page > header {
     background-color: #eee;
 }
 
-nav {
-    font-size: 16px;
-}
-
 a {
     color: inherit;
 }
@@ -58,16 +54,6 @@ a:hover, a:focus {
     border: 0;
     border-radius: 0;
 }
-
-/*.navbar-nav > li > a {*/
-/*border-left: 1px solid #555555;*/
-/*padding: 0 5px 0 10px;*/
-/*color: #999999;*/
-/*}*/
-
-/*.navbar-nav > li.active > a {*/
-/*color: #fff;*/
-/*}*/
 
 .navbar-default .navbar-nav>li>a {
     color: #999999;
@@ -178,10 +164,6 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
 }
 
 .btn .media-body {
-}
-
-.headline {
-    /*border-top: 2px solid #f1f1f1;*/
 }
 
 .screen-reader-text {
