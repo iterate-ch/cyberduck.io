@@ -202,3 +202,11 @@ blockquote p {
     display: inline;
     white-space: nowrap;
 }
+
+.showcase-thumbnail-wrapper-vertical {
+    padding: 10px 0;
+}
+
+.showcase-thumbnail-container {
+    margin-left: -40px;
+}
