@@ -11,6 +11,7 @@ h1, h2, h3 {
 .jumbotron {
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .jumbotron small {
