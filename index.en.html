@@ -32,6 +32,16 @@
 
 <body>
 <header>
+    <div class="container" style="display:none">
+        <p/>
+
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <p class="text-center">
+                Version <strong>4.4</strong> now available for download and in the <a href="/appstore">Mac App Store</a>!
+            </p>
+        </div>
+    </div>
     <div class="container">
         <nav class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
@@ -88,11 +98,11 @@
                 <br/>
 
                 <p>
-                    <a href="https://update.cyberduck.ch/windows/Cyberduck-Installer-4.3.1.exe"
-                       rel="tooltip" data-placement="left"
-                       data-original-title="Windows XP, Windows Vista, Windows 7 or Windows 8 required."
-                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.3.1.exe']);">
-                        <button type="button" class="btn btn-default btn-lg" style="width:230px">
+                    <a href="https://update.cyberduck.ch/windows/Cyberduck-Installer-4.4.exe"
+                       rel="tooltip" data-placement="left" data-html="true"
+                       title="<i>24 Oct 2013</i><br /><strong>Version 4.4 (13575)</strong><br /><br />Windows XP, Windows Vista, Windows 7 or Windows 8 required."
+                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.exe']);">
+                        <button type="button" class="btn btn-default btn-lg" style="width:231px">
                             <div class="media text-left">
                                 <div class="pull-right">
                                     <img src="https://media.cyberduck.ch/img/windows32.png" width="32" height="28"/>
@@ -102,18 +112,18 @@
                                         Download
                                     </strong>
                                     <br/>
-                                    <small>Cyberduck-Installer-4.3.1.exe</small>
+                                    <small>Cyberduck-Installer-4.4.exe</small>
                                 </div>
                             </div>
                         </button>
                     </a>
                 </p>
                 <p>
-                    <a href="https://update.cyberduck.ch/Cyberduck-4.3.1.zip"
-                       rel="tooltip" data-placement="left"
-                       data-original-title="Universal Binary. Mac OS X 10.5 or later required."
-                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.3.1.zip']);">
-                        <button type="button" class="btn btn-default btn-lg" style="width:230px">
+                    <a href="https://update.cyberduck.ch/Cyberduck-4.4.zip"
+                       rel="tooltip" data-placement="left" data-html="true"
+                       title="<i>24 Oct 2013</i><br /><strong>Version 4.4 (13575)</strong><br /><br />OS X 10.6 (Snow Leopard) or later on 64bit Intel required."
+                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.zip']);">
+                        <button type="button" class="btn btn-default btn-lg" style="width:231px">
                             <div class="media text-left">
                                 <div class="pull-right">
                                     <img src="https://media.cyberduck.ch/img/mac32.png" width="32" height="32"/>
@@ -123,7 +133,7 @@
                                         Download
                                     </strong>
                                     <br/>
-                                    <small>Cyberduck-4.3.1.zip</small>
+                                    <small>Cyberduck-4.4.zip</small>
                                 </div>
                             </div>
                         </button>
@@ -155,7 +165,7 @@
                     <div class="showcase-slide">
                         <div class="showcase-content">
                             <img class="img-responsive" src="https://media.cyberduck.ch/img/mac/browser-bookmarks.png"
-                                 width="650px" alt="Bookmarks"/>
+                                 width="650px" height="" alt="Bookmarks"/>
                         </div>
 
                         <div class="showcase-thumbnail">
@@ -214,21 +224,14 @@
                         $("#screenshots").awShowcase(
                                 {
                                     selected: selected,
-                                    width: 600,
-                                    height: 540,
+                                    width: 500,
+                                    height: 700,
                                     auto: false,
                                     interval: 3000,
                                     continuous: false,
                                     loading: true,
-                                    tooltip_width: 200,
-                                    tooltip_icon_width: 32,
-                                    tooltip_icon_height: 32,
-                                    tooltip_offsetx: 18,
-                                    tooltip_offsety: 0,
                                     arrows: false,
                                     buttons: false,
-                                    btn_numbers: true,
-                                    keybord_keys: true,
                                     mousetrace: false,
                                     pauseonover: true,
                                     transition: 'fade', /* vslide/hslide/fade */
@@ -277,7 +280,7 @@
         Transfer)</a>, <a href="http://trac.cyberduck.ch/wiki/help/en/howto/dav">WebDAV</a> (Web-based Distributed
         Authoring and Versioning), <a href="http://trac.cyberduck.ch/wiki/help/en/howto/s3">Amazon S3</a>, <a
                 href="http://trac.cyberduck.ch/wiki/help/en/howto/googlestorage">Google Cloud Storage</a> and <a
-                href="&lt;a">Rackspace Cloud Files</a>.
+                href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>.
     </small>
 </h2>
 <div class="row">
@@ -304,8 +307,7 @@
 </h2>
 
 
-<h2 class="headline"><img width="32px" height="32px" src="https://media.cyberduck.ch/img/s3.png" width="32px"
-                          height="32px"
+<h2 class="headline"><img width="32px" height="32px" src="https://media.cyberduck.ch/img/s3.png"
                           class="headline"> Distribute your
     content in the cloud.
     <small>Both <a href="http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront">Amazon CloudFront</a> and <a
@@ -345,8 +347,7 @@
     </div>
 </div>
 
-<h2 class="headline"><img width="32px" height="32px" src="https://media.cyberduck.ch/img/s3.png" width="32px"
-                          height="32px"
+<h2 class="headline"><img width="32px" height="32px" src="https://media.cyberduck.ch/img/s3.png"
                           class="headline"> Amazon S3 for the
     rest of us.
 
