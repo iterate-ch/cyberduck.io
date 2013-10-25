@@ -99,7 +99,7 @@ blockquote.citation {
 
 #mainnav :link, #mainnav :visited {
     background-image: none;
-    padding: 2px 5px 4px 5px;
+    padding: 2px 12px 4px 12px;
     border: none;
 }
 
