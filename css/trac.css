@@ -214,3 +214,19 @@ div.login h1 {
     background-color: #fcf8e3;
     border-color: #fbeed5
 }
+
+h2, h3 {
+    font-size: inherit;
+}
+
+#ticket .description h1 {
+    font-size: inherit;
+}
+
+#ticket .description h2 {
+    font-size: inherit;
+}
+
+legend {
+    font-size: inherit;
+}
