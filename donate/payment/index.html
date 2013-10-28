@@ -84,23 +84,20 @@
                     <div class="form-group">
                         <label for="creditcard">Card Number</label>
                         <input id="creditcard" type="text" required="true"
+                               placeholder="Credit Card Number"
                                class="form-control" size="20" data-encrypted-name="number"/>
                     </div>
                     <div class="form-group">
                         <label for="cvv">CVV</label>
                         <input id="cvv" type="text" required="true"
+                               placeholder="Card Security Code"
                                class="form-control" size="4" data-encrypted-name="cvv"/>
-
-                        <p class="help-block">The card security code is located on the back of MasterCard, Visa and
-                            Discover
-                            credit or debit cards and is typically a separate group of 3 digits to the right of the
-                            signature
-                            strip.</p>
                     </div>
                     <div class="form-group">
-                        <label for="expiration">Expiration <span class="help-block">(MM/YYYY)</span></label>
+                        <label for="expiration">Expiration</label>
                         <input id="expiration" type="text" size="2" required="true"
-                               data-encrypted-name="month"/> / <input type="text" size="4"
+                               placeholder="MM"
+                               data-encrypted-name="month"/> / <input type="text" size="4" placeholder="YYYY"
                                                                       data-encrypted-name="year"/>
                     </div>
                     <div class="form-group">
@@ -108,6 +105,20 @@
                         <input id="amount" type="number" class="form-control" size="4" data-encrypted-name="amount"
                                value="20" required="true"
                                step="5"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" class="form-control"
+                               placeholder="Your Name" required="true"/>
+
+                        <p class="help-block">This name will be used to issue the donation key.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" class="form-control"
+                               placeholder="Your Email Address" required="true"/>
+
+                        <p class="help-block">The donation key will be sent to this address.</p>
                     </div>
                     <button type="submit" class="btn btn-default" id="submit">Pay</button>
                 </form>
