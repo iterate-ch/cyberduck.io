@@ -83,11 +83,13 @@
                       class="form" role="form">
                     <div class="form-group">
                         <label for="creditcard">Card Number</label>
-                        <input id="creditcard" type="text" class="form-control" size="20" data-encrypted-name="number"/>
+                        <input id="creditcard" type="text" required="true"
+                               class="form-control" size="20" data-encrypted-name="number"/>
                     </div>
                     <div class="form-group">
                         <label for="cvv">CVV</label>
-                        <input id="cvv" type="text" class="form-control" size="4" data-encrypted-name="cvv"/>
+                        <input id="cvv" type="text" required="true"
+                               class="form-control" size="4" data-encrypted-name="cvv"/>
 
                         <p class="help-block">The card security code is located on the back of MasterCard, Visa and
                             Discover
@@ -97,23 +99,23 @@
                     </div>
                     <div class="form-group">
                         <label for="expiration">Expiration <span class="help-block">(MM/YYYY)</span></label>
-                        <input id="expiration" type="text" size="2"
+                        <input id="expiration" type="text" size="2" required="true"
                                data-encrypted-name="month"/> / <input type="text" size="4"
                                                                       data-encrypted-name="year"/>
                     </div>
                     <div class="form-group">
                         <label for="amount">Amount</label>
                         <input id="amount" type="number" class="form-control" size="4" data-encrypted-name="amount"
-                               value="20"
+                               value="20" required="true"
                                step="5"/>
                     </div>
                     <button type="submit" class="btn btn-default" id="submit">Pay</button>
                 </form>
-		        <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
-		        <script type="text/javascript">
-		            var braintree = Braintree.create("MIIBCgKCAQEAymUa1kD6zTLffEer7M1OR5g+lm5bxgsFVSKv5YRKqvsPzNRFBYGhwqusGDpidhFwQcF20VTpZCDEGtZZGMtv3pmlYnV1I2iOla+4bhJtPmriV7WL6Q/kDZ3WyrfCxpsuLuw9eKUqrCaY1unYC7OewbVmCLEXxvqFzGBgPxcPbQ+0H8WIIpO2a/pnwPVs6OzyTU1JptEVHDXDDFsT4LRjsXqX6ASJ4XcFelcAjHcDH0ttZZXJzVeYi0gqcj1k6WfIH6dBS7PwlJ5lJ5Pd0OmTNx+sf7Px2n3fkr7WUWh/vJSDBgHJsF3Btf1qp47OxkCIaeonBT7yBXLF1fTwIGYlcQIDAQAB");
-		            braintree.onSubmitEncryptForm('payment-form');
-		        </script>
+                <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+                <script type="text/javascript">
+                    var braintree = Braintree.create("MIIBCgKCAQEAymUa1kD6zTLffEer7M1OR5g+lm5bxgsFVSKv5YRKqvsPzNRFBYGhwqusGDpidhFwQcF20VTpZCDEGtZZGMtv3pmlYnV1I2iOla+4bhJtPmriV7WL6Q/kDZ3WyrfCxpsuLuw9eKUqrCaY1unYC7OewbVmCLEXxvqFzGBgPxcPbQ+0H8WIIpO2a/pnwPVs6OzyTU1JptEVHDXDDFsT4LRjsXqX6ASJ4XcFelcAjHcDH0ttZZXJzVeYi0gqcj1k6WfIH6dBS7PwlJ5lJ5Pd0OmTNx+sf7Px2n3fkr7WUWh/vJSDBgHJsF3Btf1qp47OxkCIaeonBT7yBXLF1fTwIGYlcQIDAQAB");
+                    braintree.onSubmitEncryptForm('payment-form');
+                </script>
             </div>
         </div>
         <footer>
