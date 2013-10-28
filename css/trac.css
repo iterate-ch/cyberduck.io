@@ -219,6 +219,10 @@ h2, h3 {
     font-size: inherit;
 }
 
+#ticket h2.summary {
+    font-size: 30px;
+}
+
 #ticket .description h1 {
     font-size: inherit;
 }
