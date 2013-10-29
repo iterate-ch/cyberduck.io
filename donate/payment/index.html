@@ -76,68 +76,80 @@
         </header>
 
         <div class="container">
-            <h2>Donate</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="pull-right">
+                        <img src="../../img/visa.png"/>
+                        <img src="../../img/mastercard.png"/>
+                        <img src="../../img/american_express.png"/>
+                    </div>
+                    <form action="https://reg.cyberduck.ch/payment" method="POST" id="payment-form"
+                          class="form" role="form">
 
-            <div class="well">
-                <form action="https://reg.cyberduck.ch/payment" method="POST" id="payment-form"
-                      class="form" role="form">
-                    <div class="form-group">
-                        <label for="creditcard">Card Number</label>
-                        <input id="creditcard" type="text" required="true"
-                               placeholder="Credit Card Number"
-                               class="form-control" size="20" data-encrypted-name="number"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="cvv">CVV</label>
-                        <input id="cvv" type="text" required="true"
-                               placeholder="Card Security Code"
-                               class="form-control" size="4" data-encrypted-name="cvv"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="month">Expiration Month</label>
-                        <input id="month" type="text" size="2" required="true"
-                               placeholder="MM" class="form-control"
-                               data-encrypted-name="month"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="year">Expiration Year</label>
-                        <input id="year" type="text" class="form-control" size="4"
-                               placeholder="YYYY"
-                               data-encrypted-name="year"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="amount">Amount</label>
-                        <input id="amount" type="number" class="form-control" size="4"
-                               data-encrypted-name="amount"
-                               placeholder="€"
-                               value="20" required="true"
-                               step="5"/>
+                        <div class="well">
+                            <div class="form-group">
+                                <label for="creditcard">Card Number</label>
+                                <input id="creditcard" type="text" required="true"
+                                       placeholder="Credit Card Number"
+                                       class="form-control" size="20" data-encrypted-name="number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv">CVV</label>
+                                <input id="cvv" type="text" required="true"
+                                       placeholder="Card Security Code"
+                                       class="form-control" size="4" data-encrypted-name="cvv"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="month">Expiration Month</label>
+                                <input id="month" type="text" size="2" required="true"
+                                       placeholder="MM" class="form-control"
+                                       data-encrypted-name="month"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Expiration Year</label>
+                                <input id="year" type="text" class="form-control" size="4"
+                                       placeholder="YYYY"
+                                       data-encrypted-name="year"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input id="amount" type="number" class="form-control" size="4"
+                                       data-encrypted-name="amount"
+                                       placeholder="€"
+                                       value="20" required="true"
+                                       step="5"/>
 
-                        <p class="help-block">Amount in Euro (€)</p>
-                    </div>
-                    <div class="form-group">
-                        <label for="name">First Name</label>
-                        <input id="name" type="text" class="form-control"
-                               data-encrypted-name="name"
-                               placeholder="Your Name" required="true"/>
+                                <p class="help-block">Amount in Euro (€)</p>
+                            </div>
+                        </div>
+                        <div class="well">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" type="text" class="form-control"
+                                       data-encrypted-name="name"
+                                       placeholder="Your Name" required="true"/>
 
-                        <p class="help-block">This name will be used to issue the donation key.</p>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input id="email" type="email" class="form-control"
-                               data-encrypted-name="email"
-                               placeholder="Your Email Address" required="true"/>
+                                <p class="help-block">This name will be used to issue the donation key.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" class="form-control"
+                                       data-encrypted-name="email"
+                                       placeholder="Your Email Address" required="true"/>
 
-                        <p class="help-block">The donation key will be sent to this address.</p>
-                    </div>
-                    <button type="submit" class="btn btn-default" id="submit">Pay</button>
-                </form>
-                <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
-                <script type="text/javascript">
-                    var braintree = Braintree.create("MIIBCgKCAQEAymUa1kD6zTLffEer7M1OR5g+lm5bxgsFVSKv5YRKqvsPzNRFBYGhwqusGDpidhFwQcF20VTpZCDEGtZZGMtv3pmlYnV1I2iOla+4bhJtPmriV7WL6Q/kDZ3WyrfCxpsuLuw9eKUqrCaY1unYC7OewbVmCLEXxvqFzGBgPxcPbQ+0H8WIIpO2a/pnwPVs6OzyTU1JptEVHDXDDFsT4LRjsXqX6ASJ4XcFelcAjHcDH0ttZZXJzVeYi0gqcj1k6WfIH6dBS7PwlJ5lJ5Pd0OmTNx+sf7Px2n3fkr7WUWh/vJSDBgHJsF3Btf1qp47OxkCIaeonBT7yBXLF1fTwIGYlcQIDAQAB");
-                    braintree.onSubmitEncryptForm('payment-form');
-                </script>
+                                <p class="help-block">The donation key will be sent to this address.</p>
+                            </div>
+                            <button type="submit" class="btn btn-default" id="submit">Pay</button>
+                        </div>
+                    </form>
+                    <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+                    <script type="text/javascript">
+                        var braintree = Braintree.create("MIIBCgKCAQEAymUa1kD6zTLffEer7M1OR5g+lm5bxgsFVSKv5YRKqvsPzNRFBYGhwqusGDpidhFwQcF20VTpZCDEGtZZGMtv3pmlYnV1I2iOla+4bhJtPmriV7WL6Q/kDZ3WyrfCxpsuLuw9eKUqrCaY1unYC7OewbVmCLEXxvqFzGBgPxcPbQ+0H8WIIpO2a/pnwPVs6OzyTU1JptEVHDXDDFsT4LRjsXqX6ASJ4XcFelcAjHcDH0ttZZXJzVeYi0gqcj1k6WfIH6dBS7PwlJ5lJ5Pd0OmTNx+sf7Px2n3fkr7WUWh/vJSDBgHJsF3Btf1qp47OxkCIaeonBT7yBXLF1fTwIGYlcQIDAQAB");
+                        braintree.onSubmitEncryptForm('payment-form');
+                    </script>
+                </div>
+                <div class="col-sm-6">
+                </div>
             </div>
         </div>
         <footer>
