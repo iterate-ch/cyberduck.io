@@ -80,89 +80,90 @@
 
         <div class="row">
             <div class="col-sm-6">
-                <div class="pull-right">
-                    <img src="../../img/visa.png"/>
-                    <img src="../../img/mastercard.png"/>
-                    <img src="../../img/american_express.png"/>
-                </div>
                 <form action="https://reg.cyberduck.ch/payment" method="POST" id="payment"
                       class="form" role="form">
+                    <fieldset id="fields">
+                        <div class="pull-right">
+                            <img src="../../img/visa.png"/>
+                            <img src="../../img/mastercard.png"/>
+                            <img src="../../img/american_express.png"/>
+                        </div>
+                        <div class="well">
+                            <div class="form-group">
+                                <label for="creditcard">Card Number</label>
+                                <input id="creditcard" type="text" required="true"
+                                       placeholder="Credit Card Number"
+                                       class="form-control" size="20" data-encrypted-name="number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv">CVV</label>
+                                <input id="cvv" type="text" required="true"
+                                       placeholder="Card Security Code"
+                                       class="form-control" size="4" data-encrypted-name="cvv"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="month">Expiration Month</label>
+                                <select id="month" required="required"
+                                        class="form-control"
+                                        data-encrypted-name="month">
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Expiration Year</label>
+                                <select id="year" type="text" class="form-control"
+                                        data-encrypted-name="year">
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input id="amount" type="number" class="form-control" size="4"
+                                       data-encrypted-name="amount"
+                                       placeholder="€" min="5" step="any"
+                                       value="20" required="true"/>
 
-                    <div class="well">
-                        <div class="form-group">
-                            <label for="creditcard">Card Number</label>
-                            <input id="creditcard" type="text" required="true"
-                                   placeholder="Credit Card Number"
-                                   class="form-control" size="20" data-encrypted-name="number"/>
+                                <p class="help-block">Amount in Euro (€)</p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="cvv">CVV</label>
-                            <input id="cvv" type="text" required="true"
-                                   placeholder="Card Security Code"
-                                   class="form-control" size="4" data-encrypted-name="cvv"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="month">Expiration Month</label>
-                            <select id="month" required="required"
-                                    class="form-control"
-                                    data-encrypted-name="month">
-                                <option>01</option>
-                                <option>02</option>
-                                <option>03</option>
-                                <option>04</option>
-                                <option>05</option>
-                                <option>06</option>
-                                <option>07</option>
-                                <option>08</option>
-                                <option>09</option>
-                                <option>10</option>
-                                <option>11</option>
-                                <option>12</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="year">Expiration Year</label>
-                            <select id="year" type="text" class="form-control"
-                                    data-encrypted-name="year">
-                                <option>2013</option>
-                                <option>2014</option>
-                                <option>2015</option>
-                                <option>2016</option>
-                                <option>2017</option>
-                                <option>2018</option>
-                                <option>2019</option>
-                                <option>2020</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="amount">Amount</label>
-                            <input id="amount" type="number" class="form-control" size="4"
-                                   data-encrypted-name="amount"
-                                   placeholder="€" min="5" step="any"
-                                   value="20" required="true"/>
+                        <div class="well">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" type="text" class="form-control"
+                                       data-encrypted-name="name"
+                                       placeholder="Your Name" required="true"/>
 
-                            <p class="help-block">Amount in Euro (€)</p>
-                        </div>
-                    </div>
-                    <div class="well">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input id="name" type="text" class="form-control"
-                                   data-encrypted-name="name"
-                                   placeholder="Your Name" required="true"/>
+                                <p class="help-block">This name will be used to issue the donation key.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" class="form-control"
+                                       data-encrypted-name="email"
+                                       placeholder="Your Email Address" required="true"/>
 
-                            <p class="help-block">This name will be used to issue the donation key.</p>
+                                <p class="help-block">The donation key will be sent to this address.</p>
+                            </div>
+                            <button type="submit" class="btn btn-default" id="submit">Pay</button>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input id="email" type="email" class="form-control"
-                                   data-encrypted-name="email"
-                                   placeholder="Your Email Address" required="true"/>
-
-                            <p class="help-block">The donation key will be sent to this address.</p>
-                        </div>
-                        <button type="submit" class="btn btn-default" id="submit">Pay</button>
-                    </div>
+                    </fieldset>
                     <script charset="utf-8" type="text/javascript">
                         //<![CDATA[
                         $(document).ready(function () {
@@ -170,10 +171,10 @@
                                 target: '#payment-result',
                                 clearForm: false,
                                 beforeSubmit: function (arr, $form, options) {
-                                    $("#submit").attr("disabled", "disabled");
+                                    $("#fields").attr("disabled", "disabled");
                                 },
                                 error: function () {
-                                    $("#submit").removeAttr("disabled");
+                                    $("#fields").removeAttr("disabled");
                                 }
                             };
                             $("form#payment").ajaxForm(options);
