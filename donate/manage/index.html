@@ -82,7 +82,7 @@
 
             <form id="add" method="get" action="add" name="add">
                 <input style="width: 250px;" type="text" id="addinput" name="email"/>
-                <input type="submit" id="add" value="Add"/>
+                <input type="submit" value="Add"/>
             </form>
             <script charset="utf-8" type="text/javascript">
                 //<![CDATA[
@@ -90,7 +90,7 @@
                     var options = {
                         target: '#result-add',
                         clearForm: true
-                    }
+                    };
                     $("form#add").ajaxForm(options);
                 });
                 //]]>
@@ -102,7 +102,7 @@
 
             <form id="find" method="get" action="find" name="find">
                 <input style="width: 250px;" type="text" id="findinput" name="email"/>
-                <input type="submit" id="add" value="Find"/>
+                <input type="submit" value="Find"/>
             </form>
             <hr/>
 
@@ -110,7 +110,7 @@
 
             <form id="delete" method="get" action="delete" name="delete">
                 <input style="width: 250px;" type="text" id="deleteinput" name="email"/>
-                <input type="submit" id="add" value="Delete"/>
+                <input type="submit" value="Delete"/>
             </form>
             <script charset="utf-8" type="text/javascript">
                 //<![CDATA[
@@ -118,7 +118,7 @@
                     var options = {
                         target: '#result-delete',
                         clearForm: true
-                    }
+                    };
                     $("form#delete").ajaxForm(options);
                 });
                 //]]>
@@ -130,7 +130,7 @@
 
             <form id="send" method="get" action="send" name="send">
                 <input style="width: 250px;" type="text" id="sendinput" name="email"/>
-                <input type="submit" id="send" value="Send"/>
+                <input type="submit" value="Send"/>
             </form>
             <script charset="utf-8" type="text/javascript">
                 //<![CDATA[
@@ -138,7 +138,7 @@
                     var options = {
                         target: '#result-send',
                         clearForm: true
-                    }
+                    };
                     $("form#send").ajaxForm(options);
                 });
                 //]]>
