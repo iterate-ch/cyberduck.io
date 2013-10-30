@@ -176,11 +176,6 @@
                                 },
                                 error: function () {
                                     $("#fields").removeAttr("disabled");
-                                },
-                                success: function(responseText, statusText) {
-                                    if(statusText.indexOf('400', 0) == 0) {
-                                        $("#fields").removeAttr("disabled");
-                                    }
                                 }
                             };
                             $("form#payment").ajaxForm(options);
