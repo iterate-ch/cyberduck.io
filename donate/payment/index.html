@@ -174,8 +174,9 @@
                                 beforeSubmit: function (arr, $form, options) {
                                     $("#fields").attr("disabled", "disabled");
                                 },
-                                error: function () {
+                                error: function (responseText) {
                                     $("#fields").removeAttr("disabled");
+                                    $("payment-result").text(responseText);
                                 }
                             };
                             $("form#payment").ajaxForm(options);
