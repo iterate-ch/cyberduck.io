@@ -81,6 +81,7 @@ blockquote.citation {
     text-transform: lowercase;
     font: inherit;
     background: none;
+    margin: 4px 0;
 }
 
 #mainnav ul {

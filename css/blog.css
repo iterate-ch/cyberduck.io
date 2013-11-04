@@ -7,3 +7,6 @@ article .tw_button {
     padding: 10px 0 10px 0;
 }
 
+#comments li {
+    list-style: none;
+}
