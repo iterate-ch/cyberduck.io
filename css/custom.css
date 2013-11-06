@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body > footer, body > #page > footer {
-    min-height: 50px;
+    min-height: 100px;
     background-color: #66666a;
     color: #ddd;
     margin: 20px 0 10px 0;
