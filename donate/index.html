@@ -10,274 +10,423 @@
     <title>Donate | Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://media.cyberduck.ch/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://media.cyberduck.ch/css/custom.css" rel="stylesheet">
+    <link href="//media.cyberduck.ch/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//media.cyberduck.ch/css/custom.css" rel="stylesheet">
+    <link href="//media.cyberduck.ch/css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
 
-    <script src="https://media.cyberduck.ch/js/jquery.min.js"></script>
-    <script src="https://media.cyberduck.ch/js/bootstrap.min.js"></script>
+    <script src="//media.cyberduck.ch/js/jquery.min.js"></script>
+    <script src="//media.cyberduck.ch/js/bootstrap.min.js"></script>
+
+    <script src="//media.cyberduck.ch/js/jquery-ui-1.10.3.custom.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="https://media.cyberduck.ch/js/html5shiv.js"></script>
-    <script src="https://media.cyberduck.ch/js/respond.min.js"></script>
+    <script src="//media.cyberduck.ch/js/html5shiv.js"></script>
+    <script src="//media.cyberduck.ch/js/respond.min.js"></script>
     <![endif]-->
 
-    <script src="https://media.cyberduck.ch/js/ga.js"></script>
-    <script src="https://media.cyberduck.ch/js/custom.js"></script>
+    <script src="//media.cyberduck.ch/js/ga.js"></script>
+    <script src="//media.cyberduck.ch/js/custom.js"></script>
 
-    <script src="https://media.cyberduck.ch/js/jquery.form.min.js"></script>
+    <script src="//media.cyberduck.ch/js/jquery.form.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="..">
-                        <img src="https://media.cyberduck.ch/img/cyberduck-icon-64.png" class="img-responsive"
-                             width="64px" height="64px" title="Icon"/>
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="navbar-link" href="../changelog">changelog</a>
-                        </li>
-                        <li>
-                            <a class="navbar-link" href="http://blog.cyberduck.ch">blog</a>
-                        </li>
-                        <li>
-                            <a class="navbar-link" href="https://trac.cyberduck.ch">development</a>
-                        </li>
-                        <li>
-                            <a class="navbar-link" href="http://help.cyberduck.ch">help</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">
-                                <button class="btn btn-success" rel="tooltip"
-                                        data-placement="bottom"
-                                        data-container="body"
-                                        data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
-                                    donate
-                                </button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
+<header>
     <div class="container">
-        <h2>
-            Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it
-            still costs money to write, support, and distribute it.
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="..">
+                    <img src="//media.cyberduck.ch/img/cyberduck-icon-64.png" class="img-responsive"
+                         width="64px" height="64px" title="Icon"/>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="navbar-link" href="../changelog">changelog</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="http://blog.cyberduck.ch">blog</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="https://trac.cyberduck.ch">development</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="http://help.cyberduck.ch">help</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <button class="btn btn-success" rel="tooltip"
+                                    data-placement="bottom"
+                                    data-container="body"
+                                    data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
+                                donate
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+<h2>
+    Cyberduck is <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">free software</a>, but it
+    still costs money to write, support, and distribute it.
+    <small>
+        As a contributor to Cyberduck, you receive a donation key that disables the donation prompt. Or buy
+        Cyberduck from the <a href="/appstore">Mac App Store</a>.
+    </small>
+</h2>
+
+<h3>Free Software
+    <small><a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">Free
+        software</a> is a matter of the users freedom to run, copy,
+        distribute, study, change and improve the software. The continued donations of users is what allows
+        Cyberduck to be available for free today. If you find this program useful, please
+        consider making a donation or buy the version from the <a href="/appstore">Mac App Store</a>.
+        It will help to make Cyberduck even better!
+    </small>
+</h3>
+
+<h3>Contribution.
+    <small> As a contributor to Cyberduck, you receive a donation key
+        that registers the installed application to your name and disables the donation prompt that is
+        otherwise displayed after installing or
+        updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to
+        be shared.
+    </small>
+</h3>
+
+<h3>Payment
+            <span>
+                <img src="//media.cyberduck.ch/img/visa.png"/>
+                <img src="//media.cyberduck.ch/img/mastercard.png"/>
+                <img src="//media.cyberduck.ch/img/american_express.png"/>
+            </span>
+</h3>
+
+<div class="row">
+<div class="col-sm-8">
+    <form action="https://reg.cyberduck.ch/payment" method="POST" id="payment"
+          class="form-inline well" role="form">
+            <fieldset id="payment-creditcard">
+                <div class="form-group">
+                    <label for="creditcard">Card Number</label>
+                    <img id="visa" src="//media.cyberduck.ch/img/visa.png" height="20px" style="display: none"/>
+                    <img id="mastercard" src="//media.cyberduck.ch/img/mastercard.png" height="20px" style="display: none"/>
+                    <img id="amex" src="//media.cyberduck.ch/img/american_express.png" height="20px" style="display: none"/>
+                    <input id="creditcard" type="text" required="true"
+                           placeholder="Credit Card Number"
+                           class="form-control input-sm" size="20" data-encrypted-name="number"/>
+                    <p class="help-block"></p>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" type="text" required="true"
+                           maxlength="4"
+                           placeholder="Card Security Code"
+                           class="form-control input-sm" size="4" data-encrypted-name="cvv"/>
+                    <p class="help-block"></p>
+                </div>
+                <div class="form-group">
+                    <label for="month">Expiration Month</label>
+                    <select id="month" required="required"
+                            class="form-control input-sm"
+                            data-encrypted-name="month">
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <p class="help-block"></p>
+                </div>
+                <div class="form-group">
+                    <label for="year">Expiration Year</label>
+                    <select id="year" type="text" class="form-control input-sm"
+                            data-encrypted-name="year">
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                    <p class="help-block"></p>
+                </div>
+                <div class="form-group">
+                    <label for="amount">€</label>
+                    <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
+                           data-encrypted-name="amount"
+                           placeholder="€" min="5.00" max="1000.00" step="any"
+                           value="20.00" required="true"/>
+                    <p class="help-block"></p>
+                </div>
+            </fieldset>
+            <fieldset id="payment-key">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" class="form-control input-sm"
+                           data-encrypted-name="name"
+                           placeholder="Your Name" required="true"/>
+
+                    <p class="help-block"><small>This name will be used to issue the donation key.</small></p>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="form-control input-sm"
+                           data-encrypted-name="email"
+                           placeholder="Your Email Address" required="true"/>
+
+                    <p class="help-block"><small>The donation key will be sent to this address.</small></p>
+                </div>
+            </fieldset>
+            <fieldset id="payment-submit">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default btn-sm" id="submit">Pay</button>
+                    <div id="payment-progressbar"></div>
+                </div>
+            </fieldset>
+            <script charset="utf-8" type="text/javascript">
+                //<![CDATA[
+                $(document).ready(function () {
+                    var options = {
+                        clearForm: false,
+                        beforeSubmit: function (arr, $form, options) {
+//                            $("#payment-progressbar" ).progressbar({value: false});
+                            $("#payment-result").removeClass("alert-danger")
+                            $("#payment-result").addClass("alert-info")
+                            $("#payment-result").text("Processing…");
+                            $("#payment-creditcard").attr("disabled", "disabled");
+                            $("#payment-submit").attr("disabled", "disabled");
+                            $("#payment-key").attr("disabled", "disabled");
+                        },
+                        success: function(response, status) {
+//                            $("#payment-progressbar" ).progressbar("destroy");
+                            $("#payment-result").addClass("alert-info")
+                            $("#payment-result").text(response);
+                        },
+                        error: function(response) {
+//                            $("#payment-progressbar" ).progressbar("destroy");
+                            $("#payment-result").removeClass("alert-info")
+                            $("#payment-creditcard").removeAttr("disabled");
+                            $("#payment-submit").removeAttr("disabled");
+                            $("#payment-key").removeAttr("disabled");
+                            $("#payment-result").addClass("alert-danger")
+                            $("#payment-result").text(response.responseText);
+                        }
+                    };
+                    $("form#payment").ajaxForm(options);
+                });
+
+                $(creditcard).bind("keyup", function(event) {
+                    // MasterCard
+                    if (/^5[1-5]/.test(event.target.value)) {
+                        $(mastercard).show();
+                        $(visa).hide();
+                        $(amex).hide();
+                    }
+                    // Visa
+                    else if (/^4/.test(event.target.value)) {
+                        $(visa).show();
+                        $(mastercard).hide();
+                        $(amex).hide();
+                    }
+                    // AmEx
+                    else if (/^3[47]/.test(event.target.value)) {
+                        $(amex).show();
+                        $(mastercard).hide();
+                        $(visa).hide();
+                    }
+                });
+                //]]>
+            </script>
+        </form>
+        <p id="payment-result" class="alert"></p>
+        <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+        <script type="text/javascript">
+            var braintree = Braintree.create("MIIBCgKCAQEAymUa1kD6zTLffEer7M1OR5g+lm5bxgsFVSKv5YRKqvsPzNRFBYGhwqusGDpidhFwQcF20VTpZCDEGtZZGMtv3pmlYnV1I2iOla+4bhJtPmriV7WL6Q/kDZ3WyrfCxpsuLuw9eKUqrCaY1unYC7OewbVmCLEXxvqFzGBgPxcPbQ+0H8WIIpO2a/pnwPVs6OzyTU1JptEVHDXDDFsT4LRjsXqX6ASJ4XcFelcAjHcDH0ttZZXJzVeYi0gqcj1k6WfIH6dBS7PwlJ5lJ5Pd0OmTNx+sf7Px2n3fkr7WUWh/vJSDBgHJsF3Btf1qp47OxkCIaeonBT7yBXLF1fTwIGYlcQIDAQAB");
+            braintree.onSubmitEncryptForm('payment');
+        </script>
+    </div>
+    <div class="col-sm-4">
+    <h4>Paypal</h4>
+
+    <p>
+        <small>
+            To make the payment with Paypal, you can use your credit card or bank account without the need
+            to open an account.
+        </small>
+    </p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="text-center"
+          onclick="_gaq.push(['_trackEvent', 'Paypal', 'VTBUBS29YLYE4']);">
+        <fieldset>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" id="paypal" name="hosted_button_id" value="4914397">
+            <input type="image" src="//media.cyberduck.ch/img/donate" name="submit"
+                   alt="Donate to the development of Cyberduck!">
+        </fieldset>
+    </form>
+    <p>
+        <small>
+            You will receive the donation key automatically by email and
+            additionally a receipt from Paypal when the transaction is complete.
+        </small>
+
+    </p>
+
+    <h4>Amazon Wishlist</h4>
+
+    <small>
+        <p> If you prefer not to to use Paypal, you can send us something
+            from our wishlist (in German).</p>
+        <ul>
+            <li>
+                <a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project
+                    Lead)</a>.
+            </li>
+            <li>
+                <a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead
+                    Developer)</a>.
+            </li>
+        </ul>
+
+        <p>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion
+            of the Amazon order process.</p>
+    </small>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-8">
+        <h3>Donation Key Recovery</h3>
+
+        <p> The donation key is sent to you by email
+            automatically after the Paypal transaction has been completed. To recover a
+            lost registration key, enter your email address below to look it up.</p>
+
+        <form id="lookup" method="get" action="lookup" class="form-inline" role="form">
+
+            <div class="form-group">
+                <input type="recover" class="form-control input-sm" placeholder="Email address registered with Paypal"
+                       id="recover" name="email"/>
+            </div>
+            <button type="submit" class="btn btn-default btn-sm">Lookup</button>
+            <script charset="utf-8" type="text/javascript">
+                //<![CDATA[
+                $(document).ready(function () {
+                    var options = {
+                        target: '#lookup-result',
+                        clearForm: true
+                    };
+                    $("form#lookup").ajaxForm(options);
+                });
+                //]]>
+            </script>
+        </form>
+
+        <p id="lookup-result"/>
+
+        <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
+            donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
+                    href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
+            receiving or opening the key.</p></small>
+    </div>
+    <div class="col-sm-4">
+        <h3>Organization Site Keys</h3>
+
+        <p>
+            We are providing organization site keys for scenarios like pre-configured installations for site wide
+            deployments inside an organizations where the individual user should not be bothered with a donation
+            prompt request. An organization site key is not limited to a single user.
+        </p>
+
+        <P>
+            For an invoice, please contact
+                                <a href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David
+                                    Kocher</a> with the desired entitlements .
+        </P>
+
+        <form id="calculate" method="get" action="volume/calculate"
+              class="form-inline" role="form">
+            <div class="form-group">
+                <input class="form-control input-sm" size="20" type="text" id="volume"
+                       name="volume" placeholder="Installations"/>
+            </div>
+            <button type="submit" class="btn btn-default btn-sm">Calculate</button>
+            <script charset="utf-8" type="text/javascript">
+                //<![CDATA[
+                $(document).ready(function () {
+                    var options = {
+                        target: '#calculate-result',
+                        clearForm: false
+                    };
+                    $("form#calculate").ajaxForm(options);
+                });
+                //]]>
+            </script>
+            <div class="form-group">
+                <input class="form-control input-sm" size="5" type="text" id="calculate-result" disabled="disabled"
+                         name="volume" placeholder="(€)"/>
+            </div>
+        </form>
+
+        <p/>
+
+        <h5>IBAN</h5>
+
+        <p>
+            <small>You can send money by IBAN. You will have to <a
+                    href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has
+                been completed.
+            </small>
+        </p>
+
+        <p>
+            <tt><strong>To</strong> iterate GmbH</tt><br>
+            <tt><strong>Bank</strong> Postfinance, 3030 Bern</tt><br>
+            <tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br>
+            <tt><strong>SWIFT BIC</strong> POFICHBEXXX</tt></p>
+
+        <p>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>
             <small>
-                As a contributor to Cyberduck, you receive a donation key that disables the donation prompt. Or buy
-                Cyberduck from the App Store.
+                All payments with no refund policy. Regardless of the registration key purchased, the program is licensed under the terms of the GNU General
+                Public License.
             </small>
-        </h2>
-
-        <h3>Free Software
-            <small><a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">Free
-                software</a> is a matter of the users freedom to run, copy,
-                distribute, study, change and improve the software. The continued donations of users is what allows
-                Cyberduck to be available for free today. If you find this program useful, please
-                consider making a donation.
-                It will help to make Cyberduck even better!
-            </small>
-        </h3>
-
-        <h3>Contribution.
-            <small> As a contributor to Cyberduck, you receive a donation key
-                that registers the installed application to your name and disables the donation prompt that is
-                otherwise displayed after installing or
-                updating Cyberduck. The donation key can be used on multiple computers but is personal and is not to
-                be shared.
-            </small>
-        </h3>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Mac App Store</h4>
-
-                <p>
-                    <small>It is your choice to buy the version from the Mac App Store or
-                        download from the website and opt in for a payment if you feel like. Cyberduck is libre (FLOSS)
-                        software and will remain so in the future.
-                    </small>
-                </p>
-
-                <p class="text-center">
-                    <a href="/appstore">
-                        <img height="35px" alt="Mac App Store"
-                             src="../img/mas/mas">
-                    </a>
-                </p>
-
-                <p>
-                    <small>
-                        Your purchase receipt from the App Store version is copied to the Application Support folder and
-                        recognized as a key when running any version of Cyberduck.
-                    </small>
-                </p>
-
-            </div>
-            <div class="col-md-4">
-                <h4>Paypal</h4>
-
-                <p>
-                    <small>
-                        To make the payment with Paypal, you can use your credit card or bank account without the need
-                        to open an account.
-                    </small>
-                </p>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="text-center"
-                      onclick="_gaq.push(['_trackEvent', 'Paypal', 'VTBUBS29YLYE4']);">
-                    <fieldset>
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" id="paypal" name="hosted_button_id" value="4914397">
-                        <input type="image" src="../img/donate" name="submit"
-                               alt="Donate to the development of Cyberduck!">
-                    </fieldset>
-                </form>
-                <p>
-                    <small>
-                        You will receive the donation key automatically by email and
-                        additionally a receipt from Paypal when the transaction is complete.
-                    </small>
-
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4>IBAN</h4>
-
-                <p>
-                    <small>If you prefer not to use Paypal you can send money by IBAN. You will have to <a
-                            href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has
-                        been
-                        completed.
-                    </small>
-                </p>
-
-                <p>
-                    <tt><strong>To</strong> iterate GmbH</tt><br>
-                    <tt><strong>Bank</strong> Postfinance, 3030 Bern</tt><br>
-                    <tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br>
-                    <tt><strong>SWIFT BIC</strong> POFICHBEXXX</tt></p>
-
-                <p>
-
-                <h4>Amazon Wishlist</h4>
-
-                <small>
-                    <p> If you prefer not to to use Paypal, you can send us something
-                        from our wishlist (in German).</p>
-                    <ul>
-                        <li>
-                            <a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project
-                                Lead)</a>.
-                        </li>
-                        <li>
-                            <a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead
-                                Developer)</a>.
-                        </li>
-                    </ul>
-
-                    <p>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion
-                        of the Amazon order process.</p>
-                </small>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Organization Site Keys</h3>
-
-                <p>
-                    We are providing organization site keys for scenarios like pre-configured installations for site wide
-                    deployments inside an organizations where the individual user should not be bothered with a donation
-                    prompt request. An organization site key is not limited to a single user. Please contact
-                    <a href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David
-                        Kocher</a> requesting a key with the desired entitlements.
-                </p>
-
-                <form id="calculate" method="get" action="volume/calculate"
-                      class="form-inline" role="form">
-                    The volume pricing for a site key for
-                    <div class="form-group">
-                        <input class="form-control" size="5" type="text" id="volume"
-                               name="volume" placeholder="Installations" value="0"/>
-                    </div>
-                    <button type="submit" class="btn btn-default">Calculate</button>
-                    <script charset="utf-8" type="text/javascript">
-                        //<![CDATA[
-                        $(document).ready(function () {
-                            var options = {
-                                target: '#calculate-result',
-                                clearForm: false
-                            };
-                            $("form#calculate").ajaxForm(options);
-                        });
-                        //]]>
-                    </script>
-                    installations gives a total amount of <strong id="calculate-result">0</strong> <strong>€</strong>.
-                </form>
-            </div>
-            <div class="col-md-4">
-                <h3>Donation Key Recovery</h3>
-
-                <p> The donation key is sent to you by email
-                    automatically after the Paypal transaction has been completed. To recover a
-                    lost registration key, enter your email address below to look it up.</p>
-
-                <form id="lookup" method="get" action="lookup" class="form-inline" role="form">
-
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email address registered with Paypal"
-                               id="email"
-                               name="email"/>
-                    </div>
-                    <button type="submit" class="btn btn-default">Lookup</button>
-                    <script charset="utf-8" type="text/javascript">
-                        //<![CDATA[
-                        $(document).ready(function () {
-                            var options = {
-                                target: '#lookup-result',
-                                clearForm: true
-                            };
-                            $("form#lookup").ajaxForm(options);
-                        });
-                        //]]>
-                    </script>
-                </form>
-
-                <p id="lookup-result"/>
-
-                <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
-                    donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
-                            href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
-                    receiving or opening the key.</p></small>
-            </div>
-            <div class="col-md-4"></div>
-        </div>
+        </p>
     </div>
+</footer>
 
-    <footer>
-        <div class="container"/>
-    </footer>
-
-    <div class="container">
-        <a class="swissmade" href="http://www.swissmadesoftware.org"><img
-                width="122px" height="16px" src="https://media.cyberduck.ch/img/sms-logo-small-footer.png"
-                alt="swiss made software"/></a>
-    </div>
+<div class="container">
+    <a class="swissmade" href="http://www.swissmadesoftware.org"><img
+            width="122px" height="16px" src="//media.cyberduck.ch/img/sms-logo-small-footer.png"
+            alt="swiss made software"/></a>
+</div>
 </body>
 </html>
