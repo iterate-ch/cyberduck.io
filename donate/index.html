@@ -12,12 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="//media.cyberduck.ch/css/bootstrap.min.css" rel="stylesheet">
     <link href="//media.cyberduck.ch/css/custom.css" rel="stylesheet">
-    <link href="//media.cyberduck.ch/css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
 
     <script src="//media.cyberduck.ch/js/jquery.min.js"></script>
     <script src="//media.cyberduck.ch/js/bootstrap.min.js"></script>
-
-    <script src="//media.cyberduck.ch/js/jquery-ui-1.10.3.custom.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -202,8 +199,7 @@
             </fieldset>
             <fieldset id="payment-submit">
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default btn-sm" id="submit">Pay</button>
-                    <div id="payment-progressbar"></div>
+                    <button type="submit" class="btn btn-default btn-sm" id="submit">Process Payment</button>
                 </div>
             </fieldset>
             <script charset="utf-8" type="text/javascript">
@@ -212,7 +208,6 @@
                     var options = {
                         clearForm: false,
                         beforeSubmit: function (arr, $form, options) {
-//                            $("#payment-progressbar" ).progressbar({value: false});
                             $("#payment-result").removeClass("alert-danger")
                             $("#payment-result").addClass("alert-info")
                             $("#payment-result").text("Processing…");
@@ -221,12 +216,10 @@
                             $("#payment-key").attr("disabled", "disabled");
                         },
                         success: function(response, status) {
-//                            $("#payment-progressbar" ).progressbar("destroy");
                             $("#payment-result").addClass("alert-info")
                             $("#payment-result").text(response);
                         },
                         error: function(response) {
-//                            $("#payment-progressbar" ).progressbar("destroy");
                             $("#payment-result").removeClass("alert-info")
                             $("#payment-creditcard").removeAttr("disabled");
                             $("#payment-submit").removeAttr("disabled");
