@@ -56,56 +56,56 @@ a:hover, a:focus {
     border-radius: 0;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #999999;
     padding: 0 5px;
 }
 
-.navbar-default .navbar-nav>li {
+.navbar-default .navbar-nav > li {
     padding: 0 5px;
     border-right: 1px solid #999999;
 }
 
-.navbar-default .in .navbar-nav>li {
-    border:none;
-}
-
-.navbar-default .navbar-nav>li img, .navbar-default .navbar-nav>li button {
-    margin-top: -8px;
-}
-
-.navbar-default .navbar-nav>li:nth-child(2) {
-    border-left: 1px solid #999999;
-}
-
-.navbar-default .in .navbar-nav>li:nth-child(2) {
+.navbar-default .in .navbar-nav > li {
     border: none;
 }
 
-.navbar-default .navbar-nav>li:first-child {
+.navbar-default .navbar-nav > li img, .navbar-default .navbar-nav > li button {
+    margin-top: -8px;
+}
+
+.navbar-default .navbar-nav > li:nth-child(2) {
+    border-left: 1px solid #999999;
+}
+
+.navbar-default .in .navbar-nav > li:nth-child(2) {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li:first-child {
     border-left: none;
     border-right: none;
     padding-right: 10px;
 }
 
-.navbar-default .in .navbar-nav>li:first-child {
+.navbar-default .in .navbar-nav > li:first-child {
     display: none;
 }
 
-.navbar-default .navbar-nav>li:last-child {
+.navbar-default .navbar-nav > li:last-child {
     border-right: none;
     padding-left: 10px;
 }
 
-.navbar-default .in .navbar-nav>li:last-child {
+.navbar-default .in .navbar-nav > li:last-child {
     display: none;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #5a5a5a;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #5a5a5a;
     background-color: transparent;
 }
@@ -114,7 +114,7 @@ a:hover, a:focus {
     margin-top: 40px;
 }
 
-.navbar-nav>li>a {
+.navbar-nav > li > a {
     padding: 1px 5px 1px 10px;
 }
 
@@ -210,4 +210,8 @@ blockquote p {
 
 .showcase-thumbnail-container {
     margin-left: -40px;
+}
+
+.swissmade {
+    padding-bottom: 20px;
 }
