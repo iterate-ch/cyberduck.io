@@ -116,180 +116,190 @@
 <div class="col-sm-8">
     <form action="https://reg.cyberduck.ch/payment" method="POST" id="payment"
           class="form-inline well" role="form">
-            <fieldset id="payment-creditcard">
-                <div class="row">
-                    <div class="col-xs-9">
-                        <label for="creditcard">Card Number</label>
-                        <img id="visa" src="//media.cyberduck.ch/img/visa.png" height="20px" style="display: none"/>
-                        <img id="mastercard" src="//media.cyberduck.ch/img/mastercard.png" height="20px" style="display: none"/>
-                        <img id="amex" src="//media.cyberduck.ch/img/american_express.png" height="20px" style="display: none"/>
-                        <input id="creditcard" type="text" required="true"
-                               placeholder="Credit Card Number"
-                               class="form-control input-sm" size="20" data-encrypted-name="number"/>
-                        <p class="help-block"></p>
-                    </div>
-                    <div class="col-xs-3">
-                        <label for="cvv">CVV</label>
-                        <input id="cvv" type="text" required="true"
-                               maxlength="4"
-                               placeholder="Card Security Code"
-                               class="form-control input-sm" size="4" data-encrypted-name="cvv"/>
-                        <p class="help-block"></p>
-                    </div>
+        <fieldset id="payment-creditcard">
+            <div class="row">
+                <div class="col-xs-9">
+                    <label for="creditcard">Card Number</label>
+                    <img id="visa" src="//media.cyberduck.ch/img/visa.png" height="20px" style="display: none"/>
+                    <img id="mastercard" src="//media.cyberduck.ch/img/mastercard.png" height="20px" style="display: none"/>
+                    <img id="amex" src="//media.cyberduck.ch/img/american_express.png" height="20px" style="display: none"/>
+                    <input id="creditcard" type="text" required="true"
+                           placeholder="Credit Card Number"
+                           class="form-control input-sm" size="20" data-encrypted-name="number"/>
+
+                    <p class="help-block"></p>
                 </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <label for="month">Expiration Month</label>
-                        <select id="month" required="required"
-                                class="form-control input-sm"
-                                data-encrypted-name="month">
-                            <option>01</option>
-                            <option>02</option>
-                            <option>03</option>
-                            <option>04</option>
-                            <option>05</option>
-                            <option>06</option>
-                            <option>07</option>
-                            <option>08</option>
-                            <option>09</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>12</option>
-                        </select>
-                        <p class="help-block"></p>
-                    </div>
-                    <div class="col-xs-6">
+                <div class="col-xs-3">
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" type="text" required="true"
+                           maxlength="4"
+                           placeholder="Card Security Code"
+                           class="form-control input-sm" size="4" data-encrypted-name="cvv"/>
+
+                    <p class="help-block"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <label for="month">Expiration Month</label>
+                    <select id="month" required="required"
+                            class="form-control input-sm"
+                            data-encrypted-name="month">
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+
+                    <p class="help-block"></p>
+                </div>
+                <div class="col-xs-6">
                     <label for="year">Expiration Year</label>
                     <select id="year" type="text" class="form-control input-sm"
-                                data-encrypted-name="year">
-                            <option>2013</option>
-                            <option>2014</option>
-                            <option>2015</option>
-                            <option>2016</option>
-                            <option>2017</option>
-                            <option>2018</option>
-                            <option>2019</option>
-                            <option>2020</option>
-                        </select>
-                        <p class="help-block"></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-2">
-                        <label for="currency">Currency</label>
-                        <select id="currency" type="text" class="form-control input-sm"
-                                data-encrypted-name="merchant">
-                            <option label="€" value="cyberduckEUR"/>
-                            <option label="$" value="cyberduckUSD"/>
-                        </select>
-                        <p class="help-block"></p>
-                    </div>
-                    <div class="col-xs-10">
-                        <label for="amount">Amount</label>
-                        <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
-                               data-encrypted-name="amount"
-                               placeholder="€" min="5.00" max="1000.00" step="any"
-                               value="20.00" required="true"/>
-                        <p class="help-block"></p>
-                    </div>
-                </div>
-            </fieldset>
-            <fieldset id="payment-key">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <label for="name">Name</label>
-                        <input id="name" type="text" class="form-control input-sm"
-                               data-encrypted-name="name"
-                               placeholder="Your Name" required="true"/>
+                            data-encrypted-name="year">
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
 
-                        <p class="help-block"><small>This name will be used to issue the donation key.</small></p>
-                    </div>
+                    <p class="help-block"></p>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <label for="email">Email</label>
-                        <input id="email" type="email" class="form-control input-sm"
-                               data-encrypted-name="email"
-                               placeholder="Your Email Address" required="true"/>
+            </div>
+            <div class="row">
+                <div class="col-xs-2">
+                    <label for="currency">Currency</label>
+                    <select id="currency" type="text" class="form-control input-sm"
+                            data-encrypted-name="merchant">
+                        <option label="€" value="cyberduckEUR"/>
+                        <option label="$" value="cyberduckUSD"/>
+                    </select>
 
-                        <p class="help-block"><small>The donation key will be sent to this address.</small></p>
-                    </div>
+                    <p class="help-block"></p>
                 </div>
-                <input id="platform" type="hidden" data-encrypted-name="platform"/>
-            </fieldset>
-            <fieldset id="payment-submit">
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default btn-sm" id="submit">Process Payment</button>
-                </div>
-            </fieldset>
-            <script charset="utf-8" type="text/javascript">
-                //<![CDATA[
-                $(document).ready(function () {
-                    var result = $("#payment-result");
-                    var options = {
-                        clearForm: false,
-                        beforeSubmit: function (arr, $form, options) {
-                            result.removeClass("alert-danger");
-                            result.addClass("alert-info");
-                            result.text("Processing…");
-                            $("#payment-creditcard").attr("disabled", "disabled");
-                            $("#payment-submit").attr("disabled", "disabled");
-                            $("#payment-key").attr("disabled", "disabled");
-                        },
-                        success: function(response, status) {
-                            result.addClass("alert-info");
-                            result.text(response);
-                        },
-                        error: function(response) {
-                            result.removeClass("alert-info");
-                            result.addClass("alert-danger");
-                            result.text(response.responseText);
-                            $("#payment-creditcard").removeAttr("disabled");
-                            $("#payment-submit").removeAttr("disabled");
-                            $("#payment-key").removeAttr("disabled");
-                        }
-                    };
-                    $("form#payment").ajaxForm(options);
-                });
+                <div class="col-xs-10">
+                    <label for="amount">Amount</label>
+                    <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
+                           data-encrypted-name="amount"
+                           placeholder="€" min="5.00" max="1000.00" step="any"
+                           value="20.00" required="true"/>
 
-                $(creditcard).bind("keyup", function(event) {
-                    // MasterCard
-                    if (/^5[1-5]/.test(event.target.value)) {
-                        $(mastercard).show();
-                        $(visa).hide();
-                        $(amex).hide();
+                    <p class="help-block"></p>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset id="payment-key">
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" class="form-control input-sm"
+                           data-encrypted-name="name"
+                           placeholder="Your Name" required="true"/>
+
+                    <p class="help-block">
+                        <small>This name will be used to issue the donation key.</small>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="form-control input-sm"
+                           data-encrypted-name="email"
+                           placeholder="Your Email Address" required="true"/>
+
+                    <p class="help-block">
+                        <small>The donation key will be sent to this address.</small>
+                    </p>
+                </div>
+            </div>
+            <input id="platform" type="hidden" data-encrypted-name="platform"/>
+        </fieldset>
+        <fieldset id="payment-submit">
+            <div class="form-group">
+                <button type="submit" class="btn btn-default btn-sm" id="submit">Process Payment</button>
+            </div>
+        </fieldset>
+        <script charset="utf-8" type="text/javascript">
+            //<![CDATA[
+            $(document).ready(function () {
+                var result = $("#payment-result");
+                var options = {
+                    clearForm: false,
+                    beforeSubmit: function (arr, $form, options) {
+                        result.removeClass("alert-danger");
+                        result.addClass("alert-info");
+                        result.text("Processing…");
+                        $("#payment-creditcard").attr("disabled", "disabled");
+                        $("#payment-submit").attr("disabled", "disabled");
+                        $("#payment-key").attr("disabled", "disabled");
+                    },
+                    success: function (response, status) {
+                        result.addClass("alert-info");
+                        result.text(response);
+                    },
+                    error: function (response) {
+                        result.removeClass("alert-info");
+                        result.addClass("alert-danger");
+                        result.text(response.responseText);
+                        $("#payment-creditcard").removeAttr("disabled");
+                        $("#payment-submit").removeAttr("disabled");
+                        $("#payment-key").removeAttr("disabled");
                     }
-                    // Visa
-                    else if (/^4/.test(event.target.value)) {
-                        $(visa).show();
-                        $(mastercard).hide();
-                        $(amex).hide();
-                    }
-                    // AmEx
-                    else if (/^3[47]/.test(event.target.value)) {
-                        $(amex).show();
-                        $(mastercard).hide();
-                        $(visa).hide();
-                    }
-                });
-                //]]>
-            </script>
-        </form>
-        <p id="payment-result" class="alert"></p>
-        <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
-        <script type="text/javascript">
-            var braintree = Braintree.create("MIIBCgKCAQEAtnl/Jd3OZNsc3w6E4bCc1bLUFa120966tPjnPKJQTnvmt52do1gdgWYdZ7auNTXOHtyjoLRKMZZheLKrBRjhD3DQ7cz59HspIXMedkvI7MSqhRXROL1VkUrRaRDMNDJVW1N4Wxu/lRIj8QBx955Y5rhk+gDJedJD+o1HKDapuxIrOwTHJJDPLOj7sCDP91KLFXa/QFVp4UVyzLQD12kVCB5n/ccu5Mcvz5lNdZPhorwzmzS7q/dQ/8fNNNXUVxrXy61hT9tBihWdjZ2VVRSPGxOmf4bTwafmnFJMy552Z9g9BFEiXYrqkhVQ9Rtn9SQbwbBWCe8wLDPVosxQp+jC0QIDAQAB");
-            braintree.onSubmitEncryptForm('payment');
+                };
+                $("form#payment").ajaxForm(options);
+            });
+
+            $(creditcard).bind("keyup", function (event) {
+                // MasterCard
+                if(/^5[1-5]/.test(event.target.value)) {
+                    $(mastercard).show();
+                    $(visa).hide();
+                    $(amex).hide();
+                }
+                // Visa
+                else if(/^4/.test(event.target.value)) {
+                    $(visa).show();
+                    $(mastercard).hide();
+                    $(amex).hide();
+                }
+                // AmEx
+                else if(/^3[47]/.test(event.target.value)) {
+                    $(amex).show();
+                    $(mastercard).hide();
+                    $(visa).hide();
+                }
+            });
+            //]]>
         </script>
-    </div>
-    <div class="col-sm-4">
+    </form>
+    <p id="payment-result" class="alert"></p>
+    <script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+    <script type="text/javascript">
+        var braintree = Braintree.create("MIIBCgKCAQEAtnl/Jd3OZNsc3w6E4bCc1bLUFa120966tPjnPKJQTnvmt52do1gdgWYdZ7auNTXOHtyjoLRKMZZheLKrBRjhD3DQ7cz59HspIXMedkvI7MSqhRXROL1VkUrRaRDMNDJVW1N4Wxu/lRIj8QBx955Y5rhk+gDJedJD+o1HKDapuxIrOwTHJJDPLOj7sCDP91KLFXa/QFVp4UVyzLQD12kVCB5n/ccu5Mcvz5lNdZPhorwzmzS7q/dQ/8fNNNXUVxrXy61hT9tBihWdjZ2VVRSPGxOmf4bTwafmnFJMy552Z9g9BFEiXYrqkhVQ9Rtn9SQbwbBWCe8wLDPVosxQp+jC0QIDAQAB");
+        braintree.onSubmitEncryptForm('payment');
+    </script>
+</div>
+<div class="col-sm-4">
     <h4>Paypal</h4>
 
     <p>
         <small>
             To make the payment with Paypal, you can use your credit card or bank account without the need
             to open an account. You will receive the donation key automatically by email and
-                        additionally a receipt from Paypal when the transaction is complete.
+            additionally a receipt from Paypal when the transaction is complete.
 
         </small>
     </p>
@@ -302,25 +312,33 @@
         </fieldset>
     </form>
 
-    <br />
+    <br/>
 
     <h4>Amazon Wishlist</h4>
 
-        <p><small>If you prefer not to to use Paypal, you can send us something
-            from our wishlist (in German).</small></p>
-        <ul>
-            <li>
-                <small><a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project
-                    Lead)</a></small>.
-            </li>
-            <li>
-                <small><a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead
-                    Developer)</a></small>.
-            </li>
-        </ul>
+    <p>
+        <small>If you prefer not to to use Paypal, you can send us something
+            from our wishlist (in German).
+        </small>
+    </p>
+    <ul>
+        <li>
+            <small><a class="ext" href="http://www.amazon.de/wishlist/1QIQE5HKOS011">David Kocher (Project
+                Lead)</a></small>
+            .
+        </li>
+        <li>
+            <small><a class="ext" href="http://www.amazon.de/wishlist/15QDR990HLU49">Yves Langisch (Windows Lead
+                Developer)</a></small>
+            .
+        </li>
+    </ul>
 
-        <p><small>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion
-            of the Amazon order process.</small></p>
+    <p>
+        <small>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion
+            of the Amazon order process.
+        </small>
+    </p>
 </div>
 </div>
 
@@ -370,8 +388,8 @@
 
         <P>
             For an invoice, please contact
-                                <a href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David
-                                    Kocher</a> with the desired entitlements .
+            <a href="mailto:%66%65%65%64%62%61%63%6B%40%63%79%62%65%72%64%75%63%6B%2E%63%68">David
+                Kocher</a> with the desired entitlements .
         </P>
 
         <form id="calculate" method="get" action="https://reg.cyberduck.ch/calculate"
@@ -393,8 +411,8 @@
                 //]]>
             </script>
             <div class="form-group">
-                <input class="form-control input-sm" size="5" type="text" id="calculate-result" disabled="disabled"
-                         name="volume" placeholder="(€)"/>
+                <p class="form-control input-sm" size="5" type="text" id="calculate-result" disabled="disabled"
+                   name="volume" />
             </div>
         </form>
 
