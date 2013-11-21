@@ -10,22 +10,22 @@
     <title>Donate | Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="//media.cyberduck.ch/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//media.cyberduck.ch/css/custom.css" rel="stylesheet">
+    <link href="//media.cyberduck.io/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//media.cyberduck.io/css/custom.css" rel="stylesheet">
 
-    <script src="//media.cyberduck.ch/js/jquery.min.js"></script>
-    <script src="//media.cyberduck.ch/js/bootstrap.min.js"></script>
+    <script src="//media.cyberduck.io/js/jquery.min.js"></script>
+    <script src="//media.cyberduck.io/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//media.cyberduck.ch/js/html5shiv.js"></script>
-    <script src="//media.cyberduck.ch/js/respond.min.js"></script>
+    <script src="//media.cyberduck.io/js/html5shiv.js"></script>
+    <script src="//media.cyberduck.io/js/respond.min.js"></script>
     <![endif]-->
 
-    <script src="//media.cyberduck.ch/js/ga.js"></script>
-    <script src="//media.cyberduck.ch/js/custom.js"></script>
+    <script src="//media.cyberduck.io/js/ga.js"></script>
+    <script src="//media.cyberduck.io/js/custom.js"></script>
 
-    <script src="//media.cyberduck.ch/js/jquery.form.min.js"></script>
+    <script src="//media.cyberduck.io/js/jquery.form.min.js"></script>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="..">
-                    <img src="//media.cyberduck.ch/img/cyberduck-icon-64.png" class="img-responsive"
+                    <img src="//media.cyberduck.io/img/cyberduck-icon-64.png" class="img-responsive"
                          width="64px" height="64px" title="Icon"/>
                 </a>
             </div>
@@ -51,13 +51,13 @@
                         <a class="navbar-link" href="../changelog">changelog</a>
                     </li>
                     <li>
-                        <a class="navbar-link" href="http://blog.cyberduck.ch">blog</a>
+                        <a class="navbar-link" href="http://blog.cyberduck.io">blog</a>
                     </li>
                     <li>
-                        <a class="navbar-link" href="https://trac.cyberduck.ch">development</a>
+                        <a class="navbar-link" href="https://trac.cyberduck.io">development</a>
                     </li>
                     <li>
-                        <a class="navbar-link" href="http://help.cyberduck.ch">help</a>
+                        <a class="navbar-link" href="http://help.cyberduck.io">help</a>
                     </li>
                     <li class="active">
                         <a href="#">
@@ -81,7 +81,7 @@
     still costs money to write, support, and distribute it.
     <small>
         As a contributor to Cyberduck, you receive a donation key that disables the donation prompt. Or buy
-        Cyberduck from the <a href="http://cyberduck.ch/appstore">Mac App Store</a>.
+        Cyberduck from the <a href="/appstore">Mac App Store</a>.
     </small>
 </h2>
 
@@ -90,7 +90,7 @@
         software</a> is a matter of the users freedom to run, copy,
         distribute, study, change and improve the software. The continued donations of users is what allows
         Cyberduck to be available for free today. If you find this program useful, please
-        consider making a donation or buy the version from the <a href="http://cyberduck.ch/appstore">Mac App Store</a>.
+        consider making a donation or buy the version from the <a href="/appstore">Mac App Store</a>.
         It will help to make Cyberduck even better!
     </small>
 </h3>
@@ -108,21 +108,21 @@
 <div class="col-sm-8">
 <h3>Payment
                 <span>
-                    <img src="//media.cyberduck.ch/img/visa.png"/>
-                    <img src="//media.cyberduck.ch/img/mastercard.png"/>
-                    <img src="//media.cyberduck.ch/img/american_express.png"/>
+                    <img src="//media.cyberduck.io/img/visa.png"/>
+                    <img src="//media.cyberduck.io/img/mastercard.png"/>
+                    <img src="//media.cyberduck.io/img/american_express.png"/>
                 </span>
 </h3>
 
-<form action="https://reg.cyberduck.ch/payment" method="POST" id="payment"
+<form action="https://reg.cyberduck.io/payment" method="POST" id="payment"
       class="form-inline well" role="form">
     <fieldset id="payment-creditcard">
         <div class="row">
             <div class="col-xs-9">
                 <label for="creditcard">Card Number</label>
-                <img id="visa" src="//media.cyberduck.ch/img/visa.png" height="20px" style="display: none"/>
-                <img id="mastercard" src="//media.cyberduck.ch/img/mastercard.png" height="20px" style="display: none"/>
-                <img id="amex" src="//media.cyberduck.ch/img/american_express.png" height="20px" style="display: none"/>
+                <img id="visa" src="//media.cyberduck.io/img/visa.png" height="20px" style="display: none"/>
+                <img id="mastercard" src="//media.cyberduck.io/img/mastercard.png" height="20px" style="display: none"/>
+                <img id="amex" src="//media.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
                 <input id="creditcard" type="text" required="true"
                        placeholder="Credit Card Number"
                        class="form-control input-sm" size="20" data-encrypted-name="number"/>
@@ -186,7 +186,7 @@
 
                 <script>
                     $("#installations").change(function () {
-                        $.get("https://reg.cyberduck.ch/calculate", { volume: $("#installations").val() }).done(function(data) {
+                        $.get("https://reg.cyberduck.io/calculate", { volume: $("#installations").val() }).done(function(data) {
                             $("#amount").val($.trim(data));
                         });
                     });
@@ -322,7 +322,7 @@
         <fieldset>
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" id="paypal" name="hosted_button_id">
-            <input type="image" src="//media.cyberduck.ch/img/donate" name="submit"
+            <input type="image" src="//media.cyberduck.io/img/donate" name="submit"
                    alt="Donate to the development of Cyberduck!">
         </fieldset>
     </form>
@@ -350,7 +350,7 @@
     </ul>
 
     <p>
-        <small>You will have to <a href="mailto:feedback@cyberduck.ch">request a donation key</a> after completion
+        <small>You will have to <a href="mailto:feedback@cyberduck.io">request a donation key</a> after completion
             of the Amazon order process.
         </small>
     </p>
@@ -359,7 +359,7 @@
 
     <p>
         <small>You can send money by IBAN. You will have to <a
-                href="mailto:feedback@cyberduck.ch">request a donation key</a> after the transaction has
+                href="mailto:feedback@cyberduck.io">request a donation key</a> after the transaction has
             been completed.
         </small>
     </p>
@@ -382,7 +382,7 @@
             automatically after the Paypal transaction has been completed. To recover a
             lost registration key, enter your email address below to look it up.</p>
 
-        <form id="lookup" method="get" action="https://reg.cyberduck.ch/lookup" class="form-inline" role="form">
+        <form id="lookup" method="get" action="https://reg.cyberduck.io/lookup" class="form-inline" role="form">
 
             <div class="form-group">
                 <input type="email" class="form-control input-sm" placeholder="Email address registered with Paypal"
@@ -406,7 +406,7 @@
 
         <small><p>Open the received license key with Cyperduck by double clicking. Make sure the filename of the
             donation key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
-                    href="http://trac.cyberduck.ch/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
+                    href="https://trac.cyberduck.io/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
             receiving or opening the key.</p></small>
     </div>
 </div>
@@ -425,7 +425,7 @@
 
 <div class="container">
     <a class="swissmade" href="http://www.swissmadesoftware.org"><img
-            width="122px" height="16px" src="//media.cyberduck.ch/img/sms-logo-small-footer.png"
+            width="122px" height="16px" src="//media.cyberduck.io/img/sms-logo-small-footer.png"
             alt="swiss made software"/></a>
 </div>
 </body>
