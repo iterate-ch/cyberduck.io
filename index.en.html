@@ -1,649 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows. Features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and 30 translations make you feel at home.">
-    <meta name="author" content="David Kocher">
-    <meta name="keywords"
-          content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, openstack, swift, cloudfiles, akamai, google cloud storage, browser, mac, os x, windows, client, program, application"/>
-    <link rel="shortcut icon" href="//media.cyberduck.io/favicon.ico">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="1Wgv1h7B1ehNr5VEsM0p-pFzM4nxYS1yJuKhbT2LTe4" />
+        <meta name="description"
+              content="Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows. Features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and 30 translations make you feel at home.">
+        <meta name="author" content="David Kocher">
+        <meta name="keywords"
+              content="ftp, sftp, tls, ssl, dav, webdav, amazon, s3, cloudfront, openstack, swift, cloudfiles, akamai, google cloud storage, browser, mac, os x, windows, client, program, application"/>
+        <link rel="shortcut icon" href="//media.cyberduck.io/favicon.ico">
 
-    <title>Cyberduck | Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows</title>
+        <title>Cyberduck | Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="//media.cyberduck.io/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//media.cyberduck.io/css/custom.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="//media.cyberduck.io/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//media.cyberduck.io/css/custom.css" rel="stylesheet">
 
-    <script src="//media.cyberduck.io/js/jquery.min.js"></script>
-    <script src="//media.cyberduck.io/js/bootstrap.min.js"></script>
+        <script src="//media.cyberduck.io/js/jquery.min.js"></script>
+        <script src="//media.cyberduck.io/js/bootstrap.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="//media.cyberduck.io/js/html5shiv.js"></script>
-    <script src="//media.cyberduck.io/js/respond.min.js"></script>
-    <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="//media.cyberduck.io/js/html5shiv.js"></script>
+        <script src="//media.cyberduck.io/js/respond.min.js"></script>
+        <![endif]-->
 
-    <link rel="stylesheet" href="//media.cyberduck.io/css/style.aw-showcase.css"/>
-    <script type="text/javascript" src="//media.cyberduck.io/js/jquery.aw-showcase.min.js"></script>
+        <link rel="stylesheet" href="//media.cyberduck.io/css/style.aw-showcase.css"/>
+        <script type="text/javascript" src="//media.cyberduck.io/js/jquery.aw-showcase.min.js"></script>
 
-    <script src="//media.cyberduck.io/js/ga.js"></script>
-    <script src="//media.cyberduck.io/js/custom.js"></script>
-</head>
+        <script src="//media.cyberduck.io/js/ga.js"></script>
+        <script src="//media.cyberduck.io/js/custom.js"></script>
+    </head>
 
-<body>
-<header>
-    <div class="container">
-        <p/>
+    <body>
+        <header>
+            <div class="container">
+                <p/>
 
-        <div class="alert alert-info alert-dismissable">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <p class="text-center">
-                Version <strong>4.4</strong> now available for download and in the <a
-                    href="/appstore">Mac App Store</a>!
-            </p>
+                <div class="alert alert-info alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <p class="text-center">
+                        Version <strong>4.4</strong> now available for download and in the <a
+                            href="/appstore">Mac App Store</a>!
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="/appstore">
+                                    <img alt="Mac App Store" src="//media.cyberduck.io/img/mas/mas" width="144px"
+                                         height="35px">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="changelog">changelog</a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="http://blog.cyberduck.io">blog</a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="https://trac.cyberduck.io">development</a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="http://help.cyberduck.io">help</a>
+                            </li>
+                            <li>
+                                <a href="donate">
+                                    <button class="btn btn-success" rel="tooltip"
+                                            data-placement="bottom"
+                                            data-container="body"
+                                            data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
+                                        donate
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <img src="//media.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
+                             width="384" height="384" title="Icon"/>
+
+                        <br/>
+                        <br/>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-9176652804694766"
+                             data-ad-slot="2960279549"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="page-header">
+                            <h1>Cyberduck</h1>
+
+                            <h2>Libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>S3</strong>
+                                & <strong>OpenStack Swift</strong> browser
+                                <wbr/>
+                                for Mac and Windows.
+                            </h2>
+                        </div>
+
+                        <div id="screenshots" class="showcase">
+                            <div class="showcase-slide">
+                                <div class="showcase-content">
+                                    <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser-bookmarks.png"
+                                         width="650px" height="" alt="Bookmarks"/>
+                                </div>
+
+                                <div class="showcase-thumbnail">
+                                    <img src="//media.cyberduck.io/img/mac/browser-bookmarks-thumb.png" width="140px"
+                                         height="125px"
+                                         alt="Thumbnail"/>
+
+                                    <div class="showcase-thumbnail-cover"></div>
+                                </div>
+                            </div>
+                            <div class="showcase-slide">
+                                <div class="showcase-content">
+                                    <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser.png"
+                                         width="650px" alt="Browser"/>
+                                </div>
+                                <div class="showcase-thumbnail">
+                                    <img src="//media.cyberduck.io/img/mac/browser-thumb.png" width="140px"
+                                         alt="Thumbnail"/>
+
+                                    <div class="showcase-thumbnail-cover"></div>
+                                </div>
+                            </div>
+                            <div class="showcase-slide">
+                                <div class="showcase-content">
+                                    <img class="img-responsive"
+                                         src="//media.cyberduck.io/img/windows/browser-bookmarks.png" width="600px"
+                                         alt="Bookmarks"/>
+                                </div>
+                                <div class="showcase-thumbnail">
+                                    <img src="//media.cyberduck.io/img/windows/browser-bookmarks-thumb.png" width="140px"
+                                         alt="Thumbnail"/>
+
+                                    <div class="showcase-thumbnail-cover"></div>
+                                </div>
+                            </div>
+                            <div class="showcase-slide">
+                                <div class="showcase-content">
+                                    <img class="img-responsive" src="//media.cyberduck.io/img/windows/browser.png"
+                                         width="600px" alt="Browser"/>
+                                </div>
+                                <div class="showcase-thumbnail">
+                                    <img src="//media.cyberduck.io/img/windows/browser-thumb.png" width="140px"
+                                         alt="Thumbnail"/>
+
+                                    <div class="showcase-thumbnail-cover"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            //<![CDATA[
+                            $(document).ready(function () {
+                                selected = 0;
+                                if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+                                    selected = 2;
+                                }
+                                $("#screenshots").awShowcase(
+                                        {
+                                            selected: selected,
+                                            auto: false,
+                                            interval: 3000,
+                                            continuous: false,
+                                            loading: true,
+                                            arrows: false,
+                                            buttons: false,
+                                            mousetrace: false,
+                                            pauseonover: true,
+                                            transition: 'fade', /* vslide/hslide/fade */
+                                            transition_speed: 400,
+                                            show_caption: 'onhover', /* onload/onhover/show */
+                                            thumbnails: true,
+                                            thumbnails_position: 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+                                            thumbnails_direction: 'vertical', /* vertical/horizontal */
+                                            thumbnails_slidex: 0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+                                        });
+                            });
+                            //]]>
+                        </script>
+
+                        <br/>
+
+                        <p class="text-center">
+                            <a href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.2.exe"
+                               class="btn btn-default btn-lg"
+                               rel="tooltip" data-placement="top" data-html="true"
+                               title="<strong>Cyberduck-Installer-4.4.2.exe</strong><br /><i>21 Nov 2013</i><br /><strong>Version 4.4.2 (14095)</strong><br /><br />Windows XP, Windows Vista, Windows 7 or Windows 8 required."
+                               onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.2.exe']);">
+                                <span class="media text-left">
+                                    <span class="pull-right">
+                                        <img src="//media.cyberduck.io/img/windows32.png" width="32" height="28"/>
+                                    </span>
+                                    <span class="media-body pull-left">
+                                        <strong>
+                                            Download
+                                        </strong>
+                                        <br/>
+                                        <small>Cyberduck-Installer-4.4.2.exe</small>
+                                    </span>
+                                </span>
+                            </a>
+                            <a href="https://update.cyberduck.io/Cyberduck-4.4.2.zip"
+                               class="btn btn-default btn-lg"
+                               rel="tooltip" data-placement="top" data-html="true"
+                               title="<strong>Cyberduck-4.4.2.zip</strong><br /><i>21 Nov 2013</i><br /><strong>Version 4.4.2 (14095)</strong><br /><br />OS X 10.6 (Snow Leopard) or later on 64bit Intel required."
+                               onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.2.zip']);">
+                                <span class="media text-left">
+                                    <span class="pull-right">
+                                        <img src="//media.cyberduck.io/img/mac32.png" width="32" height="32"/>
+                                    </span>
+                                    <span class="media-body pull-left">
+                                        <strong>
+                                            Download
+                                        </strong>
+                                        <br/>
+                                        <small>Cyberduck-4.4.2.zip</small>
+                                    </span>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/appstore">
-                            <img alt="Mac App Store" src="//media.cyberduck.io/img/mas/mas" width="144px"
-                                 height="35px">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="navbar-link" href="changelog">changelog</a>
-                    </li>
-                    <li>
-                        <a class="navbar-link" href="http://blog.cyberduck.io">blog</a>
-                    </li>
-                    <li>
-                        <a class="navbar-link" href="https://trac.cyberduck.io">development</a>
-                    </li>
-                    <li>
-                        <a class="navbar-link" href="http://help.cyberduck.io">help</a>
-                    </li>
-                    <li>
-                        <a href="donate">
-                            <button class="btn btn-success" rel="tooltip"
-                                    data-placement="bottom"
-                                    data-container="body"
-                                    data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
-                                donate
-                            </button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-
-<div class="jumbotron">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 text-center">
-                <img src="//media.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
-                     width="384" height="384" title="Icon"/>
-
-                <br/>
-                <br/>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:300px;height:250px"
-                     data-ad-client="ca-pub-9176652804694766"
-                     data-ad-slot="2960279549"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <div class="col-sm-8">
-                <div class="page-header">
-                    <h1>Cyberduck</h1>
-
-                    <h2>Libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>S3</strong>
-                        & <strong>OpenStack Swift</strong> browser
-                        <wbr/>
-                        for Mac and Windows.
-                    </h2>
-                </div>
-
-                <div id="screenshots" class="showcase">
-                    <div class="showcase-slide">
-                        <div class="showcase-content">
-                            <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser-bookmarks.png"
-                                 width="650px" height="" alt="Bookmarks"/>
-                        </div>
-
-                        <div class="showcase-thumbnail">
-                            <img src="//media.cyberduck.io/img/mac/browser-bookmarks-thumb.png" width="140px"
-                                 height="125px"
-                                 alt="Thumbnail"/>
-
-                            <div class="showcase-thumbnail-cover"></div>
-                        </div>
-                    </div>
-                    <div class="showcase-slide">
-                        <div class="showcase-content">
-                            <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser.png"
-                                 width="650px" alt="Browser"/>
-                        </div>
-                        <div class="showcase-thumbnail">
-                            <img src="//media.cyberduck.io/img/mac/browser-thumb.png" width="140px"
-                                 alt="Thumbnail"/>
-
-                            <div class="showcase-thumbnail-cover"></div>
-                        </div>
-                    </div>
-                    <div class="showcase-slide">
-                        <div class="showcase-content">
-                            <img class="img-responsive"
-                                 src="//media.cyberduck.io/img/windows/browser-bookmarks.png" width="600px"
-                                 alt="Bookmarks"/>
-                        </div>
-                        <div class="showcase-thumbnail">
-                            <img src="//media.cyberduck.io/img/windows/browser-bookmarks-thumb.png" width="140px"
-                                 alt="Thumbnail"/>
-
-                            <div class="showcase-thumbnail-cover"></div>
-                        </div>
-                    </div>
-                    <div class="showcase-slide">
-                        <div class="showcase-content">
-                            <img class="img-responsive" src="//media.cyberduck.io/img/windows/browser.png"
-                                 width="600px" alt="Browser"/>
-                        </div>
-                        <div class="showcase-thumbnail">
-                            <img src="//media.cyberduck.io/img/windows/browser-thumb.png" width="140px"
-                                 alt="Thumbnail"/>
-
-                            <div class="showcase-thumbnail-cover"></div>
-                        </div>
-                    </div>
-                </div>
-                <script type="text/javascript">
-                    //<![CDATA[
-                    $(document).ready(function () {
-                        selected = 0;
-                        if (navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
-                            selected = 2;
-                        }
-                        $("#screenshots").awShowcase(
-                                {
-                                    selected: selected,
-                                    auto: false,
-                                    interval: 3000,
-                                    continuous: false,
-                                    loading: true,
-                                    arrows: false,
-                                    buttons: false,
-                                    mousetrace: false,
-                                    pauseonover: true,
-                                    transition: 'fade', /* vslide/hslide/fade */
-                                    transition_speed: 400,
-                                    show_caption: 'onhover', /* onload/onhover/show */
-                                    thumbnails: true,
-                                    thumbnails_position: 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
-                                    thumbnails_direction: 'vertical', /* vertical/horizontal */
-                                    thumbnails_slidex: 0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
-                                });
+        <div class="container">
+            <ul id="lang">
+                <li>
+                    <small><a href="?l=en">English</a></small>
+                </li>
+                <li>
+                    <small><a href="?l=ja">日本語</a></small>
+                </li>
+            </ul>
+            <script charset="utf-8" type="text/javascript">
+                //<![CDATA[
+                $(document).ready(function () {
+                    $("#lang a").click(function () {
+                        var l = this.href.match(/\?l=(\w{2})$/);
+                        document.cookie = "language=" + l[1] + ";path=/;domain=.cyberduck.io";
                     });
-                    //]]>
-                </script>
-
-                <br/>
-
-                <p class="text-center">
-                    <a href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.2.exe"
-                       class="btn btn-default btn-lg"
-                       rel="tooltip" data-placement="top" data-html="true"
-                       title="<strong>Cyberduck-Installer-4.4.2.exe</strong><br /><i>21 Nov 2013</i><br /><strong>Version 4.4.2 (14095)</strong><br /><br />Windows XP, Windows Vista, Windows 7 or Windows 8 required."
-                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.2.exe']);">
-                        <span class="media text-left">
-                            <span class="pull-right">
-                                <img src="//media.cyberduck.io/img/windows32.png" width="32" height="28"/>
-                            </span>
-                            <span class="media-body pull-left">
-                                <strong>
-                                    Download
-                                </strong>
-                                <br/>
-                                <small>Cyberduck-Installer-4.4.2.exe</small>
-                            </span>
-                        </span>
-                    </a>
-                    <a href="https://update.cyberduck.io/Cyberduck-4.4.2.zip"
-                       class="btn btn-default btn-lg"
-                       rel="tooltip" data-placement="top" data-html="true"
-                       title="<strong>Cyberduck-4.4.2.zip</strong><br /><i>21 Nov 2013</i><br /><strong>Version 4.4.2 (14095)</strong><br /><br />OS X 10.6 (Snow Leopard) or later on 64bit Intel required."
-                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.2.zip']);">
-                        <span class="media text-left">
-                            <span class="pull-right">
-                                <img src="//media.cyberduck.io/img/mac32.png" width="32" height="32"/>
-                            </span>
-                            <span class="media-body pull-left">
-                                <strong>
-                                    Download
-                                </strong>
-                                <br/>
-                                <small>Cyberduck-4.4.2.zip</small>
-                            </span>
-                        </span>
-                    </a>
-                </p>
-            </div>
+                });
+                //]]>
+            </script>
         </div>
-    </div>
-</div>
-<div class="container">
-    <ul id="lang">
-        <li>
-            <small><a href="?l=en">English</a></small>
-        </li>
-        <li>
-            <small><a href="?l=ja">日本語</a></small>
-        </li>
-    </ul>
-    <script charset="utf-8" type="text/javascript">
-        //<![CDATA[
-        $(document).ready(function () {
-            $("#lang a").click(function () {
-                var l = this.href.match(/\?l=(\w{2})$/);
-                document.cookie = "language=" + l[1] + ";path=/;domain=.cyberduck.io";
-            });
-        });
-        //]]>
-    </script>
-</div>
-<div class="container">
-<h2 class="headline">
-    <img src="//media.cyberduck.io/img/connect.png" width="32px" height="32px" class="headline">Connecting to
-    every
-    server.
+        <div class="container">
+        <h2 class="headline">
+            <img src="//media.cyberduck.io/img/connect.png" width="32px" height="32px" class="headline">Connecting to
+            every
+            server.
 
-    <small>With an easy to use interface, connect to <a href="https://trac.cyberduck.io/wiki/help/en/howto/ftp">FTP (File
-        Transfer Protocol)</a>, <a href="https://trac.cyberduck.io/wiki/help/en/howto/sftp">SFTP (SSH Secure File
-        Transfer)</a>, <a href="https://trac.cyberduck.io/wiki/help/en/howto/dav">WebDAV</a> (Web-based Distributed
-        Authoring and Versioning), <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Amazon S3</a>, <a
-                href="https://trac.cyberduck.io/wiki/help/en/howto/googlestorage">Google Cloud Storage</a> and <a
-                href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>.
-    </small>
-</h2>
-<div class="row">
-    <div class="col-md-6">
-        <p><img src="//media.cyberduck.io/img/swift.png" class="feature" width="16px" height="16px"> <strong>Emerging
-            open cloud
-            software standards.</strong><br>Works with thirdparty providers using either the <a
-                href="https://trac.cyberduck.io/wiki/help/en/howto/s3">S3</a> or <a
-                href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">Openstack Swift</a> APIs.</p></div>
-    <div class="col-md-6">
-        <p><img src="//media.cyberduck.io/img/bandwidth.png" class="feature" width="16px" height="16px"> <strong>Fast
-            FTP
-            Core</strong><br>A widely
-            tested <a href="https://trac.cyberduck.io/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>
-            implementation for the best interoperability with support for FTP over secured SSL/TLS connections.</p>
-    </div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/pencil.png" class="headline">
-    Edit any file with your preferred editor.
-    <small> To edit files, a seamless integration with any external editor application makes it easy to change content
-        quickly. Edit any text or binary file on the server in your preferred application.
-    </small>
-</h2>
-
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/s3.png"
-                          class="headline"> Distribute your
-    content in the cloud.
-    <small>Both <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">Amazon CloudFront</a> and <a
-            href="https://trac.cyberduck.io/wiki/help/en/howto/akamai">Akamai</a>
-        content delivery networks (<a href="https://trac.cyberduck.io/wiki/help/en/howto/cdn">CDN</a>) can be easily
-        configured
-        to distribute your files worldwide from edge locations. Connect to any server using FTP, SFTP or WebDAV and
-        configure it as the origin of a new <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">Amazon
-            CloudFront</a>
-        CDN distribution.
-    </small>
-</h2>
-
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Amazon
-            CloudFront</strong><br>
-            Manage custom origin, basic and streaming <a
-                    href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">CloudFront</a> distributions.
-            Toggle deployment, define CNAMEs, distribution access logging and set the default index file.</p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/googlestorage.png" class="feature" width="16px" height="16px">
-            <strong>Google
-                Cloud
-                Storage</strong><br>With OAuth or interoperable authentication support. Share files securely with an
-            authenticated URL. Configure bucket access logging to get statistics with <a
-                    href="https://qloudstat.com">Qloudstat</a>.</p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Rackspace
-            Cloud Files</strong><br>
-            Manage your <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>
-            storage including the configuration of <a href="https://trac.cyberduck.io/wiki/help/en/howto/akamai/">Akamai
-                content delivery network (CDN)</a> with support to toggle on access logs for <a
-                    href="https://qloudstat.com">Qloudstat</a>.</p>
-    </div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/s3.png"
-                          class="headline"> Amazon S3 for the
-    rest of us.
-
-    <small>Browse <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like
-        your
-        harddisk. Supporting the latest and greatest additions to the S3 storage options. Define website endpoints,
-        enable access logging, configure storage class, encryption and lifecycle (Glacier).
-    </small>
-
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Versioning
-            and MFA</strong><br>
-            Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled, revert to
-            any previous version of a file.</p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/permissions.png" class="feature" width="16px" height="16px">
-            <strong>ACL</strong><br>
-            Configure Access Control Lists (ACLs) for fine grained access permissions. Copy a signed URL for
-            temporary access.</p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/info.png" class="feature" width="16px" height="16px">
-            <strong>Metadata</strong><br>
-            You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and control
-            cache expire settings. Batch editing included.</p>
-    </div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/bookmark.png" class="headline">
-    First class
-    bookmarking.
-    <small>Organize your bookmarks with drag and drop and quickly search using the filter field.</small>
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/document.png" class="feature" width="16px" height="16px">
-            <strong>Files</strong><br>
-            Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
-
-        <p><img src="//media.cyberduck.io/img/spotlight.png" class="feature" width="16px" height="16px"> <strong>Spotlight</strong><br>
-            <a href="https://trac.cyberduck.io/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.
-        </p></div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/history.png" class="feature" width="16px" height="16px">
-            <strong>History</strong><br>
-            History of visited servers with timestamp of last access.</p>
-
-        <p><img src="//media.cyberduck.io/img/rendezvous.png" class="feature" width="16px" height="16px"> <strong>Bonjour</strong><br>
-            Auto discovery of FTP &amp; WebDAV services on the local network.</p></div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
-            <strong>Import</strong><br>
-            <a href="https://trac.cyberduck.io/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import
-                Bookmarks</a> from third-party applications.</p></div>
-</div>
-
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/browse.png" class="headline">
-    Browse with ease.
-    <small>Browse and move your files quickly in the browser with caching enabled for the best performance. Works
-        with any character encoding for the correct display of Umlaute, Japanese and Chinese.
-    </small>
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/quicklook.png" class="feature" width="16px" height="16px"> <strong>Quick
-            Look</strong><br>
-            Quickly preview files with Quick Look. Press the space key to preview files like in Finder.app without
-            explicitly downloading.</p></div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/outline.png" class="feature" width="16px" height="16px"> <strong>Accessible</strong><br>
-            The outline view of the browser allows to browse large folder structures
-            efficiently. Cut &amp; paste or drag &amp; drop files to organize.</p></div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/safari.png" class="feature" width="16px" height="16px"> <strong>Web
-            URL</strong><br>
-            Quickly copy or open the corresponding HTTP URLs of a selected file in your web browser. Includes CDN and
-            signed URLs for S3.</p></div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/transfer.png" class="headline">
-    Transfer anything.
-    <small>Limit the number of concurrent transfers and filter files using a regular expression. Resume both
-        interrupted download and uploads. Recursively transfer directories.
-    </small>
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/download.png" class="feature" width="16px" height="16px"> <strong>Download
-            and
-            Upload</strong><br>
-            Drag and drop to and from the browser to download and upload or copy files between servers. No hassle.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/growl.png" class="feature" width="16px" height="16px">
-            <strong>Growl</strong><br>
-            Support for <a class="ext" href="http://growl.info/">Growl</a> and the Notification Center in Mountain Lion.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/sync.png" class="feature" width="16px" height="16px">
-            <strong>Synchronization</strong><br>
-            Synchronize local with remote directories (and vice versa) and get a preview of affected files before
-            any action is taken.</p></div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/ftp.png" class="headline">
-    Advanced SSH
-    features.
-    <small>No compromise accessing your <a href="https://trac.cyberduck.io/wiki/help/en/howto/sftp">SFTP</a> servers
-        with
-        all the bells and whistles.
-    </small>
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/protocol.png" class="feature" width="16px" height="16px"> <strong>Authentication
-            and
-            security</strong><br>
-            Supports Public key authentication, Keyboard Interactive (PAM) Authentication and one-time passwords.
-            Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication
-            algorithms (MD5, SHA1). Optionally transfer files using Secure Copy (SCP).</p></div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/openssh.png" class="feature"
-                width="16px" height="16px"><strong>Interoperability</strong><br>
-            Read settings from your existing <a href="http://www.openssh.org/">OpenSSH</a> configuration options
-            including Host aliases, public key authentication preferences and default login user.
-            Integration with Terminal.app to open the current working directory in a shell.
-            Works with <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> private keys.</p>
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/archive.png" class="feature" width="16px"
-                height="16px"><strong>Archives</strong><br>
-            Archive and expand TAR, ZIP files remotely over SSH.</p></div>
-</div>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/mac32.png" class="headline">
-    Integration with
-    system technologies.
-    <small>A native citizen of Mac OS X and Windows.</small>
-</h2>
-<div class="row">
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/keychain.png" class="feature" width="16px" height="16px">
-            <strong>Keychain</strong><br>
-            All passwords are stored in the system Keychain as Internet passwords available also to third party
-            applications. Certificates are validated using the trust settings in the Keychain.</p>
-
-
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/finder.png" class="feature" width="16px" height="16px">
-            <strong>Finder</strong><br>
-            Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck
-            bookmark files from the Finder.</p>
-
-    </div>
-    <div class="col-md-4">
-        <p><img src="//media.cyberduck.io/img/windows32.png" class="feature" width="16px" height="16px">
-            <strong>Windows</strong><br>
-            Reads your proxy configuration from network settings. Encrypts passwords limiting access to your
-            account.
-        </p>
-    </div>
-</div>
-
-
-<h2 class="headline"><img height="32px" src="//media.cyberduck.io/img/osi.png" class="headline"> We are
-    open.
-    <small>Licensed under the <a
-            href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
-    </small>
-</h2>
-
-<p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source code on <a
-        href="https://trac.cyberduck.io">trac.cyberduck.io</a>. We contribute to other open source projects including
-    <a href="https://github.com/dkocher/java-openstack-swift">OpenStack Swift Client Java Bindings</a>,
-    <a href="https://code.google.com/p/rococoa/">Rococoa Objective-C Wrapper</a> and
-    <a href="https://code.google.com/p/ganymed-ssh-2/">Ganymed SSH-2</a>.</p>
-
-<h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/language.png" class="headline">
-    International.
-    <small>Speaks your language.</small>
-</h2>
-
-<p>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk,
-    Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk,
-    Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά,
-    Cрпски, ქართული ენა, Slovenščina, українська мова, Română &amp; Български език.</p>
-</div>
-
-<div class="container">
-    <h2>Follow Us!</h2>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="well">
-                <p><strong>Newsletter.</strong> You can subscribe to the <a
-                        href="http://lists.cyberduck.io/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list
-                    to get a notification when a
-                    new version is released.</p>
-
-                <form method="post" action="http://lists.cyberduck.io/mailman/subscribe/cyberduck-news"
-                      class="form-inline" role="form">
-                    <div class="form-group">
-                        <input class="form-control" type="email" name="email" placeholder="Email"/>
-                    </div>
-                    <button type="submit" class="btn btn-default" name="email-button">Subscribe</button>
-                </form>
-            </div>
-            <div class="well">
-                <p><strong>Google Group.</strong> Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a>
-                    group to discuss features and issues you are having.
-                </p>
-
-                <a href="http://groups.google.com/group/cyberduck"><img src="//media.cyberduck.io/img/groups.png"
-                                                                        height="30" width="140" alt="Google Groups"></a>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/cyberduckapp"
-               data-chrome="nofooter " height="320px" width="100%"
-               data-widget-id="390207087331901440">Tweets by @cyberduckapp</a>
-            <script>!function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = p + "://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            }(document, "script", "twitter-wjs");</script>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <div class="container">
+            <small>With an easy to use interface, connect to <a href="https://trac.cyberduck.io/wiki/help/en/howto/ftp">FTP (File
+                Transfer Protocol)</a>, <a href="https://trac.cyberduck.io/wiki/help/en/howto/sftp">SFTP (SSH Secure File
+                Transfer)</a>, <a href="https://trac.cyberduck.io/wiki/help/en/howto/dav">WebDAV</a> (Web-based Distributed
+                Authoring and Versioning), <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Amazon S3</a>, <a
+                        href="https://trac.cyberduck.io/wiki/help/en/howto/googlestorage">Google Cloud Storage</a> and <a
+                        href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>.
+            </small>
+        </h2>
         <div class="row">
             <div class="col-md-6">
-                <p>
-                    <small>Copyright (c) 2002 – 2013 David V. Kocher. Copyright (c) 2011 – 2013 Yves Langisch. All
-                        rights reserved. <a href="https://iterate.ch">iterate GmbH</a>, Junkerngasse 12, 3011 Bern,
-                        Switzerland. This program
-                        is free software; you can redistribute it and/or modify it under the terms of the
-                        <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU
-                            General Public License</a> as published by the
-                        Free Software Foundation; either version 2 of the License, or (at your option) any
-                        later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT
-                            ANY WARRANTY; without even the implied
-                            warranty of
-                            MERCHANTABILITY or FITNESS FOR A
-                            PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small>
+                <p><img src="//media.cyberduck.io/img/swift.png" class="feature" width="16px" height="16px"> <strong>Emerging
+                    open cloud
+                    software standards.</strong><br>Works with thirdparty providers using either the <a
+                        href="https://trac.cyberduck.io/wiki/help/en/howto/s3">S3</a> or <a
+                        href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">Openstack Swift</a> APIs.</p></div>
+            <div class="col-md-6">
+                <p><img src="//media.cyberduck.io/img/bandwidth.png" class="feature" width="16px" height="16px"> <strong>Fast
+                    FTP
+                    Core</strong><br>A widely
+                    tested <a href="https://trac.cyberduck.io/wiki/help/en/howto/ftp">FTP (File Transfer Protocol)</a>
+                    implementation for the best interoperability with support for FTP over secured SSL/TLS connections.</p>
+            </div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/pencil.png" class="headline">
+            Edit any file with your preferred editor.
+            <small> To edit files, a seamless integration with any external editor application makes it easy to change content
+                quickly. Edit any text or binary file on the server in your preferred application.
+            </small>
+        </h2>
+
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/s3.png"
+                                  class="headline"> Distribute your
+            content in the cloud.
+            <small>Both <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">Amazon CloudFront</a> and <a
+                    href="https://trac.cyberduck.io/wiki/help/en/howto/akamai">Akamai</a>
+                content delivery networks (<a href="https://trac.cyberduck.io/wiki/help/en/howto/cdn">CDN</a>) can be easily
+                configured
+                to distribute your files worldwide from edge locations. Connect to any server using FTP, SFTP or WebDAV and
+                configure it as the origin of a new <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">Amazon
+                    CloudFront</a>
+                CDN distribution.
+            </small>
+        </h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Amazon
+                    CloudFront</strong><br>
+                    Manage custom origin, basic and streaming <a
+                            href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfront">CloudFront</a> distributions.
+                    Toggle deployment, define CNAMEs, distribution access logging and set the default index file.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/googlestorage.png" class="feature" width="16px" height="16px">
+                    <strong>Google
+                        Cloud
+                        Storage</strong><br>With OAuth or interoperable authentication support. Share files securely with an
+                    authenticated URL. Configure bucket access logging to get statistics with <a
+                            href="https://qloudstat.com">Qloudstat</a>.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Rackspace
+                    Cloud Files</strong><br>
+                    Manage your <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Rackspace Cloud Files</a>
+                    storage including the configuration of <a href="https://trac.cyberduck.io/wiki/help/en/howto/akamai/">Akamai
+                        content delivery network (CDN)</a> with support to toggle on access logs for <a
+                            href="https://qloudstat.com">Qloudstat</a>.</p>
+            </div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/s3.png"
+                                  class="headline"> Amazon S3 for the
+            rest of us.
+
+            <small>Browse <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Amazon Simple Storage Service</a> like
+                your
+                harddisk. Supporting the latest and greatest additions to the S3 storage options. Define website endpoints,
+                enable access logging, configure storage class, encryption and lifecycle (Glacier).
+            </small>
+
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/s3.png" class="feature" width="16px" height="16px"> <strong>Versioning
+                    and MFA</strong><br>
+                    Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled, revert to
+                    any previous version of a file.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/permissions.png" class="feature" width="16px" height="16px">
+                    <strong>ACL</strong><br>
+                    Configure Access Control Lists (ACLs) for fine grained access permissions. Copy a signed URL for
+                    temporary access.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/info.png" class="feature" width="16px" height="16px">
+                    <strong>Metadata</strong><br>
+                    You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and control
+                    cache expire settings. Batch editing included.</p>
+            </div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/bookmark.png" class="headline">
+            First class
+            bookmarking.
+            <small>Organize your bookmarks with drag and drop and quickly search using the filter field.</small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/document.png" class="feature" width="16px" height="16px">
+                    <strong>Files</strong><br>
+                    Drag and drop bookmarks to the Finder.app and drop files onto bookmarks to upload.</p>
+
+                <p><img src="//media.cyberduck.io/img/spotlight.png" class="feature" width="16px" height="16px"> <strong>Spotlight</strong><br>
+                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/spotlight">Spotlight</a> Importer for bookmark files.
+                </p></div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/history.png" class="feature" width="16px" height="16px">
+                    <strong>History</strong><br>
+                    History of visited servers with timestamp of last access.</p>
+
+                <p><img src="//media.cyberduck.io/img/rendezvous.png" class="feature" width="16px" height="16px"> <strong>Bonjour</strong><br>
+                    Auto discovery of FTP &amp; WebDAV services on the local network.</p></div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Import</strong><br>
+                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/bookmarks#Fromthird-partyapplications">Import
+                        Bookmarks</a> from third-party applications.</p></div>
+        </div>
+
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/browse.png" class="headline">
+            Browse with ease.
+            <small>Browse and move your files quickly in the browser with caching enabled for the best performance. Works
+                with any character encoding for the correct display of Umlaute, Japanese and Chinese.
+            </small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/quicklook.png" class="feature" width="16px" height="16px"> <strong>Quick
+                    Look</strong><br>
+                    Quickly preview files with Quick Look. Press the space key to preview files like in Finder.app without
+                    explicitly downloading.</p></div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/outline.png" class="feature" width="16px" height="16px"> <strong>Accessible</strong><br>
+                    The outline view of the browser allows to browse large folder structures
+                    efficiently. Cut &amp; paste or drag &amp; drop files to organize.</p></div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/safari.png" class="feature" width="16px" height="16px"> <strong>Web
+                    URL</strong><br>
+                    Quickly copy or open the corresponding HTTP URLs of a selected file in your web browser. Includes CDN and
+                    signed URLs for S3.</p></div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/transfer.png" class="headline">
+            Transfer anything.
+            <small>Limit the number of concurrent transfers and filter files using a regular expression. Resume both
+                interrupted download and uploads. Recursively transfer directories.
+            </small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/download.png" class="feature" width="16px" height="16px"> <strong>Download
+                    and
+                    Upload</strong><br>
+                    Drag and drop to and from the browser to download and upload or copy files between servers. No hassle.
                 </p>
             </div>
-            <div class="col-md-6">
-                <p>
-                    <small>This product includes software developed by
-                        <strong>Duncan McGregor et al.</strong> (<a class="ext"
-                                                                    href="http://code.google.com/p/rococoa/">Rococoa</a>),
-                        <strong>Timothy Wall et al.</strong> (<a class="ext" href="https://github.com/twall/jna">JNA</a>),
-                        <strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
-                        <strong>Christian Plattner et al.</strong> (<a class="ext"
-                                                                       href="http://code.google.com/p/ganymed-ssh-2">Ganymed</a>),
-                        <strong>Oleg Kalnichevski et al.</strong> (<a class="ext" href="http://hc.apache.org/">Apache
-                            HTTP Components</a>),
-                        <strong>Jon Stevens</strong> (<a class="ext" href="http://code.google.com/p/sardine">Sardine</a>),
-                        <strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>),
-                        <strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">Growl</a>),
-                        <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter</a>),
-                        <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
-                        <strong>Brian Amerige</strong> (<a class="ext" href="http://extendmac.com/EMKeychain/">EMKeychain</a>),
-                        <strong>Steve McLeod</strong> (<a class="ext"
-                                                          href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)
-                        <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>),
-                        <strong>Andy Matuschak</strong> (<a class="ext"
-                                                            href="http://sparkle.andymatuschak.org/">Sparkle</a>),
-                        <strong>wyDay</strong> (<a class="ext" href="http://code.google.com/p/wyupdate">wyUpdate</a>),
-                        <strong>Jeremy D. Miller</strong> (<a class="ext" href="http://structuremap.net/structuremap/">StructureMap</a>),
-                        <strong>Ayende Rahien</strong> (<a class="ext"
-                                                           href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino
-                            Mocks</a>).
-                    </small>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/growl.png" class="feature" width="16px" height="16px">
+                    <strong>Growl</strong><br>
+                    Support for <a class="ext" href="http://growl.info/">Growl</a> and the Notification Center in Mountain Lion.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/sync.png" class="feature" width="16px" height="16px">
+                    <strong>Synchronization</strong><br>
+                    Synchronize local with remote directories (and vice versa) and get a preview of affected files before
+                    any action is taken.</p></div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/ftp.png" class="headline">
+            Advanced SSH
+            features.
+            <small>No compromise accessing your <a href="https://trac.cyberduck.io/wiki/help/en/howto/sftp">SFTP</a> servers
+                with
+                all the bells and whistles.
+            </small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/protocol.png" class="feature" width="16px" height="16px"> <strong>Authentication
+                    and
+                    security</strong><br>
+                    Supports Public key authentication, Keyboard Interactive (PAM) Authentication and one-time passwords.
+                    Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication
+                    algorithms (MD5, SHA1). Optionally transfer files using Secure Copy (SCP).</p></div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/openssh.png" class="feature"
+                        width="16px" height="16px"><strong>Interoperability</strong><br>
+                    Read settings from your existing <a href="http://www.openssh.org/">OpenSSH</a> configuration options
+                    including Host aliases, public key authentication preferences and default login user.
+                    Integration with Terminal.app to open the current working directory in a shell.
+                    Works with <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> private keys.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/archive.png" class="feature" width="16px"
+                        height="16px"><strong>Archives</strong><br>
+                    Archive and expand TAR, ZIP files remotely over SSH.</p></div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/mac32.png" class="headline">
+            Integration with
+            system technologies.
+            <small>A native citizen of Mac OS X and Windows.</small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/keychain.png" class="feature" width="16px" height="16px">
+                    <strong>Keychain</strong><br>
+                    All passwords are stored in the system Keychain as Internet passwords available also to third party
+                    applications. Certificates are validated using the trust settings in the Keychain.</p>
+
+
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/finder.png" class="feature" width="16px" height="16px">
+                    <strong>Finder</strong><br>
+                    Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck
+                    bookmark files from the Finder.</p>
+
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/windows32.png" class="feature" width="16px" height="16px">
+                    <strong>Windows</strong><br>
+                    Reads your proxy configuration from network settings. Encrypts passwords limiting access to your
+                    account.
                 </p>
             </div>
         </div>
-    </div>
-</footer>
 
-<div class="container">
-    <a class="swissmade" href="http://www.swissmadesoftware.org"><img
-            width="122px" height="16px" src="//media.cyberduck.io/img/sms-logo-small-footer.png"
-            alt="swiss made software"/></a>
-</div>
-</body>
+
+        <h2 class="headline"><img height="32px" src="//media.cyberduck.io/img/osi.png" class="headline"> We are
+            open.
+            <small>Licensed under the <a
+                    href="http://www.gnu.org/licenses/gpl.html">GPL</a>.
+            </small>
+        </h2>
+
+        <p>Come in. You can follow the daily development activity, have a look at the roadmap and grab the source code on <a
+                href="https://trac.cyberduck.io">trac.cyberduck.io</a>. We contribute to other open source projects including
+            <a href="https://github.com/dkocher/java-openstack-swift">OpenStack Swift Client Java Bindings</a>,
+            <a href="https://code.google.com/p/rococoa/">Rococoa Objective-C Wrapper</a> and
+            <a href="https://code.google.com/p/ganymed-ssh-2/">Ganymed SSH-2</a>.</p>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/language.png" class="headline">
+            International.
+            <small>Speaks your language.</small>
+        </h2>
+
+        <p>English, čeština, Nederlands, Suomi, Français, Deutsch, Italiano, 日本語, 한국어, Norsk,
+            Slovenčina, Español, Português (do Brasil), Português (Europeu), 中文 (简体), 正體中文 (繁體), Русский, Svenska, Dansk,
+            Język Polski, Magyar, Bahasa Indonesia, Català, Cymraeg, ภาษาไทย, Türkçe, Ivrit, Latviešu Valoda, Ελληνικά,
+            Cрпски, ქართული ენა, Slovenščina, українська мова, Română &amp; Български език.</p>
+        </div>
+
+        <div class="container">
+            <h2>Follow Us!</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well">
+                        <p><strong>Newsletter.</strong> You can subscribe to the <a
+                                href="http://lists.cyberduck.io/mailman/listinfo/cyberduck-news">Cyberduck-news</a> mailing list
+                            to get a notification when a
+                            new version is released.</p>
+
+                        <form method="post" action="http://lists.cyberduck.io/mailman/subscribe/cyberduck-news"
+                              class="form-inline" role="form">
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email" placeholder="Email"/>
+                            </div>
+                            <button type="submit" class="btn btn-default" name="email-button">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="well">
+                        <p><strong>Google Group.</strong> Subscribe to the <a href="http://groups.google.com/group/cyberduck">users</a>
+                            group to discuss features and issues you are having.
+                        </p>
+
+                        <a href="http://groups.google.com/group/cyberduck"><img src="//media.cyberduck.io/img/groups.png"
+                                                                                height="30" width="140" alt="Google Groups"></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/cyberduckapp"
+                       data-chrome="nofooter " height="320px" width="100%"
+                       data-widget-id="390207087331901440">Tweets by @cyberduckapp</a>
+                    <script>!function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if(!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            <small>Copyright (c) 2002 – 2013 David V. Kocher. Copyright (c) 2011 – 2013 Yves Langisch. All
+                                rights reserved. <a href="https://iterate.ch">iterate GmbH</a>, Junkerngasse 12, 3011 Bern,
+                                Switzerland. This program
+                                is free software; you can redistribute it and/or modify it under the terms of the
+                                <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU
+                                    General Public License</a> as published by the
+                                Free Software Foundation; either version 2 of the License, or (at your option) any
+                                later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT
+                                    ANY WARRANTY; without even the implied
+                                    warranty of
+                                    MERCHANTABILITY or FITNESS FOR A
+                                    PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <small>This product includes software developed by
+                                <strong>Duncan McGregor et al.</strong> (<a class="ext"
+                                                                            href="http://code.google.com/p/rococoa/">Rococoa</a>),
+                                <strong>Timothy Wall et al.</strong> (<a class="ext" href="https://github.com/twall/jna">JNA</a>),
+                                <strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
+                                <strong>Christian Plattner et al.</strong> (<a class="ext"
+                                                                               href="http://code.google.com/p/ganymed-ssh-2">Ganymed</a>),
+                                <strong>Oleg Kalnichevski et al.</strong> (<a class="ext" href="http://hc.apache.org/">Apache
+                                    HTTP Components</a>),
+                                <strong>Jon Stevens</strong> (<a class="ext" href="http://code.google.com/p/sardine">Sardine</a>),
+                                <strong>James Murty</strong> (<a class="ext" href="http://jets3t.s3.amazonaws.com/index.html">jetS3t</a>),
+                                <strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">Growl</a>),
+                                <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter</a>),
+                                <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
+                                <strong>Brian Amerige</strong> (<a class="ext" href="http://extendmac.com/EMKeychain/">EMKeychain</a>),
+                                <strong>Steve McLeod</strong> (<a class="ext"
+                                                                  href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)
+                                <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>),
+                                <strong>Andy Matuschak</strong> (<a class="ext"
+                                                                    href="http://sparkle.andymatuschak.org/">Sparkle</a>),
+                                <strong>wyDay</strong> (<a class="ext" href="http://code.google.com/p/wyupdate">wyUpdate</a>),
+                                <strong>Jeremy D. Miller</strong> (<a class="ext" href="http://structuremap.net/structuremap/">StructureMap</a>),
+                                <strong>Ayende Rahien</strong> (<a class="ext"
+                                                                   href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino
+                                    Mocks</a>).
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="container">
+            <a class="swissmade" href="http://www.swissmadesoftware.org"><img
+                    width="122px" height="16px" src="//media.cyberduck.io/img/sms-logo-small-footer.png"
+                    alt="swiss made software"/></a>
+        </div>
+    </body>
 </html>
