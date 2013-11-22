@@ -146,6 +146,7 @@ h2.report-result {
 
 /*timeline.css overwrites*/
 dt :link:hover, dt :visited:hover {
+	background-color: #d9edf7;
 }
 
 /*search.css overwrites*/

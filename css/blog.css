@@ -1,6 +1,13 @@
 article header .entry-meta {
     font-size: 90%;
-    
+}
+
+article footer {
+    font-size: 90%;
+}
+
+.comment-list {
+    font-family: monospace;
 }
 
 article .tw_button {
