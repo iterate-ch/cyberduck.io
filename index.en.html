@@ -310,7 +310,11 @@
                     open cloud
                     software standards.</strong><br>Works with thirdparty providers using either the <a
                         href="https://trac.cyberduck.io/wiki/help/en/howto/s3">S3</a> or <a
-                        href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">Openstack Swift</a> APIs.</p></div>
+                        href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">Openstack Swift</a> APIs. You can find
+                connection profiles for <a href="https://trac.cyberduck.io/wiki/help/en/howto/hpcloud">HP Cloud Object Storage</a>,
+                <a href="https://trac.cyberduck.io/wiki/help/en/howto/internap">Internap</a> and
+                    many <a href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">others</a>.</p>
+            </div>
             <div class="col-md-6">
                 <p><img src="//media.cyberduck.io/img/bandwidth.png" class="feature" width="16px" height="16px"> <strong>Fast
                     FTP
@@ -393,10 +397,27 @@
                     temporary access.</p>
             </div>
             <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px"> <strong>Multi-Object Delete</strong><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Bucket Lifecycle Configuration</strong><br>
+                Configure S3 to archive objects in Glacier.
+                </p>
+            </div>
+            <div class="col-md-4">
                 <p><img src="//media.cyberduck.io/img/info.png" class="feature" width="16px" height="16px">
                     <strong>Metadata</strong><br>
                     You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and control
                     cache expire settings. Batch editing included.</p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Multipart Uploads</strong><br>
+                    Resumable large uploads.
+                </p>
             </div>
         </div>
 
@@ -480,8 +501,52 @@
         </div>
 
         <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/ftp.png" class="headline">
-            Advanced SSH
-            features.
+            WebDAV Interoperability.
+            <small>Best interoperability with services implementing <a href="https://trac.cyberduck.io/wiki/help/en/howto/dav">WebDAV</a>.
+            </small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>TLS 1.2</strong><br>
+                Support for strong ECDHE ciphersuites.
+                </p>
+            </div>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/swift.png" class="headline">
+            OpenStack Swift.
+            <small>The best client to connect to many new <a href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">OpenStack Swift</a> deployments.
+            </small>
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Large object uploads</strong><br>
+                    Resumable dynamic segmented part uploads for files larger than 5GB.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Temporary URLs</strong><br>
+                    Generate temporary signed URLs for time limited access to resources and copy CDN URLs for objects in a private container.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p><img src="//media.cyberduck.io/img/advanced.png" class="feature" width="16px" height="16px">
+                    <strong>Keystone (2.0) authentication</strong><br>
+                    All major authentication methods of OpenStack Identity Service with username, password, access keys and tenants are supported.
+                    Multiple Region support listing containers from all available regions.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/ftp.png" class="headline">
+            Advanced SSH features.
             <small>No compromise accessing your <a href="https://trac.cyberduck.io/wiki/help/en/howto/sftp">SFTP</a> servers
                 with
                 all the bells and whistles.
@@ -494,7 +559,9 @@
                     security</strong><br>
                     Supports Public key authentication, Keyboard Interactive (PAM) Authentication and one-time passwords.
                     Support for various encryption ciphers (3DES, Blowfish, Twofish, AES, CAST) and Authentication
-                    algorithms (MD5, SHA1). Optionally transfer files using Secure Copy (SCP).</p></div>
+                    algorithms (MD5, SHA1). Two-factor authentication with
+                    <a href="https://code.google.com/p/google-authenticator/">Google Authenticator</a> or
+                    other one-time passcode generators.</p></div>
             <div class="col-md-4">
                 <p><img src="//media.cyberduck.io/img/openssh.png" class="feature"
                         width="16px" height="16px"><strong>Interoperability</strong><br>
@@ -512,7 +579,7 @@
         <h2 class="headline"><img width="32px" height="32px" src="//media.cyberduck.io/img/mac32.png" class="headline">
             Integration with
             system technologies.
-            <small>A native citizen of Mac OS X and Windows.</small>
+            <small>A native citizen of Mac OS X and Windows. Notification center, Gatekeeper and Retina resolution.</small>
         </h2>
         <div class="row">
             <div class="col-md-4">
