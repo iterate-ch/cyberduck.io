@@ -4,8 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Libre FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows">
-    <meta name="author" content="David Kocher">
 
     <title>Changelog</title>
 
@@ -82,6 +80,49 @@
 <table class="table table-responsive table-striped">
 <tr>
     <td>
+        <p><strong><a href="https://trac.cyberduck.io/milestone/4.4.4">4.4.4</a> (14488)</strong>
+            <em>Apr-16-2014</em><br/>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.4.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.4.zip']);">Download
+                (Mac)</a>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.4.exe"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.4.exe']);">Download
+                (Windows)</a></p>
+    </td>
+
+    <td>
+        <ul>
+            <li>[Feature] Default region selected in create folder panel (Openstack Swift) (<a
+                    href="https://trac.cyberduck.io/ticket/7678">#7678</a>)
+            </li>
+            <li>[Feature] Two-factor authentication (SFTP, Google Authenticator) (<a
+                    href="https://trac.cyberduck.io/ticket/7573">#7573</a>)</li>
+            <li>[Bugfix] File segments not deleted when a large object is overwritten or manifest is deleted (Openstack
+                Swift) (<a
+                        href="https://trac.cyberduck.io/ticket/7682">#7682</a>, <a
+                        href="https://trac.cyberduck.io/ticket/7679">#7679</a>)
+            </li>
+            <li>[Bugfix] Re-authentication failure (Openstack Swift) (<a
+                    href="https://trac.cyberduck.io/ticket/7608">#7608</a>)
+            </li>
+            <li>[Bugfix] Downloading dynamic large object fails (Openstack Swift) (<a
+                    href="https://trac.cyberduck.io/ticket/7693">#7693</a>)
+            </li>
+            <li>[Bugfix] Cannot update ACL with anonymous grant (S3) (<a
+                    href="https://trac.cyberduck.io/ticket/7726">#7726</a>)
+            </li>
+            <li>[Bugfix] Could not generate DH keypair (FTP-TLS, Windows) (<a
+                    href="https://trac.cyberduck.io/ticket/7738">#7738</a>)
+            </li>
+            <li>[Bugfix] ACL not maintained when replacing files (S3) (<a
+                    href="https://trac.cyberduck.io/ticket/7756">#7756</a>)
+            </li>
+            <li>[Bugfix] UNIX permissions not maintained when replacing files (SFTP)</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td>
         <p><strong><a href="https://trac.cyberduck.io/milestone/4.4.3">4.4.3</a> (14140)</strong>
             <em>Nov-28-2013</em><br/>
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.3.zip"
@@ -139,6 +180,9 @@
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.1.zip"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.1.zip']);">Download
                 (Mac)</a>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.1u.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.1u.zip']);">Download
+                (Mac Universal)</a>
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.1.exe"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.1.exe']);">Download
                 (Windows)</a></p>
@@ -156,7 +200,8 @@
             </li>
             <li>[Bugfix] Sandboxing denies access to SSH keys (Mac) (<a href="https://trac.cyberduck.io/ticket/7208">#7208</a>)
             </li>
-            <li>[Bugfix] Partial authentication failure (SFTP) (<a href="https://trac.cyberduck.io/ticket/7536">#7536</a>)
+            <li>[Bugfix] Partial authentication failure (SFTP) (<a
+                    href="https://trac.cyberduck.io/ticket/7536">#7536</a>)
             </li>
             <li>[Bugfix] Interoperability with WinSSHD (SFTP) (<a href="https://trac.cyberduck.io/ticket/7522">#7522</a>)
             </li>
@@ -183,6 +228,9 @@
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.zip"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.zip']);">Download
                 (Mac)</a>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4u.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4u.zip']);">Download
+                (Mac Universal)</a>
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.exe"
                onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.exe']);">Download
                 (Windows)</a></p>
@@ -209,7 +257,8 @@
             <li>[Feature] Edit non prefixed headers (OpenStack) (<a
                     href="https://trac.cyberduck.io/ticket/7209">#7209</a>)
             </li>
-            <li>[Feature] Support ECHDE cipher suites (WebDAV) (<a href="https://trac.cyberduck.io/ticket/7344">#7344</a>)
+            <li>[Feature] Support ECHDE cipher suites (WebDAV) (<a
+                    href="https://trac.cyberduck.io/ticket/7344">#7344</a>)
             </li>
             <li>[Feature] Select region when creating new container (S3, OpenStack)</li>
             <li>[Feature] Confirmation alert on move and rename in browser (<a
@@ -235,7 +284,8 @@
             <li>[Bugfix] Quick Look does not display preview (Mac) (<a
                     href="https://trac.cyberduck.io/ticket/7231">#7231</a>)
             </li>
-            <li>[Bugfix] Failure duplicating files (FTP) (<a href="https://trac.cyberduck.io/ticket/7224">#7224</a>)</li>
+            <li>[Bugfix] Failure duplicating files (FTP) (<a href="https://trac.cyberduck.io/ticket/7224">#7224</a>)
+            </li>
             <li>[Bugfix] Save workspace does not work for multiple browser sessions to the same server (<a
                     href="https://trac.cyberduck.io/ticket/7213">#7213</a>)
             </li>
@@ -937,7 +987,8 @@
     <td>
         <ul>
             <li>[Feature] Connecting to Google Storage (Google Storage)</li>
-            <li>[Feature] Edit Access Control List (ACL) (<a href="https://trac.cyberduck.io/ticket/3191">#3191</a>) (S3,
+            <li>[Feature] Edit Access Control List (ACL) (<a href="https://trac.cyberduck.io/ticket/3191">#3191</a>)
+                (S3,
                 Google
                 Storage, Google Docs)
             </li>
@@ -954,7 +1005,8 @@
             <li>[Feature] Import bookmarks from thirdparty applications (Filezilla, Fetch, Interarchy, Flow) (<a
                     href="https://trac.cyberduck.io/ticket/3373">#3373</a>)
             </li>
-            <li>[Feature] Copy directory listing to clipboard (<a href="https://trac.cyberduck.io/ticket/2372">#2372)</a>
+            <li>[Feature] Copy directory listing to clipboard (<a
+                    href="https://trac.cyberduck.io/ticket/2372">#2372)</a>
             </li>
             <li>[Feature] Support for thirdparty terminal applications (<a
                     href="https://trac.cyberduck.io/ticket/2987">#2987</a>)
@@ -982,7 +1034,8 @@
             <li>[Feature] Show number of active transfers in Dock (<a
                     href="https://trac.cyberduck.io/ticket/3808">#3808)</a>)
             </li>
-            <li>[Feature] Copy directory listing to clipboard (<a href="https://trac.cyberduck.io/ticket/2372">#2372)</a>)
+            <li>[Feature] Copy directory listing to clipboard (<a
+                    href="https://trac.cyberduck.io/ticket/2372">#2372)</a>)
             </li>
             <li>[Bugfix] Improved interoperability with Eucalyptus Walrus (S3)</li>
             <li>[Bugfix] Improved interoperability with Dunkel Cloud Storage (S3)</li>
@@ -1098,7 +1151,8 @@
             <li>[Feature] Allow arbitrary input for bandwidth throttle (<a
                     href="https://trac.cyberduck.io/ticket/1746">#1746</a>)
             </li>
-            <li>[Feature] Read hostname alias from ~/.ssh/config (SFTP) (<a href="https://trac.cyberduck.io/ticket/3819">#3819</a>)
+            <li>[Feature] Read hostname alias from ~/.ssh/config (SFTP) (<a
+                    href="https://trac.cyberduck.io/ticket/3819">#3819</a>)
             </li>
             <li>[Feature] Allow page setup configuration for browser view print (<a
                     href="https://trac.cyberduck.io/ticket/4139">#4139</a>)
@@ -1174,7 +1228,8 @@
             <li>[Bugfix] Synchronisation does not transfer files with equal size (<a
                     href="https://trac.cyberduck.io/ticket/3100">#3100</a>)
             </li>
-            <li>[Bugfix] Selection in synchronize prompt (<a href="https://trac.cyberduck.io/ticket/3901">#3901</a>)</li>
+            <li>[Bugfix] Selection in synchronize prompt (<a href="https://trac.cyberduck.io/ticket/3901">#3901</a>)
+            </li>
             <li>[Bugfix] Bonjour bookmarks ignore TXT record with path and credentials attributes (<a
                     href="https://trac.cyberduck.io/ticket/3901">#3984</a>)
             </li>
@@ -1183,7 +1238,8 @@
             <li>[Bugfix] Error when uploading file with different display name from real filename (<a
                     href="https://trac.cyberduck.io/ticket/4041">#4041</a>)
             </li>
-            <li>[Bugfix] Quick Connect needs extra keystroke to connect (<a href="https://trac.cyberduck.io/ticket/3801">#3801</a>)
+            <li>[Bugfix] Quick Connect needs extra keystroke to connect (<a
+                    href="https://trac.cyberduck.io/ticket/3801">#3801</a>)
             </li>
             <li>[Bugfix] Password in non-default keychain are copied to login keychain (<a
                     href="https://trac.cyberduck.io/ticket/2878">#2878</a>)
@@ -1365,7 +1421,7 @@
 
             <li>[Feature] IPv6 Interoperability with support for EPSV and EPRT commands (FTP) (<a
                     href="https://trac.cyberduck.io/ticket/2539">#2539</a>, <a href=
-                                                                                      "https://trac.cyberduck.io/ticket/2539">#2885</a>)
+                                                                                       "https://trac.cyberduck.io/ticket/2539">#2885</a>)
             </li>
 
             <li>[Feature] UTF8 charset negogiation (<a
@@ -1389,14 +1445,17 @@
 
             <li>[Feature] Display date of transfer (<a href="https://trac.cyberduck.io/ticket/1462">#1462</a>)</li>
 
-            <li>[Feature] Display percentage transferred (<a href="https://trac.cyberduck.io/ticket/2618">#2618</a>)</li>
+            <li>[Feature] Display percentage transferred (<a href="https://trac.cyberduck.io/ticket/2618">#2618</a>)
+            </li>
 
             <li>[Feature] Option for big sized icons in bookmark list</li>
 
-            <li>[Feature] Drag URL to browser window to open connection (<a href="https://trac.cyberduck.io/ticket/2326">#2326</a>)
+            <li>[Feature] Drag URL to browser window to open connection (<a
+                    href="https://trac.cyberduck.io/ticket/2326">#2326</a>)
             </li>
 
-            <li>[Feature] Display realm of HTTP authentication (WebDAV) (<a href="https://trac.cyberduck.io/ticket/3083">#3083</a>)
+            <li>[Feature] Display realm of HTTP authentication (WebDAV) (<a
+                    href="https://trac.cyberduck.io/ticket/3083">#3083</a>)
             </li>
 
             <li>[Bugfix] Update passwords in Keychain (<a href="https://trac.cyberduck.io/ticket/2984">#2984</a>)</li>
@@ -1409,9 +1468,10 @@
                     href="https://trac.cyberduck.io/ticket/3068">#3068</a>)
             </li>
 
-            <li>[Bugfix] Improve Interoperability (WebDAV) (<a href="https://trac.cyberduck.io/ticket/2974">#2974</a>, <a
-                    href=
-                            "https://trac.cyberduck.io/ticket/3076">#3076</a>)
+            <li>[Bugfix] Improve Interoperability (WebDAV) (<a href="https://trac.cyberduck.io/ticket/2974">#2974</a>,
+                <a
+                        href=
+                                "https://trac.cyberduck.io/ticket/3076">#3076</a>)
             </li>
 
             <li>[Bugfix] Different recursive permissions for directory and files (<a
@@ -1468,7 +1528,8 @@
                     href="https://trac.cyberduck.io/ticket/2852">#2852</a>)
             </li>
 
-            <li>[Bugfix] Upload incompatibility (WebDAV) (<a href="https://trac.cyberduck.io/ticket/2858">#2858</a>)</li>
+            <li>[Bugfix] Upload incompatibility (WebDAV) (<a href="https://trac.cyberduck.io/ticket/2858">#2858</a>)
+            </li>
         </ul>
     </td>
 </tr>
@@ -1523,7 +1584,8 @@
                     href="https://trac.cyberduck.io/ticket/2268">#2268</a>)
             </li>
 
-            <li>[Bugfix] Microsoft SharePoint interoperability (WebDAV) (<a href="https://trac.cyberduck.io/ticket/2223">#2223</a>)
+            <li>[Bugfix] Microsoft SharePoint interoperability (WebDAV) (<a
+                    href="https://trac.cyberduck.io/ticket/2223">#2223</a>)
             </li>
 
             <li>[Bugfix] Manually sorting bookmarks using drag and drop works for the entire row (<a
@@ -1657,7 +1719,7 @@
 
             <li>[Bugfix] External editor failures (<a href="https://trac.cyberduck.io/ticket/2041">#2041</a>, <a
                     href="https://trac.cyberduck.io/ticket/2039">#2039</a>, <a href=
-                                                                                      "https://trac.cyberduck.io/ticket/2052">#2052</a>,
+                                                                                       "https://trac.cyberduck.io/ticket/2052">#2052</a>,
                 <a href="https://trac.cyberduck.io/ticket/2058">#2058</a>)
             </li>
 
@@ -1684,7 +1746,8 @@
 
             <li>[Feature] Support for copying files (WebDAV)</li>
 
-            <li>[Bugfix] Transfers larger than 2GB fail (SFTP) (<a href="https://trac.cyberduck.io/ticket/1235">#1235</a>)
+            <li>[Bugfix] Transfers larger than 2GB fail (SFTP) (<a
+                    href="https://trac.cyberduck.io/ticket/1235">#1235</a>)
             </li>
         </ul>
     </td>
@@ -1800,7 +1863,8 @@
 
     <td>
         <ul>
-            <li>[Bugfix] Crash when dismissing sheet attached to window (<a href="https://trac.cyberduck.io/ticket/1616">#1616</a>)
+            <li>[Bugfix] Crash when dismissing sheet attached to window (<a
+                    href="https://trac.cyberduck.io/ticket/1616">#1616</a>)
             </li>
 
             <li>[Bugfix] Resolving Bonjour names blocks user interface (<a href="https://trac.cyberduck.io/ticket/1657">#1657</a>)
@@ -1840,7 +1904,8 @@
                             "https://trac.cyberduck.io/ticket/1322">#1322</a>)
             </li>
 
-            <li>[Feature] Custom icon for executable files (<a href="https://trac.cyberduck.io/ticket/945">#945</a>)</li>
+            <li>[Feature] Custom icon for executable files (<a href="https://trac.cyberduck.io/ticket/945">#945</a>)
+            </li>
 
             <li>[Bugfix] Frequent crashes (<a href="https://trac.cyberduck.io/ticket/1401">#1401</a>, <a
                     href="https://trac.cyberduck.io/ticket/1409">#1409</a>)
@@ -2027,7 +2092,7 @@
         <ul>
             <li>[Bugfix] Problem parsing PASV response from some servers (FTP) <a
                     href="https://trac.cyberduck.io/ticket/779">#779</a>, <a href=
-                                                                                    "https://trac.cyberduck.io/ticket/86">#869</a>)
+                                                                                     "https://trac.cyberduck.io/ticket/86">#869</a>)
             </li>
 
             <li>[Bugfix] Stalls when connection is interrupted during DNS lookup <a
@@ -2204,9 +2269,9 @@
 
             <li>[Feature] Improvements to the AppleScript dictionary (<a
                     href="https://trac.cyberduck.io/ticket/737">#737</a>), (<a href=
-                                                                                      "https://trac.cyberduck.io/ticket/918">#918</a>),
+                                                                                       "https://trac.cyberduck.io/ticket/918">#918</a>),
                 (<a href="https://trac.cyberduck.io/ticket/878">#878</a>), (<a href=
-                                                                                      "https://trac.cyberduck.io/ticket/922">#922</a>)
+                                                                                       "https://trac.cyberduck.io/ticket/922">#922</a>)
             </li>
 
             <li>[Feature] When duplicating files, propose a filename containing the current date and time (<a
@@ -2281,7 +2346,7 @@
 
             <li>[Bugfix] Hostname reachability check slow and blocking user interface (<a
                     href="https://trac.cyberduck.io/ticket/572">#572</a>, <a href=
-                                                                                    "https://trac.cyberduck.io/ticket/575">#575</a>)
+                                                                                     "https://trac.cyberduck.io/ticket/575">#575</a>)
             </li>
 
             <li>[Bugfix] Fails to delete folders recursively in some cases (<a
@@ -2359,12 +2424,13 @@
 
             <li>[Bugfix] Character encoding issues (<a href="https://trac.cyberduck.io/ticket/238">#238</a>, <a
                     href="https://trac.cyberduck.io/ticket/333">#333</a>, <a href=
-                                                                                    "https://trac.cyberduck.io/ticket/361">#361</a>,
+                                                                                     "https://trac.cyberduck.io/ticket/361">#361</a>,
                 <a href="https://trac.cyberduck.io/ticket/390">#390</a>)
             </li>
 
             <li>[Bugfix] Improved compatibility with certain FTP servers</li>
-            <li>[Bugfix] Cannot upload files to drop boxes (<a href="https://trac.cyberduck.io/ticket/421">#421</a>)</li>
+            <li>[Bugfix] Cannot upload files to drop boxes (<a href="https://trac.cyberduck.io/ticket/421">#421</a>)
+            </li>
         </ul>
     </td>
 </tr>
@@ -2421,7 +2487,7 @@
 
             <li>[Bugfix] Random crashes (<a href="https://trac.cyberduck.io/ticket/65">#65</a>, <a
                     href="https://trac.cyberduck.io/ticket/94">#94</a>, <a href=
-                                                                                  "https://trac.cyberduck.io/ticket/96">#96</a>,
+                                                                                   "https://trac.cyberduck.io/ticket/96">#96</a>,
                 <a href="https://trac.cyberduck.io/ticket/121">#121</a>, <a href="https://trac.cyberduck.io/ticket/122">#122</a>)
             </li>
 
