@@ -80,6 +80,45 @@
 <table class="table table-responsive table-striped">
 <tr>
     <td>
+        <p><strong><a href="https://trac.cyberduck.io/milestone/4.4.5">4.4.5</a> (14721)</strong>
+            <em>Apr-24-2014</em><br/>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.5.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.5.zip']);">Download
+                (Mac)</a>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.5u.zip"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.4.5u.zip']);">Download
+                (Mac Universal)</a>
+            <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.4.5.exe"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.4.5.exe']);">Download
+                (Windows)</a></p>
+    </td>
+
+    <td>
+        <ul>
+            <li>[Bugfix] Failure copying folders from server to server (<a
+                    href="https://trac.cyberduck.io/ticket/7946">#7946</a>)
+            </li>
+            <li>[Bugfix] Sort order of bookmarks not remembered (<a
+                    href="https://trac.cyberduck.io/ticket/7959">#7959</a>#7959)
+            </li>
+            <li>[Bugfix] Duplicate files in synchronization prompt (<a
+                    href="https://trac.cyberduck.io/ticket/7645">#7645</a>#7645)
+            </li>
+            <li>[Bugfix] 404 error response when downloading folders (S3) (<a
+                    href="https://trac.cyberduck.io/ticket/7971">#7971</a>#7971)
+            </li>
+            <li>[Bugfix] Null pointer downloading symbolic link with non existent target (SFTP) (<a
+                    href="https://trac.cyberduck.io/ticket/7974">#7974</a>#7974)
+            </li>
+            <li>[Bugfix] Only single login attempt possible (WebDAV) (<a
+                    href="https://trac.cyberduck.io/ticket/7940">#7940</a>#7940)
+            </li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>
         <p><strong><a href="https://trac.cyberduck.io/milestone/4.4.4">4.4.4</a> (14505)</strong>
             <em>Apr-24-2014</em><br/>
             <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.4.4.zip"
@@ -101,11 +140,15 @@
             <li>[Feature] Two-factor authentication (SFTP, Google Authenticator) (<a
                     href="https://trac.cyberduck.io/ticket/7573">#7573</a>)
             </li>
-			<li>[Bugfix] Support TLS 1.1 and TLS 1.2 (Windows) (<a
-                        href="https://trac.cyberduck.io/ticket/7637">#7637</a>)</li>
-			<li>[Bugfix] Failure validating some certificates with untrusted root certificate authority (SYSS-2014-004) (Windows)</li>
-			<li>[Bugfix] Could not generate DH keypair (FTP-TLS, Windows) (<a
-                        href="https://trac.cyberduck.io/ticket/7738">#7738</a>)</li>
+            <li>[Bugfix] Support TLS 1.1 and TLS 1.2 (Windows) (<a
+                    href="https://trac.cyberduck.io/ticket/7637">#7637</a>)
+            </li>
+            <li>[Bugfix] Failure validating some certificates with untrusted root certificate authority (SYSS-2014-004)
+                (Windows)
+            </li>
+            <li>[Bugfix] Could not generate DH keypair (FTP-TLS, Windows) (<a
+                    href="https://trac.cyberduck.io/ticket/7738">#7738</a>)
+            </li>
             <li>[Bugfix] File segments not deleted when a large object is overwritten or manifest is deleted (Openstack
                 Swift) (<a
                         href="https://trac.cyberduck.io/ticket/7682">#7682</a>, <a
