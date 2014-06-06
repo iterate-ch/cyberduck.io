@@ -77,6 +77,27 @@
 </header>
 
 <div class="container">
+	            <ul id="lang">
+	                <li>
+	                    <small><a href="?l=en">English</a></small>
+	                </li>
+	                <li>
+	                    <small><a href="?l=ja">日本語</a></small>
+	                </li>
+		            <li>
+		                <small><a href="?l=de">Deutsch</a></small>
+		            </li>
+	            </ul>
+	            <script charset="utf-8" type="text/javascript">
+	                //<![CDATA[
+	                $(document).ready(function () {
+	                    $("#lang a").click(function () {
+	                        var l = this.href.match(/\?l=(\w{2})$/);
+	                        document.cookie = "language=" + l[1] + ";path=/;domain=.cyberduck.io";
+	                    });
+	                });
+	                //]]>
+	            </script>
 <h2>
     Cyberduck ist <a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">freie Software</a>, aber die Entwicklung, der Support und der Vetrieb kostet trotzdem Geld.
     <small>
@@ -207,7 +228,7 @@
                 <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
                        data-encrypted-name="amount"
                        placeholder="€" min="5.00" max="1000.00" step="any"
-                       value="20.00" required="true"/>
+                       value="30.00" required="true"/>
 
                 <p class="help-block"></p>
             </div>

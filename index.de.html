@@ -51,6 +51,27 @@
                 </div>
             </div>
             <div class="container">
+	            <ul id="lang">
+	                <li>
+	                    <small><a href="?l=en">English</a></small>
+	                </li>
+	                <li>
+	                    <small><a href="?l=ja">日本語</a></small>
+	                </li>
+		            <li>
+		                <small><a href="?l=de">Deutsch</a></small>
+		            </li>
+	            </ul>
+	            <script charset="utf-8" type="text/javascript">
+	                //<![CDATA[
+	                $(document).ready(function () {
+	                    $("#lang a").click(function () {
+	                        var l = this.href.match(/\?l=(\w{2})$/);
+	                        document.cookie = "language=" + l[1] + ";path=/;domain=.cyberduck.io";
+	                    });
+	                });
+	                //]]>
+	            </script>
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -272,29 +293,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <ul id="lang">
-                <li>
-                    <small><a href="?l=en">English</a></small>
-                </li>
-                <li>
-                    <small><a href="?l=ja">日本語</a></small>
-                </li>
-	            <li>
-	                <small><a href="?l=de">Deutsch</a></small>
-	            </li>
-            </ul>
-            <script charset="utf-8" type="text/javascript">
-                //<![CDATA[
-                $(document).ready(function () {
-                    $("#lang a").click(function () {
-                        var l = this.href.match(/\?l=(\w{2})$/);
-                        document.cookie = "language=" + l[1] + ";path=/;domain=.cyberduck.io";
-                    });
-                });
-                //]]>
-            </script>
         </div>
         <div class="container">
         <h2 class="headline">
