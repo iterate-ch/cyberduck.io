@@ -325,6 +325,12 @@
     var braintree = Braintree.create("MIIBCgKCAQEAtnl/Jd3OZNsc3w6E4bCc1bLUFa120966tPjnPKJQTnvmt52do1gdgWYdZ7auNTXOHtyjoLRKMZZheLKrBRjhD3DQ7cz59HspIXMedkvI7MSqhRXROL1VkUrRaRDMNDJVW1N4Wxu/lRIj8QBx955Y5rhk+gDJedJD+o1HKDapuxIrOwTHJJDPLOj7sCDP91KLFXa/QFVp4UVyzLQD12kVCB5n/ccu5Mcvz5lNdZPhorwzmzS7q/dQ/8fNNNXUVxrXy61hT9tBihWdjZ2VVRSPGxOmf4bTwafmnFJMy552Z9g9BFEiXYrqkhVQ9Rtn9SQbwbBWCe8wLDPVosxQp+jC0QIDAQAB");
     braintree.onSubmitEncryptForm('payment');
 </script>
+<script>
+    window.onBraintreeDataLoad = function() {
+        BraintreeData.setup("5vjjtyvq95ftbckq", 'payment', BraintreeData.environments.production);
+    };
+</script>
+<script src="https://js.braintreegateway.com/v1/braintree-data.js" async=true></script>
 </div>
 <div class="col-sm-4">
     <h3>Paypal
