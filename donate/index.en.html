@@ -147,7 +147,9 @@
                 <img id="amex" src="//media.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
                 <input id="creditcard" type="text" required="true"
                        placeholder="Credit Card Number"
-                       class="form-control input-sm" size="20" data-encrypted-name="number"/>
+                       class="form-control input-sm" size="20"
+                       data-encrypted-name="number"
+                       data-stripe="number"/>
 
                 <p class="help-block"></p>
             </div>
@@ -156,7 +158,9 @@
                 <input id="cvv" type="text" required="true"
                        maxlength="4"
                        placeholder="Card Security Code"
-                       class="form-control input-sm" size="4" data-encrypted-name="cvv"/>
+                       class="form-control input-sm" size="4"
+                       data-encrypted-name="cvv"
+                       data-stripe="cvc"/>
 
                 <p class="help-block"></p>
             </div>
@@ -166,7 +170,8 @@
                 <label for="month">Expiration Month</label>
                 <select id="month" required="required"
                         class="form-control input-sm"
-                        data-encrypted-name="month">
+                        data-encrypted-name="month"
+                        data-stripe="exp-month">
                     <option>01</option>
                     <option>02</option>
                     <option>03</option>
@@ -186,8 +191,8 @@
             <div class="col-xs-6">
                 <label for="year">Expiration Year</label>
                 <select id="year" type="text" class="form-control input-sm"
-                        data-encrypted-name="year">
-                    <option>2013</option>
+                        data-encrypted-name="year"
+                        data-stripe="exp-year">
                     <option>2014</option>
                     <option>2015</option>
                     <option>2016</option>
@@ -219,9 +224,10 @@
             <div class="col-xs-2">
                 <label for="currency">Currency</label>
                 <select id="currency" type="text" class="form-control input-sm"
-                        data-encrypted-name="merchant">
-                    <option label="€" value="cyberduckEUR">€</option>
-                    <option label="$" value="cyberduckUSD">$</option>
+                        data-encrypted-name="merchant"
+                        name="currency">
+                    <option label="€" value="EUR">€</option>
+                    <option label="$" value="USD">$</option>
                 </select>
 
                 <p class="help-block"></p>
@@ -243,6 +249,8 @@
                 <label for="name">Name</label>
                 <input id="name" type="text" class="form-control input-sm"
                        data-encrypted-name="name"
+                       data-stripe="name"
+                       name="name"
                        placeholder="Your Name" required="true"/>
 
                 <p class="help-block">
@@ -255,6 +263,7 @@
                 <label for="email">Email</label>
                 <input id="email" type="email" class="form-control input-sm"
                        data-encrypted-name="email"
+                       name="email"
                        placeholder="Your Email Address" required="true"/>
 
                 <p class="help-block">
@@ -262,11 +271,13 @@
                 </p>
             </div>
         </div>
-        <input id="platform" type="hidden" data-encrypted-name="platform"/>
+        <input id="platform" type="hidden"
+               data-encrypted-name="platform"
+               name="platform"/>
     </fieldset>
     <fieldset id="payment-submit">
         <div class="form-group">
-            <button type="submit" class="btn btn-default btn-sm" id="submit">Process Payment</button>
+            <button type="submit" class="btn btn-default btn-sm" id="button-submit">Process Payment</button>
         </div>
     </fieldset>
     <script charset="utf-8" type="text/javascript">
@@ -275,13 +286,39 @@
             var result = $("#payment-result");
             var options = {
                 clearForm: false,
-                beforeSubmit: function (arr, $form, options) {
+                beforeSubmit: function (arr, form, options) {
                     result.removeClass("alert-danger");
                     result.addClass("alert-info");
                     result.text("Processing…");
                     $("#payment-creditcard").attr("disabled", "disabled");
                     $("#payment-submit").attr("disabled", "disabled");
                     $("#payment-key").attr("disabled", "disabled");
+                    if($("form#payment input#token").length) {
+                        return true;
+                    }
+                    Stripe.card.createToken(form,
+                            function(status, response) {
+                                  var form = $("form#payment");
+                                  if (response.error) {
+                                        // Show the errors on the form
+                                        result.removeClass("alert-info");
+                                        result.addClass("alert-danger");
+                                        result.text(response.error.message);
+                                        $("#payment-creditcard").removeAttr("disabled");
+                                        $("#payment-submit").removeAttr("disabled");
+                                        $("#payment-key").removeAttr("disabled");
+                                  } else {
+                                        // token contains id, last4, and card type
+                                        var token = response.id;
+
+                                        // Insert the token into the form so it gets submitted to the server
+                                        form.append($("<input id='token' type='hidden' name='stripeToken' />").val(token));
+                                        form.submit();
+                                  }
+                            }
+                    );
+                    // Return false to cancel submit
+                    return false;
                 },
                 success: function (response, status) {
                     result.addClass("alert-info");
@@ -323,17 +360,10 @@
     </script>
 </form>
 <p id="payment-result" class="alert"></p>
-<script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript">
-    var braintree = Braintree.create("MIIBCgKCAQEAtnl/Jd3OZNsc3w6E4bCc1bLUFa120966tPjnPKJQTnvmt52do1gdgWYdZ7auNTXOHtyjoLRKMZZheLKrBRjhD3DQ7cz59HspIXMedkvI7MSqhRXROL1VkUrRaRDMNDJVW1N4Wxu/lRIj8QBx955Y5rhk+gDJedJD+o1HKDapuxIrOwTHJJDPLOj7sCDP91KLFXa/QFVp4UVyzLQD12kVCB5n/ccu5Mcvz5lNdZPhorwzmzS7q/dQ/8fNNNXUVxrXy61hT9tBihWdjZ2VVRSPGxOmf4bTwafmnFJMy552Z9g9BFEiXYrqkhVQ9Rtn9SQbwbBWCe8wLDPVosxQp+jC0QIDAQAB");
-    braintree.onSubmitEncryptForm('payment');
+      Stripe.setPublishableKey("pk_live_jmCwYBkVJsQE4hU5cr94yLfj");
 </script>
-<script>
-    window.onBraintreeDataLoad = function() {
-        BraintreeData.setup("5vjjtyvq95ftbckq", 'payment', BraintreeData.environments.production);
-    };
-</script>
-<script src="https://js.braintreegateway.com/v1/braintree-data.js" async=true></script>
 </div>
 <div class="col-sm-4">
     <h3>Paypal
@@ -426,7 +456,7 @@
                 //<![CDATA[
                 $(document).ready(function () {
                     var options = {
-                        target: '#lookup-result',
+                        target: "#lookup-result",
                         clearForm: true
                     };
                     $("form#lookup").ajaxForm(options);
