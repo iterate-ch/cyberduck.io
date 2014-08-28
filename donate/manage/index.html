@@ -143,6 +143,26 @@
             </script>
             <p><strong id="result-send"></strong></p>
             <hr/>
+
+            <h3>Receipt</h3>
+
+            <form class="form-inline" id="receipt" method="get" action="https://reg.cyberduck.io/receipt" name="receipt">
+                <input class="form-control input-sm" style="width: 250px;" type="text" id="receiptinput" name="email"/>
+                <button type="submit" class="btn btn-default btn-sm">Send</button>
+            </form>
+            <script charset="utf-8" type="text/javascript">
+                //<![CDATA[
+                $(document).ready(function () {
+                    var options = {
+                        target: '#result-receipt',
+                        clearForm: true
+                    };
+                    $("form#receipt").ajaxForm(options);
+                });
+                //]]>
+            </script>
+            <p><strong id="result-receipt"></strong></p>
+            <hr/>
         </div>
         <footer>
             <div class="container"/>
