@@ -158,7 +158,7 @@ dt :link:hover, dt :visited:hover {
 
 /*browser.css overwrites*/
 #dirlist td.name a.dir {
-    background-image: url(http://cyberduck.ch/img/folder.png)
+    background-image: url(//media.cyberduck.ch/img/folder.png)
 }
 
 .wiki-toc .active {
