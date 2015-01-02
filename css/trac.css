@@ -158,7 +158,7 @@ dt :link:hover, dt :visited:hover {
 
 /*browser.css overwrites*/
 #dirlist td.name a.dir {
-    background-image: url(//media.cyberduck.ch/img/folder.png)
+    background-image: url(//media.cyberduck.io/img/folder.png)
 }
 
 .wiki-toc .active {
@@ -206,13 +206,13 @@ div.login h1 {
 }
 
 .wiki-toc, #prefs, #ticket {
-    color: #3a87ad;
+    /*color: #3a87ad;*/
     background-color: #d9edf7;
     border-color: #bce8f1
 }
 
 #changelog {
-    color: #c09853;
+    /*color: #c09853;*/
     background-color: #fcf8e3;
     border-color: #fbeed5
 }
