@@ -214,3 +214,7 @@ blockquote p {
 .swissmade {
     padding-bottom: 20px;
 }
+
+blockquote {
+    overflow-x: auto;
+}
