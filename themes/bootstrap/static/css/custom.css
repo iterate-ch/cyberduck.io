@@ -97,6 +97,8 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li:last-child {
     border-right: none;
     /*padding-left: 10px;*/
+    padding-right: 0;
+    margin: 0;
 }
 
 .navbar-default .in .navbar-nav > li:last-child {
