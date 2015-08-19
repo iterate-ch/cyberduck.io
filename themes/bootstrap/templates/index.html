@@ -22,7 +22,6 @@
                 for <strong>Windows, Linux &amp; Mac</strong>.
             </p>
         </div>
-        {% include "adsense.html" %}
     </div>
     {{ super() }}
 {% endblock %}
@@ -37,7 +36,7 @@
     <div class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 text-center">
+                <div class="col-sm-4 text-center">
                     <img src="//media.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
                          width="384" height="384" title="Icon"/>
 
@@ -90,8 +89,10 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-8">
                     <div class="page-header">
+                        {% include "adsense.html" %}
+
                         <h1>Cyberduck</h1>
 
                         <h2>Libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>S3</strong>
