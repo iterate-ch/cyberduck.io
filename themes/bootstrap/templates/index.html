@@ -1,0 +1,241 @@
+{% extends "page.html" %}
+
+{% block head %}
+    {{ super() }}
+    <title>{{page.title}}</title>
+{% endblock %}
+
+{% block header %}
+    <div class="container">
+        <br />
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <p class="text-center">
+                Version <strong>4.7</strong> now available for download and in the <a
+                    href="/appstore">Mac App Store</a>!
+            </p>
+        </div>
+        <div class="alert alert-warning alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <p class="text-center">
+                A command line interface (<strong>CLI</strong>) version is now available from <a href="https://duck.sh/">duck.sh</a>
+                for <strong>Windows, Linux &amp; Mac</strong>.
+            </p>
+        </div>
+        {% include "adsense.html" %}
+    </div>
+    {{ super() }}
+{% endblock %}
+
+{% block brand %}
+<!--Override-->
+{% endblock %}
+
+{% block jumbotron %}
+    {{ super() }}
+    <!--  Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 text-center">
+                    <img src="//media.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
+                         width="384" height="384" title="Icon"/>
+
+                    <br />
+                    <br />
+
+                    <p>
+                        <a href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.7.2.exe"
+                           class="btn btn-default btn-lg" style="width:260px"
+                           rel="tooltip" data-placement="top" data-html="true"
+                           title="<strong>Cyberduck-Installer-4.7.2.exe</strong><br /><i>07 Aug 2015</i><br /><strong>Version 4.7.2 (18004)</strong><br /><br />Windows XP, Windows Vista, Windows 7 or Windows 8 required."
+                           onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.7.2.exe']);">
+                            <span class="media text-left">
+                                <span class="pull-right">
+                                    <img src="//media.cyberduck.io/img/English_wstore_rev_black_40x40.png" width="32" height="28"/>
+                                </span>
+                                <span class="media-body">
+                                    <strong>
+                                        Download
+                                    </strong>
+                                    <br/>
+                                    <small>Cyberduck-Installer-4.7.2.exe</small>
+                                </span>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://update.cyberduck.io/Cyberduck-4.7.2.zip"
+                           class="btn btn-default btn-lg" style="width:260px"
+                           rel="tooltip" data-placement="bottom" data-html="true"
+                           title="<strong>Cyberduck-4.7.2.zip</strong><br /><i>07 Aug 2015</i><br /><strong>Version 4.7.2 (18004)</strong><br /><br />OS X 10.7 or later on 64bit Intel required."
+                           onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.7.2.zip']);">
+                            <span class="media text-left">
+                                <span class="pull-right">
+                                    <img src="//media.cyberduck.io/img/features_osx_large.png" width="32" height="32"/>
+                                </span>
+                                <span class="media-body">
+                                    <strong>
+                                        Download
+                                    </strong>
+                                    <br/>
+                                    <small>Cyberduck-4.7.2.zip</small>
+                                </span>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="/appstore">
+                            <img style="width:260px" alt="Mac App Store" src="//media.cyberduck.io/img/mas/Download_on_the_Mac_App_Store_Badge_US-UK_165x40"/>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm-7">
+                    <div class="page-header">
+                        <h1>Cyberduck</h1>
+
+                        <h2>Libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>S3</strong>
+                            & <strong>OpenStack Swift</strong> browser
+                            <wbr/>
+                            for Mac and Windows.
+                        </h2>
+                    </div>
+
+                    <div id="screenshots" class="showcase">
+                        <div class="showcase-slide">
+                            <div class="showcase-content">
+                                <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser-bookmarks.png"
+                                     width="650px" height="" alt="Bookmarks"/>
+                            </div>
+
+                            <div class="showcase-thumbnail">
+                                <img src="//media.cyberduck.io/img/mac/browser-bookmarks-thumb.png" width="140px"
+                                     height="125px"
+                                     alt="Thumbnail"/>
+
+                                <div class="showcase-thumbnail-cover"></div>
+                            </div>
+                        </div>
+                        <div class="showcase-slide">
+                            <div class="showcase-content">
+                                <img class="img-responsive" src="//media.cyberduck.io/img/mac/browser.png"
+                                     width="650px" alt="Browser"/>
+                            </div>
+                            <div class="showcase-thumbnail">
+                                <img src="//media.cyberduck.io/img/mac/browser-thumb.png" width="140px"
+                                     alt="Thumbnail"/>
+
+                                <div class="showcase-thumbnail-cover"></div>
+                            </div>
+                        </div>
+                        <div class="showcase-slide">
+                            <div class="showcase-content">
+                                <img class="img-responsive"
+                                     src="//media.cyberduck.io/img/windows/browser-bookmarks.png" width="600px"
+                                     alt="Bookmarks"/>
+                            </div>
+                            <div class="showcase-thumbnail">
+                                <img src="//media.cyberduck.io/img/windows/browser-bookmarks-thumb.png" width="140px"
+                                     alt="Thumbnail"/>
+
+                                <div class="showcase-thumbnail-cover"></div>
+                            </div>
+                        </div>
+                        <div class="showcase-slide">
+                            <div class="showcase-content">
+                                <img class="img-responsive" src="//media.cyberduck.io/img/windows/browser.png"
+                                     width="600px" alt="Browser"/>
+                            </div>
+                            <div class="showcase-thumbnail">
+                                <img src="//media.cyberduck.io/img/windows/browser-thumb.png" width="140px"
+                                     alt="Thumbnail"/>
+
+                                <div class="showcase-thumbnail-cover"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        $(document).ready(function () {
+                            selected = 0;
+                            if(navigator.userAgent.toLowerCase().indexOf('windows') > -1) {
+                                selected = 2;
+                            }
+                            $("#screenshots").awShowcase(
+                                    {
+                                        selected: selected,
+                                        auto: false,
+                                        interval: 3000,
+                                        continuous: false,
+                                        loading: true,
+                                        arrows: false,
+                                        buttons: false,
+                                        mousetrace: false,
+                                        pauseonover: true,
+                                        transition: 'fade', /* vslide/hslide/fade */
+                                        transition_speed: 400,
+                                        show_caption: 'onhover', /* onload/onhover/show */
+                                        thumbnails: true,
+                                        thumbnails_position: 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+                                        thumbnails_direction: 'vertical', /* vertical/horizontal */
+                                        thumbnails_slidex: 0 /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+                                    });
+                        });
+                        //]]>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    <small>Copyright (c) 2002 – 2015 David V. Kocher. Copyright (c) 2011 – 2014 Yves Langisch. All
+                        rights reserved. <a href="https://iterate.ch">iterate GmbH</a>, Junkerngasse 12, 3011 Bern,
+                        Switzerland. This program
+                        is free software; you can redistribute it and/or modify it under the terms of the
+                        <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU
+                            General Public License</a> as published by the
+                        Free Software Foundation; either version 2 of the License, or (at your option) any
+                        later version.<em>This program is distributed in the hope that it will be useful, but WITHOUT
+                            ANY WARRANTY; without even the implied
+                            warranty of
+                            MERCHANTABILITY or FITNESS FOR A
+                            PARTICULAR PURPOSE. See the GNU General Public License for more details.</em></small>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    <small>This product includes software developed by
+                        <strong>Duncan McGregor et al.</strong> (<a class="ext"
+                                                                    href="http://code.google.com/p/rococoa/">Rococoa</a>),
+                        <strong>Timothy Wall et al.</strong> (<a class="ext" href="https://github.com/twall/jna">JNA</a>),
+                        <strong>Jeroen Frijters</strong> (<a class="ext" href="http://www.ikvm.net/">IKVM.NET</a>),
+                        <strong>Shikhar Bhushan et al.</strong> (<a class="ext"
+                                                                       href="https://github.com/dkocher/sshj">SSHJ</a>),
+                        <strong>Oleg Kalnichevski et al.</strong> (<a class="ext" href="http://hc.apache.org/">Apache
+                            HTTP Components</a>),
+                        <strong>Jon Stevens et al.</strong> (<a class="ext" href="https://github.com/dkocher/sardine">Sardine</a>),
+                        <strong>James Murty</strong> (<a class="ext" href="https://bitbucket.org/dkocher/jets3t/">jetS3t</a>),
+                        <strong>Christopher Forsythe et al.</strong> (<a class="ext" href="http://growl.info/">Growl</a>),
+                        <strong>M. Uli Kusterer</strong> (<a class="ext" href="http://zathras.de/">UKCrashReporter</a>),
+                        <strong>Kurt Revis</strong> (<a class="ext" href="http://www.snoize.com/">SNDisclosableView</a>),
+                        <strong>Brian Amerige</strong> (<a class="ext" href="http://extendmac.com/EMKeychain/">EMKeychain</a>),
+                        <strong>Steve McLeod</strong> (<a class="ext"
+                                                          href="http://code.google.com/p/barbarywatchservice/">barbarywatchservice</a>)
+                        <strong>Lucas Newman</strong> (<a class="ext" href="http://www.aquaticmac.com/">AquaticPrime</a>),
+                        <strong>Andy Matuschak</strong> (<a class="ext"
+                                                            href="http://sparkle.andymatuschak.org/">Sparkle</a>),
+                        <strong>wyDay</strong> (<a class="ext" href="http://code.google.com/p/wyupdate">wyUpdate</a>),
+                        <strong>Jeremy D. Miller</strong> (<a class="ext" href="http://structuremap.net/structuremap/">StructureMap</a>).
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+    {{ super() }}
+{% endblock %}

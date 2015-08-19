@@ -39,21 +39,23 @@ a:hover, a:focus {
     color: #2c2c2c;
 }
 
-.page-header {
-    padding-top: 10px;
-}
-
 .page-header h2 {
     color: #999;
     font-weight: normal;
 }
 
 .navbar-default {
+    min-height: 90px;
     padding-top: 0;
     margin-bottom: 0;
     background-color: #eee;
     border: 0;
     border-radius: 0;
+}
+
+.navbar-default .in .navbar-nav > li > a {
+    padding-bottom: 10px;
+    text-align: right;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -64,6 +66,10 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li {
     padding: 0 5px;
     border-right: 1px solid #999999;
+}
+
+.navbar-default .in .navbar-nav > li {
+    padding-right: 0;
 }
 
 .navbar-default .in .navbar-nav > li {
@@ -78,27 +84,23 @@ a:hover, a:focus {
     border-left: 1px solid #999999;
 }
 
-.navbar-default .in .navbar-nav > li:nth-child(2) {
+.navbar-default .in .navbar-nav > li {
     border: none;
 }
 
 .navbar-default .navbar-nav > li:first-child {
     border-left: none;
     border-right: none;
-    padding-right: 10px;
-}
-
-.navbar-default .in .navbar-nav > li:first-child {
-    display: none;
+    /*padding-right: 10px;*/
 }
 
 .navbar-default .navbar-nav > li:last-child {
     border-right: none;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 
 .navbar-default .in .navbar-nav > li:last-child {
-    display: none;
+    /*display: none;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -114,8 +116,8 @@ a:hover, a:focus {
     margin-top: 40px;
 }
 
-.navbar-nav > li > a {
-    padding: 1px 5px 1px 10px;
+.navbar-default > li > a {
+    /*padding: 1px 5px 1px 10px;*/
 }
 
 body {
