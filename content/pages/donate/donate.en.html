@@ -258,10 +258,10 @@
                                             form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
                                         },
                                         onUnsupported: function (obj) {
-                                            //
+                                            $("#token").remove();
                                         },
                                         onCancelled: function (obj) {
-                                            //
+                                            $("#token").remove();
                                         }
                                     });
                                 });
