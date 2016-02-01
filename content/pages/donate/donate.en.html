@@ -242,28 +242,38 @@
                         <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
                         <script>
                             $(function() {
-                                $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                    $("#paypal-container #await-clienttoken").remove();
-                                    braintree.setup(clientToken, "custom", {
-                                        paypal: {
-                                            container: "paypal-container"
-                                        },
-                                        displayName: 'Cyberduck',
-                                        enableBillingAddress: false,
-                                        enableShippingAddress: false,
-                                        onPaymentMethodReceived: function (obj) {
-                                            $("#payment-creditcard").remove();
-                                            var form = $("#payment");
-                                            // Insert the token into the form so it gets submitted to the server
-                                            form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
-                                        },
-                                        onUnsupported: function (obj) {
-                                            $("#token").remove();
-                                        },
-                                        onCancelled: function (obj) {
-                                            $("#token").remove();
+                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                    // newly activated tab
+                                    var target = $(e.target).attr("href")
+                                    if(target == 'tab-paypal') {
+                                        if($("form#payment input#token").length) {
+                                            // Skip if we already have a token from previous submit or paypal flow
+                                            return;
                                         }
-                                    });
+                                        $.get("https://reg.mountainduck.io/paypal/token", function (clientToken) {
+                                            $("#paypal-container #await-clienttoken").remove();
+                                            braintree.setup(clientToken, "custom", {
+                                                paypal: {
+                                                    container: "paypal-container"
+                                                },
+                                                displayName: 'Mountain Duck',
+                                                enableBillingAddress: false,
+                                                enableShippingAddress: false,
+                                                onPaymentMethodReceived: function (obj) {
+                                                    $("#payment-creditcard").remove();
+                                                    var form = $("#payment");
+                                                    // Insert the token into the form so it gets submitted to the server
+                                                    form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
+                                                },
+                                                onUnsupported: function (obj) {
+                                                    $("#token").remove();
+                                                },
+                                                onCancelled: function (obj) {
+                                                    $("#token").remove();
+                                                }
+                                            });
+                                        });
+                                    }
                                 });
                             });
                         </script>
