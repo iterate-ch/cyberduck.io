@@ -247,6 +247,10 @@
                                             // Skip if we already have a token from previous submit or paypal flow
                                             return;
                                         }
+                                        if($("#braintree-paypal-button").length) {
+                                            // Skip if we already loaded
+                                            return;
+                                        }
                                         $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
                                             $("#paypal-container #await-clienttoken").remove();
                                             braintree.setup(clientToken, "custom", {
