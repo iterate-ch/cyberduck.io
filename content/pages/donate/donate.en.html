@@ -419,7 +419,7 @@
                 automatically after the transaction has been completed. To recover a
                 lost registration key, enter your email address below to look it up.</p>
 
-            <form id="lookup" method="get" action="https://reg.cyberduck.io/lookup" class="form-inline" role="form">
+            <form id="lookup" method="GET" action="https://reg.cyberduck.io/lookup" class="form-inline" role="form">
 
                 <div class="form-group">
                     <input type="text" class="form-control input-sm" placeholder="Email address registered"
@@ -431,7 +431,10 @@
                     $(function() {
                         var options = {
                             target: "#lookup-result",
-                            clearForm: true
+                            clearForm: true,
+                            error: function(e) {
+                                $("#lookup-result").val(e.responseText);
+                            }
                         };
                         $("form#lookup").ajaxForm(options);
                     });
@@ -451,7 +454,7 @@
 
             <p>Request a receipt for your bookkeeping.</p>
 
-            <form id="receipt" method="get" action="https://reg.cyberduck.io/receipt" class="form-inline" role="form">
+            <form id="receipt" method="GET" action="https://reg.cyberduck.io/receipt" class="form-inline" role="form">
 
                 <div class="form-group">
                     <input type="text" class="form-control input-sm" placeholder="Email address registered"
@@ -463,7 +466,10 @@
                     $(function() {
                         var options = {
                             target: "#receipt-result",
-                            clearForm: true
+                            clearForm: true,
+                            error: function(e) {
+                                $("#receipt-result").val(e.responseText);
+                            }
                         };
                         $("form#receipt").ajaxForm(options);
                     });
@@ -478,7 +484,7 @@
 
             <p>Request a 30% discount coupon as a Cyberduck contributor.</p>
 
-            <form id="mountainduck" method="get" action="https://reg.cyberduck.io/coupon/mountainduck" class="form-inline" role="form">
+            <form id="mountainduck" method="GET" action="https://reg.cyberduck.io/coupon/mountainduck" class="form-inline" role="form">
 
                 <div class="form-group">
                     <input type="text" class="form-control input-sm" placeholder="Email address registered"
@@ -490,7 +496,10 @@
                     $(function() {
                         var options = {
                             target: "#mountainduck-result",
-                            clearForm: true
+                            clearForm: true,
+                            error: function(e) {
+                                $("#mountainduck-result").val(e.responseText);
+                            }
                         };
                         $("form#mountainduck").ajaxForm(options);
                     });
