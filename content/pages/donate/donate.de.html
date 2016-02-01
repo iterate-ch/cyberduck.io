@@ -247,7 +247,7 @@
                                             // Skip if we already have a token from previous submit or paypal flow
                                             return;
                                         }
-                                        $.get("https://reg.mountainduck.io/paypal/token", function (clientToken) {
+                                        $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
                                             $("#paypal-container #await-clienttoken").remove();
                                             braintree.setup(clientToken, "custom", {
                                                 paypal: {
