@@ -425,7 +425,7 @@
                         target: "#lookup-result",
                         clearForm: true,
                         error: function(e) {
-                            $("#lookup-result").val(e.responseText);
+                            $("#lookup-result").text(e.responseText);
                         }
                     };
                     $("form#lookup").ajaxForm(options);
@@ -459,7 +459,7 @@
                         target: "#receipt-result",
                         clearForm: true,
                         error: function(e) {
-                            $("#receipt-result").val(e.responseText);
+                            $("#receipt-result").text(e.responseText);
                         }
                     };
                     $("form#receipt").ajaxForm(options);
@@ -489,7 +489,7 @@
                         target: "#mountainduck-result",
                         clearForm: true,
                         error: function(e) {
-                            $("#mountainduck-result").val(e.responseText);
+                            $("#mountainduck-result").text(e.responseText);
                         }
                     };
                     $("form#mountainduck").ajaxForm(options);
