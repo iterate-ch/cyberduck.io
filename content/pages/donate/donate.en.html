@@ -280,18 +280,18 @@
                             var options = {
                                 clearForm: false,
                                 beforeSubmit: function (arr, form, options) {
-                                                    result.removeClass("hide");
+                                    result.removeClass("hide");
                                     result.removeClass("alert-danger");
                                     result.addClass("alert-info");
                                     result.text("Processing…");
                                     $("#payment-creditcard").attr("disabled", "disabled");
                                     $("#payment-submit").attr("disabled", "disabled");
                                     $("#payment-key").attr("disabled", "disabled");
-                    if($("form#payment input#token").length) {
-                        // Skip if we already have a token from previous submit or paypal flow
-                        return true;
-                    }
-                                                    else {
+                                if($("form#payment input#token").length) {
+                                    // Skip if we already have a token from previous submit or paypal flow
+                                    return true;
+                                }
+                                else {
                                     Stripe.card.createToken(form,
                                             function(status, response) {
                                                   var form = $("form#payment");
@@ -318,10 +318,12 @@
                                                     }
                                 },
                                 success: function (response, status) {
+                                    $("#token").remove();
                                     result.addClass("alert-info");
                                     result.text(response);
                                 },
                                 error: function (response) {
+                                    $("#token").remove();
                                     result.removeClass("alert-info");
                                     result.addClass("alert-danger");
                                     result.text(response.responseText);

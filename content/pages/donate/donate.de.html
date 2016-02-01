@@ -270,67 +270,69 @@
         <div class="form-group">
             <p class="help-block"></p>
                         <button type="submit" class="btn btn-default btn-sm" id="button-submit">Zahlen</button>
-    <script charset="utf-8" type="text/javascript">
-        //<![CDATA[
-                        $(function() {
-            var result = $("#payment-result");
-            var options = {
-                clearForm: false,
-                beforeSubmit: function (arr, form, options) {
-                                                    result.removeClass("hide");
-                    result.removeClass("alert-danger");
-                    result.addClass("alert-info");
-                    result.text("Processing…");
-                    $("#payment-creditcard").attr("disabled", "disabled");
-                    $("#payment-submit").attr("disabled", "disabled");
-                    $("#payment-key").attr("disabled", "disabled");
+            <script charset="utf-8" type="text/javascript">
+            //<![CDATA[
+            $(function() {
+                var result = $("#payment-result");
+                var options = {
+                    clearForm: false,
+                    beforeSubmit: function (arr, form, options) {
+                        result.removeClass("hide");
+                        result.removeClass("alert-danger");
+                        result.addClass("alert-info");
+                        result.text("Processing…");
+                        $("#payment-creditcard").attr("disabled", "disabled");
+                        $("#payment-submit").attr("disabled", "disabled");
+                        $("#payment-key").attr("disabled", "disabled");
                     if($("form#payment input#token").length) {
                         // Skip if we already have a token from previous submit or paypal flow
                         return true;
                     }
-                                                    else {
-                    Stripe.card.createToken(form,
-                            function(status, response) {
-                                  var form = $("form#payment");
-                                  if (response.error) {
-                                        // Show the errors on the form
-                                        result.removeClass("alert-info");
-                                        result.addClass("alert-danger");
-                                        result.text(response.error.message);
-                                        $("#payment-creditcard").removeAttr("disabled");
-                                        $("#payment-submit").removeAttr("disabled");
-                                        $("#payment-key").removeAttr("disabled");
-                                  } else {
-                                        // token contains id, last4, and card type
-                                        var token = response.id;
+                    else {
+                        Stripe.card.createToken(form,
+                                function(status, response) {
+                                      var form = $("form#payment");
+                                      if (response.error) {
+                                            // Show the errors on the form
+                                            result.removeClass("alert-info");
+                                            result.addClass("alert-danger");
+                                            result.text(response.error.message);
+                                            $("#payment-creditcard").removeAttr("disabled");
+                                            $("#payment-submit").removeAttr("disabled");
+                                            $("#payment-key").removeAttr("disabled");
+                                      } else {
+                                            // token contains id, last4, and card type
+                                            var token = response.id;
 
-                                        // Insert the token into the form so it gets submitted to the server
-                                                        form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
-                                        form.submit();
-                                  }
-                            }
-                    );
-                                                        // Return false to cancel submit until we have token obtained
-                    return false;
-                                                    }
-                },
-                success: function (response, status) {
-                    result.addClass("alert-info");
-                    result.text(response);
-                },
-                error: function (response) {
-                    result.removeClass("alert-info");
-                    result.addClass("alert-danger");
-                    result.text(response.responseText);
-                    $("#payment-creditcard").removeAttr("disabled");
-                    $("#payment-submit").removeAttr("disabled");
-                    $("#payment-key").removeAttr("disabled");
-                }
-            };
-            $("form#payment").ajaxForm(options);
-        });
-        //]]>
-    </script>
+                                            // Insert the token into the form so it gets submitted to the server
+                                            form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
+                                            form.submit();
+                                      }
+                                }
+                        );
+                                            // Return false to cancel submit until we have token obtained
+                        return false;
+                                        }
+                    },
+                    success: function (response, status) {
+                        $("#token").remove();
+                        result.addClass("alert-info");
+                        result.text(response);
+                    },
+                    error: function (response) {
+                        $("#token").remove();
+                        result.removeClass("alert-info");
+                        result.addClass("alert-danger");
+                        result.text(response.responseText);
+                        $("#payment-creditcard").removeAttr("disabled");
+                        $("#payment-submit").removeAttr("disabled");
+                        $("#payment-key").removeAttr("disabled");
+                    }
+                };
+                $("form#payment").ajaxForm(options);
+            });
+            //]]>
+            </script>
                     </div>
                 </fieldset>
 </form>
