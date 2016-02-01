@@ -226,3 +226,7 @@ blockquote p {
 blockquote {
     overflow-x: auto;
 }
+
+.alert:empty {
+    display: none;
+}
