@@ -20,7 +20,7 @@
     <small><a class="ext" href="http://www.gnu.org/philosophy/free-sw.html">Freie
         software</a> ermöglichst dem Benutzer die Software zu benutzen, kopieren, verteilen, studieren, verändern und verbessern.
 		Finanzielle Beiträge ermöglichen die laufende quelloffene Weiterentwicklung von Cyberduck.
-		Wenn Sie Cyberduck nutzen, unterstützen Sie uns mit einem finanziellen Beitrag Ihrer Wahl oder kaufen Sie die Version 
+		Wenn Sie Cyberduck nutzen, unterstützen Sie uns mit einem finanziellen Beitrag Ihrer Wahl oder kaufen Sie die Version
 		im <a href="/appstore">Mac App Store</a>.
         Es wird Cyberduck nochmals besser machen!
     </small>
@@ -38,6 +38,7 @@
 <div class="col-sm-8">
 <h3>Zahlung
                 <span>
+                    <img src="//cdn.cyberduck.io/img/paypal.png" height="38px"/>
                     <img src="//cdn.cyberduck.io/img/visa.png"/>
                     <img src="//cdn.cyberduck.io/img/mastercard.png"/>
                     <img src="//cdn.cyberduck.io/img/american_express.png"/>
@@ -46,6 +47,91 @@
 
 <form action="https://reg.cyberduck.io/payment" method="POST" id="payment"
       class="well" role="form">
+
+                <fieldset id="payment-key">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <label for="installations">Installationen</label>
+                            <input class="form-control input-sm" size="5" type="text" id="installations"
+                                   name="volume" placeholder="1" autocomplete="off"/>
+
+                            <script>
+                                $("#installations").change(function () {
+                                    $.get("https://reg.cyberduck.io/calculate", { volume: $("#installations").val() }).done(function(data) {
+                                        $("#amount").val($.trim(data));
+                                    });
+                                });
+                            </script>
+
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="col-xs-2">
+                            <label for="currency">Currency</label>
+                            <select id="currency" type="text" class="form-control input-sm"
+                                    data-encrypted-name="merchant"
+                                    name="currency">
+                                <option label="€" value="EUR">€</option>
+                                <option label="$" value="USD">$</option>
+                            </select>
+
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="col-xs-8">
+                            <label for="amount">Amount</label>
+                            <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
+                                   data-encrypted-name="amount"
+                                   placeholder="€" min="5" max="1000" step="any"
+                                   value="25" required="true"/>
+
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="form-control input-sm"
+                                   data-encrypted-name="name"
+                                   data-stripe="name"
+                                   name="name"
+                                   placeholder="Your Name" required="true"/>
+
+                            <p class="help-block">
+                                <small>Auf diesen Namen wird der Registrierungsschlüssel ausgestellt.</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="form-control input-sm"
+                                   data-encrypted-name="email"
+                                   name="email"
+                                   placeholder="Your Email Address" required="true"/>
+
+                            <p class="help-block">
+                                <small>Der Registrierungsschlüssel wird an diese Adresse verschickt.</small>
+                            </p>
+                        </div>
+                    </div>
+                    <input id="platform" type="hidden"
+                           data-encrypted-name="platform"
+                           name="platform"/>
+                </fieldset>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#tab-creditcard" aria-controls="home" role="tab" data-toggle="tab">Creditcard</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="tab-creditcard">
+                        <p class="help-block"></p>
     <fieldset id="payment-creditcard">
         <div class="row">
             <div class="col-xs-9">
@@ -58,6 +144,30 @@
                        class="form-control input-sm" size="20"
                        data-encrypted-name="number"
                        data-stripe="number"/>
+                                    <script charset="utf-8" type="text/javascript">
+                                    //<![CDATA[
+                                    $(creditcard).bind("keyup", function (event) {
+                                        // MasterCard
+                                        if(/^5[1-5]/.test(event.target.value)) {
+                                            $(mastercard).show();
+                                            $(visa).hide();
+                                            $(amex).hide();
+                                        }
+                                        // Visa
+                                        else if(/^4/.test(event.target.value)) {
+                                            $(visa).show();
+                                            $(mastercard).hide();
+                                            $(amex).hide();
+                                        }
+                                        // AmEx
+                                        else if(/^3[47]/.test(event.target.value)) {
+                                            $(amex).show();
+                                            $(mastercard).hide();
+                                            $(visa).hide();
+                                        }
+                                    });
+                                    //]]>
+                                    </script>
 
                 <p class="help-block"></p>
             </div>
@@ -116,88 +226,57 @@
                 <p class="help-block"></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-2">
-                <label for="installations">Installationen</label>
-                <input class="form-control input-sm" size="5" type="text" id="installations"
-                       name="volume" placeholder="1" autocomplete="off"/>
-
-                <script>
-                    $("#installations").change(function () {
-                        $.get("https://reg.cyberduck.io/calculate", { volume: $("#installations").val() }).done(function(data) {
-                            $("#amount").val($.trim(data));
-                        });
-                    });
-                </script>
-
+                        </fieldset>
+            </div>
+                    <div role="tabpanel" class="tab-pane" id="tab-paypal">
                 <p class="help-block"></p>
+                        <div id="paypal-container" class="text-center">
+                            <div id="await-clienttoken" class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
             </div>
-            <div class="col-xs-2">
-                <label for="currency">Währung</label>
-                <select id="currency" type="text" class="form-control input-sm"
-                        data-encrypted-name="merchant"
-                        name="currency">
-                    <option label="€" value="EUR">€</option>
-                    <option label="$" value="USD">$</option>
-                </select>
+            </div>
 
-                <p class="help-block"></p>
-            </div>
-            <div class="col-xs-8">
-                <label for="amount">Betrag</label>
-                <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
-                       data-encrypted-name="amount"
-                       placeholder="€" min="5.00" max="1000.00" step="any"
-                       value="25.00" required="true"/>
-
-                <p class="help-block"></p>
-            </div>
+                        <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
+                        <script>
+                            $(function() {
+                                $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
+                                    $("#paypal-container #await-clienttoken").remove();
+                                    braintree.setup(clientToken, "custom", {
+                                        paypal: {
+                                            container: "paypal-container"
+                                        },
+                                        displayName: 'Cyberduck',
+                                        enableBillingAddress: false,
+                                        enableShippingAddress: false,
+                                        onPaymentMethodReceived: function (obj) {
+                                            $("#payment-creditcard").remove();
+                                            var form = $("#payment");
+                                            // Insert the token into the form so it gets submitted to the server
+                                            form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
+                                        },
+                                        onUnsupported: function (obj) {
+                                            //
+                                        },
+                                        onCancelled: function (obj) {
+                                            //
+                                        }
+                                    });
+                                });
+                            });
+                        </script>
         </div>
-    </fieldset>
-    <fieldset id="payment-key">
-        <div class="row">
-            <div class="col-xs-12">
-                <label for="name">Name</label>
-                <input id="name" type="text" class="form-control input-sm"
-                       data-encrypted-name="name"
-                       data-stripe="name"
-                       name="name"
-                       placeholder="Ihr Name" required="true"/>
-
-                <p class="help-block">
-                    <small>Auf diesen Namen wird der Registrierungsschlüssel ausgestellt.</small>
-                </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <label for="email">Email</label>
-                <input id="email" type="email" class="form-control input-sm"
-                       data-encrypted-name="email"
-                       name="email"
-                       placeholder="Email Adresse" required="true"/>
-
-                <p class="help-block">
-                    <small>Der Registrierungsschlüssel wird an diese Adresse verschickt.</small>
-                </p>
-            </div>
-        </div>
-        <input id="platform" type="hidden"
-               data-encrypted-name="platform"
-               name="platform"/>
-    </fieldset>
     <fieldset id="payment-submit">
         <div class="form-group">
-            <button type="submit" class="btn btn-default btn-sm" id="button-submit">Zahlen</button>
-        </div>
-    </fieldset>
+                        <button type="submit" class="btn btn-default btn-sm" id="button-submit">Zahlen</button>
     <script charset="utf-8" type="text/javascript">
         //<![CDATA[
-        $(document).ready(function () {
+                        $(function() {
             var result = $("#payment-result");
             var options = {
                 clearForm: false,
                 beforeSubmit: function (arr, form, options) {
+                                                    result.removeClass("hide");
                     result.removeClass("alert-danger");
                     result.addClass("alert-info");
                     result.text("Processing…");
@@ -205,8 +284,10 @@
                     $("#payment-submit").attr("disabled", "disabled");
                     $("#payment-key").attr("disabled", "disabled");
                     if($("form#payment input#token").length) {
+                        // Skip if we already have a token from previous submit or paypal flow
                         return true;
                     }
+                                                    else {
                     Stripe.card.createToken(form,
                             function(status, response) {
                                   var form = $("form#payment");
@@ -223,13 +304,14 @@
                                         var token = response.id;
 
                                         // Insert the token into the form so it gets submitted to the server
-                                        form.append($("<input id='token' type='hidden' name='stripeToken' />").val(token));
+                                                        form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
                                         form.submit();
                                   }
                             }
                     );
-                    // Return false to cancel submit
+                                                        // Return false to cancel submit until we have token obtained
                     return false;
+                                                    }
                 },
                 success: function (response, status) {
                     result.addClass("alert-info");
@@ -246,29 +328,10 @@
             };
             $("form#payment").ajaxForm(options);
         });
-
-        $(creditcard).bind("keyup", function (event) {
-            // MasterCard
-            if(/^5[1-5]/.test(event.target.value)) {
-                $(mastercard).show();
-                $(visa).hide();
-                $(amex).hide();
-            }
-            // Visa
-            else if(/^4/.test(event.target.value)) {
-                $(visa).show();
-                $(mastercard).hide();
-                $(amex).hide();
-            }
-            // AmEx
-            else if(/^3[47]/.test(event.target.value)) {
-                $(amex).show();
-                $(mastercard).hide();
-                $(visa).hide();
-            }
-        });
         //]]>
     </script>
+                    </div>
+                </fieldset>
 </form>
 <p id="payment-result" class="alert"></p>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
@@ -277,35 +340,16 @@
 </script>
 </div>
 <div class="col-sm-4">
-    <h3>Paypal
+            <h3>Amazon Wunschliste
+                <span>
+                    <img src="//media.cyberduck.io/img/amazon.png"/>
+                </span>
 
-        <span>
-            <img src="../img/pp_cc_mark_37x23.jpg" height="38px"/>
-        </span>
-    </h3>
-
-    <p>
-        <small>
-			Sie können auch eine Zahlung mit Paypal zu tätigen. Ein Registrierungsschlüssel wird nach Ende der Transaktion
-			automatisch an die bei Paypal registrierte Email Adresse geschickt. 
-        </small>
-    </p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="text-center">
-        <fieldset>
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" id="paypal" name="hosted_button_id" value="4914397">
-            <input type="image" src="//cdn.cyberduck.io/img/donate" name="submit"
-                   alt="Donate to the development of Cyberduck!">
-        </fieldset>
-    </form>
-
-    <br/>
-
-    <h4>Amazon Wunschliste</h4>
+            </h3>
 
     <p>
-        <small>Sie können uns auch ein Geschenk von unserer Amazon Wunschliste machen.
-        </small>
+                <small>Sie können uns auch ein Geschenk von unserer Amazon Wunschliste machen. Ein Registrierungsschlüssel wird nach Ende der Transaktion
+                			automatisch an die bei Paypal registrierte Email Adresse geschickt.</small>
     </p>
     <ul>
         <li>
@@ -333,7 +377,7 @@
     </p>
 
     <p>
-        <tt><strong></strong> iterate GmbH</tt><br>
+        <tt><strong>Empfänger</strong> iterate GmbH</tt><br>
         <tt><strong>Bank</strong> Postfinance, 3030 Bern</tt><br>
         <tt><strong>IBAN</strong> CH72 0900 0000 6068 9419 1</tt><br>
         <tt><strong>SWIFT BIC</strong> POFICHBEXXX</tt></p>
