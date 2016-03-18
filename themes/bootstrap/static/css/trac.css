@@ -74,8 +74,6 @@ blockquote.citation {
 
 * html #mainnav :link, * html #mainnav :visited {
     background-image: none;
-    background-color: #fff;
-    border-right: 1px solid #fff;
 }
 
 #mainnav {
@@ -112,6 +110,8 @@ blockquote.citation {
 
 #mainnav .active :link, #mainnav .active :visited {
     background-image: none;
+    background-color: #fff;
+    border-right: 1px solid #fff;
 }
 
 #mainnav .active :link:hover, #mainnav .active :visited:hover {
