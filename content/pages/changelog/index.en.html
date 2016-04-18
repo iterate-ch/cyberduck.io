@@ -17,6 +17,43 @@
 <table class="table table-responsive table-striped">
     <tr>
         <td>
+            <p><strong><a href="https://trac.cyberduck.io/milestone/4.9.1">4.9.1</a> (19769)</strong>
+                <em>Apr-18-2016</em><br/>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.9.1.19769.zip"
+                   onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-4.9.1.19769.zip']);">Download
+                    (Mac)</a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.9.1.19769.exe"
+                   onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.9.1.19769.exe']);">Download Installer
+                    (Windows)</a></p>
+            <a class="btn btn-default btn-xs"
+               href="https://update.cyberduck.io/windows/Cyberduck-Installer-4.9.1.19769.msi"
+               onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-4.9.1.19769.msi']);">Download MSI Package
+                (Windows)</a>
+        </td>
+
+        <td>
+            <ul>
+                <li>[Feature] Support password change requests (SFTP) (<a
+                        href="https://trac.cyberduck.io/ticket/8821">#8821</a>)
+                </li>
+                <li>[Bugfix] Default path value setting in bookmark ignored (<a
+                        href="https://trac.cyberduck.io/ticket/9435">#9435</a>)
+                </li>
+                <li>[Bugfix] Excessive memory usage when uploading many files (<a
+                        href="https://trac.cyberduck.io/ticket/9439">#9439</a>)
+                </li>
+                <li>[Bugfix] Retry transfer when authentication token expires (Backblaze B2)</li>
+                <li>[Bugfix] Uploads use a lot of Class C transactions (<a
+                        href="https://trac.cyberduck.io/ticket/9417">#9417</a>) (Backblaze B2)
+                </li>
+                <li>[Bugfix] Retry transfer for 421 error reply from server with a delay (FTP)</li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
             <p><strong><a href="https://trac.cyberduck.io/milestone/4.9">4.9</a> (19631)</strong>
                 <em>Apr-05-2016</em><br/>
                 <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-4.9.19632.zip"
@@ -34,7 +71,7 @@
 
         <td>
             <ul>
-                <li>[Feature] Support for B2 Cloud Storage (Backblaze) (<a
+                <li>[Feature] Support for B2 Cloud Storage (Backblaze B2) (<a
                         href="https://trac.cyberduck.io/ticket/9162">#9162</a>)
                 </li>
                 <li>[Bugfix] Creating new folders with SSE restriction fails (S3) (<a
