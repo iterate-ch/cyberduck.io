@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>OAuth 2.0 Authorization Code</title>
+    <meta name="slug" content="oauth"/>
+    <meta name="status" content="hidden"/>
+    <meta name="lang" content="en"/>
+</head>
+
+<body>
+<h2>OAuth 2.0 Authorization Code</h2>
+
+<p>
+    Copy the authorization code into the login prompt in Cyberduck to complete authentication.
+</p>
+<p>
+    <div class="form-group">
+        <input id="code" class="form-control" type="text" name="code" placeholder="OAuth 2.0 Authorization Code"/>
+    </div>
+    <script type="application/javascript">
+        function getParameterByName(name) {
+            url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+            if(!results) return null;
+            if(!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        $("#code").val(getParameterByName("code"));
+    </script>
+</p>
+</body>
+</html>
