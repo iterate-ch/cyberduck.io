@@ -44,6 +44,10 @@ a:hover, a:focus {
     font-weight: normal;
 }
 
+.page-header h2 strong {
+    font-weight: normal;
+}
+
 .navbar-default {
     min-height: 90px;
     padding-top: 0;
