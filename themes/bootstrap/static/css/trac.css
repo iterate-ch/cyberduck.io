@@ -200,7 +200,7 @@ div.login h1 {
     width: auto;
 }
 
-.wiki-toc, #prefs, #ticket, #changelog {
+.wiki-toc, #prefs, #ticket, #changelog, #attachments {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
@@ -213,7 +213,7 @@ div.login h1 {
     border-color: #bce8f1
 }
 
-#changelog {
+#changelog, #attachments {
     /*color: #c09853;*/
     background-color: #fcf8e3;
     border-color: #fbeed5
@@ -221,6 +221,7 @@ div.login h1 {
 
 h2, h3 {
     /*font-size: inherit;*/
+	margin-top: 5px;
 }
 
 #ticket h2.summary {
@@ -237,4 +238,16 @@ h2, h3 {
 
 legend {
     font-size: inherit;
+}
+
+#attachments .attachments {
+	padding: 1em;
+}
+
+input[type=text], input.textwidget {
+	width: 100%;
+}
+
+#attachments > div {
+	border:none;
 }
