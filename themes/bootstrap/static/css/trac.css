@@ -26,10 +26,6 @@
     text-decoration: none;
 }
 
-.wikipage a:link, .wikipage a:visited {
-    color: #0066CC;
-}
-
 .wikipage tt {
     background-color: #F7F7F7;
     border: 1px solid #D7D7D7;
@@ -38,17 +34,6 @@
 
 blockquote.citation {
     font-weight: normal;
-}
-
-:link, :visited {
-    background-color: transparent;
-    border: none;
-}
-
-:link:hover, :visited:hover {
-    background-color: transparent;
-    color: #0066cc;
-    border: none;
 }
 
 #metanav {
@@ -148,7 +133,7 @@ h2.report-result {
 
 /*timeline.css overwrites*/
 dt :link:hover, dt :visited:hover {
-	background-color: #d9edf7;
+    background-color: #d9edf7;
 }
 
 /*search.css overwrites*/
@@ -221,7 +206,7 @@ div.login h1 {
 
 h2, h3 {
     /*font-size: inherit;*/
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 #ticket h2.summary {
@@ -241,13 +226,17 @@ legend {
 }
 
 #attachments .attachments {
-	padding: 1em;
+    padding: 1em;
 }
 
 input[type=text], input.textwidget {
-	width: 100%;
+    width: 100%;
 }
 
 #attachments > div {
-	border:none;
+    border:none;
+}
+
+:link, :visited {
+    color: #428bca !important;
 }
