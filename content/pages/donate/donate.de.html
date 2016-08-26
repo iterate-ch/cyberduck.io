@@ -469,36 +469,6 @@
         </form>
 
         <p id="receipt-result" class="alert alert-info"></p>
-
-        <a name="mountainduck"></a>
-        <h3>Mountain Duck Coupon Code</h3>
-
-        <p>Request a 30% discount coupon as a Cyberduck contributor.</p>
-
-        <form id="mountainduck" method="GET" action="https://reg.cyberduck.io/coupon/mountainduck" class="form-inline" role="form">
-
-            <div class="form-group">
-                <input type="text" class="form-control input-sm" placeholder="Email address registered"
-                       id="mountainduck-input" name="email"/>
-            </div>
-            <button type="submit" class="btn btn-default btn-sm">Lookup</button>
-            <script charset="utf-8" type="text/javascript">
-                //<![CDATA[
-                $(function() {
-                    var options = {
-                        target: "#mountainduck-result",
-                        clearForm: true,
-                        error: function(e) {
-                            $("#mountainduck-result").text(e.responseText);
-                        }
-                    };
-                    $("form#mountainduck").ajaxForm(options);
-                });
-                //]]>
-            </script>
-        </form>
-
-        <p id="mountainduck-result" class="alert alert-info"></p>
     </div>
 </div>
 </body>
