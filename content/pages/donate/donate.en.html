@@ -48,10 +48,9 @@
                         </span>
             </h3>
 
-            <form action="https://reg.cyberduck.io/payment" method="POST" id="payment"
-                  class="well" role="form">
+            <form action="https://reg.cyberduck.io/payment" method="POST" id="payment" role="form">
 
-                <fieldset id="payment-key">
+                <fieldset class="well" id="payment-key">
                     <div class="row">
                         <div class="col-xs-2">
                             <label for="installations">Installations</label>
@@ -121,172 +120,175 @@
                            name="platform"/>
                 </fieldset>
 
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#tab-creditcard" aria-controls="home" role="tab" data-toggle="tab">Creditcard</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
-                    </li>
-                </ul>
+                <div class="well">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#tab-creditcard" aria-controls="home" role="tab" data-toggle="tab">Creditcard</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
+                        </li>
+                    </ul>
 
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="tab-creditcard">
-                        <p class="help-block"></p>
-                        <fieldset id="payment-creditcard">
-                            <div class="row">
-                                <div class="col-xs-9">
-                                    <label for="creditcard">Card Number</label>
-                                    <img id="visa" src="//cdn.cyberduck.io/img/visa.png" height="20px" style="display: none"/>
-                                    <img id="mastercard" src="//cdn.cyberduck.io/img/mastercard.png" height="20px" style="display: none"/>
-                                    <img id="amex" src="//cdn.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
-                                    <input id="creditcard" type="text" required="true"
-                                           placeholder="Credit Card Number"
-                                           class="form-control input-sm" size="20"
-                                           data-encrypted-name="number"
-                                           data-stripe="number"/>
-                                    <script charset="utf-8" type="text/javascript">
-                                    //<![CDATA[
-                                    $(creditcard).bind("keyup", function (event) {
-                                        // MasterCard
-                                        if(/^5[1-5]/.test(event.target.value)) {
-                                            $(mastercard).show();
-                                            $(visa).hide();
-                                            $(amex).hide();
-                                        }
-                                        // Visa
-                                        else if(/^4/.test(event.target.value)) {
-                                            $(visa).show();
-                                            $(mastercard).hide();
-                                            $(amex).hide();
-                                        }
-                                        // AmEx
-                                        else if(/^3[47]/.test(event.target.value)) {
-                                            $(amex).show();
-                                            $(mastercard).hide();
-                                            $(visa).hide();
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="tab-creditcard">
+                            <p class="help-block"></p>
+                            <fieldset id="payment-creditcard">
+                                <div class="row">
+                                    <div class="col-xs-9">
+                                        <label for="creditcard">Card Number</label>
+                                        <img id="visa" src="//cdn.cyberduck.io/img/visa.png" height="20px" style="display: none"/>
+                                        <img id="mastercard" src="//cdn.cyberduck.io/img/mastercard.png" height="20px" style="display: none"/>
+                                        <img id="amex" src="//cdn.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
+                                        <input id="creditcard" type="text" required="true"
+                                               placeholder="Credit Card Number"
+                                               class="form-control input-sm" size="20"
+                                               data-encrypted-name="number"
+                                               data-stripe="number"/>
+                                        <script charset="utf-8" type="text/javascript">
+                                        //<![CDATA[
+                                        $(creditcard).bind("keyup", function (event) {
+                                            // MasterCard
+                                            if(/^5[1-5]/.test(event.target.value)) {
+                                                $(mastercard).show();
+                                                $(visa).hide();
+                                                $(amex).hide();
+                                            }
+                                            // Visa
+                                            else if(/^4/.test(event.target.value)) {
+                                                $(visa).show();
+                                                $(mastercard).hide();
+                                                $(amex).hide();
+                                            }
+                                            // AmEx
+                                            else if(/^3[47]/.test(event.target.value)) {
+                                                $(amex).show();
+                                                $(mastercard).hide();
+                                                $(visa).hide();
+                                            }
+                                        });
+                                        //]]>
+                                        </script>
+
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <label for="cvv">CVV</label>
+                                        <input id="cvv" type="text" required="true"
+                                               maxlength="4"
+                                               placeholder="Card Security Code"
+                                               class="form-control input-sm" size="4"
+                                               data-encrypted-name="cvv"
+                                               data-stripe="cvc"/>
+
+                                        <p class="help-block"></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <label for="month">Expiration Month</label>
+                                        <select id="month" required="required"
+                                                class="form-control input-sm"
+                                                data-encrypted-name="month"
+                                                data-stripe="exp-month">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select>
+
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <label for="year">Expiration Year</label>
+                                        <select id="year" type="text" class="form-control input-sm"
+                                                data-encrypted-name="year"
+                                                data-stripe="exp-year">
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                        </select>
+
+                                        <p class="help-block"></p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-paypal">
+                            <p class="help-block"></p>
+                            <label>Authenticate with Paypal.</label>
+                            <div id="paypal-container" class="text-center">
+                                <div id="await-clienttoken" class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                </div>
+                            </div>
+
+                            <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
+                            <script>
+                                $(function() {
+                                    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                        // newly activated tab
+                                        var target = $(e.target).attr("href")
+                                        if(target == '#tab-paypal') {
+                                            if($("form#payment input#token").length) {
+                                                // Skip if we already have a token from previous submit or paypal flow
+                                                return;
+                                            }
+                                            if($("#braintree-paypal-button").length) {
+                                                // Skip if we already loaded
+                                                return;
+                                            }
+                                            $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
+                                                $("#paypal-container #await-clienttoken").remove();
+                                                braintree.setup(clientToken, "custom", {
+                                                    paypal: {
+                                                        container: "paypal-container"
+                                                    },
+                                                    displayName: 'Mountain Duck',
+                                                    enableBillingAddress: false,
+                                                    enableShippingAddress: false,
+                                                    onPaymentMethodReceived: function (obj) {
+                                                        $("#payment-creditcard").remove();
+                                                        var form = $("#payment");
+                                                        // Insert the token into the form so it gets submitted to the server
+                                                        form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
+                                                    },
+                                                    onUnsupported: function (obj) {
+                                                        $("#token").remove();
+                                                    },
+                                                    onCancelled: function (obj) {
+                                                        $("#token").remove();
+                                                    }
+                                                });
+                                            });
                                         }
                                     });
-                                    //]]>
-                                    </script>
-
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="col-xs-3">
-                                    <label for="cvv">CVV</label>
-                                    <input id="cvv" type="text" required="true"
-                                           maxlength="4"
-                                           placeholder="Card Security Code"
-                                           class="form-control input-sm" size="4"
-                                           data-encrypted-name="cvv"
-                                           data-stripe="cvc"/>
-
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <label for="month">Expiration Month</label>
-                                    <select id="month" required="required"
-                                            class="form-control input-sm"
-                                            data-encrypted-name="month"
-                                            data-stripe="exp-month">
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <option>03</option>
-                                        <option>04</option>
-                                        <option>05</option>
-                                        <option>06</option>
-                                        <option>07</option>
-                                        <option>08</option>
-                                        <option>09</option>
-                                        <option>10</option>
-                                        <option>11</option>
-                                        <option>12</option>
-                                    </select>
-
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="col-xs-6">
-                                    <label for="year">Expiration Year</label>
-                                    <select id="year" type="text" class="form-control input-sm"
-                                            data-encrypted-name="year"
-                                            data-stripe="exp-year">
-                                        <option>2016</option>
-                                        <option>2017</option>
-                                        <option>2018</option>
-                                        <option>2019</option>
-                                        <option>2020</option>
-                                        <option>2021</option>
-                                        <option>2022</option>
-                                        <option>2023</option>
-                                        <option>2024</option>
-                                        <option>2025</option>
-                                    </select>
-
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="tab-paypal">
-                        <p class="help-block"></p>
-                        <div id="paypal-container" class="text-center">
-                            <div id="await-clienttoken" class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-                            </div>
-                        </div>
-
-                        <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
-                        <script>
-                            $(function() {
-                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                    // newly activated tab
-                                    var target = $(e.target).attr("href")
-                                    if(target == '#tab-paypal') {
-                                        if($("form#payment input#token").length) {
-                                            // Skip if we already have a token from previous submit or paypal flow
-                                            return;
-                                        }
-                                        if($("#braintree-paypal-button").length) {
-                                            // Skip if we already loaded
-                                            return;
-                                        }
-                                        $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                            $("#paypal-container #await-clienttoken").remove();
-                                            braintree.setup(clientToken, "custom", {
-                                                paypal: {
-                                                    container: "paypal-container"
-                                                },
-                                                displayName: 'Mountain Duck',
-                                                enableBillingAddress: false,
-                                                enableShippingAddress: false,
-                                                onPaymentMethodReceived: function (obj) {
-                                                    $("#payment-creditcard").remove();
-                                                    var form = $("#payment");
-                                                    // Insert the token into the form so it gets submitted to the server
-                                                    form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
-                                                },
-                                                onUnsupported: function (obj) {
-                                                    $("#token").remove();
-                                                },
-                                                onCancelled: function (obj) {
-                                                    $("#token").remove();
-                                                }
-                                            });
-                                        });
-                                    }
                                 });
-                            });
-                        </script>
+                            </script>
+                        </div>
                     </div>
                 </div>
-                <fieldset id="payment-submit">
+                <fieldset class="well" id="payment-submit">
                     <div class="form-group">
                         <p class="help-block"></p>
-                        <button type="submit" class="btn btn-default btn-sm" id="button-submit">Process Payment</button>
+                        <button type="submit" class="btn btn-default btn-primary btn-sm" id="button-submit">Process Payment</button>
                         <script charset="utf-8" type="text/javascript">
                         //<![CDATA[
                         $(function() {
@@ -368,9 +370,7 @@
 
 
             <p>
-                <small>If you prefer not to to use Paypal, you can send us something
-                    from our wishlist (in German).
-                </small>
+                <small>You can send us something from our wishlist (in German).</small>
             </p>
             <ul>
                 <li>
