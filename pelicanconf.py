@@ -59,7 +59,7 @@ TAGS_SAVE_AS = ''
 
 # The static paths you want to have accessible on the output path “static”. By default, Pelican will
 # copy the “images” folder to the output folder. copied without parsing their contents.
-STATIC_PATHS = ['img', 'robots.txt', 'favicon.ico']
+STATIC_PATHS = ['img', 'robots.txt', 'favicon.ico', '.well-known']
 
 TYPOGRIFY = False
 
