@@ -69,7 +69,7 @@
                         </div>
                         <div class="col-xs-2">
                             <label for="currency">Currency</label>
-                            <select id="currency" type="text" class="form-control input-sm"
+                            <select id="currency" class="form-control input-sm"
                                     data-encrypted-name="merchant"
                                     name="currency">
                                 <option label="€" value="EUR">€</option>
@@ -83,7 +83,7 @@
                             <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
                                    data-encrypted-name="amount"
                                    placeholder="€" min="5" max="9000" step="any"
-                                   value="25" required="true"/>
+                                   value="25" required />
 
                             <p class="help-block"></p>
                         </div>
@@ -95,7 +95,7 @@
                                    data-encrypted-name="name"
                                    data-stripe="name"
                                    name="name"
-                                   placeholder="Your Name" required="true"/>
+                                   placeholder="Your Name" required />
 
                             <p class="help-block">
                                 <small>This name will be used to issue the registration key.</small>
@@ -108,7 +108,7 @@
                             <input id="email" type="email" class="form-control input-sm"
                                    data-encrypted-name="email"
                                    name="email"
-                                   placeholder="Your Email Address" required="true"/>
+                                   placeholder="Your Email Address" required />
 
                             <p class="help-block">
                                 <small>The registration key will be sent to this address.</small>
@@ -142,7 +142,7 @@
                                         <img id="visa" src="//cdn.cyberduck.io/img/visa.png" height="20px" style="display: none"/>
                                         <img id="mastercard" src="//cdn.cyberduck.io/img/mastercard.png" height="20px" style="display: none"/>
                                         <img id="amex" src="//cdn.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
-                                        <input id="creditcard" type="text" required="true"
+                                        <input id="creditcard" type="text" required
                                                placeholder="Credit Card Number"
                                                class="form-control input-sm" size="20"
                                                data-encrypted-name="number"
@@ -176,7 +176,7 @@
                                     </div>
                                     <div class="col-xs-3">
                                         <label for="cvv">CVV</label>
-                                        <input id="cvv" type="text" required="true"
+                                        <input id="cvv" type="text" required
                                                maxlength="4"
                                                placeholder="Card Security Code"
                                                class="form-control input-sm" size="4"
@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="col-xs-6">
                                         <label for="year">Expiration Year</label>
-                                        <select id="year" type="text" class="form-control input-sm"
+                                        <select id="year" class="form-control input-sm"
                                                 data-encrypted-name="year"
                                                 data-stripe="exp-year">
                                             <option>2016</option>
@@ -245,7 +245,7 @@
                                 $(function() {
                                     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
                                         // newly activated tab
-                                        var target = $(e.target).attr("href")
+                                        var target = $(e.target).attr("href");
                                         if(target == '#tab-paypal') {
                                             if($("form#payment input#token").length) {
                                                 // Skip if we already have a token from previous submit or paypal flow
@@ -256,7 +256,7 @@
                                                 return;
                                             }
                                             $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                                $("#paypal-container #await-clienttoken").remove();
+                                                $("#paypal-container").find("#await-clienttoken").remove();
                                                 braintree.setup(clientToken, "custom", {
                                                     paypal: {
                                                         container: "paypal-container"
@@ -444,10 +444,10 @@
 
             <p id="lookup-result" class="alert alert-info"></p>
 
-            <small><p>Open the received registration key with Cyberduck by double clicking. Make sure the filename of the
+            <p><small>Open the received registration key with Cyberduck by double clicking. Make sure the filename of the
                 registration key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
                         href="https://trac.cyberduck.io/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
-                receiving or opening the key.</p></small>
+                receiving or opening the key.</small></p>
 
             <a name="receipt"></a>
             <h3>Receipt</h3>

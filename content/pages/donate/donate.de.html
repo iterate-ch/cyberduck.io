@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-xs-2">
                             <label for="currency">Currency</label>
-                            <select id="currency" type="text" class="form-control input-sm"
+                            <select id="currency" class="form-control input-sm"
                                     data-encrypted-name="merchant"
                                     name="currency">
                                 <option label="€" value="EUR">€</option>
@@ -80,7 +80,7 @@
                             <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
                                    data-encrypted-name="amount"
                                    placeholder="€" min="5" max="9000" step="any"
-                                   value="25" required="true"/>
+                                   value="25" required />
 
                             <p class="help-block"></p>
                         </div>
@@ -92,7 +92,7 @@
                                    data-encrypted-name="name"
                                    data-stripe="name"
                                    name="name"
-                                   placeholder="Your Name" required="true"/>
+                                   placeholder="Your Name" required />
 
                             <p class="help-block">
                                 <small>Auf diesen Namen wird der Registrierungsschlüssel ausgestellt.</small>
@@ -105,7 +105,7 @@
                             <input id="email" type="email" class="form-control input-sm"
                                    data-encrypted-name="email"
                                    name="email"
-                                   placeholder="Your Email Address" required="true"/>
+                                   placeholder="Your Email Address" required />
 
                             <p class="help-block">
                                 <small>Der Registrierungsschlüssel wird an diese Adresse verschickt.</small>
@@ -139,7 +139,7 @@
                 <img id="visa" src="//cdn.cyberduck.io/img/visa.png" height="20px" style="display: none"/>
                 <img id="mastercard" src="//cdn.cyberduck.io/img/mastercard.png" height="20px" style="display: none"/>
                 <img id="amex" src="//cdn.cyberduck.io/img/american_express.png" height="20px" style="display: none"/>
-                <input id="creditcard" type="text" required="true"
+                <input id="creditcard" type="text" required
                        placeholder="Credit Card Number"
                        class="form-control input-sm" size="20"
                        data-encrypted-name="number"
@@ -173,7 +173,7 @@
             </div>
             <div class="col-xs-3">
                 <label for="cvv">CVV</label>
-                <input id="cvv" type="text" required="true"
+                <input id="cvv" type="text" required
                        maxlength="4"
                        placeholder="Sicherheitscode"
                        class="form-control input-sm" size="4"
@@ -208,7 +208,7 @@
             </div>
             <div class="col-xs-6">
                 <label for="year">Verfalljahr</label>
-                <select id="year" type="text" class="form-control input-sm"
+                <select id="year" class="form-control input-sm"
                         data-encrypted-name="year"
                         data-stripe="exp-year">
                     <option>2016</option>
@@ -242,7 +242,7 @@
                             $(function() {
                                 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
                                     // newly activated tab
-                                    var target = $(e.target).attr("href")
+                                    var target = $(e.target).attr("href");
                                     if(target == '#tab-paypal') {
                                         if($("form#payment input#token").length) {
                                             // Skip if we already have a token from previous submit or paypal flow
@@ -253,7 +253,7 @@
                                             return;
                                         }
                                         $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                            $("#paypal-container #await-clienttoken").remove();
+                                            $("#paypal-container").find("#await-clienttoken").remove();
                                             braintree.setup(clientToken, "custom", {
                                                 paypal: {
                                                     container: "paypal-container"
@@ -438,9 +438,9 @@
 
         <p id="lookup-result" class="alert alert-info"></p>
 
-        <small><p>Der erhaltene Registrierungsschlüssel lässt sich mit Cyberduck durch Doppelklick öffnen. Stellen Sie sicher, dass der Dateiname
+        <p><small>Der erhaltene Registrierungsschlüssel lässt sich mit Cyberduck durch Doppelklick öffnen. Stellen Sie sicher, dass der Dateiname
             im Email Anhang mit <tt>.cyberducklicense</tt> endet. Siehe auch unser <a
-                    href="https://trac.cyberduck.io/wiki/help/en/faq#DonationKeys">Wiki</a> bei Problemen beim Öffnen des Registrierungsschlüssels.</p></small>
+                    href="https://trac.cyberduck.io/wiki/help/en/faq#DonationKeys">Wiki</a> bei Problemen beim Öffnen des Registrierungsschlüssels.</small></p>
 
         <a name="receipt"></a>
         <h3>Quittung</h3>
