@@ -265,15 +265,17 @@
                                                     enableBillingAddress: false,
                                                     enableShippingAddress: false,
                                                     onPaymentMethodReceived: function (obj) {
-                                                        $("#payment-creditcard").remove();
+                                                        $("#payment-creditcard").attr("disabled", "disabled");
                                                         var form = $("#payment");
                                                         // Insert the token into the form so it gets submitted to the server
                                                         form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
                                                     },
                                                     onUnsupported: function (obj) {
+                                                        $("#payment-creditcard").removeAttr("disabled");
                                                         $("#token").remove();
                                                     },
                                                     onCancelled: function (obj) {
+                                                        $("#payment-creditcard").removeAttr("disabled");
                                                         $("#token").remove();
                                                     }
                                                 });
