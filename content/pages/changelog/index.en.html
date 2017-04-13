@@ -17,6 +17,68 @@
         <table class="table table-responsive table-striped">
             <tr>
                 <td>
+                    <p><strong><a href="https://trac.cyberduck.io/milestone/5.4.3">5.4.3</a> (23925)</strong>
+                        <em>Apr-13-2017</em><br/>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-5.4.3.23925.zip"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-5.4.3.23925.zip']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 ">
+                            Download (Mac)</a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-5.4.3.23925.exe"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-5.4.3.23925.exe']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 ">
+                            Download Installer (Windows)</a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-5.4.3.23925.msi"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-5.4.3.23925.msi']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 ">
+                            Download MSI Package (Windows)</a>
+                    </p>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>[Bugfix] Interoperability with PROPFIND for listing folders (WebDAV)</li>
+                        <li>[Bugfix] Failed to generate HMAC (Spectra S3)</li>
+                        <li>[Bugfix] Quick Look only works one time (<a
+                                href="https://trac.cyberduck.io/ticket/9889">#9889</a>)
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p><strong><a href="https://trac.cyberduck.io/milestone/5.4.2">5.4.2</a> (23825)</strong>
+                        <em>Apr-04-2017</em><br/>
+                    </p>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>[Bugfix] Updated localizations</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p><strong><a href="https://trac.cyberduck.io/milestone/5.4.1">5.4.1</a> (23816)</strong>
+                        <em>Apr-03-2017</em><br/>
+                    </p>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>[Feature] Faster recursive delete with single operation for directories (WebDAV)</li>
+                        <li>[Bugfix] Reload OpenSSH configuration (SFTP)</li>
+                        <li>[Bugfix] Revert lenient server reply parsing (FTP)</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
                     <p><strong><a href="https://trac.cyberduck.io/milestone/5.4.0">5.4.0</a> (23761)</strong>
                         <em>Mar-14-2017</em><br/>
                         <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-5.4.0.23761.zip"
@@ -40,7 +102,6 @@
                     <ul>
                         <li>[Feature] Search files fast without recursively listing directories (Google Drive)</li>
                         <li>[Feature] Add "Open single connection" option for file transfers</li>
-                        <li></li>
                         <li>[Bugfix] Failure enabling download distribution (CloudFront) (<a
                                 href="https://trac.cyberduck.io/ticket/9870">#9870</a>)
                         </li>
@@ -161,7 +222,7 @@
 
                 <td>
                     <ul>
-                        <li>Crash for connections requiring TLS connection handshake (Windows CLI)</li>
+                        <li>[Bugfix] Crash for connections requiring TLS connection handshake (Windows CLI)</li>
                     </ul>
                 </td>
             </tr>
@@ -4332,7 +4393,7 @@
 
                         <li>[Bugfix] Always selecting parent directory as drop target when dragging to outline view</li>
 
-                        <li>[Bugfix| Updated application and document icon</li>
+                        <li>[Bugfix] Updated application and document icon</li>
 
                         <li>[Bugfix] Number of files in browser window not displayed correctly</li>
 
