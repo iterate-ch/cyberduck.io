@@ -5,7 +5,9 @@
     <title>{{page.title}}</title>
 {% endblock %}
 
-{% block header %}
+{% block headerclass %}index{% endblock %}
+
+{% block banner %}
     <div class="container">
         <br />
         <div class="alert alert-info alert-dismissable">
@@ -102,8 +104,9 @@
                     <div class="page-header">
                         {% include "adsense.html" %}
 
-                        <h2>Cyberduck is a libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>S3</strong>, <strong>Backblaze B2</strong>, <strong>Azure</strong>
-                            & <strong>OpenStack Swift</strong> browser
+                        <h2>Cyberduck is a libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>Amazon S3</strong>,
+                            <strong>Backblaze B2</strong>, <strong>Microsoft Azure & OneDrive</strong>
+                            and <strong>OpenStack Swift</strong> browser
                             <wbr/>
                             for Mac and Windows.
                         </h2>

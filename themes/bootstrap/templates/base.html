@@ -42,8 +42,8 @@
     {% endblock %}
 </head>
 <body>
-    <header>
-        {% block header %}
+    <header class="{% block headerclass %}{% endblock %}">
+        {% block banner %}
         {% endblock %}
         {% block navigation %}
         <div class="container">
