@@ -12,6 +12,7 @@ h1, h2, h3 {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+    background-color: transparent;
 }
 
 .jumbotron small {
@@ -22,7 +23,11 @@ h1, h2, h3 {
     line-height: 1;
 }
 
-body > header, body > #page > header {
+body > header.index {
+    background: radial-gradient(circle farthest-corner at right bottom, #fad037 0, #fff 100%);
+}
+
+body > header.default {
     background-color: #eee;
 }
 
@@ -42,17 +47,14 @@ a:hover, a:focus {
 .page-header h2 {
     color: #999;
     font-weight: normal;
-}
-
-.page-header h2 strong {
-    font-weight: normal;
+    font-size: 38px;
 }
 
 .navbar-default {
     min-height: 90px;
     padding-top: 0;
     margin-bottom: 0;
-    background-color: #eee;
+    background-color: transparent;
     border: 0;
     border-radius: 0;
 }
@@ -130,11 +132,12 @@ body {
     /*font-family: "Cardo",sans-serif;*/
     font-family: "Droid Sans", sans-serif;
     font-size: 18px;
+    radial-gradient(circle farthest-corner at right bottom,#fad037 0,#f9326c 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Droid Sans", sans-serif;
-    /*font-weight: bold;*/
+    font-weight: bold;
 }
 
 body > footer, body > #page > footer {
