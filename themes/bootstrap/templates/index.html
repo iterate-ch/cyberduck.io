@@ -102,8 +102,6 @@
                 </div>
                 <div class="col-sm-8">
                     <div class="page-header">
-                        {% include "adsense.html" %}
-
                         <h2>Cyberduck is a libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>Amazon S3</strong>,
                             <strong>Backblaze B2</strong>, <strong>Microsoft Azure & OneDrive</strong>
                             and <strong>OpenStack Swift</strong> browser
@@ -199,6 +197,12 @@
         </div>
     </div>
 {% endblock %}
+
+{% block content %}
+    {% include "adsense.html" %}
+    {{ super() }}
+{% endblock %}
+
 
 {% block footer %}
     <div class="container">
