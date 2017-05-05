@@ -44,6 +44,10 @@ a:hover, a:focus {
     color: #2c2c2c;
 }
 
+.page-header {
+    border-bottom: none
+}
+
 .page-header h2 {
     color: #999;
     font-weight: normal;
