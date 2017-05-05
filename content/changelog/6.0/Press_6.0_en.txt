@@ -1,0 +1,30 @@
+FOR RELEASE ON MAY 09, 2017
+
+Cyberduck 6 released for Mac and Windows with support for Cryptomator Vaults
+
+Bern, May 09, 2017
+
+We are thrilled to announce the availability of transparent, client-side encryption support for Cyberduck to secure your data on any server or cloud storage.
+
+Compared to other client-side encryption solutions on the market, the Cryptomator security architecture has many crucial advantages:
+
+Open source software that can be audited independently for security. You can rest assured there are no backdoors and no hidden vulnerabilities.
+In addition to file content encryption, file and directory names are encrypted, directory structures are obfuscated.
+Other than disk encryption utilities, each file is encrypted for its own.
+No online service subscription or account required. You will always have access to your data without the risk of a dependent service shutting down.
+The new encryption feature is based on the excellent concepts and work of Cryptomator. Cryptomator also offers apps for iOS and Android to access your encrypted data. All vaults either created by Cyberduck, Mountain Duck and Cryptomator including their mobile apps are fully interoperable.
+
+
+
+About Cryptomator
+
+Cryptomator is a client-side cloud storage encryption software by the German startup Skymatic. The software encrypts files automatically on a user’s device before they are uploaded to a cloud storage. As Cryptomator is open-source, it solves the issue of trust that many institutions used to have when considering the use of cloud storage solutions. For the combination of transparency and usability, Cryptomator was awarded the CeBIT Innovation Award for Usable Security and Privacy in 2016. The software is available for all major operating systems (Win, Mac, Linux) and on mobile devices (iOS, Android).
+
+
+
+support@cyberduck.io
+
+
+
+No longer want to receive any email from us? No problem, unsubscribe and we won't bug you again.
+
