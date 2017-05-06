@@ -4,7 +4,9 @@ FOR RELEASE ON MAY 09, 2017
 
 _Bern, May 09, 2017_
 
-We are thrilled to announce the availability of transparent, client-side encryption support for Cyberduck to secure your data on any server or cloud storage [1]. The new encryption feature is based on the excellent concepts and work of Cryptomator. Encryption for data at rest prevents unauthorized access regardless of the server or cloud storage infrastructure.
+We are thrilled to announce the availability of transparent, client-side encryption support for Cyberduck to secure your data on any server or cloud storage. The new encryption feature is based on the excellent concepts and work of Cryptomator. Encryption for data at rest prevents unauthorized access regardless of the server or cloud storage infrastructure.
+
+ * https://cyberduck.io/cryptomator/
 
 ### Secure and Trustworthy
 
@@ -18,22 +20,18 @@ Starting to secure your data is as easy as creating a new Cryptomator vault by s
 
 
 ### Integrated in Finder on macOS and File Explorer on Windows
-Mountain Duck 2 with Cryptomator support is currently in private beta and will be released next month.
+Based on the solid open source foundation of Cyberduck, Mountain Duck lets you mount server and cloud storage as a local disk in the Finder.app on Mac and the File Explorer on Windows. Open remote files with any application and work like on a local volume. Mountain Duck 2.0 with support for Cryptomator vaults is available as beta today.
 
 #### About Cryptomator
 
 Cryptomator is a client-side cloud storage encryption software by the German startup Skymatic. The software encrypts files automatically on a user’s device before they are uploaded to a cloud storage. As Cryptomator is open-source, it solves the issue of trust that many institutions used to have when considering the use of cloud storage solutions. For the combination of transparency and usability, Cryptomator was awarded the CeBIT Innovation Award for Usable Security and Privacy in 2016. The software is available for all major operating systems (Win, Mac, Linux) and on mobile devices (iOS, Android).
 
+ * https://cryptomator.org/coop/cyberduck_en.html
+ * https://cryptomator.org/coop/cyberduck_de.html
+
 #### About Cyberduck
 
 Cyberduck is a highly popular, libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift browser for Mac and Windows.
-
-#### About Mountain Duck
-
-Based on the solid open source foundation of Cyberduck, Mountain Duck lets you mount server and cloud storage as a local disk in the Finder.app on Mac and the File Explorer on Windows. Open remote files with any application and work like on a local volume. Mountain Duck 2.0 with support for Cryptomator vaults is available as beta today.
-
-
-[1] https://cyberduck.io/cryptomator/
 
 
 Contact
