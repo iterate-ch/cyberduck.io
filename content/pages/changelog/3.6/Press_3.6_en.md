@@ -1,8 +1,12 @@
-FOR IMMEDIATE RELEASE
+Title: Press Release Cyberduck 3.6
+Slug: changelog/pr/3.6
+Status: hidden
 
-Cyberduck 3.6 Released
+### FOR IMMEDIATE RELEASE
 
-Bern, Sep 06, 2010
+## Cyberduck 3.6 Released
+
+_Bern, Sep 06, 2010_
 
 A major new version of Cyberduck is now available, with a plethora of new features and bugfixes but most promimently support for Google Storage and file versioning in Amazon S3.
 
@@ -18,19 +22,14 @@ Please refer to http://cyberduck.ch/changelog/ for a more detailed list of the m
 
 This is the last version to be Mac only. A preview of Cyberduck for Windows will be available later this month [1]. Signup for the private beta now! Version 4.0 and onward will be on par for both Mac and Windows.
 
-[1] http://sudo.ch/2010/08/25/cyberduck-for-windows-is-coming/
+[1] https://blog.cyberduck.io/2010/08/25/cyberduck-for-windows-is-coming/
 
+#### About Cyberduck
 
 Cyberduck is an open source FTP, SFTP, WebDAV, Cloud Files, Google Docs & S3 browser for the Mac. It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and 30 translations make you feel at home.
 
---
-Contact
-David V. Kocher
-mailto:feedback@cyberduck.ch
-http://cyberduck.ch
+#### Contact
 
-Wiki
-http://help.cyberduck.ch
-
-Bug Tracking and Feature Requests
-http://trac.cyberduck.ch
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  

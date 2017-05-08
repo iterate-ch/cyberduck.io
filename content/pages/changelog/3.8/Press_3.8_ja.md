@@ -1,8 +1,12 @@
-﻿プレスリリース
+﻿Title: Press Release Cyberduck 3.8
+Slug: changelog/pr/3.8/jp
+Status: hidden
 
-Cyberduck 3.8をリリース
+### プレスリリース
 
-スイス ベルン州、2010年12月3日
+## Cyberduck 3.8をリリース
+
+_スイス ベルン州、2010年12月3日_
 
 Cyberduckの新しいメジャーバージョンをリリースしました。バージョン3.8の重点は、Amazon CloudFront CDN（Content Delivery Network）の統合にあります。カスタムオリジンのサポートにより、コンテンツをS3にアップロードすることなく、オリジナルのコンテンツを一般的なWebサーバから供給し、CloudFront CDN内のエッジロケーションのネットワークを使用して配信することができます。[1]
 
@@ -20,17 +24,12 @@ Cyberduck for Windowsのパブリックベータ版を今月後半に公開す�
 
 [3] http://cyberduck.ch/news
 
+#### About Cyberduck
 
 Cyberduckは、MacとWindowsに対応した、オープンソースのFTP、SFTP、WebDAV、Could Files、Google Docs、S3用ブラウザです。素早くアクセスできるブックマークを備えた、使いやすいインターフェースを提供します。ブラウザのアウトラインビューで大量のフォルダ構造も効率よく閲覧し、Quick Lookで素早くファイルをプレビューすることができます。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。クラウドでコンテンツを配信するために、Amazon CloudFrontやRackspace Cloud Filesを構成することも簡単です。30言語以上のローカライズ版が提供されています。
 
---
-連絡先
-David V. Kocher
-mailto:feedback-ja@cyberduck.ch
-http://cyberduck.ch
-
-Wiki
-http://help.cyberduck.ch/ja
-
-バグトラッキングおよび機能追加の要望
-http://trac.cyberduck.ch
+#### 連絡先
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  
+[cyberduck.io](https://cyberduck.io)  

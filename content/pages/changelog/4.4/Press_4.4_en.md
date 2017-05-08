@@ -1,8 +1,12 @@
-FOR IMMEDIATE RELEASE
+Title: Press Release Cyberduck 4.4
+Slug: changelog/pr/4.4
+Status: hidden
 
-Cyberduck 4.4 released for Mac and Windows
+### FOR IMMEDIATE RELEASE
 
-Bern, Oct 25, 2013
+## Cyberduck 4.4 released for Mac and Windows
+
+_Bern, Oct 25, 2013_
 
 We are pleased to announce the availability of Cyberduck 4.4, the popular libre client to access FTP/SFTP/WebDAV file servers and cloud storage on Mac and Windows. It features a complete refactoring for improved performance and testability. 
 
@@ -17,21 +21,8 @@ This release includes over 100 bug fixes. The full changelog is available at htt
 Cyberduck is available from the website at http://cyberduck.ch and the Mac App Store (in Review). Mac OS X 10.6 or later required. Windows XP, Windows Vista or Windows 7 required.
 
 
---
-Contact
-David Kocher
-Yves Langisch
-mailto:feedback@cyberduck.ch
-http://cyberduck.ch
+#### Contact
 
-Blog
-http://cyberduck.ch/news
-
-Wiki
-http://help.cyberduck.ch
-
-Bug Tracking and Feature Requests
-http://trac.cyberduck.ch
-
-
-Copyright (c) 2002-2013 David Kocher. Copyright (c) 2011-2013 Yves Langisch. All rights reserved. This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  

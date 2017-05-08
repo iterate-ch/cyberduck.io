@@ -1,8 +1,12 @@
-﻿プレスリリース
+﻿Title: Press Release Cyberduck 4.0
+Slug: changelog/pr/4.0/jp
+Status: hidden
 
-Cyberduck 4、MacとWindowsでリリース
+### プレスリリース
 
-スイス ベルン州、2011年3月8日
+## Cyberduck 4、MacとWindowsでリリース
+
+_スイス ベルン州、2011年3月8日_
 
 Cyberduck 4をリリースしました。ファイルサーバおよびクラウドストレージにアクセスするための最も人気のあるMac用クライアントソフトウェアが、1年以上におよぶ開発と数ヶ月にわたるベータテストを経て、ついにWindowsプラットフォームに登場します。
 
@@ -32,22 +36,13 @@ Cyberduckは多くの言語で使用できます。英語、チェコ語、オ�
 
 Mac OS X 10.5以降、Windows XP、Windows Vista、またはWindows 7が必要です。
 
+#### 連絡先
+David Kocher  
+Yves Langisch  
+mailto:feedback-ja@cyberduck.ch  
+http://cyberduck.ch  
 
---
-連絡先
-David Kocher
-Yves Langisch
-mailto:feedback-ja@cyberduck.ch
-http://cyberduck.ch
-
-Blog
-http://cyberduck.ch/news
-
-Wiki
-http://help.cyberduck.ch
-
-バグトラッキングおよび機能追加の要望
-http://trac.cyberduck.ch
+#### About Cyberduck
 
 Cyberduckは、FTP、SFTP、WebDAVでのファイル転送、Rackspace Could Files、Windows Azure、Amazon S3といったクラウドストレージアカウントへの接続、Google Docsの文書管理に対応した、オープンソースのMacおよびWindows用ブラウザです。素早くアクセスできるブックマークを備え、すべての接続に共通の使いやすいインターフェースを提供します。ブラウザの階層ビューで大量のフォルダ構造も効率よく閲覧し、ドラッグ&ドロップでファイルをダウンロード、アップロード、移動できます。ファイル転送や、ローカルディレクトリをリモートディレクトリと同期するのも簡単です。ファイルの編集では、あらゆる外部エディタアプリケーションとシームレスに連携することで、素早く簡単にコンテンツを変更できます。Google Docsアカウントの文書管理では、OCR（光学式文字認識）により画像を変換してアップロードすることも可能です。Amazon CloudFrontやAkamaiコンテンツディストリビューションネットワーク（CDN）を容易に構成し、エッジロケーションのファイルを世界中に配信します。日本語、韓国語、中国語、スペイン後、ドイツ語、フランス語を含む30言語以上にローカライズされたユーザインターフェースで、すぐに使いこなすことができます。
 

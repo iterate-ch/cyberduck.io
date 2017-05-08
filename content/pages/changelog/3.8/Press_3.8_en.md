@@ -1,8 +1,12 @@
-FOR IMMEDIATE RELEASE
+Title: Press Release Cyberduck 3.8
+Slug: changelog/pr/3.8/en
+Status: hidden
 
-Cyberduck 3.8 Released
+### FOR IMMEDIATE RELEASE
 
-Bern, Dec 03, 2010
+## Cyberduck 3.8 Released
+
+_Bern, Dec 03, 2010_
 
 A major new version of Cyberduck is now available. The focus of version 3.8 is the integration of Amazon CloudFront CDN (Content Delivery Network) for the rest of us. With support for custom origins, there is no need to upload content to S3, but original content can be served from an ordinary web server and then distributed using the network of edge locations in the CloudFront CDN. [1]
 
@@ -20,17 +24,13 @@ A public beta of Cyberduck for Windows will be available later this month. Versi
 
 [3] http://cyberduck.ch/news
 
+#### About Cyberduck
 
 Cyberduck is an open source FTP, SFTP, WebDAV, Cloud Files, Google Docs & S3 browser for Mac and Windows. It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. More than 30 localizations available make you feel at home.
 
---
-Contact
-David V. Kocher
-mailto:feedback@cyberduck.ch
-http://cyberduck.ch
+#### Contact
 
-Wiki
-http://help.cyberduck.ch
-
-Bug Tracking and Feature Requests
-http://trac.cyberduck.ch
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  
+  

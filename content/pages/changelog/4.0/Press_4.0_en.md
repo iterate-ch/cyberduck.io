@@ -1,8 +1,12 @@
-FOR IMMEDIATE RELEASE
+Title: Press Release Cyberduck 4.0
+Slug: changelog/pr/4.0/en
+Status: hidden
 
-Cyberduck 4 released for Mac and Windows
+### FOR IMMEDIATE RELEASE
 
-Bern, Mar 08, 2011
+## Cyberduck 4 released for Mac and Windows
+
+_Bern, Mar 08, 2011_
 
 We are pleased to announce the availability of Cyberduck 4. The most popular client to access file servers and cloud storage on the Mac makes its debut on the Windows platform after more than one year of development and serveral months of beta testing.
 
@@ -33,21 +37,13 @@ Cyberduck speaks your language and is available in English, čeština, Nederland
 Mac OS X 10.5 or later required. Windows XP, Windows Vista or Windows 7 required.
 
 
---
-Contact
-David Kocher
-Yves Langisch
-mailto:feedback@cyberduck.ch
-http://cyberduck.ch
+#### Contact
 
-Blog
-http://cyberduck.ch/news
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  
 
-Wiki
-http://help.cyberduck.ch
-
-Bug Tracking and Feature Requests
-http://trac.cyberduck.ch
+#### About Cyberduck
 
 Cyberduck is an open source FTP, SFTP & WebDAV browser for Mac and Windows to transfer files to your web hosting service provider and connecting to cloud storage accounts from Rackspace Cloud Files, Windows Azure & Amazon S3 or manage documents in Google Docs with the same easy to use interface with quickly accessible bookmarks. It features a browser to download, upload and move files using drag and drop with an hierarchical view to browse large folder structures efficiently. Transfers are handled with ease including synchronization of local with remote directories. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Manage the documents in your Google Docs account with the option to convert uploaded images to documents with optical character recognition (OCR). Both Amazon CloudFront and Akamai content delivery networks (CDN) can be easily configured to distribute your files worldwide from edge locations. Bundled with more than 30 localizations including Japanese, Korean, Chinese, Spanish, German and French, the user interface makes you instantly feel at home.
 

@@ -1,8 +1,12 @@
-FOR IMMEDIATE RELEASE
+Title: Press Release Cyberduck 3.5
+Slug: changelog/pr/3.5
+Status: hidden
 
-Cyberduck 3.5 Released
+## FOR IMMEDIATE RELEASE
 
-Beijing, Jun 09, 2010
+## Cyberduck 3.5 Released
+
+_Beijing, Jun 09, 2010_
 
 A major new version of Cyberduck is now available, featuring support to store and retrieve documents from Google Docs. Google Docs support allows you to access your documents from within Cyberduck. It allows you to (1) download documents to various export formats, (2) Uploads documents to your Google Docs account for storage or choose to convert documents to Google Docs forma, (3) optionally convert PNG, JPEG and GIF images to Google Docs text documents using Optical Character Recognition (OCR). Users with a Google Apps Premier Account can upload aribtrary files not supported by any of the Google Docs editor application.
 
@@ -16,17 +20,13 @@ The latest release now additionally includes a Georgian, Slovenian and Romanian 
 
 Please refer to http://cyberduck.ch/changelog/ for a more detailed list of changes in this release. Users can upgrade using the automatic 'Check for Update...' feature. Mac OS X 10.5 or later required.
 
+#### About Cyberduck
 
 Cyberduck is an open source FTP, SFTP, WebDAV, Cloud Files, S3 and Google Docs browser for the Mac. It features an easy to use interface with quickly accessible bookmarks. The outline view of the browser allows to browse large folder structures efficiently and you can quickly preview files with Quick Look. To edit files, a seamless integration with any external editor application makes it easy to change content quickly. Both Amazon CloudFront and Cloud Files from Rackspace can be easily configured to distribute your content in the cloud. Many OS X core system technologies such as Spotlight, Bonjour and the Keychain are supported and 30 translations make you feel at home.
 
---
-Contact
-David V. Kocher
-mailto:feedback@cyberduck.ch
-http://cyberduck.ch
+#### Contact
 
-Wiki
-http://help.cyberduck.ch
-
-Bug Tracking and Feature Requests
-http://trac.cyberduck.ch
+iterate GmbH  
+David Kocher  
+[support@cyberduck.io](mailto:support@cyberduck.io)  
+  
