@@ -2,7 +2,7 @@ Title: Press Release Cyberduck 6.0
 Slug: changelog/pr/6.0
 Status: hidden
 
-### FOR RELEASE ON MAY 09, 2017
+### FOR IMMEDIATE RELEASE
 
 ## Cyberduck 6 released for Mac and Windows with support for secure Cryptomator vaults
 _Bern, May 09, 2017_
