@@ -246,3 +246,7 @@ blockquote {
 footer a {
     color: white;
 }
+
+.label {
+    font-weight: normal;
+}
