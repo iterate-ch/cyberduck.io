@@ -254,8 +254,9 @@
                                                 // Skip if we already have a token from previous submit or paypal flow
                                                 return;
                                             }
-                                            $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                                $("#paypal-container").find("#await-clienttoken").remove();
+                                            if($("#paypal-container").find("#await-clienttoken").length) {
+                                                $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
+                                                    $("#paypal-container").find("#await-clienttoken").remove();
                                                     braintree.client.create({
                                                         authorization: clientToken
                                                     }, function (clientErr, clientInstance) {
@@ -316,7 +317,8 @@
                                                         });
                                                       });
                                                     });
-                                            });
+                                                });
+                                            }
                                         }
                                     });
                                 });
@@ -345,6 +347,10 @@
                                 if($("form#payment input#token").length) {
                                     // Skip if we already have a token from previous submit or paypal flow
                                     return true;
+                                }
+                                if($("#braintree-paypal-button").length) {
+                                    // Skip if we already loaded
+                                    return;
                                 }
                                 else {
                                     Stripe.card.createToken(form,

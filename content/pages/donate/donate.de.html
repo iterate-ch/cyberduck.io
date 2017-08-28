@@ -251,8 +251,9 @@
                                                 // Skip if we already have a token from previous submit or paypal flow
                                                 return;
                                             }
-                                            $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                                $("#paypal-container").find("#await-clienttoken").remove();
+                                            if($("#paypal-container").find("#await-clienttoken").length) {
+                                                $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
+                                                    $("#paypal-container").find("#await-clienttoken").remove();
                                                     braintree.client.create({
                                                         authorization: clientToken
                                                     }, function (clientErr, clientInstance) {
@@ -313,7 +314,8 @@
                                                         });
                                                       });
                                                     });
-                                            });
+                                                });
+                                            }
                                         }
                                     });
                                 });
