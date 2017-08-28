@@ -227,60 +227,98 @@
         </div>
     </fieldset>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="tab-paypal">
-                        <p class="help-block"></p>
-                        <label>Authenticate with Paypal.</label>
-                        <div id="paypal-container" class="text-center">
-                            <div id="await-clienttoken" class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                        <div role="tabpanel" class="tab-pane" id="tab-paypal">
+                            <p class="help-block"></p>
+                            <div id="paypal-container" class="text-center">
+                                <div id="await-clienttoken" class="progress">
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                </div>
+                                <div id="braintree-paypal-button"></div>
                             </div>
-                        </div>
+                            <!-- Load PayPal's checkout.js Library. -->
+                            <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4 log-level="warn"></script>
+                            <!-- Load the client component. -->
+                            <script src="https://js.braintreegateway.com/web/3.22.2/js/client.min.js"></script>
+                            <!-- Load the PayPal Checkout component. -->
+                            <script src="https://js.braintreegateway.com/web/3.22.2/js/paypal-checkout.min.js"></script>
+                            <script>
+                                $(function() {
+                                    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                        // newly activated tab
+                                        var target = $(e.target).attr("href");
+                                        if(target == '#tab-paypal') {
+                                            if($("form#payment input#token").length) {
+                                                // Skip if we already have a token from previous submit or paypal flow
+                                                return;
+                                            }
+                                            $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
+                                                $("#paypal-container").find("#await-clienttoken").remove();
+                                                    braintree.client.create({
+                                                        authorization: clientToken
+                                                    }, function (clientErr, clientInstance) {
 
-                        <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
-                        <script>
-                            $(function() {
-                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                    // newly activated tab
-                                    var target = $(e.target).attr("href");
-                                    if(target == '#tab-paypal') {
-                                        if($("form#payment input#token").length) {
-                                            // Skip if we already have a token from previous submit or paypal flow
-                                            return;
-                                        }
-                                        if($("#braintree-paypal-button").length) {
-                                            // Skip if we already loaded
-                                            return;
-                                        }
-                                        $.get("https://reg.cyberduck.io/paypal/token", function (clientToken) {
-                                            $("#paypal-container").find("#await-clienttoken").remove();
-                                            braintree.setup(clientToken, "custom", {
-                                                paypal: {
-                                                    container: "paypal-container"
-                                                },
-                                                displayName: 'Cyberduck',
-                                                enableBillingAddress: false,
-                                                enableShippingAddress: false,
-                                                onPaymentMethodReceived: function (obj) {
-                                                    $("#payment-creditcard").attr("disabled", "disabled");
-                                                    var form = $("#payment");
-                                                    // Insert the token into the form so it gets submitted to the server
-                                                    form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(obj.nonce));
-                                                },
-                                                onUnsupported: function (obj) {
-                                                    $("#payment-creditcard").removeAttr("disabled");
-                                                    $("#token").remove();
-                                                },
-                                                onCancelled: function (obj) {
-                                                    $("#payment-creditcard").removeAttr("disabled");
-                                                    $("#token").remove();
-                                                }
+                                                      // Stop if there was a problem creating the client.
+                                                      // This could happen if there is a network error or if the authorization
+                                                      // is invalid.
+                                                      if (clientErr) {
+                                                        console.error('Error creating client:', clientErr);
+                                                        return;
+                                                      }
+
+                                                      // Create a PayPal Checkout component.
+                                                      braintree.paypalCheckout.create({
+                                                        client: clientInstance
+                                                      }, function (paypalCheckoutErr, paypalCheckoutInstance) {
+
+                                                        // Stop if there was a problem creating PayPal Checkout.
+                                                        // This could happen if there was a network error or if it's incorrectly
+                                                        // configured.
+                                                        if (paypalCheckoutErr) {
+                                                          console.error('Error creating PayPal Checkout:', paypalCheckoutErr);
+                                                          return;
+                                                        }
+
+                                                        // Set up PayPal with the checkout.js library
+                                                        paypal.Button.render({
+                                                          env: 'production',
+                                                          payment: function () {
+                                                            return paypalCheckoutInstance.createPayment({
+                                                              flow: 'checkout', // 'vault'
+                                                              enableShippingAddress: false,
+                                                              enableBillingAddress: false,
+                                                              displayName: 'Cyberduck',
+                                                              amount: $("#amount").val(),
+                                                              currency: $("#currency").val(),
+                                                              intent: 'sale'
+                                                            });
+                                                          },
+                                                          onAuthorize: function (data, actions) {
+                                                            return paypalCheckoutInstance.tokenizePayment(data)
+                                                              .then(function (payload) {
+                                                                var form = $("#payment");
+                                                                // Insert the token into the form so it gets submitted to the server
+                                                                form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
+                                                              });
+                                                          },
+                                                          onCancel: function (data) {
+                                                                $("#payment-creditcard").removeAttr("disabled");
+                                                                $("#token").remove();
+                                                          },
+                                                          onError: function (err) {
+                                                                $("#payment-creditcard").removeAttr("disabled");
+                                                                $("#token").remove();
+                                                          }
+                                                        }, '#braintree-paypal-button').then(function () {
+                                                                $("#payment-creditcard").attr("disabled", "disabled");
+                                                        });
+                                                      });
+                                                    });
                                             });
-                                        });
-                                    }
+                                        }
+                                    });
                                 });
-                            });
-                        </script>
-        </div>
+                            </script>
+                        </div>
             </div>
                 </div>
     <fieldset class="well" id="payment-submit">
