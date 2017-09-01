@@ -348,10 +348,6 @@
                                     // Skip if we already have a token from previous submit or paypal flow
                                     return true;
                                 }
-                                if($("#braintree-paypal-button").length) {
-                                    // Skip if we already loaded
-                                    return;
-                                }
                                 else {
                                     Stripe.card.createToken(form,
                                             function(status, response) {
@@ -374,9 +370,9 @@
                                                   }
                                             }
                                     );
-                                                        // Return false to cancel submit until we have token obtained
+                                    // Return false to cancel submit until we have token obtained
                                     return false;
-                                                    }
+                                    }
                                 },
                                 success: function (response, status) {
                                     $("#token").remove();
