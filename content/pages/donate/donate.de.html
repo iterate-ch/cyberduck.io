@@ -67,7 +67,6 @@
                         <div class="col-xs-2">
                             <label for="currency">Currency</label>
                             <select id="currency" class="form-control input-sm"
-                                    data-encrypted-name="merchant"
                                     name="currency">
                                 <option label="€" value="EUR">€</option>
                                 <option label="$" value="USD">$</option>
@@ -78,7 +77,6 @@
                         <div class="col-xs-8">
                             <label for="amount">Amount</label>
                             <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
-                                   data-encrypted-name="amount"
                                    placeholder="€" min="10" max="9000" step="any"
                                    value="25" required />
 
@@ -89,7 +87,6 @@
                         <div class="col-xs-12">
                             <label for="name">Name</label>
                             <input id="name" type="text" class="form-control input-sm"
-                                   data-encrypted-name="name"
                                    data-stripe="name"
                                    name="name"
                                    placeholder="Your Name" required />
@@ -103,7 +100,6 @@
                         <div class="col-xs-12">
                             <label for="email">Email</label>
                             <input id="email" type="email" class="form-control input-sm"
-                                   data-encrypted-name="email"
                                    name="email"
                                    placeholder="Your Email Address" required />
 
@@ -113,7 +109,6 @@
                         </div>
                     </div>
                     <input id="platform" type="hidden"
-                           data-encrypted-name="platform"
                            name="platform"/>
                 </fieldset>
 
@@ -142,7 +137,6 @@
                 <input id="creditcard" type="text" required
                        placeholder="Credit Card Number"
                        class="form-control input-sm" size="20"
-                       data-encrypted-name="number"
                        data-stripe="number"/>
                                     <script charset="utf-8" type="text/javascript">
                                     //<![CDATA[
@@ -172,12 +166,11 @@
                 <p class="help-block"></p>
             </div>
             <div class="col-xs-3">
-                <label for="cvv">CVV</label>
-                <input id="cvv" type="text" required
+                <label for="cvc">CVV</label>
+                <input id="cvc" type="text" required
                        maxlength="4"
                        placeholder="Sicherheitscode"
                        class="form-control input-sm" size="4"
-                       data-encrypted-name="cvv"
                        data-stripe="cvc"/>
 
                 <p class="help-block"></p>
@@ -185,11 +178,10 @@
         </div>
         <div class="row">
             <div class="col-xs-6">
-                <label for="month">Verfallmonat</label>
-                <select id="month" required="required"
+                <label for="exp_month">Verfallmonat</label>
+                <select id="exp_month" required="required"
                         class="form-control input-sm"
-                        data-encrypted-name="month"
-                        data-stripe="exp-month">
+                        data-stripe="exp_month">
                     <option>01</option>
                     <option>02</option>
                     <option>03</option>
@@ -207,10 +199,9 @@
                 <p class="help-block"></p>
             </div>
             <div class="col-xs-6">
-                <label for="year">Verfalljahr</label>
-                <select id="year" class="form-control input-sm"
-                        data-encrypted-name="year"
-                        data-stripe="exp-year">
+                <label for="exp_year">Verfalljahr</label>
+                <select id="exp_year" class="form-control input-sm"
+                        data-stripe="exp_year">
                     <option selected>2017</option>
                     <option>2018</option>
                     <option>2019</option>
@@ -346,7 +337,12 @@
                                     return true;
                                 }
                                 else {
-                                    Stripe.card.createToken(form,
+                                        Stripe.card.createToken({
+                                                  number: $("#creditcard").val(),
+                                                  cvc: $("#cvc").val(),
+                                                  exp_month: $("#exp_month").val(),
+                                                  exp_year: $("#exp_year").val()
+                                                },
                                             function(status, response) {
                                                   var form = $("form#payment");
                                                   if (response.error) {
