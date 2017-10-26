@@ -14,6 +14,7 @@
     Copy the authorization code into the login prompt in Cyberduck to complete authentication.
 </p>
 <p>
+    <p id="error" class="alert alert-warning"></p>
     <div class="form-group">
         <input id="code" class="form-control" type="text" name="code" placeholder="OAuth 2.0 Authorization Code"/>
     </div>
@@ -27,7 +28,12 @@
             if(!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
-        $("#code").val(getParameterByName("code"));
+        code = getParameterByName("code");
+        $("#code").val(code);
+        error = getParameterByName("error_description");
+        if(error != null) {
+            $("#error").text(decodeURI(error));
+        }
     </script>
 </p>
 </body>
