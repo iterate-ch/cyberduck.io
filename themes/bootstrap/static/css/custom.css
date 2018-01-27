@@ -255,3 +255,18 @@ footer a {
     max-width: 350px; /* set this to your maximum fitting width */
     width: inherit; /* will take up least amount of space */
 }
+
+.content li.list-group-item { background-color: transparent; }
+.content li.list-group-item:nth-child(odd) { background-color: #f5f5f5; }
+
+.dropdown-menu {
+    font-size: inherit;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+}
+
+.media-object.img-thumbnail:hover {
+    background-color: #777;
+}
