@@ -1,35 +1,38 @@
 {% extends "page.html" %}
 
 {% block head %}
-    {{ super() }}
-    <title>{{page.title}}</title>
+{{ super() }}
+<title>{{page.title}}</title>
 {% endblock %}
 
 {% block headerclass %}index{% endblock %}
 
 {% block banner %}
-    <div class="container">
-        <br />
-        <div class="alert alert-info alert-dismissable">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <div class="media">
-                <div class="media-left">
-                    <a href="https://mountainduck.io/">
-                        <img class="media-object" src="https://cdn.mountainduck.io/images/mountainduck_y_64.png"/>
-                    </a>
-                </div>
-                <div class="media-body">
-                    <p class="text-center">
-                        Download <strong>Mountain Duck</strong> available from <strong><a href="https://mountainduck.io/">mountainduck.io</a></strong>
-                        to mount any remote server storage as a local disk in the Finder.app on <strong>Mac</strong> and
-                        the File Explorer on <strong>Windows</strong>.
-                    </p>
-                </div>
+<div class="container">
+    <br/>
+    <div class="alert alert-info alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <div class="media">
+            <div class="media-left">
+                <a href="https://mountainduck.io/">
+                    <img class="media-object" src="//cdn.mountainduck.io/images/mountainduck_y_64.png"/>
+                </a>
+            </div>
+            <div class="media-body">
+                <p class="text-center">
+                    Download <strong>Mountain Duck</strong> available from <strong><a href="https://mountainduck.io/">mountainduck.io</a></strong>
+                    to mount any remote server storage as a local disk in the Finder.app on <strong>Mac</strong> and
+                    the File Explorer on <strong>Windows</strong>.
+                </p>
             </div>
         </div>
-        {% include "adsense.html" %}
     </div>
-    {{ super() }}
+    {% include "include/adsense.html" %}
+</div>
+{{ super() }}
+{% endblock %}
+
+{% block products %}
 {% endblock %}
 
 {% block brand %}
@@ -37,27 +40,28 @@
 {% endblock %}
 
 {% block jumbotron %}
-    {{ super() }}
-    <!--  Jumbotron -->
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center">
-                    <img src="//cdn.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
-                         width="384" height="384" title="Cyberduck"/>
+{{ super() }}
+<!--  Jumbotron -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="//cdn.cyberduck.io/img/cyberduck-icon-384.png" class="img-responsive"
+                     width="384" height="384" title="Cyberduck"/>
 
-                    <br />
-                    <br />
+                <br/>
+                <br/>
 
-                    <p>
-                        <a href="https://update.cyberduck.io/windows/Cyberduck-Installer-6.3.5.27408.exe"
-                           class="btn btn-default btn-lg" style="width:260px"
-                           rel="tooltip" data-placement="top" data-html="true"
-                           title="<strong>Cyberduck-Installer-6.3.5.27408.exe</strong><br /><i>10 Jan 2018</i><br /><strong>Version 6.3.5</strong><br /><br />Windows 7 or later required."
-                           onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-6.3.5.27408.exe']);">
+                <p>
+                    <a href="https://update.cyberduck.io/windows/Cyberduck-Installer-6.3.5.27408.exe"
+                       class="btn btn-default btn-lg" style="width:260px"
+                       rel="tooltip" data-placement="top" data-html="true"
+                       title="<strong>Cyberduck-Installer-6.3.5.27408.exe</strong><br /><i>10 Jan 2018</i><br /><strong>Version 6.3.5</strong><br /><br />Windows 7 or later required."
+                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-6.3.5.27408.exe']);">
                             <span class="media text-left">
                                 <span class="pull-right">
-                                    <img src="//cdn.cyberduck.io/img/English_wstore_rev_black_40x40.png" width="32" height="28"/>
+                                    <img src="//cdn.cyberduck.io/img/English_wstore_rev_black_40x40.png" width="32"
+                                         height="28"/>
                                 </span>
                                 <span class="media-body">
                                     <strong>
@@ -67,20 +71,21 @@
                                     Cyberduck for Windows.
                                 </span>
                             </span>
-                        </a>
-                    </p>
-                    <p>
-                        <a href="/windowsstore">
-                            <img style="width:260px" class="img-rounded"
-                                 src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png" alt="Cyberduck on Windows App Store" />
-                        </a>
-                    </p>
-                    <p>
-                        <a href="https://update.cyberduck.io/Cyberduck-6.3.4.27404.zip"
-                           class="btn btn-default btn-lg" style="width:260px"
-                           rel="tooltip" data-placement="bottom" data-html="true"
-                           title="<strong>Cyberduck-6.3.4.27404.zip</strong><br /><i>10 Jan 2018</i><br /><strong>Version 6.3.4</strong><br /><br />OS X 10.7 or later on 64bit Intel required."
-                           onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-6.3.4.27404.zip']);">
+                    </a>
+                </p>
+                <p>
+                    <a href="/windowsstore">
+                        <img style="width:260px" class="img-rounded"
+                             src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png"
+                             alt="Cyberduck on Windows App Store"/>
+                    </a>
+                </p>
+                <p>
+                    <a href="https://update.cyberduck.io/Cyberduck-6.3.4.27404.zip"
+                       class="btn btn-default btn-lg" style="width:260px"
+                       rel="tooltip" data-placement="bottom" data-html="true"
+                       title="<strong>Cyberduck-6.3.4.27404.zip</strong><br /><i>10 Jan 2018</i><br /><strong>Version 6.3.4</strong><br /><br />OS X 10.7 or later on 64bit Intel required."
+                       onclick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-6.3.4.27404.zip']);">
                             <span class="media text-left">
                                 <span class="pull-right">
                                     <img src="//cdn.cyberduck.io/img/features_osx_large.png" width="32" height="32"/>
@@ -93,75 +98,79 @@
                                     Cyberduck for Mac.
                                 </span>
                             </span>
-                        </a>
-                    </p>
-                    <p>
-                        <a href="/appstore">
-                            <img style="width:260px" alt="Cyberduck on Mac App Store" src="//cdn.cyberduck.io/img/macappstore/badge"/>
-                        </a>
-                    </p>
+                    </a>
+                </p>
+                <p>
+                    <a href="/appstore">
+                        <img style="width:260px" alt="Cyberduck on Mac App Store"
+                             src="//cdn.cyberduck.io/img/macappstore/badge"/>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header">
+                    <h2>Cyberduck is a libre server and cloud storage browser for Mac and
+                        Windows with support for <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>,
+                        <strong>Amazon S3</strong>, <strong>OpenStack Swift</strong>, <strong>Backblaze B2</strong>,
+                        <strong>Microsoft Azure & OneDrive</strong>, <strong>Google Drive</strong> and
+                        <strong>Dropbox</strong>.
+                    </h2>
                 </div>
-                <div class="col-sm-8">
-                    <div class="page-header">
-                        <h2>Cyberduck is a libre <strong>FTP</strong>, <strong>SFTP</strong>, <strong>WebDAV</strong>, <strong>Amazon S3</strong>, <strong>OpenStack Swift</strong>, <strong>Backblaze B2</strong>, <strong>Microsoft Azure & OneDrive</strong>, <strong>Google Drive</strong> and <strong>Dropbox</strong> browser
-                            <wbr/>for Mac and Windows.
-                        </h2>
-                    </div>
 
-                    <div id="screenshots" class="showcase">
-                        <div class="showcase-slide">
-                            <div class="showcase-content">
-                                <img class="img-responsive" src="//cdn.cyberduck.io/img/mac/browser-bookmarks.png"
-                                     width="650px" height="" alt="Bookmarks"/>
-                            </div>
-
-                            <div class="showcase-thumbnail">
-                                <img src="//cdn.cyberduck.io/img/mac/browser-bookmarks-thumb.png" width="140px"
-                                     height="125px"
-                                     alt="Thumbnail"/>
-
-                                <div class="showcase-thumbnail-cover"></div>
-                            </div>
+                <div id="screenshots" class="showcase">
+                    <div class="showcase-slide">
+                        <div class="showcase-content">
+                            <img class="img-responsive" src="//cdn.cyberduck.io/img/mac/browser-bookmarks.png"
+                                 width="650px" height="" alt="Bookmarks"/>
                         </div>
-                        <div class="showcase-slide">
-                            <div class="showcase-content">
-                                <img class="img-responsive" src="//cdn.cyberduck.io/img/mac/browser.png"
-                                     width="650px" alt="Browser"/>
-                            </div>
-                            <div class="showcase-thumbnail">
-                                <img src="//cdn.cyberduck.io/img/mac/browser-thumb.png" width="140px"
-                                     alt="Thumbnail"/>
 
-                                <div class="showcase-thumbnail-cover"></div>
-                            </div>
-                        </div>
-                        <div class="showcase-slide">
-                            <div class="showcase-content">
-                                <img class="img-responsive"
-                                     src="//cdn.cyberduck.io/img/windows/browser-bookmarks.png" width="600px"
-                                     alt="Bookmarks"/>
-                            </div>
-                            <div class="showcase-thumbnail">
-                                <img src="//cdn.cyberduck.io/img/windows/browser-bookmarks-thumb.png" width="140px"
-                                     alt="Thumbnail"/>
+                        <div class="showcase-thumbnail">
+                            <img src="//cdn.cyberduck.io/img/mac/browser-bookmarks-thumb.png" width="140px"
+                                 height="125px"
+                                 alt="Thumbnail"/>
 
-                                <div class="showcase-thumbnail-cover"></div>
-                            </div>
-                        </div>
-                        <div class="showcase-slide">
-                            <div class="showcase-content">
-                                <img class="img-responsive" src="//cdn.cyberduck.io/img/windows/browser.png"
-                                     width="600px" alt="Browser"/>
-                            </div>
-                            <div class="showcase-thumbnail">
-                                <img src="//cdn.cyberduck.io/img/windows/browser-thumb.png" width="140px"
-                                     alt="Thumbnail"/>
-
-                                <div class="showcase-thumbnail-cover"></div>
-                            </div>
+                            <div class="showcase-thumbnail-cover"></div>
                         </div>
                     </div>
-                    <script type="text/javascript">
+                    <div class="showcase-slide">
+                        <div class="showcase-content">
+                            <img class="img-responsive" src="//cdn.cyberduck.io/img/mac/browser.png"
+                                 width="650px" alt="Browser"/>
+                        </div>
+                        <div class="showcase-thumbnail">
+                            <img src="//cdn.cyberduck.io/img/mac/browser-thumb.png" width="140px"
+                                 alt="Thumbnail"/>
+
+                            <div class="showcase-thumbnail-cover"></div>
+                        </div>
+                    </div>
+                    <div class="showcase-slide">
+                        <div class="showcase-content">
+                            <img class="img-responsive"
+                                 src="//cdn.cyberduck.io/img/windows/browser-bookmarks.png" width="600px"
+                                 alt="Bookmarks"/>
+                        </div>
+                        <div class="showcase-thumbnail">
+                            <img src="//cdn.cyberduck.io/img/windows/browser-bookmarks-thumb.png" width="140px"
+                                 alt="Thumbnail"/>
+
+                            <div class="showcase-thumbnail-cover"></div>
+                        </div>
+                    </div>
+                    <div class="showcase-slide">
+                        <div class="showcase-content">
+                            <img class="img-responsive" src="//cdn.cyberduck.io/img/windows/browser.png"
+                                 width="600px" alt="Browser"/>
+                        </div>
+                        <div class="showcase-thumbnail">
+                            <img src="//cdn.cyberduck.io/img/windows/browser-thumb.png" width="140px"
+                                 alt="Thumbnail"/>
+
+                            <div class="showcase-thumbnail-cover"></div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
                         //<![CDATA[
                         $(document).ready(function () {
                             selected = 0;
@@ -189,17 +198,34 @@
                                     });
                         });
                         //]]>
-                    </script>
-                </div>
+
+
+                </script>
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    {{ super() }}
+<section id="content">
+    <section id="products">
+        {% include "include/products.html" %}
+    </section>
+    {{ page.content }}
+</section>
+{% endblock %}
+
+{% block social %}
+<section id="social">
+    {% include "include/social.html" %}
+</section>
 {% endblock %}
 
 {% block footer %}
-    {{ super() }}
+<section id="open">
+    {% include "include/open.html" %}
+</section>
+
+{{ super() }}
 {% endblock %}

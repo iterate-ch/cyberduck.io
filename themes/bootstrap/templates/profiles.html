@@ -1,0 +1,8 @@
+{% extends "page.html" %}
+
+{% block content %}
+    {{ super() }}
+    <div class="dropdown">
+        {% include "include/protocols.html" %}
+    </div>
+{% endblock %}

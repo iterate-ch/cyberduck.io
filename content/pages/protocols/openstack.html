@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>OpenStack Swift</title>
+        <meta name="slug" content="openstack"/>
+        <meta name="lang" content="en"/>
+        <meta name="status" content="hidden"/>
+        <meta name="template" content="protocol"/>
+    </head>
+    <body>
+        <div class="media">
+            <div class="media-body">
+                <h2>OpenStack Swift
+                    <small>
+                        The best client to connect to many new OpenStack Swift deployments. Use <a
+                            href="https://mountainduck.io/">Mountain
+                        Duck</a> to mount containers right to your desktop.
+                    </small>
+                </h2>
+                <p>
+                    All major authentication methods of OpenStack Identity Service with username, password, access keys
+                    and tenants are supported. Multiple Region support listing containers from all available regions.
+                </p>
+                <p>
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/openstack">Documentation</a>
+                </p>
+                <h3>Connection Profiles</h3>
+                <ul class="list-unstyled alert alert-info">
+                    <li><strong>Legacy authentication</strong>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.ch/trunk/profiles/Openstack%20Swift%20(v1).cyberduckprofile">Download</a>
+                            <em>Openstack Swift (v1)</em> profile for preconfigured settings
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Authentication with Keystone 2.0</strong>
+                        <p>
+                            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> <em>The connection
+                            profile is
+                            bundled by default.</em>
+                        </p>
+                    </li>
+                    <li><strong>Authentication with Keystone 3.0</strong>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.ch/trunk/profiles/Openstack%20Swift%20(Keystone%203).cyberduckprofile">Download</a>
+                            <em>Openstack Swift (Keystone 3)</em> profile for preconfigured settings
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="media-right">
+                <img src="/img/swift.png" width="256px">
+            </div>
+        </div>
+        <h3>Features</h3>
+        <div class="alert alert-warning">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Large object uploads</strong><br>
+                        Resumable dynamic segmented part uploads for files larger than 5GB. Large uploads can be resumed
+                        when interrupted and make use of multiple concurrent connections for faster transfer rates.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Temporary URLs</strong><br>
+                        A private object stored in OpenStack Swift can be made publicly available for a limited time
+                        using a
+                        signed URL. The signed URL can be used by anyone to download the object, yet it includes a date
+                        and
+                        time after which the URL will no longer work. Copy the signed URL from <em>Edit → Copy URL→
+                            Signed
+                            URL</em>.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>CDN</strong><br>
+                        You can CDN enable the container using <em>File → Info → Distribution (CDN)</em> if supported by
+                        the
+                        provider. </p>
+                </div>
+            </div>
+        </div>
+        <h3>Providers</h3>
+        <p class="alert alert-warning">
+            We do not endorse any particular provider. This list is in not exhaustive and in no particular order.
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Rackspace Cloud Files (US)
+
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <p>
+                                        Manage your <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Rackspace
+                                        Cloud
+                                        Files</a>
+                                        storage including the configuration of <a
+                                            href="https://trac.cyberduck.io/wiki/help/en/howto/akamai/">Akamai
+                                        content delivery network (CDN)</a> with support to toggle on access logs for <a
+                                            href="https://qloudstat.com">Qloudstat</a>.</p>
+
+                                    </p>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                                    The connection profile is bundled by default.</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media-body">
+                            <div class="media-heading">
+                                <h3>Rackspace Cloud Files (UK)
+
+                                    <span>🇬🇧</span>
+                                </h3>
+                            </div>
+                            <p>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href=https://svn.cyberduck.io/trunk/profiles/Rackspace%20UK.cyberduckprofile>Download</a>
+                                <em>Rackspace Cloud Files UK (LON region)</em> connection profile
+                            </p>
+                        </div>
+                        <div class="media-right">
+                            <img class="media-object" width="128px" src="/img/providers/rackspace.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img class="img-responsive" src="/img/screenshots/screenshot-openstack.png"/>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="media-heading">
+                            <h3>SwiftStack
+
+                            </h3>
+                            <blockquote>
+                                <p>​SwiftStack makes OpenStack Swift enterprise-ready with dramatically simplified
+                                    deployment, management, and monitoring capabilities for object storage.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="http://files.swiftstack.com/OpenStack%20Swift%20Auth%20v2.0%20(SwiftStack%20HTTP).cyberduckprofile">Download</a>
+                            ​OpenStack Swift Auth v2.0 (SwiftStack HTTP)
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="http://files.swiftstack.com/OpenStack%20Swift%20Auth%20v2.0%20(SwiftStack%20HTTPS).cyberduckprofile">Download</a>
+                            ​OpenStack Swift Auth v2.0 (SwiftStack HTTP)
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                            <a href="https://trac.cyberduck.io/wiki/help/en/howto/swiftstack">Documentation</a>
+                        </p>
+                    </div>
+                    <div class="media-right">
+                        <img class="media-object" width="128px" src="/img/providers/swiftstack.png">
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="media-heading">
+                            <h3>Oracle Cloud Infrastructure Storage Classic
+                                <span>🇺🇸</span>
+                            </h3>
+                            <blockquote>
+                                <p>
+                                    ​Oracle Storage Cloud Service is a secure, scalable, reliable, and on-demand public
+                                    cloud storage solution. Businesses can access additional storage capacity in minutes
+                                    with zero hardware investment. The Oracle Storage Cloud Service can be accessed from
+                                    anywhere, at anytime, and from any device connected to the Internet.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.io/trunk/profiles/Oracle%20Storage%20Cloud.cyberduckprofile">Download</a>
+                            connection profile
+                        </p>
+                        <div class="thumbnail">
+                            <img class="img-responsive" src="/img/screenshots/screenshot-oraclecloud.png"/>
+                        </div>
+                        <p>
+                            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                            <a href="https://trac.cyberduck.io/wiki/help/en/howto/oraclecloud">Documentation</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>IBM Object Storage for Bluemix
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>IBM Object Storage for Bluemix provides you with access to a fully provisioned Swift Object Storage account to manage your data.</p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.ch/trunk/profiles/Openstack%20Swift%20(Keystone%203).cyberduckprofile">Download</a>
+                                    Openstack Swift (Keystone 3) connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/bluemix">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Memset Memstore Object Storage</h3>
+                                    <blockquote>
+                                        <p>Memset Memstore is an exciting new long term storage solution. Based on the
+                                            OpenStack
+                                            Object Storage platform, combined with our own impressive infrastructure,
+                                            Memstore™
+                                            is flexible, scalable, easy to use and secure. We take care of the details
+                                            from disk
+                                            space to backups; you simply drag and drop your files and leave everything
+                                            else to
+                                            us. You only pay for what you use, whether that be 1GB or 1TB, and there are
+                                            no
+                                            license fees or hidden costs. Data replication means that your data is
+                                            unaffected by
+                                            hardware failures and you can sleep soundly knowing your data is safe with
+                                            us. </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Memset%20(Keystone).cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/memset">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Cloud-A
+
+                                        <span>🇨🇦</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>Cloud-A is a leading provider of public cloud Infrastructure based in Canada.
+                                            Our
+                                            products automate & simplify the installation and management of the hardware
+                                            and
+                                            software that provides the infrastructure for large scale environments
+                                            having
+                                            hundreds
+                                            or thousands of servers supporting high performance compute applications.
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/clouda">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Enter Cloud Suite
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>Object storage implementation is powered by SwiftStack.</p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Enter%20Cloud%20Suite.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/entercloudsuite">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Dell EMC Elastic Cloud Storage (ECS)
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>
+                                            Software-defined object storage designed for both traditional and next-generation
+                                            workloads with unmatched scalability, flexibility and resiliency.
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://developer-content.emc.com/downloads/jive_attach_proxy.htm?ecnCommID=3939&ecnCommName=ECS%20-%20Elastic%20Cloud%20Storage&ecnAttachmentName=EMC%20ECS%20Swift%20(HTTPS).cyberduckprofile&ecnContainerURL=/docs/DOC-27683&reqURL=/servlet/JiveServlet/download/27683-11-131342/EMC%20ECS%20Swift%20(HTTPS).cyberduckprofile">Download</a>
+                                    EMC ECS S3 (HTTPS with AWS2)
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://developer-content.emc.com/downloads/jive_attach_proxy.htm?ecnCommID=3939&ecnCommName=ECS%20-%20Elastic%20Cloud%20Storage&ecnAttachmentName=EMC%20ECS%20S3%20(HTTPS%20with%20AWS2).cyberduckprofile&ecnContainerURL=/docs/DOC-27683&reqURL=/servlet/JiveServlet/download/27683-11-131318/EMC%20ECS%20S3%20(HTTPS%20with%20AWS2).cyberduckprofile">Download</a>
+                                    EMC ECS Swift (HTTPS)
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/emc">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>OVH Public Cloud Storage
+
+                                        <span>🇫🇷</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>hubiC, the online storage solution, was developed by the OVH group, a French
+                                            company
+                                            specialised in data hosting. Datacentres in France: Roubaix, Gravelines and
+                                            Strasbourg.</p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/hubiC.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/hubic">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Selectel Cloud Storage
+                                        <span>🇷🇺</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>Secure and reliable data storage</p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Selectel%20Cloud%20Storage.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/selectel">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Cloudwatt
+                                        <span>🇫🇷</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>Un cloud de stockage sécurisé et performant basé en France.
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="http://support.cloudwatt.com/kb/faq/stockage-objet/Cloudwatt.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/cloudwatt">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Zetta.IO
+                                        <span>🇳🇴</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p> While most of the big cloud players in the world are U.S.-based, Zetta.IO is
+                                            a
+                                            Norwegian company with Norwegian owners, operating under strict Norwegian
+                                            privacy
+                                            laws.
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Zetta.IO.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/zetta">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

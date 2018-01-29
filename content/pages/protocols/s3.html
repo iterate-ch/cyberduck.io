@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Amazon S3</title>
+        <meta name="slug" content="s3"/>
+        <meta name="lang" content="en"/>
+        <meta name="status" content="hidden"/>
+        <meta name="template" content="protocol"/>
+    </head>
+    <body>
+        <div class="media">
+            <div class="media-body">
+                <h2>Amazon S3
+                    <small>
+                        S3 for the rest of us. Browse Amazon Simple Storage Service like your harddisk. Supporting the
+                        latest and greatest
+                        additions to the S3 storage options. Define website endpoints, enable access logging, configure
+                        storage class, encryption and lifecycle (Glacier). Use <a href="https://mountainduck.io/">Mountain
+                        Duck</a> to mount S3 buckets to your desktop.
+                    </small>
+                </h2>
+                <p>
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Documentation</a>
+                </p>
+                <h3>Generic connection profiles for third party providers</h3>
+                <ul class="list-unstyled alert alert-info">
+                    <li><strong>Authentication with signature version AWS4-HMAC-SHA256</strong>
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/S3%20(HTTP).cyberduckprofile">Download</a>
+                                <em>S3 (HTTP)</em> connection profile for preconfigured settings
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                                <em>S3 (HTTPS)</em> connection profile is bundled by default.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Authentication with signature version AWS2</strong>
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/S3%20AWS2%20Signature%20Version%20(HTTP).cyberduckprofile">Download</a>
+                                <em>S3 AWS2 Signature Version (HTTP)</em> connection profile for preconfigured settings
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/S3%20AWS2%20Signature%20Version%20(HTTPS).cyberduckprofile">Download</a>
+                                <em>S3 AWS2 Signature Version (HTTPS)</em> connection profile for preconfigured settings
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Amazon S3 China (Beijing) 🇨🇳</strong>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.io/trunk/profiles/S3%20China%20(Beijing).cyberduckprofile">Download</a>
+                            <em>AWS China (Beijing)</em> connection profile for preconfigured settings
+                        </p>
+                    </li>
+                    <li>
+                        <strong>AWS GovCloud 🇺🇸 </strong>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.io/trunk/profiles/S3%20China%20(Beijing).cyberduckprofile">Download</a>
+                            <em>AWS GovCloud</em> connection profile for preconfigured settings
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="media-right">
+                <img src="/img/s3.png" width="256px">
+            </div>
+        </div>
+        <h3>Features</h3>
+        <div class="alert alert-warning">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> <strong>Versioning
+                        and MFA</strong><br>
+                        Support for bucket versioning and Multi-Factor Authentication Delete. With versioning enabled,
+                        revert to
+                        any previous version of a file.</p>
+                </div>
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>ACL</strong><br>
+                        Configure Access Control Lists (ACLs) for fine grained access permissions. Copy a signed URL for
+                        temporary access.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Bucket Lifecycle Configuration</strong><br>
+                        Configure S3 to archive objects in Glacier.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Metadata</strong><br>
+                        You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and
+                        control
+                        cache expire settings. Batch editing included.</p>
+                </div>
+            </div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="media-heading">
+                            <h3>Minio Cloud Storage
+                            </h3>
+                            <p>
+                                <a href="https://minio.io/">​Minio</a> is an object storage server built for cloud
+                                application developers and
+                                devops.
+                                Launch your own Amazon S3 compatible object storage server in few seconds.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    Minio is an open source object storage server with Amazon S3 compatible API.
+                                    Build cloud-native applications portable across all major public and private
+                                    clouds.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <p>
+                            <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                            Use the generic connection profiles for third party providers.
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                            <a href="https://trac.cyberduck.io/wiki/help/en/howto/minio">Documentation</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <h3>Providers</h3>
+        <p class="alert alert-warning">
+            We do not endorse any particular provider. This list is in not exhaustive and in no particular order.
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Wasabi Storage
+                                        <small><span class="label label-primary">S3</span></small>
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>One simple storage solution that is faster than Amazon S3 yet cheaper
+                                            than Amazon
+                                            Glacier. Wasabi's immutable buckets protect you against most common
+                                            causes of
+                                            data
+                                            loss.
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Wasabi.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/wasabi">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>DreamObjects Cloud Storage
+                                        <small><span class="label label-primary">S3</span></small>
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>​DreamObjects is a cost-effective, public cloud storage service built on
+                                            top of the
+                                            open source technology ​Ceph. It is compatible with the APIs of Amazon
+                                            S3 and Swift
+                                            based object storage services.
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/DreamObjects.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/dreamobjects">Documentation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>DigitalOcean Spaces
+                                        <small><span class="label label-primary">S3</span></small>
+                                        <span>🇺🇸</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>
+                                            ​Spaces, a beautifully simple and scalable object storage service.
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/DigitalOcean%20Spaces%20(nyc3).cyberduckprofile">Download</a>
+                                    connection profile (Region NYC3)
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/DigitalOcean%20Spaces%20(ams3).cyberduckprofile">Download</a>
+                                    connection profile (Region AMS3)
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/digitalocean">Documentation</a>
+                                </p>
+                            </div>
+                            <div class="media-right">
+                                <img class="media-object" width="128px" src="/img/providers/digitaloceanspaces.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Dunkel Cloud Storage
+                                        <small><span class="label label-primary">S3</span></small>
+                                        <span>🇩🇪</span>
+                                    </h3>
+                                    <blockquote>
+                                        <p>Dunkel Cloud Storage (DCS) ist ein Objekt-Storage mit redundanter
+                                            Datenspeicherung in
+                                            deutschen Rechenzentren.</p>
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/Dunkel%20Cloud%20Storage.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/dunkel">Documentation</a>
+                                </p>
+                            </div>
+                            <div class="media-right">
+                                <img class="media-object" width="128px" src="/img/providers/dunkelcloudstorage.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="media-heading">
+                                    <h3>Exoscale Swiss Object Store
+                                        <small><span class="label label-primary">S3</span></small>
+                                        <span>🇨🇭</span>
+                                    </h3>
+                                    <blockquote>
+                                        A safe object storage service for all your needs, with Swiss privacy and
+                                        quality.
+                                        Provides S3 API compatibility layer.
+                                    </blockquote>
+                                </div>
+                                <p>
+                                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                    <a href="https://svn.cyberduck.io/trunk/profiles/exoscale.cyberduckprofile">Download</a>
+                                    connection profile
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/exoscale">Documentation</a>
+                                </p>
+                            </div>
+                            <div class="media-right">
+                                <img class="media-object" width="128px" src="/img/providers/exoscale.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="media-heading">
+                            <h3>Oracle Cloud Infrastructure (OCI) Object Storage
+                                <span>🇺🇸</span>
+                            </h3>
+                            <blockquote>
+                                <p>Oracle Cloud Infrastructure (OCI) provides secure, infinitely scalable, reliable, and
+                                    on-demand public cloud storage solutions. Businesses can access additional storage
+                                    capacity in minutes with zero hardware investment. The Oracle Cloud Infrastructure
+                                    can be accessed from anywhere, at anytime, and from any device connected to the
+                                    Internet. </p>
+                            </blockquote>
+                            <p>
+                                <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                <a href="https://trac.cyberduck.io/wiki/help/en/howto/oraclecloud">Documentation</a>
+                            </p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/OCI%20Object%20Storage%20(us-phoenix-1).cyberduckprofile">Download</a>
+                                OCI Object Storage (us-phoenix-1) connection profile
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/OCI%20Object%20Storage%20(us-ashburn-1).cyberduckprofile">Download</a>
+                                OCI Object Storage (us-ashburn-1) connection profile
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/OCI%20Object%20Storage%20(eu-frankfurt-1).cyberduckprofile">Download</a>
+                                OCI Object Storage (eu-frankfurt-1) connection profile
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

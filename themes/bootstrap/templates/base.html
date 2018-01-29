@@ -1,72 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {% block head %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="{{ AUTHOR }}">
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="{{ AUTHOR }}">
 
-    <meta name="google-site-verification" content="1Wgv1h7B1ehNr5VEsM0p-pFzM4nxYS1yJuKhbT2LTe4"/>
-    <meta property="twitter:account_id" content="4503599630547449" />
-    <link rel="shortcut icon" href="//cdn.cyberduck.io/favicon.ico">
+        <meta name="google-site-verification" content="1Wgv1h7B1ehNr5VEsM0p-pFzM4nxYS1yJuKhbT2LTe4"/>
+        <meta property="twitter:account_id" content="4503599630547449"/>
+        <link rel="shortcut icon" href="//cdn.cyberduck.io/favicon.ico">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Styles -->
-    <link href="//cdn.cyberduck.io/css/custom.css" rel="stylesheet">
+        <!-- Styles -->
+        <link href="/css/custom.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="//cdn.cyberduck.io/css/style.aw-showcase.css"/>
-    <script type="text/javascript" src="//cdn.cyberduck.io/js/jquery.aw-showcase.min.js"></script>
+        <link rel="stylesheet" href="//cdn.cyberduck.io/css/style.aw-showcase.css"/>
+        <script type="text/javascript" src="//cdn.cyberduck.io/js/jquery.aw-showcase.min.js"></script>
 
-    <script src="//cdn.cyberduck.io/js/ga.js"></script>
-    <script src="//cdn.cyberduck.io/js/custom.js"></script>
+        <script src="//cdn.cyberduck.io/js/ga.js"></script>
+        <script src="//cdn.cyberduck.io/js/custom.js"></script>
 
-    <script src="//cdn.cyberduck.io/js/jquery.form.min.js"></script>
+        <script src="//cdn.cyberduck.io/js/jquery.form.min.js"></script>
 
-    <link rel="alternate" hreflang="en" href="?l=en" />
-    <link rel="alternate" hreflang="de" href="?l=de" />
-    <link rel="alternate" hreflang="ja" href="?l=ja" />
+        <link rel="alternate" hreflang="en" href="?l=en"/>
+        <link rel="alternate" hreflang="de" href="?l=de"/>
+        <link rel="alternate" hreflang="ja" href="?l=ja"/>
 
-    <script>
+        <script>
         $(function () {
           $('[data-toggle="tooltip"]').tooltip()
         })
-    </script>
 
-    {% include "analytics.html" %}
-    {% endblock %}
-</head>
-<body>
-    <header class="{% block headerclass %}{% endblock %}">
-        {% block banner %}
+
+
+
+        </script>
+
+        {% include "include/analytics.html" %}
         {% endblock %}
-        {% block navigation %}
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container-fluid">
+    </head>
+    <body>
+        <header class="{% block headerclass %}{% endblock %}">
+            {% block banner %}
+            {% endblock %}
+            {% block navigation %}
+            <div class="container">
+                <nav class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
                         {% block brand %}
-                            <a class="navbar-brand" href="{{ SITEURL }}">
-                                <img src="//cdn.cyberduck.io/img/cyberduck-icon-128.png" class="img-responsive" width="64px" height="64px" title="Icon">
-                            </a>
-                    {% endblock %}
+                        <a class="navbar-brand" href="{{ SITEURL }}">
+                            <img src="//cdn.cyberduck.io/img/cyberduck-icon-64.png" class="img-responsive"
+                                 width="64px" height="64px" title="Cyberduck">
+                        </a>
+                        <!--<a class="navbar-brand" href="https://mountainduck.io/">-->
+                        <!--<img src="//cdn.mountainduck.io/images/mountainduck_bw_512.png" class="img-responsive" width="64px" height="64px" title="Mountain Duck">-->
+                        <!--</a>-->
+                        <!--<a class="navbar-brand" href="https://duck.sh/">-->
+                        <!--<img src="//cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png" class="img-responsive" width="64px" height="64px" title="CLI">-->
+                        <!--</a>-->
+                        {% endblock %}
                     </div>
 
                     <div class="collapse navbar-collapse">
@@ -81,7 +93,8 @@
                             {% endif %}
                             {% for cat, null in categories %}
                             <li>
-                                {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat}}</a>
+                                {% if cat == category %}class="active"{% endif %}><a
+                                    href="{{ SITEURL }}/{{ cat.url }}">{{ cat}}</a>
                             </li>
                             {% endfor %}
 
@@ -91,19 +104,18 @@
                             <li>
                                 <a class="navbar-link" href="https://trac.cyberduck.io">Development</a>
                             </li>
-                            <li>
-                                <a class="navbar-link" href="https://duck.sh">CLI</a>
-                            </li>
-                            <li>
-                                <a class="navbar-link" href="https://mountainduck.io">Mountain Duck</a>
-                            </li>
-                            <li>
+                            <li style="border-right: none">
                                 <a class="navbar-link" href="https://help.cyberduck.io">Help</a>
                             </li>
-
+                            {% block protocols %}
+                            <li style="border-right: none" class="dropdown">
+                                {% include "include/protocols.html" %}
+                            </li>
+                            {% endblock %}
                             <li>
                                 <a class="navbar-link" href="/donate">
-                                    <button class="btn btn-success" rel="tooltip" data-placement="bottom" data-container="body"
+                                    <button class="btn btn-success" rel="tooltip" data-placement="bottom"
+                                            data-container="body"
                                             data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
                                         Donate
                                     </button>
@@ -111,29 +123,35 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
-        </div>
-        {% endblock %}
-        {% block jumbotron %}
-        {% endblock %}
-    </header>
+                </nav>
+            </div>
+            {% endblock %}
+            {% block jumbotron %}
+            {% endblock %}
+        </header>
 
-    <div class="container">
-        <div class="content">
-            {% block lang %}
-                <ul id="lang">
-                    <li>
-                        <small><a href="?l=en">English</a></small>
-                    </li>
-                    <li>
-                        <small><a href="?l=ja">日本語</a></small>
-                    </li>
-                    <li>
-                        <small><a href="?l=de">Deutsch</a></small>
-                    </li>
-                </ul>
-                <script charset="utf-8" type="text/javascript">
+        {% block products %}
+        <section id="products">
+            {% include "include/products.html" %}
+        </section>
+        {% endblock %}
+
+        <section id="lang">
+            <div class="container">
+                {% block lang %}
+                <div class="text-left">
+                    <ul>
+                        <li>
+                            <small><a href="?l=en">English</a></small>
+                        </li>
+                        <li>
+                            <small><a href="?l=ja">日本語</a></small>
+                        </li>
+                        <li>
+                            <small><a href="?l=de">Deutsch</a></small>
+                        </li>
+                    </ul>
+                    <script charset="utf-8" type="text/javascript">
                     //<![CDATA[
                     $(document).ready(function () {
                         $("#lang a").click(function () {
@@ -142,32 +160,35 @@
                         });
                     });
                     //]]>
-                </script>
-            {% endblock %}
-            {% block content %}
-            {% endblock %}
-        </div>
-    </div>
+                    </script>
+                </div>
+                {% endblock %}
+            </div>
+        </section>
 
-    <footer>
-        {% block footer %}
+        {% block content %}
         {% endblock %}
-    </footer>
 
-    <div class="container">
-        <div class="content">
-            <p>
-                <span class="media-left">
-                    <img width="122px" height="16px" src="//cdn.cyberduck.io/img/sms-logo-small-footer.png" alt="swiss made software"/>
-                </span>
-                <span class="text-right">
-                    <small><a href="https://github.com/iterate-ch/cyberduck">GitHub</a></small> |
-                    <small><a href="/license">License</a></small> |
-                    <small><a href="/acknowledgements">Acknowledgements</a></small> | 
-                    <small>Copyright 2017 <a href="https://iterate.ch">iterate GmbH</a></small>
-                </span>
-            </p>
-        </div>
-    </div>
-</body>
+        {% block social %}
+        {% endblock %}
+
+        <footer>
+            {% block footer %}
+            {% endblock %}
+            <div class="container">
+                <p>
+                    <span class="media-left">
+                        <img width="122px" height="16px" src="//cdn.cyberduck.io/img/sms-logo-small-footer.png"
+                             alt="swiss made software"/>
+                    </span>
+                    <span>
+                        <small><a href="https://github.com/iterate-ch/cyberduck">GitHub</a></small> |
+                        <small><a href="/license">License</a></small> |
+                        <small><a href="/acknowledgements">Acknowledgements</a></small> | 
+                        <small>Copyright 2018 <a href="https://iterate.ch">iterate GmbH</a></small>
+                    </span>
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Microsoft Azure</title>
+        <meta name="slug" content="azure"/>
+        <meta name="lang" content="en"/>
+        <meta name="status" content="hidden"/>
+        <meta name="template" content="protocol"/>
+    </head>
+    <body>
+        <div class="media">
+            <div class="media-body">
+                <h2>Microsoft Azure
+                    <small>
+                        Connect to Azure Blob Storage with ease.
+                    </small>
+                </h2>
+                <p class="alert alert-info">
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/azure">Documentation</a>
+                </p>
+            </div>
+            <div class="media-right">
+                <img src="/img/azure.png" width="256px">
+            </div>
+        </div>
+        <h3>Features</h3>
+        <p>
+            Supports features such as editing metadata, editing ACLs on containers and copying shared signature
+            URLs for giving temporary access to users with a time limited signed URL to files in a container.
+        </p>
+        <div class="alert alert-warning">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Access Control (ACL)</strong><br>
+                        Edit ACLs in <i>File → Info (⌘-I) → Permissions</i>. To make objects in a container publicly
+                        accessible,
+                        choose <i>Everyone → READ</i>.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>Shared Access Signature URLs</strong><br>
+                        A private object stored in Azure Storage can be made publicly available for a limited time using
+                        a signed URL. The signed URL can be used by anyone to download the object, yet it includes a
+                        date and time after which the URL will no longer work. Copy the signed URL from Edit → Copy URL→
+                        Signed URL.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img class="img-responsive" src="/img/screenshots/screenshot-azure-contextmenu.png"/>
+        </div>
+    </body>
+</html>

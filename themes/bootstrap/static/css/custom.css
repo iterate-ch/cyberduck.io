@@ -31,14 +31,6 @@ body > header.default {
     background-color: #eee;
 }
 
-a {
-    color: inherit;
-}
-
-:link, :visited {
-    color: #428bca;
-}
-
 a:hover, a:focus {
     text-decoration: none;
     color: #2c2c2c;
@@ -136,7 +128,6 @@ body {
     /*font-family: "Cardo",sans-serif;*/
     font-family: "Droid Sans", sans-serif;
     font-size: 18px;
-    radial-gradient(circle farthest-corner at right bottom,#fad037 0,#f9326c 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -147,18 +138,36 @@ h1, h2, h3, h4, h5, h6 {
 body > footer, body > #page > footer {
     min-height: 50px;
     background-color: #66666a;
-    color: #ddd;
-    margin: 20px 0 10px 0;
-    padding: 10px 0 10px 0;
+    color: #fff;
 }
 
 body > footer :link, body > footer :visited, body > #page > footer :link, body > #page > footer :visited {
     color: #fff;
 }
 
-body > footer a:hover, body > #page > footer a:hover {
+body > footer a:hover, body > footer a, body > footer a:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+body > footer small {
+    color: #fff;
+}
+
+body section#social {
+    background: radial-gradient(circle farthest-corner at left top, #fad037 0, #fff 100%);
+}
+
+body section#products {
+    background-color: #fad037;
+}
+
+body section#protocols {
+    background: radial-gradient(circle farthest-corner at right bottom, #ccc 0, #fff 100%);
+}
+
+body section#cryptomator {
+    background: radial-gradient(circle farthest-corner at right bottom, #a2c94d 0, #ddd 100%);
 }
 
 nav .alert {
@@ -265,8 +274,25 @@ footer a {
 
 .img-thumbnail {
     background-color: transparent;
+    max-width: none;
 }
 
-.media-object.img-thumbnail:hover {
-    background-color: #777;
+.media-object {
+    max-width: none;
+}
+
+section#protocols .media-body p {
+    font-size: 15px;
+}
+
+a.img-thumbnail {
+    border-color: transparent;
+}
+a.img-thumbnail:hover {
+    border-color: #ddd;
+    background: #fff;
+}
+
+a .media:hover {
+
 }
