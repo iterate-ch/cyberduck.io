@@ -139,6 +139,8 @@ body > footer, body > #page > footer {
     min-height: 50px;
     background-color: #66666a;
     color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body > footer :link, body > footer :visited, body > #page > footer :link, body > #page > footer :visited {
