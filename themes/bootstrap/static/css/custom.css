@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 body > header.index {
-    background: radial-gradient(circle farthest-corner at right bottom, #fad037 0, #fff 100%);
+    background: radial-gradient(circle farthest-corner at right bottom, #ffd54f 0, #fff 100%);
 }
 
 body > header.default {
@@ -135,25 +135,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-body > footer, body > #page > footer {
+body > footer {
     min-height: 50px;
-    background-color: #66666a;
-    color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-body > footer :link, body > footer :visited, body > #page > footer :link, body > #page > footer :visited {
-    color: #fff;
-}
-
-body > footer a:hover, body > footer a, body > footer a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-body > footer small {
-    color: #fff;
+    font-size: 70%;
 }
 
 body section#social {
@@ -161,7 +147,7 @@ body section#social {
 }
 
 body section#products {
-    background-color: #fad037;
+    background-color: #ffd54f;
 }
 
 body section#protocols {
@@ -254,10 +240,6 @@ blockquote {
     display: none;
 }
 
-footer a {
-    color: white;
-}
-
 .label {
     font-weight: normal;
 }
@@ -284,7 +266,7 @@ footer a {
 }
 
 section#protocols .media-body p {
-    font-size: 15px;
+    font-size: 90%;
 }
 
 a.img-thumbnail {
@@ -293,8 +275,4 @@ a.img-thumbnail {
 a.img-thumbnail:hover {
     border-color: #ddd;
     background: #fff;
-}
-
-a .media:hover {
-
 }
