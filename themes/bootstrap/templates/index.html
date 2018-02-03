@@ -213,6 +213,9 @@
         {% include "include/products.html" %}
     </section>
     {{ page.content }}
+    <section id="open">
+        {% include "include/open.html" %}
+    </section>
 </section>
 {% endblock %}
 
@@ -220,12 +223,4 @@
 <section id="social">
     {% include "include/social.html" %}
 </section>
-{% endblock %}
-
-{% block footer %}
-<section id="open">
-    {% include "include/open.html" %}
-</section>
-
-{{ super() }}
 {% endblock %}
