@@ -79,7 +79,7 @@
                             <li><a class="navbar-link" href="{{ link }}">{{ title }}</a></li>
                             {% endfor %}
                             {% if DISPLAY_PAGES_ON_MENU %}
-                            {% for page in PAGES %}
+                            {% for page in pages %}
                             <li><a class="navbar-link" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                             {% endfor %}
                             {% endif %}
@@ -90,12 +90,6 @@
                             </li>
                             {% endfor %}
 
-                            <li>
-                                <a class="navbar-link" href="/changelog">Changelog</a>
-                            </li>
-                            <li>
-                                <a class="navbar-link" href="/cryptomator">Cryptomator</a>
-                            </li>
                             <li>
                                 <a class="navbar-link" href="https://blog.cyberduck.io">Blog</a>
                             </li>
