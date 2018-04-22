@@ -29,7 +29,7 @@
     </h3>
 
     <h3>Get a registration key.
-        <small> As a contributor you receive a registration key
+        <small> As a contributor (minimum amount 10 USD) you receive a registration key
             that registers the installed application to your name and disables the donation prompt that is
             otherwise displayed after installing or
             updating Cyberduck. The registration key can be used on multiple computers but is personal and is not to
@@ -231,9 +231,9 @@
                             <!-- Load PayPal's checkout.js Library. -->
                             <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4 log-level="warn"></script>
                             <!-- Load the client component. -->
-                            <script src="https://js.braintreegateway.com/web/3.23.0/js/client.min.js"></script>
+                            <script src="https://js.braintreegateway.com/web/3.31.0/js/client.min.js"></script>
                             <!-- Load the PayPal Checkout component. -->
-                            <script src="https://js.braintreegateway.com/web/3.23.0/js/paypal-checkout.min.js"></script>
+                            <script src="https://js.braintreegateway.com/web/3.31.0/js/paypal-checkout.min.js"></script>
                             <script>
                                 $(function() {
                                     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -283,7 +283,9 @@
                                                               displayName: 'Cyberduck',
                                                               amount: $("#amount").val(),
                                                               currency: $("#currency").val(),
-                                                              intent: 'sale'
+                                                              intent: 'sale',
+                                                              landingPageType: 'login',
+                                                              headless: true
                                                             });
                                                           },
                                                           onAuthorize: function (data, actions) {
@@ -292,6 +294,7 @@
                                                                 var form = $("#payment");
                                                                 // Insert the token into the form so it gets submitted to the server
                                                                 form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
+                                                                form.submit();
                                                               });
                                                           },
                                                           onCancel: function (data) {
