@@ -69,6 +69,31 @@
                             <em>AWS GovCloud</em> connection profile for preconfigured settings
                         </p>
                     </li>
+                    <li>
+                        <strong>Authentication with temporary token</strong>
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/S3%20(Temporary%20Credentials).cyberduckprofile">Download</a>
+                                <em>S3 (Temporary Credentials)</em> connection profile for preconfigured settings. Use Cyberduck for Windows or ​Cyberduck CLI on EC2
+                                and have setup ​IAM Roles for Amazon EC2 to provide access to S3 from the EC2 instance.
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Documentation</a>
+                                </p>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                <a href="https://svn.cyberduck.io/trunk/profiles/S3%20(Credentials%20from%20AWS%20Security%20Token%20Service).cyberduckprofile">Download</a>
+                                <em>S3 (Credentials from AWS Security Token Service)</em> connection profile for preconfigured settings. Obtain temporary credentials
+                                from AWS Security Token Service (STS)
+                                <p>
+                                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                    <a href="https://trac.cyberduck.io/wiki/help/en/howto/s3">Documentation</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="media-right">
@@ -105,6 +130,17 @@
                         You can edit standard HTTP headers and add custom HTTP headers to files to store metadata and
                         control
                         cache expire settings. Batch editing included.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                        <strong>AWS Security Token Service (STS)</strong><br>
+                        Read credentials from ~/.aws/credentials and connect with AssumeRole from AWS Security Token Service (STS)
+                        with optional Multi-Factor Authentication (MFA).
+                    </p>
+                </div>
+                <div class="col-md-6">
                 </div>
             </div>
         </div>
