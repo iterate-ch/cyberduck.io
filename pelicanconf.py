@@ -69,3 +69,6 @@ GOOGLE_ANALYTICS = 'UA-3203018-1'
 PLUGINS = [
     'minify'
 ]
+
+from datetime import date
+CURRENTYEAR = date.today().year
