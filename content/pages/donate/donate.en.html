@@ -274,6 +274,14 @@
 
                                                         // Set up PayPal with the checkout.js library
                                                         paypal.Button.render({
+                                                            style: {
+                                                                size: 'responsive',
+                                                                label: 'paypal',
+                                                                shape: 'rect',
+                                                                fundingicons: false,
+                                                                tagline: false,
+                                                                color: 'black' // 'silver', 'white'
+                                                            },
                                                           env: 'production',
                                                           payment: function () {
                                                             return paypalCheckoutInstance.createPayment({
