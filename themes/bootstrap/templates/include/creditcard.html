@@ -1,0 +1,125 @@
+<div class="well">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#tab-creditcard" aria-controls="home" role="tab" data-toggle="tab">Creditcard</a>
+        </li>
+        <li role="presentation">
+            <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="tab-creditcard">
+            <p class="help-block"></p>
+            <fieldset id="payment-creditcard">
+                <p>
+                    <span>
+                        <img id="visa" src="//cdn.cyberduck.io/img/visa.png">
+                        <img id="mastercard" src="//cdn.cyberduck.io/img/mastercard.png">
+                        <img id="amex" src="//cdn.cyberduck.io/img/american_express.png">
+                   </span>
+                </p>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <label for="creditcard">Card Number</label>
+                        <input id="creditcard" type="text" required
+                               placeholder="Credit Card Number"
+                               class="form-control input-sm"
+                               data-stripe="number"/>
+                        <script charset="utf-8" type="text/javascript">
+                                $(function () {
+                                    $(creditcard).change(function (event) {
+                                        // MasterCard
+                                        if(/^5[1-5]/.test(event.target.value)) {
+                                            $(mastercard).show();
+                                            $(visa).hide();
+                                            $(amex).hide();
+                                        }
+                                        // Visa
+                                        else if(/^4/.test(event.target.value)) {
+                                            $(visa).show();
+                                            $(mastercard).hide();
+                                            $(amex).hide();
+                                        }
+                                        // AmEx
+                                        else if(/^3[47]/.test(event.target.value)) {
+                                            $(amex).show();
+                                            $(mastercard).hide();
+                                            $(visa).hide();
+                                        }
+                                        else {
+                                            $(visa).show();
+                                            $(mastercard).show();
+                                            $(amex).show();
+                                        }
+                                    });
+                                });
+
+
+                        </script>
+                    </div>
+                    <div class="col-xs-3">
+                        <label for="cvc">CVV</label>
+                        <input id="cvc" type="text" required
+                               maxlength="4"
+                               placeholder="Card Security Code"
+                               class="form-control input-sm" size="4"
+                               data-stripe="cvc"/>
+
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label for="exp_month">Expiration Month</label>
+                        <select id="exp_month" required="required"
+                                class="form-control input-sm"
+                                data-stripe="exp_month">
+                            <option selected>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="col-xs-6">
+                        <label for="exp_year">Expiration Year</label>
+                        <select id="exp_year" type="text" class="form-control input-sm"
+                                data-stripe="exp_year">
+                            <option selected>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+            </fieldset>
+            {% include "include/stripe.html" %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tab-paypal">
+            <p class="help-block"></p>
+            {% include "include/paypal.html" %}
+        </div>
+    </div>
+</div>

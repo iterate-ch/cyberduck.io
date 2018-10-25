@@ -1,0 +1,69 @@
+{% extends "payment.html" %}
+
+{% block form %}
+    <form action="https://reg.cyberduck.io/payment" method="POST" id="payment" role="form">
+        <fieldset class="well" id="payment-key">
+            <div class="row">
+                <div class="col-xs-2">
+                    <label for="installations">Installations</label>
+                    <input class="form-control input-sm" size="5" type="text" id="installations"
+                           name="volume" placeholder="1" autocomplete="off"/>
+
+                    <script>
+                    $("#installations").change(function () {
+                        $.get("https://reg.cyberduck.io/calculate", { volume: $("#installations").val() }).done(function(data) {
+                            $("#amount").val($.trim(data));
+                        });
+                    });
+                </script>
+
+                    <p class="help-block"></p>
+                </div>
+                <div class="col-xs-2">
+                    <label for="currency">Currency</label>
+                    <select id="currency" class="form-control input-sm"
+                            name="currency">
+                        <option label="€" value="EUR">€</option>
+                        <option label="$" value="USD">$</option>
+                    </select>
+
+                    <p class="help-block"></p>
+                </div>
+                <div class="col-xs-8">
+                    <label for="amount">Amount</label>
+                    <input id="amount" name="amount" type="number" class="form-control input-sm" size="4"
+                           placeholder="€" min="10" max="9000" step="any"
+                           value="25" required />
+
+                    <p class="help-block"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" class="form-control input-sm"
+                           data-stripe="name"
+                           name="name"
+                           placeholder="Your Name" required />
+
+                    <p class="help-block">
+                        <small>This name will be used to issue the registration key.</small>
+                    </p>
+                </div>
+            </div>
+            {% include "include/receipt.html" %}
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="form-control input-sm"
+                           name="email"
+                           placeholder="Your Email Address" required />
+
+                    <p class="help-block">
+                        <small>The registration key will be sent to this address.</small>
+                    </p>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

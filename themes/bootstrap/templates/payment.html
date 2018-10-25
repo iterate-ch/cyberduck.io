@@ -1,0 +1,26 @@
+{% extends "page.html" %}
+
+{% block content %}
+    <section class="container">
+        {{ page.content }}
+    </section>
+    <section class="container">
+        <!-- Load PayPal's checkout.js Library. -->
+        <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4 log-level="warn"></script>
+        <!-- Load the required client component. -->
+        <script src="https://js.braintreegateway.com/web/3.38.1/js/client.min.js"></script>
+        <!-- Load the PayPal Checkout component. -->
+        <script src="https://js.braintreegateway.com/web/3.38.1/js/paypal-checkout.min.js"></script>
+
+        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+        <script type="text/javascript">
+                Stripe.setPublishableKey("pk_live_jmCwYBkVJsQE4hU5cr94yLfj");
+        </script>
+        <script src="//cdn.cyberduck.io/js/jquery.form.min.js"></script>
+        <form action="https://reg.cyberduck.io/payment" method="POST" id="payment" role="form">
+            {% block form %}{% endblock %}
+            {% include "include/creditcard.html" %}
+        </form>
+        <p id="payment-result" class="alert hide"></p>
+    </section>
+{% endblock %}

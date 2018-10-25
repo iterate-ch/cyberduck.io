@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright (c) 2018 iterate GmbH. All rights reserved.
+  -->
+
+<div class="form-group">
+    <p class="help-block"></p>
+    <button type="submit" class="btn btn-primary" id="button-submit">
+        <strong>Process Payment</strong>
+    </button>
+    <script charset="utf-8" type="text/javascript">
+            //<![CDATA[
+            $(function () {
+                var result = $("#payment-result");
+                var options = {
+                    clearForm: false,
+                    beforeSubmit: function (arr, form, options) {
+                        result.removeClass("hide");
+                        result.removeClass("alert-danger");
+                        result.addClass("alert-info");
+                        result.text("Processing…");
+                        $("#payment-creditcard").attr("disabled", "disabled");
+                        $("#payment-key").attr("disabled", "disabled");
+                        if($("form#payment input#token").length) {
+                            // Skip if we already have a token from Paypal flow
+                            return true;
+                        }
+                        else {
+                            Stripe.card.createToken({
+                                  number: $("#creditcard").val(),
+                                  cvc: $("#cvc").val(),
+                                  exp_month: $("#exp_month").val(),
+                                  exp_year: $("#exp_year").val()
+                                },
+                                function (status, response) {
+                                    if(response.error) {
+                                        // Show the errors on the form
+                                        result.removeClass("alert-info");
+                                        result.addClass("alert-danger");
+                                        result.text(response.error.message);
+                                        $("#payment-creditcard").removeAttr("disabled");
+                                        $("#payment-key").removeAttr("disabled");
+                                    }
+                                    else {
+                                        var form = $("form#payment");
+                                        // token contains id, last4, and card type
+                                        var token = response.id;
+                                        // Remove previous token if any
+                                        form.remove("#token");
+                                        // Insert the token into the form so it gets submitted to the server
+                                        form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
+                                        form.submit();
+                                    }
+                                }
+                            );
+                            // Return false to cancel submit until we have token obtained
+                            return false;
+                        }
+                    },
+                    success: function (response, status) {
+                        $("#token").remove();
+                        result.addClass("alert-info");
+                        result.text(response);
+                    },
+                    error: function (response) {
+                        $("#token").remove();
+                        result.removeClass("alert-info");
+                        result.addClass("alert-danger");
+                        result.text(response.responseText);
+                        $("#payment-creditcard").removeAttr("disabled");
+                        $("#payment-key").removeAttr("disabled");
+                    }
+                };
+                $("form#payment").ajaxForm(options);
+            });
+
+            $(creditcard).bind("keyup", function (event) {
+                // MasterCard
+                if(/^5[1-5]/.test(event.target.value)) {
+                    $(mastercard).show();
+                    $(visa).hide();
+                    $(amex).hide();
+                }
+                // Visa
+                else if(/^4/.test(event.target.value)) {
+                    $(visa).show();
+                    $(mastercard).hide();
+                    $(amex).hide();
+                }
+                // AmEx
+                else if(/^3[47]/.test(event.target.value)) {
+                    $(amex).show();
+                    $(mastercard).hide();
+                    $(visa).hide();
+                }
+            });
+            //]]>
+    </script>
+</div>
