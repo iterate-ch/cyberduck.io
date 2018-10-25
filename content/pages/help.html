@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Help</title>
+        <meta name="slug" content="help"/>
+        <meta name="lang" content="en"/>
+    </head>
+
+    <body>
+        <h1>Support</h1>
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Documentation</h3>
+                <p>
+                    Documentation is maintained in a wiki everyone can contribute to.
+                </p>
+                <p class="text-center">
+                    <a href="https://help.cyberduck.io" class="btn btn-default btn-md">Cyberduck Wiki</a>
+                </p>
+
+                <h3>Email Support</h3>
+                <p>
+                   For issues with your account credentials, please instead write to your hosting service provider.
+                </p>
+                <p class="text-center">
+                    <a href="mailto:support@cyberduck.io" class="btn btn-default btn-md">Request Support</a>
+                </p>
+                <h3>Bug Report</h3>
+                <p>
+                    For bug reports or a feature request you can open a ticket in our public issue tracker.
+                </p>
+                <p class="text-center">
+                    <a href="https://trac.cyberduck.io/newticket" class="btn btn-default btn-md">Bug Report</a>
+                </p>
+
+                <a name="recover"></a>
+                <h3>Registration Key Recovery</h3>
+
+                <p> The registration key is sent to you by email
+                    automatically after the transaction has been completed. To recover a
+                    lost registration key, enter your email address below to look it up.</p>
+
+                <form id="lookup" method="GET" action="https://reg.cyberduck.io/lookup" class="form-inline" role="form">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control input-sm" placeholder="Email address registered"
+                               id="recover-input" name="email"/>
+                    </div>
+                    <button type="submit" class="btn btn-default btn-sm">Lookup</button>
+                    <script charset="utf-8" type="text/javascript">
+                    //<![CDATA[
+                    $(function() {
+                        var options = {
+                            target: "#lookup-result",
+                            clearForm: true,
+                            error: function(e) {
+                                $("#lookup-result").text(e.responseText);
+                            }
+                        };
+                        $("form#lookup").ajaxForm(options);
+                    });
+                    //]]>
+                </script>
+                </form>
+
+                <p id="lookup-result" class="alert alert-info"></p>
+
+                <p><small>Open the received registration key with Cyberduck by double clicking. Make sure the filename of the
+                    registration key attached ends with <tt>.cyberducklicense</tt>. Refer to the <a
+                            href="https://trac.cyberduck.io/wiki/help/en/faq#DonationKeys">wiki</a> if you have trouble
+                    receiving or opening the key.</small></p>
+
+                <a name="receipt"></a>
+                <h3>Payment Receipt</h3>
+
+                <p>Request a receipt for your bookkeeping.</p>
+
+                <form id="receipt" method="GET" action="https://reg.cyberduck.io/receipt" class="form-inline" role="form">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control input-sm" placeholder="Email address registered"
+                               id="receipt-input" name="email"/>
+                    </div>
+                    <button type="submit" class="btn btn-default btn-sm">Lookup</button>
+                    <script charset="utf-8" type="text/javascript">
+                    //<![CDATA[
+                    $(function() {
+                        var options = {
+                            target: "#receipt-result",
+                            clearForm: true,
+                            error: function(e) {
+                                $("#receipt-result").text(e.responseText);
+                            }
+                        };
+                        $("form#receipt").ajaxForm(options);
+                    });
+                    //]]>
+                </script>
+                </form>
+
+                <p id="receipt-result" class="alert alert-info"></p>
+            </div>
+            <div class="col-sm-4">
+                <a class="twitter-timeline" data-dnt="true" data-theme="light" data-tweet-limit="5" href="https://twitter.com/cyberduckapp?ref_src=twsrc%5Etfw">Tweets by cyberduckapp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </body>
+</html>
