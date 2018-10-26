@@ -10,7 +10,7 @@
     <div id="paypal-button"></div>
     <script>
                     $(function() {
-                        $.get("https://reg.mountainduck.io/paypal/token", function(clientToken) {
+                        $.get("https://reg.cyberduck.io/paypal/token", function(clientToken) {
                             $("#await-clienttoken").remove();
                             braintree.client.create({
                                 authorization: clientToken
