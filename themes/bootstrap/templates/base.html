@@ -52,32 +52,16 @@
             <div class="container">
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
                         {% block brand %}
                         <a class="navbar-brand" href="{{ SITEURL }}">
                             <img src="//cdn.cyberduck.io/img/cyberduck-icon-64.png" class="img-responsive"
                                  width="64px" height="64px" title="Cyberduck">
                         </a>
-                        <!--<a class="navbar-brand" href="https://mountainduck.io/">-->
-                        <!--<img src="//cdn.mountainduck.io/images/mountainduck_bw_512.png" class="img-responsive" width="64px" height="64px" title="Mountain Duck">-->
-                        <!--</a>-->
-                        <!--<a class="navbar-brand" href="https://duck.sh/">-->
-                        <!--<img src="//cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png" class="img-responsive" width="64px" height="64px" title="CLI">-->
-                        <!--</a>-->
                         {% endblock %}
                     </div>
 
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            {% for title, link in MENUITEMS %}
-                            <li><a class="navbar-link" href="{{ link }}">{{ title }}</a></li>
-                            {% endfor %}
                             {% if DISPLAY_PAGES_ON_MENU %}
                             {% for page in pages %}
                             <li><a class="navbar-link" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
