@@ -20,21 +20,20 @@
                 It will help to make Cyberduck even better!
             </small>
         </h3>
-
-        <h3>Get a registration key.
-            <small> As a contributor (minimum amount 10 USD) you receive a registration key
-                that registers the installed application to your name and disables the donation prompt that is
-                otherwise displayed after installing or
-                updating Cyberduck. The registration key can be used on multiple computers but is personal and is not to
-                be shared.
-            </small>
-        </h3>
     </section>
     {{ super() }}
 {% endblock %}
 
 
 {% block form %}
+    <h3>Get a registration key.
+        <small> As a contributor (minimum amount 10 USD) you receive a registration key
+            that registers the installed application to your name and disables the donation prompt that is
+            otherwise displayed after installing or
+            updating Cyberduck. The registration key can be used on multiple computers but is personal and is not to
+            be shared.
+        </small>
+    </h3>
     <form action="https://reg.cyberduck.io/payment" method="POST" id="payment" role="form">
         <fieldset class="well" id="payment-key">
             <div class="row">
