@@ -57,6 +57,10 @@ blockquote.citation {
     font-size: inherit;
 }
 
+.nav div, .nav form {
+    display: inline;
+}
+
 * html #mainnav :link, * html #mainnav :visited {
     background-image: none;
 }
