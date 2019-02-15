@@ -71,7 +71,6 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li {
     border-right: 1px solid #999999;
     padding: 0;
-    border: 0;
 }
 
 .navbar-default .in .navbar-nav > li {
