@@ -23,3 +23,7 @@ article .tw_button {
     margin-left: auto;
     margin-right: auto;
 }
+
+table {
+    width: 100%;
+}
