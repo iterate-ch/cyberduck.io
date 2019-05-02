@@ -45,6 +45,30 @@
         </form>
         <hr/>
 
+        <h3>Edit Registration Key</h3>
+        <form id="edit" method="post" action="https://reg.cyberduck.io/edit" name="edit">
+            <fieldset class="well">
+                <label for="editinput">Email</label>
+                <input class="form-control input-sm" type="text" id="editinput" name="current"/>
+                <label for="editinputnew">Email and Name</label>
+                <input class="form-control input-sm" type="text" id="editinputnew" name="email"/>
+                <button type="submit" class="btn btn-primary btn-sm">Edit</button>
+            </fieldset>
+        </form>
+        <script charset="utf-8" type="text/javascript">
+            //<![CDATA[
+            $(document).ready(function () {
+                var options = {
+                    target: '#result-edit',
+                    clearForm: true
+                };
+                $("form#add").ajaxForm(options);
+            });
+            //]]>
+        </script>
+        <p id="result-edit" class="alert alert-info"></p>
+        <hr/>
+
         <h3>Delete</h3>
 
         <form class="" id="delete" method="POST" action="https://reg.cyberduck.io/delete" name="delete">
