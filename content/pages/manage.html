@@ -12,10 +12,10 @@
         <h2>Registration Key Registry</h2>
 
         <h3>Add</h3>
-
         <form class="" id="add" method="GET" action="https://reg.cyberduck.io/add" name="add">
             <fieldset class="well">
-                <input class="form-control input-sm" style="width: 250px;" type="text" id="addinput" name="email"/>
+                <label for="addinput">Email and Name</label>
+                <input class="form-control input-sm" style="width: 250px;" type="text" id="addinput" name="email" placeholder="User <email@address>"/>
                 <p class="help-block"></p>
                 <button type="submit" class="btn btn-default btn-sm">Add</button>
             </fieldset>
@@ -35,9 +35,9 @@
         <hr/>
 
         <h3>Find</h3>
-
         <form class="" id="find" method="GET" action="https://reg.cyberduck.io/find" name="find">
             <fieldset class="well">
+                <label for="findinput">Email</label>
                 <input class="form-control input-sm" style="width: 250px;" type="text" id="findinput" name="email"/>
                 <p class="help-block"></p>
                 <button type="submit" class="btn btn-default btn-sm">Find</button>
@@ -51,8 +51,8 @@
                 <label for="editinput">Email</label>
                 <input class="form-control input-sm" type="text" id="editinput" name="current"/>
                 <label for="editinputnew">Email and Name</label>
-                <input class="form-control input-sm" type="text" id="editinputnew" name="email"/>
-                <button type="submit" class="btn btn-primary btn-sm">Edit</button>
+                <input class="form-control input-sm" type="text" id="editinputnew" name="email" placeholder="User <email@address>"/>
+                <button type="submit" class="btn btn-default btn-sm">Edit</button>
             </fieldset>
         </form>
         <script charset="utf-8" type="text/javascript">
@@ -70,9 +70,9 @@
         <hr/>
 
         <h3>Delete</h3>
-
         <form class="" id="delete" method="POST" action="https://reg.cyberduck.io/delete" name="delete">
             <fieldset class="well">
+                <label for="deleteinput">Email</label>
                 <input class="form-control input-sm" style="width: 250px;" type="text" id="deleteinput" name="email"/>
                 <p class="help-block"></p>
                 <button type="submit" class="btn btn-default btn-sm">Delete</button>
@@ -93,9 +93,9 @@
         <hr/>
 
         <h3>Send</h3>
-
         <form class="" id="send" method="GET" action="https://reg.cyberduck.io/lookup" name="send">
             <fieldset class="well">
+                <label for="sendinput">Email</label>
                 <input class="form-control input-sm" style="width: 250px;" type="text" id="sendinput" name="email"/>
                 <p class="help-block"></p>
                 <button type="submit" class="btn btn-default btn-sm">Send</button>
@@ -116,7 +116,6 @@
         <hr/>
 
         <h3>Receipt</h3>
-
         <form class="" id="receipt" method="GET" action="https://reg.cyberduck.io/receipt" name="receipt">
             <fieldset class="well">
                 <label for="receiptinputemail">Email</label>
