@@ -12,7 +12,7 @@
         <h2>Registration Key Registry</h2>
 
         <h3>Add</h3>
-        <form class="" id="add" method="GET" action="https://reg.cyberduck.io/add" name="add">
+        <form class="" id="add" method="POST" action="https://reg.cyberduck.io/add" name="add">
             <fieldset class="well">
                 <label for="addinput">Email and Name</label>
                 <input class="form-control input-sm" style="width: 250px;" type="text" id="addinput" name="email" placeholder="User <email@address>"/>
@@ -46,7 +46,7 @@
         <hr/>
 
         <h3>Edit Registration Key</h3>
-        <form id="edit" method="post" action="https://reg.cyberduck.io/edit" name="edit">
+        <form id="edit" method="POST" action="https://reg.cyberduck.io/edit" name="edit">
             <fieldset class="well">
                 <label for="editinput">Email</label>
                 <input class="form-control input-sm" type="text" id="editinput" name="current"/>
