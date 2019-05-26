@@ -7,9 +7,6 @@
         <li role="presentation">
             <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
         </li>
-        <li role="presentation">
-            <a href="#tab-crypto" aria-controls="profile" role="tab" data-toggle="tab">Bitcoin</a>
-        </li>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
@@ -122,31 +119,6 @@
         <div role="tabpanel" class="tab-pane" id="tab-paypal">
             <p class="help-block"></p>
             {% include "include/paypal.html" %}
-        </div>
-        <div role="tabpanel" class="tab-pane" id="tab-crypto">
-            <p class="help-block"></p>
-            <div id="crypto-container">
-                <a class="donate-with-crypto"
-                   href="https://commerce.coinbase.com/checkout/57ec932d-a2c8-4ba1-91e1-1b5036b692f7">
-                    <span>Donate with Crypto</span>
-                </a>
-                <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-                </script>
-                <script>
-                                    BuyWithCrypto.registerCallback('onSuccess', function(event){
-                                        // Charge was successfully completed
-                                        event.code
-                                    });
-
-                                    BuyWithCrypto.registerCallback('onFailure', function(e){
-                                        // Charge failed
-                                    });
-
-                                    BuyWithCrypto.registerCallback('onPaymentDetected', function(e){
-                                        // Payment has been detected but not yet confirmed
-                                    });
-                                    </script>
-            </div>
         </div>
     </div>
 </div>
