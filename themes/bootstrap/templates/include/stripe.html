@@ -25,35 +25,38 @@
                             return true;
                         }
                         else {
-                            Stripe.card.createToken({
-                                  number: $("#creditcard").val(),
-                                  cvc: $("#cvc").val(),
-                                  exp_month: $("#exp_month").val(),
-                                  exp_year: $("#exp_year").val()
-                                },
-                                function (status, response) {
-                                    if(response.error) {
-                                        // Show the errors on the form
-                                        result.removeClass("alert-info");
-                                        result.addClass("alert-danger");
-                                        result.text(response.error.message);
-                                        $("#payment-creditcard").removeAttr("disabled");
-                                        $("#payment-key").removeAttr("disabled");
+                            grecaptcha.ready(function() {
+                                grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
+                                    Stripe.card.createToken({
+                                      number: $("#creditcard").val(),
+                                      cvc: $("#cvc").val(),
+                                      exp_month: $("#exp_month").val(),
+                                      exp_year: $("#exp_year").val()
+                                    },
+                                    function (status, response) {
+                                        if(response.error) {
+                                            // Show the errors on the form
+                                            result.removeClass("alert-info");
+                                            result.addClass("alert-danger");
+                                            result.text(response.error.message);
+                                            $("#payment-creditcard").removeAttr("disabled");
+                                            $("#payment-key").removeAttr("disabled");
+                                        }
+                                        else {
+                                            var form = $("form#payment");
+                                            // Remove previous token if any
+                                            form.remove("#token");
+                                            // Insert the token into the form so it gets submitted to the server. Contains id, last4, and card type
+                                            form.append($("<input id='token' type='hidden' name='stripe-token' />").val(response.id));
+                                            form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
+                                            form.submit();
+                                        }
                                     }
-                                    else {
-                                        var form = $("form#payment");
-                                        // token contains id, last4, and card type
-                                        var token = response.id;
-                                        // Remove previous token if any
-                                        form.remove("#token");
-                                        // Insert the token into the form so it gets submitted to the server
-                                        form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
-                                        form.submit();
-                                    }
-                                }
-                            );
-                            // Return false to cancel submit until we have token obtained
-                            return false;
+                                );
+                            });
+                          });
+                          // Return false to cancel submit until we have token obtained
+                          return false;
                         }
                     },
                     success: function (response, status) {
