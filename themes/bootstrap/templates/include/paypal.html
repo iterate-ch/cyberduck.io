@@ -32,50 +32,55 @@
                                         console.error('Error creating PayPal Checkout:', paypalCheckoutErr);
                                         return;
                                     }
-                                    // Set up PayPal with the checkout.js library
-                                    paypal.Button.render({
-                                        style: {
-                                            size: 'medium',
-                                            label: 'paypal',
-                                            shape: 'rect',
-                                            fundingicons: false,
-                                            tagline: false,
-                                            color: 'white' // 'black', 'silver', 'white'
-                                        },
-                                        env: 'production',
-                                        payment: function() {
-                                            return paypalCheckoutInstance.createPayment({
-                                                flow: 'checkout', // 'vault'
-                                                enableShippingAddress: false,
-                                                enableBillingAddress: false,
-                                                displayName: 'Cyberduck',
-                                                amount: $("#amount").val(),
-                                                currency: $("#currency").val(),
-                                                intent: 'sale',
-                                                landingPageType: 'login',
-                                                headless: true
-                                            });
-                                        },
-                                        onAuthorize: function(data, actions) {
-                                            return paypalCheckoutInstance.tokenizePayment(data, function(err, payload) {
-                                                // Submit `payload.nonce` to your server.
-                                                var form = $("#payment");
-                                                // Remove previous token if any
-                                                form.remove("#token");
-                                                // Insert the token into the form so it gets submitted to the server
-                                                form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
-                                                form.trigger("submit");
-                                            });
-                                        },
-                                        onCancel: function(data) {
-                                            console.log('checkout.js cancelled', JSON.stringify(data, 0, 2));
-                                            $("#token").remove();
-                                        },
-                                        onError: function(err) {
-                                            console.error('checkout.js error', err);
-                                            $("#token").remove();
-                                        }
-                                    }, '#paypal-button');
+                                    grecaptcha.ready(function() {
+                                        grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
+                                            // Set up PayPal with the checkout.js library
+                                            paypal.Button.render({
+                                                style: {
+                                                    size: 'medium',
+                                                    label: 'paypal',
+                                                    shape: 'rect',
+                                                    fundingicons: false,
+                                                    tagline: false,
+                                                    color: 'white' // 'black', 'silver', 'white'
+                                                },
+                                                env: 'production',
+                                                payment: function() {
+                                                    return paypalCheckoutInstance.createPayment({
+                                                        flow: 'checkout', // 'vault'
+                                                        enableShippingAddress: false,
+                                                        enableBillingAddress: false,
+                                                        displayName: 'Cyberduck',
+                                                        amount: $("#amount").val(),
+                                                        currency: $("#currency").val(),
+                                                        intent: 'sale',
+                                                        landingPageType: 'login',
+                                                        headless: true
+                                                    });
+                                                },
+                                                onAuthorize: function(data, actions) {
+                                                    return paypalCheckoutInstance.tokenizePayment(data, function(err, payload) {
+                                                        // Submit `payload.nonce` to your server.
+                                                        var form = $("#payment");
+                                                        // Remove previous token if any
+                                                        form.remove("#token");
+                                                        // Insert the token into the form so it gets submitted to the server
+                                                        form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
+                                                        form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
+                                                        form.trigger("submit");
+                                                    });
+                                                },
+                                                onCancel: function(data) {
+                                                    console.log('checkout.js cancelled', JSON.stringify(data, 0, 2));
+                                                    $("#token").remove();
+                                                },
+                                                onError: function(err) {
+                                                    console.error('checkout.js error', err);
+                                                    $("#token").remove();
+                                                }
+                                            }, '#paypal-button');
+                                        });
+                                    });
                                 });
                             });
                         });
