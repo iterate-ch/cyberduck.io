@@ -12,13 +12,35 @@
             <div class="media-body">
                 <h2>Microsoft Azure
                     <small>
-                        Connect to Azure Blob Storage with ease.
+                        Connect to Windows Azure Blob Storage with ease.
                     </small>
                 </h2>
                 <p class="alert alert-info">
                     <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                     <a href="https://trac.cyberduck.io/wiki/help/en/howto/azure">Documentation</a>
                 </p>
+                <h3>Connection Profiles</h3>
+                <ul class="list-unstyled alert alert-info">
+                    <li><strong>Authentication with shared access signatures</strong>
+                        <p>
+                            You can use a Shared Access Signature Token (SAS) when you want to provide access to
+                            resources in your storage
+                            account to any client not possessing your storage account's access keys.
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                            <a href="https://svn.cyberduck.io/trunk/profiles/S3%20(HTTP).cyberduckprofile">Download</a>
+                            <em>Azure (Shared Access Signature Token)</em> connection profile for preconfigured
+                            settings
+                        </p>
+                    </li>
+                    <li><strong>Authentication with access key</strong>
+                        <p>
+                            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                            <em>Windows Azure Blob Storage</em> connection profile is bundled by default.
+                        </p>
+                    </li>
+                </ul>
             </div>
             <div class="media-right">
                 <img src="//cdn.cyberduck.io/img/azure.png" width="256px">
@@ -28,6 +50,7 @@
         <p>
             Supports features such as editing metadata, editing ACLs on containers and copying shared signature
             URLs for giving temporary access to users with a time limited signed URL to files in a container.
+            <!--            Sharing-->
         </p>
         <div class="alert alert-warning">
             <div class="row">
