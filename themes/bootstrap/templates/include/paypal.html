@@ -67,7 +67,7 @@
                                                         // Insert the token into the form so it gets submitted to the server
                                                         form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
                                                         form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
-                                                        form.trigger("submit");
+                                                        form.submit();
                                                     });
                                                 });
                                             });
