@@ -152,13 +152,17 @@
                                   };
                                   var session = Stripe.applePay.buildSession(paymentRequest,
                                           function (result, completion) {
-                                              var form = $("form#payment");
-                                              var token = result.token.id;
-
-                                              // Insert the token into the form so it gets submitted to the server
-                                              form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
-                                              form.submit();
-                                              completion(ApplePaySession.STATUS_SUCCESS);
+                                                grecaptcha.ready(function() {
+                                                    grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
+                                                          var form = $("form#payment");
+                                                          var token = result.token.id;
+                                                          // Insert the token into the form so it gets submitted to the server
+                                                          form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
+                                                          form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
+                                                          form.submit();
+                                                          completion(ApplePaySession.STATUS_SUCCESS);
+                                                    });
+                                                });
                                           }, function (error) {
                                               // Show the errors on the form
                                               $("#payment-result").removeClass("alert-info");
