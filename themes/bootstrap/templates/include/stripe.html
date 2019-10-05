@@ -14,10 +14,6 @@
                 var options = {
                     clearForm: false,
                     beforeSubmit: function (arr, form, options) {
-                        if(!form[0].checkValidity()) {
-                            // Allow browser to show validation error
-                            return true;
-                        }
                         result.removeClass("hide");
                         result.removeClass("alert-danger");
                         result.addClass("alert-info");
@@ -65,11 +61,13 @@
                     },
                     success: function (response, status) {
                         $("#token").remove();
+                        result.removeClass("hide");
                         result.addClass("alert-info");
                         result.text(response);
                     },
                     error: function (response) {
                         $("#token").remove();
+                        result.removeClass("hide");
                         result.removeClass("alert-info");
                         result.addClass("alert-danger");
                         result.text(response.responseText);
