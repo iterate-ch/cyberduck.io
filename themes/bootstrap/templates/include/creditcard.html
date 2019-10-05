@@ -7,6 +7,9 @@
         <li role="presentation">
             <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab">Paypal</a>
         </li>
+        <li role="presentation">
+            <a href="#tab-applepay" aria-controls="profile" role="tab" data-toggle="tab">Apple Pay</a>
+        </li>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
@@ -94,10 +97,10 @@
                     </div>
                     <div class="col-xs-6">
                         <label for="exp_year">Expiration Year</label>
-                        <select id="exp_year" type="text" class="form-control input-sm"
+                        <select id="exp_year" class="form-control input-sm"
                                 data-stripe="exp_year">
-                            <option selected>2019</option>
-                            <option>2020</option>
+                            <option>2019</option>
+                            <option selected>2020</option>
                             <option>2021</option>
                             <option>2022</option>
                             <option>2023</option>
@@ -119,6 +122,56 @@
         <div role="tabpanel" class="tab-pane" id="tab-paypal">
             <p class="help-block"></p>
             {% include "include/paypal.html" %}
+        </div>
+        <div role="tabpanel" class="tab-pane text-center" id="tab-applepay">
+            <p class="help-block"></p>
+            <style>
+                  #apple-pay-button {
+                    background-image: -webkit-named-image(apple-pay-logo-black);
+                    background-size: 100% 100%;
+                    background-origin: content-box;
+                    background-repeat: no-repeat;
+                    width: 140px;
+                    height: 35px;
+                  }
+                </style>
+            <button id="apple-pay-button" class="btn btn-default btn-md"></button>
+            <script>
+                    $(function () {
+                        Stripe.applePay.checkAvailability(function(available) {
+                          if(available) {
+                              $("#apple-pay-button" ).click(function() {
+                                  var amount = $("#amount").val();
+                                  var paymentRequest = {
+                                      countryCode: 'CH',
+                                      currencyCode: $("#currency option:selected").val(),
+                                      total: {
+                                          label: 'Cyberduck',
+                                          amount: amount
+                                      }
+                                  };
+                                  var session = Stripe.applePay.buildSession(paymentRequest,
+                                          function (result, completion) {
+                                              var form = $("form#payment");
+                                              var token = result.token.id;
+
+                                              // Insert the token into the form so it gets submitted to the server
+                                              form.append($("<input id='token' type='hidden' name='stripe-token' />").val(token));
+                                              form.submit();
+                                              completion(ApplePaySession.STATUS_SUCCESS);
+                                          }, function (error) {
+                                              // Show the errors on the form
+                                              $("#payment-result").removeClass("alert-info");
+                                              $("#payment-result").addClass("alert-danger");
+                                              $("#payment-result").text(error.message);
+                                          });
+                                  // Show payment sheet
+                                  session.begin();
+                              });
+                          }
+                        });
+                    });
+                </script>
         </div>
     </div>
 </div>
