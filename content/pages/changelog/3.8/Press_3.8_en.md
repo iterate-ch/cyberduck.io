@@ -16,7 +16,7 @@ Cyberduck allows the setup and configuration of CloudFront custom origins with a
 
 [2] http://trac.cyberduck.ch/wiki/help/en/howto/cloudfront
 
-There is now also support to connect to a Swift Storage (Openstack) installation, an emerging open standard for cloud storage server software. Other areas of changes include massive throughput performance improvments for SFTP transfers and many interoperability fixes with thirdparty tools for S3 storage.
+There is now also support to connect to a Swift Storage (Openstack) installation, an emerging open standard for cloud storage server software. Other areas of changes include massive throughput performance improvments for SFTP transfers and many interoperability fixes with third-party tools for S3 storage.
 
 Please refer to http://cyberduck.ch/changelog/ for a more detailed list of the many additional features and bufixes in this release not discussed here. Users can upgrade using the automatic 'Check for Update...' feature. Mac OS X 10.5 or later required.
 
