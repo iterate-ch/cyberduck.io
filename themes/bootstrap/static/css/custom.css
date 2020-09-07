@@ -66,7 +66,7 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-nav > li {
-    border-right: 1px solid #999999;
+    /*border-right: 1px solid #999999;*/
     padding: 0;
 }
 
@@ -83,7 +83,7 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-nav > li:nth-child(2) {
-    border-left: 1px solid #999999;
+    /*border-left: 1px solid #999999;*/
 }
 
 .navbar-default .in .navbar-nav > li {
@@ -93,12 +93,10 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li:first-child {
     border-left: none;
     border-right: none;
-    /*padding-right: 10px;*/
 }
 
 .navbar-default .navbar-nav > li:last-child {
     border-right: none;
-    /*padding-left: 10px;*/
     padding-right: 0;
     margin: 0;
 }
@@ -109,11 +107,12 @@ a:hover, a:focus {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #5a5a5a;
+    /*background-color: #f9f9f9;*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #5a5a5a;
-    background-color: transparent;
+    /*background-color: #f9f9f9;*/
 }
 
 .navbar-default ul {
@@ -125,8 +124,6 @@ a:hover, a:focus {
 }
 
 body {
-    /*font-family: "Cardo",sans-serif;*/
-    /*font-family: "SF Pro Display",sans-serif;*/
     font-family: -apple-system, "Droid Sans", sans-serif;
     font-size: 18px;
 }
@@ -274,4 +271,16 @@ a.img-thumbnail {
 a.img-thumbnail:hover {
     border-color: #ddd;
     background: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .navbar-collapse.collapse {
+       display: none !important;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar-toggle {
+        display: inline !important;
+    }
 }
