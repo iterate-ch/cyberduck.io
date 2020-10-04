@@ -30,7 +30,6 @@
             </div>
         </div>
     </div>
-    {% include "include/brick-iframe.html" %}
 </div>
 {{ super() }}
 {% endblock %}
@@ -184,6 +183,7 @@
     <section id="products">
         {% include "include/products.html" %}
     </section>
+    {% include "include/section-protocols.html" %}
     {{ page.content }}
     <section id="open">
         {% include "include/open.html" %}
