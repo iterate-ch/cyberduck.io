@@ -244,3 +244,42 @@ input[type=text], input.textwidget {
 :link, :visited {
     color: #428bca !important;
 }
+
+strong em {
+	color: #fff;
+    background-color: #d9534f;
+    padding: .2em .6em .3em;
+    border-radius: .25em;
+    font-style: normal;
+}
+
+strong {
+    background-color: #d9edf7;
+    padding: .2em .6em .3em;
+    display: inline;
+    font-size: 90%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+blockquote {
+    color: #fff;
+    background-color: #777;
+    border-color: #3C404B;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+blockquote :link, blockquote :visited {
+    color: #fff;
+}
+
+blockquote :link:hover, blockquote :visited:hover {
+    background-color: transparent;
+}
