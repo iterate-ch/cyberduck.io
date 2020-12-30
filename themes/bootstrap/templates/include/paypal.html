@@ -64,7 +64,7 @@
                                             // Submit `payload.nonce` to your server.
                                             // Insert the token into the form so it gets submitted to the server
                                             formdata.set("paypal-nonce", payload.nonce);
-                                            fetch("https://reg.mountainduck.io/payment", {
+                                            fetch("https://reg.cyberduck.io/payment", {
                                               method: "POST",
                                               body: formdata,
                                             }).then(function(result) {
