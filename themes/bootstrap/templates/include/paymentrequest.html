@@ -1,0 +1,119 @@
+<!--
+  ~ Copyright (c) 2020 iterate GmbH. All rights reserved.
+  -->
+
+<div id="payment-request-button">
+    <!-- A Stripe Element will be inserted here. -->
+</div>
+<script charset="utf-8" type="text/javascript">
+        //<![CDATA[
+        $(function () {
+            var elements = stripe.elements();
+            var paymentRequest = stripe.paymentRequest({
+                country: 'CH',
+                currency: !$("#currency").val() ? $("#currency").text().toLowerCase() : $("#currency").val().toLowerCase(),
+                total: {
+                    label: 'Cyberduck',
+                    amount: 0,
+                },
+                requestPayerName: false,
+                requestPayerEmail: false,
+                requestPayerPhone: false,
+                requestShipping: false,
+            });
+            var style = {
+                type: 'default',
+                theme: 'light',
+            };
+            // Check the availability of the Payment Request API first.
+            paymentRequest.canMakePayment().then(function(available) {
+              if(available) {
+                $("#payment-creditcard-paymentrequest").removeClass("hide");
+                var paymentRequestElement = elements.create('paymentRequestButton', {
+                    paymentRequest: paymentRequest,
+                    style: style,
+                });
+                // Stripe injects an iframe into the DOM
+                paymentRequestElement.mount('#payment-request-button');
+                // Handle real-time validation errors from the card Element.
+                paymentRequestElement.on('change', function(event) {
+                      $("#payment-submit").disabled = event.empty;
+                      $("#payment-result").textContent = event.error ? event.error.message : "";
+                });
+                paymentRequestElement.on('click', function(ev) {
+                    if(!$("form#payment")[0].reportValidity()) {
+                        event.preventDefault();
+                        return;
+                    }
+                    var amount = !$("#amount").val() ? $("#amount").text() : $("#amount").val();
+                    paymentRequest.update({
+                    currency: !$("#currency").val() ? $("#currency").text().toLowerCase() : $("#currency").val().toLowerCase(),
+                        total: {
+                            label: 'Cyberduck',
+                            amount: amount * 100,
+                        },
+                    })
+                })
+                paymentRequest.on("paymentmethod", function(event) {
+                    const formdata = new FormData($("form#payment")[0]);
+                    payment_progress();
+                    fetch("https://reg.cyberduck.io/payment", {
+                      method: "POST",
+                      body: formdata,
+                    }).then(function(result) {
+                        if(!result.ok) {
+                            return result.json().then(json => { throw json.message; });
+                        }
+                        return result.json();
+                    }).then(function(data) {
+                        stripe.confirmCardPayment(data.client_secret,
+                            {
+                                payment_method: event.paymentMethod.id,
+                            },
+                            {
+                                handleActions: false,
+                            }
+                        ).then(function(result) {
+                            if (result.error) {
+                                // Show error to your customer
+                                payment_error(result.error.message);
+                                // Report to the browser that the payment failed
+                                event.complete('fail');
+                            }
+                            else {
+                                // The payment succeeded
+                                var intent_id = result.paymentIntent.id;
+                                formdata.set("stripe-intent_id", intent_id);
+                                fetch("https://reg.cyberduck.io/payment", {
+                                  method: "POST",
+                                  body: formdata,
+                                }).then(function(result) {
+                                    if(!result.ok) {
+                                        return result.json().then(json => { throw json.message; });
+                                    }
+                                    return result.json();
+                                }).then(function(response) {
+                                    payment_success(response.message);
+                                    // Note that you must must call complete within 30 seconds.
+                                    event.complete("success");
+                                }).catch(function(error) {
+                                    payment_error(error);
+                                    // Report to the browser that the payment failed
+                                    event.complete("fail");
+                                });
+                            }
+                        });
+                    }).catch(function(error) {
+                        payment_error(error);
+                        // Report to the browser that the payment failed
+                        event.complete("fail");
+                    });
+                });
+              }
+              else {
+                $("#payment-request-button").attr("disabled", "disabled");
+                $("#payment-creditcard-cardonly").removeClass("hide");
+              }
+            });
+        });
+</script>

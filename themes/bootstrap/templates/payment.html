@@ -13,12 +13,15 @@
         <!-- Load the PayPal Checkout component. -->
         <script src="https://js.braintreegateway.com/web/3.69.0/js/paypal-checkout.min.js"></script>
 
-        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+        <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
         <script type="text/javascript">
-                Stripe.setPublishableKey("pk_live_jmCwYBkVJsQE4hU5cr94yLfj");
+            var stripe = Stripe('pk_live_jmCwYBkVJsQE4hU5cr94yLfj', {
+              apiVersion: "2020-08-27",
+            });
         </script>
         <script src="//cdn.cyberduck.io/js/jquery.form.min.js"></script>
-        <form action="https://reg.cyberduck.io/payment" method="POST" id="payment" role="form">
+        <form action="#" method="POST" id="payment" role="form">
             {% block form %}{% endblock %}
             {% include "include/creditcard.html" %}
         </form>

@@ -3,87 +3,94 @@
   -->
 
 <fieldset id="payment-paypal">
-    <p class="help-block"></p>
-    <div id="await-clienttoken" class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-    </div>
     <div id="paypal-button"></div>
     <script>
-                    $(function() {
-                        $.get("https://reg.cyberduck.io/paypal/token", function(clientToken) {
-                            $("#await-clienttoken").remove();
-                            braintree.client.create({
-                                authorization: clientToken
-                            }, function(clientErr, clientInstance) {
-                                // Stop if there was a problem creating the client.
-                                // This could happen if there is a network error or if the authorization is invalid.
-                                if (clientErr) {
-                                    console.error('Error creating client:', clientErr);
+        $(function() {
+            $.get("https://reg.cyberduck.io/paypal/token", function(clientToken) {
+                braintree.client.create({
+                    authorization: clientToken
+                }, function(clientErr, clientInstance) {
+                    // This could happen if there is a network error or if the authorization is invalid.
+                    if (clientErr) {
+                        payment_error(clientErr);
+                        return;
+                    }
+                    // Create a Paypal checkout
+                    braintree.paypalCheckout.create({
+                        client: clientInstance
+                    }, function(paypalCheckoutErr, paypalCheckoutInstance) {
+                        // Stop if there was a problem creating PayPal Checkout.
+                        // This could happen if there was a network error or if it's incorrectly
+                        // configured.
+                        if (paypalCheckoutErr) {
+                            payment_error(paypalCheckoutErr);
+                            return;
+                        }
+                        // Set up PayPal with the checkout.js library
+                        paypal.Button.render({
+                            style: {
+                                height: 40,
+                                size: 'medium',
+                                label: 'paypal',
+                                shape: 'rect',
+                                fundingicons: false,
+                                tagline: false,
+                                color: 'white' // 'black', 'silver', 'white'
+                            },
+                            env: 'production',
+                            payment: function() {
+                                if(!$("form#payment")[0].reportValidity()) {
+                                    event.preventDefault();
                                     return;
                                 }
-                                // Create a Paypal checkout
-                                braintree.paypalCheckout.create({
-                                    client: clientInstance
-                                }, function(paypalCheckoutErr, paypalCheckoutInstance) {
-                                    // Stop if there was a problem creating PayPal Checkout.
-                                    // This could happen if there was a network error or if it's incorrectly
-                                    // configured.
-                                    if (paypalCheckoutErr) {
-                                        console.error('Error creating PayPal Checkout:', paypalCheckoutErr);
-                                        return;
-                                    }
-                                    // Set up PayPal with the checkout.js library
-                                    paypal.Button.render({
-                                        style: {
-                                            size: 'medium',
-                                            label: 'paypal',
-                                            shape: 'rect',
-                                            fundingicons: false,
-                                            tagline: false,
-                                            color: 'white' // 'black', 'silver', 'white'
-                                        },
-                                        env: 'production',
-                                        payment: function() {
-                                            return paypalCheckoutInstance.createPayment({
-                                                flow: 'checkout', // 'vault'
-                                                enableShippingAddress: false,
-                                                enableBillingAddress: false,
-                                                displayName: 'Cyberduck',
-                                                amount: $("#amount").val(),
-                                                currency: $("#currency").val(),
-                                                intent: 'sale',
-                                                landingPageType: 'login',
-                                                headless: true
-                                            });
-                                        },
-                                        onAuthorize: function(data, actions) {
-                                            return paypalCheckoutInstance.tokenizePayment(data, function(err, payload) {
-                                                grecaptcha.ready(function() {
-                                                    grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
-                                                        // Submit `payload.nonce` to your server.
-                                                        var form = $("#payment");
-                                                        // Remove previous token if any
-                                                        form.remove("#token");
-                                                        // Insert the token into the form so it gets submitted to the server
-                                                        form.append($("<input id='token' type='hidden' name='paypal-nonce' />").val(payload.nonce));
-                                                        form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
-                                                        form.submit();
-                                                    });
-                                                });
-                                            });
-                                        },
-                                        onCancel: function(data) {
-                                            console.log('checkout.js cancelled', JSON.stringify(data, 0, 2));
-                                            $("#token").remove();
-                                        },
-                                        onError: function(err) {
-                                            console.error('checkout.js error', err);
-                                            $("#token").remove();
-                                        }
-                                    }, '#paypal-button');
+                                return paypalCheckoutInstance.createPayment({
+                                    flow: 'checkout', // 'vault'
+                                    enableShippingAddress: false,
+                                    enableBillingAddress: false,
+                                    displayName: 'Cyberduck',
+                                    amount: !$("#amount").val() ? $("#amount").text() : $("#amount").val(),
+                                    currency: !$("#currency").val() ? $("#currency").text() : $("#currency").val(),
+                                    intent: 'sale',
+                                    landingPageType: 'login',
+                                    headless: true
                                 });
-                            });
-                        });
+                            },
+                            onAuthorize: function(data, actions) {
+                                return paypalCheckoutInstance.tokenizePayment(data, function(err, payload) {
+                                    grecaptcha.ready(function() {
+                                        grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
+                                            const formdata = new FormData($("form#payment")[0]);
+                                            payment_progress();
+                                            // Submit `payload.nonce` to your server.
+                                            // Insert the token into the form so it gets submitted to the server
+                                            formdata.set("paypal-nonce", payload.nonce);
+                                            fetch("https://reg.mountainduck.io/payment", {
+                                              method: "POST",
+                                              body: formdata,
+                                            }).then(function(result) {
+                                                if(!result.ok) {
+                                                    return result.json().then(json => { throw json.message; });
+                                                }
+                                                return result.json();
+                                            }).then(function(response) {
+                                                payment_success(response.message);
+                                            }).catch(function(error) {
+                                                payment_error(error);
+                                            });
+                                        });
+                                    });
+                                });
+                            },
+                            onCancel: function(data) {
+                                payment_error("Payment with PayPal canceled. Please choose another payment method");
+                            },
+                            onError: function(err) {
+                                payment_error(err);
+                            }
+                        }, '#paypal-button');
                     });
-                </script>
+                });
+            });
+        });
+    </script>
 </fieldset>

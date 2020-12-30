@@ -3,101 +3,118 @@
   -->
 
 <div class="form-group">
-    <p class="help-block"></p>
-    <button type="submit" class="btn btn-primary" id="button-submit">
-        <strong>Process Payment</strong>
-    </button>
+    <style type="text/css">
+#card-element {
+  border-radius: 4px 4px 0 0 ;
+  padding: 12px;
+  border: 1px solid rgba(50, 50, 93, 0.1);
+  height: 44px;
+  width: 100%;
+  background: white;
+}
+#card-element input {
+  border-radius: 6px;
+  margin-bottom: 6px;
+  padding: 12px;
+  border: 1px solid rgba(50, 50, 93, 0.1);
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  background: white;
+}
+    </style>
+    <fieldset id="payment-creditcard">
+        <div class="form-group">
+            <!-- Display a payment form -->
+            <div id="card-element"></div>
+            <p class="help-block"></p>
+            <button type="submit" class="btn btn-primary" id="payment-submit">
+                <div class="spinner hidden" id="spinner"></div>
+                <strong>Process Payment</strong>
+            </button>
+        </div>
+        <p class="help-block" id="card-error" role="alert"></p>
+        <p class="help-block result-message hidden"></p>
+    </fieldset>
     <script charset="utf-8" type="text/javascript">
             //<![CDATA[
             $(function () {
-                var result = $("#payment-result");
-                var options = {
-                    clearForm: false,
-                    beforeSubmit: function (arr, form, options) {
-                        result.removeClass("hide");
-                        result.removeClass("alert-danger");
-                        result.addClass("alert-info");
-                        result.text("Processing…");
-                        $("#payment-creditcard").attr("disabled", "disabled");
-                        $("#payment-key").attr("disabled", "disabled");
-                        if($("form#payment input#token").length) {
-                            // Skip if we already have a token from Paypal flow
-                            return true;
-                        }
-                        else {
-                            grecaptcha.ready(function() {
-                                grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
-                                    Stripe.card.createToken({
-                                      number: $("#creditcard").val(),
-                                      cvc: $("#cvc").val(),
-                                      exp_month: $("#exp_month").val(),
-                                      exp_year: $("#exp_year").val()
-                                    },
-                                    function (status, response) {
-                                        if(response.error) {
-                                            // Show the errors on the form
-                                            result.removeClass("alert-info");
-                                            result.addClass("alert-danger");
-                                            result.text(response.error.message);
-                                            $("#payment-creditcard").removeAttr("disabled");
-                                            $("#payment-key").removeAttr("disabled");
-                                        }
-                                        else {
-                                            var form = $("form#payment");
-                                            // Remove previous token if any
-                                            form.remove("#token");
-                                            // Insert the token into the form so it gets submitted to the server. Contains id, last4, and card type
-                                            form.append($("<input id='token' type='hidden' name='stripe-token' />").val(response.id));
-                                            form.append($("<input id='captcha' type='hidden' name='captcha-token' />").val(captchatoken));
-                                            form.submit();
-                                        }
-                                    }
-                                );
-                            });
-                          });
-                          // Return false to cancel submit until we have token obtained
-                          return false;
-                        }
+                var elements = stripe.elements();
+                var style = {
+                  base: {
+                    color: '#32325d',
+                    fontSmoothing: 'antialiased',
+                    fontSize: '16px',
+                    '::placeholder': {
+                      color: '#aab7c4'
                     },
-                    success: function (response, status) {
-                        $("#token").remove();
-                        result.removeClass("hide");
-                        result.addClass("alert-info");
-                        result.text(response);
+                    ':-webkit-autofill': {
+                      color: '#32325d',
                     },
-                    error: function (response) {
-                        $("#token").remove();
-                        result.removeClass("hide");
-                        result.removeClass("alert-info");
-                        result.addClass("alert-danger");
-                        result.text(response.responseText);
-                        $("#payment-creditcard").removeAttr("disabled");
-                        $("#payment-key").removeAttr("disabled");
-                    }
+                  },
+                  invalid: {
+                    color: '#fa755a',
+                    iconColor: '#fa755a',
+                    ':-webkit-autofill': {
+                      color: '#fa755a',
+                    },
+                  }
                 };
-                $("form#payment").ajaxForm(options);
+                var cardElement = elements.create("card", { style: style });
+                // Stripe injects an iframe into the DOM
+                cardElement.mount("#card-element");
+                // Handle real-time validation errors from the card Element.
+                cardElement.on('change', function(event) {
+                      $("#payment-submit").disabled = event.empty;
+                      $("#payment-result").textContent = event.error ? event.error.message : "";
+                });
+                $("#payment")[0].addEventListener('submit', function(ev) {
+                    ev.preventDefault();
+                    const formdata = new FormData($("form#payment")[0]);
+                    payment_progress();
+                    fetch("https://reg.cyberduck.io/payment", {
+                      method: "POST",
+                      body: formdata,
+                    }).then(function(result) {
+                        if(!result.ok) {
+                            return result.json().then(json => { throw json.message; });
+                        }
+                        return result.json();
+                    }).then(function(data) {
+                        // Stripe automatically displays a modal if the card requires authentication
+                        // like 3D Secure, where the customer must enter a passcode or other piece of identifying information to finalize the purchase.
+                        stripe.confirmCardPayment(data.client_secret,
+                            {
+                                payment_method: {card: cardElement},
+                            }
+                        ).then(function(result) {
+                            if (result.error) {
+                                // Show error to your customer
+                                payment_error(result.error.message);
+                            }
+                            else {
+                                // The payment succeeded. Submit form with payment intent reference
+                                var intent_id = result.paymentIntent.id;
+                                formdata.set("stripe-intent_id", intent_id);
+                                fetch("https://reg.cyberduck.io/payment", {
+                                  method: "POST",
+                                  body: formdata,
+                                }).then(function(result) {
+                                    if(!result.ok) {
+                                        return result.json().then(json => { throw json.message; });
+                                    }
+                                    return result.json();
+                                }).then(function(response) {
+                                    payment_success(response.message);
+                                }).catch(function(error) {
+                                    payment_error(error);
+                                });
+                            }
+                        });
+                    }).catch(function(error) {
+                        payment_error(error);
+                    });
+                });
             });
-
-            $(creditcard).bind("keyup", function (event) {
-                // MasterCard
-                if(/^5[1-5]/.test(event.target.value)) {
-                    $(mastercard).show();
-                    $(visa).hide();
-                    $(amex).hide();
-                }
-                // Visa
-                else if(/^4/.test(event.target.value)) {
-                    $(visa).show();
-                    $(mastercard).hide();
-                    $(amex).hide();
-                }
-                // AmEx
-                else if(/^3[47]/.test(event.target.value)) {
-                    $(amex).show();
-                    $(mastercard).hide();
-                    $(visa).hide();
-                }
-            });
-            //]]>
     </script>
 </div>
