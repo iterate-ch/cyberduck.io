@@ -245,16 +245,15 @@ input[type=text], input.textwidget {
     color: #428bca !important;
 }
 
-strong em {
-	color: #fff;
-    background-color: #d9534f;
+.wikipage strong em {
+    background-color: #dff0d8;
     padding: .2em .6em .3em;
     border-radius: .25em;
     font-style: normal;
 }
 
-strong {
-    background-color: #d9edf7;
+.wikipage strong {
+    background-color: #dff0d8;
     padding: .2em .6em .3em;
     display: inline;
     font-size: 90%;
@@ -266,9 +265,8 @@ strong {
     border-radius: .25em;
 }
 
-blockquote {
-    color: #fff;
-    background-color: #777;
+.wikipage blockquote {
+    background-color: ##fcf8e3;
     border-color: #3C404B;
     padding: 15px;
     margin-bottom: 20px;
@@ -276,10 +274,10 @@ blockquote {
     border-radius: 4px;
 }
 
-blockquote :link, blockquote :visited {
+.wikipage blockquote :link, .wikipage blockquote :visited {
     color: #fff;
 }
 
-blockquote :link:hover, blockquote :visited:hover {
+.wikipage blockquote :link:hover, .wikipage blockquote :visited:hover {
     background-color: transparent;
 }
