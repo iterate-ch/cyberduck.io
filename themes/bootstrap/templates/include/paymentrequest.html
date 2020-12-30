@@ -56,56 +56,52 @@
                 })
                 paymentRequest.on("paymentmethod", function(event) {
                     const formdata = new FormData($("form#payment")[0]);
-                    grecaptcha.ready(function() {
-                        grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
-                            payment_progress();
-                            fetch("https://reg.cyberduck.io/payment", {
-                              method: "POST",
-                              body: formdata,
-                            }).then(function(result) {
-                                if(!result.ok) {
-                                    return result.json().then(json => { throw json.message; });
-                                }
-                                return result.json();
-                            }).then(function(data) {
-                                stripe.confirmCardPayment(data.client_secret,
-                                    {
-                                        payment_method: event.paymentMethod.id,
-                                    },
-                                    {
-                                        handleActions: false,
+                    payment_progress();
+                    fetch("https://reg.cyberduck.io/payment", {
+                      method: "POST",
+                      body: formdata,
+                    }).then(function(result) {
+                        if(!result.ok) {
+                            return result.json().then(json => { throw json.message; });
+                        }
+                        return result.json();
+                    }).then(function(data) {
+                        stripe.confirmCardPayment(data.client_secret,
+                            {
+                                payment_method: event.paymentMethod.id,
+                            },
+                            {
+                                handleActions: false,
+                            }
+                        ).then(function(result) {
+                            if (result.error) {
+                                // Show error to your customer
+                                payment_error(result.error.message);
+                                // Report to the browser that the payment failed
+                                event.complete('fail');
+                            }
+                            else {
+                                // The payment succeeded
+                                var intent_id = result.paymentIntent.id;
+                                formdata.set("stripe-intent_id", intent_id);
+                                fetch("https://reg.cyberduck.io/payment", {
+                                  method: "POST",
+                                  body: formdata,
+                                }).then(function(result) {
+                                    if(!result.ok) {
+                                        return result.json().then(json => { throw json.message; });
                                     }
-                                ).then(function(result) {
-                                    if (result.error) {
-                                        // Show error to your customer
-                                        payment_error(result.error.message);
-                                        // Report to the browser that the payment failed
-                                        event.complete('fail');
-                                    }
-                                    else {
-                                        // The payment succeeded
-                                        var intent_id = result.paymentIntent.id;
-                                        formdata.set("stripe-intent_id", intent_id);
-                                        fetch("https://reg.cyberduck.io/payment", {
-                                          method: "POST",
-                                          body: formdata,
-                                        }).then(function(result) {
-                                            if(!result.ok) {
-                                                return result.json().then(json => { throw json.message; });
-                                            }
-                                            return result.json();
-                                        }).then(function(response) {
-                                            payment_success(response.message);
-                                            // Note that you must must call complete within 30 seconds.
-                                            event.complete("success");
-                                        }).catch(function(error) {
-                                            payment_error(error);
-                                            // Report to the browser that the payment failed
-                                            event.complete("fail");
-                                        });
-                                    }
+                                    return result.json();
+                                }).then(function(response) {
+                                    payment_success(response.message);
+                                    // Note that you must must call complete within 30 seconds.
+                                    event.complete("success");
+                                }).catch(function(error) {
+                                    payment_error(error);
+                                    // Report to the browser that the payment failed
+                                    event.complete("fail");
                                 });
-                            });
+                            }
                         });
                     }).catch(function(error) {
                         payment_error(error);
