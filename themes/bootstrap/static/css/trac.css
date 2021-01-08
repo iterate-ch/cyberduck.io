@@ -281,3 +281,30 @@ input[type=text], input.textwidget {
 .wikipage blockquote :link:hover, .wikipage blockquote :visited:hover {
     background-color: transparent;
 }
+
+
+#wikipage > ol {
+    list-style-type: none;
+}
+
+#wikipage > ol > li {
+    counter-increment: list;
+}
+
+#wikipage > ol > li:before {
+    width: 20px;
+    text-indent: 0;
+    padding-left: 0px;
+    height: 20px;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: 50%;
+    background-clip: padding-box;
+    color: #737373;
+    display: inline-block;
+    font-weight: 500;
+    content: counter(list);
+    margin-right: 14px;
+    font-size: 14px;
+    border: 1px solid #737373;
+}
