@@ -260,7 +260,6 @@ input[type=text], input.textwidget {
     font-weight: 700;
     line-height: 1;
     text-align: center;
-    white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25em;
 }
