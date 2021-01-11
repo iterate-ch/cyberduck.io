@@ -246,10 +246,13 @@ input[type=text], input.textwidget {
 }
 
 .wikipage strong em {
-    background-color: #dff0d8;
+    background-color: #d9534f;
+    color: #fff;
     padding: .2em .6em .3em;
+    margin: 0 -.6em;
     border-radius: .25em;
     font-style: normal;
+    font-weight: normal;
 }
 
 .wikipage strong {
@@ -280,7 +283,6 @@ input[type=text], input.textwidget {
 .wikipage blockquote :link:hover, .wikipage blockquote :visited:hover {
     background-color: transparent;
 }
-
 
 #wikipage > ol {
     list-style-type: none;
