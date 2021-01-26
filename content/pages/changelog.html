@@ -16,6 +16,73 @@
         <table class="table table-responsive table-striped">
             <tr>
                 <td>
+                    <p><strong><a href="https://trac.cyberduck.io/milestone/7.8.2">7.8.2</a></strong>
+                        <em>26 Jan 2021</em><br/>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-7.8.2.34203.zip"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-7.8.2.34203.zip']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 046d53f220da2a0fdd317941e807bcff">
+                            Download (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-7.8.2.34203.pkg"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-7.8.2.34203.pkg']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 1968fef15892e6b7068e723255c20744">
+                            Download Installer Package (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.2.34203.exe"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-7.8.2.34203.exe']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 f6d2b4973008662ed5c40947f0783299">
+                            Download Installer (Windows)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.2.34203.msi"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-7.8.2.34203.msi']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 e2cd81997fa8a611fe3f6170e82ae3c4">
+                            Download MSI Package (Windows)
+                        </a>
+                    </p>
+                </td>
+
+                <td>
+                    <ul class="list-unstyled">
+                        <li><span class="label label-success">Feature</span> Updated application when running on macOS Big Sur</li>
+                        <li><span class="label label-warning">Bugfix</span> Failure uploading large files with S3 compatible API (Backblaze
+                            B2) (<a target="_blank" href="https://trac.cyberduck.io/ticket/11233">#11233</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Failure uploading large using legacy S3 compatible API (Google
+                            Cloud Storage) (<a target="_blank" href="https://trac.cyberduck.io/ticket/11547">#11547</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> MD5 mismatch error for uploads to Oracle Object Storage
+                            replacing object (<a target="_blank" href="https://trac.cyberduck.io/ticket/11548">#11548</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Missing empty prefix parameter leads to permission error with
+                            IAM policy containing restriction on prefix (<a target="_blank" href="https://trac.cyberduck.io/ticket/11549">#11549</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Interoperability with Oracle Object Storage using path style
+                            requests (<a target="_blank" href="https://trac.cyberduck.io/ticket/10956">#10956</a>, <a target="_blank"
+                                                                                                                      href="https://trac.cyberduck.io/ticket/11548">#11548</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Failure listing files with shortcut pointing to deleted file
+                            (Google Drive)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Allow configuration of path for Nextcloud & ownCloud connections
+                            (<a target="_blank" href="https://trac.cyberduck.io/ticket/11540">#11540</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Failure unlocking vaults on Google Storage (Cryptomator) (<a
+                                target="_blank" href="https://trac.cyberduck.io/ticket/11528">#11528</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Fix SSL session reuse on data channel (FTP, Windows)</li>
+                        <li><span class="label label-warning">Bugfix</span> Failure running application (CLI, Linux)</li>
+                        <li><span class="label label-warning">Bugfix</span> Recursive search yields no results (Google Drive) (<a
+                                target="_blank"
+                                href="https://trac.cyberduck.io/ticket/11424">#11424</a>)
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
                     <p><strong><a href="https://trac.cyberduck.io/milestone/7.8.1">7.8.1</a></strong>
                         <em>15 Jan 2021</em><br/>
                         <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-7.8.1.34119.zip"
