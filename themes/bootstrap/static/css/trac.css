@@ -308,3 +308,12 @@ input[type=text], input.textwidget {
 #ctxtnav {
     display: none;
 }
+
+.ui-tabs .ui-tabs-nav li {
+    border: inherit;
+    background: inherit;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: white;
+}
