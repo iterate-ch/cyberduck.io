@@ -304,3 +304,7 @@ input[type=text], input.textwidget {
     font-size: 14px;
     border: 1px solid #737373;
 }
+
+#ctxtnav {
+    display: none;
+}
