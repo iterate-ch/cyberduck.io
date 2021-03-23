@@ -189,14 +189,14 @@ div.login h1 {
     width: auto;
 }
 
-.wiki-toc, #prefs, #ticket, #changelog, #attachments {
+.wiki-toc, .wiki-toc-inline, #prefs, #ticket, #changelog, #attachments {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px;
 }
 
-.wiki-toc, #prefs, #ticket {
+.wiki-toc, .wiki-toc-inline, #prefs, #ticket {
     /*color: #3a87ad;*/
     background-color: #d9edf7;
     border-color: #bce8f1
@@ -279,15 +279,15 @@ input[type=text], input.textwidget {
     background-color: transparent;
 }
 
-#wikipage > ol {
+#wikipage > ol, .tab-content ol {
     list-style-type: none;
 }
 
-#wikipage > ol > li {
+#wikipage > ol > li, .tab-content ol > li {
     counter-increment: list;
 }
 
-#wikipage > ol > li:before {
+#wikipage > ol > li:before, .tab-content ol > li:before {
     width: 20px;
     text-indent: 0;
     padding-left: 0px;
@@ -305,15 +305,17 @@ input[type=text], input.textwidget {
     border: 1px solid #737373;
 }
 
-#ctxtnav {
-    display: none;
+.wikipage .tab-pane {
+    padding: 1em 1.4em;
+    background-color #d9edf7;
 }
 
-.ui-tabs .ui-tabs-nav li {
+.wikipage .nav > li {
     border: inherit;
-    background: inherit;
+    display: inherit;
+    padding: inherit;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-active {
-    background: white;
+.wikipage .tab-content {
+    background-color: #f4faff;
 }
