@@ -156,6 +156,10 @@ dt :link:hover, dt :visited:hover {
     background-color: transparent;
 }
 
+.wiki-toc-inline ul, .wiki-toc-inline ol {
+    list-style: none;
+}
+
 .wikipage h1 a.wiki, .wikipage h2 a.wiki {
     font-weight: bold;
 }
@@ -317,5 +321,5 @@ input[type=text], input.textwidget {
 }
 
 .wikipage .tab-content {
-    background-color: #f4faff;
+    border-left: 1px solid #ddd;
 }
