@@ -9,7 +9,7 @@
 
         <meta name="google-site-verification" content="1Wgv1h7B1ehNr5VEsM0p-pFzM4nxYS1yJuKhbT2LTe4"/>
         <meta property="twitter:account_id" content="4503599630547449"/>
-        <link rel="shortcut icon" href="//cdn.cyberduck.io/favicon.ico">
+        <link rel="shortcut icon" type="image/png" href="/img/cyberduck-icon-rect-32.png">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -49,68 +49,66 @@
             {% block navigation %}
             <div class="container">
                 <nav class="navbar navbar-default" role="navigation">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#navigation-pages" aria-expanded="false" aria-controls="navigation-pages">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            {% block brand %}
-                            <a class="navbar-brand" href="{{ SITEURL }}">
-                                <img src="//cdn.cyberduck.io/img/cyberduck-icon-64.png" class="img-responsive"
-                                     width="64px" height="64px" title="Cyberduck">
-                            </a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navigation-pages" aria-expanded="false" aria-controls="navigation-pages">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        {% block brand %}
+                        <a class="navbar-brand" href="{{ SITEURL }}">
+                            <img src="/img/cyberduck-icon-rect-1024.png" class="img-responsive"
+                                 width="64px" height="64px" title="Cyberduck">
+                        </a>
+                        {% endblock %}
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navigation-pages">
+                        <ul class="nav navbar-nav navbar-right">
+                            {% if DISPLAY_PAGES_ON_MENU %}
+                            {% for page in pages %}
+                            <li>
+                                <a class="navbar-link" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                            {% endfor %}
+                            {% endif %}
+                            {% for cat, null in categories %}
+                            <li>
+                                {% if cat == category %}class="active"{% endif %}><a
+                                    href="{{ SITEURL }}/{{ cat.url }}">{{ cat}}</a>
+                            </li>
+                            {% endfor %}
+
+                            <li>
+                                <a class="navbar-link" href="https://blog.cyberduck.io">Blog</a>
+                            </li>
+                            <li style="border-right: none">
+                                <a class="navbar-link" href="https://trac.cyberduck.io">Development</a>
+                            </li>
+                            {% block protocols %}
+                            <li style="border-right: none" class="dropdown">
+                                {% include "include/protocols.html" %}
+                            </li>
                             {% endblock %}
-                        </div>
-
-                        <div class="collapse navbar-collapse" id="navigation-pages">
-                            <ul class="nav navbar-nav navbar-right">
-                                {% if DISPLAY_PAGES_ON_MENU %}
-                                {% for page in pages %}
-                                <li>
-                                    <a class="navbar-link" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
-                                </li>
-                                {% endfor %}
-                                {% endif %}
-                                {% for cat, null in categories %}
-                                <li>
-                                    {% if cat == category %}class="active"{% endif %}><a
-                                        href="{{ SITEURL }}/{{ cat.url }}">{{ cat}}</a>
-                                </li>
-                                {% endfor %}
-
-                                <li>
-                                    <a class="navbar-link" href="https://blog.cyberduck.io">Blog</a>
-                                </li>
-                                <li style="border-right: none">
-                                    <a class="navbar-link" href="https://trac.cyberduck.io">Development</a>
-                                </li>
-                                {% block protocols %}
-                                <li style="border-right: none" class="dropdown">
-                                    {% include "include/protocols.html" %}
-                                </li>
-                                {% endblock %}
-                                <li style="border-right: none">
-                                    <a class="navbar-link" href="/download">
-                                        <button class="btn btn-primary navbar-btn">
-                                            Download
-                                        </button>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="navbar-link" href="/donate">
-                                        <button class="btn btn-success navbar-btn" rel="tooltip" data-placement="bottom"
-                                                data-container="body"
-                                                data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
-                                            Donate
-                                        </button>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                            <li style="border-right: none">
+                                <a class="navbar-link" href="/download">
+                                    <button class="btn btn-primary navbar-btn">
+                                        Download
+                                    </button>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="/donate">
+                                    <button class="btn btn-success navbar-btn" rel="tooltip" data-placement="bottom"
+                                            data-container="body"
+                                            data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
+                                        Donate
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>

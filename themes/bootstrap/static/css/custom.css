@@ -33,6 +33,7 @@ a:hover, a:focus {
 }
 
 .page-header {
+    margin: 0;
     border-bottom: none
 }
 
@@ -121,6 +122,10 @@ a:hover, a:focus {
 
 .navbar-default > li > a {
     /*padding: 1px 5px 1px 10px;*/
+}
+
+.navbar-default .navbar-brand {
+    padding-left: 0;
 }
 
 body {
