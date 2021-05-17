@@ -283,15 +283,15 @@ input[type=text], input.textwidget {
     background-color: transparent;
 }
 
-#wikipage > ol, .tab-content ol {
+#wikipage > ol, .tab-pane > ol {
     list-style-type: none;
 }
 
-#wikipage > ol > li, .tab-content ol > li {
+#wikipage > ol > li, .tab-pane > ol > li {
     counter-increment: list;
 }
 
-#wikipage > ol > li:before, .tab-content ol > li:before {
+#wikipage > ol > li:before, .tab-pane > ol > li:before {
     width: 20px;
     text-indent: 0;
     padding-left: 0px;
