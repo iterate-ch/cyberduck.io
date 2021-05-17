@@ -309,17 +309,21 @@ input[type=text], input.textwidget {
     border: 1px solid #737373;
 }
 
-.wikipage .tab-pane {
+#wikipage .tab-pane {
     padding: 1em 1.4em;
     background-color #d9edf7;
 }
 
-.wikipage .nav > li {
+#wikipage .nav-tabs {
+    display: flex;
+}
+
+#wikipage .nav > li {
     border: inherit;
     display: inherit;
     padding: inherit;
 }
 
-.wikipage .tab-content {
+#wikipage .tab-content {
     border-left: 1px solid #ddd;
 }
