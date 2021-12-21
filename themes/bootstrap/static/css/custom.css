@@ -201,14 +201,6 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
     display: none;
 }
 
-blockquote {
-    font-size: inherit;
-}
-
-blockquote p {
-    font-size: inherit;
-}
-
 #lang {
     padding: 0;
 }
@@ -231,10 +223,6 @@ blockquote p {
 
 .swissmade {
     padding-bottom: 20px;
-}
-
-blockquote {
-    overflow-x: auto;
 }
 
 .alert:empty {
