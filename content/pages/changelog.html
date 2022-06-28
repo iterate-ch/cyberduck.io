@@ -17,12 +17,104 @@
             <tr>
                 <td>
                     <p><strong><a href="https://trac.cyberduck.io/milestone/8.4.0">8.4.0</a></strong>
+                        <em>28 Jun 2022</em><br/>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-8.4.0.38000.zip"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-8.4.0.38000.zip']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 c33c057a85c344944f90f5c96347e86f">
+                            Download (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-8.4.0.38000.pkg"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.zip', '/Cyberduck-8.4.0.38000.pkg']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 1699c33d8b28d2f3cd5c62404c7154e4">
+                            Download Installer Package (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-8.4.0.38000.exe"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-8.4.0.38000.exe']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 d06141b5c9d77f523d5609443aea2da1">
+                            Download Installer (Windows)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-8.4.0.38000.msi"
+                           onClick="_gaq.push(['_trackEvent', 'Downloads', '*.exe', '/Cyberduck-Installer-8.4.0.38000.msi']);"
+                           rel="tooltip" data-placement="bottom" title="MD5 dc7beca13f60d324554620805367e04f">
+                            Download MSI Package (Windows)
+                        </a>
                     </p>
-                    <div class="alert alert-success">Windows 10 (14393)/Server 2016 or later required.</div>
+                    <div class="alert alert-success">Windows 10 (14393) or later required.</div>
+                    <div class="alert alert-success">Windows Server 2016 or later required.</div>
                 </td>
 
                 <td>
                     <ul class="list-unstyled">
+                        <li><span class="label label-success">Feature</span> Revert previous file versions in Info panel (S3, Backblaze B2,
+                            Dropbox, Google Storage, OneDrive, Microsoft Sharepoint)
+                        </li>
+                        <li><span class="label label-success">Feature</span> Delete previous file versions in Info panel (S3, Backblaze B2,
+                            Google Drive, Google Storage)
+                        </li>
+                        <li><span class="label label-success">Feature</span> View previous file versions in Info panel (S3, Backblaze B2,
+                            Dropbox, Google Drive, Google Storage, OneDrive, Microsoft Sharepoint)
+                        </li>
+                        <li><span class="label label-success">Feature</span> Support applications installed from Windows Store for editing
+                            files (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/12802">12802</a>) (Windows)
+                        </li>
+                        <li><span class="label label-success">Feature</span> No length limitation when storing passwords in Windows
+                            Credential manager (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/12803">#12803</a>) (Windows)
+                        </li>
+                        <li><span class="label label-success">Feature</span> Migrate OAuth out-of-band flow to an alternative method (<a
+                                target="_blank" href="https://trac.cyberduck.io/ticket/13360">#13360</a>) (Google Drive, Google Storage)
+                        </li>
+                        <li><span class="label label-success">Feature</span> Add menu item to request files for protocols that support
+                            upload share links (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13426">#13426</a>) (Box, Nextcloud, ownCloud)
+                        </li>
+                        <li><span class="label label-success">Feature</span> Include region identifier in region selection when creating new
+                            bucket (S3) (#13501)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Do not attempt to set ACL on files uploaded to bucket with
+                            owner controls set that disallows ACLs (S3) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13386">#13386</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Register custom DNS resolver to handle IPv6 preference (<a
+                                target="_blank" href="https://trac.cyberduck.io/ticket/13399">#13399</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Failure opening vault (Cryptomator, FTP) (<a
+                                target="_blank" href="https://trac.cyberduck.io/ticket/13375">#13375</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Mismatch between SHA256 hash error when downloading files
+                            (Dropbox) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13361">#13361</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> No such file error when uploading with temporary filename
+                            option (SFTP) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13367">#13367</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Transfer acceleration endpoints not used (S3) (<a
+                                target="_blank" href="https://trac.cyberduck.io/ticket/13359">#13359</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Delete multiple files with batch request (DRACOON)</li>
+                        <li><span class="label label-warning">Bugfix</span> RequestTimeTooSkewed error with computer date settings not using
+                            Gregorian calendar (S3) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13454">#13454</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Fix error reporting to display exact parser failure for
+                            unexpected response contents (S3) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13383">#13383</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Invalid hostname used when completing multipart upload when
+                            connecting to single bucket (S3)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Unable to delete object version created prior enabling file
+                            versioning for bucket (S3) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13507">#13507</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Bucket versioning checkbox should reflect lifecycle
+                            configuration (Backblaze B2) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/13505">#13505</a>)
+                        </li>
                     </ul>
                 </td>
             </tr>
