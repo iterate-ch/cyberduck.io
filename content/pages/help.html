@@ -8,7 +8,7 @@
 
     <body>
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-6">
                 <h2>Support <small>Documentation is maintained in a wiki everyone can contribute to. For issues with your account
                     credentials, please instead write to your hosting service provider. For bug reports or a feature request
                     you can open a ticket in our public issue tracker. Discuss features and issues you are having in the <a
@@ -89,9 +89,17 @@
 
                 <p id="receipt-result" class="alert alert-info"></p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <p class="help-block"></p>
-                <a class="twitter-timeline" data-dnt="true" data-theme="light" data-tweet-limit="5" href="https://twitter.com/cyberduckapp?ref_src=twsrc%5Etfw">Tweets by cyberduckapp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="mastodon-feed" href="https://fosstodon.org/@cyberduck" data-toot-limit="4"></a>
+                <script async type="module" src="//cdn.cyberduck.io/js/emfed.js"></script>
+                <link rel="stylesheet" type="text/css" href="//cdn.cyberduck.io/css/toots.css">
+            </div>
+            <div class="col-sm-3">
+                <p class="help-block"></p>
+                <a class="twitter-timeline" data-dnt="true" data-theme="light" data-tweet-limit="5" href="https://twitter.com/cyberduckapp?ref_src=twsrc%5Etfw"></a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
     </body>
 </html>
