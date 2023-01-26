@@ -25,19 +25,12 @@
             </div>
         </div>
         <div class="col-md-6">
-            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/cyberduckapp"
-               data-chrome="nofooter " height="320px" width="100%"
-               data-widget-id="390207087331901440">Tweets by @cyberduckapp</a>
-            <script>!function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                    if(!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = p + "://platform.twitter.com/widgets.js";
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }
-                }(document, "script", "twitter-wjs");
-            </script>
+            <div class="well">
+                <h3>Toots in 🦣 Fediverse</h3>
+                <a class="mastodon-feed" href="https://fosstodon.org/@cyberduck" data-toot-limit="4"></a>
+                <script async type="module" src="/js/emfed.js"></script>
+                <link rel="stylesheet" type="text/css" href="//cdn.cyberduck.io/css/toots.css">
+            </div>
         </div>
     </div>
 </div>
