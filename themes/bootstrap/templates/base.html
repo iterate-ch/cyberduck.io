@@ -28,6 +28,16 @@
         <link href="/css/custom.css" rel="stylesheet">
 
         <script src="//cdn.cyberduck.io/js/ga.js"></script>
+
+        <script>
+            var track = function(url) {
+                ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function(){document.location = url;}
+                });
+            }
+        </script>
+
         <script src="//cdn.cyberduck.io/js/custom.js"></script>
 
         <script src="//cdn.cyberduck.io/js/jquery.form.min.js"></script>
