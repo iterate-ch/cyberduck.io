@@ -5,3 +5,10 @@
 
 ga('create', 'UA-3203018-1', 'auto');
 ga('send', 'pageview');
+
+var track = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
