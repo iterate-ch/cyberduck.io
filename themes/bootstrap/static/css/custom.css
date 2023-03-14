@@ -145,21 +145,21 @@ body > footer {
     font-size: 70%;
 }
 
-body section#social {
+body section#content > section#social {
     background: radial-gradient(circle farthest-corner at left top, #fad037 0, #fff 100%);
 }
 
-body section#products {
+body section#content > section#products {
     background-color: #ffd54f;
     border-bottom: 2px solid #ccc;
 
 }
 
-body section#protocols {
+body section#content > section#protocols {
     background: radial-gradient(circle farthest-corner at right bottom, #ccc 0, #fff 100%);
 }
 
-body section#cryptomator {
+body section#content > section#cryptomator {
     background: radial-gradient(circle farthest-corner at right bottom, #49b04a 0, #ddd 100%);
 }
 
@@ -254,7 +254,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
     max-width: none;
 }
 
-section#protocols .media-body p {
+section#content > section#protocols .media-body p {
     font-size: 90%;
 }
 
