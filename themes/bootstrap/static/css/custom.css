@@ -145,14 +145,13 @@ body > footer {
     font-size: 70%;
 }
 
-body section#content > section#social {
+body section#social {
     background: radial-gradient(circle farthest-corner at left top, #fad037 0, #fff 100%);
 }
 
-body section#content > section#products {
+body section#products {
     background-color: #ffd54f;
     border-bottom: 2px solid #ccc;
-
 }
 
 body section#content > section#protocols {
