@@ -16,6 +16,75 @@
         <table class="table table-responsive table-striped">
             <tr>
                 <td>
+                    <p><strong><a href="https://trac.cyberduck.io/milestone/8.5.7">8.5.7</a></strong>
+                        <em>22 Mar 2023</em><br/>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-8.5.7.39535.zip"
+                                                      rel="tooltip" data-placement="bottom" title="MD5 450d99554b0c018702553487aa277f18">
+                            Download (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-8.5.7.39535.pkg"
+                                                      rel="tooltip" data-placement="bottom" title="MD5 21553e8903b0ebe938e93c304945a1fe">
+                            Download Installer Package (Mac)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-8.5.7.39535.exe"
+                                                      rel="tooltip" data-placement="bottom" title="MD5 8b5a7d5031da9e9fdf616d99d0b0efd4">
+                            Download Installer (Windows)
+                        </a>
+                        <a class="btn btn-default btn-xs"
+                           href="https://update.cyberduck.io/windows/Cyberduck-Installer-8.5.7.39535.msi"
+                                                      rel="tooltip" data-placement="bottom" title="MD5 b9e9315ab1c9f85524332e6e03280465">
+                            Download MSI Package (Windows)
+                        </a>
+                    </p>
+                </td>
+
+                <td>
+                    <ul class="list-unstyled">
+                        <li><span class="label label-warning">Bugfix</span> Cannot create or duplicate files with any suffix (#14263)</li>
+                        <li><span class="label label-warning">Bugfix</span> Do not use MLST when running with interoperability connection
+                            profile (FTP) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14333">#14333</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Error using "Open With" to open file in external editor
+                            (Windows) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14332">#14332</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Overwriting large file deletes segments after transfer is
+                            complete (OpenStack Swift) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14326">#14326</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Edit file instantly uploads and overwrites file on server with
+                            no change (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14251">#14251</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> The bucket does not allow ACLs error when copying file to bucket
+                            with BucketOwnerEnforced ownership controls (S3) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14300">#14300</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Allow to copy expiring public links using shared access
+                            signature with different expiry dates (Azure) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14270">#14270</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Allow to create public links with different expiry dates
+                            (OpenStack Swift) (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14256">#14256</a>)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Review layout of input prompts (Windows)</li>
+                        <li><span class="label label-warning">Bugfix</span> Overwrite prompt does not allow to expand folder (Windows)
+                            (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/14287">#14287</a>#)
+                        </li>
+                        <li><span class="label label-warning">Bugfix</span> Transfer with Resume or Compare option marked as incomplete when
+                            all files can be skipped (<a
+                                    target="_blank" href="https://trac.cyberduck.io/ticket/12998">#12998</a>)
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
                     <p><strong><a href="https://trac.cyberduck.io/milestone/8.5.6">8.5.6</a></strong>
                         <em>17 Feb 2023</em><br/>
                         <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-8.5.6.39394.zip"
