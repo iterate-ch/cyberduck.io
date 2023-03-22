@@ -275,3 +275,7 @@ a.img-thumbnail:hover {
         display: inline !important;
     }
 }
+
+.toot {
+    padding: 15px;
+}
