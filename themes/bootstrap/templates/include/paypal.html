@@ -64,7 +64,6 @@
                                             // Submit `payload.nonce` to your server.
                                             // Insert the token into the form so it gets submitted to the server
                                             formdata.set("paypal-nonce", payload.nonce);
-                                            formdata.set("captcha-token", captchatoken);
                                             fetch("https://reg.cyberduck.io/payment", {
                                               method: "POST",
                                               body: formdata,
