@@ -70,49 +70,54 @@
                 });
                 $("#payment")[0].addEventListener('submit', function(ev) {
                     ev.preventDefault();
-                    const formdata = new FormData($("form#payment")[0]);
-                    payment_progress();
-                    fetch("https://reg.cyberduck.io/payment", {
-                      method: "POST",
-                      body: formdata,
-                    }).then(function(result) {
-                        if(!result.ok) {
-                            return result.json().then(json => { throw json.message; });
-                        }
-                        return result.json();
-                    }).then(function(data) {
-                        // Stripe automatically displays a modal if the card requires authentication
-                        // like 3D Secure, where the customer must enter a passcode or other piece of identifying information to finalize the purchase.
-                        stripe.confirmCardPayment(data.client_secret,
-                            {
-                                payment_method: {card: cardElement},
-                            }
-                        ).then(function(result) {
-                            if (result.error) {
-                                // Show error to your customer
-                                payment_error(result.error.message);
-                            }
-                            else {
-                                // The payment succeeded. Submit form with payment intent reference
-                                var intent_id = result.paymentIntent.id;
-                                formdata.set("stripe-intent_id", intent_id);
-                                fetch("https://reg.cyberduck.io/payment", {
-                                  method: "POST",
-                                  body: formdata,
-                                }).then(function(result) {
-                                    if(!result.ok) {
-                                        return result.json().then(json => { throw json.message; });
+                    grecaptcha.ready(function() {
+                        grecaptcha.execute('6Ld3Z6gUAAAAAMCmA8MKvO8So41ZgHFXIvoiNjvH', {action: 'payment'}).then(function(captchatoken) {
+                            const formdata = new FormData($("form#payment")[0]);
+                            formdata.set("captcha-token", captchatoken);
+                            payment_progress();
+                            fetch("https://reg.cyberduck.io/payment", {
+                              method: "POST",
+                              body: formdata,
+                            }).then(function(result) {
+                                if(!result.ok) {
+                                    return result.json().then(json => { throw json.message; });
+                                }
+                                return result.json();
+                            }).then(function(data) {
+                                // Stripe automatically displays a modal if the card requires authentication
+                                // like 3D Secure, where the customer must enter a passcode or other piece of identifying information to finalize the purchase.
+                                stripe.confirmCardPayment(data.client_secret,
+                                    {
+                                        payment_method: {card: cardElement},
                                     }
-                                    return result.json();
-                                }).then(function(response) {
-                                    payment_success(response.message);
-                                }).catch(function(error) {
-                                    payment_error(error);
+                                ).then(function(result) {
+                                    if (result.error) {
+                                        // Show error to your customer
+                                        payment_error(result.error.message);
+                                    }
+                                    else {
+                                        // The payment succeeded. Submit form with payment intent reference
+                                        var intent_id = result.paymentIntent.id;
+                                        formdata.set("stripe-intent_id", intent_id);
+                                        fetch("https://reg.cyberduck.io/payment", {
+                                          method: "POST",
+                                          body: formdata,
+                                        }).then(function(result) {
+                                            if(!result.ok) {
+                                                return result.json().then(json => { throw json.message; });
+                                            }
+                                            return result.json();
+                                        }).then(function(response) {
+                                            payment_success(response.message);
+                                        }).catch(function(error) {
+                                            payment_error(error);
+                                        });
+                                    }
                                 });
-                            }
+                            }).catch(function(error) {
+                                payment_error(error);
+                            });
                         });
-                    }).catch(function(error) {
-                        payment_error(error);
                     });
                 });
             });
