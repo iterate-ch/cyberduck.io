@@ -106,12 +106,12 @@
                                         });
                                     }
                                 });
+                            }).catch(function(error) {
+                                payment_error(error);
+                                // Report to the browser that the payment failed
+                                event.complete("fail");
                             });
                         });
-                    }).catch(function(error) {
-                        payment_error(error);
-                        // Report to the browser that the payment failed
-                        event.complete("fail");
                     });
                 });
               }
