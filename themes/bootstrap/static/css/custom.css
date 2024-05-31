@@ -50,6 +50,10 @@ a:hover, a:focus {
     border-radius: 0;
 }
 
+.navbar-collapse {
+    border: none;
+}
+
 .navbar-default .in .navbar-nav > li > a {
     padding-bottom: 10px;
     text-align: right;
@@ -115,8 +119,12 @@ a:hover, a:focus {
     /*background-color: #f9f9f9;*/
 }
 
-.navbar-default ul {
+.navbar-default {
     margin-top: 40px;
+}
+
+.navbar-brand {
+    padding: 0;
 }
 
 .navbar-default > li > a {
@@ -264,18 +272,11 @@ a.img-thumbnail:hover {
     background: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
-   .navbar-collapse.collapse {
-       display: none !important;
-   }
-}
-
-@media (min-width: 768px) and (max-width: 1000px) {
-    .navbar-toggle {
-        display: inline !important;
-    }
-}
-
 .toot {
     padding: 15px;
+}
+
+.collapsing {
+    transition: none;
+    display: none;
 }
