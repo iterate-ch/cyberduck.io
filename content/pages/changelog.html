@@ -16,6 +16,102 @@
 <table class="table table-responsive table-striped">
     <tr>
         <td>
+            <p><strong><a href="https://trac.cyberduck.io/milestone/9.1.0">9.1.0</a></strong>
+                <em>05 Dec 2024</em><br/>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.1.0.42520.zip"
+                   rel="tooltip" data-placement="bottom" title="MD5 e12923cf10dec3e58c1655b7832ff47f">
+                    Download (Mac)
+                </a>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.1.0.42520.pkg"
+                   rel="tooltip" data-placement="bottom" title="MD5 234ee16f7e7bb638085d08103ec3f02e">
+                    Download Installer Package (Mac)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.1.0.42520.exe"
+                   rel="tooltip" data-placement="bottom" title="MD5 a49dc0060f52b4cb4f539f9311be0063">
+                    Download Installer (Windows)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.1.0.42520.msi"
+                   rel="tooltip" data-placement="bottom" title="MD5 e87e9e39684c35cea984e100216896cf">
+                    Download MSI Package (Windows)
+                </a>
+            </p>
+        </td>
+
+        <td>
+            <ul class="list-unstyled">
+                <li><span class="label label-success">Feature</span> Display transfer progress in Finder for downloads
+                    and uploads
+                    (macOS) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16568">#16568</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Show indeterminate progress when concatenating
+                    segments after
+                    download transfer (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/13610">#13610</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Show indeterminate progress when waiting for large
+                    file upload
+                    to complete (Backblaze B2, Box, OpenStack Swift, S3)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Multipart uploads fail to buckets with '.' character
+                    in name
+                    (S3) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16401">#16401</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Usability improvements entering connection details (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/15200">#15200</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Set "Show Hidden Files"shortcut to "⌘ ⇧ ." as in
+                    Finder (macOS)
+                    (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16459">#16459</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Do not require GroupMember.Read.All permission
+                    (Microsoft
+                    OneDrive, SharePoint) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16564">#16564</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Do not require storage.buckets.list permission to
+                    access bucket
+                    (Google Storage) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16565">#16565</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Test credentials using sts:GetCallerIdentity (AWS
+                    S3) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16565">#16565</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Cannot exclude files in transfer prompt for existing
+                    files
+                    (macOS) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16503">#16503</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Files not removed in vault when deleting folder
+                    (Cryptomator)
+                    (Box, Dropbox, Google Drive, OneDrive,
+                    WebDAV, SMB) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/14101">#14101</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Access files with double-byte character in key (S3)
+                    (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/13407">#13407</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Failure uploading nested folders to vault
+                    (Cryptomator) (Azure,
+                    Backblaze B2, Google Storage, OpenStack
+                    Swift) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15489">#15489</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Error copying files between vaults (Cryptomator) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/15422">#15422</a>)
+                </li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
             <p><strong><a href="https://trac.cyberduck.io/milestone/9.0.3">9.0.3</a></strong>
                 <em>18 Sep 2024</em><br/>
                 <a class="btn btn-default btn-xs"
@@ -33,7 +129,8 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Registration key prompt in browser window regardless of
+                <li><span class="label label-warning">Bugfix</span> Registration key prompt in browser window regardless
+                    of
                     registration (Windows) (<a target="_blank" href="https://trac.cyberduck.io/ticket/16326">#16326</a>)
                 </li>
             </ul>
@@ -70,14 +167,18 @@
                 <li><span class="label label-success">Feature</span> Support for Canada West (Calgary) region (S3) <a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16215">#16215</a>)</a>)
                 </li>
-                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Melbourne) region (S3)</li>
-                <li><span class="label label-success">Feature</span> Support for Israel (Tel Aviv) region (S3)</li>
-                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Kuala Lumpur) region (S3)</li>
-                <li><span class="label label-warning">Bugfix</span> No accessible elements in list of bookmarks (macOS) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/10853">#10853</a>)
+                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Melbourne) region (S3)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Unable to enter device serial number for MFA delete (S3) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16267">#16267</a>)
+                <li><span class="label label-success">Feature</span> Support for Israel (Tel Aviv) region (S3)</li>
+                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Kuala Lumpur) region (S3)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> No accessible elements in list of bookmarks (macOS)
+                    (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/10853">#10853</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Unable to enter device serial number for MFA delete
+                    (S3) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16267">#16267</a>)
                 </li>
             </ul>
         </td>
@@ -110,16 +211,20 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Auto detect of vaults not always working (Cryptomator)</li>
+                <li><span class="label label-warning">Bugfix</span> Auto detect of vaults not always working
+                    (Cryptomator)
+                </li>
                 <li><span class="label label-warning">Bugfix</span> Missing server prompts before transfer (Windows) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16140">#16140</a>, <a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16113">#16113</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Hang on reopening Transfer window when transfer in progress
+                <li><span class="label label-warning">Bugfix</span> Hang on reopening Transfer window when transfer in
+                    progress
                     (Windows) (<a target="_blank" href="https://trac.cyberduck.io/ticket/16147">#16147</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Crash when selected default protocol doesn’t exist (Windows) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16115">#16115</a>)
+                <li><span class="label label-warning">Bugfix</span> Crash when selected default protocol doesn’t exist
+                    (Windows) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16115">#16115</a>)
                 </li>
             </ul>
         </td>
@@ -152,18 +257,24 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-success">Feature</span> Versioning of files edited in external application (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15137">#15137</a>)
+                <li><span class="label label-success">Feature</span> Versioning of files edited in external application
+                    (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15137">#15137</a>)
                 </li>
-                <li><span class="label label-success">Feature</span> Custom icons for protocols (Nextcloud, ownCloud)</li>
-                <li><span class="label label-success">Feature</span> Detect proxy configuration change for already open connections
+                <li><span class="label label-success">Feature</span> Custom icons for protocols (Nextcloud, ownCloud)
+                </li>
+                <li><span class="label label-success">Feature</span> Detect proxy configuration change for already open
+                    connections
                     (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/13274">#13274</a>)
                 </li>
-                <li><span class="label label-success">Feature</span> Rewrite implementation of Transfers window (Windows) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15885">#15885</a>)
+                <li><span class="label label-success">Feature</span> Rewrite implementation of Transfers window
+                    (Windows) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15885">#15885</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Failure retrieving previous versions of file (ownCloud)</li>
+                <li><span class="label label-warning">Bugfix</span> Failure retrieving previous versions of file
+                    (ownCloud)
+                </li>
                 <li><span class="label label-warning">Bugfix</span> Missing shared folders (OneDrive Business) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16036">#16036</a>)
                 </li>
@@ -201,8 +312,9 @@
                 <li><span class="label label-success">Feature</span> Resumable file uploads (ownCloud) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15619">#15619</a>)
                 </li>
-                <li><span class="label label-success">Feature</span> Support authentication using SSH certificates (SFTP) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15183">#15183</a>)
+                <li><span class="label label-success">Feature</span> Support authentication using SSH certificates
+                    (SFTP) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15183">#15183</a>)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Failure sharing file (ownCloud) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15855">#15855</a>, <a
@@ -211,8 +323,9 @@
                 <li><span class="label label-warning">Bugfix</span> Disable signing and encryption by default (SMB) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15817">#15817</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> NTLM authentication failures (WebDAV, SharePoint) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15127">#15127</a>)
+                <li><span class="label label-warning">Bugfix</span> NTLM authentication failures (WebDAV, SharePoint)
+                    (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15127">#15127</a>)
                 </li>
             </ul>
         </td>
@@ -245,8 +358,9 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Slower file transfers caused by connections per host limit (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15737">#15737</a>)
+                <li><span class="label label-warning">Bugfix</span> Slower file transfers caused by connections per host
+                    limit (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15737">#15737</a>)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Unable to edit HTTP header metadata (S3) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15742">#15742</a>)
@@ -282,7 +396,8 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Mismatch with Content-MD5 for multipart uploads to vault (S3,
+                <li><span class="label label-warning">Bugfix</span> Mismatch with Content-MD5 for multipart uploads to
+                    vault (S3,
                     Cryptomator) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15704">#15704</a>)
                 </li>
@@ -318,20 +433,24 @@
         <td>
             <ul class="list-unstyled">
                 <li><span class="label label-success">Localize</span> Tamil Localization</li>
-                <li><span class="label label-warning">Bugfix</span> Improved retry and backoff strategy for API errors (Backblaze
+                <li><span class="label label-warning">Bugfix</span> Improved retry and backoff strategy for API errors
+                    (Backblaze
                     B2) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15601">#15601</a>)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Require signing and encryption by default (SMB) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15638">#15638</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Support upload to buckets with object lock enabled (S3) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15557">#15557</a>)
+                <li><span class="label label-warning">Bugfix</span> Support upload to buckets with object lock enabled
+                    (S3) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15557">#15557</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Transfer incomplete message when copying between servers (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/15583">#15583</a>)
+                <li><span class="label label-warning">Bugfix</span> Transfer incomplete message when copying between
+                    servers (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/15583">#15583</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Unresponsive application when waiting for transfer to cancel on
+                <li><span class="label label-warning">Bugfix</span> Unresponsive application when waiting for transfer
+                    to cancel on
                     timeout (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15671">#15671</a>)
                 </li>
@@ -392,8 +511,9 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Missing digest header when commiting large file upload (Box) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/14564">#14564</a>)
+                <li><span class="label label-warning">Bugfix</span> Missing digest header when commiting large file
+                    upload (Box) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/14564">#14564</a>)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Modification date not set in upload (Dropbox) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/15381">#15381</a>)
@@ -432,29 +552,36 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Crash when selecting private key outside of ~/.ssh (macOS, Mac
+                <li><span class="label label-warning">Bugfix</span> Crash when selecting private key outside of ~/.ssh
+                    (macOS, Mac
                     App Store)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Application scoped bookmark to access file outside of sandbox
+                <li><span class="label label-warning">Bugfix</span> Application scoped bookmark to access file outside
+                    of sandbox
                     not saved (macOS, Mac App Store) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15250">#15250</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Failure parsing expiration from cached temporary credentials in
+                <li><span class="label label-warning">Bugfix</span> Failure parsing expiration from cached temporary
+                    credentials in
                     AWS CLI configuration from AWS SSO (S3) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15257">#15257</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Unable to authenticate with S3 (Credentials from AWS Command
+                <li><span class="label label-warning">Bugfix</span> Unable to authenticate with S3 (Credentials from AWS
+                    Command
                     Line Interface) connection profile (S3) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15222">#15222</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Refreshed OAuth tokens not saved in credentials manager
+                <li><span class="label label-warning">Bugfix</span> Refreshed OAuth tokens not saved in credentials
+                    manager
                     (Dropbox, Google Drive, Google Storage, Microsoft OneDrive, SharePoint) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/15309">#15309</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Failure saving OpenID Connect (OIDC) token in credentials
+                <li><span class="label label-warning">Bugfix</span> Failure saving OpenID Connect (OIDC) token in
+                    credentials
                     manager (Windows)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Failure completing OAuth authentication flow (Dropbox, Microsoft
+                <li><span class="label label-warning">Bugfix</span> Failure completing OAuth authentication flow
+                    (Dropbox, Microsoft
                     OneDrive, SharePoint) (Windows Store)
                 </li>
             </ul>
