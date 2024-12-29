@@ -27,7 +27,7 @@ jobs:
           pelican content -s publishconf.py
 
       - name: Cache artifacts
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         if: github.ref == 'refs/heads/main'
         with:
           key: html-${{ github.sha }}
@@ -42,7 +42,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Cache artifacts
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           key: html-${{ github.sha }}
           path: ./output
