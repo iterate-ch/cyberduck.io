@@ -26,9 +26,8 @@ jobs:
         run: |
           pelican content -s publishconf.py
 
-      - name: Cache artifacts
-        uses: actions/cache@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Save Cache
+        uses: actions/cache/save@v4
         with:
           key: html-${{ github.sha }}
           path: ./output
@@ -36,13 +35,12 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     needs: build
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cache artifacts
-        uses: actions/cache@v4
+      - name: Restore Cache
+        uses: actions/cache/restore@v4
         with:
           key: html-${{ github.sha }}
           path: ./output
