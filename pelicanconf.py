@@ -70,5 +70,11 @@ PLUGINS = [
     'minify'
 ]
 
+#CSS_MIN = True
+JS_MIN = False
+#HTML_MIN = True
+#INLINE_CSS_MIN = True
+#INLINE_JS_MIN = True
+
 from datetime import date
 CURRENTYEAR = date.today().year
