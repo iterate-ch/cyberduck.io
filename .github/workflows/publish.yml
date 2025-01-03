@@ -49,16 +49,19 @@ jobs:
           key: html-${{ github.sha }}
           path: ./output
 
-      - name: Install Cyberduck CLI
-        run: |
-          echo -e "deb https://s3.amazonaws.com/repo.deb.cyberduck.io stable main" | sudo tee /etc/apt/sources.list.d/cyberduck.list > /dev/null
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FE7097963FEFBE72
-          sudo apt-get update
-          sudo apt-get -y install duck
-
-      - name: Upload
+      - name: Credentials
         env:
           SFTP_IDENTITY: ${{ secrets.SFTP_IDENTITY }}
         run: |
           echo "$SFTP_IDENTITY" > private-key.pem
-          duck -y --username ${{ secrets.SFTP_USER }} --identity private-key.pem --existing compare --upload "${{ secrets.SFTP_URL }}" ./output/*
+
+      - name: Upload
+        uses: iterate-ch/cyberduck-cli-action@main
+        id: upload-artifacts
+        env:
+          USERNAME=${{secrets.SFTP_USER}}
+        with:
+          mode: upload
+          url: '${{ secrets.SFTP_URL }}'
+          path: './output/*'
+          args: '--existing compare --identity private-key.pem'
