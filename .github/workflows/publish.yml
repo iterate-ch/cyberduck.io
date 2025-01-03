@@ -60,7 +60,6 @@ jobs:
         id: upload-artifacts
         env:
           USERNAME=${{secrets.SFTP_USER}}
-          IDENTITY=${{secrets.S3_SECRET_KEY}}
         with:
           mode: upload
           url: '${{ secrets.SFTP_URL }}'
