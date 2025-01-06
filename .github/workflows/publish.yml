@@ -60,9 +60,12 @@ jobs:
       - name: Upload
         uses: iterate-ch/cyberduck-cli-action@main
         id: upload
+        env:
+          USERNAME: '${{ secrets.SFTP_USER }}'
+          IDENTITY: '${{ steps.identity.outputs.KEYFILE }}'
         with:
           mode: raw
-          args: '--user ${{ secrets.SFTP_USER }} --identity ${{ steps.identity.outputs.KEYFILE }} --existing compare --upload "${{ secrets.SFTP_URL }}" output/*'
+          args: '--existing compare --upload "${{ secrets.SFTP_URL }}" output/*'
 
       - name: Print
         if: always()
