@@ -68,7 +68,3 @@ jobs:
           url: '${{ secrets.SFTP_URL }}'
           path: 'output/*'
           args: '--existing compare'
-
-      - name: Print
-        if: always()
-        run: echo "${{ steps.upload.outputs.log }}"
