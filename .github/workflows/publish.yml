@@ -67,4 +67,4 @@ jobs:
           mode: upload
           url: '${{ secrets.SFTP_URL }}'
           path: 'output/*'
-          args: '--existing compare'
+          args: '--existing compare --verbose'
