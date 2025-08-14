@@ -16,6 +16,48 @@
 <table class="table table-responsive table-striped">
     <tr>
         <td>
+            <p><strong><a href="https://trac.cyberduck.io/milestone/9.2.0">9.2.0</a></strong>
+                <em>14 Aug 2025</em><br/>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.2.0.43571.zip"
+                   rel="tooltip" data-placement="bottom" title="MD5 3bb313c727865fa65640196172aa00ee">
+                    Download (Mac)
+                </a>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.2.0.43571.pkg"
+                   rel="tooltip" data-placement="bottom" title="MD5 a567aa8fa84e7658b075fb9d133bf38b">
+                    Download Installer Package (Mac)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.2.0.43571.exe"
+                   rel="tooltip" data-placement="bottom" title="MD5 ea4a7862b62d83a6d21935112f3846ec">
+                    Download Installer (Windows)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.2.0.43571.msi"
+                   rel="tooltip" data-placement="bottom" title="MD5 51e2410d5e90be0ce9b5be6385fe6ead">
+                    Download MSI Package (Windows)
+                </a>
+            </p>
+        </td>
+
+        <td>
+            <ul class="list-unstyled">
+                <li><span class="label label-success">Feature</span> Updated runtime (Windows) (<a target="_blank"
+                                                                                                   href="https://trac.cyberduck.io/ticket/16854">#16854</a>)
+                </li>
+                <li><span class=" label label-success">Feature</span> Add plugin to set application icon (macOS) (<a
+                        target="_blank"
+                        href="https://trac.cyberduck.io/ticket/17170">#17170</a>)
+                </li>
+                <li><span class=" label label-success">Feature</span> Support for Mexico (Central) region (S3)</li>
+                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Thailand) region (S3)
+                </li>
+                <li><span class="label label-success">Feature</span> Support for Asia Pacific (Taipei) region (S3)</li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
             <p><strong><a href="https://trac.cyberduck.io/milestone/9.1.7">9.1.7</a></strong>
                 <em>24 Jun 2025</em><br/>
                 <a class="btn btn-default btn-xs"
@@ -33,13 +75,16 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Timeout error when attempting to connect using public key
+                <li><span class="label label-warning">Bugfix</span> Timeout error when attempting to connect using
+                    public key
                     authentication (SFTP) (Windows)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Use SHA-2 thumbprints to save trusted server certificates
+                <li><span class="label label-warning">Bugfix</span> Use SHA-2 thumbprints to save trusted server
+                    certificates
                     (Windows)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Do not save user trusted server certificates in system (Windows)
+                <li><span class="label label-warning">Bugfix</span> Do not save user trusted server certificates in
+                    system (Windows)
                 </li>
             </ul>
         </td>
@@ -72,8 +117,11 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Use regular dual-stack endpoints for presigned URLs (S3)</li>
-                <li><span class="label label-warning">Bugfix</span> No attempt to use SSH agent for authentication (SFTP) (Windows)
+                <li><span class="label label-warning">Bugfix</span> Use regular dual-stack endpoints for presigned URLs
+                    (S3)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> No attempt to use SSH agent for authentication
+                    (SFTP) (Windows)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Share menu item not enabled (OneDrive, SharePoint) (<a
                         target="_blank"
@@ -92,7 +140,9 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Failure notarizing builds with unsigned native library (macOS)</li>
+                <li><span class="label label-warning">Bugfix</span> Failure notarizing builds with unsigned native
+                    library (macOS)
+                </li>
             </ul>
         </td>
     </tr>
@@ -126,18 +176,22 @@
             <ul class="list-unstyled">
                 <li><span class="label label-warning">Bugfix</span> Slow file transfers (SMB) (<a target="_blank"
                                                                                                   href="https://trac.cyberduck.io/ticket/16135">#16135</a>)
-                <li><span class="label label-warning">Bugfix</span> Interoperability with Bitwarden SSH Agent (<a target="_blank"
-                                                                                                                  href="https://trac.cyberduck.io/ticket/16954">#16954</a>)
+                <li><span class="label label-warning">Bugfix</span> Interoperability with Bitwarden SSH Agent (<a
+                        target="_blank"
+                        href="https://trac.cyberduck.io/ticket/16954">#16954</a>)
                 <li><span class="label label-warning">Bugfix</span> Skip trashed files for downloads (Google Drive) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16927">#16927</a>)
                 <li><span class="label label-warning">Bugfix</span> Cannot delete entries from metadata (Google Drive) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16976">#16976</a>)
-                <li><span class="label label-warning">Bugfix</span> Error uploading files when bucket name is set in hostname (S3) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16939">#16939</a>)
-                <li><span class="label label-warning">Bugfix</span> No pre-signed URLs available when using credentials from AWS
+                <li><span class="label label-warning">Bugfix</span> Error uploading files when bucket name is set in
+                    hostname (S3) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16939">#16939</a>)
+                <li><span class="label label-warning">Bugfix</span> No pre-signed URLs available when using credentials
+                    from AWS
                     Command Line Interface (CLI) connection profile (S3) (<a target="_blank"
                                                                              href="https://trac.cyberduck.io/ticket/13738">#13738</a>)
-                <li><span class="label label-warning">Bugfix</span> No pre-signed URLs available when using credentials from OpenID
+                <li><span class="label label-warning">Bugfix</span> No pre-signed URLs available when using credentials
+                    from OpenID
                     Connect (OIDC) connection profile (S3)
                 <li><span class="label label-warning">Bugfix</span> Error opening connection (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/17012">#17012</a>) (Azure) (Windows, CLI)
@@ -173,17 +227,20 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Invalid progress in Finder transferring multiple files (macOS) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16738">#16738</a>)
+                <li><span class="label label-warning">Bugfix</span> Invalid progress in Finder transferring multiple
+                    files (macOS) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16738">#16738</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Diasble lookup of vaults by default. Must explicitly specify
+                <li><span class="label label-warning">Bugfix</span> Diasble lookup of vaults by default. Must explicitly
+                    specify
                     --vault (Cyptomator, CLI)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Duplicate file menu item always disabled (FTP) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16798">#16798</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Allow OAuth configuration in connection profiles (WebDAV) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16792">#16792</a>)
+                <li><span class="label label-warning">Bugfix</span> Allow OAuth configuration in connection profiles
+                    (WebDAV) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16792">#16792</a>)
                 </li>
             </ul>
         </td>
@@ -216,7 +273,8 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> No fallback to IPv4 address when IPv6 connect attempt fails with
+                <li><span class="label label-warning">Bugfix</span> No fallback to IPv4 address when IPv6 connect
+                    attempt fails with
                     unreachable network (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/16723">#16723</a>)
                 </li>
@@ -226,12 +284,14 @@
                 <li><span class="label label-warning">Bugfix</span> Connect anonymously to public buckets (S3) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16746">#16746</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> File progress in Finder shows incorrect values when transferring
+                <li><span class="label label-warning">Bugfix</span> File progress in Finder shows incorrect values when
+                    transferring
                     multiple files (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/16738">#16738</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Exit with error on transfer failure when using --quiet (CLI) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16750">#16750</a>)
+                <li><span class="label label-warning">Bugfix</span> Exit with error on transfer failure when using
+                    --quiet (CLI) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16750">#16750</a>)
                 </li>
             </ul>
         </td>
@@ -264,8 +324,9 @@
 
         <td>
             <ul class="list-unstyled">
-                <li><span class="label label-warning">Bugfix</span> Repeated prompts for passphrase (Cryptomator, Windows) (<a
-                        target="_blank" href="https://trac.cyberduck.io/ticket/16645">#16645</a>)
+                <li><span class="label label-warning">Bugfix</span> Repeated prompts for passphrase (Cryptomator,
+                    Windows) (<a
+                            target="_blank" href="https://trac.cyberduck.io/ticket/16645">#16645</a>)
                 </li>
                 <li><span class="label label-warning">Bugfix</span> Missing list of buckets (Linode Object Storage) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16659">#16659</a>)
@@ -273,7 +334,8 @@
                 <li><span class="label label-warning">Bugfix</span> Enable encryption by default (SMB) (<a
                         target="_blank" href="https://trac.cyberduck.io/ticket/16678">#16678</a>)
                 </li>
-                <li><span class="label label-warning">Bugfix</span> Application fails to execute and exits with no error message
+                <li><span class="label label-warning">Bugfix</span> Application fails to execute and exits with no error
+                    message
                     (CLI) (<a
                             target="_blank" href="https://trac.cyberduck.io/ticket/16683">#16683</a>)
                 </li>
