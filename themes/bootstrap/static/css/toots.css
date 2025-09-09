@@ -2,12 +2,12 @@
   list-style: none;
   padding: 0;
   font-size: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #5a5a5a;
   border-radius: 10px;
 }
 
 .toot {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #5a5a5a;
   padding: 1rem;
 }
 
