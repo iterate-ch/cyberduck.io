@@ -16,6 +16,65 @@
 <table class="table table-responsive table-striped">
     <tr>
         <td>
+            <p><strong><a href="https://trac.cyberduck.io/milestone/9.3.0">9.3.0</a></strong>
+                <em>25 Nov 2025</em><br/>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.3.0.44071.zip"
+                   rel="tooltip" data-placement="bottom" title="MD5 d89023c3a206a8b7c7549e456350b886">
+                    Download (Mac)
+                </a>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.3.0.44071.pkg"
+                   rel="tooltip" data-placement="bottom" title="MD5 6db3227a947ecb0b9eeaaf697362e60c">
+                    Download Installer Package (Mac)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.3.0.44071.exe"
+                   rel="tooltip" data-placement="bottom" title="MD5 753a41f62ffbede6dae3c3d54d3c0451">
+                    Download Installer (Windows)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.3.0.44071.msi"
+                   rel="tooltip" data-placement="bottom" title="MD5 40e431d3c5ffedfe3b007efd53bfcc42">
+                    Download MSI Package (Windows)
+                </a>
+            </p>
+        </td>
+
+        <td>
+            <ul class="list-unstyled">
+                <li><span class=" label label-success">Feature</span> Rewrite protocol implementation (Azure) (<a
+                        target="_blank"
+                        href="https://trac.cyberduck.io/ticket/15967">#15967</a>)
+                <li><span class=" label label-success">Feature</span> Connect with Multi-Bucket Application Keys that grant access
+                    to a specific group of buckets within an account, including the option to limit access based on a single file
+                    prefix (B2) (<a
+                            target="_blank"
+                            href="https://trac.cyberduck.io/ticket/17139">#17139</a>)
+                </li>
+                <li><span class=" label label-success">Feature</span> Connect with connection profile obtaining temporary
+                    credentials from AWS Security Token Service (STS) by assuming role with optional Multi-Factor Authentication
+                    (MFA) input (S3) (<a
+                            target="_blank"
+                            href="https://trac.cyberduck.io/ticket/17437">#17437</a>)
+                </li>
+                <li><span class=" label label-success">Feature</span> Connect with connection profile obtaining temporary
+                    credentials from AWS Security Token Service (STS) by getting session token with optional Multi-Factor
+                    Authentication (MFA) input (S3) (<a
+                            target="_blank"
+                            href="https://trac.cyberduck.io/ticket/17506">#17506</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Fix race conditions in FTP socket closure that cause
+                    intermittent errors (FTP)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Default to read identity agent location from SSH_AUTH_SOCK
+                    environment variable with no custom
+                    configuration (SFTP)
+                </li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
             <p><strong><a href="https://trac.cyberduck.io/milestone/9.2.4">9.2.4</a></strong>
                 <em>15 Sep 2025</em><br/>
                 <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.2.4.43667.zip"
