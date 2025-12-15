@@ -31,7 +31,7 @@ jobs:
           pelican content -s publishconf.py
 
       - name: Save Cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           key: html-${{ github.sha }}
           path: ./output
@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Restore Cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           key: html-${{ github.sha }}
           path: ./output
