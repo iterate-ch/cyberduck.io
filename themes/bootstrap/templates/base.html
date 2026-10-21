@@ -92,14 +92,14 @@
                             </li>
                             {% endblock %}
                             <li style="border-right: none">
-                                <a class="navbar-link" href="/download">
+                                <a class="navbar-link" href="{{ SITEURL }}/download">
                                     <button class="btn btn-primary navbar-btn">
                                         Download
                                     </button>
                                 </a>
                             </li>
                             <li>
-                                <a class="navbar-link" href="/donate">
+                                <a class="navbar-link" href="{{ SITEURL }}/donate">
                                     <button class="btn btn-success navbar-btn" rel="tooltip" data-placement="bottom"
                                             data-container="body"
                                             data-original-title="Receive a donation key that registers the installed application to your name and disables the donation prompt.">
@@ -169,10 +169,10 @@
                     </span>
                     <span>
                         <small><a href="https://github.com/iterate-ch/cyberduck">GitHub</a></small> |
-                        <small><a href="/license">License</a></small> |
-                        <small><a href="/acknowledgements">Acknowledgements</a></small> |
+                        <small><a href="{{ SITEURL }}/license">License</a></small> |
+                        <small><a href="{{ SITEURL }}/acknowledgements">Acknowledgements</a></small> |
                         <small>Copyright {{ CURRENTYEAR }} <a href="https://iterate.ch">iterate GmbH</a></small> |
-                        <small><a href="/privacy">Privacy Policy</a></small>
+                        <small><a href="{{ SITEURL }}/privacy">Privacy Policy</a></small>
                     </span>
                 </p>
             </div>
