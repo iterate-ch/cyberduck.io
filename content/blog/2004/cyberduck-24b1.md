@@ -1,0 +1,42 @@
+Title: Cyberduck 2.4b1
+Date: 2004-12-27 23:00
+Modified: 2004-12-27 23:00
+Category: Cyberduck
+Author: David Kocher
+Slug: cyberduck-24b1
+Status: hidden
+Summary: [Feature] Synchronization of files [Feature] Create new files on server [Feature] Support for Novell Netware file listings (FTP) [Feature] Growl notification support (see http://growl.info) [Feature] Limit number of concurrent connections to a remote host [Feature] Move remote files with copy & paste [Feature] Select a file in the browser by typing its first character [Feature]
+
+-   \[Feature\] Synchronization of files
+-   \[Feature\] Create new files on server
+-   \[Feature\] Support for Novell Netware file listings (FTP)
+-   \[Feature\] Growl notification support (see http://growl.info)
+-   \[Feature\] Limit number of concurrent connections to a remote host
+-   \[Feature\] Move remote files with copy & paste
+-   \[Feature\] Select a file in the browser by typing its first character
+-   \[Feature\] Put remote files into the transfer queue with copy & paste
+-   \[Feature\] Apply permissions recursively
+-   \[Feature\] Option to apply default permissions to transferred files in Preferences
+-   \[Feature\] Option to preserve modification date on download in Preferences
+-   \[Feature\] Switch encoding per browser with menu or toolbar item
+-   \[Feature\] Switch ‘Show hidden files’ per browser with menu or toolbar item
+-   \[Feature\] Transfer Queue with “Aqua” progress indicator
+-   \[Feature\] Provide a proxy icon for the connection in the window title bar
+-   \[Feature\] The proxy icon in the window title bar can then be dragged to the bookmark drawer or the Finder
+-   \[Feature\] Bookmarks of recently connected hosts are saved in ~/Library/Application Support/Cyberduck/History
+-   \[Feature\] Updated toolbar icons (Thanks to Matt Ball)
+-   \[Feature\] Display the number of files in the browser
+-   \[Feature\] Added TextMate to the list of supported editors (see http://macromates.com)
+-   \[Feature\] Dialog for duplicated files lists all at once instead of consecutively asking
+-   \[Feature\] Filter field is now a standard search field
+-   \[Feature\] Read bookmarks from “/Library/Application Support/Cyberduck/” instead of the individual user bookmarks file if available
+-   \[Feature\] Check for running transfers on application quit
+-   \[Feature\] Updated FTP core (FTP)
+-   \[Feature\] Saving passwords as ‘Internet Password’ in the Keychain
+-   \[Localize\] Norwegian Localization
+-   \[Bugfix\] Update existing browsers when changing the default interface attributes in the Preferences
+-   \[Bugfix\] Don’t cache DNS lookups forever
+-   \[Bugfix\] Bookmark drawer icon has no text-only equivalent
+-   \[Bugfix\] Tabbing between browser and filter box
+-   \[Bugfix\] Quick Connect Field has initial focus
+-   \[Bugfix\] Live scrolling log view
