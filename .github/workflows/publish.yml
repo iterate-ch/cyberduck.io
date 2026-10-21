@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-python@v7
         with:
           cache: 'pip'
-          python-version: 3.9
+          python-version: "3.13"
 
       - name: Set up dependencies
         run: |
