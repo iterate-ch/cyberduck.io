@@ -8,7 +8,7 @@ Status: hidden
 
 _Bern, Sep 06, 2010_
 
-A major new version of Cyberduck is now available, with a plethora of new features and bugfixes but most promimently support for Google Storage and file versioning in Amazon S3.
+A major new version of Cyberduck is now available, with a plethora of new features and bugfixes but most prominently support for Google Storage and file versioning in Amazon S3.
 
 Among the newest additions is also the integration of Access Control List (ACL) editing for S3 and Google Storage in Cyberduck. This allows the definition of fine grained permissions to be granted to different individual users. Google Storage allows the use of email address registered with Google Accounts as grant identifiers. Using Cyberduck, one can limit access to files stored in Google Storage selectively to anyone who has an email address registered with Google. Access is granted only when logged in using a Google Account and authenticated against the ACL. This makes secure sharing of potentially big files with collaborators a snap.
 
