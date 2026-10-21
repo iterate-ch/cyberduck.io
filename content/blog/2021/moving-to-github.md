@@ -3,7 +3,7 @@ Date: 2021-11-30 15:06
 Modified: 2021-11-30 15:06
 Category: Cyberduck
 Author: David Kocher
-Slug: 🏠-moving-to-github
+Slug: moving-to-github
 Summary: We previously only had mirror repository for Cyberduck on GitHub and managed pull requests for changes on our own Git server and mirrored all changes to a SVN repository which was used to display a timeline of changes in Trac. We are now using the repository on GitHub as the primary source root and accept
 
 We previously only had mirror repository for [Cyberduck on GitHub](https://github.com/iterate-ch/cyberduck) and managed pull requests for changes on our own Git server and mirrored all changes to a SVN repository which was used to display a [timeline](https://trac.cyberduck.io/timeline) of changes in Trac.
