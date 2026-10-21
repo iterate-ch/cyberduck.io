@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <title>Blog</title>
+{% endblock %}
+
+{% block headerclass %}default{% endblock %}
+
+{% block banner %}
+{% endblock %}
+
+{% block lang %}
+{% endblock %}
+
+{% block content %}
+    {% include 'include/blog.html' %}
+    <div class="container">
+        <h1>Blog <small>Updates, tips and behind-the-scenes from the team</small></h1>
+        {% for article in articles_page.object_list %}
+        <div class="blog-entry">
+            <h2><a href="{{ article.url|bloghost }}">{{ article.title }}</a></h2>
+            <p class="text-muted">
+                <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%B %d, %Y') }}</time>
+                {% if article.author %} &middot; {{ article.author }}{% endif %}
+                {% if article.category %} &middot; Posted in {% for c in article.all_categories %}<a href="{{ c.url|bloghost }}">{{ c }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+            </p>
+            <div class="blog-article">
+                {{ article.content }}
+            </div>
+            {% if not loop.last %}<hr>{% endif %}
+        </div>
+        {% endfor %}
+
+        {% if articles_paginator.num_pages > 1 %}
+        <nav>
+            <ul class="pager">
+                {% if articles_page.has_previous() %}
+                <li class="previous"><a href="{{ articles_previous_page.url|bloghost }}">&larr; Newer posts</a></li>
+                {% endif %}
+                <li class="text-muted">Page {{ articles_page.number }} of {{ articles_paginator.num_pages }}</li>
+                {% if articles_page.has_next() %}
+                <li class="next"><a href="{{ articles_next_page.url|bloghost }}">Older posts &rarr;</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+{% endblock %}

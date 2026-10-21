@@ -82,12 +82,6 @@
                             </li>
                             {% endfor %}
                             {% endif %}
-                            {% for cat, null in categories %}
-                            <li>
-                                {% if cat == category %}class="active"{% endif %}><a
-                                    href="{{ SITEURL }}/{{ cat.url }}">{{ cat}}</a>
-                            </li>
-                            {% endfor %}
 
                             <li>
                                 <a class="navbar-link" href="https://blog.cyberduck.io">Blog</a>
