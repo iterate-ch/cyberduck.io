@@ -13,8 +13,12 @@ from pelicanconf import *
 SITEURL = 'https://cyberduck.io'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+# Preserve the feed URLs of the WordPress blog (blog.cyberduck.io/feed/, /feed/atom/, /feed/rss/)
+FEED_ALL_RSS = 'blog/feed/index.xml'
+FEED_ALL_ATOM = 'blog/feed/atom/index.xml'
+CATEGORY_FEED_RSS = 'blog/category/%s/feed/index.xml'
+CATEGORY_FEED_ATOM = 'blog/category/%s/feed/atom/index.xml'
+FEED_MAX_ITEMS = 50
 
 DELETE_OUTPUT_DIRECTORY = True
 

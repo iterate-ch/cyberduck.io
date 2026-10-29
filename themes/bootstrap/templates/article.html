@@ -2,6 +2,8 @@
 
 {% block head %}
     {{ super() }}
+    <link rel="alternate" type="application/atom+xml" title="Cyberduck Blog (Atom)" href="https://blog.cyberduck.io/feed/atom/">
+    <link rel="alternate" type="application/rss+xml" title="Cyberduck Blog (RSS)" href="https://blog.cyberduck.io/feed/">
     <title>{{ article.title }}</title>
 {% endblock %}
 
