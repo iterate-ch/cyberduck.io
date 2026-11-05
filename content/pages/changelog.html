@@ -16,6 +16,140 @@
 <table class="table table-responsive table-striped">
     <tr>
         <td>
+            <p><strong><a href="https://trac.cyberduck.io/milestone/9.6.0">9.6.0</a></strong>
+                <em>05 Nov 2026</em><br/>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.6.0.46406.zip"
+                   rel="tooltip" data-placement="bottom" title="sha256:a9195fb3dc904265dbb1b238d707e3ac4ac8a1ed356b188464e8773aad3a8ca8">
+                    Download (Mac)
+                </a>
+                <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.6.0.46406.pkg"
+                   rel="tooltip" data-placement="bottom" title="sha256:1b1f10499abd4ac74f1699898acdab677c63b450baeb376856cfee26174937a9">
+                    Download Installer Package (Mac)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.6.0.46406.exe"
+                   rel="tooltip" data-placement="bottom" title="sha256:9a66f8fb400feaa5f7f390f9e4100e873f6be06cbf7c61f1651fca8b1f31c930">
+                    Download Installer (Windows)
+                </a>
+                <a class="btn btn-default btn-xs"
+                   href="https://update.cyberduck.io/windows/Cyberduck-Installer-9.6.0.46406.msi"
+                   rel="tooltip" data-placement="bottom" title="sha256:a59c54fb56957c2451222b0f6ba5584ba159a4c2c75cfe89633856a64ba15aac">
+                    Download MSI Package (Windows)
+                </a>
+            </p>
+        </td>
+
+        <td>
+            <ul class="list-unstyled">
+                <li><span class="label label-success">Feature</span> Support <code>ProxyCommand</code> from ssh_config (SFTP) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/8688">#8688</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Sign in with AWS Console browser sign-in (S3) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18543">#18543</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Support authentication with Microsoft Entra ID (Azure) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/17115">#17115</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Support virtual folders for spaces (oCIS, OpenCloud) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/14166">#14166</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Create buckets with ACLs disabled (S3, Google Storage) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18526">#18526</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Support copy with SSH File Transfer Protocol extension (SFTP) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/14377">#14377</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Client-side checksum verification of uploads (S3, Backblaze B2,
+                    Dropbox, Google Drive, Google Storage, Box, OpenStack Swift) (<a target="_blank"
+                                                                                     href="https://trac.cyberduck.io/ticket/17352">#17352</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Retry with exponential backoff when the server rejects the
+                    connection (FTP, WebDAV)
+                </li>
+                <li><span class="label label-success">Feature</span> Use regional endpoints for public URLs (S3) (<a target="_blank"
+                                                                                                                     href="https://trac.cyberduck.io/ticket/17301">#17301</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Preserve modification date of downloaded folders (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/10854">#10854</a>)
+                </li>
+                <li><span class="label label-success">Feature</span> Remove deprecated Shared folder (OneDrive) (<a target="_blank"
+                                                                                                                    href="https://trac.cyberduck.io/ticket/17890">#17890</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Switch default type for uploads to block blob (Azure) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18386">#18386</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Application hangs with large selection of files in browser (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18438">#18438</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Overwriting files appends to existing file (SFTP) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18335">#18335</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Read timeout deleting many files with bulk delete (OpenStack
+                    Swift) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18439">#18439</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> OAuth workflow never finishes with custom redirect URI (CLI;
+                    Dropbox, OneDrive, SharePoint) (<a target="_blank" href="https://trac.cyberduck.io/ticket/13587">#13587</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Handle timeout during resumable file upload finalization
+                    (ownCloud)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Error on startup after installing from website (CLI, Windows)
+                    (<a target="_blank" href="https://trac.cyberduck.io/ticket/18408">#18408</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Support Pageant through OpenSSH agent named pipe configured in
+                    ssh_config, replacing the Pageant connector (SFTP, Windows) (<a target="_blank"
+                                                                                    href="https://trac.cyberduck.io/ticket/18479">#18479</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Disable SSH agent with <code>IdentityAgent none</code> in
+                    ssh_config (SFTP)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Resolve username from server after OAuth authorization
+                    (Nextcloud, ownCloud) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18456">#18456</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Verify server-side checksum after upload (iRODS) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18457">#18457</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Reuse TLS session for data connections with TLS 1.3 (FTP-SSL)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Cannot navigate into folders in hierarchical namespace (Azure) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18455">#18455</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Network, SSL and token failures surface as "Unknown application
+                    error" (Azure) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18559">#18559</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Presigned URL signature excludes context path (S3) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18494">#18494</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Skip reading ACLs of objects in buckets with object ownership
+                    enforced (S3) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18526">#18526</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Select private key configured in bookmark in login prompt (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18516">#18516</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Cannot unset previously saved password in bookmark (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18518">#18518</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Offer RSA certificates with SHA-2 signature (SFTP) (<a
+                        target="_blank" href="https://trac.cyberduck.io/ticket/18478">#18478</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Keeps opening re-authorization window after transfer (Google
+                    Drive) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18420">#18420</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Segment upload fails with 404 in Cryptomator vault (OpenStack
+                    Swift) (<a target="_blank" href="https://trac.cyberduck.io/ticket/18570">#18570</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Files inside deleted directory are still listed until reloading
+                    contents (<a target="_blank" href="https://trac.cyberduck.io/ticket/17525">#17525</a>)
+                </li>
+                <li><span class="label label-warning">Bugfix</span> Reset cached proxy configuration on network address change
+                    (Windows)
+                </li>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
             <p><strong><a href="https://trac.cyberduck.io/milestone/9.5.4">9.5.4</a></strong>
                 <em>25 Aug 2026</em><br/>
                 <a class="btn btn-default btn-xs" href="https://update.cyberduck.io/Cyberduck-9.5.4.45528.zip"
