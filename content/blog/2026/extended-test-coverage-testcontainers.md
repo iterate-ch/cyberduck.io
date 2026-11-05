@@ -15,7 +15,7 @@ Tests against hosted services depend on shared credentials, network access and t
 
 ## What Is Covered
 
--   **Amazon S3 and compatible storage.** The S3 tests run against LocalStack, MinIO, Ceph RGW, RustFS, SeaweedFS and Scality CloudServer, in addition to AWS. See [#18622](https://github.com/iterate-ch/cyberduck/pull/18622).
+-   **Amazon S3 and compatible storage.** The S3 tests run against LocalStack, MinIO, Ceph RGW, RustFS, SeaweedFS and Scality CloudServer, in addition to AWS. See [#18623](https://github.com/iterate-ch/cyberduck/pull/18623).
 -   **SFTP.** OpenSSH, ProFTPD with `mod_sftp` and SFTPGo. See [#18622](https://github.com/iterate-ch/cyberduck/pull/18622).
 -   **WebDAV.** Apache httpd with `mod_dav` and SFTPGo. See [#18622](https://github.com/iterate-ch/cyberduck/pull/18622).
 -   **Nextcloud, ownCloud and ownCloud Infinite Scale (OpenCloud), OpenStack Swift.** See [#18601](https://github.com/iterate-ch/cyberduck/pull/18601).
