@@ -7,7 +7,7 @@ SITENAME = u'Cyberduck'
 SITEURL = 'https://cyberduck.io'
 
 # listmonk newsletter signup (public subscription form)
-LISTMONK_URL = 'https://listmonk.iterate.ch'
+LISTMONK_URL = 'https://lists.cyberduck.io'
 LISTMONK_LIST_UUID = '66c39996-2e76-400f-8643-4199e549bf5e'
 
 PATH = 'content'
