@@ -280,3 +280,67 @@ a.img-thumbnail:hover {
     transition: none;
     display: none;
 }
+
+/* Mobile navigation: every item of the collapsed menu is a full-width, centered button */
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-default .navbar-nav {
+        margin: 14px 0 10px;
+    }
+
+    .navbar-default .navbar-nav > li {
+        margin-top: 6px;
+    }
+
+    /* text links rendered like default buttons */
+    .navbar-default .navbar-nav > li > a.navbar-link {
+        display: block;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        text-align: center;
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+    }
+
+    .navbar-default .navbar-nav > li > a.navbar-link:hover,
+    .navbar-default .navbar-nav > li > a.navbar-link:focus {
+        color: #333333;
+        background-color: #e6e6e6;
+    }
+
+    /* links wrapping a button (Download, Donate): the button is the visual item */
+    .navbar-default .navbar-nav > li > a.navbar-link:has(> button) {
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+    .navbar-default .navbar-nav > li > a > button,
+    .navbar-default .navbar-nav > li > button {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* protocols dropdown at full width */
+    .navbar-default .navbar-nav > li.dropdown {
+        padding: 0;
+    }
+
+    .navbar-default .navbar-nav .dropdown-menu {
+        width: 100%;
+        margin-top: 6px;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav .dropdown-menu > li > a {
+        text-align: center;
+    }
+}
