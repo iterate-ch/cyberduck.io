@@ -281,8 +281,35 @@ a.img-thumbnail:hover {
     display: none;
 }
 
-/* Mobile navigation: every item of the collapsed menu is a full-width, centered button */
-@media (max-width: 767px) {
+/* Collapsed navigation: every item of the collapsed menu is a full-width, centered button */
+@media (max-width: 991px) {
+    /* collapse into the hamburger menu below 992px, where the links no longer fit on one line */
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+        overflow-y: auto;
+    }
+
+    .navbar-default .navbar-nav,
+    .navbar-default .navbar-nav.navbar-right {
+        float: none !important;
+    }
+
+    .navbar-default .navbar-nav > li {
+        float: none;
+    }
+
     .navbar-default .navbar-collapse {
         padding-left: 0;
         padding-right: 0;
